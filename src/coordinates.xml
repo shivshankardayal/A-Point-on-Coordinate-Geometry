@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="coordinates/index.html" ?>
+  <d:title>Numbers, Variables and Functions</d:title>
+  <d:para>
+    Coordinate geometry is study of geometric using algebra. It is also called <d:emphasis role="bold">Analytical
+    Geometry</d:emphasis>. In geometry, we study about points, lines, triangles, quadrilaterals, circles,
+    polygons etc. without the use of algebra but as said in coordinate geometry these
+    geometrical figures are studied using variables and equations of algebra. In coordinate
+    geometry we will come to know a term called Cartesian plane or cartesian coordinates,
+    which are named after René Des Cartes who first published his work on coordinate
+    geometry in 1637. Pierre de Fermat also independently discovered, but he did not
+    publish his discovery.
+  </d:para>
+  <d:sect1>
+    <d:title>Number Line</d:title>
+    <d:para>
+      We take a straight line and any point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi></mrow></math>  on it. This point <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>O</mi></mrow></math> is taken
+      such that it divides
+      the line in two equal parts. We take the part right of this point as positive part and
+      the part left of it as negative part of this line. We represent the number <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mn>1</mn></mrow></math> with the
+      point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi></mrow></math>. Let us take another point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>A</mi></mrow></math> such that it represents <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mn>1</mn></mrow></math>
+      on the number line.
+      Now <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><mi>A</mi></mrow></math> represents a unit, and thus we can represent
+      all natural numbers in terms of
+      it. We can also represent all real numbers on this number line. Positive real numbers
+      will lie on the right side and negative real numbers will lie on the left side of the mid-
+      point, which is <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi></mrow></math>. Because all real numbers can be represented on this line we call it
+      real line or in general <d:emphasis role="italic">number line</d:emphasis>.
+    </d:para>
+    <d:figure xml:id="number-line">
+      <d:title>Number line</d:title>
+      <d:mediaobject>
+        <d:imageobject condition="web">
+          <d:imagedata fileref="../images/number-line.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      As we know from our basic algebra that there are a infinite number of rational and
+      irrational numbers between any two numbers so we will have infinite points between
+      any two points on this number line which we know from geometry.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Coordinates</d:title>
+    <d:para>
+      Consider any point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>P</mi></mrow></math> in a <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mn>2</mn></mrow></math>-dimensional plane. To define the location of this point
+      we need a reference. In any <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>n</mi></mrow></math>-dimensional plane no point can be given an absolute
+      position rather we define location of points in relation to some other point in the same
+      plane. Typically, we define axes of the plane and take intersection of these axes as
+      origin, represented by <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi></mrow></math>and every other point is defined with reference to this point.
+      This method gives us cartesian coordinates. The other way is choosing an origin and
+      one axis. Every point is then defined in terms of its distance from origin and the angle
+      made by the line joining the point and origin with the axis. This method gives us <d:emphasis role="italic">Polar
+      Coordiantes</d:emphasis>. We will first study cartesian coorsinates, and later we will study polar
+      coordinates.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Cartesian Coordinate System</d:title>
+    <d:para>
+      In general, when we study cartesian coordinate system we mamke use of two perpendicular axes. However,
+      to prevent the loss of generality let us make use of inclined
+      axes or oblique axes. Consider the diagram given below:
+    <d:figure xml:id="axes">
+      <d:title>Number line</d:title>
+      <d:mediaobject>
+        <d:imageobject condition="web">
+          <d:imagedata fileref="../images/axes.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>X</mi><mi>O</mi><msup><mi>X</mi><mi>&#x02032;</mi></msup></mrow></math>
+      is called the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi></mrow></math>-axis and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>Y</mi><mi>O</mi><msup><mi>Y</mi><mi>&#x02032;</mi></msup></mrow></math> is called the <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>y</mi></mrow></math>
+      -axis. As said the point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi></mrow></math> is called
+      the origin of coordinates or simply, the origin.
+    </d:para>
+    <d:para>
+      Consider a point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub></mrow></math>. Draw a line from it parallel
+      to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><mi>Y</mi></mrow></math>
+      to meet <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>O</mi><mi>X</mi></mrow></math>
+      at <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>M</mi><mn>1</mn></msub></mrow></math>. The
+      distance <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>O</mi><msub><mi>M</mi><mn>1</mn></msub></mrow></math>
+      is called the <d:emphasis role="italic">abscissa</d:emphasis> and the distance <math
+      xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>M</mi><mn>1</mn></msub><mi>P</mi></mrow></math>
+      is called the <d:emphasis role="italic">ordinate</d:emphasis> of the
+      point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub></mrow></math>, while together they are called
+      its <d:emphasis role="italic">coordinate</d:emphasis>.
+    </d:para>
+    <d:para>
+      Distances when measured parallel to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>x</mi></mrow></math>-axis are typically denoted by <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi></mrow></math> with or
+      without a suffix, for example: <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"
+      condition="web"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>x</mi><mi>&#x02032;</mi></msup><mo>&#x0002C;</mo><msup><mi>x</mi><mi>&#x02033;</mi></msup><mo>&#x0002C;</mo><mi>&#x02026;</mi></mrow></math>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline" condition="pdf"><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>x</mi><mi>&#x02032;</mi></msup><mo>&#x0002C;</mo><mi>x</mi><mi>&#x02033;</mi><mo>&#x0002C;</mo><mi>&#x02026;</mi></mrow></math>
+      and distances when measured parallel to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>y</mi></mrow></math>-
+      axis are typically denoted by <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>y</mi></mrow></math> with or without a suffix, for example: <math
+      xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"
+      condition="web"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>y</mi><mi>&#x02032;</mi></msup><mo>&#x0002C;</mo><msup><mi>y</mi><mi>&#x02033;</mi></msup><mo>&#x0002C;</mo><mi>&#x02026;</mi></mrow></math>
+      <math
+      xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline" condition="pdf"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>y</mi><mi>&#x02032;</mi></msup><mo>&#x0002C;</mo><mi>y</mi><mi>&#x02033;</mi><mo>&#x0002C;</mo><mi>&#x02026;</mi></mrow></math>.
+    </d:para>
+  </d:sect1>
+</d:chapter>

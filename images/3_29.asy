@@ -1,0 +1,21 @@
+settings.tex="lualatex";
+settings.outformat="pdf";
+texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+defaultpen(fontsize(9pt));
+import geometry;
+size(5cm);
+
+point A = origin;
+point B = (4, 0);
+draw(A -- B, Arrows);
+point P = (2, 2);
+point Q = (1, 0);
+point R = (3, 0);
+draw(Q -- P -- R);
+label("$A$", A, W);
+label("$B$", B, E);
+label("$P(1, 2)$", P, N);
+label("$Q$", Q, S);
+label("$R$", R, S);
+label("$\sqrt{\frac{2}{3}}$", (P + Q)/2 + (-0.2 + 0.2), NW);
+label("$\sqrt{\frac{2}{3}}$", (P + R)/2 + (0.2 + 0.2), NE);

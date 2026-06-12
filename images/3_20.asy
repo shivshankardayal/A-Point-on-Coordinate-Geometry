@@ -1,0 +1,20 @@
+settings.tex="lualatex";
+settings.outformat="pdf";
+texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+defaultpen(fontsize(9pt));
+import geometry;
+size(5cm);
+draw((0, 0) -- (4, 0), Arrow);
+draw((0, 0) -- (0, 4), Arrow);
+label("$O$", origin, SW);
+label("$X$", (4, 0), E);
+label("$Y$", (0, 4), N);
+
+draw((1, 0.2) -- (1, 3));
+draw((2, 0.2) -- (2, 3));
+draw((0.2, 1) -- (3, 1));
+draw((0.2, 2) -- (3, 2));
+label("$x = a$", (1, 0.2), W);
+label("$x = a'$", (2, 0.2), E);
+label("$y = b$", (0.2, 1), W);
+label("$y = b'$", (0.2, 2), W);

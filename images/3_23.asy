@@ -1,0 +1,36 @@
+settings.tex="lualatex";
+settings.outformat="pdf";
+texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+defaultpen(fontsize(9pt));
+import geometry;
+size(6cm);
+
+draw((-5, 0) -- (6, 0), Arrows);
+draw(origin -- (0, 5), Arrow);
+draw((-4, 0) -- (0, 4) -- (4, 0));
+point r = (4 + 4*sqrt(2)/sqrt(8 + 4*sqrt(3)), (((2 + sqrt(3))*4*sqrt(2))/sqrt(8 + 4*sqrt(3))));
+draw((0, 4) -- r -- (4, 0));
+draw((2, 2) -- origin -- (-2, 2));
+draw((0, 4) -- (6, 4));
+
+label("$O$", origin, S);
+label("$X'$", (-5, 0), W);
+label("$X$", (6, 0), E);
+label("$Y$", (0, 5), N);
+label("$S$", (-2, 2), NW);
+label("$T$", (2, 2), NE);
+label("$P$", (0, 4), W);
+label("$M$", (-4, 0), S);
+label("$Q$", (4, 0), S);
+label("$R$", r, NE);
+label("$L$", (6, 4), E);
+markangle("$45^\circ$", radius=10, origin, (-4, 0), (0, 4));
+markangle("$45^\circ$", radius=10, (-2, 2), origin, (-4, 0));
+markangle("$45^\circ$", radius=10, (0, 4), origin, (-2, 2));
+markangle("$45^\circ$", radius=10, (2, 2), origin, (0, 4));
+markangle("$45^\circ$", radius=10, (4, 0), origin, (2, 2));
+markangle("$45^\circ$", radius=10, origin, (0, 4), (4, 0));
+markangle("$45^\circ$", radius=10, origin, (0, 4), (4, 0));
+markangle("$60^\circ$", radius=8, r, (4, 0), (0, 4));
+markangle("$75^\circ$", radius=10, (5, 0), (4, 0), r);
+markangle("$15^\circ$", radius=20, (5, 4), (0, 4), r);

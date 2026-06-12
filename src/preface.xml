@@ -1,0 +1,91 @@
+<d:preface version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="preface/index.html" ?>
+  <d:title>Preface</d:title>
+  <d:para>
+    This book provides an introduction to coordinate geomtry. In this book we cover straight
+    lines, pair of straight lines, circle, parabla, hyperbola, ellipse and general conics in two-
+    dimensions. We also cover planes, lines, spheres, cones etc in the three dimensional
+    coordinate geometry.
+  </d:para>
+  <d:simplesect>
+    <d:title>Why I Wrote This Book?</d:title>
+    <d:para>
+      There was no intention to write this book, rather it is just collection of my notes in digital form.
+    </d:para>
+  </d:simplesect>
+  <d:simplesect>
+    <d:title>How to Read This Book?</d:title>
+    <d:para>
+      Read sequentially. Understand the theory and solve the problems.
+    </d:para>
+  </d:simplesect>
+  <d:simplesect>
+    <d:title>Who Should Read This Book?</d:title>
+    <d:para>
+      Anyone interested in coordinate geometry should read this book.
+    </d:para>
+  </d:simplesect>
+  <d:simplesect>
+    <d:title>Prerequisite</d:title>
+    Basic mathematics till grade 10 is needed to understand this book. Basic knowledge
+    of trigonometry and geometry are needed to understand the material presented in
+    this book.
+    <d:para>
+    </d:para>
+  </d:simplesect>
+  <d:simplesect>
+    <d:title>Goals for Readers</d:title>
+    <d:para>
+      The goal is to understand the text so well that you should be able to solve 95% problems after 2 years.
+    </d:para>
+  </d:simplesect>
+  <d:simplesect>
+    <d:title>Acknowledgments</d:title>
+    <d:para>
+      As with any book there are a lot of people involved with this book but
+      not in traditional sense of a typical book. I have written this book
+      using Docbook thus Norman Walsh deserves
+      praise. <d:code>xsltproc</d:code> has been used to process
+      <d:code>xml</d:code> to <d:code>html</d:code> and it is a wonderful piece
+      of software written by James Clark.
+    </d:para>
+    <d:para>
+      There are a lot of diagrams in this text and those have been drawn using
+      Tikz. Thanks for its developers Till Tantau and Christian Feuersaenger
+      along with all the contributors for creating such a wonderful piece of
+      vector graphics library for TeX. I also use Asymptote a lot for drawing
+      pictures, which, has been developed by Andy Hammerlindl, John C. Bowman
+      and Tom Prince. Many thanks to these gentleman.
+    </d:para>
+    <d:para>
+      I must say thanks to my family particularly to my parents, wife and my
+      son whose precious time I have taken to write this book and gave them
+      numerous trouble in general. They have been the major force which
+      supported while writing it. This book would not have been possible
+      without their support.
+    </d:para>
+    <d:para>
+      There have been many teachers in my life who have helped me with various
+      lessons in life and otherwise. I will try to remember all of them here
+      and seek forgiveness if I miss anyone. My math teachers Yogendra Yadav,
+      Hriday Nayaran Singh and Satyanand Satyarthi have helped me a lot with
+      basics of Mathematics. Anurag Johri, for his technical discussions and insight into
+      programming. My professors S. Sen, S. Sengupta and T. K. Basu for showing
+      faith in me during troubled times.
+    </d:para>
+    <d:para>
+      I am not native English speaker and it has gone through only one pair of
+      eyes thus you should expect all kind of errors, particularly related to
+      punctuation. I would be glad if you could report all errors, suggestions
+      and feedback to me at <d:email>shivshankar.dayal@gmail.com</d:email> and
+      those will be incorporated.
+    </d:para>
+    <d:para>
+      Although I would like to give a pdf version of the book for download but
+      the content keep changing and there will be just too many versions of the
+      book. Thus, please read html version until a final release can be done.
+    </d:para>
+  </d:simplesect>
+</d:preface>
