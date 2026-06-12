@@ -130,5 +130,65 @@
       xmlns="http://www.w3.org/1998/Math/MathML"
       display="inline" condition="pdf"><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#x0002C;</mo><mi>&#x02026;</mi><mo>&#x0002C;</mo><msup><mi>y</mi><mi>&#x02032;</mi></msup><mo>&#x0002C;</mo><mi>y</mi><mi>&#x02033;</mi><mo>&#x0002C;</mo><mi>&#x02026;</mi></mrow></math>.
     </d:para>
+    <d:para>
+      A point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>P</mi></mrow></math> having the abscissa <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi></mrow></math> and the
+      ordinate is <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>y</mi></mrow></math> is typically denoted as <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo
+      stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo
+      stretchy="false">&#x00029;</mo></mrow></math>.
+      For example, if a point is at two units distance from <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>y</mi></mrow></math>-axis and at a distance of three units from <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>x</mi></mrow></math>-axis then
+      it is written as <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo
+      stretchy="false">&#x00028;</mo><mn>2</mn><mo>&#x0002C;</mo><mn>3</mn><mo
+      stretchy="false">&#x00029;</mo></mrow></math>.
+    </d:para>
+    <d:para>
+      Distances measured parallel to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><mi>X</mi></mrow></math> are positive while distances measured
+      parallel to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><msup><mi>X</mi><mi>&#x02032;</mi></msup></mrow></math>  are
+      negative. Similarly, distances measured parallel to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><mi>Y</mi></mrow></math> are positive and
+      distances parallel to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><msup><mi>Y</mi><mi>&#x02032;</mi></msup></mrow></math> are
+      negative. Thus, cartesian plane is divided into four
+      quadrants. <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>X</mi><mi>O</mi><mi>Y</mi></mrow></math> is the first quadrant
+      in which both abscissa and ordinates are positive.
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><mi>X</mi><mi>O</mi><msup><mi>Y</mi><mi>&#x02032;</mi></msup></mrow></math>
+      represents the second quadrant in which abscissa is negative and ordinate is
+      positive. <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msup><mi>X</mi><mi>&#x02032;</mi></msup><mi>O</mi><msup><mi>Y</mi><mi>&#x02032;</mi></msup></mrow></math>
+      is the third quadrant where both abscissa and ordinate are negative
+      and finally <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><mi>X</mi><mi>O</mi><msup><mi>Y</mi><mi>&#x02032;</mi></msup></mrow></math>
+      is the fourth quadrant in which abscissa is positive and ordinate is
+      negative. Observe that these quadrants are taken in anti-clockwise order and similar to
+      qudrants in trigonometry.
+    </d:para>
+    <d:para>
+      In <xref linkend="number-line"/> we can say that <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub></mrow></math> lies in first quadrant, <math
+      xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>2</mn></msub></mrow></math> lies in second quadrant and so
+      on.
+    </d:para>
+    <d:para>
+      The axes, when they are not at right angles, are called Oblique Axes. The angle between
+      positive <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>x</mi></mrow></math>-axis and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>y</mi></mrow></math>-axis i.e. angle between <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>O</mi><mi>X</mi></mrow></math> and
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>O</mi><mi>Y</mi></mrow></math>
+      or the <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mo>&#x02220;</mo><mi>X</mi><mi>O</mi><mi>Y</mi></mrow></math>
+      is generally denoted by the Greek letter <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>&#x003C9;</mi></mrow></math>.
+    </d:para>
   </d:sect1>
 </d:chapter>

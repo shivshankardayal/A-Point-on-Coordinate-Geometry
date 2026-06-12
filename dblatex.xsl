@@ -43,22 +43,68 @@
   <xsl:param name="xref.hypermarkup" select="1"/>
   <xsl:param name="refentry.numbered">1</xsl:param>
 
-  <xsl:param name="page.margin.top">.5in</xsl:param>
-  <xsl:param name="page.margin.bottom">.5in</xsl:param>
+  <xsl:param name="page.margin.top">0.5in</xsl:param>
+  <xsl:param name="page.margin.bottom">0.5in</xsl:param>
   <xsl:param name="body.master.font">10pt</xsl:param>
 
   <!-- Font's available at: -->
   <!-- http://iweb.dl.sourceforge.net/project/sourcesans.adobe/SourceSansPro_FontsOnly-1.050.zip -->
   <!-- http://iweb.dl.sourceforge.net/project/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip -->
   <xsl:param name="xetex.font">
-    <xsl:text>\setmainfont[Ligatures=TeX,Scale=1]{Latin Modern Roman}
+    <!--xsl:text>\setmainfont[Ligatures=TeX,Scale=1]{Latin Modern Roman}
     </xsl:text>
     <xsl:text>\setsansfont[Ligatures=TeX,Scale=.95]{Latin Modern Sans}
     </xsl:text>
     <xsl:text>\setmonofont{Latin Modern Mono}
-    </xsl:text>
+    </xsl:text-->
     <xsl:text>\usepackage{amsmath}</xsl:text>
     <xsl:text>\usepackage{amssymb}</xsl:text>
+    <xsl:text>\usepackage{libertinus}</xsl:text>
+    <xsl:text>\usepackage{caption}</xsl:text>
+    <xsl:text>
+\captionsetup[figure]{
+  labelfont={bf,color=magenta},
+  textfont={normalfont, color=magenta},
+  font=small,
+  labelsep=colon,
+  justification=centering,
+  singlelinecheck=true,
+  skip=10pt
+	    }
+	    \usepackage{xcolor}
+\usepackage{titlesec}
+
+\definecolor{SectionBlue}{RGB}{0,90,180}
+	    \titleformat{\part}[display]
+  {\Huge\bfseries\centering\color{SectionBlue}}
+  {\Huge PART \thepart}
+  {1em}
+  {}
+\titleformat{\chapter}[display]
+  {\Huge\bfseries\color{SectionBlue}}
+  {\filleft\Huge\thechapter}
+  {1ex}
+  {\titlerule\vspace{1ex}\filright}
+	    [\vspace{1ex}\titlerule]
+
+\titleformat{\section}
+  {\Large\bfseries\color{SectionBlue}}
+  {\thesection}
+  {1em}
+  {}
+
+\titleformat{\subsection}
+  {\large\bfseries\color{SectionBlue}}
+  {\thesubsection}
+  {1em}
+  {}
+
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{SectionBlue}}
+  {\thesubsubsection}
+  {1em}
+  {}
+    </xsl:text>
   </xsl:param>
     <xsl:template match="mml:math[@condition = 'web']"/>
 </xsl:stylesheet>
