@@ -11,11 +11,12 @@ html: src/*.xml html.xsl Makefile
 	cp -r build/* /usr/share/nginx/html/coordinate-geometry/
 
 
-pdf/cg.pdf: src/*.xml dblatex.xsl Makefile
+pdf/merged.pdf: src/*.xml dblatex.xsl Makefile images/*
 	rm -rf pdf
 	cp -r src pdf	
 	perl -pi -e "s/\.png\"/\.pdf\"/g;" pdf/*.xml	
 	dblatex -bxetex -T db2latex -p dblatex.xsl -P preface.tocdepth="1" pdf/cg.xml
+	pdftk images/cp1.pdf pdf/cg.pdf cat output pdf/merged.pdf
 
 latex:
 	dblatex -bxetex -T db2latex -p dblatex.xsl -P preface.tocdepth="1" -t tex src/cg.xml

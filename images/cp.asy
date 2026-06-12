@@ -16,7 +16,7 @@ real H = 25cm; // b5 paper size
 fill((0,0)--(W,0)--(W,H)--(0,H)--cycle, rgb(0.0,0.4,0.6)); // purple
 
 // Title and Author text
-label("Loci of Points in Coordinate Geometry",
+label("A Point on Coordinate Geometry",
       (0, H/4.5), align=SE, p=white + fontsize(28pt));
 draw((0,H/5.6)--(W,H/5.6), white+1.5bp);
 label("A problem-oriented approach",
