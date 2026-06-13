@@ -4,7 +4,7 @@ texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertin
 defaultpen(fontsize(9pt));
 import geometry;
 
-size(4cm);
+size(5cm);
 
 point A = (0, 0);
 point B = (4, 1);

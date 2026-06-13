@@ -3,7 +3,7 @@
            xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
            xmlns:mml="http://www.w3.org/1998/Math/MathML">
   <?dbhtml filename="coordinates/index.html" ?>
-  <d:title>Numbers, Variables and Functions</d:title>
+  <d:title>Coordinates</d:title>
   <d:para>
     Coordinate geometry is study of geometric using algebra. It is also called <d:emphasis role="bold">Analytical
     Geometry</d:emphasis>. In geometry, we study about points, lines, triangles, quadrilaterals, circles,
@@ -78,7 +78,7 @@
       to prevent the loss of generality let us make use of inclined
       axes or oblique axes. Consider the diagram given below:
     <d:figure xml:id="axes">
-      <d:title>Number line</d:title>
+      <d:title>Cartesian axes in xy-plane.</d:title>
       <d:mediaobject>
         <d:imageobject condition="web">
           <d:imagedata fileref="../images/axes.png"/>
@@ -190,5 +190,492 @@
       is generally denoted by the Greek letter <math xmlns="http://www.w3.org/1998/Math/MathML"
       display="inline"><mrow><mi>&#x003C9;</mi></mrow></math>.
     </d:para>
+    <d:para>
+      In general, it is convenient to take the axes at right angles. The axes are then called
+      the <d:emphasis role="italic">Rectangular Axes</d:emphasis>. You can assume that axes are rectangular
+      unless otherwise stated. As you can guess this system is called Cartesian Coordinate System in the
+      honor of Des Cartes.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Distance Between Two Points</d:title>
+    <d:para>
+      <d:figure xml:id="distance-between-two-points">
+        <d:title>Distance between two points.</d:title>
+        <d:mediaobject>
+          <d:imageobject condition="web">
+            <d:imagedata fileref="../images/distance-between-two-points.png"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+
+      Let <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>2</mn></msub></mrow></math> be two points as shown in the
+      diagram with coordinates <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo
+      stretchy="false">&#x00028;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>1</mn></msub><mo
+      stretchy="false">&#x00029;</mo></mrow></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo
+      stretchy="false">&#x00028;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>2</mn></msub><mo
+      stretchy="false">&#x00029;</mo></mrow></math>. <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>M</mi><mn>1</mn></msub><msub><mi>P</mi><mn>1</mn></msub><mo>&#x02225;</mo><mi>O</mi><mi>Y</mi><mo>&#x0002C;</mo><msub><mi>M</mi><mn>2</mn></msub><msub><mi>P</mi><mn>2</mn></msub><mo>&#x02225;</mo><mi>O</mi><mi>Y</mi></mrow></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>2</mn></msub><mi>R</mi><mo>&#x02225;</mo><mi>O</mi><mi>X</mi></mrow></math>. Thus,
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><mi>R</mi><mo>&#x0003D;</mo><msub><mi>M</mi><mn>2</mn></msub><msub><mi>M</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mi>O</mi><msub><mi>M</mi><mn>2</mn></msub><mo>&#x02212;</mo><mi>O</mi><msub><mi>M</mi><mn>1</mn></msub><mo>&#x0003D;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#x02212;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x0002C;</mo><mi>R</mi><msub><mi>P</mi><mn>2</mn></msub><mo>&#x0003D;</mo><msub><mi>M</mi><mn>2</mn></msub><msub><mi>P</mi><mn>2</mn></msub><mo>&#x02212;</mo><msub><mi>M</mi><mn>1</mn></msub><msub><mi>P</mi><mn>1</mn></msub><mo>&#x0003D;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#x02212;</mo><msub><mi>y</mi><mn>1</mn></msub></mrow></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mo>&#x02220;</mo><msub><mi>P</mi><mn>1</mn></msub><mi>R</mi><msub><mi>P</mi><mn>2</mn></msub><mo>&#x0003D;</mo><mo>&#x02220;</mo><mi>O</mi><msub><mi>M</mi><mn>1</mn></msub><msub><mi>P</mi><mn>1</mn></msub><mo>&#x0003D;</mo><msup><mn>180</mn><mo>&#x02218;</mo></msup><mo>&#x02212;</mo><msub><mi>P</mi><mn>2</mn></msub><msub><mi>M</mi><mn>2</mn></msub><mi>X</mi><mo>&#x0003D;</mo><msup><mn>180</mn><mo>&#x02218;</mo></msup><mo>&#x02212;</mo><mi>&#x003C9;</mi></mrow></math>.
+    </d:para>
+    <d:para>
+      From trigonometry, we know that <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><msubsup><mi>P</mi><mn>2</mn><mn>2</mn></msubsup><mo>&#x0003D;</mo><msub><mi>P</mi><mn>2</mn></msub><msup><mi>R</mi><mn>2</mn></msup><mo>&#x0002B;</mo><mi>R</mi><msubsup><mi>P</mi><mn>1</mn><mn>2</mn></msubsup><mo>&#x02212;</mo><mn>2</mn><msub><mi>P</mi><mn>2</mn></msub><mi>R</mi><mo>&#x0002E;</mo><mi>R</mi><msub><mi>P</mi><mn>1</mn></msub><mo>&#x0002E;</mo><mi>cos</mi><mrow><mo
+      stretchy="true" fence="true"
+      form="prefix">&#x00028;</mo><msup><mn>180</mn><mo>&#x02218;</mo></msup><mo>&#x02212;</mo><mi>&#x003C9;</mi><mo
+      stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow></mrow></math> which is
+      <d:equation xml:id="eq1.1">
+        <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>y</mi><mn>2</mn></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mn>2</mn></msup><mo>&#x0002B;</mo><mn>2</mn><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>x</mi><mn>2</mn></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mrow><mo stretchy="true" fence="true" form="prefix">&#x00028;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>y</mi><mn>2</mn></msub><mo stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mspace width="0.167em" /><mi>cos</mi><mspace width="0.167em" /><mi>&#x003C9;</mi></mrow></math>
+      </d:equation>
+    </d:para>
+    <d:para>
+      In the case when axes are rectangular i.e. axes are at right angle or <math
+      xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>&#x003C9;</mi><mo>&#x0003D;</mo><msup><mn>90</mn><mo>&#x02218;</mo></msup></mrow></math>
+      then the <xref linkend="eq1.1" /> reduces to <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><msubsup><mi>P</mi><mn>2</mn><mn>2</mn></msubsup><mo>&#x0003D;</mo><msup><mrow><mo
+      stretchy="true" fence="true"
+      form="prefix">&#x00028;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>x</mi><mn>2</mn></msub><mo
+      stretchy="true" fence="true"
+      form="postfix">&#x00029;</mo></mrow><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mrow><mo stretchy="true"
+      fence="true"
+      form="prefix">&#x00028;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>y</mi><mn>2</mn></msub><mo
+      stretchy="true" fence="true" form="postfix">&#x00029;</mo></mrow><mn>2</mn></msup></mrow></math> and
+      therefore in rectangular coodinate system the distance between two points is <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><msqrt><mrow><msup><mrow><mo
+      stretchy="true" fence="true"
+      form="prefix">&#x00028;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>x</mi><mn>2</mn></msub><mo
+      stretchy="true" fence="true"
+      form="postfix">&#x00029;</mo></mrow><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mrow><mo stretchy="true"
+      fence="true"
+      form="prefix">&#x00028;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#x02212;</mo><msub><mi>y</mi><mn>2</mn></msub><mo
+      stretchy="true" fence="true"
+      form="postfix">&#x00029;</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></math>.
+    </d:para>
+    <d:para>
+      Clearly, the distance between any point <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mo stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo
+      stretchy="false">&#x00029;</mo></mrow></math> and the origin <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mo
+      stretchy="false">&#x00028;</mo><mn>0</mn><mo>&#x0002C;</mo><mn>0</mn><mo
+      stretchy="false">&#x00029;</mo></mrow></math> will be <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msqrt><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></msqrt></mrow></math>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Section Formula</d:title>
+    <d:para>
+      Consider the diagram given below.
+      <d:figure xml:id="section-formula">
+        <d:title>Section Formula.</d:title>
+        <d:mediaobject>
+          <d:imageobject condition="web">
+            <d:imagedata fileref="../images/section-formula.png"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+
+      Consider points <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo
+      stretchy="false">&#x00028;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>1</mn></msub><mo
+      stretchy="false">&#x00029;</mo></mrow></math> and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo
+      stretchy="false">&#x00028;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#x0002C;</mo><msub><mi>y</mi><mn>2</mn></msub><mo
+      stretchy="false">&#x00029;</mo></mrow></math>. The point <math
+      xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><mo
+      stretchy="false">&#x00028;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>y</mi><mo
+      stretchy="false">&#x00029;</mo></mrow></math> divides the line segment <math
+      xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>P</mi><mn>2</mn></msub></mrow></math>
+      such that <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><mi>P</mi><mi>:</mi><mi>P</mi><msub><mi>P</mi><mn>2</mn></msub><mo>&#x0003D;</mo><msub><mi>m</mi><mn>1</mn></msub><mi>:</mi><msub><mi>m</mi><mn>2</mn></msub></mrow></math>
+      then we need to find the coordinates of <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>P</mi></mrow></math>.
+    </d:para>
+    <d:para>
+      We have <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mi>O</mi><msub><mi>M</mi><mn>1</mn></msub><mo>&#x0003D;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>&#x0002C;</mo><msub><mi>M</mi><mn>1</mn></msub><msub><mi>P</mi><mn>1</mn></msub><mo>&#x0003D;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#x0002C;</mo><mi>O</mi><mi>M</mi><mo>&#x0003D;</mo><mi>x</mi><mo>&#x0002C;</mo><mi>M</mi><mi>P</mi><mo>&#x0003D;</mo><mi>y</mi><mo>&#x0002C;</mo><mi>O</mi><msub><mi>M</mi><mn>2</mn></msub><mo>&#x0003D;</mo><msub><mi>x</mi><mn>2</mn></msub></mrow></math>,
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>M</mi><mn>2</mn></msub><msub><mi>P</mi><mn>2</mn></msub><mo>&#x0003D;</mo><msub><mi>y</mi><mn>2</mn></msub></mrow></math>.
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>R</mi><mn>1</mn></msub><mo>&#x0002C;</mo><mi>P</mi><msub><mi>R</mi><mn>2</mn></msub><mo>&#x02225;</mo><mi>O</mi><mi>X</mi></mrow></math>. Then
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>R</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mi>M</mi><msub><mi>M</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mi>O</mi><mi>M</mi><mo>&#x02212;</mo><mi>O</mi><msub><mi>M</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mi>x</mi><mo>&#x02212;</mo><msub><mi>x</mi><mn>1</mn></msub></mrow></math>
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><mrow><mi>P</mi><msub><mi>R</mi><mn>2</mn></msub><mo>&#x0003D;</mo><mi>M</mi><msub><mi>M</mi><mn>2</mn></msub><mo>&#x0003D;</mo><mi>O</mi><msub><mi>M</mi><mn>2</mn></msub><mo>&#x02212;</mo><mi>O</mi><mi>M</mi><mo>&#x0003D;</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#x02212;</mo><mi>x</mi></mrow></math>
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><msub><mi>R</mi><mn>1</mn></msub><mi>P</mi><mo>&#x0003D;</mo><mi>M</mi><mi>P</mi><mo>&#x02212;</mo><msub><mi>M</mi><mn>1</mn></msub><msub><mi>P</mi><mn>1</mn></msub><mo>&#x0003D;</mo><mi>y</mi><mo>&#x02212;</mo><msub><mi>y</mi><mn>1</mn></msub></mrow></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>R</mi><mn>2</mn></msub><msub><mi>P</mi><mn>2</mn></msub><mo>&#x0003D;</mo><msub><mi>M</mi><mn>2</mn></msub><msub><mi>P</mi><mn>2</mn></msub><mo>&#x02212;</mo><mi>M</mi><mi>P</mi><mo>&#x0003D;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#x02212;</mo><mi>y</mi></mrow></math>.
+    </d:para>
+    <d:para>
+      From the similar triangles <math xmlns="http://www.w3.org/1998/Math/MathML"
+      ><mrow><mo>&#x2206;</mo><msub><mi>P</mi><mn>1</mn></msub><msub><mi>R</mi><mn>1</mn></msub><mi>P</mi></mrow></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"
+      ><mrow><mo>&#x2206;</mo><mi>P</mi><msub><mi>R</mi><mn>2</mn></msub><msub><mi>P</mi><mn>2</mn></msub></mrow></math>
+      we have
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>P</mi><mn>1</mn></msub><mi>P</mi></mrow><mrow><mi>P</mi><msub><mi>P</mi><mn>2</mn></msub></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>R</mi><mn>1</mn></msub></mrow><mrow><mi>P</mi><msub><mi>R</mi><mn>2</mn></msub></mrow></mfrac><mo>&#x0003D;</mo><mfrac><mrow><mi>x</mi><mo>&#x02212;</mo><msub><mi>x</mi><mn>1</mn></msub></mrow><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>&#x02212;</mo><mi>x</mi></mrow></mfrac></mrow></math>
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"
+            display="inline"><mrow><mo>&#x02234;</mo><mi>x</mi><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>x</mi><mn>2</mn></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mn>2</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow></math>. Similarly,
+      it can be found that <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><mo>&#x02234;</mo><mi>y</mi><mo>&#x0003D;</mo><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>y</mi><mn>2</mn></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mn>2</mn></msub><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>&#x0002B;</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow></math>
+    </d:para>
+    <d:para>
+      Thus, the coordinates of the point which divides <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>P</mi><mn>1</mn></msub><msub><mi>P</mi><mn>2</mn></msub></mrow></math>
+      in the ratio <math xmlns="http://www.w3.org/1998/Math/MathML"
+      display="inline"><mrow><msub><mi>m</mi><mn>1</mn></msub><mi>:</mi><msub><mi>m</mi><mn>2</mn></msub></mrow></math>
+      is
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow><mo>=</mo><mfenced><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac><mo>,</mo><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>+</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow></mfenced></math>
+      </d:equation>
+    </d:para>
+    <d:para>
+      If the point <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi></math> divides these two
+      points externally then we can prove in a similar manner that the point’s coordinates is
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow><mo>=</mo><mfenced><mrow><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>x</mi><mn>2</mn></msub><mo>-</mo><msub><mi>m</mi><mn>2</mn></msub><msub><mi>x</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>-</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac><mo>,</mo><mfrac><mrow><msub><mi>m</mi><mn>1</mn></msub><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>m</mi><mn>2</mn></msub><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><msub><mi>m</mi><mn>1</mn></msub><mo>-</mo><msub><mi>m</mi><mn>2</mn></msub></mrow></mfrac></mrow></mfenced></math>
+      </d:equation>
+    </d:para>
+    <d:para>
+      Clearly if the point is mid-point then we find that the coordinates of mid-point is given by
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow><mo>=</mo><mfenced><mrow><mfrac><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mo>,</mo><mfrac><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></mrow></mfenced></math>
+      </d:equation>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Area of a Trapezium</d:title>
+    <d:para>
+      We will consider the area of a trapezium in this section from geometry because it will be useful in
+      the coming sections. Consider the following diagram:
+    </d:para>
+    <d:figure xml:id="trapezium">
+      <d:title>Area of a trapezium.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/trapezium.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    We know that area of a triangle is half of the product of height of any side and the perpendicular drawn
+    from the opposite angle. Thus,
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x25A1;</mo><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mo>&#xA0;</mo><mo>=</mo><mpadded lspace="-1px"><mo>&#xA0;</mo><mi>&#x394;</mi><mi>A</mi><mi>B</mi><mi>C</mi><mo>&#xA0;</mo></mpadded><mo>+</mo><mo>&#xA0;</mo><mi>&#x394;</mi><mi>A</mi><mi>C</mi><mi>D</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>.</mo><mi>B</mi><mi>C</mi><mo>.</mo><mi>A</mi><mi>L</mi><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>.</mo><mi>A</mi><mi>D</mi><mo>.</mo><mi>C</mi><mi>N</mi><mo>&#xA0;</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>B</mi><mi>C</mi><mo>&#x2009;</mo><mo>+</mo><mo>&#x2009;</mo><mi>A</mi><mi>D</mi><mo>)</mo><mo>.</mo><mi>A</mi><mi>L</mi></math>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Area of a Triangle</d:title>
+    <d:para>
+      Consider following diagram with <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mi>B</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo></math>
+      and <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>(</mo><msub><mi>x</mi><mn>3</mn></msub><mo>,</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo></math>.
+    </d:para>
+    <d:figure xml:id="area-triangle">
+      <d:title>Area of a triangle.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/area-triangle.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x394;</mi></math> denote the area of the
+      <math
+          xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2206;</mo><mi>A</mi><mi>B</mi><mi>C</mi></math>. Then,
+      <math
+          xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x394;</mi><mi>A</mi><mi>B</mi><mi>C</mi><mo>=</mo><mo>&#x25A1;</mo><mi>A</mi><mi>L</mi><mi>N</mi><mi>C</mi><mo>+</mo><mo>&#x25A1;</mo><mi>C</mi><mi>N</mi><mi>M</mi><mi>B</mi><mo>-</mo><mo>&#x25A1;</mo><mi>A</mi><mi>L</mi><mi>M</mi><mi>B</mi></math>
+    </d:para>
+    <d:para>
+      <math
+          xmlns="http://www.w3.org/1998/Math/MathML"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>L</mi><mi>N</mi><mo>(</mo><mi>L</mi><mi>A</mi><mo>&#x2009;</mo><mo>+</mo><mo>&#x2009;</mo><mi>N</mi><mi>C</mi><mo>)</mo><mo>&#xA0;</mo><mo>+</mo><mo>&#x2009;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>N</mi><mi>M</mi><mo>(</mo><mi>B</mi><mi>C</mi><mo>&#x2009;</mo><mo>+</mo><mo>&#x2009;</mo><mi>M</mi><mi>B</mi><mo>)</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>L</mi><mi>M</mi><mo>(</mo><mi>L</mi><mi>A</mi><mo>&#x2009;</mo><mo>+</mo><mo>&#x2009;</mo><mi>M</mi><mi>B</mi><mo>)</mo></math>
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>[</mo><mo>(</mo><msub><mi>x</mi><mn>3</mn></msub><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><msub><mi>x</mi><mn>3</mn></msub><mo>)</mo><mo>(</mo><msub><mi>y</mi><mn>2</mn></msub><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>&#xA0;</mo><mo>-</mo><mo>&#xA0;</mo><msub><mi>x</mi><mn>1</mn></msub><mo>)</mo><mo>(</mo><msub><mi>y</mi><mn>1</mn></msub><mo>&#xA0;</mo><mo>+</mo><mo>&#xA0;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>]</mo></math>
+    </d:para>
+    <d:para>
+      On simplification, we obtain
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x394;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>[</mo><msub><mi>x</mi><mn>1</mn></msub><mo>(</mo><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>(</mo><msub><mi>y</mi><mn>3</mn></msub><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>(</mo><msub><mi>y</mi><mn>1</mn></msub><mo>-</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>]</mo></math>
+      </d:equation>
+    </d:para>
+    <d:para>
+      The equation can be represented in the determinant form as given below:
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x394;</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mn>1</mn></msub></mtd><mtd><msub><mi>y</mi><mn>1</mn></msub></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>2</mn></msub></mtd><mtd><msub><mi>y</mi><mn>2</mn></msub></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>3</mn></msub></mtd><mtd><msub><mi>y</mi><mn>3</mn></msub></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced></math>
+      </d:equation>
+    </d:para>
+    <d:para>
+      In the above calculation if the axes are oblique with an angle <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3C9;</mi></math> then the area of the
+      triangle would be:
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x394;</mi><mo>&#xA0;</mo><mo>=</mo><mo>&#xA0;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>sin</mi><mi>&#x3C9;</mi><mo>[</mo><msub><mi>x</mi><mn>1</mn></msub><mo>(</mo><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>(</mo><msub><mi>y</mi><mn>3</mn></msub><mo>-</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub><mo>(</mo><msub><mi>y</mi><mn>1</mn></msub><mo>-</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>]</mo></math>
+      </d:equation>
+    </d:para>
+    <d:para>
+      If one of the vertices is the origin <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mo>(</mo><mn>0</mn><mo>,</mo><mo>&#x200A;</mo><mn>0</mn><mo>)</mo></math>
+      then the area of the triangle would be <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><msub><mi>y</mi><mn>2</mn></msub><mo>-</mo><msub><mi>x</mi><mn>2</mn></msub><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo></math>.
+    </d:para>
+    <d:sect2>
+      <d:title>Sign of Area of a Triangle</d:title>
+      <d:para>
+        As you can see from the formula; area of a triangle could be positive or negative. There
+        are two ways to fix this. The first is to take modulus of the equation. The second is to
+        plot the points of triangle in clockwise direction. If we plot the points in anti-clockwise
+        direction then area of the triangle will be negative in that case we can take modulus
+        of the value obtained.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Condition of Collinearity of Three Points</d:title>
+      <d:para>
+        From the above relation we can extrapolate that if the area of the triangle is zero then
+        the three vertexes would collapse into a straight line. Thus the condition of collinearity
+        of these three points can be written as:
+        <d:equation>
+          <math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mn>1</mn></msub></mtd><mtd><msub><mi>y</mi><mn>1</mn></msub></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>2</mn></msub></mtd><mtd><msub><mi>y</mi><mn>2</mn></msub></mtd><mtd><mn>1</mn></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>3</mn></msub></mtd><mtd><msub><mi>y</mi><mn>3</mn></msub></mtd><mtd><mn>1</mn></mtd></mtr></mtable></mfenced><mo>=</mo><mn>0</mn></math>
+        </d:equation>
+      </d:para>
+      <d:para>
+        Now that we have area of a trapezium and area of a triangle finding area of other
+        polygons is trivial and we will find them in our exercises.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Centroid of a Triangle</d:title>
+    <d:figure xml:id="centroid">
+      <d:title>Centroid of a triangle.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/centroid.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      The point of intersection of the medians of the triangle is called the centroid of the
+      triangle.
+    </d:para>
+    <d:para>
+      Let <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mi>B</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo></math>
+      and <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo></math>
+      be the vertices of the <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2206;</mo><mo>&#x200A;</mo><mi>A</mi><mi>B</mi><mi>C</mi></math>. Let
+      <math
+          xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>D</mi><mo>,</mo><mo>&#x200A;</mo><mi>B</mi><mi>E</mi></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mi>F</mi></math> be the three medians.
+    </d:para>
+    <d:para>
+      Since <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math> is middle point of <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>B</mi><mi>C</mi><mo>&#x200A;</mo><mo>&#x21D2;</mo><mo>&#x200A;</mo><mi>D</mi><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mfenced><mrow><mfrac><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac><mo>,</mo><mo>&#x200A;</mo><mfrac><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub></mrow><mn>2</mn></mfrac></mrow></mfenced></math>.
+    </d:para>
+    <d:para>
+      Let <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi></math> be the centroid
+      i.e. intersection of the three medians. <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi></math> will divide <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>B</mi><mi>C</mi></math> in the
+      ratio <math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo>:</mo><mn>1</mn></math>
+      i.e. <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>G</mi><mo>:</mo><mi>G</mi><mi>C</mi><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mn>2</mn><mo>:</mo><mn>1</mn></math>
+      then
+    </d:para>
+    <d:equation>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mfenced><mrow><mfrac><mrow><mn>2</mn><mfrac><mrow><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub></mrow><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>.</mo><msub><mi>x</mi><mn>1</mn></msub></mrow><mrow><mn>2</mn><mo>+</mo><mn>1</mn></mrow></mfrac><mo>,</mo><mo>&#x200A;</mo><mfrac><mrow><mn>2</mn><mfrac><mrow><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><msub><mi>y</mi><mn>3</mn></msub></mrow><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>.</mo><msub><mi>y</mi><mn>1</mn></msub></mrow><mrow><mn>2</mn><mo>+</mo><mn>1</mn></mrow></mfrac></mrow></mfenced><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mfenced><mrow><mfrac><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub></mrow><mn>3</mn></mfrac><mo>,</mo><mfrac><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><msub><mi>y</mi><mn>3</mn></msub></mrow><mn>3</mn></mfrac></mrow></mfenced></math>
+    </d:equation>
+    <d:para>
+      Similarly it can be shown that <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi></math> has same coordinates for other
+      medians. Thus, <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi></math> lies
+      on the same coordinates for all three medians.
+    </d:para>
+    <d:para>
+      Thus, <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>G</mi><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mfenced><mrow><mfrac><mrow><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><msub><mi>x</mi><mn>3</mn></msub></mrow><mn>3</mn></mfrac><mo>,</mo><mfrac><mrow><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><msub><mi>y</mi><mn>3</mn></msub></mrow><mn>3</mn></mfrac></mrow></mfenced></math>
+      is the centroid of the triangle.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Incenter of a Triangle</d:title>
+    <d:para>
+      The point of intersection of the bisectors of the angles of the triangle is called the <d:emphasis
+      role="italic">incenter</d:emphasis> of the triangle.
+    </d:para>
+    <d:figure xml:id="incenter">
+      <d:title>Incenter of a triangle.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/incenter.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mi>B</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo></math>
+      and <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo></math>
+      be the vertices of the <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2206;</mo><mo>&#x200A;</mo><mi>A</mi><mi>B</mi><mi>C</mi></math>. Let
+      <math
+          xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>D</mi><mo>,</mo><mo>&#x200A;</mo><mi>B</mi><mi>E</mi></math>
+      and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mi>F</mi></math> be the three internal
+      bisectors of the angles <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>,</mo><mo>&#x200A;</mo><mi>B</mi></math> and
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi></math> respectively.Let these
+      bisectors meet at the incenter <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi></math>.
+    </d:para>
+    <d:para>
+      Since <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>B</mi><mi>C</mi></math> is internal
+      bisector of <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2220;</mo><mo>&#x200A;</mo><mi>B</mi><mi>A</mi><mi>C</mi></math>,
+      therefore, <math xmlns="http://www.w3.org/1998/Math/MathML"><mfrac><mrow><mi>B</mi><mi>D</mi></mrow><mrow><mi>D</mi><mi>C</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>B</mi><mi>A</mi></mrow><mrow><mi>A</mi><mi>C</mi></mrow></mfrac><mo>=</mo><mfrac><mi>c</mi><mi>b</mi></mfrac></math>
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x21D2;</mo><mo>&#x200A;</mo><mi>D</mi><mo>=</mo><mfenced><mrow><mfrac><mrow><mi>b</mi><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mi>c</mi><msub><mi>x</mi><mn>3</mn></msub></mrow><mrow><mi>b</mi><mo>+</mo><mi>c</mi></mrow></mfrac><mo>+</mo><mfrac><mrow><mi>b</mi><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><mi>c</mi><msub><mi>y</mi><mn>3</mn></msub></mrow><mrow><mi>b</mi><mo>+</mo><mi>c</mi></mrow></mfrac></mrow></mfenced></math>
+    </d:para>
+    <d:para>
+      The incenter <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi></math> divides <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>D</mi></math> internally in the ratio <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi><mo>+</mo><mi>c</mi><mo>:</mo><mi>a</mi><mo>=</mo><mi>A</mi><mi>I</mi><mo>:</mo><mi>I</mi><mi>D</mi></math>.
+    </d:para>
+    <d:para>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x21D2;</mo><mo>&#x200A;</mo><mi>I</mi><mo>=</mo><mfenced><mrow><mfrac><mrow><mi>a</mi><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mi>b</mi><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mi>c</mi><msub><mi>x</mi><mn>3</mn></msub></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></mfrac><mo>,</mo><mfrac><mrow><mi>a</mi><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><mi>b</mi><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><mi>c</mi><msub><mi>y</mi><mn>3</mn></msub></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></mfrac></mrow></mfenced></math>
+    </d:para>
+    <d:para>
+      Similarly it can be shown for two other bisectors that <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi></math> has the same coordinate. Thus,
+      <d:equation>
+        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>I</mi><mo>=</mo><mfenced><mrow><mfrac><mrow><mi>a</mi><msub><mi>x</mi><mn>1</mn></msub><mo>+</mo><mi>b</mi><msub><mi>x</mi><mn>2</mn></msub><mo>+</mo><mi>c</mi><msub><mi>x</mi><mn>3</mn></msub></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></mfrac><mo>,</mo><mfrac><mrow><mi>a</mi><msub><mi>y</mi><mn>1</mn></msub><mo>+</mo><mi>b</mi><msub><mi>y</mi><mn>2</mn></msub><mo>+</mo><mi>c</mi><msub><mi>y</mi><mn>3</mn></msub></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi></mrow></mfrac></mrow></mfenced></math>
+      </d:equation>
+      is the incenter of the triangle.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Area of a Quadrilateral</d:title>
+    <d:para>
+      Consider following diagram with <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><mo>&#x200A;</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mo>&#x200A;</mo><mi>B</mi><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><mo>&#x200A;</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>,</mo><mo>&#x200A;</mo><mi>C</mi><mo>(</mo><msub><mi>x</mi><mn>3</mn></msub><mo>,</mo><mo>&#x200A;</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo></math>
+      and <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi><mo>(</mo><msub><mi>x</mi><mn>4</mn></msub><mo>,</mo><mo>&#x200A;</mo><msub><mi>y</mi><mn>4</mn></msub><mo>)</mo></math>.
+    </d:para>
+    <d:figure xml:id="quadrilateral">
+      <d:title>Incenter of a quadrilateral.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/quadrilateral.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      If <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi></math>
+      are in anti-clockwise order then area of quadrilateral will be positiive but
+      if it is clockwise then it will be negative and we will have to take modulus of it.
+    </d:para>
+    <d:para>
+      Area of <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x25A1;</mo><mo>&#x200A;</mo><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mi>&#x394;</mi><mo>&#x200A;</mo><mi>A</mi><mi>B</mi><mi>C</mi><mo>+</mo><mi>&#x394;</mi><mo>&#x200A;</mo><mi>A</mi><mi>C</mi><mi>D</mi></math>
+    </d:para>
+    <d:para>
+      Another way to find area of a quadrilateral is
+    </d:para>
+    <d:equation>
+      <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x25A1;</mo><mo>&#x200A;</mo><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mo>&#x200A;</mo><mo>=</mo><mo>&#x200A;</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mfenced open="[" close="]"><mrow><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mn>1</mn></msub></mtd><mtd><msub><mi>y</mi><mn>1</mn></msub></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>2</mn></msub></mtd><mtd><msub><mi>y</mi><mn>2</mn></msub></mtd></mtr></mtable></mfenced><mo>+</mo><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mn>2</mn></msub></mtd><mtd><msub><mi>y</mi><mn>2</mn></msub></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>3</mn></msub></mtd><mtd><msub><mi>y</mi><mn>3</mn></msub></mtd></mtr></mtable></mfenced><mo>+</mo><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mn>3</mn></msub></mtd><mtd><msub><mi>y</mi><mn>3</mn></msub></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>4</mn></msub></mtd><mtd><msub><mi>y</mi><mn>4</mn></msub></mtd></mtr></mtable></mfenced><mo>+</mo><mfenced open="|" close="|"><mtable><mtr><mtd><msub><mi>x</mi><mn>4</mn></msub></mtd><mtd><msub><mi>y</mi><mn>4</mn></msub></mtd></mtr><mtr><mtd><msub><mi>x</mi><mn>1</mn></msub></mtd><mtd><msub><mi>y</mi><mn>1</mn></msub></mtd></mtr></mtable></mfenced></mrow></mfenced></math>
+    </d:equation>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Polar Coordinates</d:title>
+    <d:para>
+      Consider a line <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mi>X</mi></math> through a
+      point <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi></math>. We call the line initial
+      line and we call <d:emphasis role="italic">the pole</d:emphasis> or <d:emphasis role="italic">the
+      origin</d:emphasis>.
+    </d:para>
+    <d:figure xml:id="polar-coordinates">
+      <d:title>Polar Coordinates.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/polar-coordinates.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      As you can figure out the position of a point <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi></math> can be found by knowing its distance
+      from the pole and the positive counter-clockwise angle made by the line joining the
+      point with the initial line. The distance <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mi>P</mi></math> is typically denoted by <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>r</mi></math> and the <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2220;</mo><mo>&#x200A;</mo><mi>X</mi><mi>O</mi><mi>P</mi></math>
+      is denoted by <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3B8;</mi></math>. <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>O</mi><mi>P</mi></math> or <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>r</mi></math> is called the <d:emphasis
+      role="italic">radius vector</d:emphasis> and <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3B8;</mi></math> is called the <d:emphasis
+      role="italic">vectorial angle</d:emphasis> of the point.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Polar Coordinates and Cartesian Coordinates</d:title>
+    <d:figure xml:id="polar-cartesian">
+      <d:title>Polar  and Cartesian Coordinates.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/polar-cartesian.png"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      As we can see from the diagram a point <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>P</mi></math> having polar coordinates <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>r</mi><mo>,</mo><mo>&#x200A;</mo><mi>&#x3B8;</mi><mo>)</mo></math>
+      can be represented in terms of cartesian coordinate as <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>r</mi><mi>cos</mi><mo>&#x200A;</mo><mi>&#x3B8;</mi><mo>,</mo><mo>&#x200A;</mo><mi>r</mi><mi>sin</mi><mo>&#x200A;</mo><mi>&#x3B8;</mi><mo>)</mo></math>. Similarly,
+      if a point has
+      cartesian coordinates <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>x</mi><mo>,</mo><mo>&#x200A;</mo><mi>y</mi><mo>)</mo></math>
+      then <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>r</mi><mo>=</mo><msqrt><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></msqrt></math>
+      and <math
+      xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#x3B8;</mi><mo>=</mo><msup><mi>tan</mi><mrow><mo>-</mo><mn>1</mn></mrow></msup><mfrac><mi>y</mi><mi>x</mi></mfrac></math>
+      would represent the equivalent polar coordinates.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Problems</d:title>
+    <d:orderedlist>
+      <d:para>
+        Find the areas of the triangles the coordinates of whose vertices are respectively:
+      </d:para>
+      <d:listitem>
+        <math
+            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo><mo>,</mo><mo>(</mo><mo>-</mo><mn>7</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>
+        and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>5</mn><mo>,</mo><mo>-</mo><mn>1</mn><mo>)</mo></math>.
+      </d:listitem>
+    </d:orderedlist>
   </d:sect1>
 </d:chapter>

@@ -7,7 +7,7 @@
   <xsl:param name="paper.type">b5paper</xsl:param>
 
   <!-- Include the colophon in the Table of Contents -->
-  <xsl:param name="colophon.tocdepth">1</xsl:param>
+  <xsl:param name="colophon.tocdepth">2</xsl:param>
 
   <!-- Don't show the 'collaborators' section -->
   <xsl:param name="doc.collab.show">0</xsl:param>
@@ -52,11 +52,12 @@
   <!-- http://iweb.dl.sourceforge.net/project/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip -->
   <xsl:param name="xetex.font">
     <!--xsl:text>\setmainfont[Ligatures=TeX,Scale=1]{Latin Modern Roman}
-    </xsl:text>
-    <xsl:text>\setsansfont[Ligatures=TeX,Scale=.95]{Latin Modern Sans}
+        </xsl:text-->
+    \usepackage{fontspec}
+    <xsl:text>\setsansfont[Ligatures=TeX,Scale=.95]{Roboto}
     </xsl:text>
     <xsl:text>\setmonofont{Latin Modern Mono}
-    </xsl:text-->
+    </xsl:text>
     <xsl:text>\usepackage{amsmath}</xsl:text>
     <xsl:text>\usepackage{amssymb}</xsl:text>
     <xsl:text>\usepackage{libertinus}</xsl:text>
@@ -72,7 +73,7 @@
   skip=10pt
 	    }
 	    \usepackage{xcolor}
-\usepackage{titlesec}
+      \usepackage{titlesec}
 
 \definecolor{SectionBlue}{RGB}{0,90,180}
 	    \titleformat{\part}[display]
@@ -104,7 +105,9 @@
   {\thesubsubsection}
   {1em}
   {}
+  \usepackage{parskip}
+  \setlength{\parskip}{0.6em}
     </xsl:text>
   </xsl:param>
-    <xsl:template match="mml:math[@condition = 'web']"/>
+  <xsl:template match="mml:math[@condition = 'web']"/>
 </xsl:stylesheet>

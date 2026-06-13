@@ -32,13 +32,11 @@ the section entitled &#8220;GNU Free Documentation License&#8221;.
     </d:para>
   </d:dedication>
   <xi:include href="preface.xml"/>
-  <d:part
-      label="I">
+  <d:part>
     <title>Theory and Problems</title>
     <xi:include href="coordinates.xml"/>
   </d:part>
-  <d:part
-      label="II">
+  <d:part>
     <title>Answers</title>
   </d:part>
   <d:index>
