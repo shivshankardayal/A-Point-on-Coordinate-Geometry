@@ -1,5 +1,5 @@
 #!/bin/bash
 
-make html
+make build/index.html
 
-while inotifywait -qre close_write,move,create,delete .; do make html; done
+while inotifywait -qre close_write,move,create,delete .; do make build/index.html; done

@@ -26,6 +26,12 @@
   <!--<xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/highlighting/common.xsl" />
       <xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl-ns/html/highlight.xsl" />-->
 
+  <xsl:template match="d:cover" priority="10">
+    <xsl:message>FOUND COVER</xsl:message>
+    <div class="cover">
+      <xsl:apply-templates/>
+    </div>
+  </xsl:template>
   <xsl:template name="user.head.content">
     <xsl:copy-of select="document('analytics.js', /)"/>
     <xsl:copy-of select="document('mathjax_config.js', /)"/>
@@ -291,4 +297,7 @@
  section   nop
  set       toc
 </xsl:param>
+  <xsl:template match="m">
+    <xsl:value-of select="."/>
+  </xsl:template>
 </xsl:stylesheet>

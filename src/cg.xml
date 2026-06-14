@@ -2,8 +2,17 @@
 <d:book version="5.0" xmlns:d="http://docbook.org/ns/docbook"
   xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  xmlns:mml="http://www.w3.org/1998/Math/MathML"
+  xmlns:exsl="http://exslt.org/common"
+  exclude-result-prefixes="exsl">
   <d:info>
+    <d:cover>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/cp1.webp"/>
+      </d:imageobject>
+      </d:mediaobject>
+    </d:cover>
     <d:title>A Point on Coordinate Geometry</d:title>
     <d:author>
       <d:personname>
