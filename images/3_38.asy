@@ -1,6 +1,6 @@
 settings.tex="lualatex";
 settings.outformat="pdf";
-texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+
 defaultpen(fontsize(9pt));
 size(4cm);
 

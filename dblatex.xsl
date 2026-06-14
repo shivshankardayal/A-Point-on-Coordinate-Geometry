@@ -6,6 +6,7 @@
        for more information on how to use the following parameters -->
   <!--xsl:param name="geometry.options">oneside</xsl:param-->
   <xsl:param name="paper.type">b5paper</xsl:param>
+  <xsl:param name="latex.class.options">9pt</xsl:param>
 
   <!-- Include the colophon in the Table of Contents -->
   <xsl:param name="colophon.tocdepth">2</xsl:param>
@@ -53,7 +54,7 @@
   <!-- http://iweb.dl.sourceforge.net/project/sourcecodepro.adobe/SourceCodePro_FontsOnly-1.017.zip -->
   <xsl:param name="xetex.font">
     <xsl:text>\setmainfont[Ligatures=TeX,Scale=1]{Latin Modern Roman}
-        </xsl:text>
+    </xsl:text>
     \usepackage{fontspec}
     <xsl:text>\setsansfont[Ligatures=TeX,Scale=.95]{Roboto}
     </xsl:text>
@@ -67,11 +68,11 @@
     <xsl:text>\usepackage{caption}</xsl:text>
     <xsl:text>
 	    \usepackage{xcolor}
+      \definecolor{SectionBlue}{RGB}{0,100,44}
       \usepackage{titlesec}
 
-      \definecolor{SectionBlue}{RGB}{0,100,44}
 	    \titleformat{\part}[display]
-      {\Huge\bfseries\centering\color{SectionBlue}}
+      {\Huge\sffamily\bfseries\centering\color{SectionBlue}}
       {\Huge PART \thepart}
       {1em}
       {}
@@ -85,31 +86,35 @@
       skip=10pt
 	    }
       \titleformat{\chapter}[display]
-      {\Huge\bfseries\color{SectionBlue}}
-      {\filleft\Huge\thechapter}
+      {\Huge\sffamily\bfseries\color{SectionBlue}}
+      {\filleft\Huge Chapter \thechapter}
       {1ex}
       {\titlerule\vspace{1ex}\filright}
 	    [\vspace{1ex}\titlerule]
 
       \titleformat{\section}
-      {\Large\bfseries\color{SectionBlue}}
+      {\Large\sffamily\bfseries\color{SectionBlue}}
       {\thesection}
       {1em}
       {}
 
       \titleformat{\subsection}
-      {\large\bfseries\color{SectionBlue}}
+      {\large\sffamily\bfseries\color{SectionBlue}}
       {\thesubsection}
       {1em}
       {}
 
       \titleformat{\subsubsection}
-      {\normalsize\bfseries\color{SectionBlue}}
+      {\normalsize\sffamily\bfseries\color{SectionBlue}}
       {\thesubsubsection}
       {1em}
       {}
       \usepackage{parskip}
       \setlength{\parskip}{0.6em}
+      \usepackage{enumitem}
+      \setlist[enumerate]{font=\color{SectionBlue}}
+      \usepackage{setspace}
+      \setstretch{1.2}
     </xsl:text>
   </xsl:param>
   <xsl:template match="mml:math[@condition = 'web']"/>

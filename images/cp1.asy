@@ -3,7 +3,7 @@ import fontsize;
 
 settings.tex="lualatex";
 settings.outformat="pdf";
-texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+
 import graph;
 size(17.6cm, 25cm); // B5 page
 

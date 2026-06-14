@@ -4,7 +4,7 @@ import fontsize;
 
 settings.tex="lualatex";
 settings.outformat="pdf";
-texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+
 
 size(17.6cm, 25cm); // Page width fixed, height auto
 //unitsize(1cm);

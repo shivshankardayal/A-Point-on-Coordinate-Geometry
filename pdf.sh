@@ -1,5 +1,5 @@
 #!/bin/bash
 
-make pdf/merged.pdf
+make pdf/cg.pdf
 
-while inotifywait -qre close_write,move,create,delete .; do make pdf/merged.pdf; done
+while inotifywait -qre close_write,move,create,delete .; do make pdf/cg.pdf; done

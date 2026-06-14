@@ -458,32 +458,19 @@
         <m>$(1, 3), (-7, 6)$</m> and <m>$(5, -1)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>
-        and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>-</mo><mn>8</mn><mo>,</mo><mo>-</mo><mn>2</mn><mo>)</mo></math>.
+        <m>$(0, 4), (3, 6)$</m> and <m>$(-8, -2)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo><mo>,</mo><mo>(</mo><mo>-</mo><mn>9</mn><mo>,</mo><mo>-</mo><mn>3</mn><mo>)</mo></math>
-        and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>-</mo><mn>3</mn><mo>,</mo><mo>-</mo><mn>5</mn><mo>)</mo></math>.
+        <m>$(5, 2), (-9, -3)$</m> and <m>$(-3, -5)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>,</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>-</mo><mi>c</mi><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>-</mo><mi>a</mi><mo>,</mo><mi>c</mi><mo>)</mo></math>.
+        <m>$(a, b + c), (a, b - c)$</m> and <m>$(-a, c)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><mi>cos</mi><mo>&#x200A;</mo><msub><mi>&#x3D5;</mi><mn>1</mn></msub><mo>,</mo><mi>a</mi><mi>sin</mi><mo>&#x200A;</mo><msub><mi>&#x3D5;</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mo>(</mo><mi>a</mi><mi>cos</mi><mo>&#x200A;</mo><msub><mi>&#x3D5;</mi><mn>2</mn></msub><mo>,</mo><mi>a</mi><mi>sin</mi><mo>&#x200A;</mo><msub><mi>&#x3D5;</mi><mn>2</mn></msub><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><mi>cos</mi><mo>&#x200A;</mo><msub><mi>&#x3D5;</mi><mn>3</mn></msub><mo>,</mo><mi>a</mi><mi>sin</mi><mo>&#x200A;</mo><msub><mi>&#x3D5;</mi><mn>3</mn></msub><mo>)</mo></math>.
+        <m>$(a\cos\phi_1, a\sin\phi_1), (a\cos\phi_2, a\sin\phi_2)$</m> and <m>$(a\cos\phi_3, a\sin\phi_3)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><msubsup><mi>m</mi><mn>1</mn><mn>2</mn></msubsup><mo>,</mo><mn>2</mn><mi>a</mi><msub><mi>m</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mo>(</mo><mi>a</mi><msubsup><mi>m</mi><mn>2</mn><mn>2</mn></msubsup><mo>,</mo><mn>2</mn><mi>a</mi><msub><mi>m</mi><mn>2</mn></msub><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><msubsup><mi>m</mi><mn>3</mn><mn>2</mn></msubsup><mo>,</mo><mn>2</mn><mi>a</mi><msub><mi>m</mi><mn>3</mn></msub><mo>)</mo></math>.
+        <m>$\left(am_1^2, 2am_1\right), \left(am_2^2, 2am_2\right)$</m> and <m>$\left(am_3^2, 2am_3\right)$</m>.
       </d:listitem>
     </d:orderedlist>
     <d:orderedlist continuation="continues">
@@ -492,49 +479,26 @@
         points are in a straight line:
       </d:para>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>1</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mo>-</mo><mn>2</mn><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>-</mo><mn>3</mn><mo>,</mo><mn>16</mn><mo>)</mo></math>.
+        <m>$(1, 4), (3, -2)$</m> and <m>$(-3, 16)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mo>-</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mn>3</mn></mrow></mfenced><mo>,</mo><mo>(</mo><mo>-</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>-</mo><mn>8</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>.
+        <m>$\left(\frac{1}{2}, 3\right), (-5, 6)$</m> and <m>$(-8, 8)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>,</mo><mo>(</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>+</mo><mi>a</mi><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>c</mi><mo>,</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math>.
+        <m>$(a, b + c), (b, c + a)$</m> and <m>$(c, a + b)$</m>.
       </d:listitem>
       <d:listitem>
-        In any <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#x2206;</mo><mo>&#x200A;</mo><mi>A</mi><mi>B</mi><mi>C</mi></math>
-        prove that <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><msup><mi>B</mi><mn>2</mn></msup><mo>+</mo><mi>A</mi><msup><mi>C</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn><mfenced><mrow><mi>A</mi><msup><mi>C</mi><mn>2</mn></msup><mo>+</mo><mi>A</mi><msup><mi>D</mi><mn>2</mn></msup></mrow></mfenced></math>,
-        where <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi></math> is the middle point of
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>B</mi><mi>C</mi></math>.
+        In any <m>$\triangle ABC$</m> prove that <m>$AB^2 + AC^2 = 2(AC^2 + AD^2)$</m>,
+        where <m>$D$</m> is the middle point of <m>$BC$</m>.
       </d:listitem>
       <d:listitem>
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>B</mi><mi>C</mi></math> is a triangle
-        and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>D</mi><mo>,</mo><mi>E</mi></math> and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mi>F</mi></math> are the middle points of the sides
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mi>B</mi><mi>C</mi><mo>,</mo><mi>C</mi><mi>A</mi></math>
-        and <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>B</mi></math>; prove that the
-        point which divides <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mi>A</mi><mi>D</mi></math>internally in the ratio <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo>:</mo><mn>1</mn></math> also
-        divides the line <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>B</mi><mi>E</mi></math> and
-        <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>C</mi><mi>F</mi></math> in the same ratio.
+        <m>$ABC$</m> is a triangle and <m>$D, E$</m> and <m>$F$</m> are the middle points of the sides
+        <m>$BC, CA$</m> and <m>$AB$</m>; prove that the point which divides <m>$AD$</m> internally in the
+        ratio <m>$2:1$</m> also divides the line <m>$BE$</m> and <m>$CF$</m> in the same ratio.
       </d:listitem>
       <d:listitem>
-        Find the area of a quadrilateral whose vertices are <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>x</mi><mn>1</mn></msub><mo>,</mo><msub><mi>y</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mo>(</mo><msub><mi>x</mi><mn>2</mn></msub><mo>,</mo><msub><mi>y</mi><mn>2</mn></msub><mo>)</mo><mo>,</mo><mo>(</mo><msub><mi>x</mi><mn>3</mn></msub><mo>,</mo><msub><mi>y</mi><mn>3</mn></msub><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>x</mi><mn>4</mn></msub><mo>,</mo><msub><mi>y</mi><mn>4</mn></msub><mo>)</mo></math>.
+        Find the area of a quadrilateral whose vertices are <m>$(x_1, y_1), (x_2, y_2), (x_3, y_3)$</m>
+        and <m>$(x_4, y_4)$</m>.
       </d:listitem>
     </d:orderedlist>
     <d:orderedlist continuation="continues">
@@ -542,15 +506,10 @@
         Find the areas of the quadrilaterals the coordinates of whose vertices, taken in order, are
       </d:para>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mo>-</mo><mn>2</mn><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>4</mn><mo>,</mo><mo>-</mo><mn>7</mn><mo>)</mo></math>.
+        <m>$(1, 1), (3, 4), (5, -2)$</m> and <m>$(4, -7)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo><mo>,</mo><mo>(</mo><mo>-</mo><mn>3</mn><mo>,</mo><mo>-</mo><mn>9</mn><mo>)</mo><mo>,</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>
-        and <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mn>3</mn><mo>,</mo><mn>9</mn><mo>)</mo></math>.
+        <m>$(-1, 0), (-3, -9), (5, 8)$</m> and <m>$3, 9$</m>.
       </d:listitem>
     </d:orderedlist>
     <d:orderedlist continuation="continues">
@@ -558,28 +517,16 @@
         Find the lengths of the straight lines joining the pairs of points whose polar coordinates are
       </d:para>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>&#x3B8;</mi><mn>1</mn></msub><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>r</mi><mn>2</mn></msub><mo>,</mo><msub><mi>&#x3B8;</mi><mn>2</mn></msub><mo>)</mo></math>.
+        <m>$(r_1, \theta_1)$</m> and <m>$(r_2, \theta_2)$</m>
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>2</mn><mo>,</mo><mn>30</mn><mo>&#xB0;</mo></mrow></mfenced></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>4</mn><mo>,</mo><mn>120</mn><mo>&#xB0;</mo></mrow></mfenced></math>.
+        <m>$\left(2, 30^\circ\right)$</m> and <m>$\left(4, 120^\circ\right)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mo>-</mo><mn>3</mn><mo>,</mo><mn>45</mn><mo>&#xB0;</mo></mrow></mfenced></math>
-        and <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>7</mn><mo>,</mo><mn>105</mn><mo>&#xB0;</mo></mrow></mfenced></math>.
+        <m>$\left(-3, 45^\circ\right)$</m> and <m>$\left(7, 105^\circ\right)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mi>a</mi><mo>,</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></mrow></mfenced></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>3</mn><mi>a</mi><mo>,</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></mrow></mfenced></math>.
+        <m>$\left(a, \frac{\pi}{2}\right)$</m> and <m>$\left(3a, \frac{\pi}{6}\right)$</m>.
       </d:listitem>
     </d:orderedlist>
     <d:orderedlist continuation="continues">
@@ -587,28 +534,17 @@
         Find the areas of the triangle whose coordinates are
       </d:para>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>&#x3B8;</mi><mn>1</mn></msub><mo>)</mo><mo>,</mo><mo>(</mo><msub><mi>r</mi><mn>2</mn></msub><mo>,</mo><msub><mi>&#x3B8;</mi><mn>2</mn></msub><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>r</mi><mn>2</mn></msub><mo>,</mo><msub><mi>&#x3B8;</mi><mn>2</mn></msub><mo>)</mo></math>.
+        <m>$(r_1, \theta_1), (r_2, \theta_2)$</m> and <m>$(r_3, \theta_3)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>1</mn><mo>,</mo><mn>30</mn><mo>&#xB0;</mo></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>2</mn><mo>,</mo><mn>60</mn><mo>&#xB0;</mo></mrow></mfenced></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>3</mn><mo>,</mo><mn>90</mn><mo>&#xB0;</mo></mrow></mfenced></math>.
+        <m>$\left(1, 30^\circ\right), \left(2, 60^\circ\right)$</m> and <m>$\left(3, 90^\circ\right)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mo>-</mo><mn>3</mn><mo>,</mo><mn>30</mn><mo>&#xB0;</mo></mrow></mfenced><mo>,</mo><mfenced><mrow><mn>5</mn><mo>,</mo><mn>150</mn><mo>&#xB0;</mo></mrow></mfenced></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mn>7</mn><mo>,</mo><mn>210</mn><mo>&#xB0;</mo></mrow></mfenced></math>.
+        <m>$\left(-3, 30^\circ\right), \left(5, 150^\circ\right)$</m> and <m>$\left(7, 210^\circ\right)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mo>-</mo><mi>a</mi><mo>,</mo><mfrac><mi>&#x3C0;</mi><mn>6</mn></mfrac></mrow></mfenced><mo>,</mo><mfenced><mrow><mi>a</mi><mo>,</mo><mfrac><mi>&#x3C0;</mi><mn>2</mn></mfrac></mrow></mfenced></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mo>-</mo><mn>2</mn><mi>a</mi><mo>,</mo><mfrac><mrow><mn>2</mn><mi>&#x3C0;</mi></mrow><mn>3</mn></mfrac></mrow></mfenced></math>.
+        <m>$\left(-a, \frac{\pi}{6}\right), \left(a, \frac{\pi}{2}\right)$</m> and <m>$\left(-2a,
+        \frac{2\pi}{3}\right)$</m>.
       </d:listitem>
     </d:orderedlist>
     <d:orderedlist continuation="continues">
@@ -616,16 +552,10 @@
         Find the distance between the points:
       </d:para>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><mi>cos</mi><mo>&#x200A;</mo><mi>&#x3B1;</mi><mo>,</mo><mi>a</mi><mi>sin</mi><mo>&#x200A;</mo><mi>&#x3B1;</mi><mo>)</mo></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><mi>a</mi><mi>cos</mi><mo>&#x200A;</mo><mi>&#x3B2;</mi><mo>,</mo><mi>a</mi><mi>sin</mi><mo>&#x200A;</mo><mi>&#x3B2;</mi><mo>)</mo></math>.
+        <m>$(a\cos\alpha, a\sin\alpha)$</m> and <m>$(a\cos\beta, a\sin\beta)$</m>.
       </d:listitem>
       <d:listitem>
-        <math
-            xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mi>a</mi><msubsup><mi>t</mi><mn>1</mn><mn>2</mn></msubsup><mo>,</mo><mn>2</mn><mi>a</mi><msub><mi>t</mi><mn>1</mn></msub></mrow></mfenced></math>
-        and <math
-        xmlns="http://www.w3.org/1998/Math/MathML"><mfenced><mrow><mi>a</mi><msubsup><mi>t</mi><mn>2</mn><mn>2</mn></msubsup><mo>,</mo><mn>2</mn><mi>a</mi><msub><mi>t</mi><mn>2</mn></msub></mrow></mfenced></math>.
+        <m>$\left(at_1^2, 2at_1\right)$</m> and <m>$\left(at_2^2, 2at_2\right)$</m>.
       </d:listitem>
     </d:orderedlist>
     <d:orderedlist continuation="continues">
@@ -657,6 +587,151 @@
       </d:para>
       <d:listitem>
         <m>$r = a$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$\theta = \tan^{-1}m$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$r = a\cos\theta$</m>.
+      </d:listitem>
+      <d:listitem><m>$r^2 = a^2\sin2\theta$</m>.</d:listitem>
+      <d:listitem><m>$r^2\sin2\theta = 2a^2$</m>.</d:listitem>
+      <d:listitem><m>$\sqrt{r}\cos\frac{\theta}{2} = \sqrt{a}$</m>.</d:listitem>
+      <d:listitem><m>$\sqrt{r} = \sqrt{a}\sin\frac{\theta}{2}$</m>.</d:listitem>
+      <d:listitem><m>$r(\cos3\theta + \sin3\theta) = 5k\sin\theta\cos\theta$</m>.</d:listitem>
+      <d:listitem>
+        Find <m>$a$</m> if the distance between <m>$(a, 2)$</m> and <m>$(3, 4)$</m> is <m>$8$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the distance between the points <m>$(a + r\cos\theta, b + r\sin\theta)$</m> and <m>$(a,
+        b)$</m> is independent of <m>$\theta$</m>.
+      </d:listitem>
+      <d:listitem>
+        Use distance formula to show that the points <m>$(\rm cosec^2\theta, 0), (0, \sec^2\theta)$</m> and
+        <m>$(1, 1)$</m> are collinear.
+      </d:listitem>
+      <d:listitem>
+        If the point <m>$P(x, y)$</m> be equidistant from the points <m>$(a + b, b - a)$</m> and <m>$(a - b,
+        a + b)$</m>, prove that <m>$\frac{a - b}{a + b} = \frac{x - y}{x + y}$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the points <m>$(3, 4), (8, -6)$</m> and <m>$(13, 9)$</m> are the vertices of a right angle
+        triangle.
+      </d:listitem>
+      <d:listitem>
+        <d:para>
+          Determine the type(isosceles, right angled, right angled isosceles, equilateral, scalene) of the
+          following triangles whose vertices are
+        </d:para>
+        <d:orderedlist>
+          <d:listitem>
+            <m>$(1, 1), \left(-\sqrt{3}, \sqrt{3}\right)$</m> and <m>$(-1, -1)$</m>.
+          </d:listitem>
+          <d:listitem>
+            <m>$(0, 2), (7, 0)$</m> and <m>$(2, 5)$</m>.
+          </d:listitem>
+          <d:listitem>
+            <m>$(-2, 5), (7, 10)$</m> and <m>$(3, -4)$</m>.
+          </d:listitem>
+        </d:orderedlist>
+      </d:listitem>
+      <d:listitem>
+        Prove that the distance of the point <m>$(a\cos\alpha, a\sin\alpha)$</m>from the origin is
+        independent of <m>$\alpha$</m>.
+      </d:listitem>
+      <d:listitem>
+        Let <m>$A(6, -1), B(1, 3)$</m> and <m>$C(x, 8)$</m> be three points such that <m>$AB = BC$</m>. Find
+        the value of <m>$x$</m>.
+      </d:listitem>
+      <d:listitem>
+        Using distance formula, show that the points <m>$(1, 5), (2, 4)$</m> and <m>$(3, 3)$</m> are
+        collinear.
+      </d:listitem>
+      <d:listitem>
+        Prove that the points <m>$(2a, 4a), (2a, 6a)$</m> and <m>$(2a + \sqrt{3a}, 5a)$</m> are the vertices
+        of an equilateral triangle.
+      </d:listitem>
+      <d:listitem>
+        If the line segment joining the points <m>$A(a, b)$</m> and <m>$B(c, d)$</m> subtend an angle
+        <m>$\theta$</m> at the origin <m>$O$</m>, prove that <m>$\cos\theta = \frac{ac + bd}{\sqrt{\left(a^2
+        + b^2\right)\left(c^2 + d^2\right)}}$</m> or <m>$OA.OB.\cos\theta = ac + bd$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the circumcenter of the triangle whose vertices are <m>$(-2, -3), (-1, 0)$</m> and <m>$(7,
+        -6)$</m>. Also find the radius of the circumcircle.
+      </d:listitem>
+      <d:listitem>
+        The distance between two parallel lines is unity. A point <m>$P$</m> lies between the lines
+        at a distance <m>$a$</m> from one of them. Find the length of a side of an equilateral <m>$\triangle
+        PQR$</m>, vertex <m>$Q$</m> of which lies on one of the parallel lines and vertex <m>$R$</m> on the
+        other line.
+      </d:listitem>
+      <d:listitem>
+        The opposite angular points of a square are <m>$(3, 4)$</m> and <m>$(1, -1)$</m>, find the
+        coordinate of the remaining vertices of the square.
+      </d:listitem>
+      <d:listitem>
+        <m>$A(−4, 0)$</m> and <m>$B(−1, 4)$</m> are two given points. <m>$𝐶$</m> and <m>$D$</m> are
+        symmetric to the given points <m>$A$</m> and <m>$B$</m> respectively with respect to
+        <m>$y$</m>-axis. Calculate the perimeter of the trapezium <m>$ABCD$</m>.
+      </d:listitem>
+      <d:listitem>
+        Point <m>$B$</m> is symmetric to <m>$A(4, −1)$</m> with respect to the bisector of the first
+        quadrant. Find <m>$AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        A line segment <m>$AB$</m> through a point <m>$A(2, 0)$</m> which makes an angle of
+        <m>$30^\circ$</m> with the positive direction of <m>$x$</m>-axis is rotated about <m>$A$</m> in
+        anti-clockwise direction though an angle of <m>$15^\circ$</m>. If <m>$A$</m> be the new position of
+        the point <m>$B\left(2 + \sqrt{3}, 1\right)$</m> find the coordinate of <m>$C$</m>.
+      </d:listitem>
+      <d:listitem>
+        The point <m>$(1, −2)$</m> is reflected in the <m>$x$</m>-axis and then translated parallel to the
+        positive direction of <m>$𝑥$</m>-axis through a distance of <m>$3$</m> units. Find the coordinates of
+        the point in the new position.
+      </d:listitem>
+      <d:listitem>
+        The line segment joining <m>$A(3, 0)$</m> and <m>$B(5, 2)$</m> is rotated about <m>$A$</m> in the
+        anticlockwise direction by an angle of <m>$45^\circ$</m> so that point <m>$B$</m> goes to C. If
+        <m>$D$</m> is the reflection of <m>$C$</m> in <m>$y$</m>-axis, find the coordinates of <m>$D$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the coordinates of the point which divides the line segment joining the points
+        <m>$(5, −2)$</m> and <m>$(9, 6)$</m> internally and externally in the ratio <m>$3 : 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$𝑥$</m> coordinates of two points <m>$B$</m> and <m>$𝐶$</m> are the roots of the equation <m>$x^2
+        + 4x + 3 = 0$</m> and their <m>$𝑦$</m> coordinates are the roots of the equation <m>$x^2 - x - 6 =
+        0$</m>. If <m>$x$</m> coordinates of <m>$𝐵$</m> is less than <m>$𝐵$</m> coordinate of <m>$C$</m> and
+        <m>$y$</m> coordinate of <m>$B$</m> is greater than the <m>$𝐵$</m> coordinate of <m>$C$</m> and
+        coordinate of a third point <m>$𝐴$</m> be <m>$(3, −5)$</m>, find the
+        length of the bisector of the interior angle at <m>$A$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the ratio in which the point <m>$(2, y)$</m> divides the line segment joining <m>$(4, 3)$</m>
+        and <m>$(6, 3)$</m> and hence find the value of <m>$y$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A, B, C, D$</m> are points whose coordinates are <m>$(−2, 3), (8, 9), (0, 4), (3, 0)$</m>
+        respectively, find the ratio in which <m>$AB$</m> is divided by <m>$CD$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A_1, A_2, A_3, \ldots, A_n$</m> are <m>$n$</m> points in a plane whose coordinates are
+        <m>$(x_1, y_1),$ $(x_2, y_2), (x_3, y_3), \ldots, (x_n, y_n)$</m> respectively. <m>$A_1A_2$</m> is
+        bisected in the point <m>$G_1$</m>; <m>$G_1A_3$</m> is divided at <m>$G_2$</m> in the ratio <m>$1 :
+        2$</m>; <m>$G_2A_4$</m> is divided at <m>$G_3$</m> in the ratio <m>$1 : 3$</m>; and so on until all
+        the points are exhausted. Show that the coordinates of the final point so obtained are
+        <m>\[\frac{x_1 + x_2 + \cdots + x_n}{n}, \frac{y_1, y_2 + \cdots + y_n}{n}.\]</m>
+      </d:listitem>
+      <d:listitem>
+        Show that the straight line <m>$ax + by + c = 0$</m> divides the join of points <m>$A(x_1, y_1)$</m>
+        and <m>$B(x_2, y-2)$</m> in the ratio <m>$-\frac{ax_1 + by_1 + c}{ax_2 + by_2 + c}$</m>. Explain the
+        negative sign.
+      </d:listitem>
+      <d:listitem>
+        A line <m>$L$</m> intersects three sides <m>$BC, CA$</m> and <m>$AB$</m> of <m>$\triangle ABC$</m>
+        in <m>$P, Q$</m> and <m>$R$</m> respectively. Show that
+        <m>$\frac{BP}{PC}.\frac{CQ}{QA}.\frac{AR}{RB} = -1$</m>.
       </d:listitem>
     </d:orderedlist>
   </d:sect1>

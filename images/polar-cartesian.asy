@@ -1,5 +1,5 @@
 settings.tex="lualatex";
-texpreamble("\usepackage{fontspec}\usepackage{unicode-math}\setmainfont{Libertinus Serif}\setmathfont{Libertinus Math}");
+
 settings.outformat = "pdf";
 defaultpen(fontsize(9pt));
 import geometry;
