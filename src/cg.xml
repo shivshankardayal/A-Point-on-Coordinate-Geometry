@@ -44,6 +44,8 @@ the section entitled &#8220;GNU Free Documentation License&#8221;.
   <d:part>
     <title>Theory and Problems</title>
     <xi:include href="coordinates.xml"/>
+    <xi:include href="locus.xml"/>
+    <xi:include href="straight-lines.xml"/>
   </d:part>
   <d:part>
     <title>Answers</title>

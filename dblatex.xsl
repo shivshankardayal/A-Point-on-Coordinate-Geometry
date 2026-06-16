@@ -110,7 +110,7 @@
       {1em}
       {}
       \usepackage{parskip}
-      \setlength{\parskip}{0.6em}
+      \setlength{\parskip}{0.4em}
       \usepackage{enumitem}
       \setlist[enumerate]{font=\color{SectionBlue}}
       \usepackage{setspace}

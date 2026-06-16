@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="locus/index.html" ?>
+  <d:title>Locus</d:title>
+  <d:para>
+    When the movement of a point is represented by an equation or equations then it
+    means that the movement of point satisfies some geometric condition or conditions, the
+    associated equation or equations or the path traced by the point is called its <d:emphasis
+    role="italic">locus</d:emphasis>. In
+    coordinate geometry all the equations whether they are straight lines, circles, parabolas,
+    ellipses or hyperbolas are all locus of a point to some equation.
+  </d:para>
+  <d:para>
+    A common example is that of a circle. Consider a point <m>$P$</m> which moves as to form
+    a circle. Then the condition is that the distance of point from the center of the circle
+    is equal to the radius of the circle. Let <m>$C(a, b)$</m> be the center of the circle and <m>$r$</m> be
+    its radius. Then the equation which governs this movement is given by <m>$(x - a)^2 + (y - b)^2 =
+    r^2$</m>, also known as general equation of a circle. In this case the circumference is the locus of the
+    point <m>$P$</m>.
+  </d:para>
+  <d:para>
+    Another example could be given as bisector of a line segment. Consider a point <m>$P$</m> and
+    a line segment formed by two points <m>$A$</m> and B. In this case the path is governed by
+    the fact that <m>$P$</m> moves in such a way that its distance from <m>$A$</m> and <m>$B$</m> remains
+    equal. Let <m>$A$</m> be <m>$(x_1, y_1)$</m> and <m>$B$</m> be <m>$(x_2, y_2)$</m>. Then we can say that
+    <m>$P(x, y)$</m> satisfies
+  </d:para>
+  <d:para>
+    <m>$(x - x_1)^2 + (y - y_1)^2 = (x - x_2) + (y - y_2)^2$</m> <m>$\Rightarrow 2x(x_2 - x_1) + 2y(y_2 - y_1) =
+    x_2^2 - x_1^2 + y_2^2 - y_1^2$</m> is the equation of the straight line
+    which representd the locus of the bisector of <m>$AB$</m>, which is a straight line.
+  </d:para>
+  <d:figure xml:id="bisector">
+    <d:title>Bisector lines.</d:title>
+    <d:mediaobject>
+      <d:imageobject>
+        <d:imagedata fileref="../images/2_1.webp"/>
+      </d:imageobject>
+    </d:mediaobject>
+  </d:figure>
+  <d:para>
+    In the given figure both <m>$AB$</m> and <m>$CD$</m> are bisectors of each other.
+  </d:para>
+  <d:para>
+    We can also state our circle example in another manner, which will lead to same locus
+    but a different equation. By geometry, we know that the end points of a diameter and
+    any point on the circumference subtend a right angle at the circumference. Thus, <m>$A$</m>
+    and <m>$B$</m> can be two different fixed points and <m>$P$</m> can be a point such that <m>$\triangle
+    ABP$</m> is a right-angled triangle at <m>$P$</m>. The locus of <m>$P$</m> is therefore again a circle
+    with <m>$AB$</m> as a diameter.
+  </d:para>
+  <d:para>
+    Consider equation of a straight line.
+    <m>\[x = y\tag{2.1}\]</m>
+  </d:para>
+  <d:para>
+    The Eq. 2.1 is a relationship between two quantities and as such there are infinite solutions that
+    exist. We cannot know all solutions but we can definitely enumerate some of the solutions. For example,
+    <m>$(x, y) \in \{(0, 0), (1, 1), (2, 2), (3, 3), (−1, −1),$</m> <m>$(−2, −2), (−3, −3)\}$</m> are some
+    of the values which will satisfy the above equation. These are the points which will lie on the line
+    represented by the Eq. 2.1.
+  </d:para>
+  <d:figure xml:id="locus-straight-line">
+    <d:title>Locus of a straight line.</d:title>
+    <d:mediaobject>
+      <d:imageobject>
+        <d:imagedata fileref="../images/2_2.webp"/>
+      </d:imageobject>
+    </d:mediaobject>
+  </d:figure>
+  <d:para>
+    We see from <xref linkend="locus-straight-line"/> that the points we have chosen indeed lie on the
+    equation representing the locus.
+  </d:para>
+  <d:para>
+    Now we consider our example of a circle again. Imagine a circle with center at origin
+    having radius of <m>$2$</m> units. The equation of this circle is given by
+    <m>\[x^2 + y^2 = 4\tag{2.2}\]</m>
+  </d:para>
+  <d:para>
+    Like straight line there are infinite points on this circle and we consider some of them. For example,
+    <m>$(x, y) \in \{(2, 0), (\sqrt{3}, 1), (\sqrt{2}, \sqrt{2}), (1, \sqrt{3}), (0, 2), (−1, \sqrt{2}),$</m>
+    <m>$(−\sqrt{2}, \sqrt{2}), (−\sqrt{3}, 1), (−2, 0), (−\sqrt{3}, −1), (−\sqrt{2}, −\sqrt{2}), (−1,
+    −\sqrt{3}), (0, −2), (1, −\sqrt{3}),$</m> <m>$(\sqrt{2}, −\sqrt{2}), (\sqrt{3}, −1)\}$</m>.
+  </d:para>
+  <d:para>
+    These points are shown on the circle in the figure below:
+  </d:para>
+  <d:figure xml:id="locus-circle">
+    <d:title>Locus of a circle.</d:title>
+    <d:mediaobject>
+      <d:imageobject>
+        <d:imagedata fileref="../images/2_3.webp"/>
+      </d:imageobject>
+    </d:mediaobject>
+  </d:figure>
+  <d:para>
+    We can take any point <m>$Q(x, y)$</m> on <xref linkend="locus-circle"/> such that <m>$QM$</m> is the
+    perpendicular on <m>$x$</m>-axis then we find that <m>$QM^2 + OM^2 = OQ^2 \Rightarrow x^2 + y^2 =
+    r^2$</m>, which is what the equation of a circle is. Thus, all the points on the circle satisfy the
+    Eq. 2.2. We take one more example of that of a parabola. We take a specific parabola given by the
+    equation
+    <m>\[y^2 = 4x\tag{2.3}\]</m>
+  </d:para>
+  <d:para>
+    Like the circle example there are infinite points on this parabola as well and we consider
+    some of them like the circle example. For example, <m>$(x, y)\in \{(0, 0), (1, \pm2),$</m> <m>$(2,
+    \pm2\sqrt{2}, (4, \pm4\}$</m>.
+  </d:para>
+  <d:para>
+    These points are shown on the parabola in the figure below:
+  </d:para>
+  <d:figure xml:id="locus-parabola">
+    <d:title>Locus of a parabola.</d:title>
+    <d:mediaobject>
+      <d:imageobject>
+        <d:imagedata fileref="../images/2_4.webp"/>
+      </d:imageobject>
+    </d:mediaobject>
+  </d:figure>
+  <d:para>
+    If we take any other point on the parabola then it will satisfy the equation of the
+    parabola like it did for the circle example. Thus, all the points on the parabola satisfy
+    the Eq. 2.3.
+  </d:para>
+  <d:para>
+    Similarly, we can prove that <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> is locus of an ellipse, and
+    <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> s that of a hyperbola. You are encourage to draw the
+    diagram and verify it.
+  </d:para>
+  <d:sect1>
+    <d:title>Finding Locus of a Point</d:title>
+    <d:para>
+      Let the coordinates of the moving point <m>$P$</m> be <m>$(\alpha, \beta)$</m>. Apply the given
+      geometrical constraint or condition tp obtain the relationship between <m>$\alpha, \beta$</m> and known
+      quantities. Replace <m>$(\alpha, \beta)$</m> by <m>$(x, y)$</m> in the obtained equation. The resulting
+      equation will be the locus of the point under consideration.
+    </d:para>
+    <d:para>
+      If a point moves in such a manner that it satisfies any given condition it will describe
+      some definitive curve, or locus then we can always find an equation between 𝑥 and 𝑦
+      of any point on the path. This equatio is called equation of the locus or the curve in
+      question.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Definition: Euqation to a curve:</d:emphasis><d:emphasis role="italic">The
+      equation to a curve is a relation, which exists between the coordinates of any point on the curve, and
+      which holds for no other points except lying on the curve.</d:emphasis>
+    </d:para>
+    <d:para>
+      It is obvious that for every equation between <m>$x$</m> and <m>$y$</m> a geometrical locus can always
+      be found.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Equation of Locus in Different Forms</d:title>
+    <d:orderedlist>
+      <d:listitem>
+        <d:emphasis role="bold">Cartesian Form:</d:emphasis> If the equation of the locus has the form <m>$y
+        = f(x)$</m> or <m>$f(x, y) = 0$</m>, where <m>$x$</m> and <m>$y$</m> are the cartesian coordinates
+        of the point <m>$P$</m>, it is called cartesian equation of the locus. All the examples we have
+        covered are of the cartesian form.
+      </d:listitem>
+      <d:listitem>
+        <d:emphasis role="bold">Polar Form;</d:emphasis> If the equation of the locus has the form <m>$r=
+        f(\theta)$</m> or <m>$f(r, \theta) = 0$</m> are the polar coordinates of the point <m>$P$</m>, it is
+        called polar equation of the locus. For example, <m>$r^2\cos^2\theta + r^2\sin^2\theta = a^2$</m> is
+        the equation of the circle in polar form.
+      </d:listitem>
+      <d:listitem>
+        <d:emphasis role="bold">Parametric Form:</d:emphasis> If <m>$x$</m> and <m>$y$</m> coordinates of
+        the point <m>$P$</m> are given in terms of a third variable 𝑡(called the parameter). This equation
+        is called parametric equation of the locus. For example, the equation of parabola, which is
+        <m>$y^2 = 4x$</m> in cartesian form can be written in parametric form as <m>$x = t^2$</m> and <m>$y
+        = 2t$</m>. If we eliminate <m>$t$</m> then we get cartesian form of the equation to the locus.
+      </d:listitem>
+    </d:orderedlist>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Problems</d:title>
+    <d:orderedlist>
+      <d:listitem>
+         point moves so that the algebraic sum of its distances from two given perpendicular
+         axes is equal to a constant quantity <m>$a$</m>; find the equation to its locus.
+      </d:listitem>
+      <d:listitem>
+        The sum of squares of the distances of a moving point from the two fixed points
+        <m>$(a, 0)$</m> and <m>$(-a, 0)$</m> is equal to a constant quantity <m>$2c^2$</m>. Find the
+        equation to its locus.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of a point which moves such that its distance from the point <m>$(-1, 0)$</m>
+        is always three times its distance from the point <m>$(0, 2)$</m>.
+      </d:listitem>
+    </d:orderedlist>
+    <d:orderedlist continuation="continues">
+      <d:para>
+        <m>$A$</m> and <m>$B$</m> being the fixed points <m>$(a, 0)$</m> and <m>$(-a, 0)$</m> respectively,
+        obtain the equations giving the locus of <m>$P$</m>, when
+      </d:para>
+      <d:listitem>
+        <m>$PA^2 - PB^2$ = </m> a constant quantity <m>$= 2k^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$PA = nPB, n$</m> being a constant.
+      </d:listitem>
+      <d:listitem>
+        <m>$PA + PB = c$</m>, a constant quantity.
+      </d:listitem>
+      <d:listitem>
+        <m>$PB^2 + PC^2 = 2PA^2, C$</m> being the point <m>$(c, 0)$</m>.
+      </d:listitem>
+      <d:listitem>
+        ind the locus of a point whose distance from the point <m>$(1, 2)$</m> is equal to its distance
+        from the <m>$y$</m>-axis.
+      </d:listitem>
+    </d:orderedlist>
+    <d:orderedlist continuation="continues">
+      <d:para>
+        Find the equation to the locus of a point which is always equidistant from the points
+        whose coordinates are
+      </d:para>
+      <d:listitem>
+        <m>$(1, 0)$</m> and <m>$(0, -2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$(2, 3)$</m> and <m>$(4, 5)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$(a + b, a - b)$</m> and <m>$(a - b, a + b)$</m>.
+      </d:listitem>
+    </d:orderedlist>
+    <d:orderedlist continuation="continues">
+      <d:para>
+        Find the equation to the locus of a point which moves so that
+      </d:para>
+      <d:listitem>
+        its distance from the <m>$x$</m>-axis is three times its distance from the <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        Its distance from the point <m>$(a, 0)$</m> is always four times its distance from the axis of
+        <m>$y$</m>.
+      </d:listitem>
+      <d:listitem>
+        the sum of the squares of its distances from the axes is equal to <m>$3$</m>.
+      </d:listitem>
+      <d:listitem>
+        the square of its distance from the point <m>$(0, 2)$</m> is equal to <m>$4$</m>.
+      </d:listitem>
+      <d:listitem>
+        its distance from the point <m>$(3, 0)$</m> is three times its distance from <m>$(0, 2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        its distance from the <m>$x$</m>-axis is always one half its distance from the origin.
+      </d:listitem>
+      <d:listitem>
+        A fixed point is at a perpendicular distance 𝑎 from a fixed straight line and a point
+        moves so that its distance from the fixed point is always equal to its distance from
+        the fixed line. Find the equation to its locus, the axes of coordinates being drawn
+        through the fixed point and being parallel and perpendicular to the given line.
+      </d:listitem>
+      <d:listitem>
+        In the previous question if the first distance be (1), always half, and (2), always
+        twice, the second distance, find the equations to the respective loci.
+      </d:listitem>
+      <d:listitem>
+        If the coordinates of a variable point <m>$P$</m> be <m>$(a\cos\theta, a\sin\theta)$</m>, where
+        <m>$\theta$</m> is a variable quantity, find the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the locus of a point such that the sum of its distances from
+        <m>$(0, 2)$</m> and <m>$(0, −2)$</m> is <m>$6$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$A$</m> and <m>$B$</m> are two fixed points having a distance of <m>$2a$</m>. Find the locus of a
+        point <m>$P$</m> such that <m>$\angle APB$</m> is a right angle.
+      </d:listitem>
+      <d:listitem>
+        A line segment <m>$AB$</m> of length <m>$a + b$</m> moves such that its extremities <m>$a$</m> and
+        <m>$B$</m> always remain on the axis of <m>$x$</m> and <m>$y$</m> respectively. Find the locus of a
+        variable point <m>$P$</m> on <m>$AB$</m> such that <m>$PA = a, PB = b$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$O$</m> be the origin and <m>$A$</m> be a point on the locus <m>$y^2 = 8x$</m>. Find the locus
+        of the middle point of <m>$OA$</m>.
+      </d:listitem>
+      <d:listitem>
+        Examine whether point <m>$(2, −5)$</m> lies on the curve <m>$x^2 + y^2 − 2𝑥 + 1 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the equations <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$y^2 − (m_1 + m_2)xy + m_1m_2^2 = 0$</m>
+        represent the same curve, find <m>$m_1 + m_2$</m> and <m>$m_1m_2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of a variable point <m>$(at^2, 2at)$</m>, where <m>$t$</m> is the parameter.
+      </d:listitem>
+      <d:listitem>
+        If the coordinates of a variable point <m>$P$</m> be <m>$\left(t + \frac{1}{t}, t -
+        \frac{1}{t}\right)$</m>, where <m>$t$</m> is variable quantity, then find the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the coordinates of a variable point <m>$P$</m> be <m>$(\cos\theta + \sin\theta, \cos\theta −
+        \sin\theta)$</m>, where <m>$\theta$</m> is a variable quantity, then find the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A(\cos\theta, \sin\theta), B(\sin\theta, \cos\theta)$</m> and <m>$C(1, 2)$</m> are the
+        vertices of a <m>$\triangle ABC$</m>, find the locus of its centroid if <m>$\theta$</m> varies.
+      </d:listitem>
+      <d:listitem>
+        The position of a moving point in the <m>$xy$</m>-plane at time <m>$t$</m> is <m>$(u\cos\alpha.t,
+        u\sin\alpha.t − kt^2)$</m>, where <m>$u, \alpha, k$</m> are constants. Find the locus of the moving
+        point.
+      </d:listitem>
+      <d:listitem>
+        A point moves so that its distance from the point <m>$(−2, 3)$</m> is always three times its
+        distance from the point <m>$(0, 3)$</m>. Find equation to its locus.
+      </d:listitem>
+      <d:listitem>
+        <m>$A$</m> and <m>$B$</m> are two given points whose coordinates are <m>$(−5, 3)$</m> and <m>$(2,
+        4)$</m> respectively. A point <m>$P$</m> moves in such a manner that <m>$PA : PB = 3 : 2$</m>. Find
+        the equation to the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$S$</m> is the point <m>$(4, 0)$</m> and <m>$M$</m> is the foot of perpendicular drawn from a
+        point <m>$P$</m> to the <m>$𝑦$</m>-axis. If <m>$P$</m> moves such that the distance <m>$PS$</m> and
+        <m>$PM$</m> remain equal, find the locus to <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the locus of the point equidistant from two given points is the straight
+        line which bisects the line segment joining the given points at right angles.
+      </d:listitem>
+      <d:listitem>
+        If a point <m>$P$</m> moves such that its distance from <m>$(a, 0)$</m> is always equal to <m>$a +
+        x$</m> coordinate of <m>$P$</m>, show that the locus of <m>$P$</m> is <m>$y^2 = 4ax$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A(1, 2)$</m> and <m>$B(−2, 3)$</m> are two fixed points, find the locus of a point <m>$P$</m>
+        so that area of <m>$\triangle PAB$</m> is <m>$9$</m> units.
+      </d:listitem>
+      <d:listitem>
+        If <m>$P$</m> is the middle point of the straight line joining a given point <m>$A(1, 2)$</m> and
+        <m>$Q$</m> where <m>$Q$</m> is a variable point on the curve <m>$x^2 + y^2 + x + y = 0$</m>. Find
+        the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$QA(2, 3)$</m> is a fixed point and <m>$Q(3\cos\theta, 2\sin\theta)$</m> a variable point. If
+        <m>$P$</m> divides <m>$AQ$</m> internally in the ratio <m>$3 : 1$</m>, find the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        From the point <m>$A(6, −8)$</m> all possible lines are drawn to cut the <m>$x$</m>-axis. Find the
+        locus of their middle points.
+      </d:listitem>
+    </d:orderedlist>
+  </d:sect1>
+</d:chapter>

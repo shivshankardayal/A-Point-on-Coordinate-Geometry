@@ -733,6 +733,387 @@
         in <m>$P, Q$</m> and <m>$R$</m> respectively. Show that
         <m>$\frac{BP}{PC}.\frac{CQ}{QA}.\frac{AR}{RB} = -1$</m>.
       </d:listitem>
+      <d:listitem>
+        The vertices of a triangle are <m>$A(x-1, x_1\tan\alpha), B(x_2, x_2\tan\beta), C(x_3,
+        x_3\tan\gamma)$</m>. If the circumcenter of <m>$\triangle ABC$</m> coincides with the origin and
+        <m>$H(x, y)$</m> is the orthocenter of <m>$\triangle ABC$</m>, (where <m>$x_1\sec\alpha,
+        x_2\sec\beta, x_3\sec\gamma$</m> are of the same sign). Show that
+        <m>$\frac{\overline{y}}{\overline{x}} = \frac{\sin\alpha + \sin\beta + \sin\gamma}{\cos\alpha +
+        \cos\beta + \cos\gamma}$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$\alpha, \beta$</m> and <m>$\gamma$</m> are the real roots of the equation <m>$x^3 - 3px^2 +
+        3qx - 1 = 0$</m>, find the centroid of the triangle whose vertices are <m>$\left(\alpha,
+        \frac{1}{\alpha}\right), \left(\beta, \frac{1}{\beta}\right)$</m> and <m>$\left(\gamma,
+        \frac{1}{\gamma}\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A\left(at^2, 2at\right), B\left(\frac{a}{t^2}, -\frac{2a}{t}\right)$</m> and <m>$C(a, 0)$</m>
+        be any three points, show that <m>$\frac{1}{AC} + \frac{1}{BC}$</m> is independent of <m>$t$</m>.
+      </d:listitem>
+      <d:listitem>
+        If two vertices of an equilateral triangle be <m>$(0, 0)$</m> and <m>$\left(3, \sqrt{3}\right)$</m>,
+        find the coordinate of the third vertex.
+      </d:listitem>
+      <d:listitem>
+        Find the circumcenter and circumradius of the triangle whose vertices are <m>$(-2, 3), (2, -1)$</m>
+        and <m>$(4, 0)$</m>.
+      </d:listitem>
+      <d:listitem>
+        The vertices of a triangle are <m>$A(1, 1), B(4, 5)$</m> and <m>$C(6, 13)$</m>. Find <m>$\cos A$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the distance between the points <m>$\left(3, \frac{\pi}{4}\right)$</m> and <m>$(7,
+        \frac{5\pi}{4})$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$A(2, 4)$</m> and <m>$B(2, 6)$</m> are two given points; <m>$ABP$</m> is an equilateral triangle
+        on the side of <m>$AB$</m> opposite to the origin. Find the coordinates of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the points <m>$\left(2, 45^\circ\right), \left(\sqrt{2}, 90^\circ\right)$</m> and <m>$(-2,
+        135^\circ)$</m> are the vertices of a right angled triangle.
+      </d:listitem>
+      <d:listitem>
+        Find the coordinates of the point which divides the line segment joining <m>$(2, 4)$</m> and <m>$(6,
+        8)$</m> in the ratio <m>$1 : 3$</m> internally and externally.
+      </d:listitem>
+      <d:listitem>
+        <d:para>
+          Find the coordinates of the points which trisect the line segment joining the points
+        </d:para>
+        <d:orderedlist>
+          <d:listitem>
+            <m>$(1, −2)$</m> and <m>$(−3, 4)$</m>.
+          </d:listitem>
+          <d:listitem>
+            <m>$(2, 3)$</m> and <m>$(6, 5)$</m>.
+          </d:listitem>
+        </d:orderedlist>
+      </d:listitem>
+      <d:listitem>
+        <m>$A(1, 1)$</m> and <m>$B(2, −3)$</m> are two points and D is a point on <m>$AB$</m> produced such that
+        <m>$AD = 3Ab$</m>, then find the coordinates of <m>$D$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the middle point of the line segment joining <m>$(3, 4)$</m> and <m>$(k, 7)$</m> is <m>$(x, y)$</m> and <m>$2x +
+        2y + 1 = 0$</m>, find the value of <m>$k$</m>.
+      </d:listitem>
+      <d:listitem>
+        One end of a diameter of a circle is at <m>$(2, 3)$</m> and the center is <m>$(−2, 5)$</m>, find the
+        coordinates of the other end of the diameter.
+      </d:listitem>
+      <d:listitem>
+        Find the length of the medians of the triangle whose vertices are <m>$(−1, 3), (1, −1)$</m> and
+        <m>$(5, 1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the point <m>$C(−1, 2)$</m> divides the line segment joining <m>$A(2, 5)$</m> and <m>$B$</m> in the ratio
+        <m>$3 : 4$</m>, find the coordinates of <m>$B$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$A, B, C$</m> are collinear points and <m>$B$</m> lies between <m>$A$</m> and
+        <m>$C$</m>. <m>$A$</m> and <m>$B$</m> are <m>$(3, 4)$</m> and <m>$(7, 7)$</m> respectively. If
+        <m>$AC = 10$</m> units, find the coordinates of <m>$𝐶$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the ratio in which <m>$(−8, 3)$</m> divides the line segment of the points <m>$(2, −2)$</m> and
+        <m>$(−4, 1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        In what ratio does the <m>$x$</m>-axis divides the line segment joining the points <m>$(2, −3)$</m>
+        and <m>$(5, 6)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the straight lines joining the points <m>$A(0, −1)$</m> and <m>$B(15, 2)$</m> divides the line
+        joining the points <m>$C(−1, 2)$</m> and <m>$D(4, −5)$</m> internally in the ratio <m>$2 : 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the ratio in which the line segment joining the points <m>$(1, 2)$</m> and <m>$(−2, 3)$</m> is
+        divided by the line <m>$3x + 4y = 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the ratio in which the line <m>$y − x + 2 = 0$</m> divides the line segment joining <m>$(3,
+        −1)$</m> and <m>$(8, 9)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the distance of the point from origin which divides the line segment joining the points <m>$(5,
+        −4)$</m> and <m>$(3, −2)$</m> in the ratio <m>$4 : 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        The coordinates of the middle points of the sides of a triangle are <m>$(1, 1), (2, 3)$</m> and
+        <m>$(4, 1)$</m>, find the coordinates of the vertices.
+      </d:listitem>
+      <d:listitem>
+        Find the centroid and incenter of the triangle whose vertices are
+        <d:orderedlist>
+          <d:listitem>
+            <m>$(2, 4), (6, 4)$</m> and <m>$(2, 0)$</m>.
+          </d:listitem>
+          <d:listitem>
+            <m>$(1, 2), (2, 3)$</m> and <m>$(3, 4)$</m>.
+          </d:listitem>
+        </d:orderedlist>
+      </d:listitem>
+      <d:listitem>
+        Two vertices of a triangle are <m>$(−1, 4)$</m> and <m>$(5, 2)$</m>. If its centroid is <m>$(0,
+        −3)$</m>, find the third vertex.
+      </d:listitem>
+      <d:listitem>
+        <m>$A(1, 4)$</m> and <m>$B(4, 8)$</m> are two points. <m>$P$</m> is a point on <m>$AB$</m> such that
+        <m>$AP = AB + BP$</m>. If <m>$AP = 10$</m>, find the coordinates of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the triangle whose vertices <m>$A, B, C$</m> are respectively <m>$(3, 4)$, $(−4,
+        3)$</m> and <m>$(8, 6)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the quadrilateral whose vertices are <m>$(−3, 2), (7, −6), (−5, −4)$</m> and
+        <m>$(5, 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        The coordinates of points <m>$A, B, C$</m> and <m>$P$</m> are <m>$(6, 3), (−3, 5), (4, −2)$</m> and
+        <m>$(x, y)$</m> respectively, prove that <m>$\frac{\Delta PBC}{\Delta ABC} = \frac{|x + y -
+        2|}{7}$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the points <m>$(3, 3), (h, 0)$</m> and <m>$(0, k)$</m> are collinear if <m>$\frac{1}{h}  +
+        \frac{1}{k} = \frac{1}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A(x_1, y_1), B(x_2, y_2)$</m> and <m>$C(x_3, y_3)$</m> are the vertices of a <m>$\triangle
+        ABC$</m> and <m>$(x, y)$</m> be a point on the internal bisector of <m>$\angle A$</m>, then prove
+        that <m>$b\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1&amp; 1\\x_2 &amp; y_2&amp; 1\end{vmatrix}
+        + c\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1&amp; 1\\x_3 &amp; y_3&amp; 1\end{vmatrix} =
+        0$</m>, where <m>$AC = b$</m> and <m>$AB = c$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the points <m>$\left(\frac{a^3}{a - }, \frac{a^2 - 3}{a - 1}\right), \left(\frac{b^3}{b - 1},
+        \frac{b^2 - 3}{b - 1}\right)$</m> and <m>$\left(\frac{c^3}{c - 1}, \frac{c^2 - 3}{c - 1}\right)$</m>
+        are collinear for three distinct values <m>$a, b$</m> and <m>$c$</m> then show that <m>$abc - (ab +
+        bc + ca) + 3(a + b + c) = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$(1, 4)$</m> be the center of gravity of a triangle and the coordinates of its any two
+        vertices be <m>$(4, −8)$</m> and <m>$(−9, 7)$</m>, find the area of the triangle.
+      </d:listitem>
+      <d:listitem>
+        Prove that the coordinates of the vertices of an equilateral triangle cannot all be rational.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A, B, C$</m> are the points <m>$(−1, 5), (3, 1), (5, 7)$</m> respectively and <m>$D, E,
+        F$</m> are the middle points of <m>$BC, CA, Ab$</m> respectively prove that <m>$\Delta ABC = 4\Delta
+        DEF$</m>.
+      </d:listitem>
+      <d:listitem>
+        The vertices of a <m>$\triangle ABC$</m> are <m>$A(3, 0), B(0, 6)$</m> and <m>$C(6, 9)$</m>. A
+        straight line <m>$DE$</m> divides <m>$AB$</m> and <m>$AC$</m> in the ratio <m>$1 : 2$</m> at
+        <m>$D$</m> and E respectively, prove that <m>$\Delta ABC = 9\Delta ADE$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$(t, t − 2), (t + 3, t)$</m> and <m>$(t + 2, t + 2)$</m> are the vertices of a triangle, show
+        that its area if independent of <m>$t$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A(x, y), B(1, 2)$</m> and <m>$C(2, 1)$</m> are the vertices of a triangle of area <m>$6$</m>
+        units, show that <m>$x + y = 15$</m> or <m>$−9$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the quadrilateral whose vertices are <m>$(1, 1), (7, 3), (12, 2)$</m> and <m>$(7,
+        21)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the pentagon whose vertices are <m>$(4, 3), (−5, 6), (0, −7), (3, −6)$</m> and
+        <m>$(−7, −2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the hexagon whose consecutive vertices are <m>$(5, 0), (4, 2), (1, 3),$ $(−2, 2),
+        (−3, −1)$</m> and <m>$(0, −4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the triangle whose vertices are <m>$((a + 1)(a + 2), a + 2), ((a +
+        2)(a + 3), a + 3)$</m> and <m>$((a + 3)(a + 4), a + 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        The point <m>$A$</m> divides the join of <m>$P(−5, 1)$</m> and <m>$Q(3, 5)$</m> in the ratio
+        <m>$k:1$</m>. Find the two values of k for which the area of <m>$\triangle ABC$</m>, where <m>$B(1,
+        5)$</m> and <m>$C(7, −2)$</m> are given, is equal to <m>$2$</m> units in magnitude.
+      </d:listitem>
+      <d:listitem>
+        The coordinates of <m>$A, B, C, D$</m> are <m>$(6, 3), (−3, 5), (4, −2), (x, 3x)$</m>
+        respectively. If <m>$\Delta ABC = \Delta BCD$</m>, find <m>$x$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the area of the quadrilateral whose angular points taken in order are <m>$(1, 2), (−5, 6), (7,
+        −4)$</m>  and <m>$(h, -2)$</m> be zero; show that <m>$h = 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the area of the triangle whose vertices <m>$A, B, C$</m> are <m>$(3, 4), (−4, 3), (8, 6)$</m>
+        respectively, and hence, find the length of perpendicular from <m>$A$</m> on <m>$BC$</m>.
+      </d:listitem>
+      <d:listitem>
+        The coordinates of the centroid of a triangle and those of two of its vertices are respectively
+        <m>$\left(\frac{2}{3}, 2\right), (2, 3), (−1, 2)$</m>. Find the area of the triangle.
+      </d:listitem>
+      <d:listitem>
+        The area of a triangle is <m>$3$</m> square units. Two of its vertices are <m>$A(3, 1), B(1,
+        −3)$</m> and the centroid off the triangle lies on x-axis. Find the coordinates of the third
+        vertex is <m>$C$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$A$</m> and <m>$B$</m> are the points <m>$(3, 4)$</m> and <m>$(5, −2)$</m>, find the point
+        <m>$P$</m> such that <m>$PA + PB$</m> and <m>$\Delta PAB = 10$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the points <m>$(x_1, y_1), (x_2, y_2)$</m> and <m>$(x_3, y_3)$</m> be collinear, show that
+        <m>$\frac{y_2 - y_3}{x_2x_3} + \frac{y_3 - y_1}{x_3x_1} + \frac{y_1 - y_2}{x_1x_2} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        f the points <m>$(a, b), (a_1, b_1)$</m> and <m>$(a − a_1, b − b_1)$</m> are collinear show that
+        <m>$\frac{a}{a_1} = \frac{b}{b_1}$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the points <m>$(a, 0), (0, b)$</m> and <m>$(1, 1)$</m> are collinear if <m>$\frac{1}{a} +
+        \frac{1}{b} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the points <m>$(−4, −1), (−2, −4), (4, 0)$</m> and <m>$(2, 3)$</m> are the vertices of a
+        rectangle.
+      </d:listitem>
+      <d:listitem>
+        If the points <m>$(x_1, y_1), (x_2, y_2), (x_3, _3)$</m> be the three consecutive vertices of a
+        parallelogram, find the coordinates of the fourth vertex.
+      </d:listitem>
+      <d:listitem>
+        In any <m>$\triangle ABC$</m>, prove that <m>$AB^2 + AC^2 = 2\left(AC^2 + BC^2\right)$</m>, where
+        <m>$D$</m> is the middle point of <m>$BC$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$G$</m> be the centroid of the <m>$\triangle ABC$</m> and <m>$O$</m> be any other point in the
+        plane of the <m>$ABC$</m>, then prove that <m>$OA^2 + OB^2 + OC^2 = GA^2 + GB^2 + GC^2 + 3GO^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the area of a triangle is four times the area of the triangle formed by
+        joining the mid points of its sides.
+      </d:listitem>
+      <d:listitem>
+        Prove that the line segment joining the middle points of two sides of a triangle
+        is half the third side.
+      </d:listitem>
+      <d:listitem>
+        If <m>$P, Q, R$</m> divide the sides <m>$BC, CA, AB$</m> of <m>$\triangle ABC$</m> in the same
+        ratio, prove that the centroid of both the triangles coincide.
+      </d:listitem>
+      <d:listitem>
+        Prove that in any triangle four times the sum of the squares of the medians is
+        equal to three times the sum of the squares of the sides.
+      </d:listitem>
+      <d:listitem>
+        If <m>$G$</m> be the centroid of a <m>$\triangle ABC$</m>, prove that <m>$AB^2 + BC^2 + CA^2 =
+        3(GA^2 + GB^2$ $ + GC^2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the line joining the centroid of a triangle to its vertices divide it into
+        three triangles of equal area.
+      </d:listitem>
+      <d:listitem>
+        Show that the middle point of the hypotenuse of a right angled triangle is
+        equidistant from its vertices.
+      </d:listitem>
+      <d:listitem>
+        <m>$A(a_1, b_1), B(a_2, b_2), C(a_3, b_3)$</m> are the vertices of a <m>$\triangle ABC$</m>. The
+        side <m>$AB$</m> is divided by the point <m>$D$</m> in the ratio <m>$\lambda : \mu$</m> and then the
+        line segment <m>$DC$</m> is divided by the point <m>$E$</m> in the ratio <m>$\mu : \lambda +
+        \mu$</m>. Find the coordinates of <m>$E$</m>.
+      </d:listitem>
+      <d:listitem>
+        The four points <m>$A(\alpha, 0), B(\beta, 0), C(\gamma, 0)$</m> and <m>$D(\delta, 0)$</m> are such
+        that <m>$alpha, beta$</m> are the roots of the equation <m>$ax^2 + 2bx + b = 0$</m> and <m>$\gamma,
+        \delta$</m> are those of the equation <m>$ax^2 + 2b'x + b' = 0$</m>. Show that the sum of the ratios
+        in which <m>$C$</m> and <m>$D$</m> divide <m>$AB$</m> is zero if <m>$ab' + a'b = 2bb'$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$A(1, −2)$</m> and <m>$B(2, 5)$</m> are two points. The lines <m>$OA, OB$</m> are produced to
+        <m>$C$</m> and <m>$D$</m> respectively such that <m>$OC = 2OA$</m> and <m>$OD = 2OB$</m>. Find
+        <m>$CD$</m>.
+      </d:listitem>
+      <d:listitem>
+        Two vertices of a triangle are <m>$A(2, 1)$</m> and <m>$B(3, −1)$</m>. The third vertex <m>$C$</m>
+        lies on the line <m>$y = x + 9$</m>. If the centroid of <m>$\triangle ABC$</m> lies on the
+        <m>$y$</m>-axis, find the coordinates of <m>$C$</m> and the centroid.
+      </d:listitem>
+      <d:listitem>
+        If <m>$(\alpha, \beta), (x, y)$</m> and <m>$(p, q)$</m> are the coordinates of the circumcenter, the
+        centroid and the orthocenter of a triangle, prove that <m>$3x = 2\alpha + p$</m> and <m>$3y = 2\beta
+        + q$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the coordinates of the centroid, circumcenter and orthocenter of the triangle whose vertices
+        are <m>$(2, 3), (3, 4)$</m> and <m>$(6, 8)$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A\left(\alpha, \frac{1}{\alpha}\right), B\left(\beta, \frac{1}{\beta}\right)$</m> and
+        <m>$C(\gamma, \frac{1}{\gamma})$</m> be the vertices of a <m>$\triangle ABC$</m>, where <m>$\alpha,
+        \beta$</m> are the roots of the equation <m>$x^2 − 6p_1x + 2 = 0$</m>; <m>$\beta, gamma$</m> are the
+        roots of the equation <m>$x^2 − 6p_2x + 3 = 0$</m> and <m>$\gamma, \alpha$</m> are the roots of the
+        equation <m>$𝑥x^2 − 6p_3x + 6 = 0$</m>, <m>$p_1, p_2, p_3$</m> being positive, find <m>$p_1, p_2,
+        p_3$</m> and the coordinates ofo the centroid of <m>$\triangle ABC$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$\tan\alpha, \tan\beta, \tan\gamma$</m> are the roots of the equation <m>$x^3 - 3ax^2 + 3bx
+        - 1 = 0$</m>, find the centroid of the triangle whose vertices are <m>$(\tan\alpha, \cot\alpha),
+        (\tan\beta, \cot\beta)$</m> and <m>$(\tan\gamma, \cot\gamma)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Two unlike forces equal to <m>$30$</m> and <m>$40$</m> newtons are applied at the point <m>$A(−3, −1)$</m>
+        and <m>$B(4, 6)$</m> respectively. Find the point of application of resultant force.
+      </d:listitem>
+      <d:listitem>
+        The area of a parallelogram is <m>$12$</m> units. Two of its vertices are the points <m>$A(−1, 3)$</m>
+        and <m>$B(−2, 4)$</m>. Find the other two vertices of the parallelogram if the point of intersection
+        of diagonals lies on the positive side of <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        Give the points <m>$A(1, 2), B(8, 4), C(4, 10)$</m> find the coordinates of the point <m>$P$</m> such
+        that the triangles <m>$PCB, PCA$</m> and <m>$PAB$</m> have the same area in magnitude and sign.
+      </d:listitem>
+      <d:listitem>
+        If <m>$a, b, c$</m> be the <m>$p$</m>th, $q$th and <m>$r$</m>th terms respectively of an H.P.,
+        show that the points <m>$(bc, p), (ca, q), (ab, r)$</m> are collinear.
+      </d:listitem>
+      <d:listitem>
+        If <m>$x_1, x_2, x_3$</m> are in A.P. and <m>$y_1, y_2, y_3$</m> are also in A.P. prove that the
+        points <m>$(x_1, y_1), (x_2, y_2), (x_3, y_3)$</m> are collinear.
+      </d:listitem>
+      <d:listitem>
+        If <m>$a, b, c$</m> are distinct real numbers, show that the points <m>$(a, a^2), (b, b^2)$</m> and
+        <m>$(c, c^2)$</m> are not collinear.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$</m> are the vertices of a <m>$\triangle ABC$</m> and
+        <m>$(x, y)$</m> be a point on the median through <m>$A$</m>, show that <m>$\begin{vmatrix}x &amp; y
+        &amp; 1\\x_1 &amp; y_1&amp; 1\\x_2 &amp; y_2&amp; 1\end{vmatrix} + \begin{vmatrix}x &amp; y
+        &amp; 1\\x_1 &amp; y_1&amp; 1\\x_3 &amp; y_3&amp; 1\end{vmatrix} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        he area of a triangle is <m>$\frac{3}{2}$</m> sq. units. Two of its vertices are <m>$A(2, −3)$</m>
+        and <m>$B(3, −2)$</m>, the centroid of the triangle lies on the line <m>$3x − y − 8 = 0$</m>. Find
+        the third vertex <m>$C$</m>.
+      </d:listitem>
+      <d:listitem>
+        rove that the quadrilateral whose vertices are <m>$A(−2, 5), B(4, −1), C(9, 1)$</m> and
+        <m>$D(3, 7)$</m> is a parallelogram and find its area. If <m>$E$</m> divides <m>$AC$</m> in the
+        ratio <m>$2 : 1$</m>, prove that <m>$D, E$</m> and the middle point <m>$F$</m> of <m>$BC$</m> are
+        collinear.
+      </d:listitem>
+      <d:listitem>
+        Prove that points <m>$(−3, −1), (2, −1), (1, 1)$</m> and <m>$(−2, 1)$</m> taken in order are
+        vertices of a trapezium.
+      </d:listitem>
+      <d:listitem>
+        If the vertices of a triangle have integral coordinates, prove that the triangle cannot
+        be equilateral.
+      </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
