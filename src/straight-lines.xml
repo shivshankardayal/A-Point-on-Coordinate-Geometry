@@ -425,7 +425,7 @@
       <d:para>
         Also, <m>$\sin(\pi - \theta) = \frac{PK}{PQ}\Rightarrow \sin\theta = \frac{y - y_1}{r}\Rightarrow \frac{y
         - y_1}{\sin\theta = r}$</m>. Thus,
-        <m>\[\frac{x - x_1}{\cos\theta} = \frac{y - y_1}{\sin]theta} = r\tag{3.13}\]</m>
+        <m>\[\frac{x - x_1}{\cos\theta} = \frac{y - y_1}{\sin\theta} = r\tag{3.13}\]</m>
       </d:para>
       <d:para>
         <d:emphasis role="bold">Corollary:</d:emphasis> From Eq. 3.13 we can say that <m>\[x = x_1 +
@@ -475,6 +475,968 @@
         <d:emphasis role="bold">Aliter:</d:emphasis> Let the general equation of first degree in <m>$x$</m>
         and <m>$y$</m> be <m>$ax + by + c = 0$</m>.
       </d:para>
+      <d:para>
+        Let <m>$A(x_1, y_1), B(x_2, y_2)$</m> and <m>$C(x_3, y_3)$</m> be any three points on the above
+        line. Then <m>$ax_1 + by_1 + c = 0, ax_2 + by_2 + c = 0$</m> and <m>$ax_3 + by_3 + c = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \begin{vmatrix}x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\\x_3&amp;y_3&amp;1\end{vmatrix}
+        = 0$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$A, B, C$</m> are collinear. Thus, the equation <m>$ax + by + c = 0$</m> is equation of a
+        straight line.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Converse:</d:emphasis> Every straight line may be represented by a first
+        degree equation in <m>$x$</m> and <m>$y$</m>. We know that through two points one and only one
+        straight line can be drawn. Let <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m> be two points on the
+        straight line and let <m>$P(x, y)$</m> be any point on it. Now since <m>$P, A, B$</m> are collinear
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \begin{vmatrix}x&amp;y&amp;1\\x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\end{vmatrix}
+        = 0\Rightarrow (y_1 - y_2)x - (x_1 - x_2)y + x_1y_2 - x_2y_1 = 0$</m>,
+      </d:para>
+      <d:para>
+        which is of the form <m>$ax + by + c = 0$</m>, where <m>$a = y_1 - y_2, b = x_2 - x_1$</m> and <m>$c
+        = x_1y_2 - x_2y_1$</m>.
+      </d:para>
+      <d:para>
+        Since the equation <m>$ax + by + c = 0$</m> is satisfied by all points on the line <m>$AB$</m> and
+        it will not be satisfied by the coordinates of any point which does not lie on the line <m>$AB$</m>,
+        hence, it represents the equation of line <m>$AB$</m>.
+      </d:para>
     </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Representing General Equation in Standard Forms</d:title>
+    <d:sect2>
+      <d:title>Slope Intercept Form</d:title>
+      <d:para>
+        We will reduce the equation <m>$Ax + By + C = 0$</m> to <m>$y = mx + c$</m>.
+      </d:para>
+      <d:para>
+        Given equation is <m>$Ax + By + c = 0 \Rightarrow y = -\frac{A}{B}x - \frac{C}{B}$</m>, which is of the
+        form <m>$y = mx + c$</m>
+      </d:para>
+      <d:para>
+        Comparing we have <m>$m = -\frac{A}{B}$</m> and <m>$c = -\frac{C}{B}$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Intercept Form</d:title>
+      <d:para>
+        We will reduce the equation <m>$Ax + By + C = 0$</m> to <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        This reduction is possible only if <m>$C \neq 0$</m>.
+      </d:para>
+      <d:para>
+        Given equation is <m>$Ax + By + C = 0 \Rightarrow -\frac{A}{C}x - \frac{B}{C}y = 1$</m>, where
+        <m>$C\neq 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x}{-\frac{C}{A}} + \frac{y}{-\frac{C}{B}} = 1$</m>, which is of the form
+        <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>, where <m>$a = -\frac{C}{A}$</m> and <m>$b =
+        -\frac{C}{B}$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Normal Form</d:title>
+      <d:para>
+        We will reduce the equation <m>$Ax + By + C = 0$</m> to the form <m>$x\cos\alpha + y\sin\alpha =
+        p$</m>, where <m>$\alpha$</m> is the angle made by the perpendicular on the line from origin and
+        <m>$p$</m> is the length of the perpendicular.
+      </d:para>
+      <d:para>
+        Given equation is <m>$Ax + By = -C$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> When <m>$C &lt; 0$</m> i.e. <m>$-C &gt; 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$\sqrt{A^2 + B^2}$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$\frac{A}{\sqrt{A^2 + B^2}} + \frac{B}{\sqrt{A^2 + B^2}} = -\frac{C}{\sqrt{A^2 + B^2}}$</m>,
+        which is of the form <m>$x\cos\alpha + y\sin\alpha = p$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> When <m>$C &gt; 0$</m> i.e. <m>$-C &lt; 0$</m>
+      </d:para>
+      <d:para>
+        Given equation can be written as <m>$-Ax - By = C$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow -\frac{A}{\sqrt{A^2 + B^2}} - \frac{B}{\sqrt{A^2 + B^2}} = \frac{C}{\sqrt{A^2 +
+        B^2}}$</m>, which is of the form <m>$x\cos\alpha + y\sin\alpha = p$</m>.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Angle between Two Straight Lines</d:title>
+    <d:figure xml:id="angle-straight-lines">
+      <d:title>Angle between two straight lines.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_13.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      We will find the angle between two straight lines given by the equations <m>$y = m_1x + c_1$</m> and
+      <m>$y = m_2x + c_2$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$AB$</m> and <m>$CD$</m> be two given lines whose equations are <m>$y = m_1x + c_1$</m> and
+      <m>$y = m_2x + c_2$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$AB$</m> and <m>$CD$</m> cut each other at <m>$P$</m> and they cut the <m>$x$</m>-axis at
+      points <m>$L$</m> and <m>$M$</m> respectively.
+    </d:para>
+    <d:para>
+      Let <m>$\angle MPL = \psi$</m> and <m>$\angle ALX = \alpha, \angle DMX = \beta$</m>. Now since line
+      <m>$AB$</m> makes an angle <m>$\alpha$</m> with <m>$x$</m>-axis and its slope is
+      <m>$m_1$</m>. <m>$\therefore m_1 = \tan\alpha$</m>.
+    </d:para>
+    <d:para>
+      Again since <m>$CD$</m> makes an angle <m>$\beta$</m> with <m>$x$</m>-axis and its slope be
+      <m>$m_2$</m>. <m>$\therefore m_2 = \tan\beta$</m>.
+    </d:para>
+    <d:para>
+      From the figure <m>$\alpha = \psi + \beta \Rightarrow \psi = \alpha - \beta$</m>
+    </d:para>
+    <d:para>
+      <m>$\tan\psi = \tan(\alpha - beta) = \frac{\tan\alpha  \tan\beta}{1 + \tan\alpha + \tan\beta} =
+      \frac{m_1 - m_2}{1 + m_1m_2}$</m>
+    </d:para>
+    <d:para>
+      If <m>$\angle PLD = \phi$</m> then <m>$\psi + \phi = \pi \Rightarrow \phi = \pi - \psi$</m>
+    </d:para>
+    <d:para>
+      <m>$\therefore \tan\phi = -\tan\psi = -\frac{m_1 - m_2}{1 + m_1m_2}$</m>
+    </d:para>
+    <d:para>
+      Since <m>$\psi$</m> and <m>$\phi$</m> are the two angles between the lines <m>$AB$</m> and
+      <m>$Cd$</m>, it follows that the angle <m>$\theta$</m> between these two lines is given by
+    </d:para>
+    <d:para>
+      <m>$\tan\theta = \pm\frac{m_1 - m_2}{1 + m_1m_2}\Rightarrow \theta = \tan^{-1}\left|\frac{m_1 - m_2}{1
+      + m_1m_2}\right|, \pi - \tan^{-1}\left|\frac{m_1 - m_2}{1 + m_1m_2}\right|$</m>
+    </d:para>
+    <d:para>
+      If <m>$\theta$</m> is the acute angle between the lines then
+      <m>\[\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1m_2}\right|\tag{3.16}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Notes:</d:emphasis>
+    </d:para>
+    <d:itemizedlist>
+      <d:listitem>
+        here are two angles between two non-perpendicular lines. One of them is acute and
+        the other one is obtuse and their sum is <m>$180^\circ$</m>. Thus, if acute angle <m>$\theta$</m>
+        between the two lines is known then the other angle will be <m>$180^\circ - \theta$</m>.
+      </d:listitem>
+      <d:listitem>
+        The formula <m>$\tan\theta = \pm\frac{m_1 - m_2}{1 + m_1m_2}$</m> is valid only when <m>$m_1$</m>
+        and <m>$m_2$</m> are defined.
+      </d:listitem>
+      <d:listitem>
+        f both the lines are perpendicular to 𝑥-axis then the angle between them is <m>$0^\circ$</m>.
+      </d:listitem>
+      <d:listitem>
+        If one of the lines is perpendicular to <m>$x$</m>-axis and the other line makes an angle of
+        <m>$\theta$</m> with positive direction of <m>$x$</m>-axis then the angle between them is
+        <m>$|90^\circ - \theta|$</m>.
+      </d:listitem>
+    </d:itemizedlist>
+    <d:sect2>
+      <d:title>Parallelism and Perpendicularity</d:title>
+      <d:para>
+        Our equation for angle between two straight lines is <m>$\tan\theta = \pm\frac{m_1 - m_2}{1 +
+        m_1m_2}$</m>. If the lines are parallel then the value of <m>$\theta$</m> would be <m>$0$</m>. Thus,
+        <m>$m_1 = m_2$</m>. For special case when two lines are parallel to <m>$y$</m>-axis i.e. <m>$m_1 =
+        m_2 = \infty$</m> then both the lines are taken as parallel.
+      </d:para>
+      <d:para>
+        For lines to be perpendicular then <m>$\tan\theta = \infty\Rightarrow 1 + m_1m_2 = 0 \Rightarrow
+        m_1m_2 = -1$</m>. When either of <m>$m_1$</m> or <m>$m_2$</m> is not defined then one of them has to
+        be parallel to <m>$x$</m>-axis while the other has to be parallel to <m>$y$</m>-axis.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>To find the angle between straight lines <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y +
+      c_2 = 0$</m></d:title>
+      <d:para>
+        Writing the equation in slope intercept form we find that the slopes are given by <m>$m_1 =
+        -\frac{a_1}{b_1}$</m> and <m>$m_2 = -\frac{a_2}{b-2}$</m>.
+      </d:para>
+      <d:para>
+        If <m>$\theta$</m> be the angle between the two lines then <m>$\tan\theta =
+        \pm\frac{-\frac{a_1}{b_2} + \frac{a_2}{b_1}}{1 + \frac{a_1a_2}{b_1b_2}} = \pm\frac{a_2b_1 -
+        a_1b_2}{a_1a_2 + b_1b_2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\theta = \tan^{-1}\left|\frac{a_2b_1 - a_1b_2}{a_1a_2 + b_1b_2}\right|$</m> or <m>$\theta = \pi
+        - \tan^{-1}\left|\frac{a_2b_1 - a_1b_2}{a_1a_2 + b_1b_2}\right|$</m>
+      </d:para>
+      <d:para>
+        Clearly, the lines will be parallel if <m>$\theta = 0$</m> i.e. <m>\[\frac{a_1}{a_2} =
+        \frac{b_1}{b_2}\tag{3.17}\]</m>
+        and the lines will be perpendicular if <m>\[a_1a_2 + b_1b_2 = 0\tag{3.18}\]</m>
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Lines Parallel to Another Line</d:title>
+      <d:para>
+        We will find equation of a line parallel to another line in standard form i.e. <m>$ax + by + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the line parallel to give line is <m>$lx + my + n = 0$</m>.
+      </d:para>
+      <d:para>
+        From Eq. 3.17 these two lines will be parallel if <m>$\frac{l}{a} = \frac{m}{b} = p$</m> (say) then
+        <m>$l = ap, m = bp$</m>, which makes the equation of the line as <m>$ax + by + \frac{n}{p} = 0$</m>
+        or <m>$ax + by + k = 0$</m>, where <m>$k = \frac{n}{p}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of any line parallel to <m>$ax + by + c = 0$</m> is given by <m>\[ax + b y + k =
+        0\tag{3.19}\]</m>
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Lines Perpendicular to Another Line</d:title>
+      <d:para>
+        We will find equation of a line perpendicular to another line in standard form i.e. <m>$ax + by + c
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the line perpendicular to give line is <m>$lx + my + n = 0$</m>.
+      </d:para>
+      <d:para>
+        From Eq. 3.18 these two lines will be parallel if <m>$al + bm = 0$</m> or <m>$\frac{l}{b} =
+        -\frac{m}{a} = p$</m> (say)
+      </d:para>
+      <d:para>
+        Thus, <m>$bpx - apy + n = 0 \Rightarrow bx - ay + \frac{n}{p} = 0 \Rightarrow bx - ay + k = 0$</m>,
+        where <m>$k = \frac{n}{p}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of any line perpendicular to <m>$ax + by + c = 0$</m> is given by <m>\[bx - ay + k =
+        0\tag{3.20}\]</m>
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Point of Intersection</d:title>
+    <d:para>
+      We will find the point of intersection of two lines in standard form i.e. between the
+      lines given by <m>$a_1x + b_y + c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$P(\alpha, \beta)$</m> is the point of intersection of these two lines then <m>$a_1\alpha +
+      b_1\beta + c_1 = 0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      By cross-multiplication we have <m>$\frac{\alpha}{b_1c_2 - b_2c_1} = \frac{\beta}{c_1a_2 - c_2a_1} =
+      \frac{1}{a_1b_2 - a_2b_1}$</m>
+    </d:para>
+    <d:para>
+      Thus, the point of intersection is given by <m>$\left(\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1},
+      \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}\right)$</m>.
+    </d:para>
+    <d:para>
+      As you can see in case of parallel lines <m>$a_1b_2 - a_2b_1 = 0$</m> and then <m>$\alpha$</m> and
+      <m>$\beta$</m> are not defined.
+    </d:para>
+    <d:para>
+      In this case neither <m>$c_1a_2 - c_2a_1$</m> nor <m>$b_1c_2 - b_2c_1$</m> will be zero, otherwise
+      <m>$\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$</m> i.e. the two lines will be coincident or
+      same.
+    </d:para>
+    <d:sect2>
+      <d:title>Line Passing through Point of Intersection of Two Lines</d:title>
+      <d:para>
+        We will find the general equation of a straight line passing through point of intersection
+        of two straight lines in standard form i.e. lines given by <m>$a_1x + b_1y + c_1 = 0$</m> and
+        <m>$a_2x + b_2y + c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        We consider the straight line in first degree equation <m>$a_1x + b_1y + c_1 + k(a_2x + b_2y + c_2)
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, beta)$</m> be the point of intersection then <m>$a_1\alpha + b_1\beta + c_1 =
+        0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m> and <m>$a_1\alpha + b_1\beta + c_1 + k(a_2\alpha
+        + b_2\beta + c_1) = 0$</m>.
+      </d:para>
+      <d:para>
+        Clearly, the third equation is an equation of a line passing through <m>$P$</m>. Thus, our desired
+        equation is <m>\[a_1x + b_1y + c_1 + k(a_2x + b_2y + c_2) = 0\tag{3.21}\]</m>
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Concurrency of Three Straight Lines</d:title>
+    <d:para>
+      We will find condition for concurrency of three lines in standard form i.e. the lines are given by
+      <m>$a_1x + b_1y + c_1 = 0, a_2x + b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$P(\alpha, beta)$</m> be the point where these three lines meet. Then <m>$P$</m> will lie on
+      all three lines. Thus, <m>$\frac{\alpha}{b_1c_2 - b_2c_1} = \frac{\beta}{c_1a_2 - c_2a_1} =
+      \frac{1}{a_1b_2 - a_2b_1}$</m>
+    </d:para>
+    <d:para>
+      Thus, the point of intersection is given by <m>$\left(\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1},
+      \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}\right)$</m>.
+    </d:para>
+    <d:para>
+      Now this point will lie on the third line and therefore will satisfy the equation for third
+      line. Hence, <m>$a_3\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1} + b_3\frac{c_1a_2 - c_2a_1}{a_1b_2 -
+      a_2b_1} + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Thus, the required condition for concurrency of three lines is give by <m>\[a_3(b_1c_2 - b_2c_1) +
+      b_3(c_1a_2 - c_2a_1) + c_3(a_1b_2 - a_2b_1) = 0\tag{3.22}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter:</d:emphasis> Equations of given lines are <m>$a_1x + b_1y + c_1 = 0,
+      a_2x + b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$P(\alpha, beta)$</m> be the point where these three lines meet. Then <m>$P$</m> will lie on
+      all three lines. Thus, <m>$a_1\alpha + b_1\beta + c_1 = 0, a_2\alpha + b_2\beta + c_2 = 0$</m> and
+      <m>$a_3\alpha + b_3\beta + c_3 = 0$</m>.
+    </d:para>
+    <d:para>
+      Eliminating <m>$\alpha, beta$</m> we can write that
+      <m>$\begin{vmatrix}a_1&amp;b_1&amp;c_1\\a_2&amp;b_2&amp;c_2\\a_3&amp;b_3&amp;c_3\end{vmatrix} =
+      0$</m>, which expands to Eq. 3.22.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Corollary:</d:emphasis> The straight lines <m>$a_1x + b_1y + c_1 = 0, a_2x +
+      b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>. will be concurrent if and only if there exists
+      three constants <m>$l, m, n$</m> (not all zero at the same time) such that <m>$l(a_1x + b_1y + c_1)  +
+      m(a_2x + b_2y + c_2)  + n(a_3x + b_3y + c_3) = 0$</m> identically i.e. for all values of <m>$x$</m>
+      and <m>$y$</m>.
+    </d:para>
+    <d:para>
+      Since <m>$l, m, n$</m> are not zero at the same time let <m>$n\ne 0$</m>. Let <m>$(\alpha, beta)$</m>
+      be the point of intersection of first two lines. Then
+    </d:para>
+    <d:para>
+      <m>$a_1\alpha + b_1\beta + c_1 = 0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m>
+    </d:para>
+    <d:para>
+      Since the given condition is true for all <m>$x$</m> and <m>$y$</m>, therefore <m>$l(a_1\alpha + b_1\beta +
+      c_1)  + m(a_2\alpha + b_2\beta + c_2)  + n(a_3\alpha + b_3\beta + c_3) = 0$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow l.0 + m.0 + n(a_3\alpha + b_3\beta + c_3) = 0\Rightarrow a_3\alpha + b_3\beta + c_3 = 0$</m>
+    </d:para>
+    <d:para>
+      Thus, the third line also passes through <m>$(\alpha, \beta)$</m>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Two Sides of a Straight Line</d:title>
+    <d:para>
+      Every line divides the plane in two regions. Any point which does not lie on the line
+      can be only on one side of the straight line.
+    </d:para>
+    <d:para>
+      We will show that a point <m>$(\alpha, \beta)$</m> will be on one or the other side of the line <m>$ax
+      + by + c = 0$</m> according as the expression <m>$a\alpha + b\beta + c &gt; 0$</m> or <m>$&lt;0$</m>.
+    </d:para>
+    <d:figure xml:id="side-straight-lines">
+      <d:title>Side of a point.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_14.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let 𝐴𝐵 be the given line whose equation is <m>$ax + by + c = 0$</m>. Let <m>$P(\alpha, \beta)$</m> be
+      a point which does not lie on this line.
+    </d:para>
+    <d:para>
+      From <m>$P$</m> we draw <m>$PQ$</m> perpendicular on <m>$x$</m>-axis. Let <m>$PQ$</m> cut line
+      <m>$AB$</m> at <m>$R$</m>. Clearly, <m>$x$</m> coordinate of <m>$P$</m> and <m>$R$</m> are same.
+    </d:para>
+    <d:para>
+      Let <m>$R = (\alpha_1, \beta_1)$</m>. Since it lies on the line, therefore, <m>$a\alpha_1 + b\beta_1 +
+      c_1 = 0$</m>.
+    </d:para>
+    <d:para>
+      When <m>$b&gt; 0$</m>, on left side of the <xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
+      \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &gt; b\beta_1$</m> or <m>$a\alpha + b\beta + c &gt;
+      a\alpha_1 + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &gt; 0$</m>.
+    </d:para>
+    <d:para>
+      Similarly, for right side of the figure we can establish <m>$a\alpha + b\beta + c &lt; 0$</m>.
+    </d:para>
+    <d:para>
+      When <m>$b &lt; 0$</m>, on left side of the <xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
+      \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &lt; b\beta_2$</m> or <m>$a\alpha + b\beta + c &lt;
+      a\alpha + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &lt; 0$</m>.
+    </d:para>
+    <d:para>
+      Similarly, for right side of the figure we can establish <m>$a\alpha + b\beta + c &gt; 0$</m>.
+    </d:para>
+    <d:para>
+      Thus, we see that <m>$a\alpha + b\beta + c &gt; 0$</m> or <m>$&lt; 0$</m> according as the point
+      <m>$P(\alpha,  beta)$</m> lies on one or the other side of the line <m>$ax + by + c = 0$</m>.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Corollary:</d:emphasis> It follows from previous article that two points
+      <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> will lie on the same side or opposite side of the line
+      <m>$ax + by + c = 0$</m> according as <m>$ax_1 + by_1 + c$</m> and <m>$ax_2 + by_2 + c$</m> are of the
+      same sign or opposite sign.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Length of a Perpendicular</d:title>
+    <d:para>
+      We will find the length of the perpendicular from the point <m>$(\alpha, \beta)$</m> to the line <m>$ax
+      + by + c = 0$</m>.
+    </d:para>
+    <d:figure xml:id="length-perpendicular">
+      <d:title>Length of a perpendicular.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_15.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let the given line be <m>$ax + by + c = 0$</m> and given point be <m>$P(\alpha, beta)$</m>. We have to
+      find the length of the perpendicular from the point <m>$P$</m> on line <m>$AB$</m>.
+    </d:para>
+    <d:para>
+      We draw <m>$PM$</m> perpendicular to <m>$AB$</m> and join <m>$PA$</m> and <m>$PB$</m>. Let <m>$PM =
+      p$</m>.
+    </d:para>
+    <d:para>
+      Putting y = 0 in the equation for the given line gives us <m>$ax + c = 0 \Rightarrow x = -\frac{c}{a}
+      \therefore A = \left(-\frac{c}{a}, 0\right)$</m>.
+    </d:para>
+    <d:para>
+      Putting <m>$x = 0$</m> in the equation for the given line gives us <m>$by + c = 0 \Rightarrow y =
+      -\frac{c}{b} \therefore B = \left(0, -\frac{c}{b}\right)$</m>.
+    </d:para>
+    <d:para>
+      Now <m>$\Delta PAB = \frac{1}{2}\left|\left[\alpha\left(0 + \frac{c}{b}\right) +
+      -\frac{c}{a}\left(-\frac{c}{b} - \beta\right) + 0(\beta - 0)\right]\right| =
+      \frac{1}{2}\left|\frac{c}{ab}\right|\left|a\alpha + b\beta + c\right|$</m>
+    </d:para>
+    <d:para>
+      Again <m>$\Delta PAB = \frac{1}{2}.AB.PM = \frac{1}{2}\sqrt{\left(-\frac{c}{a} - 0\right)^2 + \left(0
+      + \frac{c}{b}\right)^2}.p = \frac{1}{2}\left|\frac{c}{ab}\right|\sqrt{a^2 + b^2}.p$</m>
+    </d:para>
+    <d:para>
+      Equating two obtained equations for <m>$\Delta PAB$</m> gives us the length of the perpendicular, which is
+      <m>\[p = \frac{|a\alpha + b\beta + c|}{\sqrt{a^2 + b^2}}\tag{3.23}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter:</d:emphasis> Let <m>$PM$</m> make an angle <m>$\theta$</m> with the
+      positive direction of <m>$x$</m>-axis, then the equation of <m>$PM$</m> in distance form is
+      <m>$\frac{x - \alpha}{\cos\theta} = \frac{y - \beta}{\sin\theta} = r$</m>
+    </d:para>
+    <d:para>
+      Coordinates of any point on <m>$PM$</m> at a distance <m>$r$</m> from <m>$P(\alpha, \beta)$</m> will be
+      <m>$(\alpha + r\cos\theta, \beta + r\sin\theta)$</m>.
+    </d:para>
+    <d:para>
+      Since <m>$PM = p$</m>, therefore coordinates of <m>$M$</m> is <m>$(\alpha + p\cos\theta + \beta +
+      p\sin\theta)$</m>, which will lie on the line <m>$ax + by + c = 0$</m>, thus,
+    </d:para>
+    <d:para>
+      <m>$a(\alpha + p\cos\theta) + b(\beta + p\sin\theta) + c = 0\Rightarrow p(a\cos\theta + b\sin\theta) =
+      -(a\alpha + b\beta + c)$</m>
+    </d:para>
+    <d:para>
+      Now slope of <m>$AB = -\frac{a}{b}\therefore $</m> slope of <m>$PM = \frac{b}{a}\therefore \tan\theta
+      = \frac{b}{a}$</m> or <m>$\frac{a}{\cos\theta} = \frac{b}{\sin\theta} = k$</m> (say) <m>$\therefore a
+      = k\cos\theta, b = k\sin\theta$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow a^2 + b^2 = k^2\therefore k = \pm\sqrt{a^2 + b^2}\therefore a = \pm\sqrt{a^2 +
+      b^2}\cos\theta \Rightarrow \cos\theta = \pm\frac{a}{\sqrt{a^2 + b^2}}$</m>. Similarly <m>$\sin\theta =
+      \pm\frac{b}{\sqrt{a^2 + b^2}}$</m>
+    </d:para>
+    <d:para>
+      Putting the values of <m>$\cos\theta$</m> and <m>$\sin\theta$</m> in the equation <m>$p(\cos\theta +
+      \sin\theta) = -(a\alpha + b\beta + c)$</m> gives us
+    </d:para>
+    <d:para>
+      <m>$p = \mp \frac{a\alpha + b\beta + c}{\sqrt{a^2 + b^2}}$</m>
+    </d:para>
+    <d:para>
+      Since <m>$p$</m> is positive, therefore, <m>\[p = \frac{|a\alpha + b\beta + c|}{\sqrt{a^2 +
+      b^2}}\tag{3.24}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter(Calculus Method):</d:emphasis>
+    </d:para>
+    <d:figure xml:id="length-perpendicular1">
+      <d:title>Length of a perpendicular.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_16.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <m>$Q(x, y)$</m> be any point on the line <m>$AB$</m>. Now <m>$PQ$</m> will be the length of the
+      perpendicular if <m>$PQ$</m> is minimum. Hence, length of the perpendicular from <m>$P$</m> on <m>$AB$</m>
+      will be the least value of <m>$PQ$</m> when the point <m>$Q(x, y)$</m> varies.
+    </d:para>
+    <d:para>
+      Let <m>$PQ^2 = z$</m>. Also, <m>$PQ$</m> will be least if and only if <m>$PQ^2$</m> i.e. <m>$z$</m> is least.
+    </d:para>
+    <d:para>
+      Now <m>$z = (x - \alpha)^2 + (y - \beta)^2$</m>
+    </d:para>
+    <d:para>
+      Since <m>$Q(x, y)$</m> lies on the line <m>$ax + by + c = 0$</m>, therefore, <m>$y = -\frac{ax + c}{b}$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow z = (x - \alpha)^2 + \left(-\frac{ax + c}{b} - \beta\right)^2$</m>
+    </d:para>
+    <d:para>
+      <m>$\frac{dz}{dx} = 2(x - \alpha) + \frac{1}{b^2}.2(ax + b\beta + c)$</m>
+    </d:para>
+    <d:para>
+      For maxima and minima of <m>$z$</m>, <m>$\frac{dz}{dx} = 0\Rightarrow \frac{y - \beta}{x -
+      \alpha}.-\frac{a}{b} = -1$</m>
+    </d:para>
+    <d:para>
+      <m>$\therefore $</m> Slope of line <m>$PQ$</m>. Slope of line <m>$AB = -1$</m>
+    </d:para>
+    <d:para>
+      Thus, when <m>$\frac{dz}{dz} = 0, PQ\perp AB$</m>.
+    </d:para>
+    <d:para>
+      Since maximum length of <m>$PQ$</m> is not possible as it will be <m>$\infty$</m> (tends to
+      <m>$\infty$</m>), and hence, <m>$\frac{dz}{dz} = 0$</m> gives the minimum length of <m>$PQ$</m>.
+    </d:para>
+    <d:para>
+      Length of perpendicular, <m>$\sqrt{z} = \sqrt{(x - \alpha)^2 + (y - \beta)^2}$</m>
+    </d:para>
+    <d:para>
+      But if <m>$\frac{dz}{dz} = 0$</m>, then <m>$\frac{x - \alpha}{a} = \frac{y - \beta}{b} = \left(a(x -
+      \alpha) + \frac{b(y - \beta)}{a^2 + b^2}\right) = -\frac{a\alpha + b\beta + c}{a^2 + b^2}$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow z = p = \frac{|a\alpha + b\beta + c|}{\sqrt{a^2 + b^2}}$</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Note:</d:emphasis> Length of perpendicular from origin on line <m>$ax + by + c
+      = 0$</m> is <m>$\frac{|c|}{\sqrt{a^2 + b^2}}$</m>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Bisectors of Angles between Straight Lines</d:title>
+    <d:figure xml:id="bisector-angles">
+      <d:title>Bisectors of angles between straight lines.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_17.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      We will find the equation of the bisectors of the angles between the straight lines
+      <m>$a_1x + b_1y + c_1= 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let the given lines be <m>$AB$</m> and <m>$CD$</m> whose equations are <m>$a_1x + b_1y + c_1= 0$</m>
+      and <m>$a_2x + b_2y + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$LM$</m> and <m>$RS$</m> be the two bisectors of the angles between <m>$AB$</m> and
+      <m>$CD$</m>. Let <m>$P(x, y)$</m> be the point on any bisector. Since <m>$P$</m> lies on a bisector,
+      therefore, the lengths of perpendiculars on two lines will be equal.
+    </d:para>
+    <d:para>
+      Thus, the length of perpendicular from <m>$P$</m> to <m>$AB$</m> will be equal to the length of the
+      perpendicular from <m>$P$</m> to <m>$CD$</m>.
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow \frac{|a_1x + b_1y + c_1|}{\sqrt{a_1^2 + b_1^2}} = \frac{|a_2x + b_2y +
+      c_2|}{\sqrt{a_2^2 + b_2^2}}$</m>. Thus,
+    </d:para>
+    <d:para>
+      <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \pm \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}\tag{3.25}\]</m>
+      are the equations of two bisectors.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Note:</d:emphasis> If <m>$P(x, y)$</m> is taken on the bisector of the angle
+      which contains the origin then either <m>$O(0, 0)$</m> and <m>$P(x, y)$</m> will lie on the same sides
+      of two lines. Thus,
+    </d:para>
+    <d:para>
+      <m>$a_1x + b_1y + c_1 &gt; 0$</m> and <m>$a_2x + b_2y + c_2 &gt; 0$</m> or <m>$O(0, 0)$</m> and
+      <m>$P(x, y)$</m> will lie on the opposite side of the two lines i.e. <m>$a_1x + b_1y + c_1 &lt; 0$</m>
+      and <m>$a_2x + b_2y + c_2 &lt; 0$</m>
+    </d:para>
+    <d:para>
+      Then equation of bisectors will be <m>$\frac{|a_1x + b_y + c|}{\sqrt{a_1^2 + b_1^2}} = \frac{|a_2x +
+      b_2y + c_2|}{\sqrt{a_2^2 + b_2^2}}$</m>
+    </d:para>
+    <d:para>
+      i.e. <m>$\frac{a_1x + b_y + c}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}$</m>, when both <m>$a_1x + b_1y + c_1$</m> and <m>$a_2x + b_2y + c_2$</m> are positive or
+      <m>$-\frac{a_1x + b_y + c}{\sqrt{a_1^2 + b_1^2}} = -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}$</m>, when both <m>$a_1x + b_1y + c_1$</m> and <m>$a_2x + b_2y + c_2$</m> are negative.
+    </d:para>
+    <d:para>
+      Thus, in both the cases equation of the bisector containing the origin when <m>$c_1$</m> and
+      <m>$c_2$</m> are both positive is
+    </d:para>
+    <d:para>
+      <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}\tag{3.26}\]</m>
+    </d:para>
+    <d:para>
+      When both <m>$c_1$</m> and <m>$c_2$</m> are positive, then the equation of the bisector of the angle
+      between the lines which does not contain the origin is
+      <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}\tag{3.27}\]</m>
+      The two bisectors are perpendicular to each other.
+    </d:para>
+    <d:sect2>
+      <d:title>Finding Bisector of the Acute and Obtuse Angles</d:title>
+      <d:para>
+        To find the bisector of the acute and obtuse angles take any line out of <m>$a_1x + b_y + c_1 =
+        0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m> and any of the bisectors obtained. Let 𝜃 be the angle
+        between them. Find <m>$|\tan\theta|$</m>. The bisector considered will be the bisector of the acute
+        angle or obtuse angle between the lines according as <m>$\theta &lt; 45^\circ$</m> or <m>$\theta >
+        45^\circ$</m> i.e. according as <m>$|\tan\theta| &lt; 1$</m> or <m>$> 1$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Aliter:</d:emphasis> Let the equations of the two lines be <m>$a_1x + b_1y +
+        c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>, where <m>$c_1 > 0$</m> and <m>$c_2 > 0$</m>.
+      </d:para>
+      <d:para>
+        Then the equation <m>$\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y +
+        c_2}{\sqrt{a_2^2 + b_2^2}}$</m> is the equation of the bisector of the acute or obtuse angle between
+        the lines according as <m>$a_1a_2 + b_1b_2 &lt; 0$</m> or <m>$> 0$</m>.
+      </d:para>
+      <d:para>
+        Slope of bisector <m>$= m_1 = -\frac{a_1\sqrt{a_2^2 + b_2^2} - a_2\sqrt{a_1^2 +
+        b_1^2}}{b_1\sqrt{a_2^2 + b_262} - b_2\sqrt{a_1^2 + b_1^2}}$</m> and slope of first line is <m>$m_2 =
+        -\frac{a_1}{b_1}$</m>
+      </d:para>
+      <d:para>
+        Angle between first line and bisector is <m>$\tan\theta = \frac{m_1 - m_2}{1 + m_1m_2} =$\\</m>
+        <m>$\frac{a_1b_2 - a_2b_1}{\sqrt{(a_1b_2 - a_2b_1)^2 + (a_1a_2 + b_1b_2)^2 - (a_1a_2 + b_1b_2)}}$</m>
+      </d:para>
+      <d:para>
+        Let <m>$\alpha = a_1b_2 - a_2b_1$</m> and <m>$\beta = a_1a_2 + b_1b_2$</m> then <m>$|\tan\theta| =
+        \frac{|\alpha|}{\sqrt{\alpha^2 + \beta^2 - \beta}}$</m>
+      </d:para>
+      <d:para>
+        If <m>$\beta &lt; 0$</m> and <m>$\sqrt{\alpha^2 + \beta^2 - \beta} > |\alpha| - \beta >
+        |\alpha|$</m>, therefore, <m>$|\tan\theta| &lt; 1$</m>, and hence, the
+        bisector is the bisector of acute angle between the lines.
+      </d:para>
+      <d:para>
+        If <m>$\beta > 0$</m> and <m>$\sqrt{\alpha^2 + \beta^2}\le |\alpha| + |\beta|\Rightarrow
+        \sqrt{\alpha^2 + \beta^2 - \beta}\le |\alpha|$</m>, therefore, <m>$|\tan\theta| > 1$</m>,
+        and hence, the bisector is the bisector of obtuse angle between the lines.
+      </d:para>
+      <d:para>
+        Similarly, we can show that the equation <m>$\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 +b_1^2}} =
+        -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 + b_2^2}}$</m> is the equation of
+        the bisector of the acute or obtuse angles according as <m>$a_1a_2 + b_1b_2 > 0$</m> or <m>$&lt;
+        0$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Bisectors Between Lines Containing a Given Point</d:title>
+    </d:sect2>
+    <d:title>Bisectors of Angles between Straight Lines</d:title>
+    <d:figure xml:id="bisector-lines1">
+      <d:title>Bisectors of angles between straight lines.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_18.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let the equations of the lines be <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$(\alpha, \beta)$</m> be a given point. If <m>$a_1\alpha + b_1\beta + c_1$</m> and
+      <m>$a_2\alpha + b_2\beta + c_2$</m> are of the same sign then equation of the bisector of the angle
+      containing the point <m>$(\alpha, \beta)$</m> is
+      <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}\tag{3.28}\]</m>
+    </d:para>
+    <d:para>
+      Let <m>$(x_1, y_1)$</m> be a point on the bisector then <m>$\frac{a_1x_1 + b_1y_1 + c_1}{\sqrt{a_1^2 +
+      b_1^2}} = \frac{a_2x_1 + b_2y_1 + c_2}{\sqrt{a_2^2 + b_2^2}}$</m>
+    </d:para>
+    <d:para>
+      Since <m>$\sqrt{a_1^2 + b_1^2}$</m> and <m>$\sqrt{a_2^2 + b_2^2}$</m> are both posiitive, therefore,
+      <m>$a_1x_1 + b_1y_1 + c_1$</m> and <m>$a_2x_1 + b_2y_1 + c_2$</m> are of the same sign.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Case I:</d:emphasis> When both <m>$a_1x_1 + b_1y_1 + c_1$</m> and <m>$a_2x_1 +
+      b_2y_1 + c_1$</m> are positive.
+    </d:para>
+    <d:para>
+      Since <m>$a_1\alpha + b_1\beta + c_1$</m> and <m>$a_1x_1 + b_1y_1 + c_1$</m> are both positive,
+      therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, beta)$</m> will lie on the same side of the
+      line <m>$a_1x + b_1y + c_1 = 0$</m>. Again since <m>$a_2\alpha + b_2\beta + c_1$</m> and <m>$a_2x_1 +
+      b_2y_1 + c_2$</m> are both posiitive, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha,
+      beta)$</m> will lie on the same side of the line <m>$a_2x + b_2y + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      The figure will be like <xref linkend="bisector-lines1" />
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Case II:</d:emphasis> When both <m>$a_1x_1 + b_1y_1 + c_1$</m> and <m>$a_2x_1 +
+      b_2y_1 + c_1$</m> are negative.
+    </d:para>
+    <d:figure xml:id="bisector-lines2">
+      <d:title>Bisectors of angles between straight lines.</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/3_19.webp" />
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      In this case <m>$a_1\alpha + b_1\beta + c_1$</m> and <m>$a_1x_1 + b_1y-1 + c_1$</m> are of opposite
+      sign, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, \beta)$</m> will lie on opposite side of
+      the line <m>$a_1x + b-1y + c_1 = 0$</m>.
+    </d:para>
+    <d:para>
+      Again since <m>$a-2\alpha + b_2\beta + c_2$</m> and <m>$a_2x_1 + b_2y_1 + c_2$</m> are of opposite
+      sign, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, \beta)$</m> will lie on opposite side
+      of the line <m>$a_2x + b_2y + c_1 = 0$</m>. Thus, in this case figure will like <xref
+      linkend="bisector-lines2" />
+    </d:para>
+    <d:para>
+      Similarly, if <m>$a_1\alpha + b_1\beta + c_1$</m> and <m>$a_2\alpha + b_2\beta + c_2$</m> are of
+      opposite sign then the equation of the bisector of the angle containing the point <m>$(\alpha,
+      \beta)$</m> is
+      <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
+      b_2^2}}\tag{3.29}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter:</d:emphasis> Let the equations of lines <m>$AB$</m> and <m>$CD$</m>
+      are <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y  + c_2 = 0$</m>, where <m>$c_1$</m> and
+      <m>$c_2$</m> are positive.
+    </d:para>
+    <d:para>
+      These equations in normal form will be
+    </d:para>
+    <d:para>
+      <m>$-\frac{a_1x - b_1y}{\sqrt{a_1^2 + b_1^2}} = \frac{c_1}{\sqrt{a_1^2 + b_1^2}}$</m> and
+      <m>$-\frac{a_2x - b_2y}{\sqrt{a_2^2 + b_2^2}} = \frac{c_2}{\sqrt{a_2^2 + b_2^2}}$</m>
+    </d:para>
+    <d:para>
+      Let <m>$\cos\alpha = -\frac{a_1}{\sqrt{a_1^2 + b_1^2}}, \cos\beta = -\frac{a_2}{\sqrt{a_2^2 +
+      b_2^2}}, \sin\alpha = -\frac{b_1}{\sqrt{a_1^2 + b_1^2}}$</m>, and <m>$\sin\beta = -\frac{b_2}{a_2^2 +
+      b_2^2}$</m>
+    </d:para>
+    <d:para>
+      Now <m>$\cos(\beta - \alpha) = \cos\alpha\cos\beta + \sin\alpha\sin\beta = \frac{a_1a_2 +
+      b_1b_2}{\sqrt{a_1^2 + b_1^2}\sqrt{a_2^2 +b_2^2}}$</m>
+    </d:para>
+    <d:para>
+      <m>$\beta - \alpha$</m> will be acute or obtuse according as <m>$a_1a_2 + b_1b_2 > 0$</m> or <m>$&lt;
+      0$</m>.
+    </d:para>
+    <d:para>
+      Now <m>$\angle CAB$</m> will be acute or obtuse according as <m>$\beta - \alpha$</m> is obtuse or
+      acute.
+    </d:para>
+    <d:para>
+      But <m>$\angle CAB$</m> contains the origin, therefore, origin will be contained in the acute or
+      obtuse angle according as <m>$a_1a_2 + b_1b_1 &lt; 0$</m> or <m>$> 0$</m>.
+    </d:para>
+    <d:para>
+      Hence, bisector of the angle between the lines will be bisector of the acute or obtuse
+      angle according as origin lies in the acute or obtuse angle.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Problems</d:title>
+    <d:orderedlist>
+      <d:listitem>
+        <!-- 1 -->
+        Find the equation of the straight line cutting off an intercept <m>$5$</m> from the positive
+        direction of <m>$y$</m>-axis, and inclined at angle <m>$45^\circ$</m> to the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 2 -->
+        Find the equation of the straight line passing through the point <m>$(2, −3)$</m> and cutting
+        off intercepts, equal but of opposite signs from the two axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 3 -->
+        Find the equation of the straight line which passes through the point <m>$(−5, 4)$</m> and
+        is such that the portion of it between the axes is doivided by the point in the
+        ratio of <m>$1 : 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 4 -->
+        Find the normal form of the equation <m>$x + y\sqrt{3} + 7 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 5 -->
+        Find the equation of the straight line which passes through the points <m>$(−1, 3)$</m>
+        and <m>$(4, −2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 6 -->
+        Find the equation of the straight line cutting off intercept unity from the positive
+        direction of the <m>$y$</m>-axis and inclines at <m>$45^\circ$</m> to the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 7 -->
+        Find the equation of the straight line cutting off intercept <m>$-5$</m> from the <m>$y$</m>-axis and
+        being equally inclined to the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 8 -->
+        Find the equation of the straight line cutting off intercept <m>$2$</m> from the negative
+        direction of <m>$y$</m>-axis and inclined at <m>$30^\circ$</m> to <m>$OX$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 9 -->
+        Find the equation of the straight line cutting off intercept <m>$-3$</m> from the <m>$y$</m>-axis
+        and inclined at an angle <m>$\tan^{-1}\frac{3}{5}$</m> to the <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 10 -->
+        Find the equation of the straight line cutting off intercepts <m>$3$</m> and <m>$2$</m> from the
+        axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 11 -->
+        Find the equation of the straight line cutting off intercepts <m>$-5$</m> and <m>$6$</m> from the
+        axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 12 -->
+        Find the equation of the straight line which passes through the point <m>$(5, 6)$</m> and
+        has intercept on the axes equal in magnitude and both positive. Find the equation
+        if intercepts are equal in magnitude but opposite in sign.
+      </d:listitem>
+      <d:listitem>
+        <!-- 13 -->
+        Find the equations of the straight lines which passes through the point <m>$(1, −2)$</m>
+        and cut off equal distances from the two axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 14 -->
+        Find the equation of the straight line which passes through the point <m>$\left(x', y'\right)$</m>
+        and is such that the given point bisects the part intercepted between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 15 -->
+        Find the equation of the straight line which passes through the point <m>$(-4, 3)$</m> and
+        is such that the portion of it between the axes is divided by the point in the ratio
+        <m>$5 : 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 16 -->
+        Find the equation of the straight line passing through the points <m>$(0, 0)$</m> and <m>$(2,
+        −2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 17 -->
+        Find the equation of the straight line passing through the points <m>$(3, 4)$</m> and <m>$(5,
+        6)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 18 -->
+        Find the equation of the straight line passing through the points <m>$(-1, 3)$</m> and
+        <m>$(6, -7)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 19 -->
+        Find the equation of the straight line passing through the points <m>$(0, -a)$</m> and <m>$(b,
+        0)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 20 -->
+        Find the equation of the straight line passing through the points <m>$(a, b)$</m> and <m>$(a +
+        b, a - b)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 21 -->
+        Find the equation of the straight line passing through the points <m>$\left(at_1^2,
+        2at_1\right)$</m> and <m>$\left(at_2^2, 2at_2\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 22 -->
+        Find the equation of the straight line passing through the points <m>$\left(at_1,
+        \frac{a}{t_1}\right)$</m> and <m>$\left(at_2, \frac{a}{t_2}\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 23 -->
+        Find the equation of the straight line passing through the points <m>$(a\cos\phi_1, a\sin\phi_1)$</m>
+        and <m>$(a\cos\phi_2, a\sin\phi_2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 24 -->
+        Find the equation of the straight line passing through the points <m>$(a\cos\phi_1, b\sin\phi_1)$</m>
+        and <m>$(a\cos\phi_2, b\sin\phi_2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 25 -->
+        Find the equation of the straight line passing through the points <m>$(a\sec\phi_1, b\tan\phi_1)$</m>
+        and <m>$(a\sec\phi_2, b\tan\phi_2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 26 -->
+        Find the equations of the sides of the triangle the coordinates of whose angular
+        points are respectively <m>$(1, 4), (2, -3)$</m> and <m>$(-1, -2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 27 -->
+        Find the equations of the sides of the triangle the coordinates of whose angular
+        points are respectively <m>$(0, 1), (2, 0)$</m> and <m>$(-1, -2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 28 -->
+        Find the equations of the diagonals of the rectangle the equations of whose sides
+        are <m>$x = a, x = a', y = b$</m> and <m>$y = b'$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 29 -->
+        Find the equation of the straight line which bisects the distance between the
+        points <m>$(a, b)$</m> and <m>$\left(a', b'\right)$</m> and also bisects the distance between the
+        points <m>$(-a, b)$</m> and <m>$\left(a', -b'\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 30 -->
+        Find the equations of the straight lines which go through the origin and trisect
+        the portion of the straight line <m>$3x + y = 12$</m> which is intercepted between the axes
+        of coordinates.
+      </d:listitem>
+      <d:listitem>
+        <!-- 31 -->
+        Find the equation of the straight line which makes an angle of <m>$15^\circ$</m> with the
+        positive direction of <m>$x$</m>-axis, and which cuts an intercept of length <m>$4$</m> on the
+        negative direction of <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 32 -->
+        Find the equation of the straight line which cuts off an intercept <m>$4$</m> from the
+        <m>$x$</m>-axis and makes an angle of <m>$30^\circ$</m> with the <m>$y$</m>-axis.
+      </d:listitem>
+    </d:orderedlist>
   </d:sect1>
 </d:chapter>

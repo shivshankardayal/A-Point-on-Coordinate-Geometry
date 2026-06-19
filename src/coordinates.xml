@@ -64,14 +64,6 @@
       In general, when we study cartesian coordinate system we mamke use of two perpendicular axes. However,
       to prevent the loss of generality let us make use of inclined
       axes or oblique axes. Consider the diagram given below:
-    <d:figure xml:id="axes">
-      <d:title>Cartesian axes in xy-plane.</d:title>
-      <d:mediaobject>
-        <d:imageobject condition="web">
-          <d:imagedata fileref="../images/axes.webp"/>
-        </d:imageobject>
-      </d:mediaobject>
-    </d:figure>
     </d:para>
     <d:para>
       <m>$XOX'$</m> is called the <m>$x$</m>-axis and <m>$YOY'$</m> is called the <m>$y$</m>-axis. As said
@@ -90,6 +82,14 @@
       and distances when measured parallel to <m>$y$</m>-axis are typically denoted by <m>$y$</m> with or
       without a suffix, for example: <m>$y_1, y_2, \ldots, y', y'', \ldots$</m>.
     </d:para>
+    <d:figure xml:id="axes">
+      <d:title>Cartesian axes in xy-plane.</d:title>
+      <d:mediaobject>
+        <d:imageobject condition="web">
+          <d:imagedata fileref="../images/axes.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
     <d:para>
       A point <m>$P$</m> having the abscissa <m>$x$</m> and the
       ordinate <m>$y$</m> is typically denoted as <m>$(x, y)$</m>.

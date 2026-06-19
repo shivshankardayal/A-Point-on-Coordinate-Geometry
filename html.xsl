@@ -19,7 +19,7 @@
   -->
 
   <!-- Use the official stylesheet distro -->
-  <xsl:import href="/usr/share/xml/docbook/stylesheet/docbook-xsl/html/chunk.xsl" />
+  <xsl:import href="/usr/share/sgml/docbook/xsl-ns-stylesheets-1.79.2/html/chunk.xsl" />
   <!--xsl:import href="/opt/local//share/xsl/docbook-xsl-ns/html/chunk.xsl" /-->
 
   <!-- The location of the highlighting configuration -->
@@ -33,6 +33,7 @@
     </div>
   </xsl:template>
   <xsl:template name="user.head.content">
+    <xsl:copy-of select="document('analytics1.js', /)"/>
     <xsl:copy-of select="document('analytics.js', /)"/>
     <xsl:copy-of select="document('mathjax_config.js', /)"/>
     <xsl:copy-of select="document('mathjax.js', /)"/>
