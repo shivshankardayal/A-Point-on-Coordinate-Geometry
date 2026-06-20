@@ -15,7 +15,6 @@
   </d:para>
   <d:orderedlist>
     <d:listitem>
-      Infinitely many lines can be drawn through a point. See <xref linkend="infinite-lines-through-point" />
       <d:figure xml:id="infinite-lines-through-point">
         <d:title>Infinite lines through a point.</d:title>
         <d:mediaobject>
@@ -24,9 +23,10 @@
           </d:imageobject>
         </d:mediaobject>
       </d:figure>
+      Infinitely many lines can be drawn through a point. See <d:xref linkend="infinite-lines-through-point" />
     </d:listitem>
     <d:listitem>
-      Infinitely many lines can be drawn in a direction. See <xref linkend="infinite-parallel-lines" />
+      Infinitely many lines can be drawn in a direction. See <d:xref linkend="infinite-parallel-lines" />
       <d:figure xml:id="infinite-parallel-lines">
         <d:title>Infinite parallel lines.</d:title>
         <d:mediaobject>
@@ -37,7 +37,7 @@
       </d:figure>
     </d:listitem>
     <d:listitem>
-      One and only one line can be drawn through a fixed point in a given direction. See <xref linkend="one-line-point-direction" />
+      One and only one line can be drawn through a fixed point in a given direction. See <d:xref linkend="one-line-point-direction" />
       <d:figure xml:id="one-line-point-direction">
         <d:title>A line through a point having direction.</d:title>
         <d:mediaobject>
@@ -48,7 +48,7 @@
       </d:figure>
     </d:listitem>
     <d:listitem>
-      One and only one line can be drawn through two given points. See <xref
+      One and only one line can be drawn through two given points. See <d:xref
       linkend="line-through-two-points" />
       <d:figure xml:id="line-through-two-points">
         <d:title>A line through two points.</d:title>
@@ -80,7 +80,7 @@
     <d:para>
       If the angle of inclination is <m>$\theta$</m> then <m>$tan\theta$</m> is called the <d:emphasis
       role="italic">slope</d:emphasis> or <d:emphasis role="italic">gradient</d:emphasis>
-      of the straight line. Usually it is denoted by <m>$𝑚$</m>. Thus, the slope of the lines shown in <xref
+      of the straight line. Usually it is denoted by <m>$𝑚$</m>. Thus, the slope of the lines shown in <d:xref
       linkend="inclination-angle" /> are <m>$\tan 45^\circ$</m> and <m>$\tan 135^\circ$</m> i.e. <m>$1$</m>
       and <m>$-1$</m>.
     </d:para>
@@ -204,7 +204,7 @@
       <d:title>Point-Slope Form</d:title>
       <d:para>
         We will find an equation to a straight line whose slope is <m>$m$</m> and which passes through
-        a point <m>$(x_1, y_1)$</m>. See <xref linkend="point-slope-form" />.
+        a point <m>$(x_1, y_1)$</m>. See <d:xref linkend="point-slope-form" />.
       </d:para>
       <d:para>
         Let <m>$AB$</m> be a straight line whose slope is <m>$m$</m> and which passes through the point
@@ -247,7 +247,7 @@
       <d:title>Two-Point Form</d:title>
       <d:para>
         We will find an equation of a straight line which passes through two points <m>$(x_1, y_1)$</m> and
-        <m>$(x_2, y_2)$</m>. See <xref linkend="two-point-form" />.
+        <m>$(x_2, y_2)$</m>. See <d:xref linkend="two-point-form" />.
       </d:para>
       <d:para>
         Let <m>$AB$</m> be a line which passes through two points <m>$Q(x_1, y_1)$</m> and <m>$R(x_2,
@@ -298,7 +298,7 @@
       <d:title>Intercept Form</d:title>
       <d:para>
         We will find the equation of the straight line which cuts the intercept <m>$a$</m> and <m>$b$</m> at
-        <m>$x$</m>-axis and <m>$y$</m>-axis respectively. See Figure <xref linkend="intercept-form" />
+        <m>$x$</m>-axis and <m>$y$</m>-axis respectively. See Figure <d:xref linkend="intercept-form" />
       </d:para>
       <d:para>
         Let <m>$AB$</m> be a line which cuts intercept <m>$a$</m> and <m>$b$</m> on <m>$x$</m>-axis and
@@ -871,7 +871,7 @@
       c_1 = 0$</m>.
     </d:para>
     <d:para>
-      When <m>$b&gt; 0$</m>, on left side of the <xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
+      When <m>$b&gt; 0$</m>, on left side of the <d:xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
       \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &gt; b\beta_1$</m> or <m>$a\alpha + b\beta + c &gt;
       a\alpha_1 + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &gt; 0$</m>.
     </d:para>
@@ -879,7 +879,7 @@
       Similarly, for right side of the figure we can establish <m>$a\alpha + b\beta + c &lt; 0$</m>.
     </d:para>
     <d:para>
-      When <m>$b &lt; 0$</m>, on left side of the <xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
+      When <m>$b &lt; 0$</m>, on left side of the <d:xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
       \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &lt; b\beta_2$</m> or <m>$a\alpha + b\beta + c &lt;
       a\alpha + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &lt; 0$</m>.
     </d:para>
@@ -1199,7 +1199,7 @@
       beta)$</m> will lie on the same side of the line <m>$a_2x + b_2y + c_2 = 0$</m>.
     </d:para>
     <d:para>
-      The figure will be like <xref linkend="bisector-lines1" />
+      The figure will be like <d:xref linkend="bisector-lines1" />
     </d:para>
     <d:para>
       <d:emphasis role="bold">Case II:</d:emphasis> When both <m>$a_1x_1 + b_1y_1 + c_1$</m> and <m>$a_2x_1 +
@@ -1221,7 +1221,7 @@
     <d:para>
       Again since <m>$a-2\alpha + b_2\beta + c_2$</m> and <m>$a_2x_1 + b_2y_1 + c_2$</m> are of opposite
       sign, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, \beta)$</m> will lie on opposite side
-      of the line <m>$a_2x + b_2y + c_1 = 0$</m>. Thus, in this case figure will like <xref
+      of the line <m>$a_2x + b_2y + c_1 = 0$</m>. Thus, in this case figure will like <d:xref
       linkend="bisector-lines2" />
     </d:para>
     <d:para>
@@ -1436,6 +1436,394 @@
         <!-- 32 -->
         Find the equation of the straight line which cuts off an intercept <m>$4$</m> from the
         <m>$x$</m>-axis and makes an angle of <m>$30^\circ$</m> with the <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 33 -->
+        Find the equation of the straight line which passes through the point <m>$(1, 2)$</m> and
+        makes an angle <m>$\theta$</m> with the positive direction of 𝑥-axis where <m>$\cos\theta =
+        -\frac{1}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 34 -->
+        Find the equation of the line joining the points <m>$(−1, 3)$</m> and <m>$(4, -2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 35 -->
+        A line through the point <m>$A(2, 0)$</m> which makes an angle of <m>$30^\circ$</m> with the
+        positive direction of <m>$x$</m>-axis is rotated about <m>$A$</m> in clockwise direction through an
+        angle of <m>$15^\circ$</m>. Find the equation of the straight line in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 36 -->
+        Find the equation of the internal bisector of the <m>$\angle BAC$</m> of the <m>$\triangle ABC$</m>
+        whose vertices <m>$A, B, C$</m> are <m>$(5, 2), (2, 3), (6, 5)$</m> respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 37 -->
+        A rectangle has two opposite vertices at the point <m>$(1, 2)$</m> and <m>$(5, 5)$</m>. If the other
+        vertices lies on the line <m>$x = 3$</m>, find the equation of the sides of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 38 -->
+        In the given figure <m>$PQR$</m> is an equilateral triangle and <m>$OSPT$</m> is a square. If <m>$OT
+        = 2\sqrt{2}$</m> units, find the equation of lines <m>$OT, OS, SP, QR, PR$</m> and <m>$PQ$</m>.
+        <d:figure>
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_23.webp" />
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:listitem>
+      <d:listitem>
+        <!-- 39 -->
+        If <m>$D, E, F$</m> are three points on the sides <m>$BC, AC$</m> and <m>$AB$</m> of a <m>$\triangle
+        ABC$</m> such that <m>$AD, BE$</m> and <m>$CF$</m> are concurrent, then show thta <m>$BD.CE.AF -
+        DC.EA.FB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 40 -->
+        Find the coordinates of the vertices of a square inscribed in a triangle with vertices
+        <m>$A(0, 0), B(2, 1)$</m> and <m>$C(3, 0)$</m>; given that two of its vertices are on the side
+        <m>$AC$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 41 -->
+        Transform equation <m>$\sqrt{3}y - 3x = 3$</m> to the slope intercept form and also find the
+        angle, which this straight line makes with the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 42 -->
+        Find the equation of the straight line which cuts of an intercept of <m>$7$</m> on <m>$y$</m>-axis
+        and has the slope <m>$3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 43 -->
+        Find the equation of the line, which makes an angle of <m>$75^\circ$</m> with <m>$x$</m>-axis and
+        cuts an intercept of length <m>$3$</m> on the positive direction of <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 44 -->
+        Find the equation of the straight lines which cuts off an intercept <m>$-5$</m> from the
+        <m>$y$</m>-axis and makes an angle of <m>$\sin^{-1}\frac{12}{13}$</m> with the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 45 -->
+        Find the equation of the straight line which is parallel to <m>$x$</m>-axis at a distance of
+        <m>$5$</m> units from it.
+      </d:listitem>
+      <d:listitem>
+        <!-- 46 -->
+        Find the equation of the straight line which is parallel to <m>$y$</m>-axis at a distance of
+        <m>$4$</m> units from it towards negative side of <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 47 -->
+        Find the equation of the straight lines which pass through <m>$(5, 3)$</m> and are respectively
+        parallel and perpendicular to the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 48 -->
+        Find the equation of the straight line which intercepts a length of <m>$2$</m> on the positive
+        direction of <m>$x$</m>-axis and is inclined at <m>$135^\circ$</m> with the positive direction of
+        <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 49 -->
+        Find the equation of a straight line which cuts off an intercept <m>$4$</m> on the <m>$x$</m>-axis
+        and has the slope <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 50 -->
+        Find the equation of the straight line passing through <m>$(3, −2)$</m> and making an angle
+        of <m>$60^\circ$</m> with the positive direction of <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 51 -->
+        Find the slope of the line passing through the points <m>$(3, 4)$</m> and <m>$(1, 2)$</m>. Also find
+        its equation.
+      </d:listitem>
+      <d:listitem>
+        <!-- 52 -->
+        Find the equation of the straight line passing through the points <m>$(a, b)$</m> and <m>$(a +
+        r\cos\theta, b + r\sin\theta) $</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 53 -->
+        If <m>$(x, y)$</m> is a point on the straight line joining <m>$(1, −3)$</m> and <m>$(−4, 2)$</m>
+        show that <m>$x + y + 2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 54 -->
+        Prove that the points <m>$(1, 4), (3, −2)$</m> and <m>$(−3, 16)$</m> are collinear. Also, find the
+        the equation of this straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 55 -->
+        If the points <m>$(a, b), \left(a_1, b_1\right)$</m> and <m>$\left(a - a_1, b - b_1\right)$</m> are
+        collinear, show that the line joining them passes through the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 56 -->
+        Find the value of <m>$t$</m> for which <m>$(1, 2), (−3, 0)$</m> and <m>$(t − 1, 3)$</m> will be
+        collinear. Also find the equation of the straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 57 -->
+        Show that the straight line passing through the points <m>$(p, q + r)$</m> and <m>$(q, r + p)$</m>
+        also passes through the point <m>$(r, p + q)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 58 -->
+        Find the equation of the straight line passes through the point which divides the
+        line segment joining the points <m>$(−1, 2)$</m> and <m>$(4, −5)$</m> externally in the ratio <m>$2
+        : 3$</m> and the point <m>$(1, 2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 59 -->
+        Find the equation of the side <m>$BC$</m> of the <m>$\triangle ABC$</m> whose vertices <m>$A, B,
+        C$</m> are <m>$(−1, −2), (0, 1), (2, 0)$</m> respectively. Also find the equation of the median
+        through <m>$(−1, −2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 60 -->
+        The vertices of a triangle are <m>$(1, 2), (2, 3)$</m> and <m>$(5, 4)$</m>. Find the equation of its
+        medians.
+      </d:listitem>
+      <d:listitem>
+        <!-- 61 -->
+        In what ratio does the line <m>$x + y + 1 = 0$</m> divide the line segment joining the points
+        <m>$(2, 3)$</m> and <m>$(−1, 4)$</m>?
+      </d:listitem>
+      <d:listitem>
+        <!-- 62 -->
+        Find the ratio in which the line segment joining <m>$(2, 3)$</m> and <m>$(4, 1)$</m> is divided by
+        the line joining <m>$(1, 2)$</m> and <m>$(4, 3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 63 -->
+        The vertices of a <m>$\triangle ABC$</m> are <m>$(2, 2), (−1, −2)$</m> and <m>$(1,
+        −3)$</m>. <m>$D$</m> is a point on <m>$BC$</m> such that <m>$BD : DC = 2 : 1$</m>. Find the ratio in
+        which <m>$AD$</m> divides the median through <m>$B$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 64 -->
+        For the straight line <m>$y - \sqrt{3}x = 3$</m>, find the intercept on <m>$y$</m>-axis and also the
+        angle which the straight line makes with the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 65 -->
+        Find the equation of the straight line which passes through the point <m>$(3, 4)$</m> and whose
+        intercept on <m>$y$</m>-axis is twice that on <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 66 -->
+        Find the equation of the straight line which passes through the point <m>$(3, 4)$</m> and is such
+        that the portion of it intercepted between the axes is divided by the point in the ratio <m>$2 :
+        3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 67 -->
+        Find the equation of the straight line whose intercepts on <m>$x$</m>-axis and <m>$y$</m>-axis are
+        respectively twice and thrice of those by the line <m>$3x + 4y = 12$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 68 -->
+        Find the equation of the straight line passing through the origin and the middle
+        point of the intercept of the straight line <m>$ax + by + c = 0$</m> between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 69 -->
+        Find the equation of the straight lines which pass through the origin and trisect
+        the intercept of the line <m>$3x + 4y = 12$</m> between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 70 -->
+        A straight line cuts intercepts from the axes of coordinates the sum of the reciprocal
+        of which is a constant. Show that it always passes through a fixed point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 71 -->
+        If the equal sides <m>$AB$</m> and <m>$AC$</m> of a right angled isosceles triqangle be produced
+        to <m>$P$</m> and <m>$Q$</m> so that <m>$BO.CQ = AB^2$</m>, show that <m>$PQ$</m> always passes
+        through a fixed point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 72 -->
+        Through the point <m>$P(\alpha, \beta)$</m>, where <m>$\alpha\beta > 0$</m> the straight line
+        <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> is drawn so as to form with coordinate axes a triangle of
+        area <m>$S$</m>. If <m>$ab > 0$</m>, find the least value of <m>$S$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 73 -->
+        Find the equation of the straight line upon which the length of perpendicular
+        from origin is <m>$3\sqrt{2}$</m> units and this perpendicular makes an angle of <m>$75^\circ$</m>
+        with the positive direction of <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 74 -->
+        Find the equation of the straight line upon which the length of the perpendicular
+        from the origin is <m>$2$</m> and the slope of the perpendicular is <m>$\frac{5}{12}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 75 -->
+        A canal is <m>$4\frac{1}{2}$</m> kms from a place and the shortest route from this place to canal is
+        exactly north-east. A village is <m>$3$</m> kms north and <m>$4$</m> kms east from the place. Does
+        it lie on the canal?
+      </d:listitem>
+      <d:listitem>
+        <!-- 76 -->
+        Find the equation of the straight lines which makes a triangle of area <m>$96\sqrt{3}$</m> with
+        the axes and perpendicular from the origin to it makes an angle of <m>$30^\circ$</m> with
+        <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 77 -->
+        In the given figure <m>$ABC$</m> is a right-angled iscosceles triangle and <m>$BCDE$</m> is a
+        square. If <m>$OC = 2$</m>, find the equation of the sides <m>$AB$</m> and <m>$BC$</m> of
+        <m>$\triangle ABC$</m> and side <m>$DE$</m> of the square.
+        <d:figure>
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_27.webp" />
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:listitem>
+      <d:listitem>
+        <!-- 78 -->
+        Find the coordinates of the point where the line <m>$\sqrt{3}x + y - 8 = 0$</m> meets the
+        coordinate axes and also find the length of the perpendicular from the origin upon
+        this line and the angle which this perpendicular makes with the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 79 -->
+        Find the equations of the straight lines which pass through the point <m>$(3, 2)$</m> and
+        cut off intercepts <m>$a$</m> and <m>$b$</m> on the <m>$x$</m> and <m>$y$</m>-axes such that <m>$a −
+        b = 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 80 -->
+        Find the equation of the line which passes through <m>$P(1, -7)$</m> and meets the axes
+        at <m>$A$</m> and <m>$B$</m> respectively such that <m>$4AP - 3BP = 0$</m>, where <m>$O$</m> is the
+        origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 81 -->
+        Find the equation of the straight line which passes through the point <m>$P(2, 6)$</m> and
+        cuts the axes at the points <m>$A$</m> and <m>$B$</m> respectively such that <m>$\frac{AP}{BP} =
+        \frac{2}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 82 -->
+        Find the equation of the straight line whose intercepts on the axes are twice the
+        intercepts of the line <m>$3x + 4y = 6$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 83 -->
+        Find the equation of the straight line passing through <m>$(2, 1)$</m> and bisecting the
+        portion of the straight line <m>$3x − 5y = 15$</m> lying between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 84 -->
+        Find the equations of the straight lines which pass through the origin and trisect
+        the portion of the straight line <m>$2x + 3y = 6$</m> which is intercepted between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 85 -->
+        Prove that the points <m>$(5, 1), (11, 4)$</m> and <m>$(1, −1)$</m> lie on a straight line and find
+        its intercepts on the axes and between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 86 -->
+        Find the intercepts on the axes of the straight line passing through the points
+        <m>$(1, −3)$</m> and <m>$(4, 5)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 87 -->
+        The lnegth of the perpendicular from the origin to a line is <m>$7$</m> and the line makes
+        an angle of <m>$150^\circ$</m> with the positive direction of <m>$y$</m>-axis. Find the equation of
+        the line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 88 -->
+        Find the equation of the straight line upon which the length of the perpendicular
+        from the origin is <m>$2$</m> and this perpendicular makes an angle of <m>$30^\circ$</m> with the positive
+        direction of <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 89 -->
+        Find the equation of the line which is at a distance <m>$y$</m> from the origin and the
+        perpendicular from the origin to the line makes an angle of <m>$60^\circ$</m> with the positive
+        direction of <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 90 -->
+        Find the equation of the straight line upon which the length of the perpendicular
+        from the origin is <m>$6$</m> and the gradient of the perpendicular is <m>$\frac{3}{4}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 91 -->
+        Find the equation of the line joining the points <m>$(1, 2)$</m> and <m>$(-3, 1)$</m>. Find its
+        intercepts on the axes. If <m>$p$</m> be the length of the perpendicular from the origin to the
+        line, find the value of <m>$p$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 92 -->
+        Find the equation of the straight line which passes through the point <m>$(3, 2)$</m> and whose
+        gradient is <m>$\frac{3}{4}$</m>. Find the coordinates of the points on the line that are <m>$5$</m>
+        units away from the point <m>$(3, 2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 93 -->
+        Find the direction in which a straight line must be drawn through the point <m>$(1, 2)$</m> so that
+        its point of intersection wth the line <m>$x + y = 4$</m> is at a distance
+        <m>$\sqrt{\frac{2}{3}}$</m> from the point <m>$(1, 2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 94 -->
+        f the straight line drawn through the point <m>$P(\sqrt{3}, 2)$</m> makes an angle
+        <m>$\frac{\pi}{6}$</m> with the <m>$x$</m>-axis meets the line <m>$\sqrt{3}x - 4y + 8 = 0$</m> at
+        <m>$Q$</m>. Find the length of <m>$PQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 95 -->
+        Find the coordinates of the points at a distance <m>$4\sqrt{2}$</m> units from the point <m>$(2,
+        3)$</m> in the direction making an angle of <m>$46^\circ$</m> with the positive direction of
+        <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 96 -->
+        A line joining two points <m>$A(2, 0)$</m> and <m>$B(3, 1)$</m> is rotated about <m>$A$</m> in
+        anticlockwise direction through an angle <m>$15^\circ$</m>. Find the equation of the line in new
+        position. If <m>$B$</m> goes to <m>$C$</m> in the new position what will be the coordinates of
+        <m>$C$</m>?
+      </d:listitem>
+      <d:listitem>
+        <!-- 97 -->
+        The extremeties of the diagonal of a sqaure are <m>$(1, 1), (−2, −1)$</m>. Obtain the other two
+        vertices and the equation of the other diagonal.
+      </d:listitem>
+      <d:listitem>
+        <!-- 98 -->
+        Show that if any line through the variable point <m>$A(k + 1, 2k)$</m> meets the line <m>$7x + y −
+        16 = 0, 5x − y − 8 = 0, x − 5y + 8 = 0$</m> at <m>$B, C, D$</m> respectively <m>$AC, AAB$</m> and
+        <m>$AD$</m> are in H.P.
+      </d:listitem>
+      <d:listitem>
+        <!-- 99 -->
+        The center of a square is at the origin and one vertex is <m>$A(2, 1)$</m>. Find the coordinates of
+        other vertices of the square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 100 -->
+        Show that if <m>$A(x_1, y_1), B(x_2, y_2), c(x_3, y_3)$</m> are the vertices of a triangle, then the
+        equation of the internal bisector of angle <m>$A$</m> is given by <m>$b\begin{vmatrix}x &amp; y&amp;
+        1\\x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\end{vmatrix} + c\begin{vmatrix}x &amp; y&amp;
+        1\\x_1&amp;y_1&amp;1\\x_3&amp;y_3&amp;1\end{vmatrix} = 0$</m>, where <m>$b = AC$</m> and <m>$c =
+        AB$</m>.
       </d:listitem>
     </d:orderedlist>
   </d:sect1>

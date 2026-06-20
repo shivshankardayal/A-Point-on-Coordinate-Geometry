@@ -71,7 +71,7 @@
     </d:mediaobject>
   </d:figure>
   <d:para>
-    We see from <xref linkend="locus-straight-line"/> that the points we have chosen indeed lie on the
+    We see from <d:xref linkend="locus-straight-line"/> that the points we have chosen indeed lie on the
     equation representing the locus.
   </d:para>
   <d:para>
@@ -97,7 +97,7 @@
     </d:mediaobject>
   </d:figure>
   <d:para>
-    We can take any point <m>$Q(x, y)$</m> on <xref linkend="locus-circle"/> such that <m>$QM$</m> is the
+    We can take any point <m>$Q(x, y)$</m> on <d:xref linkend="locus-circle"/> such that <m>$QM$</m> is the
     perpendicular on <m>$x$</m>-axis then we find that <m>$QM^2 + OM^2 = OQ^2 \Rightarrow x^2 + y^2 =
     r^2$</m>, which is what the equation of a circle is. Thus, all the points on the circle satisfy the
     Eq. 2.2. We take one more example of that of a parabola. We take a specific parabola given by the
