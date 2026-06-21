@@ -8,3 +8,4 @@ pdf/
 !images/*.pdf
 !images/*.png
 venv/
+node_modules/

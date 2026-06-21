@@ -49,7 +49,7 @@
     </d:listitem>
     <d:listitem>
       One and only one line can be drawn through two given points. See <d:xref
-      linkend="line-through-two-points" />
+                                                                         linkend="line-through-two-points" />
       <d:figure xml:id="line-through-two-points">
         <d:title>A line through two points.</d:title>
         <d:mediaobject>
@@ -79,9 +79,9 @@
     <d:title>Slope or Gradient of a Line</d:title>
     <d:para>
       If the angle of inclination is <m>$\theta$</m> then <m>$tan\theta$</m> is called the <d:emphasis
-      role="italic">slope</d:emphasis> or <d:emphasis role="italic">gradient</d:emphasis>
+                                                                                             role="italic">slope</d:emphasis> or <d:emphasis role="italic">gradient</d:emphasis>
       of the straight line. Usually it is denoted by <m>$𝑚$</m>. Thus, the slope of the lines shown in <d:xref
-      linkend="inclination-angle" /> are <m>$\tan 45^\circ$</m> and <m>$\tan 135^\circ$</m> i.e. <m>$1$</m>
+                                                                                                         linkend="inclination-angle" /> are <m>$\tan 45^\circ$</m> and <m>$\tan 135^\circ$</m> i.e. <m>$1$</m>
       and <m>$-1$</m>.
     </d:para>
     <d:para>
@@ -185,14 +185,14 @@
       </d:para>
       <d:para>
         Let <m>$P(x, y)$</m> be any point on the line <m>$AB$</m>. From <m>$P$</m> we draw <m>$PL\perp
-        QX$</m> and from <m>$Q$</m> we draw <m>$QM\perp PL$</m>.
+          QX$</m> and from <m>$Q$</m> we draw <m>$QM\perp PL$</m>.
       </d:para>
       <d:para>
         Since <m>$\angle PHL = \theta \therefore PQM = \theta$</m>.
       </d:para>
       <d:para>
         Now in <m>$\triangle PQM, \tan\theta = \frac{PM}{QM} = \frac{PL - ML}{QM} = \frac{PL - QO}{OL} =
-        \frac{y - c}{x} = m$</m>
+          \frac{y - c}{x} = m$</m>
         <m>\[y = mx + c\tag{3.7}\]</m>
       </d:para>
       <d:para>
@@ -209,7 +209,7 @@
       <d:para>
         Let <m>$AB$</m> be a straight line whose slope is <m>$m$</m> and which passes through the point
         <m>$Q(x_1, y_1)$</m>. Let the line <m>$AB$</m> cut the <m>$x$</m>-axis at <m>$H$</m> and <m>$\angle
-        BHX = \theta$</m> then <m>$\tan\theta = m$</m>.
+          BHX = \theta$</m> then <m>$\tan\theta = m$</m>.
       </d:para>
       <d:para>
         Let <m>$P(x, y)$</m> be any point on line <m>$AB$</m>. From <m>$P$</m> and <m>$Q$</m> we draw
@@ -218,14 +218,14 @@
       </d:para>
       <d:para>
         Since <m>$P = (x, y) \therefore OL = x$</m> and <m>$PL = y$</m> and since <m>$Q = (x_1, y_1)
-        \therefore OM = x_1$</m> and <m>$QM = y_1$</m>.
+          \therefore OM = x_1$</m> and <m>$QM = y_1$</m>.
       </d:para>
       <d:para>
         Since <m>$\angle BHX = \theta \therefore \angle PQN = \theta$</m>
       </d:para>
       <d:para>
         Now from <m>$\triangle PQN, \tan\theta = \frac{PN}{QN} = \frac{y - y_1}{x - x_1}\therefore m =
-        \frac{y - y_1}{x - x_1}$</m>
+          \frac{y - y_1}{x - x_1}$</m>
         <m>\[y - y_1 = m(x - x_1)\tag{3.8}\]</m>
       </d:para>
       <d:figure xml:id="point-slope-form">
@@ -240,7 +240,7 @@
         <d:emphasis role="bold">Aliter:</d:emphasis> Since <m>$m$</m> is the slope of the line therefore its
         equation may be written as <m>$y = mx + c$</m>. Since <m>$(x_1, y_1)$</m> lies on this line
         therefore we can write <m>$y_1 = mx_1 + c \Rightarrow c = y_1 - mx_1$</m>. Thus, <m>$y - y_1 = m(x -
-        x_1)$</m>.
+          x_1)$</m>.
       </d:para>
     </d:sect2>
     <d:sect2>
@@ -251,7 +251,7 @@
       </d:para>
       <d:para>
         Let <m>$AB$</m> be a line which passes through two points <m>$Q(x_1, y_1)$</m> and <m>$R(x_2,
-        y_2)$</m>. Let <m>$P(x, y)$</m> be any point on <m>$AB$</m>.
+          y_2)$</m>. Let <m>$P(x, y)$</m> be any point on <m>$AB$</m>.
       </d:para>
       <d:para>
         From <m>$P, Q$</m> and <m>$R$</m> we drop <m>$PL, QM$</m> and <m>$RN$</m> perpendiculars to
@@ -260,14 +260,14 @@
       </d:para>
       <d:para>
         <m>$\because P = (x, y) \therefore OL = x, PL = y, Q = (x_1, y_1) \therefore OM = x_1, QM =
-        y_1$</m> and <m>$R = (x_2, y_2) \therefore ON = x_2, RN = y_2$</m>.
+          y_1$</m> and <m>$R = (x_2, y_2) \therefore ON = x_2, RN = y_2$</m>.
       </d:para>
       <d:para>
         From similar <m>$\triangle PHQ$</m> and <m>$\triangle QKR$</m>, we have
       </d:para>
       <d:para>
         <m>$\frac{PH}{QK} = \frac{HQ}{KR}\therefore \frac{y - y_1}{y_1 - y_2} = \frac{x_1 - x}{x_2 -
-        x_1}$</m>
+          x_1}$</m>
         <m>\[y - -y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)\tag{3.9}\]</m>
       </d:para>
       <d:figure xml:id="two-point-form">
@@ -282,13 +282,13 @@
         <d:emphasis role="bold">Aliter:</d:emphasis> Since points <m>$P(x, y), Q(x_1, y_1)$</m> and
         <m>$R(x_2, y_2)$</m> are collinear, therefore
         <m>$\begin{vmatrix}x&amp; y&amp; 1\\x_1&amp; y_1&amp; 1\\x_2&amp; y_1&amp; 1\end{vmatrix} = 0
-        \Rightarrow y - -y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$</m>.
+          \Rightarrow y - -y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$</m>.
       </d:para>
       <d:para>
         <d:emphasis role="bold">Aliter:</d:emphasis> Let the equation of straight line be <m>$y = mx +
-        c$</m>. Since it passes through <m>$(x_1, y_1)$</m> and <m>$(x-2, y_2)$</m>, therefore <m>$y_1 =
-        mx_1 + c, y_2 = mx_2 + c \Rightarrow m= \frac{y_2 - y_1}{x_2 - x_1}$</m>. Now <m>$c = y_1 - mx_1 =
-        y_1 - \frac{y - y_1}{x_2 - x_1}x_1$</m>
+          c$</m>. Since it passes through <m>$(x_1, y_1)$</m> and <m>$(x-2, y_2)$</m>, therefore <m>$y_1 =
+          mx_1 + c, y_2 = mx_2 + c \Rightarrow m= \frac{y_2 - y_1}{x_2 - x_1}$</m>. Now <m>$c = y_1 - mx_1 =
+          y_1 - \frac{y - y_1}{x_2 - x_1}x_1$</m>
       </d:para>
       <d:para>
         Substituting we get <m>$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$</m>.
@@ -326,13 +326,13 @@
       <d:para>
         <d:emphasis role="bold">Aliter:</d:emphasis> Since <m>$OQ = a$</m> and <m>$OR = b$</m>, therefore
         <m>$Q = (a, 0)$</m>and <m>$R = (0, b)$</m>. Since points <m>$P(x, y), Q(a, 0)$</m> and <m>$R(0,
-        b)$</m> are collinear, therefore,
+          b)$</m> are collinear, therefore,
         <m>$\begin{vmatrix}x&amp;y&amp;1\\a&amp;0&amp;1\\0&amp;b&amp;1\end{vmatrix} = 0 \Rightarrow bx + ay
-        = ab \Rightarrow \frac{x}{a} + \frac{y}{b} = 1$</m>
+          = ab \Rightarrow \frac{x}{a} + \frac{y}{b} = 1$</m>
       </d:para>
       <d:para>
         <d:emphasis role="bold">Aliter:</d:emphasis> <m>$\Delta QOR = \Delta POQ + \Delta PRO \Rightarrow
-        \frac{1}{2}ab = \frac{1}{2}ay + \frac{1}{2}bx \Rightarrow \frac{x}{a} + \frac{y}{b} = 1$</m>.
+          \frac{1}{2}ab = \frac{1}{2}ay + \frac{1}{2}bx \Rightarrow \frac{x}{a} + \frac{y}{b} = 1$</m>.
       </d:para>
     </d:sect2>
     <d:sect2>
@@ -362,16 +362,16 @@
       </d:figure>
       <d:para>
         Since <m>$P = (x, y) \therefore OL = x, PL = y$</m>. Since <m>$\angle POQ = \alpha \therefore\angle
-        PQO = 90^\circ - \alpha, \angle LPQ = \alpha$</m>
+          PQO = 90^\circ - \alpha, \angle LPQ = \alpha$</m>
       </d:para>
       <d:para>
         From <m>$\triangle PLQ, LQ = PL\tan\alpha = y\tan\alpha$</m>. Now <m>$OP = OQ\cos\alpha = (OL +
-        LQ)\cos\alpha = (x + y\tan\alpha)\cos\alpha$</m>
+          LQ)\cos\alpha = (x + y\tan\alpha)\cos\alpha$</m>
         <m>\[x\cos\alpha + y\sin\alpha = p\tag{3.12}\]</m>
       </d:para>
       <d:para>
         <d:emphasis role="bold">Aliter:</d:emphasis> <m>$OQ = p\sec\alpha$</m> and since <m>$\angle ORP =
-        \alpha, OR = p\csc\alpha$</m>
+          \alpha, OR = p\csc\alpha$</m>
       </d:para>
       <d:para>
         Hence, <m>$Q = (p\sec\alpha, 0), R = (0, p\csc\alpha)$</m>
@@ -380,7 +380,7 @@
         Now the points <m>$P(x, y), Q(p\sec\alpha, 0)$</m> and <m>$R(0, p\csc\alpha)$</m> are collinear,
         therefore,
         <m>$\begin{vmatrix}x&amp;y&amp;1\\p\sec\alpha&amp;0&amp;1\\0&amp;p\csc\alpha&amp;1\end{vmatrix} = 0
-        \Rightarrow x(-p\csc\alpha) - yp\sec\alpha + 1.p^2\sec\alpha\csc\alpha = 0$</m>
+          \Rightarrow x(-p\csc\alpha) - yp\sec\alpha + 1.p^2\sec\alpha\csc\alpha = 0$</m>
       </d:para>
       <d:para>
         <m>\[\Rightarrow x\cos\alpha + y\sin\alpha = p\]</m>.
@@ -411,25 +411,25 @@
       </d:figure>
       <d:para>
         <m>$\because P = (x, y) \therefore OL = x, PL = y \because Q = (x_1, y_1)\therefore OM = x_1, QM =
-        y_!$</m>.
+          y_!$</m>.
       </d:para>
       <d:para>
         <m>$\because \angle BHX = \theta \therefore \angle BHO = \pi - \theta \therefore \angle PQK = \pi -
-        \theta$</m>
+          \theta$</m>
       </d:para>
       <d:para>
         Let <m>$PQ = r$</m>. From <m>$\triangle PKQ, \cos(\pi - \theta) = \frac{KQ}{PQ}\Rightarrow
-        -\cos\theta = \frac{x - x_1}{r}\Rightarrow \cos\theta = \frac{x - x_1}{r}\Rightarrow \frac{x -
-        x_1}{\cos\theta} = r$</m>
+          -\cos\theta = \frac{x - x_1}{r}\Rightarrow \cos\theta = \frac{x - x_1}{r}\Rightarrow \frac{x -
+          x_1}{\cos\theta} = r$</m>
       </d:para>
       <d:para>
         Also, <m>$\sin(\pi - \theta) = \frac{PK}{PQ}\Rightarrow \sin\theta = \frac{y - y_1}{r}\Rightarrow \frac{y
-        - y_1}{\sin\theta = r}$</m>. Thus,
+          - y_1}{\sin\theta = r}$</m>. Thus,
         <m>\[\frac{x - x_1}{\cos\theta} = \frac{y - y_1}{\sin\theta} = r\tag{3.13}\]</m>
       </d:para>
       <d:para>
         <d:emphasis role="bold">Corollary:</d:emphasis> From Eq. 3.13 we can say that <m>\[x = x_1 +
-        r\sin\theta, y = y_1 + r\cos\theta\tag{3.14}\]</m>
+          r\sin\theta, y = y_1 + r\cos\theta\tag{3.14}\]</m>
       </d:para>
       <d:para>
         which is parametric form of a straight line.
@@ -438,7 +438,7 @@
         If <m>$Q(x_1, y_1)$</m> be a point on a line <m>$AB$</m>, which makes an angle <m>$\theta$</m> with
         the positive direction of <m>$x$</m>-axis, then there will be two points on line <m>$AB$</m> and
         their coordinates will be <m>$(x_1 + r\cos\theta, y_1 + r\sin\theta)$</m> and <m>$(x_1 -
-        r\cos\theta, y_1 - r\sin\theta)$</m>. These two points will be on two opposite sides of <m>$Q$</m>
+          r\cos\theta, y_1 - r\sin\theta)$</m>. These two points will be on two opposite sides of <m>$Q$</m>
         on the line <m>$AB$</m>.
       </d:para>
     </d:sect2>
@@ -453,7 +453,7 @@
       </d:para>
       <d:para>
         Let <m>$P(x_1, y_1)$</m> and <m>$Q(x_2, y_2)$</m> be two points on this line. Then <m>$ax_1 + by_1 +
-        c = 0$</m> and <m>$ax_2 + by_2 + c_2 = 0$</m>.
+          c = 0$</m> and <m>$ax_2 + by_2 + c_2 = 0$</m>.
       </d:para>
       <d:para>
         Multiplying the two equations by <m>$m$</m> and <m>$n$</m> respectively and adding gives us
@@ -481,7 +481,7 @@
       </d:para>
       <d:para>
         <m>$\Rightarrow \begin{vmatrix}x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\\x_3&amp;y_3&amp;1\end{vmatrix}
-        = 0$</m>
+          = 0$</m>
       </d:para>
       <d:para>
         Thus, <m>$A, B, C$</m> are collinear. Thus, the equation <m>$ax + by + c = 0$</m> is equation of a
@@ -495,11 +495,11 @@
       </d:para>
       <d:para>
         <m>$\Rightarrow \begin{vmatrix}x&amp;y&amp;1\\x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\end{vmatrix}
-        = 0\Rightarrow (y_1 - y_2)x - (x_1 - x_2)y + x_1y_2 - x_2y_1 = 0$</m>,
+          = 0\Rightarrow (y_1 - y_2)x - (x_1 - x_2)y + x_1y_2 - x_2y_1 = 0$</m>,
       </d:para>
       <d:para>
         which is of the form <m>$ax + by + c = 0$</m>, where <m>$a = y_1 - y_2, b = x_2 - x_1$</m> and <m>$c
-        = x_1y_2 - x_2y_1$</m>.
+          = x_1y_2 - x_2y_1$</m>.
       </d:para>
       <d:para>
         Since the equation <m>$ax + by + c = 0$</m> is satisfied by all points on the line <m>$AB$</m> and
@@ -538,14 +538,14 @@
       <d:para>
         <m>$\Rightarrow \frac{x}{-\frac{C}{A}} + \frac{y}{-\frac{C}{B}} = 1$</m>, which is of the form
         <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>, where <m>$a = -\frac{C}{A}$</m> and <m>$b =
-        -\frac{C}{B}$</m>.
+          -\frac{C}{B}$</m>.
       </d:para>
     </d:sect2>
     <d:sect2>
       <d:title>Normal Form</d:title>
       <d:para>
         We will reduce the equation <m>$Ax + By + C = 0$</m> to the form <m>$x\cos\alpha + y\sin\alpha =
-        p$</m>, where <m>$\alpha$</m> is the angle made by the perpendicular on the line from origin and
+          p$</m>, where <m>$\alpha$</m> is the angle made by the perpendicular on the line from origin and
         <m>$p$</m> is the length of the perpendicular.
       </d:para>
       <d:para>
@@ -569,7 +569,7 @@
       </d:para>
       <d:para>
         <m>$\Rightarrow -\frac{A}{\sqrt{A^2 + B^2}} - \frac{B}{\sqrt{A^2 + B^2}} = \frac{C}{\sqrt{A^2 +
-        B^2}}$</m>, which is of the form <m>$x\cos\alpha + y\sin\alpha = p$</m>.
+          B^2}}$</m>, which is of the form <m>$x\cos\alpha + y\sin\alpha = p$</m>.
       </d:para>
     </d:sect2>
   </d:sect1>
@@ -609,7 +609,7 @@
     </d:para>
     <d:para>
       <m>$\tan\psi = \tan(\alpha - beta) = \frac{\tan\alpha  \tan\beta}{1 + \tan\alpha + \tan\beta} =
-      \frac{m_1 - m_2}{1 + m_1m_2}$</m>
+        \frac{m_1 - m_2}{1 + m_1m_2}$</m>
     </d:para>
     <d:para>
       If <m>$\angle PLD = \phi$</m> then <m>$\psi + \phi = \pi \Rightarrow \phi = \pi - \psi$</m>
@@ -623,7 +623,7 @@
     </d:para>
     <d:para>
       <m>$\tan\theta = \pm\frac{m_1 - m_2}{1 + m_1m_2}\Rightarrow \theta = \tan^{-1}\left|\frac{m_1 - m_2}{1
-      + m_1m_2}\right|, \pi - \tan^{-1}\left|\frac{m_1 - m_2}{1 + m_1m_2}\right|$</m>
+        + m_1m_2}\right|, \pi - \tan^{-1}\left|\frac{m_1 - m_2}{1 + m_1m_2}\right|$</m>
     </d:para>
     <d:para>
       If <m>$\theta$</m> is the acute angle between the lines then
@@ -655,35 +655,35 @@
       <d:title>Parallelism and Perpendicularity</d:title>
       <d:para>
         Our equation for angle between two straight lines is <m>$\tan\theta = \pm\frac{m_1 - m_2}{1 +
-        m_1m_2}$</m>. If the lines are parallel then the value of <m>$\theta$</m> would be <m>$0$</m>. Thus,
+          m_1m_2}$</m>. If the lines are parallel then the value of <m>$\theta$</m> would be <m>$0$</m>. Thus,
         <m>$m_1 = m_2$</m>. For special case when two lines are parallel to <m>$y$</m>-axis i.e. <m>$m_1 =
-        m_2 = \infty$</m> then both the lines are taken as parallel.
+          m_2 = \infty$</m> then both the lines are taken as parallel.
       </d:para>
       <d:para>
         For lines to be perpendicular then <m>$\tan\theta = \infty\Rightarrow 1 + m_1m_2 = 0 \Rightarrow
-        m_1m_2 = -1$</m>. When either of <m>$m_1$</m> or <m>$m_2$</m> is not defined then one of them has to
+          m_1m_2 = -1$</m>. When either of <m>$m_1$</m> or <m>$m_2$</m> is not defined then one of them has to
         be parallel to <m>$x$</m>-axis while the other has to be parallel to <m>$y$</m>-axis.
       </d:para>
     </d:sect2>
     <d:sect2>
       <d:title>To find the angle between straight lines <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y +
-      c_2 = 0$</m></d:title>
+          c_2 = 0$</m></d:title>
       <d:para>
         Writing the equation in slope intercept form we find that the slopes are given by <m>$m_1 =
-        -\frac{a_1}{b_1}$</m> and <m>$m_2 = -\frac{a_2}{b-2}$</m>.
+          -\frac{a_1}{b_1}$</m> and <m>$m_2 = -\frac{a_2}{b-2}$</m>.
       </d:para>
       <d:para>
         If <m>$\theta$</m> be the angle between the two lines then <m>$\tan\theta =
-        \pm\frac{-\frac{a_1}{b_2} + \frac{a_2}{b_1}}{1 + \frac{a_1a_2}{b_1b_2}} = \pm\frac{a_2b_1 -
-        a_1b_2}{a_1a_2 + b_1b_2}$</m>
+          \pm\frac{-\frac{a_1}{b_2} + \frac{a_2}{b_1}}{1 + \frac{a_1a_2}{b_1b_2}} = \pm\frac{a_2b_1 -
+          a_1b_2}{a_1a_2 + b_1b_2}$</m>
       </d:para>
       <d:para>
         <m>$\theta = \tan^{-1}\left|\frac{a_2b_1 - a_1b_2}{a_1a_2 + b_1b_2}\right|$</m> or <m>$\theta = \pi
-        - \tan^{-1}\left|\frac{a_2b_1 - a_1b_2}{a_1a_2 + b_1b_2}\right|$</m>
+          - \tan^{-1}\left|\frac{a_2b_1 - a_1b_2}{a_1a_2 + b_1b_2}\right|$</m>
       </d:para>
       <d:para>
         Clearly, the lines will be parallel if <m>$\theta = 0$</m> i.e. <m>\[\frac{a_1}{a_2} =
-        \frac{b_1}{b_2}\tag{3.17}\]</m>
+          \frac{b_1}{b_2}\tag{3.17}\]</m>
         and the lines will be perpendicular if <m>\[a_1a_2 + b_1b_2 = 0\tag{3.18}\]</m>
       </d:para>
     </d:sect2>
@@ -702,21 +702,21 @@
       </d:para>
       <d:para>
         Thus, equation of any line parallel to <m>$ax + by + c = 0$</m> is given by <m>\[ax + b y + k =
-        0\tag{3.19}\]</m>
+          0\tag{3.19}\]</m>
       </d:para>
     </d:sect2>
     <d:sect2>
       <d:title>Lines Perpendicular to Another Line</d:title>
       <d:para>
         We will find equation of a line perpendicular to another line in standard form i.e. <m>$ax + by + c
-        = 0$</m>.
+          = 0$</m>.
       </d:para>
       <d:para>
         Let the line perpendicular to give line is <m>$lx + my + n = 0$</m>.
       </d:para>
       <d:para>
         From Eq. 3.18 these two lines will be parallel if <m>$al + bm = 0$</m> or <m>$\frac{l}{b} =
-        -\frac{m}{a} = p$</m> (say)
+          -\frac{m}{a} = p$</m> (say)
       </d:para>
       <d:para>
         Thus, <m>$bpx - apy + n = 0 \Rightarrow bx - ay + \frac{n}{p} = 0 \Rightarrow bx - ay + k = 0$</m>,
@@ -724,7 +724,7 @@
       </d:para>
       <d:para>
         Thus, equation of any line perpendicular to <m>$ax + by + c = 0$</m> is given by <m>\[bx - ay + k =
-        0\tag{3.20}\]</m>
+          0\tag{3.20}\]</m>
       </d:para>
     </d:sect2>
   </d:sect1>
@@ -736,15 +736,15 @@
     </d:para>
     <d:para>
       Let <m>$P(\alpha, \beta)$</m> is the point of intersection of these two lines then <m>$a_1\alpha +
-      b_1\beta + c_1 = 0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m>.
+        b_1\beta + c_1 = 0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m>.
     </d:para>
     <d:para>
       By cross-multiplication we have <m>$\frac{\alpha}{b_1c_2 - b_2c_1} = \frac{\beta}{c_1a_2 - c_2a_1} =
-      \frac{1}{a_1b_2 - a_2b_1}$</m>
+        \frac{1}{a_1b_2 - a_2b_1}$</m>
     </d:para>
     <d:para>
       Thus, the point of intersection is given by <m>$\left(\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1},
-      \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}\right)$</m>.
+        \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}\right)$</m>.
     </d:para>
     <d:para>
       As you can see in case of parallel lines <m>$a_1b_2 - a_2b_1 = 0$</m> and then <m>$\alpha$</m> and
@@ -764,12 +764,12 @@
       </d:para>
       <d:para>
         We consider the straight line in first degree equation <m>$a_1x + b_1y + c_1 + k(a_2x + b_2y + c_2)
-        = 0$</m>.
+          = 0$</m>.
       </d:para>
       <d:para>
         Let <m>$P(\alpha, beta)$</m> be the point of intersection then <m>$a_1\alpha + b_1\beta + c_1 =
-        0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m> and <m>$a_1\alpha + b_1\beta + c_1 + k(a_2\alpha
-        + b_2\beta + c_1) = 0$</m>.
+          0$</m> and <m>$a_2\alpha + b_2\beta + c_2 = 0$</m> and <m>$a_1\alpha + b_1\beta + c_1 + k(a_2\alpha
+          + b_2\beta + c_1) = 0$</m>.
       </d:para>
       <d:para>
         Clearly, the third equation is an equation of a line passing through <m>$P$</m>. Thus, our desired
@@ -786,24 +786,24 @@
     <d:para>
       Let <m>$P(\alpha, beta)$</m> be the point where these three lines meet. Then <m>$P$</m> will lie on
       all three lines. Thus, <m>$\frac{\alpha}{b_1c_2 - b_2c_1} = \frac{\beta}{c_1a_2 - c_2a_1} =
-      \frac{1}{a_1b_2 - a_2b_1}$</m>
+        \frac{1}{a_1b_2 - a_2b_1}$</m>
     </d:para>
     <d:para>
       Thus, the point of intersection is given by <m>$\left(\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1},
-      \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}\right)$</m>.
+        \frac{c_1a_2 - c_2a_1}{a_1b_2 - a_2b_1}\right)$</m>.
     </d:para>
     <d:para>
       Now this point will lie on the third line and therefore will satisfy the equation for third
       line. Hence, <m>$a_3\frac{b_1c_2 - b_2c_1}{a_1b_2 - a_2b_1} + b_3\frac{c_1a_2 - c_2a_1}{a_1b_2 -
-      a_2b_1} + c_2 = 0$</m>.
+        a_2b_1} + c_2 = 0$</m>.
     </d:para>
     <d:para>
       Thus, the required condition for concurrency of three lines is give by <m>\[a_3(b_1c_2 - b_2c_1) +
-      b_3(c_1a_2 - c_2a_1) + c_3(a_1b_2 - a_2b_1) = 0\tag{3.22}\]</m>
+        b_3(c_1a_2 - c_2a_1) + c_3(a_1b_2 - a_2b_1) = 0\tag{3.22}\]</m>
     </d:para>
     <d:para>
       <d:emphasis role="bold">Aliter:</d:emphasis> Equations of given lines are <m>$a_1x + b_1y + c_1 = 0,
-      a_2x + b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>.
+        a_2x + b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>.
     </d:para>
     <d:para>
       Let <m>$P(\alpha, beta)$</m> be the point where these three lines meet. Then <m>$P$</m> will lie on
@@ -813,13 +813,13 @@
     <d:para>
       Eliminating <m>$\alpha, beta$</m> we can write that
       <m>$\begin{vmatrix}a_1&amp;b_1&amp;c_1\\a_2&amp;b_2&amp;c_2\\a_3&amp;b_3&amp;c_3\end{vmatrix} =
-      0$</m>, which expands to Eq. 3.22.
+        0$</m>, which expands to Eq. 3.22.
     </d:para>
     <d:para>
       <d:emphasis role="bold">Corollary:</d:emphasis> The straight lines <m>$a_1x + b_1y + c_1 = 0, a_2x +
-      b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>. will be concurrent if and only if there exists
+        b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>. will be concurrent if and only if there exists
       three constants <m>$l, m, n$</m> (not all zero at the same time) such that <m>$l(a_1x + b_1y + c_1)  +
-      m(a_2x + b_2y + c_2)  + n(a_3x + b_3y + c_3) = 0$</m> identically i.e. for all values of <m>$x$</m>
+        m(a_2x + b_2y + c_2)  + n(a_3x + b_3y + c_3) = 0$</m> identically i.e. for all values of <m>$x$</m>
       and <m>$y$</m>.
     </d:para>
     <d:para>
@@ -831,7 +831,7 @@
     </d:para>
     <d:para>
       Since the given condition is true for all <m>$x$</m> and <m>$y$</m>, therefore <m>$l(a_1\alpha + b_1\beta +
-      c_1)  + m(a_2\alpha + b_2\beta + c_2)  + n(a_3\alpha + b_3\beta + c_3) = 0$</m>
+        c_1)  + m(a_2\alpha + b_2\beta + c_2)  + n(a_3\alpha + b_3\beta + c_3) = 0$</m>
     </d:para>
     <d:para>
       <m>$\Rightarrow l.0 + m.0 + n(a_3\alpha + b_3\beta + c_3) = 0\Rightarrow a_3\alpha + b_3\beta + c_3 = 0$</m>
@@ -848,7 +848,7 @@
     </d:para>
     <d:para>
       We will show that a point <m>$(\alpha, \beta)$</m> will be on one or the other side of the line <m>$ax
-      + by + c = 0$</m> according as the expression <m>$a\alpha + b\beta + c &gt; 0$</m> or <m>$&lt;0$</m>.
+        + by + c = 0$</m> according as the expression <m>$a\alpha + b\beta + c &gt; 0$</m> or <m>$&lt;0$</m>.
     </d:para>
     <d:figure xml:id="side-straight-lines">
       <d:title>Side of a point.</d:title>
@@ -868,20 +868,20 @@
     </d:para>
     <d:para>
       Let <m>$R = (\alpha_1, \beta_1)$</m>. Since it lies on the line, therefore, <m>$a\alpha_1 + b\beta_1 +
-      c_1 = 0$</m>.
+        c_1 = 0$</m>.
     </d:para>
     <d:para>
       When <m>$b&gt; 0$</m>, on left side of the <d:xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
-      \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &gt; b\beta_1$</m> or <m>$a\alpha + b\beta + c &gt;
-      a\alpha_1 + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &gt; 0$</m>.
+        \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &gt; b\beta_1$</m> or <m>$a\alpha + b\beta + c &gt;
+        a\alpha_1 + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &gt; 0$</m>.
     </d:para>
     <d:para>
       Similarly, for right side of the figure we can establish <m>$a\alpha + b\beta + c &lt; 0$</m>.
     </d:para>
     <d:para>
       When <m>$b &lt; 0$</m>, on left side of the <d:xref linkend="side-straight-lines" /> <m>$PQ &gt; RQ
-      \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &lt; b\beta_2$</m> or <m>$a\alpha + b\beta + c &lt;
-      a\alpha + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &lt; 0$</m>.
+        \therefore \beta &gt; \beta_1$</m> or <m>$b\beta &lt; b\beta_2$</m> or <m>$a\alpha + b\beta + c &lt;
+        a\alpha + b\beta_1 + c$</m> or <m>$a\alpha + b\beta + c &lt; 0$</m>.
     </d:para>
     <d:para>
       Similarly, for right side of the figure we can establish <m>$a\alpha + b\beta + c &gt; 0$</m>.
@@ -901,7 +901,7 @@
     <d:title>Length of a Perpendicular</d:title>
     <d:para>
       We will find the length of the perpendicular from the point <m>$(\alpha, \beta)$</m> to the line <m>$ax
-      + by + c = 0$</m>.
+        + by + c = 0$</m>.
     </d:para>
     <d:figure xml:id="length-perpendicular">
       <d:title>Length of a perpendicular.</d:title>
@@ -917,24 +917,24 @@
     </d:para>
     <d:para>
       We draw <m>$PM$</m> perpendicular to <m>$AB$</m> and join <m>$PA$</m> and <m>$PB$</m>. Let <m>$PM =
-      p$</m>.
+        p$</m>.
     </d:para>
     <d:para>
       Putting y = 0 in the equation for the given line gives us <m>$ax + c = 0 \Rightarrow x = -\frac{c}{a}
-      \therefore A = \left(-\frac{c}{a}, 0\right)$</m>.
+        \therefore A = \left(-\frac{c}{a}, 0\right)$</m>.
     </d:para>
     <d:para>
       Putting <m>$x = 0$</m> in the equation for the given line gives us <m>$by + c = 0 \Rightarrow y =
-      -\frac{c}{b} \therefore B = \left(0, -\frac{c}{b}\right)$</m>.
+        -\frac{c}{b} \therefore B = \left(0, -\frac{c}{b}\right)$</m>.
     </d:para>
     <d:para>
       Now <m>$\Delta PAB = \frac{1}{2}\left|\left[\alpha\left(0 + \frac{c}{b}\right) +
-      -\frac{c}{a}\left(-\frac{c}{b} - \beta\right) + 0(\beta - 0)\right]\right| =
-      \frac{1}{2}\left|\frac{c}{ab}\right|\left|a\alpha + b\beta + c\right|$</m>
+        -\frac{c}{a}\left(-\frac{c}{b} - \beta\right) + 0(\beta - 0)\right]\right| =
+        \frac{1}{2}\left|\frac{c}{ab}\right|\left|a\alpha + b\beta + c\right|$</m>
     </d:para>
     <d:para>
       Again <m>$\Delta PAB = \frac{1}{2}.AB.PM = \frac{1}{2}\sqrt{\left(-\frac{c}{a} - 0\right)^2 + \left(0
-      + \frac{c}{b}\right)^2}.p = \frac{1}{2}\left|\frac{c}{ab}\right|\sqrt{a^2 + b^2}.p$</m>
+        + \frac{c}{b}\right)^2}.p = \frac{1}{2}\left|\frac{c}{ab}\right|\sqrt{a^2 + b^2}.p$</m>
     </d:para>
     <d:para>
       Equating two obtained equations for <m>$\Delta PAB$</m> gives us the length of the perpendicular, which is
@@ -951,32 +951,32 @@
     </d:para>
     <d:para>
       Since <m>$PM = p$</m>, therefore coordinates of <m>$M$</m> is <m>$(\alpha + p\cos\theta + \beta +
-      p\sin\theta)$</m>, which will lie on the line <m>$ax + by + c = 0$</m>, thus,
+        p\sin\theta)$</m>, which will lie on the line <m>$ax + by + c = 0$</m>, thus,
     </d:para>
     <d:para>
       <m>$a(\alpha + p\cos\theta) + b(\beta + p\sin\theta) + c = 0\Rightarrow p(a\cos\theta + b\sin\theta) =
-      -(a\alpha + b\beta + c)$</m>
+        -(a\alpha + b\beta + c)$</m>
     </d:para>
     <d:para>
       Now slope of <m>$AB = -\frac{a}{b}\therefore $</m> slope of <m>$PM = \frac{b}{a}\therefore \tan\theta
-      = \frac{b}{a}$</m> or <m>$\frac{a}{\cos\theta} = \frac{b}{\sin\theta} = k$</m> (say) <m>$\therefore a
-      = k\cos\theta, b = k\sin\theta$</m>
+        = \frac{b}{a}$</m> or <m>$\frac{a}{\cos\theta} = \frac{b}{\sin\theta} = k$</m> (say) <m>$\therefore a
+        = k\cos\theta, b = k\sin\theta$</m>
     </d:para>
     <d:para>
       <m>$\Rightarrow a^2 + b^2 = k^2\therefore k = \pm\sqrt{a^2 + b^2}\therefore a = \pm\sqrt{a^2 +
-      b^2}\cos\theta \Rightarrow \cos\theta = \pm\frac{a}{\sqrt{a^2 + b^2}}$</m>. Similarly <m>$\sin\theta =
-      \pm\frac{b}{\sqrt{a^2 + b^2}}$</m>
+        b^2}\cos\theta \Rightarrow \cos\theta = \pm\frac{a}{\sqrt{a^2 + b^2}}$</m>. Similarly <m>$\sin\theta =
+        \pm\frac{b}{\sqrt{a^2 + b^2}}$</m>
     </d:para>
     <d:para>
       Putting the values of <m>$\cos\theta$</m> and <m>$\sin\theta$</m> in the equation <m>$p(\cos\theta +
-      \sin\theta) = -(a\alpha + b\beta + c)$</m> gives us
+        \sin\theta) = -(a\alpha + b\beta + c)$</m> gives us
     </d:para>
     <d:para>
       <m>$p = \mp \frac{a\alpha + b\beta + c}{\sqrt{a^2 + b^2}}$</m>
     </d:para>
     <d:para>
       Since <m>$p$</m> is positive, therefore, <m>\[p = \frac{|a\alpha + b\beta + c|}{\sqrt{a^2 +
-      b^2}}\tag{3.24}\]</m>
+        b^2}}\tag{3.24}\]</m>
     </d:para>
     <d:para>
       <d:emphasis role="bold">Aliter(Calculus Method):</d:emphasis>
@@ -1011,7 +1011,7 @@
     </d:para>
     <d:para>
       For maxima and minima of <m>$z$</m>, <m>$\frac{dz}{dx} = 0\Rightarrow \frac{y - \beta}{x -
-      \alpha}.-\frac{a}{b} = -1$</m>
+        \alpha}.-\frac{a}{b} = -1$</m>
     </d:para>
     <d:para>
       <m>$\therefore $</m> Slope of line <m>$PQ$</m>. Slope of line <m>$AB = -1$</m>
@@ -1028,14 +1028,14 @@
     </d:para>
     <d:para>
       But if <m>$\frac{dz}{dz} = 0$</m>, then <m>$\frac{x - \alpha}{a} = \frac{y - \beta}{b} = \left(a(x -
-      \alpha) + \frac{b(y - \beta)}{a^2 + b^2}\right) = -\frac{a\alpha + b\beta + c}{a^2 + b^2}$</m>
+        \alpha) + \frac{b(y - \beta)}{a^2 + b^2}\right) = -\frac{a\alpha + b\beta + c}{a^2 + b^2}$</m>
     </d:para>
     <d:para>
       <m>$\Rightarrow z = p = \frac{|a\alpha + b\beta + c|}{\sqrt{a^2 + b^2}}$</m>
     </d:para>
     <d:para>
       <d:emphasis role="bold">Note:</d:emphasis> Length of perpendicular from origin on line <m>$ax + by + c
-      = 0$</m> is <m>$\frac{|c|}{\sqrt{a^2 + b^2}}$</m>.
+        = 0$</m> is <m>$\frac{|c|}{\sqrt{a^2 + b^2}}$</m>.
     </d:para>
   </d:sect1>
   <d:sect1>
@@ -1067,11 +1067,11 @@
     </d:para>
     <d:para>
       <m>$\Rightarrow \frac{|a_1x + b_1y + c_1|}{\sqrt{a_1^2 + b_1^2}} = \frac{|a_2x + b_2y +
-      c_2|}{\sqrt{a_2^2 + b_2^2}}$</m>. Thus,
+        c_2|}{\sqrt{a_2^2 + b_2^2}}$</m>. Thus,
     </d:para>
     <d:para>
       <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \pm \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}\tag{3.25}\]</m>
+        b_2^2}}\tag{3.25}\]</m>
       are the equations of two bisectors.
     </d:para>
     <d:para>
@@ -1086,13 +1086,13 @@
     </d:para>
     <d:para>
       Then equation of bisectors will be <m>$\frac{|a_1x + b_y + c|}{\sqrt{a_1^2 + b_1^2}} = \frac{|a_2x +
-      b_2y + c_2|}{\sqrt{a_2^2 + b_2^2}}$</m>
+        b_2y + c_2|}{\sqrt{a_2^2 + b_2^2}}$</m>
     </d:para>
     <d:para>
       i.e. <m>$\frac{a_1x + b_y + c}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}$</m>, when both <m>$a_1x + b_1y + c_1$</m> and <m>$a_2x + b_2y + c_2$</m> are positive or
+        b_2^2}}$</m>, when both <m>$a_1x + b_1y + c_1$</m> and <m>$a_2x + b_2y + c_2$</m> are positive or
       <m>$-\frac{a_1x + b_y + c}{\sqrt{a_1^2 + b_1^2}} = -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}$</m>, when both <m>$a_1x + b_1y + c_1$</m> and <m>$a_2x + b_2y + c_2$</m> are negative.
+        b_2^2}}$</m>, when both <m>$a_1x + b_1y + c_1$</m> and <m>$a_2x + b_2y + c_2$</m> are negative.
     </d:para>
     <d:para>
       Thus, in both the cases equation of the bisector containing the origin when <m>$c_1$</m> and
@@ -1100,37 +1100,37 @@
     </d:para>
     <d:para>
       <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}\tag{3.26}\]</m>
+        b_2^2}}\tag{3.26}\]</m>
     </d:para>
     <d:para>
       When both <m>$c_1$</m> and <m>$c_2$</m> are positive, then the equation of the bisector of the angle
       between the lines which does not contain the origin is
       <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}\tag{3.27}\]</m>
+        b_2^2}}\tag{3.27}\]</m>
       The two bisectors are perpendicular to each other.
     </d:para>
     <d:sect2>
       <d:title>Finding Bisector of the Acute and Obtuse Angles</d:title>
       <d:para>
         To find the bisector of the acute and obtuse angles take any line out of <m>$a_1x + b_y + c_1 =
-        0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m> and any of the bisectors obtained. Let 𝜃 be the angle
+          0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m> and any of the bisectors obtained. Let 𝜃 be the angle
         between them. Find <m>$|\tan\theta|$</m>. The bisector considered will be the bisector of the acute
         angle or obtuse angle between the lines according as <m>$\theta &lt; 45^\circ$</m> or <m>$\theta >
-        45^\circ$</m> i.e. according as <m>$|\tan\theta| &lt; 1$</m> or <m>$> 1$</m>.
+          45^\circ$</m> i.e. according as <m>$|\tan\theta| &lt; 1$</m> or <m>$> 1$</m>.
       </d:para>
       <d:para>
         <d:emphasis role="bold">Aliter:</d:emphasis> Let the equations of the two lines be <m>$a_1x + b_1y +
-        c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>, where <m>$c_1 > 0$</m> and <m>$c_2 > 0$</m>.
+          c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>, where <m>$c_1 > 0$</m> and <m>$c_2 > 0$</m>.
       </d:para>
       <d:para>
         Then the equation <m>$\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y +
-        c_2}{\sqrt{a_2^2 + b_2^2}}$</m> is the equation of the bisector of the acute or obtuse angle between
+          c_2}{\sqrt{a_2^2 + b_2^2}}$</m> is the equation of the bisector of the acute or obtuse angle between
         the lines according as <m>$a_1a_2 + b_1b_2 &lt; 0$</m> or <m>$> 0$</m>.
       </d:para>
       <d:para>
         Slope of bisector <m>$= m_1 = -\frac{a_1\sqrt{a_2^2 + b_2^2} - a_2\sqrt{a_1^2 +
-        b_1^2}}{b_1\sqrt{a_2^2 + b_262} - b_2\sqrt{a_1^2 + b_1^2}}$</m> and slope of first line is <m>$m_2 =
-        -\frac{a_1}{b_1}$</m>
+          b_1^2}}{b_1\sqrt{a_2^2 + b_262} - b_2\sqrt{a_1^2 + b_1^2}}$</m> and slope of first line is <m>$m_2 =
+          -\frac{a_1}{b_1}$</m>
       </d:para>
       <d:para>
         Angle between first line and bisector is <m>$\tan\theta = \frac{m_1 - m_2}{1 + m_1m_2} =$\\</m>
@@ -1138,23 +1138,23 @@
       </d:para>
       <d:para>
         Let <m>$\alpha = a_1b_2 - a_2b_1$</m> and <m>$\beta = a_1a_2 + b_1b_2$</m> then <m>$|\tan\theta| =
-        \frac{|\alpha|}{\sqrt{\alpha^2 + \beta^2 - \beta}}$</m>
+          \frac{|\alpha|}{\sqrt{\alpha^2 + \beta^2 - \beta}}$</m>
       </d:para>
       <d:para>
         If <m>$\beta &lt; 0$</m> and <m>$\sqrt{\alpha^2 + \beta^2 - \beta} > |\alpha| - \beta >
-        |\alpha|$</m>, therefore, <m>$|\tan\theta| &lt; 1$</m>, and hence, the
+          |\alpha|$</m>, therefore, <m>$|\tan\theta| &lt; 1$</m>, and hence, the
         bisector is the bisector of acute angle between the lines.
       </d:para>
       <d:para>
         If <m>$\beta > 0$</m> and <m>$\sqrt{\alpha^2 + \beta^2}\le |\alpha| + |\beta|\Rightarrow
-        \sqrt{\alpha^2 + \beta^2 - \beta}\le |\alpha|$</m>, therefore, <m>$|\tan\theta| > 1$</m>,
+          \sqrt{\alpha^2 + \beta^2 - \beta}\le |\alpha|$</m>, therefore, <m>$|\tan\theta| > 1$</m>,
         and hence, the bisector is the bisector of obtuse angle between the lines.
       </d:para>
       <d:para>
         Similarly, we can show that the equation <m>$\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 +b_1^2}} =
-        -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 + b_2^2}}$</m> is the equation of
+          -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 + b_2^2}}$</m> is the equation of
         the bisector of the acute or obtuse angles according as <m>$a_1a_2 + b_1b_2 > 0$</m> or <m>$&lt;
-        0$</m>.
+          0$</m>.
       </d:para>
     </d:sect2>
     <d:sect2>
@@ -1177,11 +1177,11 @@
       <m>$a_2\alpha + b_2\beta + c_2$</m> are of the same sign then equation of the bisector of the angle
       containing the point <m>$(\alpha, \beta)$</m> is
       <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}\tag{3.28}\]</m>
+        b_2^2}}\tag{3.28}\]</m>
     </d:para>
     <d:para>
       Let <m>$(x_1, y_1)$</m> be a point on the bisector then <m>$\frac{a_1x_1 + b_1y_1 + c_1}{\sqrt{a_1^2 +
-      b_1^2}} = \frac{a_2x_1 + b_2y_1 + c_2}{\sqrt{a_2^2 + b_2^2}}$</m>
+        b_1^2}} = \frac{a_2x_1 + b_2y_1 + c_2}{\sqrt{a_2^2 + b_2^2}}$</m>
     </d:para>
     <d:para>
       Since <m>$\sqrt{a_1^2 + b_1^2}$</m> and <m>$\sqrt{a_2^2 + b_2^2}$</m> are both posiitive, therefore,
@@ -1189,21 +1189,21 @@
     </d:para>
     <d:para>
       <d:emphasis role="bold">Case I:</d:emphasis> When both <m>$a_1x_1 + b_1y_1 + c_1$</m> and <m>$a_2x_1 +
-      b_2y_1 + c_1$</m> are positive.
+        b_2y_1 + c_1$</m> are positive.
     </d:para>
     <d:para>
       Since <m>$a_1\alpha + b_1\beta + c_1$</m> and <m>$a_1x_1 + b_1y_1 + c_1$</m> are both positive,
       therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, beta)$</m> will lie on the same side of the
       line <m>$a_1x + b_1y + c_1 = 0$</m>. Again since <m>$a_2\alpha + b_2\beta + c_1$</m> and <m>$a_2x_1 +
-      b_2y_1 + c_2$</m> are both posiitive, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha,
-      beta)$</m> will lie on the same side of the line <m>$a_2x + b_2y + c_2 = 0$</m>.
+        b_2y_1 + c_2$</m> are both posiitive, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha,
+        beta)$</m> will lie on the same side of the line <m>$a_2x + b_2y + c_2 = 0$</m>.
     </d:para>
     <d:para>
       The figure will be like <d:xref linkend="bisector-lines1" />
     </d:para>
     <d:para>
       <d:emphasis role="bold">Case II:</d:emphasis> When both <m>$a_1x_1 + b_1y_1 + c_1$</m> and <m>$a_2x_1 +
-      b_2y_1 + c_1$</m> are negative.
+        b_2y_1 + c_1$</m> are negative.
     </d:para>
     <d:figure xml:id="bisector-lines2">
       <d:title>Bisectors of angles between straight lines.</d:title>
@@ -1222,14 +1222,14 @@
       Again since <m>$a-2\alpha + b_2\beta + c_2$</m> and <m>$a_2x_1 + b_2y_1 + c_2$</m> are of opposite
       sign, therefore, points <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, \beta)$</m> will lie on opposite side
       of the line <m>$a_2x + b_2y + c_1 = 0$</m>. Thus, in this case figure will like <d:xref
-      linkend="bisector-lines2" />
+                                                                                        linkend="bisector-lines2" />
     </d:para>
     <d:para>
       Similarly, if <m>$a_1\alpha + b_1\beta + c_1$</m> and <m>$a_2\alpha + b_2\beta + c_2$</m> are of
       opposite sign then the equation of the bisector of the angle containing the point <m>$(\alpha,
-      \beta)$</m> is
+        \beta)$</m> is
       <m>\[\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} = -\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 +
-      b_2^2}}\tag{3.29}\]</m>
+        b_2^2}}\tag{3.29}\]</m>
     </d:para>
     <d:para>
       <d:emphasis role="bold">Aliter:</d:emphasis> Let the equations of lines <m>$AB$</m> and <m>$CD$</m>
@@ -1245,16 +1245,16 @@
     </d:para>
     <d:para>
       Let <m>$\cos\alpha = -\frac{a_1}{\sqrt{a_1^2 + b_1^2}}, \cos\beta = -\frac{a_2}{\sqrt{a_2^2 +
-      b_2^2}}, \sin\alpha = -\frac{b_1}{\sqrt{a_1^2 + b_1^2}}$</m>, and <m>$\sin\beta = -\frac{b_2}{a_2^2 +
-      b_2^2}$</m>
+        b_2^2}}, \sin\alpha = -\frac{b_1}{\sqrt{a_1^2 + b_1^2}}$</m>, and <m>$\sin\beta = -\frac{b_2}{a_2^2 +
+        b_2^2}$</m>
     </d:para>
     <d:para>
       Now <m>$\cos(\beta - \alpha) = \cos\alpha\cos\beta + \sin\alpha\sin\beta = \frac{a_1a_2 +
-      b_1b_2}{\sqrt{a_1^2 + b_1^2}\sqrt{a_2^2 +b_2^2}}$</m>
+        b_1b_2}{\sqrt{a_1^2 + b_1^2}\sqrt{a_2^2 +b_2^2}}$</m>
     </d:para>
     <d:para>
       <m>$\beta - \alpha$</m> will be acute or obtuse according as <m>$a_1a_2 + b_1b_2 > 0$</m> or <m>$&lt;
-      0$</m>.
+        0$</m>.
     </d:para>
     <d:para>
       Now <m>$\angle CAB$</m> will be acute or obtuse according as <m>$\beta - \alpha$</m> is obtuse or
@@ -1279,12 +1279,12 @@
       </d:listitem>
       <d:listitem>
         <!-- 2 -->
-        Find the equation of the straight line passing through the point <m>$(2, −3)$</m> and cutting
+        Find the equation of the straight line passing through the point <m>$(2, -3)$</m> and cutting
         off intercepts, equal but of opposite signs from the two axes.
       </d:listitem>
       <d:listitem>
         <!-- 3 -->
-        Find the equation of the straight line which passes through the point <m>$(−5, 4)$</m> and
+        Find the equation of the straight line which passes through the point <m>$(-5, 4)$</m> and
         is such that the portion of it between the axes is doivided by the point in the
         ratio of <m>$1 : 2$</m>.
       </d:listitem>
@@ -1294,8 +1294,8 @@
       </d:listitem>
       <d:listitem>
         <!-- 5 -->
-        Find the equation of the straight line which passes through the points <m>$(−1, 3)$</m>
-        and <m>$(4, −2)$</m>.
+        Find the equation of the straight line which passes through the points <m>$(-1, 3)$</m>
+        and <m>$(4, -2)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 6 -->
@@ -1335,7 +1335,7 @@
       </d:listitem>
       <d:listitem>
         <!-- 13 -->
-        Find the equations of the straight lines which passes through the point <m>$(1, −2)$</m>
+        Find the equations of the straight lines which passes through the point <m>$(1, -2)$</m>
         and cut off equal distances from the two axes.
       </d:listitem>
       <d:listitem>
@@ -1352,12 +1352,12 @@
       <d:listitem>
         <!-- 16 -->
         Find the equation of the straight line passing through the points <m>$(0, 0)$</m> and <m>$(2,
-        −2)$</m>.
+          -2)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 17 -->
         Find the equation of the straight line passing through the points <m>$(3, 4)$</m> and <m>$(5,
-        6)$</m>.
+          6)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 18 -->
@@ -1367,22 +1367,22 @@
       <d:listitem>
         <!-- 19 -->
         Find the equation of the straight line passing through the points <m>$(0, -a)$</m> and <m>$(b,
-        0)$</m>.
+          0)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 20 -->
         Find the equation of the straight line passing through the points <m>$(a, b)$</m> and <m>$(a +
-        b, a - b)$</m>.
+          b, a - b)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 21 -->
         Find the equation of the straight line passing through the points <m>$\left(at_1^2,
-        2at_1\right)$</m> and <m>$\left(at_2^2, 2at_2\right)$</m>.
+          2at_1\right)$</m> and <m>$\left(at_2^2, 2at_2\right)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 22 -->
         Find the equation of the straight line passing through the points <m>$\left(at_1,
-        \frac{a}{t_1}\right)$</m> and <m>$\left(at_2, \frac{a}{t_2}\right)$</m>.
+          \frac{a}{t_1}\right)$</m> and <m>$\left(at_2, \frac{a}{t_2}\right)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 23 -->
@@ -1441,11 +1441,11 @@
         <!-- 33 -->
         Find the equation of the straight line which passes through the point <m>$(1, 2)$</m> and
         makes an angle <m>$\theta$</m> with the positive direction of 𝑥-axis where <m>$\cos\theta =
-        -\frac{1}{3}$</m>.
+          -\frac{1}{3}$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 34 -->
-        Find the equation of the line joining the points <m>$(−1, 3)$</m> and <m>$(4, -2)$</m>.
+        Find the equation of the line joining the points <m>$(-1, 3)$</m> and <m>$(4, -2)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 35 -->
@@ -1466,7 +1466,7 @@
       <d:listitem>
         <!-- 38 -->
         In the given figure <m>$PQR$</m> is an equilateral triangle and <m>$OSPT$</m> is a square. If <m>$OT
-        = 2\sqrt{2}$</m> units, find the equation of lines <m>$OT, OS, SP, QR, PR$</m> and <m>$PQ$</m>.
+          = 2\sqrt{2}$</m> units, find the equation of lines <m>$OT, OS, SP, QR, PR$</m> and <m>$PQ$</m>.
         <d:figure>
           <d:title></d:title>
           <d:mediaobject>
@@ -1479,8 +1479,8 @@
       <d:listitem>
         <!-- 39 -->
         If <m>$D, E, F$</m> are three points on the sides <m>$BC, AC$</m> and <m>$AB$</m> of a <m>$\triangle
-        ABC$</m> such that <m>$AD, BE$</m> and <m>$CF$</m> are concurrent, then show thta <m>$BD.CE.AF -
-        DC.EA.FB$</m>.
+          ABC$</m> such that <m>$AD, BE$</m> and <m>$CF$</m> are concurrent, then show thta <m>$BD.CE.AF -
+          DC.EA.FB$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 40 -->
@@ -1536,7 +1536,7 @@
       </d:listitem>
       <d:listitem>
         <!-- 50 -->
-        Find the equation of the straight line passing through <m>$(3, −2)$</m> and making an angle
+        Find the equation of the straight line passing through <m>$(3, -2)$</m> and making an angle
         of <m>$60^\circ$</m> with the positive direction of <m>$y$</m>-axis.
       </d:listitem>
       <d:listitem>
@@ -1547,16 +1547,16 @@
       <d:listitem>
         <!-- 52 -->
         Find the equation of the straight line passing through the points <m>$(a, b)$</m> and <m>$(a +
-        r\cos\theta, b + r\sin\theta) $</m>.
+          r\cos\theta, b + r\sin\theta) $</m>.
       </d:listitem>
       <d:listitem>
         <!-- 53 -->
-        If <m>$(x, y)$</m> is a point on the straight line joining <m>$(1, −3)$</m> and <m>$(−4, 2)$</m>
+        If <m>$(x, y)$</m> is a point on the straight line joining <m>$(1, -3)$</m> and <m>$(-4, 2)$</m>
         show that <m>$x + y + 2 = 0$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 54 -->
-        Prove that the points <m>$(1, 4), (3, −2)$</m> and <m>$(−3, 16)$</m> are collinear. Also, find the
+        Prove that the points <m>$(1, 4), (3, -2)$</m> and <m>$(-3, 16)$</m> are collinear. Also, find the
         the equation of this straight line.
       </d:listitem>
       <d:listitem>
@@ -1566,7 +1566,7 @@
       </d:listitem>
       <d:listitem>
         <!-- 56 -->
-        Find the value of <m>$t$</m> for which <m>$(1, 2), (−3, 0)$</m> and <m>$(t − 1, 3)$</m> will be
+        Find the value of <m>$t$</m> for which <m>$(1, 2), (-3, 0)$</m> and <m>$(t - 1, 3)$</m> will be
         collinear. Also find the equation of the straight line.
       </d:listitem>
       <d:listitem>
@@ -1577,14 +1577,14 @@
       <d:listitem>
         <!-- 58 -->
         Find the equation of the straight line passes through the point which divides the
-        line segment joining the points <m>$(−1, 2)$</m> and <m>$(4, −5)$</m> externally in the ratio <m>$2
-        : 3$</m> and the point <m>$(1, 2)$</m>.
+        line segment joining the points <m>$(-1, 2)$</m> and <m>$(4, -5)$</m> externally in the ratio <m>$2
+          : 3$</m> and the point <m>$(1, 2)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 59 -->
         Find the equation of the side <m>$BC$</m> of the <m>$\triangle ABC$</m> whose vertices <m>$A, B,
-        C$</m> are <m>$(−1, −2), (0, 1), (2, 0)$</m> respectively. Also find the equation of the median
-        through <m>$(−1, −2)$</m>.
+          C$</m> are <m>$(-1, -2), (0, 1), (2, 0)$</m> respectively. Also find the equation of the median
+        through <m>$(-1, -2)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 60 -->
@@ -1594,7 +1594,7 @@
       <d:listitem>
         <!-- 61 -->
         In what ratio does the line <m>$x + y + 1 = 0$</m> divide the line segment joining the points
-        <m>$(2, 3)$</m> and <m>$(−1, 4)$</m>?
+        <m>$(2, 3)$</m> and <m>$(-1, 4)$</m>?
       </d:listitem>
       <d:listitem>
         <!-- 62 -->
@@ -1603,8 +1603,8 @@
       </d:listitem>
       <d:listitem>
         <!-- 63 -->
-        The vertices of a <m>$\triangle ABC$</m> are <m>$(2, 2), (−1, −2)$</m> and <m>$(1,
-        −3)$</m>. <m>$D$</m> is a point on <m>$BC$</m> such that <m>$BD : DC = 2 : 1$</m>. Find the ratio in
+        The vertices of a <m>$\triangle ABC$</m> are <m>$(2, 2), (-1, -2)$</m> and <m>$(1,
+          -3)$</m>. <m>$D$</m> is a point on <m>$BC$</m> such that <m>$BD : DC = 2 : 1$</m>. Find the ratio in
         which <m>$AD$</m> divides the median through <m>$B$</m>.
       </d:listitem>
       <d:listitem>
@@ -1621,7 +1621,7 @@
         <!-- 66 -->
         Find the equation of the straight line which passes through the point <m>$(3, 4)$</m> and is such
         that the portion of it intercepted between the axes is divided by the point in the ratio <m>$2 :
-        3$</m>.
+          3$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 67 -->
@@ -1701,8 +1701,8 @@
       <d:listitem>
         <!-- 79 -->
         Find the equations of the straight lines which pass through the point <m>$(3, 2)$</m> and
-        cut off intercepts <m>$a$</m> and <m>$b$</m> on the <m>$x$</m> and <m>$y$</m>-axes such that <m>$a −
-        b = 2$</m>.
+        cut off intercepts <m>$a$</m> and <m>$b$</m> on the <m>$x$</m> and <m>$y$</m>-axes such that <m>$a -
+          b = 2$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 80 -->
@@ -1714,7 +1714,7 @@
         <!-- 81 -->
         Find the equation of the straight line which passes through the point <m>$P(2, 6)$</m> and
         cuts the axes at the points <m>$A$</m> and <m>$B$</m> respectively such that <m>$\frac{AP}{BP} =
-        \frac{2}{3}$</m>.
+          \frac{2}{3}$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 82 -->
@@ -1724,7 +1724,7 @@
       <d:listitem>
         <!-- 83 -->
         Find the equation of the straight line passing through <m>$(2, 1)$</m> and bisecting the
-        portion of the straight line <m>$3x − 5y = 15$</m> lying between the axes.
+        portion of the straight line <m>$3x - 5y = 15$</m> lying between the axes.
       </d:listitem>
       <d:listitem>
         <!-- 84 -->
@@ -1733,13 +1733,13 @@
       </d:listitem>
       <d:listitem>
         <!-- 85 -->
-        Prove that the points <m>$(5, 1), (11, 4)$</m> and <m>$(1, −1)$</m> lie on a straight line and find
+        Prove that the points <m>$(5, 1), (11, 4)$</m> and <m>$(1, -1)$</m> lie on a straight line and find
         its intercepts on the axes and between the axes.
       </d:listitem>
       <d:listitem>
         <!-- 86 -->
         Find the intercepts on the axes of the straight line passing through the points
-        <m>$(1, −3)$</m> and <m>$(4, 5)$</m>.
+        <m>$(1, -3)$</m> and <m>$(4, 5)$</m>.
       </d:listitem>
       <d:listitem>
         <!-- 87 -->
@@ -1791,7 +1791,7 @@
       <d:listitem>
         <!-- 95 -->
         Find the coordinates of the points at a distance <m>$4\sqrt{2}$</m> units from the point <m>$(2,
-        3)$</m> in the direction making an angle of <m>$46^\circ$</m> with the positive direction of
+          3)$</m> in the direction making an angle of <m>$46^\circ$</m> with the positive direction of
         <m>$x$</m>-axis.
       </d:listitem>
       <d:listitem>
@@ -1803,13 +1803,13 @@
       </d:listitem>
       <d:listitem>
         <!-- 97 -->
-        The extremeties of the diagonal of a sqaure are <m>$(1, 1), (−2, −1)$</m>. Obtain the other two
+        The extremeties of the diagonal of a sqaure are <m>$(1, 1), (-2, -1)$</m>. Obtain the other two
         vertices and the equation of the other diagonal.
       </d:listitem>
       <d:listitem>
         <!-- 98 -->
-        Show that if any line through the variable point <m>$A(k + 1, 2k)$</m> meets the line <m>$7x + y −
-        16 = 0, 5x − y − 8 = 0, x − 5y + 8 = 0$</m> at <m>$B, C, D$</m> respectively <m>$AC, AAB$</m> and
+        Show that if any line through the variable point <m>$A(k + 1, 2k)$</m> meets the line <m>$7x + y -
+          16 = 0, 5x - y - 8 = 0, x - 5y + 8 = 0$</m> at <m>$B, C, D$</m> respectively <m>$AC, AAB$</m> and
         <m>$AD$</m> are in H.P.
       </d:listitem>
       <d:listitem>
@@ -1821,9 +1821,408 @@
         <!-- 100 -->
         Show that if <m>$A(x_1, y_1), B(x_2, y_2), c(x_3, y_3)$</m> are the vertices of a triangle, then the
         equation of the internal bisector of angle <m>$A$</m> is given by <m>$b\begin{vmatrix}x &amp; y&amp;
-        1\\x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\end{vmatrix} + c\begin{vmatrix}x &amp; y&amp;
-        1\\x_1&amp;y_1&amp;1\\x_3&amp;y_3&amp;1\end{vmatrix} = 0$</m>, where <m>$b = AC$</m> and <m>$c =
-        AB$</m>.
+          1\\x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\end{vmatrix} + c\begin{vmatrix}x &amp; y&amp;
+          1\\x_1&amp;y_1&amp;1\\x_3&amp;y_3&amp;1\end{vmatrix} = 0$</m>, where <m>$b = AC$</m> and <m>$c =
+          AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 101 -->
+        Find the coordinate of the point at a distance <m>$6$</m> units from the point <m>$(1, 1)$</m> in
+        the direction making an angle of <m>$60^\circ$</m> with the positive direction of <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 102 -->
+        Find the distance of the line <m>$2x + y = 3$</m> from the point <m>$(-1, 3)$</m> in the direction
+        whose slope is one.
+      </d:listitem>
+      <d:listitem>
+        <!-- 103 -->
+        The straight line through <m>$P(x_1, y_1)$</m> inclined at an angle <m>$\theta$</m> with
+        <m>$x$</m>-axis meets the line <m>$ax + by + c = 0$</m> in <m>$Q$</m>. Find the length of
+        <m>$PQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 104 -->
+        A line through the point <m>$A(2, 0)$</m> which makes an angle of <m>$30^\circ$</m> with the
+        positive direction of <m>$x$</m>-axis is rotated about <m>$A$</m> in anticlockwise direction through
+        an angle <m>$15^\circ$</m>. Find the equation of the straight line in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 105 -->
+        The straight line <m>$2x - y = 5$</m> turns about the point on it where the ordinate is
+        equal to the abcissa through an angle of <m>$45^\circ$</m> in the anti-clockwise direction. Find
+        the equation of the line in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 106 -->
+        The straight line <m>$x + 2y = 4$</m> is translated parallel to itself by <m>$3$</m> units in the
+        sense of increasing <m>$x$</m> and is then rotated by <m>$30^\circ$</m> in the clockwise direction
+        about the point where the shifted straight line cuts the <m>$x$</m>-axis. Find the equation of the
+        new straight line in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 107 -->
+        <m>$AB$</m> is a side of regular hexagon <m>$ABCDEF$</m> and is of length a with <m>$A$</m> as the
+        origin and <m>$AB$</m> and <m>$AE$</m> as the <m>$x$</m>-axis and <m>$y$</m>-axis respectively. Find
+        the equation of lines <m>$AC, AF$</m> and <m>$BE$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 108 -->
+        A straight road is at a distance of <m>$5\sqrt{2}$</m> miles from a place. The shortest distance of
+        the road from the place is in <m>$NE$</m> direction. Do the following villages which (i)
+        is <m>$6$</m> miles East and 4 miles and 4 miles North from the place, lie on the road or
+        not. (ii) is <m>$4$</m> miles East and <m>$3$</m> miles north from the place, lie on the road or
+        not?
+      </d:listitem>
+      <d:listitem>
+        <!-- 109 -->
+        A straight line <m>$x - y + 1 = 0$</m> cuts the <m>$y$</m>-axis at <m>$A$</m>. This line is rotated
+        about <m>$A$</m> in the clockwise direction by <m>$75^\circ$</m>. Fine the equation of the new
+        straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 110 -->
+        Find the equations of all sides of the isosceles <m>$\triangle ABC$</m> and the side <m>$BE$</m> and
+        <m>$CD$</m> of the square <m>$BCDE$</m> in the figure where <m>$OC = 2$</m> units.
+        <d:figure>
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_27.webp" />
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:listitem>
+      <d:listitem>
+        <!-- 111 -->
+        The mid-point of the line segment joining <m>$(3, -1)$</m> and <m>$(1, 1)$</m> is shifted by two
+        units(in the sense of increasing <m>$y$</m>) perpendicular to the line segment. Find the
+        coordinates of the point in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 112 -->
+        The point <m>$(1, 1)$</m> is translated parallel to the line <m>$2x = y$</m> in the first quadrant
+        through a unit distance. Find the new position of the point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 113 -->
+        The point <m>$A(2, -1)$</m> is translated parallel to the line <m>$x - y = 3$</m> by a distance of
+        <m>$4$</m> units. If the new position <m>$A'$</m> of the point is in the (i) first quadrant (ii)
+        third quadrant then find <m>$A'$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 114 -->
+        Two particles start from the same point <m>$(2, -1)$</m>, one moving <m>$2$</m> units along the line
+        <m>$x + y = 1$</m> and the other <m>$5$</m> units along the line <m>$x - 2y = 4$</m>. If the
+        particles move towards increasing <m>$y$</m>, find their new positions and the distance between
+        them.
+      </d:listitem>
+      <d:listitem>
+        <!-- 115 -->
+        One end of a thin elastic straight string is fixed at <m>$A(4, -1)$</m> and the other end
+        <m>$B$</m> is at <m>$(1, 2)$</m> in the unstretched condition. If the string is stretched to triple
+        its length, find the coordinates of the other end in this stretched position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 116 -->
+        The line 𝐴𝐵 whose equation is <m>$x - y = 2$</m> cuts the <m>$x$</m>-axis at <m>$A$</m> and
+        <m>$B$</m> is <m>$(4, 2)$</m>. The line <m>$AB$</m> is rotated about <m>$A$</m> through
+        <m>$45^\circ$</m> in the anticlockwise direction. Find the new position of <m>$B$</m> and the
+        equation of the line in new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 117 -->
+        Let <m>$xy$</m> plane be vertical. A particle dropped gently from <m>$(-1, 1)$</m> in the plane
+        rebounds on the floor returns to <m>$\frac{2}{3}$</m>rd of the height from which it has fallen. The
+        equation of the line of intersection of <m>$xy$</m> plane and the floor is <m>$x + 2y = 3$</m>. Find
+        the highest position of the particle after one rebound.
+      </d:listitem>
+      <d:listitem>
+        <!-- 118 -->
+        A line is drawn through <m>$A(4, -1)$</m> parallel to the line <m>$3x - 4y + 1 = 0$</m>. Find the
+        coordinates of the two points on this line which are at a distance of <m>$5$</m> units
+        from <m>$A$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 119 -->
+        Find the distance of the point <m>$(3, 5)$</m> from the line <m>$2x + 3y = 14$</m> measured parallel
+        to the line <m>$x - 2y = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 120 -->
+        Find the distance of the point <m>$(2, 5)$</m> from the line <m>$3x + y + 4 = 0$</m> measured
+        parallel to the line <m>$3x - 4y + 8 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 121 -->
+        The point <m>$(1, 3)$</m> and <m>$(5, 1)$</m> are two opposite sides of a rectangle and the other two
+        vertices lie on the line <m>$y = 2x + c$</m>. Find <m>$𝑐$</m> and other vertices.
+      </d:listitem>
+      <d:listitem>
+        <!-- 122 -->
+        A line is drawn from <m>$\left(x', y'\right)$</m> in the direction <m>$\alpha$</m> with the
+        <m>$x$</m>-axis, to meet <m>$Ax + By + C = 0$</m>. Prove that the lengeth is <m>$\left|\frac{Ax' +
+          By' + c}{A\cos\alpha + B\sin\alpha}\right|$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 123 -->
+        Find the equation of the line passing through the point <m>$P(1, 2)$</m> cutting the lines
+        <m>$x + y - 5 = 0$</m> and <m>$2x - y = 7$</m> at <m>$A$</m> and <m>$B$</m> respectively such that
+        the H.M. of <m>$PA$</m> and <m>$PB$</m> is <m>$10$</m>. Given that <m>$A, B$</m> lie on the same
+        side of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 124 -->
+        A straight line through the point <m>$A(-2, 3)$</m> cuts the line <m>$x + 3y = 9$</m> and <m>$x + y
+          + 1 = 0$</m> at <m>$B$</m> and <m>$C$</m> respectively. Find the equation of the line if <m>$AB.AC =
+          20$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 125 -->
+        A line which makes an acute angle <m>$\theta$</m> with the positive direction of <m>$x$</m>-axis is drawn
+        through the point <m>$P(3, 4)$</m> to cut the curve <m>$y^2 = 4x$</m> at <m>$Q$</m> and
+        <m>$R$</m>. Show that the lengths of the segments <m>$PQ$</m> and <m>$PR$</m> are numerical values
+        of roots of the equation <m>$r^2\sin^2\theta + 4r(\sin\theta - \cos\theta) + 4 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 126 -->
+        Show that if <m>$A(x_1, y_1), 𝐵(x_2, y_2)$</m> and <m>$C(x_3, y_3)$</m> be the vertices of a
+        triangle then the equation of the median through <m>$A$</m> is given by <m>$b\begin{vmatrix}x &amp;
+          y&amp;1\\x_1&amp;y_1&amp;1\\x_2&amp;y_2&amp;1\end{vmatrix} + \begin{vmatrix}x &amp; y&amp;
+          1\\x_1&amp;y_1&amp;1\\x_3&amp;y_3&amp;1\end{vmatrix} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 127 -->
+        Find the angle between the lines <m>$x - 2y + 3 = 0$</m> and <m>$3x + y - 1 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 128 -->
+        Find the angle between the lines <m>$x + y = 3$</m> and the line joining the points <m>$(1, 1)$</m>
+        and <m>$(-3, 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 129 -->
+        Find the value of <m>$k$</m> so that the straight line <m>$2x + 3y + 4 + 𝑘(6x - y + 12) = 0$</m> is
+        perpendicular to the line <m>$7x + 5y - 4 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 130 -->
+        Prove that the line joining the middle points of the two sides of a triangle is
+        parallel to the third side.
+      </d:listitem>
+      <d:listitem>
+        <!-- 131 -->
+        Find the values of <m>$x$</m> and <m>$y$</m> for which <m>$A(2, 0), B(0, 2), C(0, 7)$</m> and
+        <m>$D(x, y)$</m> are the vertices of an isosceles trapezium in which <m>$AB\parallel CD$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 132 -->
+        Prove that the straight lines <m>$(a + b)x + (a - b)y - 2ab = 0, (a - b)x + (a + b)y - 2ab = 0$</m>
+        and <m>$x + y = 0$</m> form an isosceles triangle whose vertical angle is
+        <m>$2\tan^{-1}\frac{a}{b}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 133 -->
+        Find the angle between the lines <m>$x = a$</m> and <m>$by + c = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 134 -->
+        Find the tangent of the angle between the lines which have intercepts of <m>$3, 4$</m> and
+        <m>$1, 9$</m> on <m>$x$</m> and <m>$y$</m> axes respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 135 -->
+        Prove that the lines <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> and <m>$\frac{x}{b} - \frac{y}{a} =
+          1$</m> are perpendicular to each other.
+      </d:listitem>
+      <d:listitem>
+        <!-- 136 -->
+        Show that the line joining <m>$(2, -3)$</m> and <m>$(-1, 2)$</m> is perpendicular to the line joining
+        <m>$(3, 7)$</m> and <m>$(-2, 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 137 -->
+        A line passing through the points <m>$(a, 2a)$</m> and <m>$(-2, 3)$</m> is perpendicular to the line
+        <m>$4x + 3y + 5 = 0$</m>; find the value of <m>$a$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 138 -->
+        Show that the lines <m>$y = 7x + 2$</m> and <m>$2y - 14x + 1 = 0$</m> are parallel.
+      </d:listitem>
+      <d:listitem>
+        <!-- 139 -->
+        Prove that the line <m>$k^2x + ky + 1 = 0$</m> is perpendicular to the line <m>$x - ky = 1$</m> for
+        all real values of <m>$k(k \ne 0)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 140 -->
+        For what value of <m>$k$</m> is the line <m>$x - y + 2 + 𝑘(2x + 3y) = 0$</m> parallel to the line
+        <m>$3x + y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 141 -->
+        Prove that the lines <m>$2x - 3y + 1 = 0, x + y = 3, 2x - 3y = 2$</m> and <m>$x = 4 - y$</m> form
+        a parallelogram.
+      </d:listitem>
+      <d:listitem>
+        <!-- 142 -->
+        Find the value of <m>$\theta$</m> between <m>$0$</m> and <m>$\pi$</m> if <m>$x\cos\theta +
+          y\sin\theta = 2$</m> is perpendicular to the line <m>$x - y = 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 143 -->
+        If the line <m>$x - 3y + 5 + k(x + y - 3) = 0$</m>, where 𝑘 is arbitrary, is perpendicular
+        to the line <m>$x + y = 1$</m>, then find 𝑘 and the equation of the first line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 144 -->
+        Prove that the median of an equilateral triangle is perpendicular to the corresponding side.
+      </d:listitem>
+      <d:listitem>
+        <!-- 145 -->
+        Prove that the diagonals of a rhombus are at right angles.
+      </d:listitem>
+      <d:listitem>
+        <!-- 146 -->
+        Find the equation of a line through <m>$(3, 4)$</m> and parallel to the line <m>$y = 3x + 5$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 147 -->
+        Find the equation of the straight line through <m>$(2, 3)$</m> and perpendicular to the line
+        <m>$4x - 3y = 10$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 148 -->
+        Find the equation of the straight line which has <m>$y$</m> intercept equal to <m>$\frac{4}{3}$</m>
+        and is perpendicular to the line <m>$3x - 4y + 11 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 149 -->
+        Find the equation of the perpendicular bisector of the line segment joining the points <m>$(1,
+        2)$</m> and <m>$(2, 3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 150 -->
+        The line <m>$x + y = a$</m> meets the axes of <m>$x$</m> and <m>$y$</m> at <m>$A$</m> and <m>$B$</m>
+        respectively. A <m>$\triangle AMN$</m> is inscribed in the <m>$\triangle OAB$</m>(<m>$O$</m> being
+        the origin) with right angle at <m>$N$</m>. <m>$M, N$</m> respectively lie on <m>$OB$</m>
+        and <m>$AB$</m>. If the area of the triangle <m>$AMN$</m> is <m>$\frac{3}{8}$</m>th of the area of
+        the <m>$\triangle OAM$</m>, then find <m>$AN:NB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 151 -->
+        Find the slope of the lines which make an angle of <m>$45^\circ$</m> with the line <m>$3x - y + 5 =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 152 -->
+        Find the equation of the lines through the point <m>$(3, 2)$</m> which makes an angle of
+        <m>$45^\circ$</m> with the line <m>$x - 2y = 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 153 -->
+        A vertex of an equilateral triangle is <m>$(2, 3)$</m> and the equation of the opposite side
+        is <m>$x + y = 2$</m>. Find the equation of the other sides of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 154 -->
+        A line <m>$4x + y = 1$</m> through the point <m>$A(2, -7)$</m> meets the line <m>$BC$</m> whose
+        equation is <m>$3x - 4y + 1 = 0$</m> at the point <m>$B$</m>. Find the equation of the
+        line <m>$AC$</m>, so that <m>$AB = AC$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 155 -->
+        Find the equation of straight lines passing through <m>$(-2, -7)$</m> and having an
+        intercept of length <m>$3$</m> between the straight lines <m>$4x + 3y = 12$</m> and <m>$4x + 3y =
+        3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 156 -->
+        Find the equation of the straight line parallel to <m>$x + 2y = 3$</m> and passing through
+        the point <m>$(3, 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 157 -->
+        Find the equation of the straight line which passes through the point <m>$(4, 3)$</m> and
+        is parallel to the line <m>$3x + 4y = 12$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 158 -->
+        Find the equation of the straight line parallel to <m>$3x - 4y + 6 = 0$</m> and passing
+        through the middle point of the line segment made by <m>$(2, 3)$</m> and <m>$(4, -1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 159 -->
+        Find the equation of the straight line passing through the point <m>$(2, 1)$</m> and parallel
+        to the line joining the points <m>$(2, 3)$</m> and <m>$(3, -1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 160 -->
+        Find the equation of the straight line passing through the point <m>$(\alpha, \beta)$</m> and
+        parallel to the line <m>$lx + my + n = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 161 -->
+        Find the equation of the straight line passing through the point <m>$(2, 5)$</m> and
+        perpendicular to the line <m>$2x + 5y = 31$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 162 -->
+        Find the equation to the straight line which passes through the point <m>$\left(x', y'\right)$</m>
+        and is perpendicular to the line <m>$yy' = 2a\left(x + x'\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 163 -->
+        Find the angle between the straight lines <m>$\left(m^2 - mn\right)y = \left(mn + n^2\right)x +
+        n^3$</m> and <m>$\left(mn + m^2\right)y = \left(mn - n^2\right) + m^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 164 -->
+        Prove that the equation of the straight line which passes through the point
+        <m>$\left(a\cos^3\theta, a\sin^3\theta\right)$</m> and is perpendicular to the line <m>$x\sec\theta
+        + y\csc\theta = a$</m> is <m>$x\cos\theta - y\sin\theta = a\cos2\theta$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 165 -->
+        Find the equation of the straight line through <m>$(a\cos\theta, b\sin\theta)$</m> perpendicular to the
+        line <m>$\frac{x}{a}\cos\theta + \frac{y}{b}\sin\theta = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 166 -->
+        Two consecutive sides of a parallelogram are <m>$4x + 5y = 0$</m> and <m>$7x + 2y = 0$</m>. If the
+        equation of one of the diagonal is <m>$11x + 7y = 9$</m>, find the equation of the other diagonal.
+      </d:listitem>
+      <d:listitem>
+        <!-- 167 -->
+        Show that the area of the triangle whose sides are <m>$y = m_1x + c_1, y = m_2x + c_2$</m>
+        and <m>$x = 0$</m> is <m>$\frac{1}{2}.\frac{(c_2 - c_1)^2}{m_1.m-2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 168 -->
+        Show that the area of the triangle formed by the lines <m>$y = m_rx + c_r, r = 1, 2, 3$</m>
+        is <m>$\frac{(c_1 - c_2)^2}{2(m_1 - m_2)} + \frac{(c_2 - c_3)^2}{2(m_2 - m_3)} + \frac{(c_3 -
+        c_1)^2}{2(m_3 - m_1)}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 169 -->
+        Show that the area of the triangle whose sides are <m>$a_rx + b_ry + c_r = 0, r = 1, 2, 3$</m>
+        is <m>$\frac{\Delta^2}{2|C_1C_2C_3|}$</m>, where <m>$C_1, C_2$</m> and <m>$C_3$</m> are the
+        cofactors of <m>$c_1, c_2$</m> and <m>$c_3$</m> respectively in the determinant <m>$\Delta =
+        -\begin{vmatrix}a_1&amp;b_1&amp;c_1\\a_2&amp;b_2&amp;c_2\\a_3&amp;b_3&amp;c_3\end{vmatrix}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 170 -->
+        Show that the lines <m>$4x + y - 9 = 0, x - 2y + 3 = 0, 5x - y - 6 = 0$</m> make equal intercepts on
+        any line of gradient <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 171 -->
+        Find the coordinates of the foot of the perpendicular drawn from point <m>$(2, 3)$</m> to
+        the line <m>$y = 3x + 4$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the image of the point <m>$(-8, 12)$</m> with respect to the line mirror <m>$4x + 7y + 13 =
+        0$</m>.
       </d:listitem>
     </d:orderedlist>
   </d:sect1>

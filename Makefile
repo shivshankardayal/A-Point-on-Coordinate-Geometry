@@ -1,6 +1,6 @@
 build/index.html: src/*.xml html.xsl Makefile css/*
 	#xsltproc --xinclude --stringparam html.stylesheet "../css/pico.css ../css/pico.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
-	xsltproc --xinclude --stringparam html.stylesheet "../css/bootstrap.min.css ../css/bootstrap-responsive.min.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
+	xsltproc --xinclude --stringparam html.stylesheet "../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
 	#xsltproc --xinclude --stringparam html.stylesheet "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
 	#xsltproc --xinclude --stringparam html.stylesheet "../css/one.min.css" --path "src css" --output build/ html.xsl cg.xml
 #	perl -pi -e "s/\.pdf\"/\.png\"/g;" src/*.xml
@@ -8,6 +8,10 @@ build/index.html: src/*.xml html.xsl Makefile css/*
 	#find . -name "*.html" | xargs perl -pi -e "s/<meta/<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta/g;"
 	cp -r images build/
 	./domp.py
+	find . -name "*.html" | xargs perl -pi -e "s/amp\;//g;"
+	find . -name "*.html" | xargs perl -pi -e "s/\&lt\;/\</g;"
+	find . -name "*.html" | xargs perl -pi -e "s/\&gt\;/\>/g;"
+	node ssr.js build
 	cp -r build/* /usr/share/nginx/html/coordinate-geometry/
 
 

@@ -13,7 +13,12 @@
 				load: ['ui/lazy', 'input/tex', 'output/svg']
 		},
 		options: {
-			lazyMargin: '300px' // Typesets math 300px before it scrolls into view
+				lazyMargin: '300px', // Typesets math 300px before it scrolls into view
+				menuOptions: {
+						settings: {
+								renderer: 'NativeMML'
+						}
+				}
 		}
 	};
 </script>

@@ -58,7 +58,7 @@
   <d:para>
     The Eq. 2.1 is a relationship between two quantities and as such there are infinite solutions that
     exist. We cannot know all solutions but we can definitely enumerate some of the solutions. For example,
-    <m>$(x, y) \in \{(0, 0), (1, 1), (2, 2), (3, 3), (−1, −1),$</m> <m>$(−2, −2), (−3, −3)\}$</m> are some
+    <m>$(x, y) \in \{(0, 0), (1, 1), (2, 2), (3, 3), (-1, -1),$</m> <m>$(-2, -2), (-3, -3)\}$</m> are some
     of the values which will satisfy the above equation. These are the points which will lie on the line
     represented by the Eq. 2.1.
   </d:para>
@@ -81,9 +81,9 @@
   </d:para>
   <d:para>
     Like straight line there are infinite points on this circle and we consider some of them. For example,
-    <m>$(x, y) \in \{(2, 0), (\sqrt{3}, 1), (\sqrt{2}, \sqrt{2}), (1, \sqrt{3}), (0, 2), (−1, \sqrt{2}),$</m>
-    <m>$(−\sqrt{2}, \sqrt{2}), (−\sqrt{3}, 1), (−2, 0), (−\sqrt{3}, −1), (−\sqrt{2}, −\sqrt{2}), (−1,
-    −\sqrt{3}), (0, −2), (1, −\sqrt{3}),$</m> <m>$(\sqrt{2}, −\sqrt{2}), (\sqrt{3}, −1)\}$</m>.
+    <m>$(x, y) \in \{(2, 0), (\sqrt{3}, 1), (\sqrt{2}, \sqrt{2}), (1, \sqrt{3}), (0, 2), (-1, \sqrt{2}),$</m>
+    <m>$(-\sqrt{2}, \sqrt{2}), (-\sqrt{3}, 1), (-2, 0), (-\sqrt{3}, -1), (-\sqrt{2}, -\sqrt{2}), (-1,
+    -\sqrt{3}), (0, -2), (1, -\sqrt{3}),$</m> <m>$(\sqrt{2}, -\sqrt{2}), (\sqrt{3}, -1)\}$</m>.
   </d:para>
   <d:para>
     These points are shown on the circle in the figure below:
@@ -271,7 +271,7 @@
       </d:listitem>
       <d:listitem>
         Find the equation of the locus of a point such that the sum of its distances from
-        <m>$(0, 2)$</m> and <m>$(0, −2)$</m> is <m>$6$</m>.
+        <m>$(0, 2)$</m> and <m>$(0, -2)$</m> is <m>$6$</m>.
       </d:listitem>
       <d:listitem>
         <m>$A$</m> and <m>$B$</m> are two fixed points having a distance of <m>$2a$</m>. Find the locus of a
@@ -287,10 +287,10 @@
         of the middle point of <m>$OA$</m>.
       </d:listitem>
       <d:listitem>
-        Examine whether point <m>$(2, −5)$</m> lies on the curve <m>$x^2 + y^2 − 2𝑥 + 1 = 0$</m>.
+        Examine whether point <m>$(2, -5)$</m> lies on the curve <m>$x^2 + y^2 - 2𝑥 + 1 = 0$</m>.
       </d:listitem>
       <d:listitem>
-        If the equations <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$y^2 − (m_1 + m_2)xy + m_1m_2^2 = 0$</m>
+        If the equations <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$y^2 - (m_1 + m_2)xy + m_1m_2^2 = 0$</m>
         represent the same curve, find <m>$m_1 + m_2$</m> and <m>$m_1m_2$</m>.
       </d:listitem>
       <d:listitem>
@@ -301,7 +301,7 @@
         \frac{1}{t}\right)$</m>, where <m>$t$</m> is variable quantity, then find the locus of <m>$P$</m>.
       </d:listitem>
       <d:listitem>
-        If the coordinates of a variable point <m>$P$</m> be <m>$(\cos\theta + \sin\theta, \cos\theta −
+        If the coordinates of a variable point <m>$P$</m> be <m>$(\cos\theta + \sin\theta, \cos\theta -
         \sin\theta)$</m>, where <m>$\theta$</m> is a variable quantity, then find the locus of <m>$P$</m>.
       </d:listitem>
       <d:listitem>
@@ -310,15 +310,15 @@
       </d:listitem>
       <d:listitem>
         The position of a moving point in the <m>$xy$</m>-plane at time <m>$t$</m> is <m>$(u\cos\alpha.t,
-        u\sin\alpha.t − kt^2)$</m>, where <m>$u, \alpha, k$</m> are constants. Find the locus of the moving
+        u\sin\alpha.t - kt^2)$</m>, where <m>$u, \alpha, k$</m> are constants. Find the locus of the moving
         point.
       </d:listitem>
       <d:listitem>
-        A point moves so that its distance from the point <m>$(−2, 3)$</m> is always three times its
+        A point moves so that its distance from the point <m>$(-2, 3)$</m> is always three times its
         distance from the point <m>$(0, 3)$</m>. Find equation to its locus.
       </d:listitem>
       <d:listitem>
-        <m>$A$</m> and <m>$B$</m> are two given points whose coordinates are <m>$(−5, 3)$</m> and <m>$(2,
+        <m>$A$</m> and <m>$B$</m> are two given points whose coordinates are <m>$(-5, 3)$</m> and <m>$(2,
         4)$</m> respectively. A point <m>$P$</m> moves in such a manner that <m>$PA : PB = 3 : 2$</m>. Find
         the equation to the locus of <m>$P$</m>.
       </d:listitem>
@@ -336,7 +336,7 @@
         x$</m> coordinate of <m>$P$</m>, show that the locus of <m>$P$</m> is <m>$y^2 = 4ax$</m>.
       </d:listitem>
       <d:listitem>
-        If <m>$A(1, 2)$</m> and <m>$B(−2, 3)$</m> are two fixed points, find the locus of a point <m>$P$</m>
+        If <m>$A(1, 2)$</m> and <m>$B(-2, 3)$</m> are two fixed points, find the locus of a point <m>$P$</m>
         so that area of <m>$\triangle PAB$</m> is <m>$9$</m> units.
       </d:listitem>
       <d:listitem>
@@ -349,7 +349,7 @@
         <m>$P$</m> divides <m>$AQ$</m> internally in the ratio <m>$3 : 1$</m>, find the locus of <m>$P$</m>.
       </d:listitem>
       <d:listitem>
-        From the point <m>$A(6, −8)$</m> all possible lines are drawn to cut the <m>$x$</m>-axis. Find the
+        From the point <m>$A(6, -8)$</m> all possible lines are drawn to cut the <m>$x$</m>-axis. Find the
         locus of their middle points.
       </d:listitem>
     </d:orderedlist>
