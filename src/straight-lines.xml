@@ -15,6 +15,7 @@
   </d:para>
   <d:orderedlist>
     <d:listitem>
+      Infinitely many lines can be drawn through a point. See <d:xref linkend="infinite-lines-through-point" />
       <d:figure xml:id="infinite-lines-through-point">
         <d:title>Infinite lines through a point.</d:title>
         <d:mediaobject>
@@ -23,7 +24,6 @@
           </d:imageobject>
         </d:mediaobject>
       </d:figure>
-      Infinitely many lines can be drawn through a point. See <d:xref linkend="infinite-lines-through-point" />
     </d:listitem>
     <d:listitem>
       Infinitely many lines can be drawn in a direction. See <d:xref linkend="infinite-parallel-lines" />
@@ -321,7 +321,7 @@
       </d:figure>
       <d:para>
         <m>$\frac{QL}{OQ} = \frac{PL}{OR} \Rightarrow \frac{a - x}{b} = \frac{y}{b}$</m>
-        <m>\[\frac{x}{a} + \frac{y}{b} = 1\tag3.10{}\]</m>
+        <m>\[\frac{x}{a} + \frac{y}{b} = 1\tag{3.10}\]</m>
       </d:para>
       <d:para>
         <d:emphasis role="bold">Aliter:</d:emphasis> Since <m>$OQ = a$</m> and <m>$OR = b$</m>, therefore
@@ -1133,7 +1133,7 @@
           -\frac{a_1}{b_1}$</m>
       </d:para>
       <d:para>
-        Angle between first line and bisector is <m>$\tan\theta = \frac{m_1 - m_2}{1 + m_1m_2} =$\\</m>
+        Angle between first line and bisector is <m>$\tan\theta = \frac{m_1 - m_2}{1 + m_1m_2} =$</m>
         <m>$\frac{a_1b_2 - a_2b_1}{\sqrt{(a_1b_2 - a_2b_1)^2 + (a_1a_2 + b_1b_2)^2 - (a_1a_2 + b_1b_2)}}$</m>
       </d:para>
       <d:para>
@@ -2221,8 +2221,1125 @@
         the line <m>$y = 3x + 4$</m>.
       </d:listitem>
       <d:listitem>
+        <!-- 172 -->
         Find the image of the point <m>$(-8, 12)$</m> with respect to the line mirror <m>$4x + 7y + 13 =
         0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 173 -->
+        If the image of the point <m>$(x_1, y_1)$</m> with respect to the mirror <m>$ax + by + c = 0$</m> be
+        <m>$(x_2, y_2)$</m>, show that <m>$\frac{x_2 - x_1}{a} = \frac{y_2 - y_1}{b} = -\frac{2(ax_1 + by_1
+        + c_1)}{a^2 + b^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 174 -->
+        A ray of light is sent along the lines <m>$x - 2y - 3 = 0$</m>. Upon reaching the line <m>$3x - 2y -
+        5 = 0$</m>, the ray is reflected from it. Find the equation of the line containing the reflected
+        ray.
+      </d:listitem>
+      <d:listitem>
+        <!-- 175 -->
+        A man starts from the point <m>$P(-3, 4)$</m> and will reach the point <m>$Q(0, 1)$</m> touching
+        the line <m>$2x + y = 7$</m> at <m>$R$</m>. Find <m>$R$</m> on the line sho that he will travel the
+        shortest distance.
+      </d:listitem>
+      <d:listitem>
+        <!-- 176 -->
+        A ray of light is sent along the line <m>$2x - 3y = 5$</m>. After refracting across the line
+        <m>$x + y = 1$</m> it enters the opposite side after turning by <m>$15^\circ$</m> away from the line
+        <m>$x + y = 1$</m>. Find the equation of the line along which the refracted ray travels.
+      </d:listitem>
+      <d:listitem>
+        <!-- 177 -->
+        Find the equation of the straight line which passes through the point <m>$(2, -2)$</m> and
+        the point of intersection of the lines <m>$5x - y = 9$</m> and <m>$x + 6y = 8$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 178 -->
+        Find the equation of the straight line which passes through the point of intersection
+        of the lines <m>$x - y - 1 = 0$</m> and <m>$2x - 3y + 1 = 0$</m> and is parallel to the line <m>$3x
+        + 4y = 14$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 179 -->
+        Find the equation for the straight line which passes through the point of inter-
+        section of the lines <m>$3x - 4y - 7 = 0$</m> and <m>$12x - 5y - 13 = 0$</m> and is perpendicular
+        to the line <m>$2x - 3y + 5 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 180 -->
+        Find the equation of the straight lines passing through the point of intersection
+        of the lines <m>$x + 3y + 4 = 0$</m> and <m>$3x + y + 4 = 0$</m> and equally inclined to the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 181 -->
+        The equation of two sides of a triangle are <m>$3c - 2y + 6 = 0$</m> and <m>$4x + 5y = 20$</m>
+        and the orthocenter is <m>$(1, 1)$</m>. Find the equation of the third side.
+      </d:listitem>
+      <d:listitem>
+        <!-- 182 -->
+        Show that the diagonal of the parallelogram whose sides are <m>$u = p, u = q, v =
+        r, v = s$</m> where <m>$u = ax + by + c$</m> and <m>$v = a'x + b'y + c'$</m> and which passes through
+        the points of intersection of lines <m>$u = p, v = 3$</m> and <m>$u = q, v = s$</m> is given by
+        <m>$\begin{vmatrix}u&amp;v&amp;1\\p&amp;r&amp;1\\q&amp;s&amp;1\end{vmatrix} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 183 -->
+        Show that the straight lines <m>$x(a + 2b) + y(a + 3b) = a + b$</m> pass through a fixed
+        point for different values of <m>$a$</m> and <m>$b$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 184 -->
+        If <m>$lx + my + n = 0$</m>, where <m>$l, m, n$</m> are variables is the equation of a variable line
+        and <m>$l, m, n$</m> are connected by the relation <m>$al + bm + cn = 0$</m>, where <m>$a, b, c$</m> are
+        constants, show that the line passes through a fixed point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 185 -->
+        A variable line cuts <m>$n$</m> given concurrent straight lines at <m>$A_1, A_2, A_3, \ldots,
+        A_n$</m>, such that <m>$\displaystyle\sum_{i = 1}^n\frac{1}{OA_i}$</m> is a constant. Show that it
+        always passes through a fixed point. <m>$O$</m> is the point of intersection of the lines.
+      </d:listitem>
+      <d:listitem>
+        <!-- 186 -->
+        Prove that the straight lines <m>$4x + 7y = 9, 5x - 8y + 15 = 0$</m> and <m>$9x - y + 6 = 0$</m>
+        are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 187 -->
+        Prove analytically that medians of a triangle are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 188 -->
+        Show that the lines <m>$(p + q)𝑥 + (p + q)y - (p - q) = 0, (p - q)x - (p - q)y - (p +
+        q) = 0, px + qy - p = 0$</m> and <m>$qx + py + q = 0$</m> are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 189 -->
+        If the lines <m>$p_1x + q_1y = 1, p_2x + q_2y = 1$</m> and 𝑝3𝑥 + 𝑞3𝑦 = 1 be concurrent, show
+        that the points <m>$(p_1, q_1), (p_2, q_2)$</m> and <m>$(p_3, q_3)$</m> are collinear.
+      </d:listitem>
+      <d:listitem>
+        <!-- 190 -->
+        For what value of <m>$m$</m>, the line <m>$mx + 2y + 5 = 0$</m> will pass through the point of
+        intersection of the lines <m>$x - 4y = 3$</m> and <m>$x + 2y = 9$</m>?
+      </d:listitem>
+      <d:listitem>
+        <!-- 191 -->
+        Find the point of intersection of the lines <m>$yt_1 = x + at_1^2$</m> and <m>$yt_2 = x +
+        at_2^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 192 -->
+        If the straight line <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> passes through the point of intersection
+        of the lines <m>$x + y = 3$</m> and <m>$2x - 3y = 1$</m> and is parallel to the line <m>$y = x -
+        6$</m>, find <m>$a, b$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 193 -->
+        Find the vertice and area of the triangle whose sides are <m>$x = y, y = 2x$</m> and <m>$y = 3x +
+        4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 194 -->
+        Find the area of the triangle which is formed by the lines <m>$3x - 4y + 4a = 0, 2x - 3y + 4a =
+        0$</m> and <m>$5x - y + a = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 195 -->
+        Show that the area of the triangle formed by the three straight lines <m>$y = m_1x, y = m_2x$</m>
+        and <m>$y = c$</m> is equal to <m>$\frac{1}{4}c^2\sqrt{11}\left(\sqrt{3} + 1\right)$</m>, where
+        <m>$m_1, m_2$</m> are the roots of the equation <m>$x^2 + \left(\sqrt{3} + 2\right) + \sqrt{3} - 1 =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 196 -->
+        Find the coordinates of the foot of the perpendicular drawn from the point <m>$P(-8, 12)$</m> on the
+        line <m>$4x + 7y + 13 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 197 -->
+        Find the projection of the point <m>$(1, 0)$</m> on the line joining the points <m>$P(-1, 2)$</m>
+        and <m>$Q(5, 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 198 -->
+        If perpendiculars are drawn from origin to the straight lines <m>$x + 3y = 3$</m> and <m>$2x + 3y =
+        5$</m>, then find the equation of the line joining the foot of these perpendiculars.
+      </d:listitem>
+      <d:listitem>
+        <!-- 199 -->
+        If <m>$(h, r)$</m> is the foots of the perpendiculars from <m>$(x_1, y_1)$</m> to <m>$lx + my + n =
+        0$</m> prove that <m>$\frac{x_1 - h}{l} = \frac{y_1 - r}{m} = \frac{lx_1 + my_1 + n}{l^2 + m^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 200 -->
+        find the image of the point <m>$(-8, 12)$</m> with respect to a line mirror <m>$4x + 7y + 13 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 201 -->
+        If the image of the point <m>$(2, 1)$</m> with respect to a line mirror be <m>$(5, 2)$</m>, find the
+        equation of the mirror.
+      </d:listitem>
+      <d:listitem>
+        <!-- 202 -->
+        Find the equation of the straight line which passes through the point <m>$(1, 1)$</m> and
+        the point of intersection of the lines <m>$3x + 2y = 0$</m> and <m>$x - 2y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 203 -->
+        Find the equation of the straight line which passes through the point <m>$(2, -2)$</m> and
+        the point of the intersection of the lines <m>$5x - y = 9$</m> and <m>$x + 6y = 8$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 204 -->
+        Find the equation of the straight line passing through the point of intersection of the lines <m>$2x
+        + y - 1 = 0$</m> and <m>$x + 3y - 2 = 0$</m> and making with the coordinate
+        axes a triangle of area <m>$\frac{3}{8}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 205 -->
+        The sides <m>$AB$</m> and <m>$AD$</m> of a parallelogram <m>$ABCD$</m> are <m>$2x - y + 1 = 0$</m>
+        and <m>$x + 3y - 10 = 0$</m> respectively and <m>$C$</m> is the point <m>$(-1, -2)$</m>. Find the
+        equation of the diagonals <m>$AC$</m> and <m>$BD$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 206 -->
+        Prove that the lines <m>$2x - y - 5 = 0, 3x - y - 6 = 0$</m> and <m>$4x - y - 7 = 0$</m> are
+        concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 207 -->
+        Find the value of 𝑚 for which the two lines <m>$mx + (2m + 3)y + m + 6 = 0$</m> and
+        <m>$(2m + 1)x + (m - 1)y + m - 9 = 0$</m> intersect at a point on 𝑦-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 208 -->
+        Find the value of <m>$m$</m> so that lines <m>$y = x + 1, 2x + y = 16$</m> and <m>$y = mx - 4$</m>
+        may be concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 209 -->
+        If the three lines <m>$ax + a^2y + 1 = 0, bx + b^2y + 1 = 0$</m> and <m>$cs + c^2y + 1 = 0$</m> are
+        concurrent, show that at least two of the three constants <m>$a, b, c$</m> are equal.
+      </d:listitem>
+      <d:listitem>
+        <!-- 210 -->
+        Find the condition that the lines <m>$y = m_1x + c_1, y = m_2x + c_2$</m> and <m>$y = m_3x +
+        c_3$</m> may be concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 211 -->
+        Show that the straight lines <m>$(b + c)x + ay + 1 = 0, (c + a)x + by + 1 = 0$</m> and
+        <m>$(a + b)x + cy + 1 = 0$</m> are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 212 -->
+        Prove analytically that the right bisectors of the sides of a triangle are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 213 -->
+        Prove that perpendiculars drawn from the vertices to the opposite sides are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 214 -->
+        Prove that the family of lines represented by <m>$x(1 + \lambda) + y(2 - \lambda) + 5 = 0,
+        \lambda$</m> being arbitrary, pass through a fixed point. Also find the fixed point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 215 -->
+        Prove that the line <m>$x(a + 2b) + y(a - 3b) = a - b$</m> passes through a fixed point for
+        different values of <m>$a$</m> and <m>$b$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 216 -->
+        Find the centroid and incenter of the triangle whose sides are <m>$3x - 4y = 0, 5x + 12y = 0$</m>
+        and <m>$y - 15 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 217 -->
+        Find the coordinate of the orthocenter of the triangle whose vertices are
+        <m>$(0, 0), (2, -1)$</m> and <m>$(-1, 3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 218 -->
+        Find the coordinate of the orthocenter of the triangle whose sides are <m>$3x - 2y = 6, 3x + 4y + 12
+        = 0$</m> and <m>$3x - 8y + 12 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 219 -->
+        Two vertices of a triangle are <m>$(3, -1)$</m> and <m>$(-2, 3)$</m> and its orthocenter is origin,
+        find the coordinate of its third vertex.
+      </d:listitem>
+      <d:listitem>
+        <!-- 220 -->
+        A triangle has the lines <m>$y = m_1x$</m> and <m>$y = m_2x$</m> for two of its sides, where
+        <m>$m_1$</m> and <m>$m_2$</m> are the roots of the equation <m>$bx^2 + 2hx + a = 0$</m>. If <m>$H(a,
+        b)$</m> is the orthocenter of the triangle, show that the equation of the third side is <m>$(a +
+        b)(ax + by) = ab(a + b - 2h)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 221 -->
+        A triangle is formed by the straight lines <m>$ax + by + c = 0, lx + my + n = 0$</m> and
+        <m>$px + qy + r = 0$</m>. Show that that straight line <m>$\frac{px + qy + r}{ap + bq} = \frac{lx +
+        my + n}{al + nb}$</m> passes through the orthocenter of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 222 -->
+        The three sides of a triangle are <m>$L_r = x\cos\theta_r + y\sin\theta_r - p_r = 0, r = 1, 2,
+        3$</m>. Show that the orthocenter of the triangle is given by <m>$L_1\cos(\theta_2 - \theta_3) =
+        L_2\cos(\theta_3 - \theta_1) = L_3\cos(\theta_1 - \theta_2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 223 -->
+        Find the centroid and incenter of the triangle whose sides have the equations <m>$3x -4y = 0, 12y +
+        5x = 0$</m> and <m>$y - 15 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 224 -->
+        The coordinates of the vertices <m>$A, B$</m> and <m>$C$</m> of the <m>$\triangle ABC$</m> taken in
+        anti-clockwise order are respectively <m>$(x_1, y_1), (x_2, y_2)$</m> and <m>$(x_3, y_3)$</m>. Prove
+        that the <m>$\angle a$</m> is acute or obtuse according as <m>$(x_1 - x_2)(x_1 - x_3) + (y_1 -
+        y_2)(y_1 - y_3) > 0$</m> or <m>$&lt; 0$</m>. Also find the condition for the triangle to be
+        right-angled at <m>$y$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 225 -->
+        Show that the four lines <m>$4x - 3y = 5, x - 2y = 10, 7x + y = 40$</m> and <m>$x + 3y + 10 = 0$</m>
+        form the sides of a cyclic quadrilateral.
+      </d:listitem>
+      <d:listitem>
+        <!-- 226 -->
+        Find the condition for the quadrilateral to be cyclic whose sides are <m>$a_rx + b_ry + c_r = 0; r =
+        1, 2, 3, 4$</m> taken in order.
+      </d:listitem>
+      <d:listitem>
+        <!-- 227 -->
+        Show that the lines <m>$2x + 3y + 19 = 0$</m> and <m>$9x + 6y - 17 = 0$</m> cut the coordinate
+        axes in concyclic points.
+      </d:listitem>
+      <d:listitem>
+        <!-- 228 -->
+        Find the equation of the sides of a triangle having <m>$B(-4, -5)$</m> as a vertex, <m>$5x + 3y - 4
+        = 0$</m> and <m>$3x + 8y + 13 = 0$</m> as the equation of two of altitudes not passing through
+        <m>$B$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 229 -->
+        The straight line <m>$L$</m> is perpendicular to the line <m>$5x - y = 1$</m>. The area of the
+        triangle formed by <m>$L$</m> and the coordinate axes is <m>$5$</m>. Find the equation of the line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 230 -->
+        The line <m>$2x + 3y = 12$</m> meets the <m>$x$</m>-axis at <m>$A$</m> and <m>$y$</m>-axis at
+        <m>$B$</m>. The line through <m>$(5, 5)$</m> perpendicular to <m>$𝐴𝐵$</m> meets the <m>$xy$</m>axes
+        and <m>$AB$</m> at <m>$C, D, E$</m> respectively. If <m>$O$</m> is origin of axes then find the area
+        of <m>$OCEB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 231 -->
+        A square has its center at origin and one vertex at <m>$(1, 2)$</m>. Find the equation of
+        its sides.
+      </d:listitem>
+      <d:listitem>
+        <!-- 232 -->
+        <m>$ABC$</m> is an equilateral triangle. <m>$AD$</m> is its altitude through <m>$A$</m>. If <m>$A =
+        (1, 2)$</m> and <m>$D = (-2, 6)$</m>, find the equations of the sides of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 233 -->
+        The equation of one side of an equilateral triangle is <m>$x - y = 0$</m> and one vertex is
+        <m>$\left(2 + \sqrt{3}, 5\right)$</m>. Prove that second side is <m>$y + \left(2 - \sqrt{3}\right)x
+        = 6$</m>, and find the equation of the third side.
+      </d:listitem>
+      <d:listitem>
+        <!-- 234 -->
+        A diagonal of a square lies along the line <m>$8x - 15y = 0$</m> and one vertex of the square is
+        <m>$(1, 2)$</m>. Find the equations of the lines of the square passing through this vertex.
+      </d:listitem>
+      <d:listitem>
+        <!-- 235 -->
+        Find the equation of the lines which pass through <m>$(4, 5)$</m> andd make equal angles with the
+        lines <m>$5y = 12x + 6$</m> and <m>$3x = 4y + 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 236 -->
+        Two equal sides of an isosceles triangle have the equations <m>$7x - y + 3 = 0$</m> and
+        <m>$x + y - 3 = 0$</m> and its third sides passes through the point <m>$(1, -10)$</m>. Determine
+        the equation of the third side.
+      </d:listitem>
+      <d:listitem>
+        <!-- 237 -->
+        Prove that area of the triangle formed by the three straight lines <m>$x\cos\alpha + y\sin\alpha -
+        p_1 = 0, x\cos\beta + y\sin\beta - p_2 = 0$</m> and <m>$x\cos\gamma + y\sin\gamma - p_3 = 0$</m> is
+        <m>$\frac{1}{2}.\frac{\left[p_1\sin(\gamma - \beta) ++ p_2\sin(\alpha - \gamma) + p_3\sin(\beta -
+        \alpha)\right]^2}{\sin(\gamma - \beta)\sin(\alpha - \gamma)\sin(\beta - \alpha)}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 238 -->
+        Find the area of a triangle formed by the 𝑦-axis, the straight line <m>$L$</m> passing through
+        the points <m>$(1, 1)$</m> and <m>$(2, 0)$</m> and the straight line perpendicular to the line
+        <m>$L$</m> and passing through <m>$\left(\frac{1}{2}, 0\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 239 -->
+        Find the coordinates of the feet of the perpendicular from the point <m>$(9, 3)$</m> to the
+        sides of the triangle whose vertices are at the points <m>$(0, 0), (8, 0), (4, 8)$</m>. Prove that
+        the points so determined lies on a straight line and find its equation.
+      </d:listitem>
+      <d:listitem>
+        <!-- 240 -->
+        Obtain the coordinates <m>$(\alpha, \beta)$</m> of the foot of the perpendicular from the origin to
+        <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> and show that <m>$(\alpha^2 + \beta^2)(\alpha + \beta) = (a +
+        b)\alpha\beta$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 241 -->
+        Find the equation of the diagonal through the origin of the quadrilateral formed
+        by <m>$x = 0, y = 0, x + y = 1, 6x + y = 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 242 -->
+        The altitudes of a <m>$\triangle ABC$</m> are respectively <m>$AD, BE, CF$</m>. If the points <m>$A,
+        D, E, F$</m> have the coordinates <m>$(-4, 5), \left(\frac{16}{5} , -\frac{23}{5}\right), (4, 1), (-1,
+        -4)$</m>, find the coordinates of other vertices of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 243 -->
+        Prove that the lines <m>$y = m_rx + c_r; r = 1, 2, 3$</m> cut off equal intercepts on the
+        transversal <m>$x + y = 1 if 1 + m_1, 1 + m_2, 1 + m_3$</m> are in H.P.
+      </d:listitem>
+      <d:listitem>
+        <!-- 244 -->
+        A line is such that its segment between the lines <m>$5x - y + 4 = 0 and 3x + 4y - 4 = 0$</m> is
+        bisected at the point <m>$(1, 5)$</m>. Obtain its equation.
+      </d:listitem>
+      <d:listitem>
+        <!-- 245 -->
+        If the lines <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m> cut the coordinate axes in
+        cyclic points, prove that <m>$|a_1a_2| = |b_1b_2|$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 246 -->
+        A rectangle 𝐴𝐵𝐶𝐷 is inscribed in a circle with a diameter lying along the line <m>$3y = x +
+        10$</m>. If <m>$A$</m> and <m>$B$</m> are the points <m>$(-6, 7)$</m> and <m>$(4, 7)$</m>
+        respectively, then find the area of the rectangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 247 -->
+        From the point <m>$(2, 5)$</m> rays of light are sent at <m>$45^\circ$</m> with the line <m>$2x + y
+        = 1$</m>. Find the equation of the lines of the reflected rays if the rays reflect from <m>$x + 2y =
+        1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 248 -->
+        A ray of light is sent along the straight line <m>$y = \frac{2x}{3} - 4$</m>. On reaching the
+        <m>$x$</m>-axis it is reflected. Find the point of incidence and the equation of the reflected ray.
+      </d:listitem>
+      <d:listitem>
+        <!-- 249 -->
+        From the point <m>$M(-2, 3)$</m> a ray of light is sent at an angle <m>$\alpha$</m> to the positive
+        direction of <m>$x$</m>-axis. Upon reaching the <m>$x$</m>-axis the ray is reflected from it. Find the
+        equation of the reflected ray if <m>$\tan\alpha = 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 250 -->
+        A light beam emanating from the point <m>$(3, 10)$</m> reflects from the straight line <m>$2x + y -
+        6 = 0$</m> and then passes through the point <m>$B(7, 2)$</m>. Find the equations of the incident
+        and reflected beams.
+      </d:listitem>
+      <d:listitem>
+        <!-- 251 -->
+        The line <m>$3x + 2y = 24$</m> meets 𝑦-axis at <m>$A$</m> and 𝑥-axis at <m>$B$</m>. The perpendicular
+        bisector of 𝐴𝐵 meets the line through <m>$(0, -1)$</m> parallel to <m>$x$</m>-axis at
+        <m>$C$</m>. Find the area of the <m>$\triangle ABC$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 252 -->
+         Find the condition that the real line <m>$ax + by + c = 0, bx + cy + a = 0$</m> and <m>$cx + ay + b
+         = 0$</m> are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 253 -->
+        Find the condition that the lines <m>$(b - c)x + (c - a)y + a - b = 0, (c - a)x + (a - b)y + b - c =
+        0$</m> and <m>$(a - b)x + (b - c)𝑥 + c - a = 0$</m> are concurrent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 254 -->
+        Prove that the determinant <m>\[\begin{vmatrix}x_2 - x_3 &amp; y_2 - y_3 &amp; x_1(x_2 - x_3) +
+        y_1(y_2 - y_3)\\x_3 - x_1 &amp; y32 - y_1 &amp; x_2(x_3 - x_1) + y_2(y_3 - y_1)\\x_1 - x_2 &amp; y_1
+        - y_2 &amp; x_3(x_1 - x_2) + y_3(y_1 - y_2)\end{vmatrix} = 0\]</m>.
+
+        What geometrical property does it imply for a triangle whose vertices are
+        <m>$(x_r, y_r); r = 1, 2, 3$</m>?
+      </d:listitem>
+      <d:listitem>
+        <!-- 255 -->
+        Prove that all lines represented by the equation <m>$(2\cos\theta + 3\sin\theta)𝑥 + (3\cos\theta -
+        5\sin\theta)y - (5\cos\theta - 2\sin\theta) = 0$</m> pass through a fixed point for all values of
+        <m>$\theta$</m>. Find the coordinates of that point and its reflection in the line <m>$x + y =
+        \sqrt{2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 256 -->
+        Prove that the orthocenter of the triangle formed by the three lines <m>$y = m_1x + alm_1, y = m_2x
+        + alm_2, y = m_3x + alm_3$</m> is <m>$\left[-a, \left(\frac{1}{m_1} + \frac{1}{m_2} + \frac{1}{m_3}
+        + \frac{1}{m_1m_2m_3}\right)\right]$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 257 -->
+        If the coordinates of the point <m>$P, Q, R$</m> satisfy the relation <m>$xy = c^2$</m>, show that the
+        orthocenter of <m>$\triangle PQR$</m> also satisfies the relation.
+      </d:listitem>
+      <d:listitem>
+        <!-- 258 -->
+        <m>$A$</m> and <m>$B$</m> are two fixed points <m>$(3, 2)$</m> and <m>$(5, 1)$</m>
+        respectively. <m>$\triangle ABP$</m> is equilateral and is situated on the side of <m>$AB$</m>
+        remote from the origin. Find the coordinates of <m>$P$</m> and the orthocenter of the <m>$\triangle
+        ABP$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 259 -->
+        Vertices of a triangle are <m>$A(x_1, x_1\tan\alpha_1), B(x_2, x_2\tan\alpha_2)$</m> and <m>$C(x_3,
+        x_3\tan\alpha_3)$</m>. If the circumcenter coincide with the origin and the orthocenter <m>$H$</m>
+        is <m>$(x, y)$</m> then prove that <m>$\overline{y}(\cos\alpha_1 + \cos\alpha_2 + \cos\alpha_3) =
+        \overline{x}(\sin\alpha_1 + \sin\alpha_2 + \sin\alpha_3)$</m>, where <m>$x_1\sec\alpha_1,
+        x_2\sec\alpha_2, x_3\sec\alpha_3$</m> have the same sign.
+      </d:listitem>
+      <d:listitem>
+        <!-- 260 -->
+        Find the area and the orthocenter of the triangle formed by the lines <m>$x + ly = l^2, x + my =
+        m^2$</m> and <m>$x + ny = n^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 261 -->
+        If the equation of the sides of a triangle are respectively <m>$a_1x + b_1y = 1, a_2x + b_2y =
+        1$</m> and <m>$a_3x + b_3y = 1$</m> and whose orthocenter is the origin, prove that <m>$a_1a_2 +
+        b_1b_2 = a_2a_3 + b_2b_3 = a_3a_1 + b_3b_1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 262 -->
+        Prove that the <m>$\triangle DEF$</m> has the same centroid as <m>$\triangle ABC$</m>, where <m>$D,
+        E, F$</m> are the middle points of the sides of the later triangle. Also prove that the orthocenter
+        of the <m>$\triangle DEF$</m> coincides with the circumcenter of the <m>$\triangle ABC$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 263 -->
+        The circumcenter of a triangle with vertices <m>$A(a, \tan\alpha), V(b, \tan\beta)$</m> and
+         <m>$C(c, \tan\gamma)$</m>lies at the origin <m>$\alpha + \beta + \gamma = \pi$</m>, show that its
+         orthocenter lies on the line <m>$4\left(\cos\frac{\alpha}{2} + \cos\frac{\beta}{2} +
+         \cos\frac{\gamma}{2}\right)x - 4y\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2} =
+         y$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 264 -->
+        Show that the line <m>$\frac{a_x + b_1y + c_1}{a_1a_3 + b_1b_3} = \frac{a_2x + b_2y + c_3}{a_2a_3 +
+        b_2b_3}$</m> passes through the orthocenter of the triangle formed by the lines <m>$a_1x + b_1y +
+        c_1 = 0, a_2x + b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 265 -->
+        Find the position of the points <m>$(1, 1)$</m> and <m>$(2, -1)$</m> with respect to the line <m>$3x
+        + 4y - 6 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 266 -->
+        Show that the four points <m>$(0, 0), (-1, 1), (-7, -4)$</m> and <m>$(9, 6)$</m> are in the four
+        different compartments made by the two straight lines <m>$2x - 3y + 1 = 0$</m> and <m>$3x - 5y + 2 =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 267 -->
+        Find the position of the origin w.r.t. the triangle whose sides are <m>$x + 1 = 0, 3x - 4y = 5, 5x +
+        12y = 27$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 268 -->
+        Show that the line segment joining the points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is cut by
+        the line <m>$ax + by + c = 0$</m> in the ratio <m>$-\frac{ax_1 + by_1 + c}{ax_2 + by_2 +
+        c}$</m>. Explain the minus sign.
+      </d:listitem>
+      <d:listitem>
+        <!-- 269 -->
+        A line <m>$L$</m> intersects three sides <m>$BC, CA$</m> and <m>$AB$</m> of a <m>$\triangle ABC$</m>
+        in <m>$P, Q$</m> and <m>$R$</m> respectively. Prove that <m>$BP.CQ.AR + PC.QA.BR = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 270 -->
+        Derive the condition to be imposed on <m>$\beta$</m> so that <m>$(0, \beta)$</m> should lie on or
+        inside the triangle having sides <m>$y + 3x + 2 = 0, 3y - 2x = 5$</m> and <m>$x + 4y = 14$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 271 -->
+        A rhombus has two consecutive vertice at <m>$(2, 3)$</m> and <m>$(-2, 6)$</m> and two of the sides
+        are parallel to <m>$2x + y = 1$</m>. Find the other vertices of the rhombus if <m>$(0, 3)$</m> is an
+        interior point of rhombus.
+      </d:listitem>
+      <d:listitem>
+        <!-- 272 -->
+        Examine wheher the points <m>$(3, -4)$</m> and <m>$(2, 6)$</m> are on the same side or opposite
+        sides of the line <m>$3x - 4y = 8$</m>?
+      </d:listitem>
+      <d:listitem>
+        <!-- 273 -->
+        Prove that the points <m>$(2, -1)$</m> and <m>$(1, 1)$</m> are on the opposite sides of the straight
+        line <m>$3x + 4y - 6 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 274 -->
+        Find the position of the points <m>$(3, 4)$</m> and <m>$(-1, 1)$</m> w.r.t. the line <m>$6x + y - 1
+        = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 275 -->
+        Prove that the points of intersection of the line <m>$x - y = 2$</m> with the parallel lines
+        <m>$2x + y = 7$</m> and <m>$2x + y = 16$</m> are on the opposite sides of the line <m>$x + y = 5$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 276 -->
+        Find the distance of the point <m>$(4, 5)$</m> from the straight line <m>$3x - 5y + 7 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 277 -->
+        Find the distance of the point <m>$(1, 2)$</m> from the straight line with slope <m>$5$</m> and
+        passing through the point of intersection of <m>$x + 2y = 5$</m> and <m>$x - 3y = 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 278 -->
+        The equation of the base of an equilateral triangle is <m>$x + y = 2$</m> and the vertex is
+        <m>$(2, -1)$</m>. Find the length of the side of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 279 -->
+        If <m>$a$</m> and <m>$b$</m> are the intercepts of a straight line on the <m>$x$</m> and <m>$y$</m>
+        axes respectively and <m>$p$</m> be its perpendicular distance from the origin, prove that
+        <m>$\frac{1}{p^2} = \frac{1}{a^2}  + \frac{1}{b^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 280 -->
+        If <m>$p$</m> and <m>$p'$</m> be the lengths of perpendiculars from origin to the lines
+        <m>$x\sec\theta - y\csc\theta = a$</m> and <m>$x\cos\theta - y\sin\theta = a\cos2\theta$</m>
+        respectively, show that <m>$4p^2 + p'^2 = a^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 281 -->
+        Find the equation of straight line which cuts off intercepts on <m>$x$</m>-axis twice that
+        on <m>$y$</m>-axis and is at a unit distance from the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 282 -->
+        Find the distance between the parallel lines <m>$ax + by + c = 0$</m> and <m>$ax + by + d = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 283 -->
+        Prove that the length of the perpendiculars from points <m>$(m^2, 2m), (mn, m + n)$</m> and
+        <m>$(n^2, 2n)$</m> to the line <m>$x\cos\theta + y\sin\theta + \frac{\sin^2\theta}{\cos\theta}$</m>
+        form a G.P.
+      </d:listitem>
+      <d:listitem>
+        <!-- 284 -->
+        A straight road passes through two towns, one <m>$6$</m> km east and the other <m>$2\frac{1}{2}$</m>
+        km north from a tower. Where should a rest house be constructed by the side of the road so that it
+        may be nearest to the tower.
+      </d:listitem>
+      <d:listitem>
+        <!-- 285 -->
+        A straight line is such that the algebraic sum of the perpendiculars upon it from
+        any number of fixed points is zero. Show that the line always passes through a
+        fixed point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 286 -->
+        The coordinates of the extremeties <m>$A$</m> and <m>$B$</m> of a rod are <m>$(1, 2)$</m> and
+        <m>$(3, 4)$</m> respectively. <m>$S(0, 0)$</m> is a point source of light. The rod <m>$Ab$</m> is
+        parallel to the wall and is at equal distance from <m>$S$</m> and the wall. If <m>$CD$</m> is the
+        shadow of <m>$AB$</m> on the wall, find the coordinates of <m>$C$</m> and D and the lnegth
+        <m>$CD$</m>. <m>$S, Ab$</m> and <m>$CD$</m> are planar.
+      </d:listitem>
+      <d:listitem>
+        <!-- 287 -->
+        Prove that the diagonals of the parallelogram formed by the lines <m>$\frac{x}{a} + \frac{y}{b} = 1,
+        \frac{x}{b} + \frac{y}{a} = 1, \frac{x}{a} + \frac{y}{b} = 2$</m> and <m>$\frac{x}{b} + \frac{y}{a}
+        = 2$</m> are at right angles.
+      </d:listitem>
+      <d:listitem>
+        <!-- 288 -->
+        Find the area of the parallelogram whose sides are <m>$y = mx + a, y = mx + b, y = nx + c$</m> and
+        <m>$y = nx + d$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 289 -->
+        Find the distance of the point of intersection of the lines <m>$2x + 3y = 21$</m> and <m>$3x - 4y +
+        11 = 0$</m> from the line <m>$8x + 6y + 5 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 290 -->
+        Find the length of the perpendicular drawn from the origin upon line joining the points <m>$(a,
+        b)$</m> and <m>$(b, a)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 291 -->
+        Find the length of the perpendicular from the point <m>$(4, -7)$</m> to the line joining the origin
+        and point of intersection of the lines <m>$2x - 3y + 14 = 0$</m> and <m>$5x + 4y - 7 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 292 -->
+        Find the equation of two straight lines which are parallel to <m>$x + 7y + 2 = 0$</m>, and
+        at unit distance from the point <m>$(1, -1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 293 -->
+        Find the equations of the two straight lines parallel to <m>$3x - 4y = 5$</m> at a unit
+        distance from it.
+      </d:listitem>
+      <d:listitem>
+        <!-- 294 -->
+        Find the equation of two lines through <m>$(0, a)$</m> which are at a distance 𝑎 from the
+        point <m>$(2a, 2a)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 295 -->
+        Find the equation of the line through the point of intersection of the lines <m>$x - 3y + 1 = 0$</m>
+        and <m>$2x + 5y - 9 = 0$</m> and whose distance from origin is <m>$\sqrt{5}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 296 -->
+        Find the equation of the straight line passing the point of intersection of the lines <m>$x - y + 1
+        = 0$</m> and <m>$2x - 3y + 5 = 0$</m> and at a distance <m>$\frac{7}{4}$</m> from the point <m>$(3,
+        2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 297 -->
+        If the length of the perpendicular from the point <m>$(1, 1)$</m> to the line <m>$ax - by + c =
+        0$</m> be <m>$1$</m>, show that <m>$\frac{1}{c} + \frac{1}{b} - \frac{1}{a} = \frac{c}{2ab}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 298 -->
+        Show that the product of the perpendiculars on the line <m>$\frac{x}{a}\cos\theta +
+        \frac{y}{b}\sin\theta = 1$</m> from the points <m>$\left(\pm\sqrt{a^2 - b^2}, 0\right)$</m> is
+        <m>$b^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 299 -->
+        Prove that the perpendicular distance between the lines <m>$4x + 3y = 11$</m> is <m>$8x + 6y =
+        15$</m> is <m>$\frac{7}{10}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 300 -->
+        Prove that the lines <m>$2x + 3y = 19$</m> and <m>$2x + 3y + 7 = 0$</m> are equidistant from the
+        line <m>$2x + 3y = 6$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 301 -->
+        Find the distance between the lines <m>$y = mx + c$</m> and <m>$y = mx +  c_1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 302 -->
+        The equation of two sides of a square whose area is <m>$25$</m> square units are <m>$3x - 4y =
+        0$</m> and <m>$4𝑥 + 3𝑦 = 0$</m>. Find the equation of the other two sides of the square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 303 -->
+        how that the parallelogram formed by <m>$ax + by + c = 0, a_1x + b_1y + c = 0, ax + by + c_1 =
+        0$</m> and <m>$a-1x + b_1y + c_1 = 0$</m> will be a rhombus if <m>$a^2 + b^2 = a_1^2 + b_1^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 304 -->
+        For the straight lines <m>$4x + 3y - 6 = 0$</m> and <m>$5x + 12y + 9 = 0$</m>, find the equation of
+        the
+        <d:orderedlist>
+          <d:listitem>
+            bisector of the obtuse angle between them,
+          </d:listitem>
+          <d:listitem>
+            bisector of the acute angle between them, and
+          </d:listitem>
+          <d:listitem>
+            bisector of the angle which contains the origin.
+          </d:listitem>
+        </d:orderedlist>
+      </d:listitem>
+      <d:listitem>
+        <!-- 305 -->
+        Prove that the length of the perpendiculars drawn from any point of the line <m>$7x - 9y + 10 =
+        0$</m> to the lines <m>$3x + 4y - 5 = 0$</m> and <m>$12x + 5y = 7$</m> are equal.
+      </d:listitem>
+      <d:listitem>
+        <!-- 306 -->
+        Prove that the internal bisectors of the angle of a triangle meet in a given point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 307 -->
+        Find the coordinates of the incenter of the triangle whose sides are <m>$x + 1 = 0, 3x - 4y - 5 =
+        0$</m> and <m>$5x + 12y - 27 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 308 -->
+        Two opposite sides of a rhombus are <m>$x + y = 1$</m> and <m>$x + y = 5$</m>. If one vertex is
+        <m>$(2, -1)$</m> and the angle at that vertex be <m>$45^\circ$</m>, find the vertex opposite to
+        given vertex.
+      </d:listitem>
+      <d:listitem>
+        <!-- 309 -->
+        Two sides of a rhombus 𝐴𝐵𝐶𝐷 are parallel to the lines <m>$y = x + 2$</m> and <m>$y = 7x + 3$</m>. If
+        the diagonals of the rhombus intersect at the point <m>$(1, 2)$</m> and the vertex <m>$A$</m> is on
+        <m>$y$</m>-axis, find the possible coordinates of <m>$A$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 310 -->
+        Find the equations of the bisectors of the angle between the lines <m>$x - 2y + 3 = 0$</m>
+        and <m>$4x + 2y - 5 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 311 -->
+        Prove that the line <m>$6x + 66y - 7 = 0$</m> is a bisector of the angle between the lines
+        <m>$15x - 18y - 1 = 0$</m> and <m>$12x + 10y - 3 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 312 -->
+        Show that each point on the line <m>$2x + 11y = 5$</m> is at equal distance from the lines
+        <m>$24x + 7y = 20$</m> and <m>$4x - 3y = 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 313 -->
+        Find the locus of the point equidistant from the lines <m>$6x + 8y - 10 = 0$</m> and <m>$4x - 3y =
+        7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 314 -->
+        Find the equations of the bisectors of the angles between the lines <m>$x + y - 3 = 0$</m> and
+        <m>$7x - y + 5 = 0$</m> and state which of them bisects the acute angle between the lines.
+      </d:listitem>
+      <d:listitem>
+        <!-- 315 -->
+        Prove that the bisector of the acute angle between the lines <m>$3x + 4y = 11$</m> and
+        <m>$12x - 5y = 2$</m> is <m>$11x + 3y = 17$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 316 -->
+        Find the equation of the line which bisects the obtuse angle between the lines <m>$x - 2y + 4 =
+        0$</m> and <m>$4x - 3y + 2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 317 -->
+        Show that the four points <m>$(1, 0), (2, 3), (1, -4)$</m> and <m>$(8, 1)$</m> lie in the four
+        compartments made by the lines <m>$x + y - 2 = 0$</m> and <m>$x - y - 3 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 318 -->
+        Determine whether the origin lies inside or outside the triangle whose saides are
+        given by the equation <m>$7x - 5y - 11 = 0, 8x + 3y + 31 = 0$</m> and <m>$x + 8y - 19 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 319 -->
+        Sides of a square lie on the line <m>$5x - 12y - 65 = 0$</m> and <m>$5x - 12y + 26 = 0$</m>. Find
+        the area of the square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 320 -->
+        The equation of two sides of a square are <m>$3x + 4y - 5 = 0$</m> and <m>$3x + 4y - 15 = 0$</m>.
+        The third side has a point <m>$(6, 5)$</m> on it. Find the equations of this and the remaining
+        side of the square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 321 -->
+        The equation of one side of rectangle is <m>$3x - 4y - 10 = 0$</m> and the coordinates
+        of two of its vertices are <m>$(2, -1)$</m> and <m>$(2, 4)$</m>. Find the area of rectangle and the
+        equation of that diagonal of the rectangle which passes through the point <m>$(2, 4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 322 -->
+        Prove that the lines <m>$ax \pm by \pm c = 0$</m> enclose a rhombus whose area is
+        <m>$\frac{2x^2}{|ab|}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 323 -->
+        If <m>$p, q, r$</m> be the lengths of perpendiculars from the vertices <m>$A, B, C$</m> respectively
+        of the <m>$\triangle ABC$</m> on any straight line, then prove that <m>$a^2(p - q)(p - r) + b^2(q -
+        r)(q - p) + c^2(r - p)(r - q) = 4\Delta^2$</m>, where <m>$\Delta$</m> is the area of the triangle
+        and <m>$a, b, c$</m> length of the sides opposite to angles <m>$A, B, C$</m> respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 324 -->
+        Prove that no line can be drawn through the point <m>$(4, -5)$</m> so that its distance from
+        <m>$(-2, 3)$</m> will be equal to <m>$12$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 325 -->
+        The vertices of <m>$\triangle OBC$</m> are <m>$O(0, 0), B(-3, -1)$</m> and <m>$C(-1, -3)$</m>. Find
+        the equation of the line parallel of <m>$BC$</m> and intersecting with <m>$OB$</m> and <m>$OC$</m>,
+        whose perpendiculars distance from <m>$O$</m> is <m>$\frac{1}{2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 326 -->
+        The point <m>$(1, -1)$</m> is the center of a square, one of whose sides lies on the line <m>$x - 2y
+        + 12 = 0$</m>. Find the equation of the straight lines which contain the remaining sides of the
+        square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 327 -->
+        The equation of two sides of a parallelogram are <m>$3x - 2y + 12 = 0$</m> and <m>$x - 3y + 11 =
+        0$</m> and the point of intersection of its diagomals is <m>$(2, 2)$</m>. Find the equation of other
+        two sides and its diagonals.
+      </d:listitem>
+      <d:listitem>
+        <!-- 328 -->
+        Given three parallel lines <m>$3x + 4y + 2 = 0, 3x + 4y + 5 = 0$</m> and <m>$3x + 4y - 5 = 0$</m>.
+        Show that the first of them lies between the other two. Also find the ratio in which the line
+        divides the distance between the other two.
+      </d:listitem>
+      <d:listitem>
+        <!-- 329 -->
+        The three lines <m>$x𝑥 + 2y + 3 = 0, x + 2y - 7 = 0, 2x - y - 4 = 0$</m> form the three
+        sides of two squares. Find the equation of the fourth side of each square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 330 -->
+         Find the equation of the internal bisectors of the angled of the triangle whose
+         sides are <m>$3x + 4y = 6, 12x - 5y = 3$</m> and <m>$4x - 3y + 12 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 331 -->
+        Find the incenter of the triangle whose sides are <m>$3x + 4y - 12 = 0, 5x + 12y - 20 = 0$</m> and
+        <m>$24y - 7x - 22 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 332 -->
+        Show that the reflection of the line <m>$px + qy + r = 0$</m> in the line <m>$x + y + 1 = 0$</m> is
+        the line <m>$qx + py + (p + q - r) = 0$</m>, where <m>$p\neq -q$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 333 -->
+        A man at the corssing of two roads <m>$x - 2y - 4 = 0$</m> and <m>$2x - y - 4 = 0$</m> starts
+        walking along the bisector of the acute angle between the roads and after covering
+        a distance of <m>$2$</m> km reaches the bank of a straight river at right angle to its path.
+        Find the equation of the bank and the coordinates of the point where the path
+        meets the bank.
+      </d:listitem>
+      <d:listitem>
+        <!-- 334 -->
+        A rhombus has two of its sides parallel to the lines <m>$y = 2x + 3$</m> and <m>$y = 7x + 2$</m>.
+        If the diagonals cut at <m>$(1, 2)$</m> and one vertex is on the <m>$y$</m>-axis find the possible
+        coordinates of that vertex.
+      </d:listitem>
+      <d:listitem>
+        <!-- 335 -->
+        A straight line segment of length 𝑙 moves with its end on two mutually perpendicular lines. Find the
+        locus of the poitn which divides the segment in the ratio <m>$1 : 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 336 -->
+        Find the locus of the middle point of the potion of the line <m>$x\cos\alpha + y\sin\alpha = p$</m>
+        which is intercepted between the axes given that <m>$p$</m> remains constant.
+      </d:listitem>
+      <d:listitem>
+        <!-- 337 -->
+        A variable straight line, drawn through the point of intersection of the straight line
+        <m>$\frac{x}{a} + \frac{y}{b} = 12$</m> and <m>$\frac{x}{b} + \frac{y}{a} = 1$</m>, meets the axes
+        at <m>$A$</m> and <m>$B$</m>. Show that the locus of the mid-point of <m>$AB$</m> is the curve
+        <m>$2xy(a + b) = ab(x + y)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 338 -->
+        If the line <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> moves in such a way that <m>$\frac{1}{a^2} +
+        \frac{1}{b^2} = \frac{1}{c^2}$</m>, where <m>$c$</m> is constant, prove that the foot of
+        perpendicular from the origin on the straight line described the circle <m>$x^2 + y^2 = c^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 339 -->
+        A straight line passes through a fixed point <m>$(h, k)$</m>; find the locus of the foot of
+        the perpendicular on it drawn from the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 340 -->
+        <m>$OX$</m> and <m>$OY$</m> are two straight lines at right angles to one another. On <m>$OY$</m> a
+        fixed point <m>$A$</m> is taken and on <m>$OX$</m> any point <m>$B$</m>. On <m>$Ab$</m> an
+        equilateral triangle is described, its vertex <m>$C$</m> being on the side <m>$AB$</m> away from
+        <m>$O$</m>. Show that the locus of the triangle is a straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 341 -->
+        A point <m>$P$</m> is such that its perpendicular distance from the line <m>$y - 2x + 1 = 0$</m> is
+        equal to its distance from the origin. Find the equation of the locus of the point <m>$P$</m>. Prove
+        that the line <m>$y = 2x$</m> meets the locus in two points <m>$Q$</m> and <m>$R$</m> such that the
+        origin is the mid-point of <m>$QR$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 342 -->
+        A line drawn through the origin intersect the lines <m>$2x + y - 2 = 0$</m> and <m>$x - 2y + 2 =
+        0$</m> in <m>$A$</m> and <m>$B$</m>. Find the locus of the mid-point of segment <m>$AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 343 -->
+        <m>$O$</m> is a fixed point and <m>$AP$</m> and <m>$BQ$</m> are two fixed parallel straight
+        lines. <m>$BOA$</m> is perpendicular to both and <m>$\angle POQ$</m> is a right angle. Prove that
+        the locus of the foot of the perpendicular from <m>$O$</m> on <m>$PQ$</m> is a circle, whose
+        diameter is <m>$AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 344 -->
+        Two fixed points <m>$P$</m> and <m>$Q$</m> are given. <m>$R$</m> is a variable point on one side of
+        the line <m>$PQ$</m> such that <m>$\angle RPQ - \angle RQP$</m> is a positive constant
+        <m>$2\alpha$</m>. Find the locus of point <m>$R$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 345 -->
+        A variable straight line passes through the points of intersection of the lines <m>$x + 2y = 1$</m>
+        and <m>$2x - y = $1</m> and meets the coordinate axes at <m>$A$</m> and <m>$B$</m>. Find the locus
+        of middle point of <m>$AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 346 -->
+        Let <m>$L_1 = 0$</m> and <m>$L_2 = 0$</m> be two fixed lines. A variable line is drawn through the
+        origin to cut the two lines at <m>$A$</m> and <m>$B$</m>. <m>$P$</m> is a point on the line
+        <m>$AB$</m> such that <m>$\frac{m + n}{OP} = \frac{m}{OR} + \frac{n}{OS}$</m>. Show that the locus
+        of <m>$P$</m> is a straight line through the point of intersection of the given lines <m>$(R, S,
+        P)$</m> are on the same side of origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 347 -->
+        Given <m>$n$</m> straight lines and a fixed point <m>$O$</m>. Through <m>$O$</m> a straight line is
+        drawn meeting these lines at the points <m>$RR_1, R_2, \ldots, R-n$</m> and a point <m>$R$</m> is
+        taken on it such that <m>$\frac{n}{OR} = \frac{1}{OR_1} + \frac{1}{OR_2} + \cdots +
+        \frac{1}{OR_n}$</m>. Show that the locus of <m>$R$</m> is a straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 348 -->
+        The base of a triangle passes through a fixed point <m>$(f, g)$</m> and its sides are respectively
+        bisected at right angles by the lines <m>$y^2 - 8xy - 9x^2 = 0$</m>. Determine the locus of its
+        vertex.
+      </d:listitem>
+      <d:listitem>
+        <!-- 349 -->
+        Having given the bases and the sum of the areas of a number of triangles is constant, which have a
+        common vertex, show that the locus of this vertex is a straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 350 -->
+        If <m>$A(\cos t\sin t), B(\sin t, -\cos t), C(1, 2)$</m> are the vertices of a <m>$\triangle
+        ABC$</m>, find the locus of centroid if <m>$t$</m> varies.
+      </d:listitem>
+      <d:listitem>
+        <!-- 351 -->
+        The position of a moving point in the <m>$xy$</m>-plane given at a time <m>$t$</m> is given by
+        <m>$u\cos\alpha, u\sin\alpha - \frac{1}{2}gt^2$</m>, where <m>$u, \alpha, g$</m> are constants. Find
+        the locus of the moving points.
+      </d:listitem>
+      <d:listitem>
+        <!-- 352 -->
+        A straight line passing through the point <m>$(1, 1)$</m> is terminated by the axes of
+        coordinates. Show that the locus of the mid-point of the line has the equation <m>$2xy = x + y$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 353 -->
+        Find the locus of the middle point of the intercepts made by the axes on the lines
+        drawn through the point <m>$(\alpha, \beta)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 354 -->
+        A straight line moves such that the sum of its intercepts on the axes is <m>$k$</m>. Find the
+        locus of the middle point of the portion of the line intercepted between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 355 -->
+        A line <m>$APB$</m> of constant length meets the <m>$x$</m>-axis at <m>$A$</m> and <m>$y$</m>-axis
+        at <m>$B$</m>. If <m>$AP = b, PB = a$</m> and the line slides with its extremities on the coordinate
+        axes, show that the equation of the locus of the point <m>$P$</m> is <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 356 -->
+        A variable line through the point <m>$\left(\frac{6}{5}, \frac{6}{5}\right)$</m> cuts the coordinate
+        axes at points <m>$A$</m> and <m>$B$</m>. If the point <m>$P$</m> divides <m>$AB$</m> internally in
+        the ratio <m>$2 : 1$</m>, show that the equation of the locus of <m>$P$</m> is <m>$5xy = 2(2x +
+        y)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 357 -->
+        A straight line moves in such a way that the length of the perpendicular upon it from the origin is
+        always <m>$p$</m>. Find the locus of the centroid of the triangle which is formed by the line and
+        the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 358 -->
+        Two fixed points <m>$A$</m> and <m>$B$</m> have coordinates <m>$(x_1, y_1)$</m> and <m>$(_2,
+        y_2x)$</m>. A point <m>$P$</m> moves such that <m>$AP$</m> is perpendicular to <m>$BP$</m>. Show
+        that the locus of <m>$P$</m> is <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 359 -->
+        A point moves so that the square of its distance from the point <m>$(3, -2)$</m> is numerically
+        equal to its distance from the line <m>$5x - 12y = 13$</m>. Find the equation of its locus.
+      </d:listitem>
+      <d:listitem>
+        <!-- 360 -->
+        A point moves such that the sum of its distance from two fixed points <m>$(ae, 0)$</m> and <m>$(-ae,
+        0)$</m> is always <m>$2a$</m>. Prove that its locud is <m>$\frac{x^2}{a^2} + \frac{y^2}{a^2\left(1 -
+        e^2\right)} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 361 -->
+        Find the locus of the middle point of the intercept on the line <m>$y = x + c$</m> made by the line
+        <m>$2x + 3y = 5$</m> and <m>$2x + 3y = 8, c$</m> being a parameter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 362 -->
+        If a line <m>$AB$</m> of length <m>$2l$</m> moves with end <m>$A$</m> always on <m>$x$</m>-axis and
+        the end <m>$B$</m> always on the line <m>$y = 6x$</m>. Find the equation of the locus of the
+        mid-point of <m>$AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 363 -->
+        <m>$P$</m> is the point <m>$(-1, 2)$</m>. A variable line through <m>$P$</m> cuts the coordinate
+        axes at <m>$Aa$</m> and <m>$B$</m> respectively. <m>$Q$</m> is a point on <m>$AB$</m> such that
+        <m>$PA, PQ, PB$</m> are in H.P. Show that the locus of <m>$Q$</m> is the line <m>$y =
+        2x$</m>. (<m>$A, B$</m> lie on the same side of <m>$P$</m>) Also show that in general locus of
+        <m>$Q$</m> is the rhombus whose sides are <m>$y = 2x, y = -2x + 4, y = -2x - 4$</m> and <m>$y = 2x +
+        8$</m> excluding the vertices.
+      </d:listitem>
+      <d:listitem>
+        <!-- 364 -->
+        If <m>$O$</m> is the origin, <m>$A$</m> is the point <m>$(4, 4)$</m>, <m>$B$</m> is any point on the
+        plane, find the locus of the point of intersection of the perpendicular bisectors of <m>$OB$</m> and
+        <m>$AB$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 365 -->
+        Two fixed points <m>$A$</m> and <m>$A$</m> are taken on the two axes such that <m>$OA = a$</m> and
+        <m>$OB = b$</m>. Two variable points <m>$C$</m> and <m>$D$</m> are taken on the same axes
+        respectively, find the locus of the point of intersection of <m>$AD$</m> and <m>$BC$</m> if
+        <m>$\frac{1}{OC} - \frac{1}{OD} = \frac{1}{OA} - \frac{1}{OB}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 366 -->
+        <m>$Q$</m> is any point on the line <m>$x = a$</m>. If <m>$A$</m> is the fixed point <m>$(a, 0)$</m>
+        and <m>$QR$</m>, the bisector of the angle <m>$OQA$</m>, meets the <m>$x$</m>-axis in <m>$R$</m>,
+        find the locus of the foot of the perpendicular from <m>$R$</m> to <m>$OQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 367 -->
+        A right-angled <m>$\triangle ABC$</m> having a right angle at <m>$C$</m>, <m>$CA = b$</m> and <m>$CB
+        = a$</m> moves such that the angular points <m>$A$</m> and <m>$B$</m> slide along <m>$x$</m>-axis
+        and <m>$y$</m>-axis respectively. Find the locus of <m>$C$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 368 -->
+        Show that the locus of a point which moves such that the square of its distance
+        from the base of an isosceles triangle is equal to the rectangle under its distance
+        from the other sides, is a circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 369 -->
+        A variable straight line is drawn through a given point <m>$O$</m> to cut two fixed straight lines
+        in <m>$R$</m> and <m>$S$</m>; on it is taken a point <m>$P$</m> such that <m>$\frac{2}{OP} =
+        \frac{1}{OR}  + \frac{1}{OS}$</m>, show that the locus of <m>$P$</m> is a third fixed straight line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 370 -->
+        If <m>$p, x_1, x_2, \ldots, x_i, \ldots$</m> and <m>$q, y_1, y_2, \ldots, y_i, \ldots$</m> from two
+        infinite arithmetic sequences with common difference <m>$a$</m> and <m>$b$</m> respectively then
+        find the locus of the point <m>$(\alpha, beta)$</m> where <m>$\alpha =
+        \displaystyle\frac{1}{n}\sum_{i = 1}^nx_i$</m> and <m>$\beta = \displaystyle\sum_{i = 1}^ny_i$</m>.
       </d:listitem>
     </d:orderedlist>
   </d:sect1>

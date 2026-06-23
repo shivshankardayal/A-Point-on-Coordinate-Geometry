@@ -46,6 +46,7 @@ the section entitled &#8220;GNU Free Documentation License&#8221;.
     <xi:include href="coordinates.xml"/>
     <xi:include href="locus.xml"/>
     <xi:include href="straight-lines.xml"/>
+    <xi:include href="pair-straight-lines.xml"/>
   </d:part>
   <d:part>
     <title>Answers</title>

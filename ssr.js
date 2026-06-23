@@ -89,7 +89,7 @@ async function processFile(file) {
     });
 
     const svg = new SVG({
-        fontCache: 'none'
+        fontCache: 'local'
     });
 
     const html = mathjax.document('', {
@@ -101,12 +101,12 @@ async function processFile(file) {
 
     content = content.replace(
         /\$([\s\S]*?)\$|\\\[([\s\S]*?)\\\]/g,
-        (_, display1, display2) => {
-            const math = display1 || display2;
-
+        (_, inlineMath, displayMath) => {
+            const math = inlineMath || displayMath;
+						const display = !!displayMath;
             try {
                 const node = html.convert(math, {
-                    display: true
+                    display
                 });
 
                 return adaptor.outerHTML(node);
@@ -122,6 +122,14 @@ async function processFile(file) {
     );
 
     await fs.writeFile(file, content);
+		/*const css = adaptor.textContent(
+				svg.styleSheet(html)
+		);
+
+		await fs.writeFile(
+				path.join('./', 'mathjax.css'),
+				css
+		);*/
 
     console.log(`Processed ${file}`);
 }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="pair-straight-lines/index.html" ?>
+  <d:title>Pair of Straight Lines</d:title>
+  <d:para>
+    Consider a pair of straight lines <m>$ax + by + c = 0$</m> and <m>$a_1x + b_1y + c_1 = 0$</m>, which we
+    represent as <m>$(ax + by + c)(a_1x + b_1y + c_1) = 0$</m>.
+  </d:para>
+  <d:para>
+    Let <m>$P(\alpha, beta)$</m> on the line <m>$ax + by + c = 0 \Rightarrow a\alpha + b\beta + c = 0$</m>
+    and <m>$(a\alpha + b\beta + c)$</m><m>$(a_1\alpha + b_1\beta + c_1) = 0$</m>.
+  </d:para>
+  <d:para>
+    Thus, a point which lies on either line wil satisfy <m>$(ax + by + c)(a_1x + b_1y + c_1) = 0$</m>.
+    This equation represents a pair of straight lines.
+  </d:para>
+  <d:sect1>
+    <d:title>Homogeneous Equations</d:title>
+    <d:para>
+      Any equation in which combined powers of <m>$x$</m> and <m>$y$</m> is constant(say <m>$n$</m>) is
+      called a homogeneous equation of degree <m>$n$</m>. For example, <m>$ax^22 + 2hxy + by^2 = 0$</m> is a
+      homogeneous equation of degree <m>$2$</m>.
+    </d:para>
+  </d:sect1>
+</d:chapter>
