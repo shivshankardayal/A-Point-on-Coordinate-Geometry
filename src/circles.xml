@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="circles/index.html" ?>
+  <d:title>Circles</d:title>
+  <d:para>
+    Circles are special cases of ellipses(we will study these the Chapter 7). For circles the
+    length of major and minor axes of an ellipse are equal. Equivalently, a circle can be
+    defined as locus of a point whose distance from a fixed center remains constant.
+  </d:para>
+  <d:para>
+    Consider a point <m>$(h, k)$</m> as the center, the distance called <d:emphasis
+    role="italic">radius</d:emphasis> as <m>$a$</m> and the point <m>$(x, y)$</m> then the general equation
+    of the locus can be written as
+  </d:para>
+  <d:figure xml:id="circle-1">
+    <d:title>A circle</d:title>
+    <d:mediaobject>
+      <d:imageobject>
+        <d:imagedata fileref="../images/5_1.webp"/>
+      </d:imageobject>
+    </d:mediaobject>
+  </d:figure>
+  <m>\[(x - h)^2 + (y - k)^2 = a^2\tag{5.1}\]</m>
+  <d:para>
+    If we take the origin as the center then this equation reduces to
+  </d:para>
+  <m>\[x^2 + y^2 = a^2\tag{5.2}\]</m>
+  <d:figure xml:id="circle-2">
+    <d:title>A circle with Center at Origin</d:title>
+    <d:mediaobject>
+      <d:imageobject>
+        <d:imagedata fileref="../images/5_2.webp"/>
+      </d:imageobject>
+    </d:mediaobject>
+  </d:figure>
+  <d:para>
+    In the last chapter we found the condition for general equation of second degree to
+    represent a pair of straight lines. Here, we will find the condition for it to represent a
+    circle.
+  </d:para>
+  <d:para>
+    Recall that general equaiton of second degree in <m>$x$</m> and <m>$y$</m> is given by <m>$ax^2 + 2hxy +
+    by^2 + 2gx + 2fy + c = 0$</m> and equation of circle is <m>$(x - \alpha)^2 + (y - \beta)^2 = r^2$</m>.
+  </d:para>
+  <d:para>
+    Comparing the coefficients, we find that, <m>$\frac{1}{a} = \frac{1}{b} = \frac{0}{h} =
+    -\frac{\alpha}{g} = -\frac{\beta}{f} = \frac{\alpha^2 + \beta^2 - r^2}{c^2}$</m>, hence, coeff. of
+    <m>$x^2$</m> should be equal to coefficient of <m>$y^2$</m> and coeff. of <m>$xy$</m> should be zero.
+  </d:para>
+  <d:para>
+    Thus, general equation in second degree which represents a circle is <m>$x^2 + y^2 + 2gx + 2fy + c =
+    0$</m><m>\[(x + g)^2 + (y + f^2) = g^2 + f^2 -c\tag{5.3}\]</m>
+  </d:para>
+  <d:para>
+    which will have center at <m>$(-g, -f)$</m> and radius equal to <m>$\sqrt{g^2 + f^2 - c}$</m>.
+  </d:para>
+  <d:sect1>
+    <d:title>Special Cases</d:title>
+    <d:para>
+      <d:emphasis role="bold">Case I:</d:emphasis> The circle passes through the origin.
+    </d:para>
+  </d:sect1>
+</d:chapter>

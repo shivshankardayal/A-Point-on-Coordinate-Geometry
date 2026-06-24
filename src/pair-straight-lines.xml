@@ -24,4 +24,605 @@
       homogeneous equation of degree <m>$2$</m>.
     </d:para>
   </d:sect1>
+  <d:sect1>
+    <d:title>Pair of Straight Lines Through Origin</d:title>
+    <d:para>
+      We will show that any homogeneous equation of second degree in <m>$x$</m> and <m>$y$</m> represents
+      a pair of straight lines through the origin.
+    </d:para>
+    <d:para>
+      Consider the equation <m>$ax^2 + 2hxy + by^2 = 0 \Rightarrow a + b\left(\frac{y}{x}\right)62 +
+      2h\frac{y}{x} = 0$</m>, which is a quadratic equation in <m>$\frac{y}{x}$</m>.
+    </d:para>
+    <d:para>
+      Let the roots be <m>$m_1$</m> and <m>$m_2$</m> of the above equation. <m>$\Rightarrow \frac{y}{x} =
+      m_1, m_2\Rightarrow b(y - m_1x)(y - m_2x) = 0.$</m>
+    </d:para>
+    <d:para>
+      Thus, the given homogeneous equation represents two straight lines through origin.
+    </d:para>
+    <d:para>
+      If the lines are represented by <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$y - m_1x = 0$</m> and <m>$y -
+      m_2x = 0$</m>, then
+    </d:para>
+    <m>\[m_1 + m_2 = -\frac{2h}{b}\tag{4.1}\]</m>
+    <d:para>
+      and <m>\[m_1m_2 = \frac{a}{b}\tag{4.2}\]</m>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Angle Between the Lines Represented by Second Degree Equation</d:title>
+    <d:para>
+      The tangent of the angle between the two lines is given by <m>$\tan\theta = \pm\frac{m_1 - m_2}{1 +
+      m_1m_2} = \pm\frac{\sqrt{\left(m_1 + m_2\right)^2 - 4m_1m_2}}{1 + m_1m_2} = \pm\frac{2\sqrt{h^2 -
+      ab}}{a + b}$</m>
+    </d:para>
+    <d:para>
+      For lines to be perpendicular <m>\[a + b = 0\tag{4.3}\]</m> and for them to be paralle <m>\[h^2 =
+      ab\tag{4.4}\]</m>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Bisectors of Angles Between the Pair of Straight Lines</d:title>
+    <d:para>
+      Coninuing from previous sections the equation of bisectors of straight lines is given by <m>$\frac{y -
+      m_1x}{\sqrt{1 + m_1^2}} = \pm\frac{y - m_2x}{\sqrt{1 + m_2^2}}$</m>
+    </d:para>
+    <d:para>
+      Combined equation is given by <m>$\left(\frac{y - m_1x}{\sqrt{1 + m_1^2}} - \frac{y - m_2x}{\sqrt{1 +
+      m_2^2}}\right)\left(\frac{y - m_1x}{\sqrt{1 + m_1^2}} + \frac{y - m_2x}{\sqrt{1 + m_2^2}}\right) = 0$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow \frac{(y - m_1x)^2}{\sqrt{\left(1 + m_1^2\right)}} - \frac{(y - m_2x)^2}{\left(1 +
+      m_2^2\right)} = (m_1 + m_2)(x^2 - y^2) + 2(m_1m_2 - 1)xy = 0$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow -\frac{2h}{b\left(x^2 - y^2\right)} + 2\left(\frac{a}{b} - 1\right)xy = 0 \Rightarrow
+      \frac{x^2 - y^2}{a - b} = \frac{xy}{h}$</m> <m>\[\frac{x^2 - y^2}{a - b} = \frac{xy}{b}\tag{4.5}\]</m>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>
+      Condition for General Equation of Second Degree to Represent a Pair of Straight Lines
+    </d:title>
+    <d:para>
+      General equation of the second degree is given by <m>$ax^2 + 2hxy + by^2 + 2gx + 2fy + c =
+      0$</m>. This equation will result into two straight lines if it can be resolved into two linear
+      factors.
+    </d:para>
+    <d:para>
+      Let the straight lines be <m>$l_1x + m_1y + n_1 = 0$</m> and <m>$l_2x + m_2y + n_2 = 0$</m>, which are
+      represented by the above equation.
+    </d:para>
+    <d:para>
+      Then <m>$ax^2 + 2hxy + by^2 + 2gx + 2fy + c = (l_1x + m_1y + n_1)(l_2x + m_2y + n_2)$</m>
+    </d:para>
+    <d:para>
+      Comparing coefficients <m>$l_1l_2 = a, m_1m_2 = b, n_1n_2 = c, m_1n_2 + m_2n_2 = 2f, n_1l_2 + n_2l_1 =
+      2g, l_1m_2 + l_2m_1 = 2h$</m>
+    </d:para>
+    <d:para>
+      Multiplying last three we obtain, <m>\[abc + 2fgh - af^2 - bg^2 - ch^2 = 0\]</m> which is the required
+      condition.
+    </d:para>
+    <d:para>
+      The above condition can be represented as <m>\[\begin{vmatrix}a &amp; h &amp; g\\h &amp; b &amp; f\\g
+      &amp; f &amp; c\end{vmatrix} = 0\tag{4.6}\]</m>
+    </d:para>
+    <d:para>
+      The general equation can be treated as an equation in 𝑥 and then discriminat must be
+      a perfect square for it to resolve into linear factors. We will obtain the same condition
+      as above using this method as well.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Problems</d:title>
+    <d:orderedlist>
+      <d:listitem>
+        <!-- 1 -->
+        Find the joint equation of the straight lines represented by <m>$x = 4y - 2$</m> and <m>$x - 1 = y$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 2 -->
+        Prove that the equations to the straight lines passing through the origin and making an angle
+        <m>$\alpha$</m> with the straight line <m>$y + x = 0$</m> are given by <m>$x^2 + 2xy\sec2\alpha +
+        y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 3 -->
+        A pair of perpendicular straight lines are drawn through the origin forming with the line <m>$2x +
+        3y = 6$</m> an isosceles triangle at the origin. Find the equation of pair of straight lines and the
+        area of the triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 4 -->
+        ind the combined equation of the lines <m>$2x - y = 3$</m> and <m>$y = 3x + 4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 5 -->
+        Find the joint equation of the lines through <m>$(1, 2)$</m> and parallel to the lines <m>$x - 2y =
+        5$</m> and <m>$x = 3y - 4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 6 -->
+        Find the combines equation of the lines bisecting the angles between <m>$x$</m> and <m>$y$</m> axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 7 -->
+        Prove that the equation <m>$8x^2 + 8xy + 2y^2 + 26x + 13y + 15 = 0$</m> represents two straight lines.
+      </d:listitem>
+      <d:listitem>
+        <!-- 8 -->
+        If the equation <m>$6x^2 + 2kxy + 12y^2 + 22x + 31y + 20 = 0$</m> represent a pair of straight
+        lines, find the value of <m>$k$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 9 -->
+        Show that the equation <m>$10x2 - 11xy - 6y^2 - 12x - y + 2 = 0$</m> represents a pair of straight
+        lines.
+      </d:listitem>
+      <d:listitem>
+        <!-- 10 -->
+        Does the equation <m>$2x^2 - 15xy - 17y^2 + 4x + 23y - 6 = 0$</m> represent a pair of straight lines?
+      </d:listitem>
+      <d:listitem>
+        <!-- 11 -->
+        For what value of 𝑚 does the equation <m>$mx^2 - 5xy - 6y^2 + 14x + 5y + 4 = 0$</m> represent two
+        straight lines? Prove that they are perpendicular to each other.
+      </d:listitem>
+      <d:listitem>
+        <!-- 12 -->
+        For what values of 𝑚 does the equation <m>$x^22 + mxy - 2y^2 + 3y - 1 = 0$</m> represent two
+        straight lines?
+      </d:listitem>
+      <d:listitem>
+        <!-- 13 -->
+        If the equation <m>$12x^2 - 10xy + 2y^2 + 11x - 5y + m = 0$</m> represent two straight lines, find
+        the value of <m>$m$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 14 -->
+        For what value of <m>$m$</m> does the equation <m>$6x^2 + 5xy - 4y^2 + 7x + my + 2 = 0$</m>
+        represent two straight lines?
+      </d:listitem>
+      <d:listitem>
+        <!-- 15 -->
+        Find the angle between the pair of straight lines represented by the equation <m>$4x^2 + 24xy +
+        11y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 16 -->
+        Find the angle between the pair of straight lines represented by the equation <m>$\left(x^2 +
+        y^2\right)\sin^2\alpha = (x\cos\beta - y\sin\beta)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 17 -->
+        Find the angle between the pair of straight lines represented by the equation <m>$x^2 - 5xy + 4y^2 +
+        3x - 4 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 18 -->
+        Show that the two straight lines <m>$x^2\left(\tan^2\theta + \cos^2\theta\right) - 2xy\tan\theta +
+        y^2\sin^2\theta = 0$</m> make with the axis of <m>$x$</m> angles such that the difference of their
+        tangents is <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 19 -->
+        Find the length of the straight line joining the foot of perpendicular from the point
+        <m>$(𝑝, 𝑞)$</m> on the pair of lines <m>$ax^2 + 2hxy + by^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 20 -->
+        A point moves so that the distance between the feet of the perpendiculars drawn from it to the lines
+        <m>$ax^2 + 2hxy + by^2 = 0$</m> is a constant <m>$k$</m>. Show that the equation of its locus is
+        <m>$\left(x^2 + y^2\right)\left(h^2 - ab\right) = k^2\left[(𝑎 - 𝑏)^2 + 4h^2\right]$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 21 -->
+        Find the angle between the pair of straight lines given by <m>$x^2 - 3xy - y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 22 -->
+        Find the angle between the lines given by <m>$x^22 + 2xy\cot2\alpha - y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 23 -->
+        Find the angle between the lines given by <m>$x^2 - 2pxy + y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 24 -->
+        Show that the two straight lines given by <m>$x^2 - 2xy\sec\theta + y^2 = 0$</m> make an angle
+        <m>$\theta$</m> with one another.
+      </d:listitem>
+      <d:listitem>
+        <!-- 25 -->
+        Find the angle between the lines represented by <m>$\left(x^2 + y^2\right)\sin^2\alpha =
+        (x\cos\alpha - y\sin\alpha)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 26 -->
+        Prove that the equation <m>$6x^2 - 5xy - 6y^2 + 14x + 5y + 4 = 0$</m> represents two straight lines,
+        which are perpendicular to each other.
+      </d:listitem>
+      <d:listitem>
+        <!-- 27 -->
+        Prove that the equation <m>$16x^2 + 24xy + 9y^2 + 40x + 30y - 75 = 0$</m> represents two parallel
+        straight lines.
+      </d:listitem>
+      <d:listitem>
+        <!-- 28 -->
+        Prove that the equation <m>$x^2 - 5xy + 4y^2 + x + 2y - 2 = 0$</m> represents two
+        straightdlines. Also, find the angle between them.
+      </d:listitem>
+      <d:listitem>
+        <!-- 29 -->
+        If the equation <m>$12x^2 + 7xy - py^2 - 18x + qy + 6 = 0$</m> represents two perpendicular straight
+        lines, find the values of <m>$p$</m> and <m>$q$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 30 -->
+        Prove that the equation <m>$2x^2 + 3xy - 2y^2 = 0$</m> represents two lines through origin which are
+        perpendicular to each other.
+      </d:listitem>
+      <d:listitem>
+        <!-- 31 -->
+        Find the separate equation of the lines represented by <m>$2x^2 - xy - y^2 + 9x - 3y + 10 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 32 -->
+        Prove that the equation <m>$2x^2 + 5xy + 3y^2 + 6x + 7y + 4 = 0$</m> represents a pair of straight
+        lines. Find the coordinates of their point of intersection and also the angle between them.
+      </d:listitem>
+      <d:listitem>
+        <!-- 33 -->
+        Show that the equation <m>$8x^2 + 8xy + 2y^2 + 26x + 13y + 15 = 0$</m> represents a pair of parallel
+        straight lines. Also, find the perpendicular distance between them.
+      </d:listitem>
+      <d:listitem>
+        <!-- 34 -->
+        Find the combined equation of the straight lines passing through the point <m>$(1, 1)$</m> and
+        parallel to the lines represented by the equation <m>$x^22 - 5xy + 4y^2 + x + 2y - 2 = 0$</m> and
+        find the angle between them.
+      </d:listitem>
+      <d:listitem>
+        <!-- 35 -->
+        If the lines represented by <m>$2x^2 - 5xy + 2y^2 = 0$</m> be the two sides of a parallelogram and
+        the line <m>$5x + 2y = 1$</m> be one of its diagonals, find the equation of the other diagonal and
+        area of the parallelogram.
+      </d:listitem>
+      <d:listitem>
+        <!-- 36 -->
+        The base of a triangle passes through a fixed point <m>$(f, g)$</m> and its sides are bisected
+        at right angle by a pair of straight lines <m>$y^2 - 8xy - 9x^2 = 0$</m>. Determine the locus
+        of its vertex.
+      </d:listitem>
+      <d:listitem>
+        <!-- 37 -->
+        Prove that the straight lines represented by <m>$(y - mx)2 = a^2\left(1 + m^2\right)$</m> and <m>$(y
+        - nx)^2 = a^2\left(1 + n^2\right)$</m> form a rhombus.
+      </d:listitem>
+      <d:listitem>
+        <!-- 38 -->
+        If the equation <m>$2hxy + 2gx + 2fy + c = 0$</m> represents two straight lines, show that they form
+        a rectangle of area <m>$\frac{|fg|}{h^2}$</m> with the coordinate axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 39 -->
+        Find separate equations of lines represented by <m>$x^22 - 5xy + 4y^2 + x + 2y - 2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 40 -->
+         Prove that the lines represented by <m>$x^22 - 6xy + 3y^2 = 0$</m> are perpendicular to the lines
+         represented by <m>$3x^2 + 6xy + y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 41 -->
+        Show that one of the lines given by <m>$y^2 + xy - 12x^2 = 0$</m> coincides with one of the lines
+        given by <m>$4y^2 - 13xy + 3x^2 = 0$</m> and the other two lines are perpendicular to one another.
+      </d:listitem>
+      <d:listitem>
+        <!-- 42 -->
+        Prove that the lines represented by <m>$x^22 - 7xy + 12y^2 = 0$</m> are perpendicular to the lines
+        represented by <m>$12x^2 + 7xy + y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 43 -->
+        The equations to a pair of opposite sides of a rectangle are <m>$x^2 - 7x + 6 = 0$</m> and <m>$y^2 -
+        14y + 40 = 0$</m>. Find the equation of its diagonals.
+      </d:listitem>
+      <d:listitem>
+        <!-- 44 -->
+        Show that the four lines given by the equation <m>$3x^2 + 8xy - 3y^2 = 0$</m> and <m>$3x^2 +8xy -
+        3y^2 + 2x - 4y - 1 = 0$</m> form a square. Also find the equation of the diagonals of the square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 45 -->
+        Prove that the equation <m>$2x^2 - 5xy - 3y^2 - 2x + 6y = 0$</m> represents two straight lines and
+        find their point of intersection.
+      </d:listitem>
+      <d:listitem>
+        <!-- 46 -->
+        Find the condition that one of the lines given by <m>$ax^2 + 2xy + by^2 = 0$</m> may be
+        perpendicular to one of the lines given by <m>$a_1x^2 + 2h_1xy + b_1y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 47 -->
+        If the slope of one of the lines represented by <m>$ax^2 + 2hxy + by^2 = 0$</m> be <m>$\lambda$</m>
+        times the other, prove that <m>$\left(\frac{1 + \lambda}{2h}\right)^2 = \frac{\lambda}{ab}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 48 -->
+        If the slope of one of the lines represented by <m>$ax^2 + 2hxy + by^2 = 0$</m> be the square of the
+        other, prove that <m>$\frac{a + b}{h} + \frac{8h^2}{ab} = 6$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 49 -->
+        Find the condition that the pair of straight lines <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$a'x^2 +
+        2h'xy + b'y^2 = 0$</m> have one line in common.
+      </d:listitem>
+      <d:listitem>
+        <!-- 50 -->
+        Find the equation of the bisectors of angles between the lines <m>$3x^2 - 5xy + 4y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 51 -->
+        Show that the straight lines represented by <m>$135x^2 - 136xy + 33y^2 = 0$</m> are equally inclined
+        to the line <m>$x + 2y = 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 52 -->
+        Prove that the lines <m>$a^2x^2 + 2h(a + b)xy + b^2y^2 = 0$</m> are equally inclined to the lines
+        <m>$ax^2 + 2hxy + by^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 53 -->
+        Show that the lines bisecting the angles between the bisectors of the angles made by lines <m>$ax^2
+        + 2hxy + by^2 = 0$</m> are <m>$(a - b)\left(x^2 - y^2\right) + 4hxy = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 54 -->
+        If pairs of straight lines <m>$x^2 - 2pxy - y^2 = 0$</m> and <m>$x^22 - 2qxy - y^2 = 0$</m> be such
+        that each pair bisects the other pair, prove that <m>$pq = -1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 55 -->
+        Prove that the bisectors of the angles between the lines represented by <m>$ax^2 + 2hxy + by^2 =
+        \lambda\left(x^2 + y^2\right)$</m> are always the same irrespective of <m>$\lambda$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 56 -->
+        Prove that the bisectors of the angle between the lines <m>$ax^2 + acxy + cy^2 = 0$</m> and <m>$lr(3
+        + \frac{1}{c})x^2 + xy + \left(3 + \frac{1}{a}\right)y^2 = 0$</m> are always the same.
+      </d:listitem>
+      <d:listitem>
+        <!-- 57 -->
+        Prove that the lines <m>$2x^2 + 6xy + y^2 = 0$</m> are equally inclined to the lines <m>$4x^2 + 18xy
+        + y^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 58 -->
+        If the lines represented by <m>$x^2 - 2pxy - y^2 = 0$</m> are rotated about the origin through an
+        angle <m>$\theta$</m>, one in clockwise direction and other in anti-clockwise direction, find
+        the equation of the bisectors of the angles between the lines in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 59 -->
+        If one of the lines <m>$ax^2 + 2hxy + by^2 = 0$</m> be the bisector of the angle between the
+        coordinate axes, prove that <m>$(a + b)^2 = 4h^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 60 -->
+        Find the equation of pair of lines both of which pass through <m>$(1, 2)$</m> and are parallel
+        to the bisectors of the angles between the lines given by <m>$x^2 + xy - 2y^2 + 4x - y + 3 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 61 -->
+        Show that the lines joining the origin to the points common to <m>$x^2 + hxy - y^2 + gx + fy =
+        0$</m> and <m>$fx - gy = \lambda$</m> are at right angles irrespective of value of <m>$\lambda$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 62 -->
+        Prove that the angle between the lines joining the origin to the points of intersection of the
+        straight line <m>$y = 3x + 2$</m> with the curve <m>$x^2 + 2xy + 3y^2 + 4x + 8y - 11 = 0$</m> is
+        <m>$\tan^{-1}\frac{2\sqrt{2}}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 63 -->
+        Prove that the pair of lines joining the origin to the intersection of the curve <m>$\frac{x^2}{a^2}
+        + \frac{y^2}{b^2} = 1$</m> by the line <m>$lx + my + n = 0$</m> are conincident if <m>$a^2l^2 +
+        b^2m^2 = n^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 64 -->
+        Show that the straight lines joining the origin to the other two points of intersection of the
+        curves whose equations are <m>$ax62 + 2xy + 𝑏y^2 + 2gx = 0$</m> and <m>$a_1x^2 + 2h_1xy + b_1y^2 +
+        2g_1x = 0$</m> will be at right angles if <m>$g(a_1 + b_1) = g_1(a + b)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 65 -->
+        Find the equation of the straight lines joining the origin to the point of intersection
+        of the line <m>$3x + 4y = 5$</m> and the curve <m>$2x^2 + 3y^2 = 5$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 66 -->
+        Prove that the lines joining the origin and the points of intersection of the line <m>$3x - 2y =
+        1$</m> and the curve <m>$3x^2 + 5xy - 3y^2 + 2x + 3y = 0$</m> are perpendicular to each other.
+      </d:listitem>
+      <d:listitem>
+        <!-- 67 -->
+        Find the equation of the straight lines joining the origin to the points of intersection of the line
+        <m>$y = mx + c$</m> and the curve <m>$x^2 + y^2 = a^2$</m>. Prove that they are perpendicular to one
+        another if <m>$2c^2 = a^2\left(1 + m^2\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 68 -->
+        Find the equation of the straight lines joining the origin to the points of intersection of the line
+        <m>$lx + my + n = 0$</m> and <m>$y^2 = 4ax$</m>. Also find the condition of their perpendicularity.
+      </d:listitem>
+      <d:listitem>
+        <!-- 69 -->
+        Find the value of <m>$c$</m> so that the lines joining the origin to the common points of <m>$(x -
+        3)^2 + (y - 4)^2 = c^2$</m> and <m>$4x + 3y = 24$</m> are at right angles.
+      </d:listitem>
+      <d:listitem>
+        <!-- 70 -->
+        Find the value of <m>$m$</m>, if the lines joining the origin and the points of intersection of
+        <m>$y = mx + 1$</m> and <m>$x^2 + y^2 = 1$</m> are perpendicular to one another.
+      </d:listitem>
+      <d:listitem>
+        <!-- 71 -->
+        Prove that the straight lines joining the origin to the points of intersection of the straight lines
+        <m>$kx + hy = 2hk$</m> with the curve <m>$(x - h)^2 + (y - k)^2 = c^2$</m> are at right angles if
+        <m>$h^2 + k^2 = c^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 72 -->
+        Find the equation to the pair of lines through the origin and perpendicular to the pair of lines
+        <m>$ax^2 + 2hxy + by^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 73 -->
+        Find the condition that the slope of one of the lines represented by <m>$ax^22 + 2hxy + by^2 =
+        0$</m> should be <m>$\lambda$</m> times the slope of another.
+      </d:listitem>
+      <d:listitem>
+        <!-- 74 -->
+        Find the product of the length of the perpendiculars drawn from <m>$(x_1, y_1)$</m> on the pair of
+        straight lines <m>$ax^2 + 2bxy + by^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 75 -->
+        Prove that the equation <m>$(a + 2h + b)x^2 - 2(a - b)xy + (a - 2h + b)y^2 = 0$</m> represents a pair
+        of lines inclined at an angle of <m>$45^\circ$</m> to one or other of the lines represented by
+        <m>$ax^2 + 2hxy + by^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 76 -->
+        If the distance of a given point <m>$(\alpha, \beta)$</m> from each of the two straight lines through
+        the origin is <m>$d$</m>, show that <m>$(\alpha y - \beta x)^2 = d^2\left(x^2 + y^2\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 77 -->
+        If one of the lines given by <m>$ax^22 + 2hxy + by^2 = 0$</m> coincides with one of those given by
+        <m>$a_1x^2 + 2h_1xy + b_1y^2 = 0$</m> and the other lines represented by them be perpendicular,
+        prove that <m>$\frac{ba_1b_1}{b_1 - a_1} = \frac{hab}{a - b} = \frac{1}{2}\sqrt{-aa_1bb_1}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 78 -->
+        If the equation <m>$ax^22 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m> represented a pair of parallel
+        lines, prove that <m>$\frac{a}{h} = \frac{h}{b} = \frac{g}{f}$</m>. Also prove that the distance
+        between these parallel lines is <m>$2\sqrt{\frac{g^2 - ca}{a(a + b)}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 79 -->
+        If the equation <m>$ax^22 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m> represents a pair of straight
+        lines, prove that the square of the distance of their point of intersection from the origin is
+        <m>$\frac{c(a + b) - f^2 - g^2}{ab - h^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 80 -->
+        If the equation <m>$ax^22 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m> represents a pair of straight
+        lines equidistant from the origin, prove thta <m>$f^4 - g^4 = c\left(bf^2 - ag^2\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 81 -->
+        If the lines <m>$ax^2 + 2hxy + by^2 = 0$</m> be two sides of a parallelogram and the line <m>$lx +
+        my = 1$</m> be one of its diagonals, show that the equation of the other diagonal is <m>$y(bl - hm)
+        = 𝑥(am - hl)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 82 -->
+        Show that the orthocenter of the triangle formed by the lines <m>$ax^2 + 2hxy + by^2 = 0$</m> and
+        <m>$lx + my = 1$</m> is given by <m>$\frac{x}{l} = \frac{y}{m} = \frac{a + b}{am^2 - 2hlm +
+        bl^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 83 -->
+        Find the area of the triangle formed by the lines <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$lx + my +
+        n = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 84 -->
+        Show that the straight lines <m>$\left(A^2 - 3B^2\right)x^2 + 8ABxy + \left(B^2 - 3A^2\right)y^2 =
+        0$</m> form with the line <m>$Ax + By + C = 0$</m> an equilateral triangle whose area is
+        <m>$\frac{C^2}{\sqrt{3}\left(A^2 + B^2\right)}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 85 -->
+        Prove that the lines <m>$(lx + my)^2 - 3(mx - ly)^2 = 0$</m> and <m>$lx + my + n = 0$</m> form an
+        equilateral triangle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 86 -->
+        Show that the four straight lines given by <m>$12x^2 + 7xy - 12y^2 = 0$</m> and <m>$12x^2 + 7xy -
+        12y^2 - x + 7y - 1 = 0$</m> lie along the sides of a square.
+      </d:listitem>
+      <d:listitem>
+        <!-- 87 -->
+        The lines represented by <m>$x^2 - 3xy + 2y^2 = 0$</m> are shifted parallel to itself so that their
+        point of intersection comes to <m>$(1, 1)$</m>. Find the combined equation of the lines in new
+        position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 88 -->
+        The joint equation of the lines of rays of incidence and reflection is <m>$2x^2 - xy - y^2 =
+        0$</m>. Find the joint equation of two possible lines from which the ray has been reflected.
+      </d:listitem>
+      <d:listitem>
+        <!-- 89 -->
+        If the angle between the lines joining the origin to the points of intersection of the lines
+        <m>$x\cos\alpha + y\sin\alpha = 1$</m> and the circle <m>$x^2 + y^2 = a^2$</m> be <m>$90^\circ$</m>,
+        find the possible values of <m>$a$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 90 -->
+        If the pair of straight lines $ax^2 + 2hxy + by^2 = 0$ is rotated about the origin through
+        <m>$90^\circ$</m>, find the equation in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 91 -->
+        Find the image of the pair of lines represented by <m>$ax^2 + 2hxy + by^2 = 0$</m> by the line
+        mirror whose equation is <m>$y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 92 -->
+        Prove that the sum of the squares of the perpendiculars drawn from the point <m>$(x', y')$</m> on
+        the lines given by <m>$ax^2 + 2hxy + by^2 = 0$</m> is <d:sbr/><m>$\frac{\left[4h^2\left(x'^2 + y'^2\right) +
+        4h(a + b)x'y' + 2(a - b)\left(ax'^2 - by'^2\right)\right]}{\left[\left(a - b\right)^2 +
+        4h^2\right]}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 93 -->
+        If <m>$(x, y)$</m> be the centroid of the triangle whose sides are the lines <m>$ax^2 + 2hxy + by^2
+        = 0$</m> and <m>$lx + my + n = 0$</m>. Find the centroid.
+      </d:listitem>
+      <d:listitem>
+        <!-- 94 -->
+        A triangle has the line <m>$ax^2 + 2hxy + by^2 = 0$</m> for two of its sides and the point <m>$(l,
+        m)$</m> for its orthocenter. Prove that the third side has the equation <m>$(a + b)(lx + my) = am^2
+        - 2hlm + bl^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 95 -->
+        Prove that the lines <m>$x^2 + 4xy + y^2 = 0$</m> and <m>$x - y = 4$</m> are the sides of an
+        equilateral triangle. Find its area.
+      </d:listitem>
+      <d:listitem>
+        <!-- 96 -->
+        Find the internal angles of the triangle formed by the pair of straight lines <m>$x^2 + 4xy + y^2 =
+        0$</m> and straight line <m>$x + y + 4\sqrt{6} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 97 -->
+        Prove that the area of the triangle formed by the lines <m>$ax^2 + 2hxy + by^2 = 0$</m> and
+        <m>$x\cos\alpha + y\sin\alpha = p$</m> is <m>$\frac{p^2\sqrt{h^2 - ab}}{b\cos^2\alpha -
+        2h\cos\alpha\sin\alpha + a\sin^2\alpha}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 98 -->
+        Find the area of the triangle formed by the lines <m>$ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m>
+        and the <m>$x$</m>-axis.
+      </d:listitem>
+    </d:orderedlist>
+  </d:sect1>
 </d:chapter>
