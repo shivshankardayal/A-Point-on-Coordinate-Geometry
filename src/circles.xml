@@ -679,5 +679,534 @@
     <d:para>
       Let the equation of the circle be <m>$x^2 + y^2 = a^2$</m> with center <m>$C(0, 0)$</m>.
     </d:para>
+    <d:para>
+      Let <m>$PQ$</m> be the chord whose mid-point is <m>$L(x_1, y_1)$</m>. Slope of line <m>$CL =
+      -\frac{x_1}{y_1}$</m>
+    </d:para>
+    <d:para>
+      Since <m>$PQ\perp CL$</m>, herefore, slope of <m>$PQ = \frac{y_1}{x_1}$</m>. Equation of <m>$PQ$</m>
+      is <m>$y - y_1 = \frac{y_1}{x_1}(x - x_1)$</m>
+    </d:para>
+    <d:figure xml:id="chord-circle">
+      <d:title>Chord of a circle</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_14.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Thus, equation of the chord is given by <m>\[xx_1 + yy_1 = x_1^2 + y_1^2\tag{5.24}\]</m> Similarly the
+      equation of chord for the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> is given by <m>\[xx_1 + yy_1 +
+      g(x + x_1) + f(y + y_1) + c = x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c\tag{5.25}\]</m>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:para>
+      The angle between two circles is the angle between their tangents at their point of intersection. Let
+      <m>$P$</m> be a point of intersection of two circles. Let <m>$PT$</m> and <m>$PT'$</m> be the tangents
+      to the two circles at the point of intersection. Then the angle is defined at <m>$\angle TPT'$</m> or
+      <m>$\pi - \angle TPT'$</m>. If <m>$C_1$</m> and <m>$C_2$</m> be the centers of the two circles then
+    </d:para>
+    <d:para>
+      <m>$PC_1\perp PT$</m> and <m>$PC_2\perp PT' \therefore \angle TPT' = \angle C_1PC_2$</m> or <m>$\pi -
+      C_1PC_2$</m>.
+    </d:para>
+    <d:title>Intersection of Circles</d:title>
+    <d:figure xml:id="intersection-circle">
+      <d:title>Intersecrtion of circles</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_15.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:sect2>
+      <d:title>Orthogonal Circles</d:title>
+      <d:para>
+        Two circles are said to intersect orthogonally if they intersect at right angles. We will find the
+        condition for two circles <m>$x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m> and <m>$x^2 + y^2 + 2g_2x +
+        2f_2y + c_2 = 0$</m> are orthogonal.
+      </d:para>
+      <d:para>
+        Let <m>$A$</m> and <m>$B$</m> be the center of these circles and <m>$r_1$</m> and <m>$r_2$</m> be
+        their radii respectively. Then
+      </d:para>
+      <d:figure xml:id="orthogonal-circle">
+        <d:title>Orthogonal circles</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/5_16.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Since the circles are orthogonal <m>$PC_1^2 + PC_2^2 = C_1C_2^2 \Rightarrow r_1^2 + r_2^2 = C_1C_2^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow g_1^2 + f_1^2 - c_1 + g_2^2 + f_2^2 - c_2 = (g_2 - g_1)^2 + (f_2 - f_1)^2$</m>
+        <m>\[2g_1g_2 + 2f_1f_2 = c_1 + c_2\tag{5.26}\]</m>
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Radical Axis</d:title>
+    <d:figure xml:id="radical-axis">
+      <d:title>Radical axis of two circles</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_17.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      The radical axis of two circles is the locus of a point which moves so that the length
+      of the tangents drawn from it to the two points are equal.
+    </d:para>
+    <d:para>
+      We will find equation of radical axis of two circles <m>$x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m>
+      and <m>$x^2 + y^2 + 2g_2x + 2f_2y + c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Let <m>$P(\alpha, \beta)$</m> be any point from which the tangents from it to these circles are equal.
+      Let the tangents from this point to the two circles be <m>$PA$</m> and <m>$PB$</m>.
+    </d:para>
+    <d:para>
+      Now <m>$PA = \sqrt{\alpha^2 + \beta^2 + 2g_1\alpha + 2f_1\beta + c_1}$</m> and <m>$PB
+      =\sqrt{\alpha^2 + \beta^2 + 2g_2\alpha + 2f_2\beta + c_2} $</m>
+    </d:para>
+    <d:figure xml:id="radical-axis-2">
+      <d:title>Radical axis of two circles</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_18.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      We have <m>$PA = PB \Rightarrow 2(g_1 - g_2)\alpha + 2(f_1 - f_2)\beta + c_1 - c_2 = 0$</m>
+    </d:para>
+    <d:para>
+      Hence, locus of <m>$P$</m> is  <m>\[2(g_1 - g_2)x + 2(f_1 - f_2)y + c_1 - c_2 = 0\tag{5.27}\]</m>
+      which is a straight line and equation of radical axis.
+    </d:para>
+    <d:sect2>
+      <d:title>Properties of Radical Axes</d:title>
+      <d:itemizedlist>
+        <d:listitem>
+          The radical axis of two circles is perpendicular to the line of centers.
+          <d:para>
+            Let the two circles be <m>$x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m> and <m>$x^2 + y^2 + 2g_2x +
+            2f_2y + c_2 = 0$</m>.
+          </d:para>
+          <d:para>
+            Let <m>$A$</m> and <m>$B$</m> be the centers of these two circles. Then slope of <m>$AB$</m> is
+            <m>$\frac{f_2 - f_1}{g_2 - g_1}$</m>, which is negative reciprocal of <m>$2(g_1 - g_2)x + 2(f_1
+            - f_2)y + c_1 - c_2 = 0$</m>.
+          </d:para>
+          <d:para>
+            Thus, the radical axis of two circles is perpendicular to the line of centers.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          The radical axis of three circles takes two at a time are concurrent.
+          <d:para>
+            Consider three circles, which are <m>$x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0, x^2 + y^2 + 2g_2x +
+            2f_2y + c_2 = 0$</m> and <m>$x^2 + y^2 + 2g_3x + 2f_3y + c_3 = 0$</m>.
+          </d:para>
+          <d:para>
+            So radical axes will be <m>$2(g_1 - g_2)x + 2(f_1 - f_2)y + c_1 - c_2 = 0, 2(g_2 - g_3)x + 2(f_2
+            - f_3)y + c_2 - c_3 = 0$</m> and <m>$2(g_3 - g_1)x + 2(f_3 - f_1)y + c_3 - c_1 = 0$</m>.
+          </d:para>
+          <d:para>
+            Adding these we get equality, hence, the three lines are concurrent. The point where
+            these radical axes meet is called the <d:emphasis role="italic">radical center</d:emphasis> of
+            the three circles.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          The radical axis of the two circles bisect their common tangent.
+          <d:para>
+            Let <m>$AB$</m> be one of the common tangents meeting the raidcal axis at <m>$P$</m>, then since
+            <m>$P$</m> lies on the radical axis, hence, by definition of radical axis <m>$PA = PB$</m>.
+          </d:para>
+          <d:para>
+            Thus, the radical axis bisect the common tangent.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          he locus of the cetner of a circle cutting two given circles orthogonally is the radical
+          axis of the two circles.
+          <d:para>
+            Consider three circles, which are <m>$x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0, x^2 + y^2 + 2g_2x +
+            2f_2y + c_2 = 0$</m> and <m>$x^2 + y^2 + 2g_3x + 2f_3y + c_3 = 0$</m>. Let them cut each other
+            orthogonally.
+          </d:para>
+          <d:para>
+            <m>$2g_1g_2 + 2f_1f_2 = c_1 + c_2$</m> and <m>$2g_1g_3 + 2f_1f_3 = c_1 + c_3$</m>
+          </d:para>
+          <d:para>
+            Subtracting we get <m>$2g_1(g_2 - g_3) + 2f_1(f_2 - f_3) = c_2 - c_3$</m>
+          </d:para>
+          <d:para>
+            Thus, locus of the center is <m>$2(g_1 - g_2)x + 2(f_1 - f_2)y + c_1 - c_2 = 0$</m> which is the
+            radical axis of the two circles being cut orthogonally.
+          </d:para>
+        </d:listitem>
+      </d:itemizedlist>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Coaxial Circles</d:title>
+    <d:para>
+      A system of circles is said to be coaxial if each pair of circles of the system has the same radical
+      axis.
+    </d:para>
+    <d:para>
+      Consider two circles <m>$x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m> and <m>$x^2 + y^2 + 2g_2x + 2f_2y +
+      c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      Equation of radical axis will be <m>$2(f_1 - f_2)x + 2(f_1 - f_2)y+ c_1 - c_2 = 0$</m>.
+    </d:para>
+    <d:para>
+      We know that the radical axis of two circles is perpendicular to the line joining their
+      centers, therefore, if we take the line joining the centers as <m>$x$</m>-axis and radical axis as
+      <m>$y$</m>-axis, then
+    </d:para>
+    <d:para>
+      <m>$f_1 = f_2 = 0$</m> and equation of radical axis will be <m>$c_1 - c_2 = 0 \Rightarrow  c_1 =
+      c_2$</m>.
+    </d:para>
+    <d:para>
+      Thus, constant term in all the circles must be same for them to be coaxial circles.
+    </d:para>
+    <d:sect2>
+      <d:title>Limiting Points of a Coaxial System</d:title>
+      <d:para>
+        Consider a system of coaxial circles having equation <m>$x^2 + y^2 + 2gx + c = 0$</m>, where
+        <m>$c$</m> is a constant and <m>$g$</m> is a parameter.
+      </d:para>
+      <d:para>
+        The radius is <m>$\sqrt{g^2 - c}$</m>. If <m>$g = \pm\sqrt{x}$</m> then the radius vanishes and the
+        circle becomes point circle.
+      </d:para>
+      <d:para>
+        Thus, there are two circles of the system whose radii are zero, centers of these circles are
+        <m>$(\sqrt{c}, 0)$</m> and <m>$(-\sqrt{c}, 0)$</m>.
+      </d:para>
+      <d:para>
+        These points are called <d:emphasis role="italic">limiting points</d:emphasis> of the system.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Circles through the Points of Intersection of a Circle and a Line</d:title>
+      <d:para>
+        Consider a circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> and a line <m>$lx + my + n = 0$</m>.
+      </d:para>
+      <d:para>
+        Consider the equation <m>$x^2 + y^2 + 2gx + 2fy + c + \lambda(lx + my + n) = 0$</m> which is also
+        the equation of a circle.
+      </d:para>
+      <d:para>
+        The coordinates which satisfy the considered circle and line also satisfy this equation
+        of circles. Thus, point of intersection of the considered circle and line lies on this new
+        circle.
+      </d:para>
+      <d:para>
+        Similarly we can say that <m>$x^2 + y^2 + 2gx + 2fy + c + \lambda(x^2 + y^2 + 2g_1x + 2f_1y + c) =
+        0$</m> is the locus of points of intersection of two circles.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Problems</d:title>
+    <d:orderedlist>
+      <d:listitem>
+        <!-- 1 -->
+        Find the center and the radius of the circle <m>$3x^2 + 3y^2 - 8x - 10y + 3 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 2 -->
+        Prove that the radii of the circles <m>$x^2 + y^2 = 1, x^2 + y^2 - 2x - 6y = 6$</m> and <m>$x^2 +
+        y^2 - 4x - 12y = 9$</m> are in A.P.
+      </d:listitem>
+      <d:listitem>
+        <!-- 3 -->
+        Find the area of an equilateral triangle inscribed in the circle <m>$x^2 + y^2 + 2gx + 2fy + c =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 4 -->
+        Find the center and the radius of the circle <m>$x^2 + y^2 + 6x - 8y = 24$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 5 -->
+        Find the center and the radius of the circle <m>$5x^2 + 5y^2 + 4x - 8y = 16$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 6 -->
+        Find the center and the radius of the circle <m>$x^2 + y^2 - 6x - 2y = 6$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 7 -->
+        What will be the radius and center of the circle <m>$\frac{1}{2}\left(x^2 + y^2\right) + x\cos\theta
+        + y\sin\theta - 4 = 0$</m>?
+      </d:listitem>
+      <d:listitem>
+        <!-- 8 -->
+        Prove that the centers of the circles <m>$x^2 + y^2 = 1, x^2 + y^2 + 6x - 2y - 1 = 0$</m> and
+        <m>$x^2 + y^2 - 12x + 4y = 1$</m> are collinear.
+      </d:listitem>
+      <d:listitem>
+        <!-- 9 -->
+        Prove that the radii of the circles <m>$x^2 + y^2 = 1, x^2 + y^2 - 2x - 6y = 6$</m> and <m>$x^2 +
+        y^2 - 4x - 12y = 9$</m> are in A.P.
+      </d:listitem>
+      <d:listitem>
+        <!-- 10 -->
+        Prove that the radii of the circles <m>$x^2 + y^2 = 4, 4x^2 + 4y^2 - 8x - 24y + 15 = 0$</m> and
+        <m>$x^2 + y^2 - 4y - 5 = 0$</m> are in A.P.
+      </d:listitem>
+      <d:listitem>
+        <!-- 11 -->
+        Prove that the circles <m>$x^2 + y^2 - 9 = 4r^2, r = 1, 2, 3$</m> cut off equal intercepts between
+        the circles on the line <m>$3x + 4y + 15 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 12 -->
+        Find the equation of the circle whose center is <m>$(1, 2)$</m> and which passes through the point
+        <m>$(4, 6)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 13 -->
+        If the equations of two diameters of a circle are <m>$x + y = 6$</m> and <m>$x + 2y = 4$</m> and the
+        radius of the circle is <m>$10$</m>, find the equation of the circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 14 -->
+        Find the equation of the circle whose center is <m>$(3, 4)$</m> and which touches the line
+        <m>$5x + 12y = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 15 -->
+        Find the equation of a circle which passes through the point <m>$(2, 0)$</m> and whose center is the
+        limit of the point of intersection of the lines <m>$3𝑥 + 5𝑦 = 1$</m> and <m>$(2 + c)x + 5c^2y =
+        1$</m> as <m>$c$</m> tends to <m>$1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 16 -->
+        A circle has radius of <m>$3$</m> units and its center lies on the line <m>$y = x - 1$</m>. Find the
+        equation of the circle if it passes through <m>$(7, 3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 17 -->
+        Find the equation of the circle, which touches the axes and whose center lies on the line <m>$x - 2y
+        = 3$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 18 -->
+        A circle of radius <m>$2$</m> lies in the first quadrant and touches both the axes of
+        coordinates. Find the equation of the circle with center at <m>$(6, 5)$</m> and touching the above
+        circle externally.
+      </d:listitem>
+      <d:listitem>
+        <!-- 19 -->
+        Find the equation of the circles whose center is <m>$(3, -1)$</m> and which cut off an intercept of
+        length 6 from <m>$2x - 5y + 18 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 20 -->
+        Find equations of the circles touching <m>$y$</m>-axis at <m>$(0, 3)$</m> and making intercept of
+        <m>$8$</m> units on the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 21 -->
+        Find the equation of the circle having the pair of lines <m>$x^2 + 2xy + 3x + 6y = 0$</m> as its
+        normals and having the size just sufficient to contain the circle <m>$x(x - 4) + yuy(y - 3) =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 22 -->
+        A circle of raidus <m>$5$</m> units touches the coordinate axes in the first quadrant. If the circle
+        makes one complete roll on the <m>$x$</m>-axis along the positive direction of <m>$x$</m>-axis, find
+        its equation in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 23 -->
+        The circle <m>$x^2 + y^2 - 4x - 8y + 16 = 0$</m> rolls up the tangent to it at <m>$\left(2 +
+        \sqrt{3}, 3\right)$</m> by <m>$2$</m> units, assuming the <m>$x$</m>-axis as horizontal, find the
+        equation of the circle in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 24 -->
+        Find the equations of the circles touching the lines <m>$y = 0$</m> and <m>$y = \sqrt{3}(𝑥 + 1)$</m>
+        and having the centers at a distance <m>$1$</m> from the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 25 -->
+        Find the equation of the circle passing through the point <m>$(2, 8)$</m> touching the lines <m>$4x
+        - 3y + 24 = 0$</m> and <m>$4x + 3y - 42 = 0$</m> and having <m>$x$</m> coordinate of the center of
+        the circle numerically less than or equal to <m>$8$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 26 -->
+        Find the equation of the circle whose center is <m>$(1, -5)$</m> and radius is <m>$7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 27 -->
+        Find the equation of the circle whose center is <m>$(-1, -2)$</m> and diameter is <m>$25$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 28 -->
+        If the equation of two diameters of a circle are <m>$2x + y = 6$</m> and <m>$3x + 2y = 4$</m> and
+        the radius is <m>$10$</m>, find the equation of the circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 29 -->
+        Find the equation of the circle which passes through the point of intersection of <m>$3x - 2y - 1 =
+        0$</m> and <m>$4x + y - 27 = 0$</m> and whose center is <m>$(2, 3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 30 -->
+        Find the equation of the circle whose center is <m>$(1, 2)$</m> and which passes through the point
+        of intersection of <m>$3x + y = 14$</m> and <m>$2x + 5y = 18$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 31 -->
+        ind the equation of the circle passing through the center of the circle <m>$x^2 + y^2 - 4x - 6y =
+        8$</m> and being concentric with the circle <m>$x^2 + y^2 - 2x - 8y = 5$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 32 -->
+        Find the equation of the circle passing through the point of intersection of <m>$x + 3y = 0$</m> and
+        <m>$2x - 7y = 0$</m> and whose center is the point of intersection of lines <m>$x + y + 1 = 0$</m>
+        and <m>$x - 2y + 4 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 33 -->
+        Find the equation of the circle whose radius is <m>$5$</m> and the center lies on the positive side
+        of <m>$x$</m>-axis at a distance <m>$5$</m> from the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 34 -->
+        Find the equation of the circle which passes through the points <m>$(-1, 2)$</m> and <m>$(3,
+        -2)$</m> and whose center lies on the line <m>$x - 2y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 35 -->
+        Find the equation of the circle which passes through the point <m>$(1, -2)$</m> and <m>$(4, -3)$</m>
+        and whose center lies on the line <m>$3x + 4y = 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 36 -->
+        Find the equation of the circle whose radius is <m>$5$</m> and which touches the circle
+        <m>$x^2 + y^2 - 2x - 4y - 20 = 0$</m> at the point <m>$(5, 5)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 37 -->
+        Find the equation of the circle whose center is <m>$(1, -3)$</m> and which touches the line
+        <m>$2x - y - 4 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 38 -->
+        Write down the equation of a circle concentric with the circle <m>$x^2 + y^2 - 4x + 6y - 17 = 0$</m>
+        and tangent to the line <m>$3x - 4y + 7 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 39 -->
+        Find the equation of the circle of radius <m>$5$</m> and touching the line <m>$3x - 4y + 5 = 0$</m>
+        at <m>$(1, 2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 40 -->
+        If the raidus of the circle is 5 and the equations of the twp normals to the circle are <m>$3x - 5y
+        + 2 = 0$</m> and <m>$x + 2y = 3$</m>, find the equation of the circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 41 -->
+        Find the equation of the circle which touches the <m>$y$</m>-axis at a distance <m>$4$</m> from the
+        origin towards the positive side of <m>$y$</m>-axis and cuts of an intercept <m>$6$</m> on the
+        <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 42 -->
+        Find the equation of the circle which touches both the axes and whose radius is <m>$a$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 43 -->
+        Find the equation of the circle passing through the point <m>$(h, k)$</m> and touching the
+        <m>$y$</m>-axis at origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 44 -->
+        Find the equation of the circle touching the axis of <m>$x$</m> at the origin and touching
+        the line <m>$3y = 4x + 24$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 45 -->
+        What is the parametric equation of the circle <m>$x^2 + y^2 = 16$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 46 -->
+        Find the equation of the circle which touches the line <m>$2x - y = 1$</m> at <m>$(1, 1)$</m> and
+        the line <m>$2x + y = 4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 47 -->
+        Find the euqation of the circle touching the lines <m>$4x - 3y = 30$</m> and <m>$4x - 3y + 10 =
+        0$</m> having the center on the line <m>$2x + y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 48 -->
+        A circle of raidus <m>$4$</m> units touches the coordinate axes in the first quadrant. Find the
+        equation of its image w.r.t. the line mirror <m>$y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 49 -->
+        The equation of a circle is <m>$x^2 + y^2 + 16x - 24y + 183 = 0$</m>. Find the equation of
+        the image of this circle by the line mirror <m>$4x + 7y + 13 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 50 -->
+        The circle <m>$(x - a)^2 + (y - a)2 = a^2$</m> is rolled on the 𝑥-axis in the positive direction
+        through one complete revolution. Find the equation of the circle in the new position.
+      </d:listitem>
+      <d:listitem>
+        <!-- 51 -->
+        The center of a circle is <m>$(1, 1)$</m> and its radius is <m>$5$</m> units. If the center is
+        shifted on the line <m>$x - y = 0$</m> through a distance of <m>$\sqrt{2}$</m> units, find the
+        equation of the circle in the new position. How many such circles are possible?
+      </d:listitem>
+      <d:listitem>
+        <!-- 52 -->
+        Find the equation of the circles which pass through the origin and cut off equal chords of
+        <m>$\sqrt{2}$</m> units from the straight lines <m>$y = x$</m> and <m>$y = -x$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 53 -->
+        Find the center of the circle which is inscribed in the triangle formed by the lines
+        <m>$3x + 4y - 15 = 0, 3x - 4y - 7 = 0$</m> and <m>$12x + 5y - 115 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 54 -->
+        Show that the equation of the circle which touches the coordinate axes and whose center lies on the
+        straight line <m>$lx + my + n = 0$</m> is <m>$(l \pm m)^2\left(x2 + y^2\right) \pm 2n(l \pm m)(x
+        + y) + n^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 55 -->
+        Of the two concentric circles the smaller one has the equation <m>$x^2 + y^2 = 4$</m>. If the
+        intercept on the line <m>$x + y = 2$</m> made between the two circles is <m>$1$</m>, find the
+        equation of the larger circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 56 -->
+        Is <m>$(3, 2)$</m> an interior point or an exterior point of the circle <m>$x^2 + y^2 - 2x + y =
+        0$</m>? If inerior, find the equation of the circle centered on it and of maximum area contained in
+        the given in the circle. If exterior, find the circle of maximum radius centered on it containing
+        the given circle.
+      </d:listitem>
+    </d:orderedlist>
   </d:sect1>
 </d:chapter>
