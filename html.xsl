@@ -35,6 +35,7 @@
   <xsl:template name="user.head.content">
     <xsl:copy-of select="document('analytics1.js', /)"/>
     <xsl:copy-of select="document('analytics.js', /)"/>
+    <xsl:copy-of select="document('adsense.js', /)"/>
     <!--xsl:copy-of select="document('mathjax_config.js', /)"/>
     <xsl:copy-of select="document('mathjax.js', /)"/-->
 

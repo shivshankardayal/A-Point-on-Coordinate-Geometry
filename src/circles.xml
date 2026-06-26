@@ -61,5 +61,623 @@
     <d:para>
       <d:emphasis role="bold">Case I:</d:emphasis> The circle passes through the origin.
     </d:para>
+    <d:figure xml:id="circle-3">
+      <d:title>A circle through Origin</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_3.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      The equation of the circle is <m>$(x - \alpha)^2 + (y - \beta)^2 = a^2$</m>. Since it passes through
+      the origin, therefore, <m>$(0 - \alpha)^2 + (0 - \beta)^2 = a^2$</m> <m>\[\alpha^2 + \beta^2 =
+      a^2\tag{5.4}\]</m>
+    </d:para>
+    <d:para>
+      If we consider general equation then we find that <m>$c = 0$</m>, thus the equation of circle is
+      given by <m>\[x^2 + y^2 + 2gx + 2fy = 0\tag{5.5}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Case II:</d:emphasis> The circle touches the <m>$x$</m>-axis.
+    </d:para>
+    <d:figure xml:id="circle-4">
+      <d:title>A circle touching x-axis</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_4.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      We see that <m>$CL = |\beta|$</m> so we can write that <m>\[(x - \alpha)^2 + (y - \beta)^2 =
+      \beta^2\tag{5.6}\]</m>
+    </d:para>
+    <d:para>
+      In case we write it in form of general equation then <m>$g^2 + f^2 - c = f^2$</m>. Thus, the
+      equation of circle becomes
+    </d:para>
+    <m>\[x^2 + y^2 + 2gx + 2fy + g^2 = 0\tag{5.7}\]</m>
+    <d:para>
+      <d:emphasis role="bold">Case III: </d:emphasis> The circle touches the <m>$y$</m>-axis.
+    </d:para>
+    <d:para>
+      We see that <m>$CL = |\alpha|$</m> so we can write that <m>\[(x - \alpha)^2  + (y - \beta)^2 =
+      \alpha^2\tag{5.8}\]</m>
+      In case we write it in form of general equation then <m>$g^2 + f^2 - c = g^2$</m>. Thus, the
+      equation of circle becomes <m>\[x^2 + y^2 + 2gx + 2fy + f^2 = 0\tag{5.9}\]</m>
+    </d:para>
+    <d:figure xml:id="circle-5">
+      <d:title>A circle touching y-axis</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_5.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      <d:emphasis role="bold">Case III:</d:emphasis> The circle touches both the axes.
+    </d:para>
+    <d:para>
+      We first consider the case of first quadrant.
+    </d:para>
+    <d:figure xml:id="circle-6">
+      <d:title>A circle touching both the axes</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_6.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      In this case <m>$\alpha = \beta = a$</m>, and hence, the equation becomes <m>\[(x - a)^2 + (y - a)^2 =
+      a^2\tag{5.10}\]</m>
+    </d:para>
+    <d:para>
+      Similarly, in 2nd, 3rd and 4th quadrant the equation would be <m>$(x + a)^2 + (y - a)^2 = a^2$</m>,
+      <m>$(x + a)^2 + (y + a)^2 = a^2$</m>, and <m>$(x - a)^2 + (y + a)^2 = a^2$</m>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Circle on a Diameter</d:title>
+    <d:para>
+      We will find equation of a circle one of whose diameters has endpoints as <m>$(x_1, y_1)$</m> and
+      <m>$(x_2, y_2)$</m>.
+    </d:para>
+    <d:figure xml:id="circle-7">
+      <d:title>A circle about a diameter</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_7.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m> be the endpoints of the diameter <m>$Ab$</m> of the
+      circle as shown. Also, let <m>$P(\alpha, \beta)$</m> on the circle. We know from geometry that
+      <m>$AB$</m> will subtend a right-angle on <m>$P$</m>.
+    </d:para>
+    <d:para>
+      Slope of <m>$AP = \frac{\beta - y_1}{\alpha - x_1}$</m>, and slope of <m>$BP = \frac{\beta -
+      y_2}{\alpha - x_2}$</m>
+    </d:para>
+    <d:para>
+      Since these two lines are perpendicular to each other, we have <m>$\frac{\beta - y_1}{\alpha -
+      x_1}.\frac{\beta - y_2}{\alpha - x_2} = -1$</m>
+    </d:para>
+    <d:para>
+      <m>$\Rightarrow (\alpha - x_1)(\alpha - x_2) + (\beta - y_1)(\beta - y_2) = 0$</m>
+    </d:para>
+    <d:para>
+      Thus, equation of circle would be <m>\[(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0\tag{5.11}\]</m>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Parametric Form of a Circle</d:title>
+    <d:para>
+      We have the equation of the circle as <m>$(x - \alpha)^2 + (y - \beta)^2 = a^2$</m> then any point on
+      the circle in parametric form can be given by <m>$(\alpha + a\cos\theta, \beta + a\sin\theta)$</m>.
+    </d:para>
+    <d:para>
+      If the center of the circle is at the origin i.e. the equation is <m>$x^2 + y^2 = a^2$</m> then the
+      point's coordiantes changes to <m>$(a\cos\theta, b\sin\theta)$</m>. The point is often referred as
+      point <d:quote><m>$\theta$</m></d:quote>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Position of a Point w.r.t. a Circle</d:title>
+    <d:para>
+      Consider any point <m>$(x_1, y_1)$</m>. For any circle the point will be inside, outside or on the
+      circle as <m>$(x_1 - \alpha)^2 + (y_1 - \beta)^2 > a^2, &lt; a^2$</m> or <m>$= a^2$</m>.
+    </d:para>
+    <d:para>
+      For general second degree equation the condition would be <m>$(x_1 + g)^2 + (y_1 + f)^2 > g^2 + f^2 -
+      c, &lt; g^2 + f^2 - c$</m> or <m>$= g^2 + f^2 - c$</m>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Intersection of a Line and a Circle</d:title>
+    <d:para>
+      We know that one of the equations of a straight line is <m>$\frac{x - \alpha}{\cos\theta} = \frac{y -
+      \beta}{\sin\theta}$</m>. This equation represents a line passing through a point <m>$P(\alpha,
+      \beta)$</m> making an angle of <m>$\theta$</m> with positive direction of <m>$x$</m>-axis. Let this
+      ratio be equal to <m>$r$</m>, where <m>$r$</m> is the algebraic distance of the point <m>$(x, y)$</m>
+      from <m>$P(\alpha, \beta)$</m>. So the coordiantes on this line are given by <m>$(\alpha +𝑟\cos\theta,
+      \beta + 𝑟\sin\theta)$</m>.
+    </d:para>
+    <d:para>
+      If this point lies on the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, then <m>$(\alpha +
+      r\cos\theta)^2 + (\beta + r\sin\theta)^2 + 2g(\alpha + r\cos\theta) + 2g(\beta + r\sin\theta)  + c =
+      0$</m> i.e.
+      <m>\[r^2 + 2r(\alpha\cos\theta + \beta\sin\theta + g\cos\theta + f\sin\theta) + \alpha^2 + \beta^2 +
+      2g\alpha + 2f\beta + c = 0\tag{5.12}\]</m>
+    </d:para>
+    <d:para>
+      This is a quadratic equaiton in <m>$r$</m>, and hence, the line through <m>$P$</m> meets the circle at
+      two points <m>$A$</m> and <m>$N$</m>. Then we see that <m>$PA.PB = \alpha^2 + \beta^2 + 2g\alpha +
+      2f\beta + c$</m>, which is independent of <m>$\theta$</m>, i.e. the direction of the line.
+    </d:para>
+    <d:para>
+      This we know from geometry that from a point <m>$P$</m> a secant drawn to cut the circle in
+      two points <m>$A$</m> and <m>$B$</m>, the product of the distances <m>$PA$</m> and <m>$PB$</m> is
+      constant.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Tangents and Normals</d:title>
+    <d:figure xml:id="arc-1">
+      <d:title>Tanngents and normals</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_8.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Consider two points <m>$P$</m> and <m>$Q$</m> on a curve. The position to which the line <m>$PQ$</m>
+      tends as <m>$Q$</m> becomes closer to the point <m>$P$</m> i.e. the limiting position of chord
+      <m>$PQ$</m> as <m>$Q$</m> tends to <m>$P$</m> along the curve is called the <d:emphasis
+      role="italic">tangent</d:emphasis> to the curve at point <m>$P$</m>. The point <m>$P$</m> is called
+      the point of contact of the tangent.
+    </d:para>
+    <d:para>
+      We will find equation of a tangent to a circle at a point <m>$(x_1, y_1)$</m> on the circle <m>$x^2 +
+      y^2 = a^2$</m>.
+    </d:para>
+    <d:figure xml:id="tangent-1">
+      <d:title>Tanngents on a circle</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_9.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <m>$Q(x_2, y_2)$</m> be another point on the circle. Then the equation of <m>$PQ$</m> is <m>$y -
+      y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$</m>
+    </d:para>
+    <d:para>
+      Since both <m>$P$</m> and <m>$Q$</m> lie on the same circle, therefore, <m>$x_1^2 + y_1^2 = a^2$</m>
+      and <m>$x_2^2 + y_2^2 = a^2$</m>
+    </d:para>
+    <d:para>
+      Subtracting gives us <m>$\frac{y_1 - y-2}{x_1 - x_2} = -\frac{x_1 + x_2}{y_1 + y_2}$</m>
+    </d:para>
+    <d:para>
+      Substituting this in the equation of <m>$PQ$</m> gives us <m>$y - y_1 = -\frac{x_1 + x_2}{y_1 + y_2}(x
+      - x_1)$</m>
+    </d:para>
+    <d:para>
+      As <m>Q$\rightarrow P, x_2\rightarrow x_1, y_2\rightarrow y_1$</m>, and thus,
+    </d:para>
+    <d:para>
+      <m>$y - y_1 = -\frac{x_1}{y_1}(x - x-1) \Rightarrow xx_1 + yy_1 = x_1^2 + y_1^2$</m>. Thus
+    </d:para>
+    <m>\[xx_1 + yy_1 = a^2\tag{5.13}\]</m>
+    <d:para>
+      is the equation of tangent at <m>$P$</m> on the circle.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter:</d:emphasis> We know that the tangent to a circle at a point in
+      perpendicular to the radius through that point. The center of our circle is at the origin. Thus, slope
+      of the radius is <m>$\frac{y_1}{x_1}$</m>.
+    </d:para>
+    <d:para>
+      So the slope of the tangent will be <m>$-\frac{x_1}{y_1}$</m>. Thus, equation of tangent will be <m>$y
+      - y_1 = -\frac{x_1}{y_1}(x - x_1)\Rightarrow xx_1 + yy_1 = a^2$</m>.
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter(Using Calculus):</d:emphasis> The equation of our circle is <m>$x^2 +
+      y^2 = a^2$</m>.
+    </d:para>
+    <d:para>
+      Differentiating w.r.t. 𝑥 gives us <m>$2x + 2y\frac{dy}{dx} = 0 \Rightarrow \frac{dy}{dx} =
+      -\frac{x}{y}$</m>
+    </d:para>
+    <d:para>
+      Thus, slope at point <m>$P(x_1, y_1)$</m> is <m>$\frac{dy}{dx} = -\frac{x_1}{y_1}$</m>. Thus, equation
+      of tangent will be <m>$y - y_1 = -\frac{x_1}{y_1}(x - x_1)\Rightarrow xx_1 + yy_1 = a^2$</m>.
+    </d:para>
+    <d:para>
+      Now we will find tanegent to the circle represented by the equation <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>.
+    </d:para>
+    <d:para>
+      Like the first method we see that both <m>$P(x_1, y_1)$</m> and <m>$Q(x_2, y_2)$</m> lie on the
+      circle. Thus, we can write
+    </d:para>
+    <d:para>
+      <m>$x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c = 0$</m> and <m>$x_2^2 + y_2^2 + 2gx_2 + 2fy_2 + c = 0$</m>
+    </d:para>
+    <d:para>
+      Subtracting <m>$\frac{y_1 - y_2}{x_1 - x_2} = -\frac{x_1 + x_2 + 2g}{y_1 + y_2 + 2f}$</m>
+    </d:para>
+    <d:para>
+      We know that equation of the line <m>$PQ$</m> is <m>$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x -
+      x_1)$</m>
+    </d:para>
+    <d:para>
+      Substituting we get <m>$y - y_1 = -\frac{x_1 + x_2 + 2g}{y_1 + y_2 + 2f}(x - x_1)$</m>
+    </d:para>
+    <d:para>
+      As <m>Q$\rightarrow P, x_2\rightarrow x_1, y_2\rightarrow y_1$</m>, and thus,
+    </d:para>
+    <d:para>
+      <m>$y - y_1 = -\frac{x_1 + g}{y_1 + f}(x - x-_1)\Rightarrow xx_1 + yy_1 + gc + fy = x_1^2 + y_1^2 +
+      gx_1 + fy_1$</m> <m>\[xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0\tag{5.1.4}\]</m>
+    </d:para>
+    <d:para>
+      <d:emphasis role="bold">Aliter:</d:emphasis> Center of the circle is <m>$(-g, -f)$</m> and slope of
+      radius is <m>$\frac{y_1 - (-f)}{x_1 - (-g)} = \frac{y_1 + f}{x_1 + g}$</m>
+    </d:para>
+    <d:para>
+      So slope of tangent would be <m>$-\frac{x_1 + g}{y_1 + f}$</m>. Thus, equation of tangent is <m>$y -
+      y_1 = -\frac{x_1 + g}{y_1 + f}(x - x_1)$</m>
+    </d:para>
+    <d:para>
+      Proceeding like earlier the equation of tangent is found to be <m>$xx_1 + yy_1 + g(x + x_1) + f(y +
+      y_1) + c = 0$</m>.
+    </d:para>
+    <d:para>
+      You are encourage to try the third method using calculus for this as well.
+    </d:para>
+    <d:para>
+      Now we will find equation of the normal at <m>$P(x_1, y_1)$</m> for the circle <m>$x^2 + y^2 =
+      a^2$</m>. Normal is defined as perpendicular to tangent and it always passes through the center
+      of the circle.
+    </d:para>
+    <d:figure xml:id="normal-1">
+      <d:title>Normals of a circle</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_9.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      We have found the equation of tangent as <m>$xx_1 + yy_1 = a^2$</m>, and thus, its slope is
+      <m>$-\frac{x_1}{y_1}$</m>, this makes the slope of the normal as <m>$\frac{y_1}{x_1}$</m>.
+    </d:para>
+    <d:para>
+      Since the normal pass through <m>$C(0, 0)$</m>, therefore, its equationis given by <m>$y =
+      \frac{y_1}{x_1}x$</m> i.e. <m>\[xy_1 - x_1y = 0\tag{5.15}\]</m>
+    </d:para>
+    <d:para>
+      You are implored to prove this by other techniques as well.
+    </d:para>
+    <d:para>
+      Similarly for the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, the equation of the normal at
+      <m>$(x_1, y_1)$</m> is found to be <m>\[\frac{x - x_1}{x_1 + g} = \frac{y - y_1}{y_1 +
+      f}\tag{5.16}\]</m>
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Condition that a Line Touches a Circle</d:title>
+    <d:para>
+      We will find the condition for a line <m>$y = mx + c$</m> to touch the circle <m>$x^2 + y^2 =
+      a^2$</m>.
+    </d:para>
+    <d:para>
+      Since the line touches the circle, therefore, <m>$x^2 + (mx + c)^2 = a^2 \Rightarrow \left(1 +
+      m^2\right)x^2 + 2mcx + \left(c^2 - a^2\right) = 0$</m>.
+    </d:para>
+    <d:para>
+      Since the line touches at one point the above equation will have a repeated root and
+      the discriminant must be zero for that. Thus,
+    </d:para>
+    <d:para>
+      <m>$4m^2c^2 - 4\left(1 + m^2\right)\left(c^2 - a^2\right) = 0 \Rightarrow c = \pm a\sqrt{1 +
+      m^2}$</m>. Thus, the required condition is <m>\[c = \pm a\sqrt{1 + m^2}\tag{5.17}\]</m>
+    </d:para>
+    <d:para>
+      Thus, general equation of tangent is <m>$y = mx \pm a\sqrt{1 + m^2}$</m>.
+    </d:para>
+    <d:para>
+      The equation of the line is <m>$y = mx + c$</m> and equation of tangent is <m>$xx_1 + yy_1 =
+      a^2$</m>. Since both equations represnet tangents at <m>$(x_1, y_1)$</m>, therefore, comparing the
+      coefficients <m>$\frac{x_1}{-m} = \frac{y_1}{1} = \frac{a^2}{c} \Rightarrow x_1 = -\frac{a^2m}{c}, y_1
+      = \frac{a^2}{c}$</m>
+    </d:para>
+    <d:para>
+      Thus, point of contact is <m>$\left(-\frac{a^2m}{c}, \frac{a^2}{c}\right)$</m>.
+    </d:para>
+    <d:sect2>
+      <d:title>Two Tangents to a Circle</d:title>
+      <d:para>
+        We will prove that from a point outside the circle two tangents can always be drawn to the circle.
+      </d:para>
+      <d:para>
+        Let the circle be <m>$x^2 + y^2 = a^2$</m>. We know that the equation of tangent is <m>$y = mx +
+        a\sqrt{1 + m^2}$</m>
+      </d:para>
+      <d:para>
+        Let the external point be <m>$(x_1, y_1)$</m>. Since the tangent passes through it, therefore,
+        <m>$y_1  = mx_1 + a\sqrt{1 + m^2}\Rightarrow (y_1 - mx_1)^2 = a^2\left(1 + m^2\right)$</m>, which is
+        a quadratic equation in <m>$m$</m>. Thus, it will give two values of <m>$m$</m>, and hence, two
+        different tangents can be drawn from the same point.
+      </d:para>
+      <d:para>
+        If we check the nature of roots then discriminant is given by <m>$x_1^2 + y_1^2 - a^2$</m> i.e. if
+        the point is external then two real 𝑚s mean two different tangent.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Length of a Tangent</d:title>
+      <d:para>
+        We will find the length of a tangent from an external point to a circle.
+      </d:para>
+      <d:para>
+        Let the point be <m>$P(x_1, y_1)$</m> and the circle be <m>$x^2 + y^2 = a^2$</m>. From point
+        <m>$P$</m> draw a tangent to the circle, whihc touches the circle at <m>$T$</m>. <m>$CT$</m> will be
+        perpendicular to <m>$PT$</m>.
+      </d:para>
+      <d:figure xml:id="length-tangent">
+        <d:title>Length of a tangent to a circle</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/5_10.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Thus, in right-angle <m>$\triangle CPT$</m>, we have <m>$ PT^2 = CP^2 - CT^2 = x_1^2 + y_1^2 -
+        a^2$</m>. Thus, <m>\[PT = \sqrt{x_1^2 + y_1^2 - a^2}\tag{5.18}\]</m>
+      </d:para>
+      <d:para>
+        Similarly if the circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> and the center is <m>$(-g,
+        -f)$</m> then <m>$PT^2 = (x_1 + g)^2 + (y_1 + f)^2 - \left(g^2 + f^2 - c\right)$</m>
+      </d:para>
+      <m>\[PT = \sqrt{x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c}\tag{5.19}\]</m>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Pair of Tangents</d:title>
+      <d:para>
+        We will find the equation of pair of tangents drawn from an external point to a circle.
+      </d:para>
+      <d:figure xml:id="pair-tangent">
+        <d:title>Pair of a tangent to a circle</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/5_11.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let the point be <m>$P(x_1, y_1)$</m> from which we draw two tangents <m>$PA$</m> and <m>$PB$</m> to
+        the circle, touching the circle at <m>$A$</m> and <m>$B$</m> respectively.
+      </d:para>
+      <d:para>
+        Let <m>$R(\alpha, \beta)$</m> be any point on any one of the tangents, say <m>$PA$</m>. Then the
+        locus of <m>$R(\alpha, \beta)$</m> will be the required equation of the pair of tangents to the
+        circle from point <m>$(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$PR$</m> is <m>$y - y_1 = \frac{\beta - y_1}{\alpha - x_1}(x - x_1)\Rightarrow
+        y(\alpha - x_1) - x(\beta - y_1) - \alpha y_1 + \beta x_1 = 0$</m>
+      </d:para>
+      <d:para>
+        Now <m>$AC = a\Rightarrow \frac{|\beta x_1 - \alpha y_1|}{\sqrt{(\alpha - x_1)^2 + (\beta - y_1)^2}}
+        = a\Rightarrow \frac{(\beta x_1 - \alpha y_1)^2}{(\alpha - x_1)^2 + (\beta - y_1)^2} = a^2$</m>
+      </d:para>
+      <d:para>
+        So locus of <m>$R(\alpha, \beta)$</m> is <m>$(yx_1 - xy_1)^2 = a^2\left[(x - x_1)^2 + (y - y_1)^2\right]$</m>
+      </d:para>
+      <m>\[\left(x_1^2 + y_1^2 - a^2\right)\left(x^2 + y^2 - a^2\right) = \left(xx_1 + yy_1 -
+      a^2\right)^2\tag{5.20}\]</m>
+      <d:para>
+        This is the required equation of pair of tangents drawn from <m>$(x_1, y_1)$</m>. If circle is
+        denoted by <m>$S$</m> then the pair of tangents is given by <m>$SS_1 = T^2$</m>.
+      </d:para>
+      <d:para>
+        For the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> the pair of tangents is given by
+        <m>\[\begin{split}\left(x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c\right)\left(x^2 + y^2 + 2gx + 2fy + c\right) =\\
+        \left[xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c\right]^2\end{split}\tag{5.21}\]</m>
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Chord of Contact of Tangents</d:title>
+    <d:figure xml:id="chord-tangent">
+      <d:title>Chord of contact of tangents to a circle</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_12.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <m>$P$</m> be a point outside a circle. From <m>$P$</m> two tangents <m>$PA$</m> and <m>$PB$</m>
+      can be drawn to touch the circle at <m>$A$</m> and <m>$B$</m>, respectively just like last
+      section. The chord <m>$AB$</m> is called the <d:emphasis role="italic">chord of contact</d:emphasis>
+      for point <m>$P$</m>.
+    </d:para>
+    <d:para>
+      We will now find the equation of this chord of contact.
+    </d:para>
+    <d:para>
+      Let <m>$A = (x_2, y_2)$</m> and <m>$B = (x_3, y_3)$</m> as shown in the figure.
+    </d:para>
+    <d:para>
+      Since these points lie on the tangents, therefore, <m>$xx_2 + yy_2 = a^2$</m> and <m>$xx_3 + yy_3 =
+      a^2$</m>.
+    </d:para>
+    <d:para>
+      Since both pass through <m>$(x_1, y_1)$</m>, therefore, <m>$x_1x_2 + y_1y_2 = a^2$</m> and <m>$x_1x_3
+      + y_1y_3 = a^2$</m>.
+    </d:para>
+    <d:para>
+      Thus, we can say that <m>$xx_1 + yy_1 = a^2$</m> passes through <m>$A$</m> and <m>$B$</m>. Hence, the
+      equation of line <m>$AB$</m> is this equation.
+    </d:para>
+    <d:para>
+      Similarly, for the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> the equation of chord of contact is
+      given by <m>$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0$</m>.
+    </d:para>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Poles and Polars</d:title>
+    <d:para>
+      If from a point <m>$P$</m> any straight line is drawn to meet the circle in <m>$Q$</m> and <m>$R$</m>
+      and tangents at <m>$Q$</m> and <m>$R$</m> meet at <m>$T$</m> then locus of <m>$T$</m> is called the
+      <d:emphasis role="italic">polar</d:emphasis> of <m>$P$</m> w.r.t to the circle and <m>$P$</m> is
+      called the <d:emphasis role="italic">pole</d:emphasis> of its polar i.e. <m>$T$</m>.
+    </d:para>
+    <d:figure xml:id="pole-polar">
+      <d:title>Pole and polar of a circle</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/5_13.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      The point <m>$P$</m> can be inside or outside the circle. The diagram shows one such <m>$P$</m> inside
+      the circle through which the line <m>$QR$</m> passes and tangents meets at <m>$T(\alpha, \beta)$</m>.
+    </d:para>
+    <d:para>
+      Clearly, <m>$QR$</m> is the chord of contact of <m>$T$</m> whose equation is <m>$x\alpha + y\beta =
+      a^2$</m>, but it passes through <m>$P(x_1, y_1)$</m>, therefore, <m>$x_1\alpha + y_1\beta = a^2$</m>
+    </d:para>
+    <d:para>
+      Putting <m>$(x, y)$</m> instead of <m>$(\alpha, \beta)$</m> we get the locus of <m>$T$</m> as
+      <m>\[xx_1 + yy_1 = a^2\tag{5.22}\]</m>
+    </d:para>
+    <d:para>
+      This is the required equation of the polar of point <m>$P(x_1, y_1)$</m> and as can be seen from
+      the equation it is a straight line.
+    </d:para>
+    <d:para>
+      Similarly, for circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> the equation of the polar is given by
+      <m>\[xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0\tag{5.23}\]</m>
+    </d:para>
+    <d:sect2>
+      <d:title>Coordinates of a Pole</d:title>
+      <d:para>
+        Now we will find coordinates of pole of a line.
+      </d:para>
+      <d:para>
+        Consider a line <m>$lx + my + n = 0$</m> whose pole is to be found w.r.t. the circle <m>$x^2 + y^2 =
+        a^2$</m>.
+      </d:para>
+      <d:para>
+        Let the pole be <m>$(x_1, y_1)$</m>. Now the equation of polar of point <m>$(x_1, y_1)$</m>
+        w.r.t. to the circle is given by <m>$xx_1 + yy_1 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Comapring coefficients with the given line <m>$\frac{l}{x_1} = \frac{m}{y_1} =
+        -\frac{n}{a^2}\Rightarrow x_1 = -\frac{a^2l}{n}, y_1 = -\frac{a^2m}{n}$</m>
+      </d:para>
+      <d:para>
+        Hence, coordinate of the pole is given by <m>$\left(-\frac{a^2l}{n}, -\frac{a^2m}{n}\right)$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Properties of Poles and Polars</d:title>
+      <d:itemizedlist>
+        <d:listitem>
+          If the polar of a point <m>$P$</m> w.r.t. to a circle passes through <m>$Q$</m> then the polar of
+          <m>$Q$</m> w.r.t. the circle will pass through <m>$P$</m>.
+          <d:para>
+            Let the equation of the circle is <m>$x^2 + y^2 = a^2$</m>. Also, let <m>$P = (x_1, y_1)$</m>
+            and <m>$Q = (x_2, y_2)$</m>.
+          </d:para>
+          <d:para>
+            Now equations of the polars of these two points will be <m>$xx_1 + yy_1 = a^2$</m> and <m>$xx_2
+            + yy_2 = a^2$</m>.
+          </d:para>
+          <d:para>
+            If the polar of <m>$P$</m> passes through <m>$Q$</m> then <m>$x_1x_2 + y_1y_2 = a^2$</m>.
+          </d:para>
+          <d:para>
+            Thus, we have proven our assumption. The points <m>$P$</m> and <m>$Q$</m> are called <d:emphasis
+            role="italic">conjugate points</d:emphasis>.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          <d:para>
+            f the pole of a line w.r.t. a circle lies on another line, then the pole of the other line
+            w.r.t. the same circle will lie on the first line.
+          </d:para>
+          <d:para>
+            Let the circle be <m>$x^2 + y^2 = a^2$</m> and the lines be <m>$lx + my + n = 0$</m> and <m>$l'x
+            + m'y + n' = 0$</m>.
+          </d:para>
+          <d:para>
+            Let the pole of first line w.r.t to circle be <m>$(x_1, y_1)$</m>. Then the polar will be
+            <m>$xx_1 + yy_1 = a^2$</m>. Comapring coefficients we arrive at <m>$(x_1, y_1) =
+            \left(-\frac{a^2l}{n}, -\frac{a^2m}{n}\right)$</m>.
+          </d:para>
+          <d:para>
+            This point will lie on the second line, therefore, <m>$-\frac{a^2ll'}{n} - \frac{a^2mm'}{n} + n'
+            = 0\Rightarrow a^2ll' + a^2mm' - nn' = 0$</m>.
+          </d:para>
+          <d:para>
+            Similarly we let pole of the second line w.r.t. to the circle be <m>$(x_2, y_2)$</m>. Then the
+            polar will be <m>$xx_2 + yy_2 = a^2$</m>. Comapring coefficients we arrive at <m>$(x_2, y_2) =
+            \left(-\frac{a^2l'}{n'}, -\frac{a^2m'}{n'}\right)$</m>
+          </d:para>
+          <d:para>
+            This point will lie on the first line, therefore, <m>$a^2ll' + a^2mm' - nn' = 0$</m>.
+          </d:para>
+          <d:para>
+            Thus, the points lies on corresponding lines. Such lines are called <d:emphasis
+            role="italic">conjugate lines</d:emphasis>.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          <d:para>
+            If the polars of two point <m>$P$</m> and <m>$Q$</m> w.r.t. a circle meet at <m>$R$</m>, then
+            <m>$R$</m> is the pole of the line <m>$PQ$</m>.
+          </d:para>
+          <d:para>
+            Let <m>$P(x_1, y_1)$</m> and <m>$Q(x_2, y_2)$</m> be two points. Then the polar <m>$AB$</m> and
+            <m>$CD$</m> of <m>$P$</m> and <m>$Q$</m> w.r.t. to the circle <m>$x^2 + y^2 = a^2$</m> will be
+            <m>$xx_1 + yy_1 = a^2$</m> and <m>$xx_2 + yy_2 = a^2$</m>.
+          </d:para>
+          <d:para>
+            According to question they meet at <m>$R$</m>. Solving the two equations, we have
+            <m>$\frac{x}{y_1 - y_2} = \frac{y}{x_2 - x_1} = -\frac{a^2}{x_1y_2 - x_2y_1}$</m>, which gives
+            <m>$R$</m>.
+          </d:para>
+          <d:para>
+            We have to prove that polar of <m>$R$</m> w.r.t. the circle is line <m>$PQ$</m>. The polar of
+            <m>$R$</m> w.r.t. the circle is <m>$x\left(-\frac{a^2(y_1 - y_2)}{x_1y_2 - x_2y_1}\right) +
+            y\left(-\frac{a^2(x_1 - x_2)}{x_1y_2 - x_2y_1}\right) = a^2$</m>
+          </d:para>
+          <d:para>
+            <m>$\Rightarrow \frac{y - y_1}{y_1 - y_2} = \frac{x - x_1}{x_1 - x_2}$</m>, which is the line
+            <m>$PQ$</m>.
+          </d:para>
+        </d:listitem>
+      </d:itemizedlist>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Equation of a Chord</d:title>
+    <d:para>
+      We will find equation of a chord whose midpoint is given.
+    </d:para>
+    <d:para>
+      Let the equation of the circle be <m>$x^2 + y^2 = a^2$</m> with center <m>$C(0, 0)$</m>.
+    </d:para>
   </d:sect1>
 </d:chapter>

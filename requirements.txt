@@ -1,5 +1,4 @@
 beautifulsoup4==4.15.0
-latex2mathml==3.81.0
 lxml==6.1.1
 Pygments==2.20.0
 soupsieve==2.8.4
