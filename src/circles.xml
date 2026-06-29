@@ -1616,6 +1616,645 @@
           Find the angle that the chord of circle <m>$x^2 + y^2 - 4y = 0$</m> along the line <m>$x + y =
           1$</m> subtends at the circumference the larger segment.
         </d:listitem>
+        <d:listitem>
+          <!-- 136 -->
+          Prove, analytically, that the angle in a semi-circle is a right angle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 137 -->
+          A circle of diameter <m>$13$</m>m with the center <m>$O$</m> coinciding with the origin of
+          coordinate axes, has the diameter <m>$AB$</m> on the 𝑥-axis. If the length of the chord
+          <m>$AC$</m> be <m>$5$</m>m, find the equation of pair of lines <m>$BC$</m>, <m>$C$</m> having two
+          possible positions.
+        </d:listitem>
+        <d:listitem>
+          <!-- 138 -->
+          Show that the least chord of the circle <m>$x^22 + y^2 + 2gx + 2fy + c = 0$</m> which passes
+          through the internal point <m>$(\alpha, \beta)$</m> is equal to <d:sbr />
+          <m>$2\sqrt{-\left(\alpha^2 + \beta^2 + 2g\alpha + 2f\beta + c\right)}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 139 -->
+          If the line <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m> cut the coordinate
+          axes in concyclic points prove that <m>$a_1a_2 = b_1b_2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 140 -->
+          The chord along the line <m>$y - x = 3$</m> of the circle <m>$x^2 + y^2 = k^2$</m>, subtends an
+          angle of <m>$30^\circ$</m> in the major segment of the circle cut off by the chord. Find
+          <m>$k$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 141 -->
+          Prove that the tangent to the circle <m>$x^2 + y^2 = 5$</m> at the point <m>$(1, -2)$</m> also
+          touches the circle <m>$x^2 + y^2 - 8x + 6y + 20 = 0$</m> and find its point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 142 -->
+          rove that the equation <m>$x^2 + y^2 - 2x - 2\lambda y - 8 = 0$</m>, where <m>$\lambda$</m> is a
+          parameter, represents a family of circles passing through two fixed points <m>$A$</m> and
+          <m>$B$</m> on the <m>$x$</m>-axis. Also, find the equation of that circle of the family the
+          tangents to which at <m>$A$</m> and <m>$B$</m> meet on the line <m>$x + 2y + 5 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 143 -->
+          <m>$AB$</m> is a diameter of a circle. <m>$CD$</m> is a chord parallel to <m>$AB$</m> and <m>$2CD
+          = AB$</m>. The tangent at <m>$B$</m> meets the line <m>$AC$</m> produced at <m>$E$</m>. Prove that
+          <m>$AE = 2AB$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 144 -->
+          Two parallel tangents to a given circle are cut by a third tangent at point <m>$A$</m> and
+          <m>$B$</m>. If <m>$C$</m> be the center of the given circle, prove that <m>$\angle ACB$</m> is a
+          right angle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 145 -->
+           A circle of radius <m>$5$</m> meters is having its center at <m>$A$</m> at the origin. Two
+           circles II and III with centers <m>$B$</m> and <m>$C$</m> of radii <m>$3$</m> and <m>$4$</m>
+           meters respectively touch the circle I and also touch the <m>$x$</m>-axis to the right of
+           <m>$A$</m>. Find the equation to any two common tangents to the circles II and III.
+        </d:listitem>
+        <d:listitem>
+          <!-- 146 -->
+          Find the equation of the normal to the circle <m>$x^2 + y^2 - 2x - 4y + 3 = 0$</m> at the point
+          <m>$(2, 3)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 147 -->
+          The extremeties of a diagonal of a rectangle are <m>$(-4, 4)$</m> and <m>$(6, -1)$</m>. A circle
+          circumscribes the rectangle and cuts an intercept <m>$AB$</m> on the <m>$y$</m>-axis. Find the
+          area of the triangle formed by <m>$AB$</m> and the tangents to the circle at <m>$A$</m> and
+          <m>$B$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 148 -->
+           Find the equation of the tangent to the circle <m>$x^2 + y^2 - 4x - 6y = 12$</m> at the point
+           <m>$(-1, -1)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 149 -->
+          Prove that the tangents to the circle <m>$x^2 + y^2 - 7x - 5y + 18 = 0$</m> at the point <m>$(4,
+          3)$</m> and <m>$(3, 2)$</m> are parallel to each other.
+        </d:listitem>
+        <d:listitem>
+          <!-- 150 -->
+           Find the equations of the tangents to the circle <m>$x^2 + y^2 = 169$</m> at <m>$(5, 12)$</m> and
+           <m>$(12, -5)$</m> and prove that they cut at right angles. Find their point of intersection also.
+        </d:listitem>
+        <d:listitem>
+          <!-- 151 -->
+          The tangent at the point <m>$(\alpha, \beta)$</m> to the circle <m>$x^2 + y^2 = r^2$</m> cut the
+          axes of coordinates in <m>$A$</m> and <m>$B$</m>. Prove that the area of the <m>$\triangle
+          OAM$</m> is <m>$\frac{1}{2}.\frac{r^4}{|\alpha\beta|}$</m>, <m>$O$</m> being the origin.
+        </d:listitem>
+        <d:listitem>
+          <!-- 152 -->
+          Let 𝐴 be the center of the circle <m>$x^2 + y^2 - 2x - 4y - 20 = 0$</m>. Suppose that the tangents
+          at the point <m>$B(1, 7)$</m> and <m>$D(4, -2)$</m> on the circle meet at the point
+          <m>$C$</m>. Find the area of the quadrilateral <m>$ABCD$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 153 -->
+          Prove that the line <m>$x + y = 5$</m> touches the circle <m>$x^2 + y^2 - 2x - 4y + 3 =
+          0$</m>. Find the point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 154 -->
+          Prove that the tangent to the circle <m>$x^2 + y^2 = 5$</m> at the point <m>$(1, -2)$</m> also
+          touches the circle <m>$x^22 + y^2 - 8x + 6y + 20 = 0$</m>, and find its point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 155 -->
+          Show that the circles <m>$x^22 + y^2 - 10x + 4y - 20 = 0$</m> and <m>$x^2 + y^2 + 14x - 6y + 22 =
+          0$</m> touch each other. Find the coordinates of the point of contact and the equation of the
+          common tangent at the point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 156 -->
+          Prove that the line <m>$y = x + 2$</m> touches the circle <m>$x^2 + y^2 = 2$</m>. Find the point
+          of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 157 -->
+          Find the condition that the straight line <m>$lx + my + n = 0$</m> should touch the circle
+          <m>$x^22 + y^2 + 2gx + 2fy + c = 0$</m> and also find the coordinates of the point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 158 -->
+          If the line <m>$3x + 4y = k$</m> touches the circle <m>$x^2 + y^2 = 10x$</m>, find the value of
+          <m>$k$</m> and also the point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 159 -->
+          Find the equation of the normal to the circle <m>$x^2 + y^2 = 5$</m> at the point <m>$(1, 2)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 160 -->
+          Find the equation of the normal to the circle <m>$x^2 + y^2 = 2x$</m>, which is parallel to the
+          line <m>$x + 2y = 3$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 161 -->
+          The point <m>$(1, 4)$</m> is inside the circle <m>$S$</m> whose equation is of the form <m>$x^2 +
+          y^2 - 6x - 10y + k = 0$</m>. What are the possible values of <m>$k$</m> if the circle <m>$S$</m>
+          neither touches the axes not cuts the them?
+        </d:listitem>
+        <d:listitem>
+          <!-- 162 -->
+          Find the length of the tangent drawn from the point <m>$(5, 1)$</m> to the circle <m>$x^2 + y^2 +
+          6x - 4y - 3 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 163 -->
+          Distances from the origin to the centers of the three circles <m>$x^22 + y^22 - 2\lambda x =
+          c^2$</m>, where <m>$c$</m> is a constant and <m>$\lambda$</m> a vairable are in G.P. Prove that
+          the lengths of tangents drawn from any point on the circle <m>$x^2 + y^2 = c^2$</m> to the three
+          circles are also in G.P.
+        </d:listitem>
+        <d:listitem>
+          <!-- 164 -->
+          From a point <m>$P$</m> tangents drawn to the circles <m>$x^2 + y^2 + x - 3 = 0, 3x^2 + 3y^2 - 5x
+          + 3y = 0$</m> and <m>$4x^2 + 4y^2 + 8x + 7y + 9 = 0$</m> are of equal lengths. Find the  equation
+          of the circle thorugh <m>$P$</m> which touches the line <m>$x + y = 5$</m> at the point <m>$(6,
+          -1)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 165 -->
+          If the length of the tangent from <m>$(f, g)$</m> to the circle <m>$x^2 + y^2 = 6$</m> be twice
+          the length of the tangent from <m>$(f, g)$</m> to the circle <m>$x^2 + y^2 + 3x + 3y = 0$</m> then
+          will <m>$f^2 + g^2 + 4f + 4g + 2 = 0$</m>?
+        </d:listitem>
+        <d:listitem>
+          <!-- 166 -->
+          If the length of the tangent from a point <m>$(f, g)$</m> to the circle <m>$x^2 + y^2 = 4$</m> be
+          four times the length of the tangent from it to the circle <m>$x^2 + y^2 = 4x$</m>, show that
+          <m>$15f^2 + 15g^2 - 64f + 4 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 167 -->
+          Show that the length of the tangent from any point on the circle <m>$x^2 + y^2 + 2gx + 2fy + c =
+          0$</m> to the circle <m>$x^2 + y^2 + 2gx + 2fy + c_1 = 0$</m> is <m>$\sqrt{c_1 - 1}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 168 -->
+          Find the point from which the tangents to the three circles <m>$x^2 + y^2 = 1, x^2 + y^2 - 8x + 15
+          = 0$</m> and <m>$x^22 + y^2 + 10y + 24 = 0$</m> are equal in length.
+        </d:listitem>
+        <d:listitem>
+          <!-- 169 -->
+          Find the point from which the tangents to the three circles <m>$x^2 + y^2 - 4x + 7 = 0, 2x^2 +
+          2y^2 - 3x + 5y + 9 = 0$</m> and <m>$x^2 + y^2 + y = 0$</m> are equal in length. Find the length as
+          well.
+        </d:listitem>
+        <d:listitem>
+          <!-- 170 -->
+          If <m>$A_i$</m> is the center of the circle <m>$x^2 + y^2 + 2g_ix + 5 = 0$</m> and 𝑡𝑖 is the
+          length of the tangents from any point to this circle <m>$i = 1, 2, 3$</m>; then show that <m>$(g_2
+          - g_3)t_1^2 + (g_3 - g_1)t_2^2 + (g_1 - g_2)𝑡_3^2 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 171 -->
+          Show that if the length of the tangent from a point <m>$P$</m> to the circle <m>$x^22 + y^2 =
+          a^2$</m> be four times the length of the tangent from it to the circle <m>$(x - a)2 + y^2 =
+          a^2$</m>, then <m>$P$</m> lies on the circle <m>$15x^2 + 15y^2 - 32ax + a^2 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 172 -->
+          Find the equation of the pair of tangents drawn to the circle <m>$x^2 + y^2 - 2x + 4y = 0$</m>
+          from point <m>$(0, 1)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 173 -->
+          If from any point on the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, tangents are drawn
+          to the circle <m>$x^2 + y^2 + 2gx + 2fy + c\sin^2\alpha + \left(f^2 + g^2\right)cos^2\alpha =
+          0$</m>, show that the angle between the tangents is equal to <m>$2\alpha$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 174 -->
+          Find the equations of tangents to the circle <m>$x^2 + y^2 = 25$</m> which pass through <m>$(1,
+          -7)$</m> and show that they are at right angles.
+        </d:listitem>
+        <d:listitem>
+          <!-- 175 -->
+          Show that two tangents can be drawn from the point <m>$(9, 0)$</m> to the circle <m>$x^2 + y^2 =
+          16$</m>; also find the equation of the pair of tangents and the angle between them.
+        </d:listitem>
+        <d:listitem>
+          <!-- 176 -->
+          Find the equations of the tangents through <m>$(7, 1)$</m> to the circle <m>$x^2 + y^2 = 25$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 177 -->
+          Find the equation of the pair of tangents from the origin to the circle <m>$x^2 + y^2 + 2gx + 2fy
+          + k^2 = 0$</m>, and show that their intercept on the line <m>$y = h$</m> is <m>$\frac{2hk}{k^2 -
+          g^2}$</m> times the radius of the circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 178 -->
+          Find the equation of the chord of the circle <m>$x^2 + y^2 + 6x + 8y - 11 = 0$</m>, whose
+          middle point is <m>$(1, -1)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 179 -->
+          Find the equation of the chord of the circle <m>$x^2 + y^2 + 6x + 8y + 9 = 0$</m> whose mid-point
+          is <m>$(-2, -3)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 180 -->
+          Find the coordinates of the mid-point of the chord which the circle <m>$x^2 + y^2 + 4x - 2y - 3 =
+          0$</m> cuts off on the line <m>$y = x + 2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 181 -->
+          Find the equation of the chord fo contact of the tangents drawn from <m>$(1, 2)$</m> to the circle
+          <m>$x^2 + y^2 - 2x + 4y + 7 = 0$</m> .
+        </d:listitem>
+        <d:listitem>
+          <!-- 182 -->
+          Tangents are drawn from the point <m>$(h, k)$</m> to the circle <m>$x^2 + y^2 = a^2$</m>. Prove
+          that the area of the triangle formed by them and their chord of contact is <m>$\frac{a\left(h^2 +
+          k^2 - a^2\right)^{\frac{3}{2}}}{h^2 + k^2}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 183 -->
+          The chord of contact of tangents from a point on the circle <m>$x^2 + y^2 = a^2$</m> to the circle
+          <m>$x^2 + y^2 = b^2$</m> touches the circle <m>$x^2 + y^2 = c^2$</m>. Show that <m>$a, b, c$</m>
+          are in G.P.
+        </d:listitem>
+        <d:listitem>
+          <!-- 184 -->
+          Tangents are drawn to the circle <m>$x^2 + y^2 = 12$</m> at the points where it is met by the
+          circle <m>$x^2 + y^2 - 5x + 3y - 2 = 0$</m>; find the points of intersection of these tangents.
+        </d:listitem>
+        <d:listitem>
+          <!-- 185 -->
+          Find the equation of the chord of contact of the tangents drawn from an external point <m>$(-3,
+          2)$</m> to the circle <m>$x^2 + y^2 + 2x - 3 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 186 -->
+          Find the equation of the chord of contact of the tangents drawn from <m>$(5, 3)$</m> to the circle
+          <m>$x^2 + y^2 = 25$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 187 -->
+          Find the coordinates of the point of intersection of tangents at the points where the line <m>$2x
+          + y + 12 = 0$</m> meets the circle <m>$x^2 + y^2 - 4x + 3y - 1 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 188 -->
+          The lnegth of tangents from the two given points to a given points to a given circle are
+          <m>$t_1$</m> and <m>$t_2$</m>. If the tow given points are conjugate to each other w.r.t. the
+          given circle, prove that the distance between the points will be <m>$\sqrt{t_1^2 + t_2^2}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 189 -->
+          Find the area of the triangle formed by the tangents drawn from the point <m>$(4, 6)$</m> to the
+          circle <m>$x^2 + y^2 = 25$</m> and their chord of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 190 -->
+          If <m>$OP$</m> and <m>$OQ$</m> are the tangents from the origin to the circle <m>$x^2 + y^2 + 2gx
+          + 2fy + c = 0$</m>, where <m>$P$</m> and <m>$Q$</m> are the points of contact, show that the
+          equation of the circumcircle of the <m>$\triangle OPQ$</m> is <m>$x^2 + y^2 + gx + fy = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 191 -->
+          Find the point of contact of the tangents to the circle <m>$x^2 + y^2 = 25$</m> that pass through
+          the point <m>$(7, 1)$</m> and give the equation of tangents.
+        </d:listitem>
+        <d:listitem>
+          <!-- 192 -->
+          Find the equation of the polar of the point <m>$(2, -1)$</m> w.r.t. the circle <m>$x^2 + y^2 - 3x
+          + 4y - 8 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 193 -->
+          Find the pole of the line <m>$3x + 5y + 17 = 0$</m> w.r.t. the circle <m>$x^2 + y^2 + 4x + 6y + 9
+          = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 194 -->
+          Show that the polars of the point <m>$(1, -2)$</m> w.r.t. the circle <m>$x^2 + y^2 + 6y + 5 =
+          0$</m> and <m>$x^2 + y^2 + 2x + 8y + 5 = 0$</m> coincide. Prove that there is another point, the
+          polars of which w.r.t. these circles are the same and find its coordinates.
+        </d:listitem>
+        <d:listitem>
+          <!-- 195 -->
+          Let <m>$C$</m> be the center of a circle. The lines <m>$L_1$</m> and <m>$L_2$</m> are the polars
+          of the points <m>$A$</m> and <m>$B$</m> respectively. w.r.t. the circle. Perpendiculars
+          <m>$AM$</m> and <m>$BN$</m> are dropped from <m>$A$</m> to the line <m>$L_2$</m> and from
+          <m>$B$</m> to <m>$L1$</m>. Prove that <m>$CA:CB = AM:BN$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 196 -->
+          Find the polar of the point of intersection of the line <m>$4x - y = 11$</m> and <m>$x - 2y =
+          1$</m> w.r.t. the circle <m>$x^2 + y^2 = 7$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 197 -->
+          Find the polar of the point <m>$(4, -1)$</m> w.r.t. the circle <m>$2x^2 + 2y^2 = 11$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 198 -->
+          Find the polar of the point <m>$(1, -5)$</m> w.r.t. the circle <m>$x^2 + y^2 - 8x + 6y + 4 =
+          0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 199 -->
+           Prove that the polar of the point <m>$(p, q)$</m> w.r.t. the circle <m>$x^2 + y^2 = a^2$</m>
+           touches <m>$(x - c)^2 + (y - d)^2 = b^2$</m> if <m>$b^2\left(p^2 + q^2\right) = \left(a^2 - cp -
+           dq\right)^2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 200 -->
+          Show that the polar of the origin w.r.t. the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>
+          touches the circle <m>$x^2 + y^2 = a^2$</m> if <m>$𝑐2 = a^2\left(f^2 + g^2\right)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 201 -->
+          Prove that if the pole of a straight line w.r.t. the circle <m>$x^2 + y^2 = c^2$</m> lies on the
+          circle <m>$x^2 + y^2 = 9c^2$</m>, the line is a tangent to the circle <m>$9x^2 + 9y^2 = c^2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 202 -->
+           Find the pole of the straight line <m>$9x + y - 28 = 0$</m> w.r.t. the circle <m>$2x^2 + 2y^2 -
+           3x + 5y - 7 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 203 -->
+          Find the pole of the straight line <m>$2x - y + 10 = 0$</m> w.r.t. the circle <m>$x^2 + y^2 - 7x +
+          5y - 1 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 204 -->
+          Find the pole of the line <m>$ax + by + c = 0$</m> w.r.t. the circle <m>$x^2 + y^2 + 2gx + 2fy + c
+          = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 205 -->
+          Prove that the polar of any point w.r.t. a circle is perpendicular to the line joining the point
+          and center of the circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 206 -->
+          Prove that the polar of a given point w.r.t. any of the circles <m>$x^2 + y^2 + 2px + c = 0$</m>,
+          where <m>$p$</m> is a variable, always passes through a fixed point.
+        </d:listitem>
+        <d:listitem>
+          <!-- 207 -->
+          If the polar of the point <m>$(\alpha, \beta)$</m> w.r.t. the circle <m>$x^2 + y^2 = a^2$</m>
+          touches the circle <m>$(x - a)^2 + y^2 = a^2$</m>, show that <m>$(\alpha, \beta)$</m> is on the
+          curve given by <m>$y^2 + 2ax = a^2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 208 -->
+          Verify that the three points <m>$(x_1, y_1), (x_2, y_2)$</m> and <m>$(x_3, y_3)$</m> will be
+          collinear if and only if their polars w.r.t. the circle <m>$x^2 + y^2 = a^2$</m> are concurrent.
+        </d:listitem>
+        <d:listitem>
+          <!-- 209 -->
+          Show that the circles <m>$x^2 + y^2 - 2x - 6y - 12 = 0$</m> and <m>$x^2 + y^2 + 6x + 4y - 6 =
+          0$</m> cut each other orthogonally.
+        </d:listitem>
+        <d:listitem>
+          <!-- 210 -->
+          If <m>$S = 0$</m> and <m>$S_1 = 0$</m> are the two circles with radii <m>$a$</m> and <m>$a_1$</m>
+          respectively. Show that the circles <m>$\frac{S}{a}\pm \frac{S_1}{a_1} = 0$</m> intersect at right
+          angles.
+        </d:listitem>
+        <d:listitem>
+          <!-- 211 -->
+          Prove that the two circles pass through the points <m>$(0, 0)$</m> and <m>$(0, -a)$</m> and touch
+          the line <m>$y = mx + c$</m> will cut orthogonally if <m>$c^2 = a^2\left(2 + m^2\right)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 212 -->
+          Obtain the equation of the circle orthogonal to both the circles <m>$x^2 + y^2 + 3c - 5y + 6 =
+          0$</m> and <m>$4x^2 + 4y^2 - 28x + 29 = 0$</m>, and whose center lies on the line <m>$3x + 4y + 1
+          = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 213 -->
+          Prove that a circle cutting the circle <m>$x^2 + y^2 = 4$</m> orthogonally and having its center
+          on the line <m>$2x - 2y + 9 = 0$</m>, passes through two fixed points, and find the points.
+        </d:listitem>
+        <d:listitem>
+          <!-- 214 -->
+          Prove that the general equation of circles cutting the circles <m>$x^2 + y^2 + 2g_rx + 2f_ry + c_r
+          = 0; r = 1, 2$</m> orthogonally is <m>$\begin{vmatrix}x^2 + y^2 &amp; -x &amp; -y\\c_1 &amp; g_1
+          &amp; f_1\\c_1 &amp; g_1 &amp; f_1\end{vmatrix} + k\begin{vmatrix} -x &amp; -y &amp; 1\\g_1 &amp;
+          f_1 &amp; 1\\g_2 &amp; f_2&amp; 1\end{vmatrix} = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 215 -->
+          For what value of <m>$k$</m> the circles <m>$x^2 + y^2 + 5x + 3y + 7 = 0$</m> and <m>$x^2 + y^2 -
+          8x + 6y + k = 0$</m> cut orthogonally.
+        </d:listitem>
+        <d:listitem>
+          <!-- 216 -->
+          Find the equation of the circle passing through the origin and cutting the circles
+          <m>$x^2 + y^2 - 4x + 6y + 10 = 0$</m> and <m>$x^2 + y^2 + 12y + 6 = 0$</m> at right angles.
+        </d:listitem>
+        <d:listitem>
+          <!-- 217 -->
+          Find the equation of the circle passing through the origin and has its center on the line <m>$x +
+          y + 4 = 0$</m> and cuts the circle <m>$x^2 + y^2 - 4x + 2y + 4 = 0$</m> orthogonally.
+        </d:listitem>
+        <d:listitem>
+          <!-- 218 -->
+          If two circles cut a third circle orthogonally then prove that their common chord
+          will pass through the center of the third circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 219 -->
+          If a circle cuts orthogonally three circles <m>$S_1 = 0, S_2 = 0, S_3 = 0$</m>; prove that it cuts
+          orthogonally any circle of the form <m>$kS_1 + lS_2 + mS_3 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 220 -->
+          Prove that the two circles each of which passes through the points <m>$(0, k)$</m> and
+          <m>$(0, -k)$</m> and touches the line <m>$y = mx + b$</m> will cut orthogonally if <m>$b^2 =
+          k^2\left(2 + m^2\right)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 221 -->
+          Find the general equation of a circle cutting <m>$x^2 + y^2 = c^2$</m> orthogonally and show that
+          if it passes through the point <m>$(a, b)$</m> will also pass through the point
+          <m>$\left(\frac{c^2a}{a^2 + b^2}, \frac{c^2b}{a^2 + b^2}\right)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 222 -->
+          If <m>$P$</m> and <m>$Q$</m> be a pair of conjugate points w.r.t. a circle <m>$S$</m>, prove that
+          the circle on <m>$PQ$</m> as a diameter cuts the circle <m>$S$</m> orthogonally.
+        </d:listitem>
+        <d:listitem>
+          <!-- 223 -->
+          Prove that the circle <m>$x^2 + y^2 - 6x - 4y + 9 = 0$</m> bisects the circumference of the circle
+          <m>$x^2 + y^2 - 8x - 6y + 23 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 224 -->
+           Find the equation of a circle which is coaxal with the circles <m>$2x^2 + 2y^2 - 2x + 6y - 3 =
+           0$</m> and <m>$x^2 + y^2 + 4x + 2y + 1 = 0$</m>. It is given that the center of the circle to be
+           determined lies on the radical axis of these circles.
+        </d:listitem>
+        <d:listitem>
+          <!-- 225 -->
+          If the radical axis of the circles <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> and <m>$2x^2 + 2y^2 + 3x
+          + 8y + 2c = 0$</m> touches the circle <m>$x^2 + y^2 + 2x - 2y + 1 = 0$</m>, show that either
+          <m>$g = \frac{3}{4}$</m> or <m>$f = 2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 226 -->
+          Find the general equation of circles, any two of which have the same radical axis as that of the
+          circles <m>$x^2 + y^2 + 2x + 4y - 6 = 0$</m> and <m>$x^2 + y^2 = 4$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 227 -->
+          The equations of three circles are <m>$x^2 + y^2 = 1, x^2 + y^2 - 8x + 15 = 0, x^2 + y^2 + 10y +
+          24 = 0$</m>. Determine the coordinates of the point such that the tangents drawn from it to the
+          three circles are equal in length.
+        </d:listitem>
+        <d:listitem>
+          <!-- 228 -->
+          The polars of a point <m>$P$</m> w.r.t. two given circles meet in a point <m>$Q$</m>; show that
+          the radical axis of the circles bisedct the line <m>$PQ$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 229 -->
+          Show that the locus of a point such that the ratio of its distances from two given points is a
+          constant, is a circle. Hence, show that this circle cannot pass through the given points.
+        </d:listitem>
+        <d:listitem>
+          <!-- 230 -->
+          Two rods of lengths <m>$a$</m> and <m>$b$</m> slide along the axes in a manner that their ends are
+          always concyclic. Find the locus of the center of the circle passing through these ends.
+        </d:listitem>
+        <d:listitem>
+          <!-- 231 -->
+          Two straight lines rotate about two fixed points. If they start from their positions of
+          coincidence such that one rotates at the rate double that of the other. Prove that locus of their
+          point of intersection is a circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 232 -->
+          A circle of radius <m>$r$</m> passes through the origin <m>$O$</m>, and cuts the axes at
+          <m>$A$</m> and <m>$B$</m>. Let <m>$P$</m> be the foot of the perpendicular from the origin to the
+          line <m>$AB$</m>. Find the equation of the locus of <m>$P$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 233 -->
+          Show that the locus of points from which the tangents drawn to a circle are orthogonal, is a
+          concentric circle or find the equation of the cirector circle of the circle <m>$x^2 + y^2 =
+          a^2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 234 -->
+          Find the locus of the point of the point of intersection of tangents to the circle <m>$x =
+          a\cos\theta, y = a\sin\theta$</m> at points whose parametric angles differ by
+          <m>$\frac{\pi}{3}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 235 -->
+          The circles <m>$x^2 + y^2 + 2ax - c^2 = 0$</m> and <m>$x^2 + y^2 + 2bx - c^2 = 0$</m> intersect at
+          <m>$A$</m> and <m>$B$</m>. A line through <m>$A$</m> meets one circle at <m>$P$</m> and a parallel
+          line through <m>$B$</m> meets at the other circle at <m>$Q$</m>. Show that the locus of the
+          mid-point of <m>$PQ$</m> is a circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 236 -->
+          Find the condition that the chord of contact of tangents from the point <m>$(\alpha, \beta)$</m>
+          to the circle <m>$x^2 + y^2 = a^2$</m> should subtend a right angle at the center. Hence, find the
+          locus of <m>$(\alpha, \beta)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 237 -->
+          A tangent is drawn to each of the circle <m>$x^2 + y^2 = a^2$</m> and <m>$x^2 + y^2 =
+          b^2$</m>. Show that if the two tangents are mutually perpendicular, the locus of their point of
+          intersection is a cricle concentric with the given circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 238 -->
+          S how that the locus of the point, the tangents from which to the circle <m>$x^2 + y^2 = a^2$</m>
+          include a constant angle <m>$\alpha$</m> is <m>$\left(x^2 + y^2 - 2a^2\right)^2\tan^2\alpha =
+          4a^2\left(x^2 + y^2 - a^2\right)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 239 -->
+          A straight line passes through the fixed point <m>$(h, k)$</m>. Find the locus of the foot of the
+          perpendicular drawn to it from the origin.
+        </d:listitem>
+        <d:listitem>
+          <!-- 240 -->
+          <m>$O$</m> is a fixed point and <m>$AP$</m> and <m>$BQ$</m> are two fixed parallel straight lines;
+          <m>$BOA$</m> is perpendicular to both and <m>$\angle POQ$</m> is a right angle. Prove that the
+          locus of the foot of the perpendicular drawn from <m>$O$</m> upon <m>$PQ$</m> is the circle on
+          <m>$AB$</m> as diameter.
+        </d:listitem>
+        <d:listitem>
+          <!-- 241 -->
+          A variable circle passes through the point <m>$P(1, 2)$</m> and touches the <m>$x$</m>-axis; show
+          that the locus of the other end of the diameter through <m>$P$</m> is <m>$(x - 1)^2 = 8y$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 242 -->
+          Find the locus of a point, which is such that the lengths of the tangents from it to two
+          concentric circles <m>$x^2 + y^2 = a^2$</m> and <m>$x^2 + y^2 = b^2$</m> vary inversely as their
+          radii.
+        </d:listitem>
+        <d:listitem>
+          <!-- 243 -->
+          A point moves such that the sum of squares of its distances from the sides of a square of side
+          unity is equal to <m>$9$</m>. Show that the locus of a circle whose center is coincides with the
+          center of the square. Also, find its radius.
+        </d:listitem>
+        <d:listitem>
+          <!-- 244 -->
+          Find the locus of the center of the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> when the pair of
+          tangents drawn from the origin to the circle are perpendicular to each other.
+        </d:listitem>
+        <d:listitem>
+          <!-- 245 -->
+          Determine the locus of centers of the circles which touches the two circles <m>$x^2 + y^2 =
+          a^2$</m> and <m>$x^2 + y^2 = 4ax$</m> externally.
+        </d:listitem>
+        <d:listitem>
+          <!-- 246 -->
+          Find the locus of the centers of the circles which cut the circles <m>$x^2 + y^2 + 4x - 6y + 9 =
+          0$</m> and <m>$x^2 + y^2 - 4x + 6y + 4 = 0$</m> orthogonally is <m>$8x - 12y + 5 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 247 -->
+          Find the locus of the foot of the perpendicular drawn from a fixed point on the <m>$x$</m>-axis to
+          any tangent to the circle <m>$x^2 + y^2 = a^2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 248 -->
+          The tangent at any point <m>$P$</m> on the circle <m>$x^2 + y^2 = 2$</m> cuts the axes in
+          <m>$L$</m> and <m>$M$</m>. Find the locus of the middle point of <m>$LM$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 249 -->
+          A triangle has two of its sides along the axes, its third side touches the circle <m>$x^2 + y^2 -
+          2ax - 2ay + a^2 = 0$</m>. Find the equation of the locus of the circumcenter of the triangle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 250 -->
+          The point <m>$A(1, 5)$</m> is joined to any point <m>$P$</m> of the circle <m>$x^2 + y^2 =
+          4$</m>. Find the locus of the middle point of <m>$AP$</m> as <m>$P$</m> moves on the circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 251 -->
+          Chords of the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> drawn through a fixed point <m>$A(a,
+          b)$</m>. Find the locus of the mid-points of these chords and interpret the locus.
+        </d:listitem>
+        <d:listitem>
+          <!-- 252 -->
+          A straight line moves so that the algebraic sum of the perpendiculars drawn to it from two fixed
+          points is constant, show that the line always touches a fixed circle.
+        </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
