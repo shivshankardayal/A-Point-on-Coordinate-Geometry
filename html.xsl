@@ -19,7 +19,7 @@
   -->
 
   <!-- Use the official stylesheet distro -->
-  <xsl:import href="/usr/share/sgml/docbook/xsl-ns-stylesheets-1.79.2/html/chunk.xsl" />
+  <xsl:import href="/usr/share/xml/docbook/xsl-ns-stylesheets-1.79.2/html/chunk.xsl" />
   <!--xsl:import href="/opt/local//share/xsl/docbook-xsl-ns/html/chunk.xsl" /-->
 
   <!-- The location of the highlighting configuration -->

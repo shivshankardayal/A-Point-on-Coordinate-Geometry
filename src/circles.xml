@@ -1207,6 +1207,415 @@
         the given in the circle. If exterior, find the circle of maximum radius centered on it containing
         the given circle.
       </d:listitem>
+      <d:listitem>
+        <!-- 57 -->
+        Find the equation of the circle with minimum raidus which contains the three circles <m>$x^2 + y^2 -
+        4y - 5 = 0, x^2 + y^2 + 12x + 4y + 31 = 0$</m> and <m>$x^2 + y^2 + 6x + 12y + 36 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 58 -->
+        Find the equation of the circle whose diameter is the line joining the points <m>$(-4, 3)$</m> and
+        <m>$(12, -1)$</m>. Find also the intercept made by it on <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 59 -->
+        The sides of a square are <m>$x = 1, x = 3, y = 2$</m> and <m>$y = 4$</m>. Find the equation of the
+        circle drawn on the diagonals of the square as its diameter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 60 -->
+        Find the equation of the circle on the line joining the origin and <m>$(2, -4)$</m> as diameter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 61 -->
+        Find the equation of the circle, the endpoints of whose diameter are <m>$(2, -3)$</m> and <m>$(-2,
+        4)$</m>. Find its center and radius.
+      </d:listitem>
+      <d:listitem>
+        <!-- 62 -->
+        Find the equation of the circle drawn on the intercept between the axes made by the line <m>$3x + 4y
+        = 12$</m> as a diameter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 63 -->
+        Find the equation of the circle the endpoints of whose diameter are the centers of the circles
+        <m>$x^2 + y^2 + 6x - 14y = 1$</m> and <m>$x^2 + y^2 - 4x + 1 - y = 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 64 -->
+        The sides of a square are <m>$x = 6, x = 9, y = 3$</m> and <m>$y = 6$</m>. Find the equation of a
+        circle drawn on the diagonal of the square as its diameter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 65 -->
+        Find the equation of the circle circumscribing the rectangle whose sides are <m>$x - 3y = 4, 3x + y
+        = 22, x - 3y = 14$</m> and <m>$3x + y = 62$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 66 -->
+        The abscissa if two points <m>$A$</m> and <m>$B$</m> are the roots of the equation <m>$x^22 + 2x -
+        a^2 = 0$</m> and the oridinates are the roots of the equation <m>$y^2 + 4y - b^2 = 0$</m>. Find the
+        equation of the circle with <m>$AB$</m> as its diameter. Also find the coordinates of the center and
+        the length of the raidus of the circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 67 -->
+        If <m>$(4, 1)$</m> be one endpoint of the diameter of the circle <m>$x^22 + y^2 - 2x + 6y - 15 =
+        0$</m>, find the coordinates of the other endpoint of the diagonal.
+      </d:listitem>
+      <d:listitem>
+        <!-- 68 -->
+        ind the equation of the circumcircle of the quadrilateral formed by the four lines
+        <m>$ax + by \pm c = 0$</m> and <m>$bx - ay \pm c = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 69 -->
+        Find the equation of the circle which passes through the points <m>$(1, -2)$</m> and <m>$(4, -3)$</m>
+        and whose center lies on the line <m>$3x + 4y = 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 70 -->
+        Find the equation of the circle passing through the origin and the points where the straight line
+        <m>$3x + 4y = 12$</m> meets the coordinate axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 71 -->
+        Show that the cyclic quadrilateral is formed by the lines <m>$5x + 3y = 9, x = 3y, 2x = y$</m> and
+        <m>$x + 4y + 2 = 0$</m> taken in order. Find the equation of the circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 72 -->
+        Find the equation of a circle passing through the points <m>$(1, 2)$</m> and <m>$(3, 4)$</m> and
+        touching the line <m>$3x + y - 3 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 73 -->
+        A circle touches both the <m>$x$</m>-axis and the line <m>$4x - 3y + 4 = 0$</m>. Its center is in the
+        third quadrant anf lies on the line <m>$x - y - 1 = 0$</m>. Find the equation of the circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 74 -->
+        Find the equation of the circle passing through the points <m>$(1, 0), (0, 1)$</m> and <m>$(1, -2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 75 -->
+        Find the equation of the circle passing through the points <m>$(0, 0), (a, 0)$</m> and <m>$(0, b)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 76 -->
+        Find the equation of the circle which passes through the origin and cuts off chords of length
+        <m>$4$</m> and <m>$6$</m> on the positive side of <m>$x$</m>-axis and <m>$y$</m>-axis respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 77 -->
+        Find the equation of the circumcircle of the triangle formed by the lines <m>$y = x, y = 2x$</m> and
+        <m>$y = 3x + 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 78 -->
+        Find the incenter of the triangle whose sides are <m>$7x - y + 11 = 0, x + y - 15 = 0$</m> and
+        <m>$7x + 17y + 65 = 0$</m>. Find the equation of the incircle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 79 -->
+        Find the equation of the circles passing through the origin and cutting off equal intercepts
+        <m>$1$</m> from the lines <m>$3x = 4y$</m> and <m>$4x = 3y$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 80 -->
+        Find the equation of the circle described on the common chord of the circles <m>$x^2 + y^2 - 4x - 5 =
+        0$</m> and <m>$x^2 + y^2 + 8y + 7 = 0$</m> as diameter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 81 -->
+        Show that the circle on the chord <m>$x\cos\alpha + y\sin\alpha - p = 0$</m> of the circle <m>$x^2 +
+        y^2 = a^2$</m> as diameter is <m>$x^2 + y^2 - a^2 - 2p(x\cos\alpha + y\sin\alpha - p) = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 82 -->
+        Prove that the equation <m>$x^2 + y^2 - 4 + k\left(y - mx - 2\sqrt{1 + m^2}\right) = 0$</m>
+        represents a family of circles touching each other at a common point for all <m>$k$</m>, where
+        <m>$m$</m> is a given constant.
+      </d:listitem>
+      <d:listitem>
+        <!-- 83 -->
+        Show that the general equation of a circle which passes through the points <m>$(x_1, y_1)$</m> and
+        <m>$(x_2, y_2)$</m> may be written as <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) +
+        \lambda\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1 &amp; 1\\x_2 &amp; y_2 &amp; 1\end{vmatrix} =
+        0$</m>, and hence, deduce the diameter form of the equation of a circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 84 -->
+        The line <m>$Ax + By + C = 0$</m> cuts the circle <m>$x^2 + y^2 + ax + bby + c = 0$</m> in
+        <m>$P$</m> and <m>$Q$</m>. The line <m>$A'x + B'y + C' = 0$</m> cuts the circle <m>$x^22 + y^2 + a'x
+        + b'y + c' = 0$</m> in <m>$R$</m> and <m>$S$</m>. If <m>$P, Q, R, S$</m> are concyclic points show
+        that <m>$\begin{vmatrix}a - a' &amp; b - b' &amp; c - c'\\A &amp; B &amp; C\\A' &amp; B' &amp;
+        C'\end{vmatrix} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 85 -->
+        A fixed circle is cut by circles passing through two given points <m>$A(x_1, y_1)$</m> and
+        <m>$B(x_2, y_2)$</m>. Show that the chord of intersection of the fixed circle with any one of
+        the circled, passes through a fixed point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 86 -->
+        Tangents <m>$PQ$</m> and <m>$PR$</m> are drawn to the circle <m>$x^2 + y^2 = a^2$</m> from the point
+        <m>$P(x_1, y_1)$</m>. Find the equation of the circumcircle of <m>$\triangle PQR$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 87 -->
+        Find the equation of the circle passing through the point of intersection of the circles <m>$x^2 +
+        y^2 - 6x + 2y + 4 = 0$</m> and <m>$x2 + y^2 + 2x - 4y - 6 = 0$</m> and with its center on the line
+        <m>$y = x$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 88 -->
+        If the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> bisects the circumference of the circle
+        <m>$x^2 + y^2 + 2g'x + 2f'y + c' = 0$</m>, prove that <m>$2g'(g - g') + 2f'(f - f') = c - c'$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 89 -->
+        Find the equation of the circle of radius 4 and passing through the point of intersection of circles
+        <m>$x^2 + y^2 - 2x - 4y - 4 = 0$</m> and <m>$x^2 + y^2 - 10x - 12y + 40 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 90 -->
+        Show that the common chord of the circles <m>$x^2 + y^2 - 6x - 4y + 9 = 0$</m> and <m>$x^2 + y^2 -
+        8x - 6y + 23 = 0$</m> pass through the center of the second circle and find its length.
+      </d:listitem>
+      <d:listitem>
+        <!-- 91 -->
+        Find the equation of the circle whose diameter is the common chord of the circles <m>$x^2 + y^2 + 2x
+        + 3y + 1 = 0$</m> and <m>$x^2 + y^2 + 4x + 3y + 2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 92 -->
+        If <m>$y = mx$</m> be the equation of a chord of the circle <m>$x^2 + y^2 - 2ax = 0$</m>, prove that
+        the circle of which this chord is a diameter has the equation <m>$\left(1 + m^2\right)\left(x^2 +
+        y^2\right) - 2a(x + my) = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 93 -->
+        Find the equation of the circle which passes through the point of intersection of the circles
+        <m>$x^2 + y^2 - 6x + 2y + 4 = 0$</m> and <m>$x^2 + y^2 + 2x - 4y - 6 = 0$</m> and whose center lies
+        on the line <m>$y = x$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 94 -->
+        Prove that the equation <m>$x^2 + y^2 + 2(3 + p)x + 2(3 - p)y + 4 = 0$</m> represents a circle for
+        all values of <m>$p$</m>, passing through two fixed points. Find the fixed points.
+      </d:listitem>
+      <d:listitem>
+        <!-- 95 -->
+        Find the equation of the circle through the points of intersection of the circles <m>$x^2 + y^2 =
+        4a^2$</m> and <m>$x^2 + y^2 - 2x - 4y + 4 = 0$</m> and touching the line <m>$x + 2y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 96 -->
+        Find the equation of the circle which passes through the points of intersection of the circle
+        <m>$x^2 + y^2 - x - y = 0$</m> and the line <m>$x + y = 1$</m> and also through the point <m>$(1,
+        1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 97 -->
+        Find the equation of the circle which has for its diameter the chord cut off on the line <m>$px + qy
+        - 1 = 0$</m> by the circle <m>$x^2 + y^2 = 𝑎^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 98 -->
+        The point <m>$A(\alpha, \beta)$</m> is outside the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> and
+        <m>$AP, AQ$</m> are tangents to the circle. Find the equation of the circumcircle of <m>$\triangle
+        PQR$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 99 -->
+        Show that the line <m>$3x - 4y = c$</m> will meet the circle having center at <m>$(2, 4)$</m> and
+        the radius <m>$(2, 4)$</m> in real and distinct points if <m>$-35 &lt; c &lt; 15$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 100 -->
+        Find the length of the chord <m>$4x - 3y = 5$</m> of the circle <m>$x^2 + y^2 + 3x - y - 10 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 101 -->
+        Prove that the line <m>$y = x + a\sqrt{2}$</m> touches the circle <m>$x^2 + y^2 = a^2$</m>. Also
+        find the point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 102 -->
+          Find the equation of tangents of the circle <m>$x^2 + y^2 - 6x + 4y - 12 = 0$</m> which are
+          parallel to the line <m>$4x + 3y + 5 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 103 -->
+          Show that the common tangents to the circles <m>$x^2 + y^2 - 6x = 0$</m> and <m>$x^2 + y^2 + 2x =
+          0$</m> form an equilateral triangle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 104 -->
+          Three concentric circles of which the biggest is <m>$x^2 + y^2 = 1$</m> have their radii in
+          A.P. If the line <m>$y = x + 1$</m> cuts all the circles in real and distinct points then find
+          the interval in which the common difference of the A.P. will lie.
+        </d:listitem>
+        <d:listitem>
+          <!-- 105 -->
+          If <m>$4l^2 - 5m^2 + 6l + 1 = 0$</m>, then shown that the line <m>$lx + my + 1 = 0$</m> touches a
+          fixed circle. Find the center and raidus of the circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 106 -->
+          Find the point <m>$P$</m> on the circle <m>$x^2 + y^2 - 4x - 6y + 9 = 0$</m> such that (i)
+          <m>$\angle POX$</m> is minimum (ii) <m>$OP$</m> is maximum, where <m>$O$</m> is the origin and
+          <m>$OX$</m> is the <m>$x$</m>-axis.
+        </d:listitem>
+        <d:listitem>
+          <!-- 107 -->
+          Show that the circle <m>$x^2 + y^2 - 2ax - 2ay + a^2 = 0$</m> touches both the axes. Also, find the
+          point of contact.
+        </d:listitem>
+        <d:listitem>
+          <!-- 108 -->
+          Find the length of the chord of the circle <m>$x^2 + y^2 = 16$</m> which bisects the join of the
+          points <m>$(2, 3)$</m> and <m>$(1, 2)$</m> perpendicularly.
+        </d:listitem>
+        <d:listitem>
+          <!-- 109 -->
+          Find the length of the chord intercepted by the straight line <m>$x - 7y + 4 = 0$</m> and the
+          circle <m>$x^2 + y^2 - 14x + 4y + 28 = 0$</m>. Also, find the middle point of the chord.
+        </d:listitem>
+        <d:listitem>
+          <!-- 110 -->
+          Find the length of the common chords of the circles <m>$x^2 + y^2 + 3x + 5y + 4 = 0$</m> and
+          <m>$x^2 + y^2 + 5x + 3y + 4 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 111 -->
+          Find the equation and length of the common chord of the circles <m>$x^2 + y^2 + 2x + 3y + 1 =
+          0$</m> and <m>$x^2 + y^2 + 4x + 3y + 2 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 112 -->
+          Prove that the length of the common chord of the circlea <m>$(x - a)^2 + (y - b)^2 = c^2$</m> and
+          <m>$(c - b)2 + (y - a)^2 = c^2$</m> is <m>$\sqrt{4c^2 - 2(a - b)^2}$</m>. Hence find the condition
+          that the two circles may touch each other.
+        </d:listitem>
+        <d:listitem>
+          <!-- 113 -->
+           Prove that the length of the common chord of the two circles <m>$x^2 + y^2 + 2hx + a^2 = 0$</m>
+           and <m>$x^2 + y^2 - 2ky - a^2 = 0$</m> is <m>$2\sqrt{\frac{\left(h^2 - a^2\right)\left(k^2 +
+           a^2\right)}{h^2 + k^2}}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 114 -->
+          Prove that the length of the common chord of the circles <m>$x^2 + y^2 + ax + by + c = 0$</m> and
+          <m>$x^2 + y^2 + bx + ay + c = 0$</m> is <m>$\sqrt{\frac{1}{2}(a  + b)^2 - 4c}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 115 -->
+          If the line <m>$px + qy + r = 0$</m> touches the circle <m>$x^2 + y^2 = a^2$</m> then prove that
+          <m>$r^2 = a^2\left(p^2 + q^2\right)$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 116 -->
+          Prove that the line <m>$4x - 3y + 23 = 0$</m> touches the circle <m>$x^2 + y^2 - 6x + 10y =
+          66$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 117 -->
+          Show that for all values of <m>$\theta$</m>, <m>$x\sin\theta - y\cos\theta = a$</m> touches the
+          circle <m>$x^2 + y^2 = a^2$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 118 -->
+          If <m>$lx + my = 1$</m> touches the circle <m>$x^2 + y^2 = a^2$</m>, prove that the point <m>$(l,
+          m)$</m> lies on the circle <m>$x^2 + y^2 = a^{-2}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 119 -->
+          Find the value of <m>$\lambda$</m> so that the line <m>$3x - 4y = \lambda$</m> may touch the
+          circle <m>$x^2 + y^2 - 4x - 8y - 5 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 120 -->
+          Show that the line <m>$(x - 1)\cos\theta + (y - 1)\sin\theta = 1$</m> touches a circle for all
+          values of <m>$\theta$</m>. Find the circle.
+        </d:listitem>
+        <d:listitem>
+          <!-- 121 -->
+          Find those tangents to the circle <m>$x^2 + y^2 = 16$</m> which are parallel to <m>$3x - 16y =
+          10$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 122 -->
+          Find the equation of the tangents to the circle <m>$x^2 + y^2 - 2x - 4y - 4 = 0$</m> which
+          are (i) parallel, (ii) perpendicular to the line <m>$3x - 4y - 1 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 123 -->
+          Show that the line <m>$7y - x = 5$</m> touches the circle <m>$x^2 + y^2 - 5x + 5y = 0$</m> and
+          find the equation of the other parallel tangent.
+        </d:listitem>
+        <d:listitem>
+          <!-- 124 -->
+           Find the equation of the tangent lines to the circle <m>$x^2 + y^2 = 15$</m> which are
+           perpendicular to the line <m>$4x - y + 6 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 125 -->
+          Find the equation of tangents to the circle <m>$x^2 + y^2 - 6x + 4y - 3 = 0$</m>, which are
+          perpendicular to the line <m>$y = 2x - 1$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 126 -->
+          Find the equation of the tangents to the circle <m>$x^2 + y^2 = 25$</m>, which make an angle of
+          <m>$60^\circ$</m> with the positive direction of <m>$x$</m>-axis.
+        </d:listitem>
+        <d:listitem>
+          <!-- 127 -->
+          Find the equation of the family of circles which touch the pair of straight lines <m>$x^2 - y^2 +
+          2y - 1 = 0$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 128 -->
+          Examine if the two circles <m>$x^2 + y^2 - 2x - 4y = 0$</m> and <m>$x^2 + y^2 - 8y - 4 = 0$</m>
+          touch each other externally or internally.
+        </d:listitem>
+        <d:listitem>
+          <!-- 129 -->
+          Prove that the circle <m>$x^2 + y^2 + 2ax + c^2 = 0$</m> and <m>$x^2 + y^2 + 2by + c^2 = 0$</m>
+          touch each other if <m>$\frac{1}{a^2} + \frac{1}{b^2} = \frac{1}{c^2}$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 130 -->
+          Prove that <m>$x^2 + y^2 = a^2$</m> and <m>$(x - 2a)^2 + y^2 = a^2$</m> are two equal circles
+          touching each other. Find the equation of circles of equal radius touching both the circles.
+        </d:listitem>
+        <d:listitem>
+          <!-- 131 -->
+          Prove that the circles <m>$x^2 + y^2 + 2x + 2y + 1 = 0$</m> and <m>$x^2 + y^2 - 4x - 6y - 3 =
+          0$</m> touch each other.
+        </d:listitem>
+        <d:listitem>
+          <!-- 132 -->
+          Prove that the condition for the circles <m>$(x - a)^2 + (y - b)^2 = c^2$</m> and <m>$(x - b)^2 +
+          (y - a)^2 = c^2$</m> to touch each other is <m>$a = b \pm\sqrt{2}𝑐$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 133 -->
+          Prove that the circles <m>$x^2 + y^2 + 2ux + 2vy = 0$</m> and <m>$x^2 + y^2 + 2u_1x + 2v_1y =
+          0$</m> touch each other if <m>$uv_1 = u_1v$</m>.
+        </d:listitem>
+        <d:listitem>
+          <!-- 134 -->
+          Find the length of the chord of the circle <m>$x^2 + y^2 = 4$</m> through <m>$\left(1,
+          \frac{1}{2}\right)$</m>, which is of minimum length.
+        </d:listitem>
+        <d:listitem>
+          <!-- 135 -->
+          Find the angle that the chord of circle <m>$x^2 + y^2 - 4y = 0$</m> along the line <m>$x + y =
+          1$</m> subtends at the circumference the larger segment.
+        </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
