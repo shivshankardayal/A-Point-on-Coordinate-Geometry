@@ -1,0 +1,1447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-coordinates/index.html" ?>
+  <d:title>Answers of Coordinates</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      <d:para>
+        The area of a triangle with vertices <m>$(x_1, y_1), (x_2, y_2)$</m> and <m>$(x_3, y_3)$</m> is given
+        by <m>$\Delta = \frac{1}{2}\left|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\right|$</m>
+      </d:para>
+      <d:para>
+        Substituting the given points, we compute <d:sbr /><m>$\Delta = \frac{1}{2}\left|1(6 - (-1)) + (-7)(-1 - 3)
+        + 5(3 - 6)\right|$</m>
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\Delta = \frac{1}{2}|7 + 28- 15| = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      <d:para>
+        Substituting the given points in the formula, we obtain <d:sbr /> <m>$\Delta = \frac{1}{2}|0(6 -
+        (-2)) + 3((-2) - 4) + (-8)(4 - 6)|$</m>
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\Delta = \frac{1}{2}|-2| = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      <d:para>
+        ubstituting the given points in the formula, we obtain <d:sbr/> <m>$\Delta = \frac{1}{2}|5((-3) -
+        (-5)) + (-9)((-5) - 2) + (2 - (-3))|$</m>
+      </d:para>
+      <d:para>
+        Simplifying each term, <m>$\Delta = \frac{1}{2}|10 + 63 - 15| = 29$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|a((b - c) - c)+ a(c - (b + c)) + (-a)((b + c) - (b - c))|$</m>
+      </d:para>
+      <d:para>
+        Simplifying each term, <m>$\Delta = \frac{1}{2}|a(b - 2c) - ab - 2ac| = \frac{1}{2}|-4ac| = 2ac$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|a\sin\phi_1(a\sin\phi_2 - a\sin\phi_3) + a\cos\phi_2(a\sin\phi_3 -
+        a\sin\phi1) + a\cos\phi_3(a\sin\phi_1 - a\sin\phi_2)|$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{a^2}{2}|\sin(\phi_2 - \phi_1) + \sin(\phi_3 - \phi_2) + \sin(\phi_1 - \phi_3)|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|am_1^2(2am_2 - 2am_3) + am_2^2(2am_3 - 2am_1) + am_3^2(2am_1 - 2am_2)|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = a^2|m_1^2m_2 - m_1^2m_3 + m_2^2m_3 - m_2^2m_1 + m_3^2m_1 - m_3^2m_2|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = a^2|(m_1 - m_2)(m_2 - m_3)(m_3 - m_1)|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|1((-2) - 16) + 3(16 - 4) + (-3)(4 - (-2))|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|-18 + 36 - 18| = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the area is zero, the points <m>$A, B$,</m> and <m>$C$</m> lie on a straight line and are
+        collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      <d:para>
+        <m>$\Delta = \frac{1}{2}\left|\left(-\frac{1}{2}\right)(6 - 8) + (-5)(8 - 3) + (-8)(3 -
+        6)\right| = 0$</m>
+      </d:para>
+      <d:para>
+        Since the area of the triangle is zero, therefore, the points are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|a((c + a) - (a + b)) + b((a + b) - (b + c)) + c((b + c) - (c + a))| =
+        0$</m>
+      </d:para>
+      <d:para>
+        Hence, the area is zero, which proves that the points collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      <d:para>
+        Let <m>$ABC$</m> be a triangle with vertices <m>$A, B$</m> and <m>$C$</m>. Let <m>$D$</m> be the
+        midpoint of <m>$BC$</m>. Then the coordinates of <m>$D$</m> are <m>$\left(\frac{xB + xC}{2},
+        \frac{yB + yC}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+          <m>$AB^2 = (xB - xA)^2 + (yB - yA)^2$</m>, and <m>$AC^2 = (xC - xA)^2 + (yC - yA)^2$</m>
+      </d:para>
+      <d:para>
+          <m>$CD^2 = \left(xC - \frac{xB + xC}{2}\right)^2 + \left(yC - \frac{yB + yC}2{}\right)^2 =
+          \left(\frac{xC = xC}{2}\right)^2 + \left(\frac{yC - yB}{2}\right)^2 = \frac{1}{4}BC^2$</m>
+      </d:para>
+      <d:para>
+        Now, consider the sum <m>$AB^2 + AC^2$</m>. Using the midpoint formula, we can write <m>$AC^2 + AD^2
+        + CD^2 = AB^2 + \frac{AC^2}{2}$</m>, and after simplification, we obtain <m>$AB^2 + AC^2 = 2(AD^2 + CD^2)$</m>
+      </d:para>
+      <d:para>
+        Hence, in any triangle <m>$ABC$</m>, if <m>$D$</m> is the midpoint of <m>$BC$</m>, then <m>$AB^2 +
+        AC^2 = 2(AD^2 + CD^2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      <d:para>
+        Let triangle <m>$ABC$</m> have vertices <m>$A(x_1, y_1)$, $B(x_2, y_2)$</m> and <m>$C(x_3,
+        y_3)$</m>.
+      </d:para>
+      <d:para>
+          Let <m>$D$, $E$</m> and <m>$F$</m> be the midpoints of <m>$BC, CA$</m> and <m>$AB$</m>
+          respectively. Then <m>$D = \left(\frac{x_2 + x_3}{2}, \frac{y_2 + y_3}{2}\right),
+          E = \left(\frac{x_3 + x_1}{2}, \frac{y_3 + y_1}{2}\right), F = \left(\frac{x_1 + x_2}{2},
+          \frac{y_1 + y_2}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> be the point that divides <m>$AD$</m> internally in the ratio <m>$2:1$</m>. By the
+        section formula, <m>$P = \left(\frac{1.x_1 + 2.\frac{x_2 + x_3}{2}}{1 + 2}, \frac{1.y_1 +
+        2.\frac{y_2 + y_3}{2}}{1 + 2}\right)$</m>.
+      </d:para>
+      <d:para>
+          Simplifying, <m>$P = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, for the line $BE$, let $Q$ divide it internally in the ratio <m>$2:1$</m>. Then
+        <m>$Q = \left(\frac{1.x_2 + 2.\frac{x_3 + x_1}{2}}{1 + 2}, \frac{1.y_2 + 2.\frac{y_3 + y_1}{2}}{1 +
+        2}\right)$</m>,
+      </d:para>
+      <d:para>
+          which simplifies to <m>$Q = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 +
+          y_3}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        For the line <m>$CF$</m>, let <m>$R$</m> divide it internally in the ratio <m>$2:1$</m>. Then
+        <m>$R = \left(\frac{1.x_3 + 2.\frac{x_1 + x_2}{2}}{1 + 2}, \frac{1.y_3 + 2.\frac{y_1 + y_2}{2}}{1 +
+        2}\right)$</m>,
+      </d:para>
+      <d:para>
+          which simplifies to <m>$R = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+          Hence, the point that divides <m>$AD$</m> in the ratio <m>$2:1$</m> also divides <m>$BE$</m> and
+          <m>$CF$</m> in the same ratio. This point is the centroid of triangle <m>$ABC$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      <d:para>
+        Let the vertices of the quadrilateral be <m>$A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$</m> and
+        <m>$D(x_4, y_4)$</m>.
+      </d:para>
+      <d:para>
+        The area of a quadrilateral can be computed by dividing it into two triangles, for example
+        <m>$ABC$</m> and <m>$ACD$</m>, and adding their areas.
+      </d:para>
+      <d:para>
+        The area of triangle <m>$ABC$</m> is <m>$\frac{1}{2}|x_1*(y_2 - y_3) + x_2*(y_3 - y_1) + x_3*(y_1 -
+        y_2)|$</m>.
+      </d:para>
+      <d:para>
+        The area of triangle <m>$ACD$</m> is <m>$\frac{1}{2}|x_1*(y_3 - y_4) + x_3*(y_4 - y_1) + x_4*(y_1 -
+        y_3)|$</m>.
+      </d:para>
+      <d:para>
+        Hence, the area of the quadrilateral is <d:sbr />
+        <m>$\square ABCD = \frac{1}{2}|x_1*(y_2 - y_3) + x_2*(y_3 - y_1) + x_3*(y_1 - y_2)| +
+        \frac{1}{2}|x_1*(y_3 - y_4) + x_3*(y_4 - y_1) + x_4*(y_1 - y_3)|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      <d:para>
+        Substituting the given coordinates in the formula obtained in previous problem, we get
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}*|1*4 + 3*(-2) + 5*(-7) + 4*1 - (1*3 + 4*5 + (-2)*4 + (-7)*1)|$</m>
+      </d:para>
+      <d:para>
+        Simplifying each term, we get <m>$\Delta = \frac{1}{2}*|4 - 6 - 35 + 4 - (3 + 20 - 8 - 7)|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}*|-33 - (-12)| = \frac{1}{2}*|-33 + 12| = \frac{1}{2}*|-21| = \frac{21}{2} =
+        10.5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      <d:para>
+        Like previous problem, <m>$\Delta = \frac{1}{2}|(-1)*(-9) + (-3)*8 + 5*9 + 3*0 - (0*(-3) + (-9)*5 +
+        8*3 + 9*(-1))|$</m>
+      </d:para>
+      <d:para>
+        Simplifying each term, we get <m>$\Delta = \frac{1}{2}|9 - 24 + 45 + 0 - (0 - 45 + 24 - 9)|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|30 - (-30)| = \frac{1}{2}|30 + 30| = 30$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      <d:para>
+        The distance between two points in polar coordinates can be found by first converting to Cartesian
+        coordinates: <m>$P_1 = (r_1\cos\theta_1, r_1\sin\theta_1), P_2 = (r_2\cos\theta_2,
+        r_2\sin\theta_2)$</m>
+      </d:para>
+      <d:para>
+        The distance between two points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is <m>$L = \sqrt{(x_2 -
+        x_1)^2 + (y_2 - y_1)^2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the Cartesian coordinates, we get <d:sbr /> <m>$L = \sqrt{(r_2\cos\theta_2 - r_1\cos\theta_1)^2 + (r_2\sin
+        \theta_2 - r_1\sin\theta_1)^2}$</m>
+        </d:para>
+        <d:para>
+          Expanding the squares, we have <d:sbr /><m>$L = \sqrt{r_2^2\cos^2\theta_2 - 2
+          r_1r_2\cos\theta_1\cos\theta_2 + r_1^2\cos^2\theta_1 + r_2^2\sin^2\theta_2 -
+          2r_1r_2\sin\theta_1\sin\theta_2 + r_1^2\sin^2\theta_1}$</m>
+        </d:para>
+        <d:para>
+          Grouping terms, we get <d:sbr /><m>$L = \sqrt{(r_1^2(\cos^2\theta_1 + \sin^2\theta_1) + r_2^2(\cos^2\theta_2
+          + \sin^2\theta_2) - 2 r_1r_2(\cos\theta_1\cos\theta_2 + \sin\theta_1\sin\theta_2)}$</m>
+        </d:para>
+        <d:para>
+          Using <m>$\cos^2\theta + \sin^2\theta = 1$</m> and <m>$\cos\theta_1\cos\theta_2 +
+          \sin\theta_1\sin\theta_2 = \cos(\theta_1 - \theta_2)$</m>, we get <m>$L = \sqrt{r_1^2 + r_2^2 - 2
+          r_1r_2\cos(\theta_1 - \theta_2)}$</m>.
+        </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      <d:para>
+        The distance between two points in polar coordinates is <d:sbr/> <m>$L = \sqrt{r_1^2 + r_2^2 - 2
+        r_1r_2 \cos(\theta_1 - \theta_2)}$</m>
+      </d:para>
+      <d:para>
+        Substituting the given values, we get <m>$L = \sqrt{2^2 + 4^2 - 2.2.4\cos\left(30^\circ -
+        120^\circ\right)}$</m>
+      </d:para>
+      <d:para>
+        Simplifying inside the cosine, <m>$L = \sqrt{4 + 16 - 16.\cos\left(-90^\circ\right)}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\cos(-90^\circ) = 0$</m>, we have <m>$L = \sqrt{4 + 16 - 16.0} = \sqrt{20}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      <d:para>
+        Like previous problem <m>$L = \sqrt{(-3)^2 + 7^2 - 2.(-3).7.\cos(45^\circ - 105^\circ)}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying,<m>$L = \sqrt{9 + 49 - 2.(-3).7.\cos(-60^\circ)}$</m>.
+      </d:para>
+      <d:para>
+        We know <m>$\cos(-60^\circ) = \frac{1}{2}$</m>, so <m>$L = \sqrt{58 - 2.(-3).7.\frac{1}{2}}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the middle term, <m>$2.(-3).7.\frac{1}{2} = -21$</m>, so <m>$L = \sqrt{58 - (-21)} =
+        \sqrt{58 + 21} = \sqrt{79}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the distance between the points is <m>$L = \sqrt{79}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      <d:para>
+        Like previous problem <m>$L = \sqrt{a^2 + (3a)^2 - 2a.3a.\cos\left(\frac{\pi}{2} -
+        \frac{\pi}{6}\right)}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying, <m>$L = \sqrt{a^2 + 9a^2 - 6a^2\cos\frac{\pi}{3}}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$cos\frac{\pi}{3} = \frac{1}{2}$</m>, we have <m>$L = \sqrt{10a^2 - 3a^2}$</m>.
+      </d:para>
+      <d:para>
+        <m>$L = \sqrt{7a^2} = a\sqrt{7}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$P_1(r_1, \theta_1)$, $P_2(r_2, \theta_2)$</m>, and
+        <m>$P_3(r_3, \theta_3)$</m>.
+      </d:para>
+      <d:para>
+        First, convert the polar coordinates to Cartesian coordinates: <m>$P_1 = (r_1\cos\theta_1, r_1\sin\theta_1),
+        $</m><d:sbr/><m>$P_2 = (r_2\cos\theta_2, r_2\sin\theta_2),P_3 = (r_3\cos\theta_3, r_3\sin\theta_3)$</m>.
+      </d:para>
+      <d:para>
+        The area of a triangle with vertices <m>$(x_1, y_1), (x_2, y_2), (x_3, y_3)$</m> is
+        <m>$\Delta = \frac{1}{2}|(x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2)|$</m>.
+      </d:para>
+      <d:para>
+        Substituting the Cartesian coordinates in terms of polar coordinates, we get
+        <m>$\Delta = \frac{1}{2}|r_1\cos\theta_1(r_2\sin\theta_2 - r_3\sin\theta_3) + r_2\cos\theta_2(r_3
+        \sin\theta_3 - r_1\sin\theta_1) + r_3\cos\theta_3(r_1\sin\theta_1 - r_2\sin\theta_2)|$</m>.
+      </d:para>
+      <d:para>
+          Hence, the area of the triangle is
+          <m>$\Delta = \frac{1}{2}|r_1(r_2\sin\theta_2 - r_3\sin\theta_3)\cos\theta_1 + r_2(r_3\sin\theta_3 - r_1
+          \sin\theta_1)\cos\theta_2 + r_3(r_1\sin\theta_1 - r_2\sin\theta_2)\cos\theta_3|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      <d:para>
+        Let the vertices be <m>$P_1(1, 30^\circ), P_2(2, 60^\circ), P_3(3, 90^\circ)$</m>.
+      </d:para>
+      <d:para>
+        Convert to Cartesian: <m>$P_1 = \left(\frac{\sqrt{3}}{2}, \frac{1}{2}\right), P_2 = (1, \sqrt{3}), P_3
+        = (0, 3)$</m>
+      </d:para>
+      <d:para>
+        Area formula: <m>$\Delta = \frac{1}{2}|(x_1 (y_2 - y_3) + x_2 (y_3 - y_1) + x_3 (y_1 - y_2)|$</m>
+      </d:para>
+      <d:para>
+        Substitute: <m>$\Delta = \frac{1}{2}\left|\frac{\sqrt{3}}{2}(\sqrt{3}-3) + 1 \left(3 -
+        \frac{1}{2}\right) + 0\right| = \frac{1}{2}\left|4 - 3\frac{\sqrt{3}}{2}\right| = 2 -
+        3\frac{\sqrt{3}}{4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      <d:para>
+        Let the vertices be <m>$P_1(-3, 30^\circ), P_2(5, 150^\circ), P_3(7, 210^\circ)$</m>.
+      </d:para>
+      <d:para>
+        Convert to Cartesian coordinates: <m>$P_1 = (-3\cos30^\circ, -3\sin30^\circ) = \left(-3\frac{\sqrt{3}}{2}, -\frac{3}{2}\right),
+        P_2 = (5\cos150^\circ, 5\sin150^\circ) = \left(-5\frac{\sqrt{3}}{2}, \frac{5}{2}\right),$</m><d:sbr/>
+        <m>$P_3 = (7\cos210^\circ, 7\sin210^\circ) = \left(-7\frac{\sqrt{3}}{2}, -\frac{7}{2}\right)$.</m>
+      </d:para>
+      <d:para>
+          Substitute the coordinates:<d:sbr/> <m>$\Delta = \frac{1}{2}\left|\left(-3\frac{\sqrt{3}}{2}\right)
+          \left(\frac{5}{2} - \left(-\frac{7}{2}\right)\right) +
+          \left(-5\frac{\sqrt{3}}{2}\right)\left(\left(-\frac{7}{2}\right) -
+          \left(-\frac{3}{2}\right)\right) +
+          \left(-7\frac{\sqrt{3}}{2}\right)\left(\left(-\frac{3}{2}\right) - \frac{5}{2}\right)\right|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|-9\sqrt{3} + 5\sqrt{3} + 14\sqrt{3}| = 5\sqrt{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      <d:para>
+        Let the vertices be <m>$P_1\left(-a, \frac{\pi}{6}\right), P_2\left(a, \frac{\pi}{2}\right),
+        P_3\left(-2a, \frac{2\pi}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Convert to Cartesian coordinates: <m>$P_1 = \left(-a\cos\frac{\pi}{6}, -a\sin\frac{\pi}{6}\right) =
+        \left(-a\frac{\sqrt{3}}{2}, -\frac{a}{2}\right), P_2 = \left(a\cos\frac{\pi}{2},
+        a\sin\frac{\pi}{2}\right) = (0, a),$</m><d:sbr /> <m>$P_3 = \left(-2a\cos\frac{2\pi}{3},
+        -2a\sin\frac{2\pi}{3}\right) = \left(a, -a\frac{\sqrt{3}}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substitute the coordinates: <d:sbr />
+        <m>$\Delta = \frac{1}{2}\left|\left(-a\frac{\sqrt{3}}{2}\right)\left(a - \left(-a\frac{\sqrt{3}}{2}\right)\right) +
+        0\left(-a\frac{\sqrt{3}}{2} +\frac{a}{2}\right) + a\left(-\frac{a}{2} - a\right)\right|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = = a^2\frac{\sqrt{3}+6}{4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+      <d:para>
+        Let the points be <m>$P_1(a\cos\alpha, a\sin\alpha)$</m> and <m>$P_2(a\cos\beta, a\sin\beta)$</m>.
+      </d:para>
+      <d:para>
+        The distance between two points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is <m>$L = \sqrt{(x_2 -
+        x_1)^2 + (y_2 - y_1)^2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute the coordinates: <m>$L = \sqrt{(a\cos\beta - a\cos\alpha)^2 + (a\sin\beta -
+        a\sin\alpha)^2}$</m>.
+      </d:para>
+      <d:para>
+        Factor out <m>$a$</m> in each term: <m>$L = a\sqrt{(\cos\beta - \cos\alpha)^2 + (\sin\beta -
+        \sin\alpha)^2}$</m>.
+      </d:para>
+      <d:para>
+          Use the identity <m>$(\cos\beta - \cos\alpha)^2 + (\sin\beta - \sin\alpha)^2 = 2 - 2\cos(\beta -
+          \alpha): L = a\sqrt{2 - 2\cos(\beta - \alpha)}$</m>.
+      </d:para>
+      <d:para>
+        Factor 2: <m>$L = a\sqrt{2(1 - \cos(\beta - \alpha))} = a\sqrt{2}\sqrt{1 - \cos(\beta -
+        \alpha)}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      <d:para>
+        Let the points be <m>$P_1(at_1^2, 2at_1)$</m> and <m>$P_2(at_2^2, 2at_2)$</m>.
+      </d:para>
+      <d:para>
+        The distance between two points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is
+        <m>$L = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute the coordinates:
+        <m>$L = \sqrt{(at_2^2 - at_1^2)^2 + (2at_2 - 2at_1)^2}$</m>.
+      </d:para>
+      <d:para>
+        Factor out <m>$a$</m> from the first term and <m>2a</m> from the second term:
+        <m>$L = \sqrt{a^2(t_2^2 - t_1^2)^2 + (2a(t_2 - t_1))^2}$</m>.
+      </d:para>
+      <d:para>
+        Simplify: <m>$(t_2^2 - t_1^2)^2 = (t_2 - t_1)^2 (t_2 + t_1)^2$</m>,
+        <m>$(2a(t_2 - t_1))^2 = 4a^2(t_2 - t_1)^2$</m>.
+      </d:para>
+      <d:para>
+        So <m>$L = \sqrt{a^2(t_2 - t_1)^2(t_2 + t_1)^2 + 4a^2(t_2 - t_1)^2}$</m>.
+      </d:para>
+      <d:para>
+        Factor <m>$a^2(t_2 - t_1)^2: L = \sqrt{a^2(t_2 - t_1)^2((t_2 + t_1)^2 + 4)}$</m>.
+      </d:para>
+      <d:para>
+        Take <m>$a(t_2 - t_1)$</m> out of the square root: <m>$L = a|t_2 - t_1|\sqrt{(t_2 + t_1)^2 +
+        4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <d:para>
+        The equation <m>$x^2 + y^2 = a^2$</m> can be rewritten in polar coordinates.
+        Recall that <m>$x = r\cos\theta$</m> and <m>$y = r\sin\theta$</m>. Substituting, we get:
+      </d:para>
+      <d:para>
+        <m>$x^2 + y^2 = r^2\cos^2\theta + r^2\sin^2\theta = r^2\left(\cos^2\theta + \sin^2\theta\right) = r^2$</m>
+      </d:para>
+      <d:para>
+        Hence, the equation becomes <m>$r^2 = a^2$</m>, or equivalently, <m>$r = a$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      <d:para>
+        Consider the equation <m>$y = x\tan\alpha$</m>. In polar coordinates, we have <m>$x =
+        r\cos\theta$</m> and <m>$y = r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting, we get: <m>$r\sin\theta = r\cos\theta\tan\alpha$</m>
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$r\cos\theta$</m> (assuming <m>$r != 0$</m> and <m>$\cos\theta != 0$</m>),
+        we obtain: <m>$\tan\theta = \tan\alpha$</m>
+      </d:para>
+      <d:para>
+        Hence, in polar coordinates, the equation becomes: <m>$\theta = \alpha + n\pi$</m>, where <m>$n$</m>
+        is any integer.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      <d:para>
+        Consider the equation <m>$x^2 + y^2 = 2ax$</m>. In polar coordinates, <m>$x = r\cos\theta$</m> and
+        <m>$y = r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting these, we get: <m>$r^2\cos^2\theta + r^2\sin^2\theta = 2ar\cos\theta$</m>
+      </d:para>
+      <d:para>
+        Simplifying the left side: <m>$r^2(\cos^2\theta + \sin^2\theta) = r^2 = 2ar\cos\theta$</m>
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$r$</m> (assuming <m>$r != 0$</m>), we obtain: <m>$r = 2 a\cos\theta$</m>
+      </d:para>
+      <d:para>
+        Thus, in polar coordinates, the equation becomes: <m>$r = 2 a\cos\theta$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      <d:para>
+        Consider the equation <m>$x^2 - y^2 = 2ay$</m>.  In polar coordinates, <m>$x = r\cos\theta$</m> and
+        <m>$y = r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting these, we get: <m>$r^2\cos^2\theta - r^2\sin^2\theta = 2ar\sin\theta$</m>
+      </d:para>
+      <d:para>
+        Factor <m>$r^2$</m> on the left: <m>$r^2(\cos^2\theta - \sin^2\theta) = 2ar\sin\theta$</m>
+      </d:para>
+      <d:para>
+        Divide both sides by <m>$r$</m> (assuming <m>$r != 0$</m>): <m>$r(\cos^2\theta - \sin^2\theta) =
+        2a\sin\theta$</m>
+      </d:para>
+      <d:para>
+        Hence, in polar coordinates, the equation becomes: <m>$r = \frac{2a\sin\theta}{\cos^2\theta -
+        \sin^2\theta}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <d:para>
+        Consider the equation <m>$x^2 = y^2(2a - x)$</m>. In polar coordinates, <m>$x = r\cos\theta$</m> and
+        <m>$y = r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting these, we get: <m>$(r\cos\theta)^2 = (r\sin\theta)^2 (2a - r\cos\theta)$</m>
+      </d:para>
+      <d:para>
+        Simplifying both sides: <m>$r^2\cos^2\theta = r^2\sin^2\theta (2a - r\cos\theta)$</m>
+      </d:para>
+      <d:para>
+        Divide both sides by <m>$r^2$</m> (assuming <m>$r != 0$</m>): <m>$\cos^2\theta = \sin^2\theta (2a -
+        r\cos\theta)$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$r: r = \frac{2a\sin^2\theta - \cos^2\theta}{\sin^2\theta\cos\theta}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      <d:para>
+        Consider the equation <m>$(x^2 + y^2)^2 = a^2 (x^2 - y^2)$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$x = r\cos\theta$</m> and <m>$y = r\sin\theta$</m>, we have: <m>$(r^2)^2 =
+        a^2r^2(\cos^2\theta - \sin^2\theta)$</m>
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$r^2: r^2 = a^2(\cos^2\theta - \sin^2\theta)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      <d:para>
+        Given the polar equation <m>$r = a$</m>, we square both sides to obtain <m>$r^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$r^2 = x^2 + y^2$</m>, the Cartesian form is: <m>$x^2 + y^2 = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      <d:para>
+        Given the polar equation <m>$\theta = \tan^{-1}m$</m>, taking the tangent gives: <m>$\tan\theta =
+        m$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\tan\theta = \frac{y}{x}$</m>, we obtain the Cartesian equation: <m>$y = m x$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      <d:para>
+        Given the polar equation <m>$r = a\cos\theta$</m>, multiply both sides by <m>$r: r^2 =
+        ar\cos\theta$</m>
+      </d:para>
+      <d:para>
+        Using <m>$r^2 = x^2 + y^2$</m> and <m>$r\cos\theta = x$</m>, we obtain: <m>$x^2 + y^2 = ax$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      <d:para>
+        Given <m>$r^2 = a^2\sin2\theta$</m>
+      </d:para>
+      <d:para>
+        Using <m>$x = r\cos\theta, y = r\sin\theta$</m>, and <m>$r^2 = x^2 + y^2, sin2\theta =
+        2\sin\theta\cos\theta$</m>
+      </d:para>
+      <d:para>
+        Substituting: <m>$x^2 + y^2 = 2a^2\frac{y}{\sqrt{x^2 + y^2}}.\frac{x}{\sqrt{x^2 + y^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 = \frac{2a^2xy}{x^2 + y^2}$</m>
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$x^2 + y^2: (x^2 + y^2)^2 = 2a^2xy$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      <d:para>
+        Given the polar equation <m>$r^2\sin2\theta = 2a^2$</m>, use the identity <m>$\sin2\theta =
+        2\sin\theta\cos\theta$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$r\sin\theta = y$</m> and <m>$r\cos\theta = x$</m>, we have: <m>$2xy = 2a^2$</m>
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$2$</m> gives the Cartesian equation: <m>$xy = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      <d:para>
+        Given the polar equation <m>$\sqrt{r}\cos\frac{\theta}{2} = \sqrt{a}$</m>, square both sides:
+        <m>$r\cos^2\frac{\theta}{2} = a$</m>
+      </d:para>
+      <d:para>
+        Using <m>$cos^2\frac{\theta}{2} = \frac{1 + \cos\theta}{2}$</m>, we get: <m>$r(1 + \cos\theta) =
+        2a$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\cos\theta = \frac{x}{r}$</m>, this gives: <m>$r + x = 2a$</m>
+      </d:para>
+      <d:para>
+        With <m>$r = \sqrt{x^2 + y^2}$</m>, the Cartesian equation is: <m>$x^2 + y^2 = (2a - x)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <d:para>
+        Given the polar equation <m>$\sqrt{r} = \sqrt{a}\sin\frac{\theta}{2}$</m>, squaring gives: <m>$r =
+        a\sin^2\frac{\theta}{2}$</m>
+      </d:para>
+      <d:para>
+        Using <m>$\sin^2\frac{\theta}{2} = \frac{1 - \cos\theta}{2}$</m>, we obtain: <m>$r = a\frac{1 -
+        \cos\theta}{2}$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$\cos\theta =\frac{x}{r}$</m> and <m>$r^2 = x^2 + y^2$</m> leads to: <m>$\left(x^2 +
+        y^2 + \frac{ax}{2}\right)^2 = a^2 \frac{x^2 + y^2}{4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      <d:para>
+        The polar equation <m>$r(\cos3\theta + \sin3\theta) = 5k\sin\theta\cos\theta$</m> can be converted
+        to Cartesian coordinates using <m>$x = r\cos\theta, y = r\sin\theta$</m> and <m>$r^2 = x^2 +
+        y^2$</m>.
+      </d:para>
+      <d:para>
+        Using the triple-angle formulas <m>$\cos3\theta = 4\cos^3\theta - 3\cos\theta$</m> and
+        <m>$\sin3\theta = 3\sin\theta - 4\sin^3\theta$</m>, we can write:
+      </d:para>
+      <d:para>
+        <m>$\cos3\theta = \frac{4x^3 - 3xr^2}{r^3}$</m> and <m>$\sin3\theta = \frac{3yr^2 - 4y^3}{r^3}$</m>
+      </d:para>
+      <d:para>
+        Adding these gives: <m>$\cos3\theta + \sin3\theta = \frac{4\left(x^3 - y^3\right) + 3r^2(y -
+        x)}{r^3}$</m>
+      </d:para>
+      <d:para>
+        Multiplying both sides of the original equation by <m>$r: r(\cos3\theta + \sin3\theta) =
+        \frac{4\left(x^3 - y^3\right) + 3r^2(y - x)}{r^2}$</m>
+      </d:para>
+      <d:para>
+        The right-hand side <m>$5k\sin\theta\cos\theta$</m> becomes <m>$\frac{5kxy}{r^2}$</m>
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$r^2$</m> to eliminate the denominator: <m>$4\left(x^3 - y^3\right) + 3
+        r^2 (y - x) = 5kxy$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$r^2 = x^2 + y^2$</m> yields the final Cartesian equation: <m>$4\left(x^3 -
+        y^3\right) + 3\left(x^2 + y^2\right)(y - x) = 5kxy$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      <d:para>
+        Distance formula is <m>$\sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2} = d^2$</m>
+      </d:para>
+      <d:para>
+        Substituting given coordinate in the formula: <m>$\sqrt{(a - 3)^2 + (2 - 4)^2} = 8^2$</m>
+      </d:para>
+      <d:para>
+        Simplifying gives us <m>$a = 3 + 2\sqrt{15}$</m> (rejecting negative value for distance).
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      <d:para>
+        Like previous problem substituting the coordinates gives us
+      </d:para>
+      <d:para>
+        <m>$\sqrt{(a + r\cos\theta - a)^2 + (b + r\sin\theta - b)^2} = r^2$</m>, which is independent of <m>$\theta$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 41 -->
+      <d:para>
+        Let the points be <m>$A = (\csc^2\theta, 0)$, $B = (0, \sec^2theta)$</m>, and <m>$C = (1, 1)$</m>.
+      </d:para>
+      <d:para>
+        The distance formula between two points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is: <m>$d =
+        \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$</m>
+      </d:para>
+      <d:para>
+        Compute the distance <m>$AB: AB = \sqrt{(0 - \csc^2theta)^2 + (\sec^2theta - 0)^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \sqrt{(\csc^2\theta)^2 + (\sec^2theta)^2} = \sqrt{\csc^4\theta + \sec^4\theta}$</m>
+      </d:para>
+      <d:para>
+        Compute the distance <m>$BC$</m>:
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(1 - 0)^2 + (1 - \sec^2\theta)^2} = \sqrt{1 + (1 - \sec^2\theta)^2}$</m>
+      </d:para>
+      <d:para>
+        Compute the distance <m>$AC$</m>:
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{(1 - \csc^2theta)^2 + (1 - 0)^2} = \sqrt{(1 - \csc^2\theta)^2 + 1}$</m>
+      </d:para>
+      <d:para>
+        Using the Pythagorean identities: <m>$\csc^2\theta = \frac{1}{\sin^2\theta}$</m> and
+        <m>$\sec^2\theta = \frac{1}{\cos^2\theta}$</m>
+      </d:para>
+      <d:para>
+        Substitute these into the distances and simplify. After simplification, we find that: <m>$AB + BC =
+        AC$</m>
+      </d:para>
+      <d:para>
+        Therefore, the points <m>$A, B, C$</m> are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 42 -->
+      <d:para>
+        Let <m>$P = (x, y), A = (a + b, b - a)$,</m> and <m>$B = (a - b, a + b)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P$M</m> is equidistant from <m>$A$</m> and <m>$B$</m>, we have:
+      </d:para>
+      <d:para>
+        <m>$\sqrt{(x - (a + b))^2 + (y - (b - a))^2} = \sqrt{(x - (a - b))^2 + (y - (a + b))^2}$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides: <m>$(x - (a + b))^2 + (y - (b - a))^2 = (x - (a - b))^2 + (y - (a + b))^2$</m>
+      </d:para>
+      <d:para>
+        Expanding both sides: <m>$(x - a - b)^2 + (y - b + a)^2 = (x - a + b)^2 + (y - a - b)^2$</m>
+      </d:para>
+      <d:para>
+        Expanding each square: <m>$(x - a - b)^2 = x^2 - 2 x (a + b) + (a + b)^2 =>(y - b + a)^2 = y^2 - 2 y
+        (b - a) + (b - a)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (x - a + b)^2 = x^2 - 2 x (a - b) + (a - b)^2 \Rightarrow  (y - a - b)^2 = y^2 - 2 y
+        (a + b) + (a + b)^2$</m>
+      </d:para>
+      <d:para>
+        Adding the terms on each side:
+      </d:para>
+      <d:para>
+        Left: <m>$x^2 + y^2 - 2 x (a + b) - 2 y (b - a) + (a + b)^2 + (b - a)^2$</m>
+      </d:para>
+      <d:para>
+        Right: <m>$x^2 + y^2 - 2 x (a - b) - 2 y (a + b) + (a - b)^2 + (a + b)^2$</m>
+      </d:para>
+      <d:para>
+        Subtracting <m>$x^2 + y^2 + (a + b)^2$</m> from both sides:
+      </d:para>
+      <d:para>
+        <m>$-2x(a + b) - 2y(b - a) + (b - a)^2 = -2x(a - b) - 2y(a + b) + (a - b)^2$</m>
+      </d:para>
+      <d:para>
+        Simplifying <m>$(b - a)^2 = (a - b)^2: -2x(a + b) - 2y(b - a) = -2x(a - b) - 2y(a + b)$</m>
+      </d:para>
+      <d:para>
+        Divide both sides by <m>$-2: x (a + b) + y(b - a) = x (a - b) + y(a + b)$</m>
+      </d:para>
+      <d:para>
+        Bringing all terms to left-hand side: <m>$x(a + b - a + b) + y(b - a - a - b) = 0 \Rightarrow x (2b)
+        + y(-2a) = 0$</m>
+      </d:para>
+      <d:para>
+        Simplifying: <m>$2bx - 2ay = 0$</m>
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$b(x + y): \frac{a - b}{a + b} = \frac{x - y}{x + y}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 43 -->
+      <d:para>
+        Let the points be <m>$A = (3, 4), B = (8, -6),$</m> and <m>$C = (13, 9)$</m>.
+      </d:para>
+      <d:para>
+        Computing the sides: <m>$AB = \sqrt{(8 - 3)^2 + (-6 - 4)^2} = \sqrt{5^2 + (-10)^2} = \sqrt{25 + 100}
+        = \sqrt{125}$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(13 - 8)^2 + (9 - (-6))^2} = \sqrt{5^2 + 15^2} = \sqrt{25 + 225} = \sqrt{250}$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{(13 - 3)^2 + (9 - 4)^2} = \sqrt{10^2 + 5^2} = \sqrt{100 + 25} = \sqrt{125}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AB^2 + AC^2 = BC^2$</m>, the <m>$\triangle ABC$</m> is right-angled at <m>$A$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 44 -->
+      <d:para>
+        Solutions are given below:
+      </d:para>
+      <d:orderedlist>
+        <d:listitem>
+          <d:para>
+            Computing the sides using the distance formula:
+          </d:para>
+          <d:para>
+            <m>$AB = \sqrt{(-\sqrt{3} - 1)^2 + (\sqrt{3} - 1)^2} = 2\sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            <m>$BC = \sqrt{(-1 + \sqrt{3})^2 + (-1 - \sqrt{3})^2} = 2\sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            <m>$AC = \sqrt{(-1 - 1)^2 + (-1 - 1)^2} = 2\sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            Since <m>$AB = BC = AC$</m>, the triangle is <d:emphasis role="italic">equilateral</d:emphasis>.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          <d:para>
+            Let the points be <m>$A = (0, 2), B = (7, 0),$</m> and <m>$C = (2, 5)$</m>.
+          </d:para>
+          <d:para>
+            Computing the sides using the distance formula:
+          </d:para>
+          <d:para>
+            <m>$AB = \sqrt{(7 - 0)^2 + (0 - 2)^2} = \sqrt{49 + 4} = \sqrt{53}$</m>
+          </d:para>
+          <d:para>
+            <m>$BC = \sqrt{(2 - 7)^2 + (5 - 0)^2} = \sqrt{(-5)^2 + 5^2} = \sqrt{25 + 25} = \sqrt{50}$</m>
+          </d:para>
+          <d:para>
+            <m>$AC = \sqrt{(2 - 0)^2 + (5 - 2)^2} = \sqrt{4 + 9} = \sqrt{13}$</m>
+          </d:para>
+          <d:para>
+            No combination satisfies the Pythagoras theorem exactly, so the triangle is not right-angled.
+          </d:para>
+          <d:para>
+            Since all sides are different (<m>$\sqrt{53}, \sqrt{50}, \sqrt{13}$</m>), the triangle is
+            <d:emphasis role="italic">scalene</d:emphasis>.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          <d:para>
+            Let the points be <m>$A = (-2, 5), B = (7, 10),$</m> and <m>$C = (3, -4)$</m>.
+          </d:para>
+          <d:para>
+            Computing the sides using the distance formula:
+          </d:para>
+          <d:para>
+            <m>$AB = \sqrt{(7 - (-2))^2 + (10 - 5)^2} = \sqrt{9^2 + 5^2} = \sqrt{81 + 25} = \sqrt{106}$</m>
+          </d:para>
+          <d:para>
+            <m>$BC = \sqrt{(3 - 7)^2 + (-4 - 10)^2} = \sqrt{(-4)^2 + (-14)^2} = \sqrt{16 + 196} =
+            \sqrt{212}$</m>
+          </d:para>
+          <d:para>
+            <m>$AC = \sqrt{(3 - (-2))^2 + (-4 - 5)^2} = \sqrt{5^2 + (-9)^2} = \sqrt{25 + 81} =
+            \sqrt{106}$</m>
+          </d:para>
+          <d:para>
+            <m>$AB = AC = \sqrt{106}, BC = \sqrt{212}$</m>
+          </d:para>
+          <d:para>
+            Since two sides are equal, the triangle is <d:emphasis role="italic">isosceles</d:emphasis>.
+          </d:para>
+          <d:para>
+            Check for a right angle using the Pythagoras theorem: <m>$AB^2 + AC^2 = 106 + 106 = 212 =
+            BC^2$</m>
+          </d:para>
+          <d:para>
+            Hence, the triangle is <d:emphasis role="italic">right-angled isosceles</d:emphasis> at angle
+            <m>$A$</m>.
+          </d:para>
+        </d:listitem>
+      </d:orderedlist>
+    </d:listitem>
+    <d:listitem>
+      <!-- 45 -->
+      <d:para>
+        Let the point be <m>$P = (a\cos\alpha, a\sin\alpha)$</m> and the origin be <m>$O = (0, 0)$</m>.
+      </d:para>
+      <d:para>
+        The distance formula between two points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is:
+      </d:para>
+      <d:para>
+        <m>$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$</m>
+      </d:para>
+      <d:para>
+        Computing the distance <m>$OP$</m>:
+      </d:para>
+      <d:para>
+        <m>$OP = \sqrt{(a\cos\alpha - 0)^2 + (a\sin\alpha - 0)^2}$</m>
+      </d:para>
+      <d:para>
+        Using the Pythagorean identity <m>$\cos^2\alpha + \sin^2\alpha = 1$:</m>
+      </d:para>
+      <d:para>
+        <m>$OP = \sqrt{a^2 * 1} = \sqrt{a^2} = a$</m>, which is independent of <m>$\alpha$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 46 -->
+      <d:para>
+        Let the points be <m>$A = (6, -1)$</m>, <m>$B = (1, 3)$</m>, and <m>$C = (x, 8)$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$AB = BC$</m>
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(1 - 6)^2 + (3 - (-1))^2} = \sqrt{(-5)^2 + 4^2} = \sqrt{25 + 16} = \sqrt{41}$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(x - 1)^2 + (8 - 3)^2} = \sqrt{(x - 1)^2 + 5^2} = \sqrt{(x - 1)^2 + 25}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \sqrt{41} = \sqrt{(x - 1)^2 + 25}$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides: <m>$41 = (x - 1)^2 + 25 \Rightarrow  (x - 1)^2 = 16$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x - 1 = 4$</m>  or  <m>$x - 1 = -4\Rightarrow x = 5$</m>  or  <m>$x = -3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 47 -->
+      <d:para>
+        Let the points be <m>$A = (1, 5)$</m>, <m>$B = (2, 4)$</m>, and <m>$C = (3, 3)$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(2 - 1)^2 + (4 - 5)^2} = \sqrt{1^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(3 - 2)^2 + (3 - 4)^2} = \sqrt{1^2 + (-1)^2} = \sqrt{1 + 1} = \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{(3 - 1)^2 + (3 - 5)^2} = \sqrt{2^2 + (-2)^2} = \sqrt{4 + 4} = \sqrt{8}$</m>
+      </d:para>
+      <d:para>
+        Check if <m>$AB + BC = AC: AB + BC = \sqrt{2} + \sqrt{2} = \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{8} = 2 \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AB + BC = AC$</m>, the points <m>$A$</m>, <m>$B$</m>, and <m>$C$</m> are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 48 -->
+      <d:para>
+        Let the points be <m>$A = (2a, 4a)$</m>, <m>$B = (2a, 6a)$</m>, <m>$C = (2a + \sqrt{3} a, 5a)$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(2a - 2a)^2 + (6a - 4a)^2} = \sqrt{0 + (2a)^2} = \sqrt{4a^2} = 2a$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(2a + \sqrt{3} a - 2a)^2 + (5a - 6a)^2} = \sqrt{(\sqrt{3} a)^2 + (-a)^2} = \sqrt{3a^2
+        + a^2} =  \sqrt{4a^2} = 2a$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{(2a + \sqrt{3} a - 2a)^2 + (5a - 4a)^2} = \sqrt{(\sqrt{3} a)^2 + (a)^2} = \sqrt{3a^2
+        + a^2} = \sqrt{4a^2} = 2a$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AB = BC = AC = 2a$</m>, all sides are equal.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 49 -->
+      <d:para>
+        Let the points be <m>$O = (0, 0)$</m>, <m>$A = (a, b)$</m>, and <m>$B = (c, d)$</m>.
+      </d:para>
+      <d:para>
+        <m>$OA = \sqrt{(a - 0)^2 + (b - 0)^2} = \sqrt{a^2 + b^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$OB = \sqrt{(c - 0)^2 + (d - 0)^2} = \sqrt{c^2 + d^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(c - a)^2 + (d - b)^2} = \sqrt{(c - a)^2 + (d - b)^2}$</m>
+      </d:para>
+      <d:para>
+        By the cosine law, for triangle <m>$OAB$</m> with angle <m>$\theta$</m> at <m>$O$</m>:
+      </d:para>
+      <d:para>
+        <m>$\cos\theta = \frac{OA^2 + OB^2 - AB^2}{2.OA.OB}$</m>
+      </d:para>
+      <d:para>
+        Substituting the distances:
+      </d:para>
+      <d:para>
+        <m>$\cos\theta = \frac{(a^2 + b^2) + (c^2 + d^2) - ((c - a)^2 + (d - b)^2)}{2\sqrt{a^2 +
+        b^2}\sqrt{c^2 + d^2}}$</m>
+      </d:para>
+      <d:para>
+        Expanding <m>$AB^2 = (c - a)^2 + (d - b)^2 = c^2 - 2ac + a^2 + d^2 - 2bd + b^2 = a^2 + b^2 + c^2 +
+        d^2 - 2(ac + bd)$</m>
+      </d:para>
+      <d:para>
+        Substituting: <m>$\cos\theta = \frac{(a^2 + b^2) + (c^2 + d^2) - (a^2 + b^2 + c^2 + d^2 - 2(ac +
+        bd))}{2\sqrt{a^2 + b^2}\sqrt{c^2 + d^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \cos\theta = \frac{2(ac + bd)}{2\sqrt{a^2 + b^2}\sqrt{c^2 + d^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \cos\theta = \frac{ac + bd}{\sqrt{a^2 + b^2}\sqrt{c^2 + d^2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 50 -->
+      <d:para>
+        Let the vertices be <m>$A = (-2, -3)$</m>, <m>$B = (-1, 0)$</m>, and <m>$C = (7, -6)$</m>.
+      </d:para>
+      <d:para>
+        Let the circumcenter be <m>$O = (x, y)$</m>, which is equidistant from all three vertices:
+      </d:para>
+      <d:para>
+        <m>$\sqrt{(x + 2)^2 + (y + 3)^2} = \sqrt{(x + 1)^2 + y^2}$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides: <m>$(x + 2)^2 + (y + 3)^2 = (x + 1)^2 + y^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + 4x + 4 + y^2 + 6y + 9 = x^2 + 2x + 1 + y^2 \Rightarrow  2x + 6y + 12 = 0
+        \Rightarrow x + 3y + 6 = 0$</m>
+      </d:para>
+      <d:para>
+        Also, <m>>$\sqrt{(x + 1)^2 + y^2} = \sqrt{(x - 7)^2 + (y + 6)^2}$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides: <m>$(x + 1)^2 + y^2 = (x - 7)^2 + (y + 6)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + 2x + 1 + y^2 = x^2 - 14x + 49 + y^2 + 12y + 36$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 16x - 12y - 84 = 0 => 4x - 3y - 21 = 0$</m>
+      </d:para>
+      <d:para>
+        Solving the system: From <m>$x + 3y + 6 = 0$</m>, we get <m>$x = -3y - 6$</m>
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy1">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/1_1.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Substitute into <m>$4x - 3y - 21 = 0: 4(-3y - 6) - 3y - 21 = 0 \Rightarrow -15y - 45 = 0 \Rightarrow
+        y = -3$</m>
+      </d:para>
+      <d:para>
+        Then <m>$x = -3(-3) - 6 = $3</m>
+      </d:para>
+      <d:para>
+        Thus, the circumcenter is <m>$O = (3, -3)$</m>
+      </d:para>
+      <d:para>
+        The circumradius is: <m>$R = \sqrt{(3 - (-2))^2 + (-3 - (-3))^2} = \sqrt{5^2 + 0^2} = 5$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 51 -->
+      <d:para>
+        The diagram is given below:
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy2">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/1_2.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let <m>$PQ = QR = RP = r$</m> and <m>$\angle PQX = \theta$</m> then <m>$\angle RQX = 60^\circ +
+        \theta$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$PL = a, RN = 1$></m>.
+      </d:para>
+      <d:para>
+        We take <m>$Q$</m> as the pole and <m>$QX$</m> as the initial line. Polar coordinates of <m>$P$</m>
+        and <m>$R$</m> will be <m>$(r, \theta)$</m> and <m>$(r, \theta + 60^\circ)$</m>, respectively.
+      </d:para>
+      <d:para>
+        Now <m>$r\sin\theta = y$</m>, coordinate of <m>$P = a$</m> and <m>$rsin(60^\circ + \theta) = y$</m>,
+        coordinate of <m>$R = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  r(\sin60^\circ\cos\theta + \cos60^\circ\sin\theta) = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  r(\frac{\sqrt{3}}{2}\sqrt{1 - \frac{a^2}{r^2}} + \frac{1}{2}.\frac{a}{r}) = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow r = \frac{2}{\sqrt{3}}\sqrt{a^2 - a + 1}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 52 -->
+      <d:para>
+        Let <m>$A = (3, 4)$</m> and <m>$C = (1, -1)$</m> be opposite vertices of the square. Let <m>$B = (x,
+        y)$</m> and <m>$D = (x', y')$</m> be the other two vertices.
+      </d:para>
+      <d:para>
+        The center of the square is the midpoint of <m>$AC: O = \left(\frac{3 + 1}{2}, \frac{4 +
+        (-1)}{2}\right) = \left(2, \frac{3}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        In a square, the distances from the center to all vertices are equal: <m>$(x - 2)^2 + \left(y -
+        \frac{3}{2}\right)^2 = (3 - 2)^2 + \left(4 - \frac{3}{2}\right)^2 = \frac{29}{4}$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$B$</m> and <m>$D$</m> lie on a line through <m>$O$</m> that is perpendicular to
+        <m>$AC$</m>. Using the fact that diagonals of a square are equal and perpendicular, we solve:
+      </d:para>
+      <d:para>
+        <m>$(x - 2)^2 + \left(-\frac{2}{5} x + \frac{23}{10} - \frac{3}{2}\right)^2 = \frac{29}{4}$</m>
+      </d:para>
+      <d:para>
+        Solving this quadratic gives: <m>$x = \frac{9}{2}, y = \frac{1}{2}$</m> and <m>$x = -\frac{1}{2}, y
+        = \frac{5}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, the remaining vertices are: <m>$B = \left(\frac{9}{2}, \frac{1}{2}\right), D =
+        \left(-\frac{1}{2}, \frac{5}{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 53 -->
+      <d:para>
+        Given <m>$A = (-4, 0)$</m> and <m>$B = (-1, 4)$</m>, points <m>$C$</m> and <m>$D$</m> are symmetric
+        about the <m>$y$</m>-axis: <m>$C = (4, 0)$</m> and <m>$D = (1, 4)$</m>
+      </d:para>
+      <d:para>
+        The trapezium is <m>$ABCD$</m>, with vertices in order <m>$A, B, D, C$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(-1 - (-4))^2 + (4 - 0)^2} = \sqrt{3^2 + 4^2} = \sqrt{9 + 16} = 5$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(1 - (-1))^2 + (4 - 4)^2} = \sqrt{2^2 + 0^2} = 2$</m>
+      </d:para>
+      <d:para>
+        <m>$CD = \sqrt{(1 - 4)^2 + (4 - 0)^2} = \sqrt{(-3)^2 + 4^2} = \sqrt{9 + 16} = 5$</m>
+      </d:para>
+      <d:para>
+        <m>$DA = \sqrt{(4 - (-4))^2 + (0 - 0)^2} = \sqrt{8^2 + 0^2} = 8$</m>
+      </d:para>
+      <d:para>
+        Perimeter of trapezium: <m>$P = AB + BC + CD + DA = 5 + 2 + 5 + 8 = 20$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 54 -->
+      <d:para>
+        Given <m>$A = (4, -1)$</m>, let <m>$B$</m> be the reflection of <m>$A$</m> across <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        Reflection across <m>$y = x$</m> swaps the coordinates: if <m>$A = (x, y)$</m>, then <m>$B = (y,
+        x)$</m>. Thus <m>$B = (-1, 4)$</m>.
+      </d:para>
+      <d:para>
+        Distance <m>$AB: AB = \sqrt{(-1 - 4)^2 + (4 - (-1))^2} = 5 \sqrt{2}$</m>.Given <m>$A = (4, -1)$</m>,
+        let <m>$B$</m> be the reflection of <m>$A$</m> across <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        Reflection across <m>$y = x$</m> swaps the coordinates: if <m>$A = (x, y)$</m>, then <m>$B = (y,
+        x)$</m>. Thus <m>$B = (-1, 4)$</m>.
+      </d:para>
+      <d:para>
+        Distance <m>$AB: AB = \sqrt{(-1 - 4)^2 + (4 - (-1))^2} = 5\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 55 -->
+      <d:para>
+        Given <m>$A = (2, 0)$</m> and <m>$B = (2 + \sqrt{3}, 1)$</m>. Rotate <m>$B$</m> about <m>$A$</m> by
+        <m>$15^\circ$</m> anticlockwise.
+      </d:para>
+      <d:para>
+        Rotation formula about <m>$A$</m>:
+      </d:para>
+      <d:para>
+        <m>$x' = A_x + (B_x - A_x)\cos15^\circ - (B_y - A_y)\sin15^\circ, y' = A_y + (B_x - A_x)
+        \sin15^\circ + (B_y - A_y)\cos15^\circ$</m>
+      </d:para>
+      <d:para>
+        <m>$(B_x - A_x, B_y - A_y) = \left(\sqrt{(3}, 1\right)$, $cos15^\circ = \frac{\sqrt{6} +
+        \sqrt{2}}{4}$</m>, <m>$sin15^\circ = \frac{\sqrt{6} - \sqrt{2}}{4}$</m>
+      </d:para>
+      <d:para>
+        <m>$x' = 2 + \sqrt{3}\frac{\sqrt{6} + \sqrt{2}}{4} - 1\frac{\sqrt{6} - \sqrt{2}}{4} = \frac{11 +
+        \sqrt{2}}{4}, y' = 0 + \sqrt{3}\frac{\sqrt{6} - \sqrt{2}}{4} + 1\frac{\sqrt{6} + \sqrt{2}}{4} =
+        \frac{3 + \sqrt{2}}{4}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$C = \left(\frac{11 + \sqrt{2}}{4}, \frac{3 + \sqrt{2}}{4}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 56 -->
+      <d:para>
+        Given point <m>$P = (1, -2)$</m>. Reflecting <m>$P$</m> in the <m>$x$</m>-axis: <m>$P' = (1, 2)$</m>
+        (the <m>$y$</m>-coordinate changes sign)
+      </d:para>
+      <d:para>
+        Translate <m>$P'$</m> parallel to the positive <m>$x$</m>-axis by <m>$3$</m> units: <m>$P'' = (1 +
+        3, 2) = (4, 2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 57 -->
+      <d:para>
+        Given <m>$A = (3, 0)$</m> and <m>$B = (5, 2)$</m>.
+      </d:para>
+      <d:para>
+        Segment from <m>$A$</m> to <m>$B: (B_x - A_x, B_y - A_y) = (5 - 3, 2 - 0) = (2, 2)$</m>
+      </d:para>
+      <d:para>
+        Rotating this segment about <m>$A$</m> by <m>$45^\circ$</m> anticlockwise:
+      </d:para>
+      <d:para>
+        <m>$x_C = A_x + (B_x - A_x)\cos45^\circ - (B_y - A_y)\sin45^\circ, y_C = A_y + (B_x -
+        A_x)\sin45^\circ + (B_y - A_y)\cos45^\circ$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\cos45^\circ = \sin45^\circ = \frac{1}{\sqrt{2}}$, $x_C = 3 + 2\frac{1}{\sqrt{2}} -
+        2\frac{1}{\sqrt{2}} = 3 + 0 = 3$</m>
+      </d:para>
+      <d:para>
+        <m>$y_C = 0 + 2\frac{1}{\sqrt{2}} + 2\frac{1}{\sqrt{2}} = 0 + 2\frac{1}{\sqrt{2}} +
+        2\frac{1}{\sqrt{2}} = 2\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        So <m>$C = \left(3, 2\sqrt{2}\right)$</m>. Reflecting <m>$C$</m> in the <m>$y$</m>-axis: <m>$D =
+        (-x_C, y_C) = \left(-3, 2\sqrt{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 58 -->
+      <d:para>
+        Let <m>$A(5,-2)$</m> and <m>$B(9,6)$</m>.
+      </d:para>
+      <d:para>
+        For a point dividing the line segment joining <m>$A(x_1,y_1)$</m> and <m>$B(x_2,y_2)$</m> in the
+        ratio <m>$m:n$</m>:
+      </d:para>
+      <d:para>
+        Internal division formula is <m>$\left(\frac{mx_2 + nx_1}{m + n}, \frac{my_2 + ny_1}{m + 1}\right)$</m>.
+      </d:para>
+      <d:para>
+        External division formula is <m>$\left(\frac{mx_2 - nx_1}{m - n}, \frac{my_2 - ny_1}{m - n}\right)$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$m=3$</m> and <m>$n=1$</m>.
+      </d:para>
+      <d:para>
+        Internal division point is <m>$\left(\frac{3.9 + 1.5}{4}, \frac{3.6 + 1.(-2)}{4}\right) = (8,
+        4)$</m>.
+      </d:para>
+      <d:para>
+        External division point is <m>$\left(\frac{3.9 - 1.5}{2}, \frac{3.6 - 1.(-2)}{2}\right) = (11,
+        10)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 59 -->
+      <d:para>
+        The roots of <m>$x^2 + 4x + 3 = 0$</m> are <m>$-3$</m> and <m>$-1$</m>. Since <m>$x_B &lt; x_C$</m>,
+        we have <m>$x_B=-3$</m> and <m>$x_C=-1$</m>.
+      </d:para>
+      <d:para>
+        The roots of <m>$x^2 - x - 6 = 0$</m> are <m>$3$</m> and <m>$-2$</m>. Since <m>$y_B &gt; y_C$</m>, we have
+        <m>$y_B=3$</m> and <m>$y_C=-2$</m>.
+      </d:para>
+      <d:para>
+        So the coordinates are <m>$B(-3,3)$</m>, <m>$C(-1,-2)$</m>, and <m>$A(3,-5)$</m>.
+      </d:para>
+      <d:para>
+        Now, <m>$BC = \sqrt{(-1 + 3)^2 + (-2 -3)^2} = \sqrt{4 + 25}=\sqrt{29}$</m>,
+      </d:para>
+      <d:para>
+        <m>$CA = \sqrt{(3 + 1)^2 + (-5 + 2)^2} = \sqrt{16+9} = 5$</m>,
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(3 + 3)^2 + (-5 -3)^2}=\sqrt{36+64} = 10$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$a = BC= \sqrt{29}$</m>, <m>$b = CA = 5$</m>, and <m>$c = AB = 10$</m>.
+      </d:para>
+      <d:para>
+        The length of the internal angle bisector at <m>$A$</m> is <m>$l_a=\frac{\sqrt{bc((b+c)^2-a^2)}}{b
+        + c}$</m>.
+      </d:para>
+      <d:para>
+        Substituting values, <m>$l_a=\frac{\sqrt{5.10(15^2 - 29)}}{15} = \frac{\sqrt{50.196}}{15}
+        =\frac{14\sqrt{2}}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 60 -->
+      <d:para>
+        Let the points be <m>$A(4,3)$</m> and <m>$B(6,3)$</m>. Let <m>$P(2,y)$</m> divide <m>$AB$</m> in the
+        ratio <m>$m:n$</m>.
+      </d:para>
+      <d:para>
+        Using the section formula for the <m>$x$</m>-coordinate, <m>$2 = \frac{6m + 4n}{m + n}$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$2m + 2n = 6m + 4n \Rightarrow  4m + 2n = 0 \Rightarrow  m:n = -1:2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the point divides the line segment externally in the ratio <m>$1:2$</m>.
+      </d:para>
+      <d:para>
+        Now using the <m>$y$</m>-coordinate formula, <m>$y = \frac{3m + 3n}{m + n} \Rightarrow  y = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 61 -->
+      <d:para>
+        The given points are <m>$A(-2,3)$</m>, <m>$B(8,9)$</m>, <m>$C(0,4)$</m> and <m>$D(3,0)$</m>.
+      </d:para>
+      <d:para>
+        Let the lines <m>$AB$</m> and <m>$CD$</m> intersect at point <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$AB$</m> in parametric form is <m>$x = -2 + 10t$</m>, <m>$y = 3 + 6t$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$CD$</m> in parametric form is <m>$x = 3s$</m>, <m>$y = 4 - 4s$</m>.
+      </d:para>
+      <d:para>
+        At the point of intersection, <m>$-2 + 10t = 3s \Rightarrow 3 + 6t = 4 - 4s$</m>.
+      </d:para>
+      <d:para>
+        From the first equation, <m>$s = \frac{-2 + 10t}{3}$</m>.
+      </d:para>
+      <d:para>
+        Substituting in the second equation, <m>$3 + 6t = 4 - 4\frac{-2 + 10t}{3} \Rightarrow  t =
+        \frac{11}{58}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$AP : PB = t : (1 - t) = (11 / 58) : (47 / 58) = 11 : 47$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 62 -->
+      <d:para>
+        Let <m>$A_1(x_1,y_1), A_2(x_2,y_2), A_3(x_3,y_3), \ldots, A_n(x_n,y_n)$</m> be <m>$n$</m> points.
+      </d:para>
+      <d:para>
+        <m>$A_1A_2$</m> is bisected at <m>$G_1$</m>, so <m>$G_1 = \left(\frac{x_1 + x_2}{2} , \frac{y_1 +
+        y_2}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$G_1A_3$</m> is divided at <m>$G_2$</m> in the ratio <m>$1:2$</m>, hence <m>$G_2 =
+        \left(\frac{1.x_3 + 2.x.G_1}{3} , \frac{1.y_3 + 2.y.G_1}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of <m>$G_1$</m>, <m>$G_2 = \left(\frac{x_1 + x_2 + x_3}{3} , \frac{y_1
+        + y_2 + y_3}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$G_2A_4$</m> is divided at <m>$G_3$</m> in the ratio <m>$1:3$</m>, so <m>$G_3 =
+        \left(\frac{1.x_4 + 3.x.G_2}{4} , \frac{1.y_4 + 3.y.G_2}{4}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of <m>$G_2$</m>, <m>$G_3 = \left(\frac{x_1 + x_2 + x_3 + x_4}{4} ,
+        \frac{y_1 + y_2 + y_3 + y_4}{4}\right)$</m>.
+      </d:para>
+      <d:para>
+        Proceeding similarly, after dividing <m>$G_{n-2}A_n$</m> at <m>$G_{n-1}$</m> in the ratio
+        <m>$1:(n-1)$</m>, we get
+      </d:para>
+      <d:para>
+        <m>$G_{n-1} = \left(\frac{x_1 + x_2 + \cdots + x_n}{n} , \frac{y_1 + y_2 + \cdots + y_n}{n}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 63 -->
+      <d:para>
+        Let the straight line be <m>$ax + by + c = 0$</m> and let it intersect the line joining
+        <m>$A(x_1,y_1)$</m> and <m>$B(x_2,y_2)$</m> at the point <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Suppose <m>$P$</m> divides <m>$AB$</m> in the ratio <m>$m:n$</m>.
+      </d:para>
+      <d:para>
+        Then, by the section formula, the coordinates of <m>$P$</m> are <m>$x = \frac{mx_2 + nx_1}{m + n}$
+        and $y = \frac{my_2 + ny_1}{m + n}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> lies on the line <m>$ax + by + c = 0$</m>, we have <m>$a\frac{mx_2 + nx_1}{m + n} +
+        b\frac{my_2 + ny_1}{m + n} + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$(m + n), m(ax_2 + by_2 + c) + n(ax_1 + by_1 + c) = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$m(ax_2 + by_2 + c) = -n(ax_1 + by_1 + c)$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$m:n = -(ax_1 + by_1 + c):(ax_2 + by_2 + c)$</m>.
+      </d:para>
+      <d:para>
+        The negative sign means that the quantities <m>$ax_1 + by_1 + c$</m> and <m>$ax_2 + by_2 + c$</m>
+        are of opposite signs.
+      </d:para>
+      <d:para>
+        Geometrically, this implies that the points <m>$A(x_1,y_1)$</m> and <m>$B(x_2,y_2)$</m> lie on
+        opposite sides of the line <m>$ax + by + c = 0$</m>.
+      </d:para>
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>
