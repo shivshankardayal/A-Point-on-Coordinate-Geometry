@@ -1443,5 +1443,551 @@
         opposite sides of the line <m>$ax + by + c = 0$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 64 -->
+      <d:para>
+        Let the line <m>$L$</m> intersect <m>$BC$</m> at <m>$P$</m>, <m>$CA$</m> at <m>$Q$</m>, and
+        <m>$AB$</m> at <m>$R$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line <m>$L$</m> may be written as <m>$ax + by + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> lies on <m>$BC$</m>, by the result for division of a line by a straight line,
+        $\frac{BP}{PC} = -\frac{ax_2 + by_2 + c}{ax_3 + by_3 + c}$.
+      </d:para>
+      <d:para>
+        Similarly, since <m>$Q$</m> lies on <m>$CA, \frac{CQ}{QA} = -\frac{ax_3 + by_3 + c}{ax_1 + by_1 +
+        c}$</m>.
+      </d:para>
+      <d:para>
+        And since <m>$R$</m> lies on <m>$AB, \frac{AR}{RB} = -\frac{ax_1 + by_1 + c}{ax_2 + by_2 + c}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the three ratios, we get <m>$\frac{BP}{PC}.\frac{CQ}{QA}.\frac{AR}{RB}$</m><d:sbr/><m>$= -\frac{(ax_2 +
+        by_2 + c)(ax_3 + by_3 + c)(ax_1 + by_1 + c)}{(ax_3 + by_3 + c)(ax_1 + by_1 + c)(ax_2 + by_2 + c)} =
+        -1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 65 -->
+      <d:para>
+        The vertices of the triangle are <m>$A = (x_1, x_1\tan\alpha)$</m>, <m>$B = (x_2,
+        x_2\tan\beta)$</m>, <m>$C = (x_3, x_3\tan\gamma)$</m>.
+      </d:para>
+      <d:para>
+        Since the circumcenter is at the origin, we have <m>$x_1^2 + (x_1\tan\alpha)^2 = x_2^2 +
+        (x_2\tan\beta)^2 = x_3^2 + (x_3\tan\gamma)^2$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$x_1\sec\alpha = x_2\sec\beta = x_3\sec\gamma = R$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the orthocenter <m>$H\left(\overline{x}, \overline{y}\right)$</m> are
+        <m>$\overline{x} = x_1 + x_2 + x_3$</m>, <m>$\overline{y} = x_1\tan\alpha + x_2\tan\beta +
+        x_3\tan\gamma$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_i = R\cos\theta_i$</m>, we get <m>$\overline{x} = R(\cos\alpha + \cos\beta +
+        \cos\gamma)$</m>, <m>$\overline{y} = R(\cos\alpha\tan\alpha + \cos\beta\tan\beta +
+        \cos\gamma\tan\gamma) = R(\sin\alpha + \sin\beta + \sin\gamma)$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$\frac{\overline{y}}{\overline{x}} = \frac{\sin\alpha + \sin\beta +
+        \sin\gamma}{\cos\alpha + \cos\beta + \cos\gamma}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 66 -->
+      <d:para>
+        The vertices of the triangle are <m>$A\left(\alpha, \frac{1}{\alpha}\right)$</m>, <m>$B\left(\beta,
+        \frac{1}{\beta}\right)$</m>, and <m>$C\left(\gamma, \frac{1}{\gamma}\right)$</m>, where
+        <m>$\alpha$</m>, <m>$\beta$</m>, and <m>$\gamma$</m> are the roots of <m>$x^3 - 3px^2 + 3qx - 1 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The centroid of the triangle is <m>$G = \left(\frac{\alpha + \beta + \gamma}{3},
+        \frac{\frac{1}{\alpha} + \frac{1}{\beta} + \frac{1}{\gamma}}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\alpha + \beta + \gamma = 3p$</m> and <m>$\frac{1}{\alpha} + \frac{1}{\beta} +
+        \frac{1}{\gamma} = \frac{\beta\gamma + \gamma\alpha + \alpha\beta}{\alpha\beta\gamma} = 3q$</m>, we
+        have
+      </d:para>
+      <d:para>
+        <m>$G = (p, q)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 67 -->
+      <d:para>
+        Let the points be <m>$A(at^2, 2at)$</m>, <m>$B\left(\frac{a}{t^2}, -\frac{2a}{t}\right)$</m>, and
+        <m>$C(a, 0)$</m>.
+      </d:para>
+      <d:para>
+        The distance between <m>$A$</m> and <m>$C$</m> is <m>$AC = \sqrt{\left(at^2 - a\right)^2 + (2at -
+        0)^2} = a\left(t^2 + 1\right)$</m>
+      </d:para>
+      <d:para>
+        The distance between <m>$B$</m> and <m>$C$</m> is <m>$BC = \sqrt{\left(\frac{a}{t^2} - a\right)^2 +
+        \left(-\frac{2a}{t} - 0\right)^2} = a\frac{t^2 + 1}{t^2}$</m>
+      </d:para>
+      <d:para>
+        Then <m>$\frac{1}{AC} + \frac{1}{BC} = \frac{1}{a\left(t^2 + 1\right)} + \frac{t^2}{a\left(t^2 +
+        1\right)} = \frac{1}{a}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$\frac{1}{AC} + \frac{1}{BC}$</m> is independent of $t$.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 68 -->
+      <d:para>
+        Let <m>$A = (0,0)$</m>, <m>$B = \left(3, \sqrt{3}\right)$</m>, and <m>$C = (x,y)$</m>. <m>$AB =
+        2\sqrt{3}$</m>, so <m>$AC = BC = 2\sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        From distances: <m>$x^2 + y^2 = 12$</m>, <m>$(x-3)^2 + \left(y - \sqrt{3}\right)^2 = 12$</m>.
+      </d:para>
+      <d:para>
+        Simplifying gives <m>$y = 2\sqrt{3} - \sqrt{3}x$</m>.
+      </d:para>
+      <d:para>
+        Substituting in <m>$x^2 + y^2 = 12: x^2 + \left(2\sqrt{3} - \sqrt{3}x\right)^2 = 12 \Rightarrow
+        4x(x - 3) = 0 \Rightarrow  x = 0$</m> or <m>$3$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$y = 2\sqrt{3}$</m> or <m>$y = -\sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$C = \left(0, 2\sqrt{3}\right)$</m> or <m>$C = \left(3, -\sqrt{3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 69 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$A(-2, 3)$</m>, <m>$B(2, -1)$</m>, <m>$C(4, 0)$</m>.
+      </d:para>
+      <d:para>
+        The circumcenter <m>$(x, y)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$x = \frac{\left(x_1^2 + y_1^2\right)(y_2 - y_3) + \left(x_2^2 + y_2^2\right)(y_3 - y_1) +
+        \left(x_3^2 + y_3^2\right)(y_1 - y_2)}{2(x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2))}$</m>
+      </d:para>
+      <d:para>
+        <m>$y = \frac{\left(x_1^2 + y_1^2\right)(x_3 - x_2) + \left(x_2^2 + y_2^2\right)(x_1 - x_3) +
+        \left(x_3^2 + y_3^2\right)(x_2 - x_1)}{2 (x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2))}$</m>
+      </d:para>
+      <d:para>
+        Denominator: <m>$D = 2((-2)(-1 - 0) + 2(0 - 3) + 4(3 - (-1))) = 24$</m>
+      </d:para>
+      <d:para>
+        <m>$x = ((-2^2 + 3^2)(-1 - 0) + (2^2 + (-1)^2)(0 - 3) + (4^2 + 0^2)(3 - (-1))) / 24 = 1.5$</m>
+      </d:para>
+      <d:para>
+        <m>$y = ((-2^2 + 3^2)(4 - 2) + (2^2 + (-1)^2)(-2 - 4) + (4^2 + 0^2)(2 - (-2))) / 24 = 2.5$</m>
+      </d:para>
+      <d:para>
+        Hence the circumcenter is <m>$O(1.5, 2.5)$</m>.
+      </d:para>
+      <d:para>
+        The circumradius is the distance from <m>$O$</m> to any vertex, say <m>$A$</m>:
+      </d:para>
+      <d:para>
+        <m>$R = \sqrt{(1.5 - (-2))^2 + (2.5 - 3)^2} = \sqrt{3.5^2 + (-0.5)^2} = \sqrt{12.25 + 0.25} =
+        \sqrt{12.5} = \frac{5}{\sqrt{2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 70 -->
+      <d:para>
+        Given <m>$A = (1, 1)$</m>, <m>$B = (4, 5)$</m>, and <m>$C = (6, 13)$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(4 - 1)^2 + (5 - 1)^2} = \sqrt{9 + 16} = 5$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{(6 - 1)^2 + (13 - 1)^2} = \sqrt{25 + 144} = 13$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(6 - 4)^2 + (13 - 5)^2} = \sqrt{4 + 64} = \sqrt{68}$</m>
+      </d:para>
+      <d:para>
+        Using cosine law at angle <m>$A: \cos A = \frac{AB^2 + AC^2 - BC^2}{2AB.AC}$</m>
+      </d:para>
+      <d:para>
+        <m>$\cos A = \frac{25 + 169 - 68}{2.5.13} = \frac{63}{65}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 71 -->
+      <d:para>
+        The given points are <m>$\left(3, \frac{\pi}{4}\right)$</m> and <m>$\left(7,
+        \frac{5\pi}{4}\right)$</m>.
+      </d:para>
+      <d:para>
+        Distance between two points in polar coordinates is: <m>$d^2 = r_1^2 + r_2^2 -
+        2.r_1.r_2.\cos(\theta_2 - \theta_1)$</m>
+      </d:para>
+      <d:para>
+        Here, <m>$r_1 = 3$</m>, <m>$r_2 = 7$</m> and <m>$\theta_2 - \theta_1 = \frac{5\pi}{4} -
+        \frac{\pi}{4} = \pi$</m>. Now <m>$\cos\pi = -1$</m>
+      </d:para>
+      <d:para>
+        Substituting: <m>$d^2 = 3^2 + 7^2 - 2.3.7.(-1)$ $ \Rightarrow d^2 = 9 + 49 + 42 = 100 \Rightarrow d
+        = \sqrt{100} = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 72 -->
+      <d:para>
+        Given <m>$A = (2, 4)$</m> and <m>$B = (2, 6)$</m>. Length <m>$AB = \sqrt{(2 - 2)^2 + (6 - 4)^2} = 2$</m>.
+      </d:para>
+      <d:para>
+        Midpoint of <m>$AB: M = \left(\frac{2 + 2}{2} , \frac{4 + 6}{2}\right) = (2, 5)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AB$</m> is vertical, the equilateral triangle lies horizontally. Height of an equilateral
+        triangle with side <m>$2$</m> is: <m>$h = \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        The origin <m>$(0, 0)$</m> lies to the left of line <m>$x = 2$</m>, so the vertex opposite to the
+        origin lies to the right.
+      </d:para>
+      <d:para>
+        Hence, <m>$P = \left(2 + \sqrt{3}, 5\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 73 -->
+      <d:para>
+        Given points in polar coordinates: <m>$A = (2, 45^\circ)$</m>, <m>$B = \left(\sqrt{2},
+        90^\circ\right)$</m>, and <m>$C = (-2, 135^\circ)$</m>.
+      </d:para>
+      <d:para>
+        Converting to cartesian coordinates using   <m>$x = r\cos\theta$</m> and <m>$y = r\sin\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$A = (2\cos45^\circ, 2\sin45^\circ) = \left(\sqrt{2}, \sqrt{2}\right)$</m>, <m>$B =
+        \left(\sqrt{2}\cos90^\circ, \sqrt{2}\sin90^\circ\right) = \left(0, \sqrt{2}\right)$</m>, and <m>$C =
+        (-2\cos135^\circ, -2\sin135^\circ) = \left(\sqrt{2}, -\sqrt{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Finding squares of side lengths using distance formula: <m>$AB^2 = \left(0 - \sqrt{2}\right)^2 +
+        \left(\sqrt{2} - \sqrt{2}\right)^2 = 2$</m>
+      </d:para>
+      <d:para>
+        <m>$AC^2 = \left(\sqrt{2} - \sqrt{2}\right)^2 + \left(-\sqrt{2} - \sqrt{2}\right)^2 = 8$</m>
+      </d:para>
+      <d:para>
+        <m>$BC^2 = \left(\sqrt{2} - 0\right)^2 + \left(-\sqrt{2} - \sqrt{2}\right)^2 = 10$</m>
+      </d:para>
+      <d:para>
+        <m>$AB^2 + AC^2 = 2 + 8 = 10 = BC^2$</m>. And hence, the triangle is a right-angled triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 74 -->
+      <d:para>
+        Let <m>$A = (2, 4)$</m> and <m>$B = (6, 8)$</m>.
+      </d:para>
+      <d:para>
+        Internal division in the ratio <m>$1:3: x = \frac{1.6 + 3.2}{1 = 3} = \frac{12}{4} = 3$</m>, and
+        <m>$y = \frac{1.8 + 3.4}{1 + 3} = \frac{20}{4} = 5$</m>
+      </d:para>
+      <d:para>
+        So, the point of internal division is <m>$(3, 5)$</m>.
+      </d:para>
+      <d:para>
+        External division in the ratio <m>$1:3: x = \frac{1.6 - 3.2}{1 - 3} = \frac{0}{-2} = 0$</m>, and
+        <m>$y = \frac{1.8 - 3.4}{1 - 3} = \frac{-4}{-2}(-4) / (-2) = 2$</m>
+      </d:para>
+      <d:para>
+        So, the point of external division is <m>$(0, 2)$</m>.
+      </d:para>
+      </d:listitem>
+      <d:listitem>
+        <!-- 75 -->
+        <d:para>The solutions are given below:</d:para>
+        <d:orderedlist>
+          <d:listitem>
+            <d:para>
+              Let <m>$A = (1, -2)$</m> and <m>$B = (-3, 4)$</m>. The trisection points divide the line
+              internally in the ratios <m>$1:2$</m> and <m>$2:1$</m>.
+            </d:para>
+            <d:para>
+              First point (ratio <m>$1:2$</m>): <m>$x =\frac{1.-3 + 2.1}{1 + 2} = \frac{-3 +
+              2}{3} = -\frac{1}{3}$</m>, and <m>$y = \frac{1.4 + 2.-2}{1 + 2} = 0$</m>
+            </d:para>
+            <d:para>
+              So, the first trisection point is <m>$(-1/3, 0)$</m>.
+            </d:para>
+            <d:para>
+              Second point (ratio <m>$2:1$</m>): <m>$x = \frac{2.-3 + 1.1}{2 + 1} = \frac{-6 + 1}{3} =
+              -\frac{5}{3}$</m>, and <m>$y = \frac{2.4 + 1.-2}{2 + 1} = \frac{8 - 2}{3} = 2$</m>
+            </d:para>
+            <d:para>
+              So, the second trisection point is <m>$(-5/3, 2)$</m>.
+            </d:para>
+          </d:listitem>
+          <d:listitem>
+            <d:para>
+              Let <m>$A = (2, 3)$</m> and <m>$B = (6, 5)$</m>. The trisection points divide the line
+              internally in the ratios <m>$1:2$</m> and <m>$2:1$</m>.
+            </d:para>
+            <d:para>
+              First point (ratio <m>$1:2$</m>): <m>$x = \frac{1.6 + 2.2}{1 + 2} = \frac{10}{3}$</m>, and <m>$y
+              = \frac{1.5 + 2.3}{1 + 2} = \frac{11}{3}$</m>
+            </d:para>
+            <d:para>
+              So, the first trisection point is <m>$(10/3, 11/3)$</m>.
+            </d:para>
+            <d:para>
+              Second point (ratio <m>$2:1$</m>): <m>$x = \frac{2.6 + 1.2}{2 + 1} = \frac{14}{3}$</m>, and
+              <m>$y = \frac{2.5 + 1.3}{2 + 1} = \frac{13}{3}$</m>
+            </d:para>
+            <d:para>
+              So, the second trisection point is <m>$(14/3, 13/3)$</m>.
+            </d:para>
+          </d:listitem>
+        </d:orderedlist>
+    </d:listitem>
+    <d:listitem>
+      <!-- 76 -->
+      <d:para>
+        Let <m>$A = (1, 1)$</m> and <m>$B = (2, -3)$</m>. Point <m>$D$</m> lies on <m>$AB$</m> produced such
+        that <m>$AD = 3AB$</m>.
+      </d:para>
+      <d:para>
+        The ratio of division for external point <m>$D$</m> is <m>$A:B = 3:-1$</m>.
+      </d:para>
+      <d:para>
+        Coordinates of <m>$D$</m> using external division: <m>$x_D = \frac{3.2 - 1.1}{3 - 1} = \frac{5}{2}$,
+        and $y_D = \frac{3.-3 - 1.1}{3 - 1} = -5$</m>
+      </d:para>
+      <d:para>
+        So, the coordinates of $D$ are <m>$(5/2, -5)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 77 -->
+      <d:para>
+        Let the points be <m>$A = (3, 4)$</m> and <m>$B = (k, 7)$</m>.
+      </d:para>
+      <d:para>
+        Midpoint <m>$M = (x, y)$</m> is given by: <m>$x = \frac{3 + k}{2}$</m>, and <m>$y = \frac{4 + 7}{2}
+        = \frac{11}{2}$</m>
+      </d:para>
+      <d:para>
+        The line passing through <m>$M$</m> satisfies: <m>$2x + 2y + 1 = 0$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$x$</m> and <m>$y: 2.\frac{3 + k}{2} + 2.\frac{11}{2} + 1 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  (3 + k) + 11 + 1 = 0 \Rightarrow k + 15 = 0\Rightarrow k = -15$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 78 -->
+      <d:para>
+        Let one end of the diameter be <m>$A = (2, 3)$</m> and the center be <m>$O = (-2, 5)$</m>. Let the
+        other end be <m>$B = (x, y)$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of <m>$AB$</m> is the center <m>$O$</m>, so <m>$O_x = \frac{A_x + B_x}{2}$</m>, <m>$O_y
+        = \frac{A_y + B_y}{2}$</m>
+      </d:para>
+      <d:para>
+        Substituting the known values: <m>$-2 = \frac{2 + x}{2} \Rightarrow 2 + x = -4 \Rightarrow x =
+        -6$</m>
+      </d:para>
+      <d:para>
+        <m>$5 = \frac{3 + y}{2} \Rightarrow 3 + y = 10 \Rightarrow y = 7$</m>
+      </d:para>
+      <d:para>
+        Thus, the coordinates of the other end of the diameter are: <m>$B = (-6, 7)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      <d:para>
+        Let the vertices be <m>$A = (-1, 3)$</m>, <m>$B = (1, -1)$</m>, <m>$C = (5, 1)$</m>.
+      </d:para>
+      <d:para>
+        Median from <m>$A$</m> to midpoint of <m>$BC$</m>: Midpoint of <m>$BC$</m>: <m>$M_a = \left(\frac{1
+        + 5}{2}, \frac{-1 + 1}{2}\right) = \left(\frac{6}{2}, \frac{0}{2}\right) = (3, 0)$</m>
+      </d:para>
+      <d:para>
+        Length of median <m>$AM_a: AM_a = \sqrt{(3 - (-1))^2 + (0 - 3)^2} = \sqrt{4^2 + (-3)^2} = \sqrt{16
+        + 9} = \sqrt{25} = 5$</m>
+      </d:para>
+      <d:para>
+        Median from <m>$D$</m> to midpoint of <m>$AC$</m>: Midpoint of <m>$AC: M_b = \left(\frac{-1 +
+        5}{2}, \frac{3 + 1}{2}\right) = \left(\frac{4}{2}, \frac{4}{2}\right) = (2, 2)$</m>
+      </d:para>
+      <d:para>
+        Length of median <m>$BM_b: BM_b = \sqrt{(2 - 1)^2 + (2 - (-1))^2} = \sqrt{1^2 + 3^2} = \sqrt{1 + 9}
+        = \sqrt{10}$</m>
+      </d:para>
+      <d:para>
+        Median from <m>$C$</m> to midpoint of <m>$AB$</m>: Midpoint of <m>$AB: M_c = \left(\frac{-1 + 1}{2},
+        \frac{3 + (-1)}{2}\right) = (0, 1)$</m>
+      </d:para>
+      <d:para>
+        Length of median <m>$CM_c: CM_c = \sqrt{(0 - 5)^2 + (1 - 1)^2} = \sqrt{(-5)^2 + 0^2} = \sqrt{25} =
+        5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 80 -->
+      <d:para>
+        Let <m>$A = (2, 5)$</m>, <m>$C = (-1, 2)$</m>, and <m>$B = (x, y)$</m>. Point <m>$C$</m> divides
+        <m>$AB$</m> in the ratio <m>$3:4$</m>.
+      </d:para>
+      <d:para>
+        Using section formula for internal division:
+      </d:para>
+      <d:para>
+        <m>$C_x = \frac{4.2 + 3.x}{3 + 4} \Rightarrow -1 = \frac{8 + 3.x}{7}\Rightarrow 8 + 3.x = -7
+        \Rightarrow 3.x = -15 \Rightarrow x = -5$</m>
+      </d:para>
+      <d:para>
+        <m>$C_y = \frac{4.5 + 3.y}{3 + 4} \Rightarrow  2 = \frac{20 + 3y}{7} \Rightarrow 20 + 3.y = 14
+        \Rightarrow 3.y = -6 \Rightarrow y = -2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 81 -->
+      <d:para>
+        Let <m>$A = (3, 4)$</m>, <m>$B = (7, 7)$</m>, <m>$C = (x, y)$</m> with <m>$B$</m> between <m>$A$</m>
+        and <m>$C$</m>.
+      </d:para>
+      <d:para>
+        Distance <m>$AB = \sqrt{(7 - 3)^2 + (7 - 4)^2} = 5$</m>. Distance <m>$AC = 10 \Rightarrow BC = AC -
+        AB = 5$</m>
+      </d:para>
+      <d:para>
+        Since <m>$B$</m> divides <m>$AC$</m> internally in the ratio <m>$AB:BC = 5:5 = 1:1$</m>.
+      </d:para>
+      <d:para>
+        Use section formula for internal division: <m>$B_x = \frac{x + 3}{2} \Rightarrow 7 = \frac{x + 3}{2}
+        \Rightarrow x = 11$</m>, and <m>$B_y = \frac{y + 4}{2} \Rightarrow 7 = \frac{y + 4}{2} \Rightarrow y
+        = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 82 -->
+      <d:para>
+        Let <m>$A = (2, -2)$</m>, <m>$B = (-4, 1)$</m>, and <m>$P = (-8, 3)$</m> divides <m>$AB$</m> in the
+        ratio <m>$k:1$</m>.
+      </d:para>
+      <d:para>
+        Using section formula: <m>$P_x = \frac{k.(-4) + 1.2}{k + 1} \Rightarrow -8 = \frac{-4k + 2}{k + 1}$</m>
+      </d:para>
+      <d:para>
+        Multiply both sides by <m>$(k + 1): -8.(k + 1) = -4k + 2 \Rightarrow -8k - 8 = -4k + 2 \Rightarrow
+        -8k + 4k = 2 + 8 \Rightarrow -4k = 10 \Rightarrow k = -5/2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 83 -->
+      <d:para>
+        Let <m>$A = (2, -3)$</m>, <m>$B = (5, 6)$</m>, and <m>$P = (x, 0)$</m> be the point where the line
+        meets the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Suppose <m>$P$</m> divides <m>$AB$</m> in the ratio <m>$k:1$</m>. Using section formula for
+        <m>$y$</m>-coordinate:
+      </d:para>
+      <d:para>
+        <m>$0 = \frac{k.6 + 1.(-3)}{k + 1} \Rightarrow 0 = \frac{6k - 3}{k + 1}\Rightarrow 6k - 3 = 0
+        \Rightarrow 6k = 3 \Rightarrow k = 1/2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 84 -->
+      <d:para>
+        Let <m>$C = (-1, 2)$</m>, <m>$D = (4, -5)$</m>, and <m>$P$</m> be the intersection of line
+        <m>$AB$</m> with <m>$CD$</m>. Suppose <m>$P$</m> divides <m>$CD$</m> in the ratio <m>$m:n$</m>.
+      </d:para>
+      <d:para>
+        <m>$P_x = \frac{-n + 4m}{m + n}$</m>, <m>$P_y = \frac{2n - 5n}{m  + n}$</m>
+      </d:para>
+      <d:para>
+        Line <m>$AB: X = 15t, Y = -1 + 3t$</m>
+      </d:para>
+      <d:para>
+        Equating coordinates: <m>$15t = \frac{-n + 4m}{m + n}$</m>, and <m>$-1 + 3t = \frac{2n - 5m}{m +
+        n}$</m>
+      </d:para>
+      <d:para>
+        Eliminate <m>$t: \frac{-n + 4m}{15} = \frac{-4m + 3n}{3} \Rightarrow  24m = 16n \Rightarrow  m:n =
+        2:3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 85 -->
+      <d:para>
+        Let <m>$A = (1, 2)$</m>, <m>$B = (-2, 3)$</m>, and <m>$P = (x, y)$</m> be the point where
+        <m>$AB$</m> meets the line <m>$3x + 4y = 7$</m>.
+      </d:para>
+      <d:para>
+        Suppose <m>$P$</m> divides <m>$AB$</m> in the ratio <m>$k:1$</m>.
+      </d:para>
+      <d:para>
+        Coordinates of <m>$P$</m> using section formula: <m>$x = \frac{k.(-2) + 1.1}{k + 1} = \frac{-2k +
+        1}{k + 1}$</m>, and <m>$y = \frac{k.3 + 1.2}{k + 1} = \frac{3k + 2}{k + 1}$</m>
+      </d:para>
+      <d:para>
+        Substituting into the line equation <m>$3x + 4y = 7: 3.\frac{-2k + 1}{k + 1} + 4.\frac{3k + 2}{k +
+        1} = 7$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{-6k + 3 + 12k + 8}{k + 1} = 7 \Rightarrow \frac{6k + 11}{k + 1} = 7$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 6k + 11 = 7.(k + 1) \Rightarrow 6k + 11 = 7k + 7 \Rightarrow k = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 86 -->
+      <d:para>
+        Let <m>$A = (3, -1)$</m>, <m>$B = (8, 9)$</m>, and <m>$P = (x, y)$</m> be the point where the line
+        <m>$y - x + 2 = 0$</m> meets <m>$AB$</m>. Suppose <m>$P$</m> divides <m>$AB$</m> in the ratio
+        <m>$k:1$</m>.
+      </d:para>
+      <d:para>
+        Coordinates of <m>$P$</m> using section formula: <m>$x = \frac{k.8 + 1.3}{k + 1} = \frac{8k + 3}{k +
+        1}$</m>, and <m>$y = \frac{k.9 + 1.(-1)}{k + 1} = \frac{9k - 1}{k + 1}$</m>
+      </d:para>
+      <d:para>
+        Substituting into the line equation <m>$y - x + 2 = 0: \frac{9k - 1}{k + 1} - \frac{8k + 3}{k + 1} +
+        2 = 0$</m>
+      </d:para>
+      <d:para>
+        Combining terms: <m>$\frac{9k - 1 -8k - 3}{k + 1} + 2 = 0 \Rightarrow \frac{k - 4}{k + 1} + 2 =
+        0$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{k - 4 + 2(k + 1)}{k + 1} = 0 \Rightarrow k = \frac{2}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 87 -->
+      <d:para>
+        Let <m>$A = (5, -4)$</m>, <m>$B = (3, -2)$</m>, and <m>$P$</m> divides <m>$AB$</m> in the ratio
+        <m>$4:3$</m>.
+      </d:para>
+      <d:para>
+        Coordinates of <m>$P$</m> using section formula: <m>$x = \frac{3.5 + 4.3}{4 + 3} = \frac{15 + 12}{7}
+        = \frac{27}{7}$</m>, and <m>$y = \frac{3.-4 + 4.-2}{4 + 3} = -\frac{20}{7}$</m>.
+      </d:para>
+      <d:para>
+        Distance of <m>$P$</m> from origin: <m>$OP = \sqrt{(27/7)^2 + (-20/7)^2} = \sqrt{729/49 + 400/49} =
+        \sqrt{1129/49} = \sqrt{1129}/7$.</m>
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>
