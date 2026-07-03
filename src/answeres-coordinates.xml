@@ -1989,5 +1989,202 @@
         \sqrt{1129/49} = \sqrt{1129}/7$.</m>
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 88 -->
+      <d:para>
+        Let the vertices be <m>$A(x_1, y_1)$</m>, <m>$B(x_2, y_2)$</m>, <m>$C(x_3, y_3)$</m>.
+      </d:para>
+      <d:para>
+        Midpoints of sides: <m>$M_{AB} = (1, 1)$</m>, <m>$M_{BC} = (2, 3)$</m>, <m>$M_{CA} = (4, 1)$</m>
+      </d:para>
+      <d:para>
+        Midpoint formula: <m>$M_{AB} = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right) = (1, 1)
+        \Rightarrow x_1 + x_2 = 2, y_1 + y_2 = 2$</m>
+      </d:para>
+      <d:para>
+        <m>$M_{BC} = \left(\frac{x_2 + x_3}{2}, \frac{y_2 + y_3}{2}\right) = (2, 3) \Rightarrow x_2 + x_3 =
+        4, y_2 + y_3 = 6$</m>
+      </d:para>
+      <d:para>
+        <m>$M_{CA} = \left(\frac{x_3 + x_1}{2}, \frac{y_3 + y_1}{2}\right) = (4, 1) \Rightarrow x_3 + x_1 =
+        8, y_3 + y_1 = 2$</m>
+      </d:para>
+      <d:para>
+        Solving for $x$-coordinates: <m>$x_1 + x_2 = 2, x_2 + x_3 = 4, x_3 + x_1 = 8$</m>
+      </d:para>
+      <d:para>
+        Adding first two: <m>$x_1 + 2x_2 + x_3 = 6$</m>
+      </d:para>
+      <d:para>
+        Subtracting third: <m>$(x_1 + 2x_2 + x_3) - (x_3 + x_1) = 6 - 8 \Rightarrow 2x_2 - x_3 = -2
+        \Rightarrow x_3 = 2x_2 + 2$</m>
+      </d:para>
+      <d:para>
+        From <m>$x_2 + x_3 = 4\Rightarrow x_2 + 2x_2 + 2 = 4 \Rightarrow 3x_2 = 2 \Rightarrow x_2 = 2/3$</m>
+        Then <m>$x_3 = 2.(2/3) + 2 = 10/3$</m>, <m>$x_1 = 2 - x_2 = 4/3$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$y$</m>-coordinates: <m>$y_1 + y_2 = 2, y_2 + y_3 = 6, y_3 + y_1 = 2$</m>
+      </d:para>
+      <d:para>
+        Adding first two: <m>$y_1 + 2y_2 + y_3 = 8$</m>
+      </d:para>
+      <d:para>
+        Subtracting third: <m>$(y_1 + 2y_2 + y_3) - (y_3 + y_1) = 8 - 2 \Rightarrow 2y_2 = 6 \Rightarrow y_2
+        = 3$</m>
+      </d:para>
+      <d:para>
+        Then <m>$y_1 = 2 - 3 = -1, y_3 = 2 - y_1 = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 89 -->
+      <d:para>
+        The solutions are given below:
+      </d:para>
+      <d:orderedlist>
+        <d:listitem>
+          <d:para>
+            Let <m>$A = (2, 4)$</m>, <m>$B = (6, 4)$</m>, <m>$C = (2, 0)$</m>.
+          </d:para>
+          <d:para>
+            Centroid <m>$G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>
+          </d:para>
+          <d:para>
+            <m>$G = \left(\frac{2 + 6 + 2}{3}, \frac{4 + 4 + 0}{3}\right) = (10/3, 8/3)$</m>
+          </d:para>
+          <d:para>
+            Side lengths: <m>$AB = \sqrt{(6 - 2)^2 + (4 - 4)^2} = \sqrt{16} = 4$</m>,
+          </d:para>
+          <d:para>
+            <m>$BC = \sqrt{(6 - 2)^2 + (4 - 0)^2} = \sqrt{16 + 16} = \sqrt{32} = 4\sqrt{2}$</m> and
+          </d:para>
+          <d:para>
+            <m>$CA = \sqrt{(2 - 2)^2 + (0 - 4)^2} = \sqrt{16} = 4$</m>.
+          </d:para>
+          <d:para>
+            Incenter formula: <m>$I = \left(\frac{ax_1 + bx_2 + cx_3}{a + b + c}, \frac{ay_1 + by_2 +
+            cy_3}{a + b + c}\right)$</m>
+          </d:para>
+          <d:para>
+            Here, <m>$a = BC = 4\sqrt{2}$</m>, <m>$b = CA = 4$</m>, <m>$c = AB = 4$</m>
+          </d:para>
+          <d:para>
+            <m>$x$</m>-coordinate: <m>$I_x = \frac{a.2 + b.6 + c.2}{a + b + c} = \frac{4\sqrt{2}.2 + 4.6 +
+            4.2}{4\sqrt{2} + 4 + 4}$</m>
+          </d:para>
+          <d:para>
+            <m>$I_x = \frac{8\sqrt{2} + 24}{4\sqrt{2} + 8}$</m>
+          </d:para>
+          <d:para>
+            <m>$y$</m>-coordinate: <m>$I_y = \frac{a.4 + b.4 + c.0}{a + b + c} = (16\sqrt{2} +
+            16)/(4\sqrt{2} + 8)$.</m>
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          <d:para>
+            Let <m>$A = (1, 2)$</m>, <m>$B = (2, 3)$</m>, <m>$C = (3, 4)$</m>.
+          </d:para>
+          <d:para>
+            Centroid <m>$G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>
+          </d:para>
+          <d:para>
+            <m>$G = \left(\frac{1 + 2 + 3}{3}, \frac{2 + 3 + 4}{3}\right) = (6/3, 9/3) = (2, 3)$</m>
+          </d:para>
+          <d:para>
+            Side lengths: <m>$AB = \sqrt{(2 - 1)^2 + (3 - 2)^2} = \sqrt{1 + 1} = \sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            <m>$B C = \sqrt{(3 - 2)^2 + (4 - 3)^2} = \sqrt{1 + 1} = \sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            <m>$CA = \sqrt{(3 - 1)^2 + (4 - 2)^2} = \sqrt{4 + 4} = \sqrt{8} = 2\sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            Incenter formula: <m>$I = \left(\frac{ax_1 + bx_2 + cx_3}{a + b + c}, \frac{ay_1 + by_2 +
+            cy_3}{a + b + c}\right)$</m>
+          </d:para>
+          <d:para>
+            Let <m>$a = BC = \sqrt{2}$</m>, <m>$b = CA = 2\sqrt{2}$</m>, <m>$c = AB = \sqrt{2}$</m>
+          </d:para>
+          <d:para>
+            <m>$x$</m>-coordinate: <m>$I_x = \frac{a.1 + b.2 + c.3}{a + b + c} = \frac{\sqrt{2} +
+            2\sqrt{2}.2 + \sqrt{2}.3}{\sqrt{2} + 2\sqrt{2} + \sqrt{2}}$</m>
+          </d:para>
+          <d:para>
+            <m>$I_x = \frac{\sqrt{2} + 4\sqrt{2} + 3\sqrt{2}}{(4\sqrt{2}}= 2$</m>
+          </d:para>
+          <d:para>
+            <m>$y$</m>-coordinate: <m>$I_y = \frac{a.2 + 2.3 + a.4}{a + b  + c} = \frac{2\sqrt{2} +
+            6\sqrt{2} + 4\sqrt{2}}{4\sqrt{2}} = 3$</m>
+          </d:para>
+        </d:listitem>
+      </d:orderedlist>
+    </d:listitem>
+    <d:listitem>
+      <!-- 90 -->
+      <d:para>
+        Let <m>$A = (-1, 4)$</m>, <m>$B = (5, 2)$</m>, <m>$C = (x, y)$</m>, and centroid <m>$G = (0,
+        -3)$</m>.
+      </d:para>
+      <d:para>
+        Centroid formula: <m>$G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{x}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$x$</m>-coordinate: <m>$0 = \frac{-1 + 5 + x}{3} \Rightarrow 4 + x = 0 \Rightarrow x = -4$</m>
+      </d:para>
+      <d:para>
+        <m>$y$</m>-coordinate: <m>$-3 = \frac{4 + 2 + y}{3} \Rightarrow 6 + y = -9 \Rightarrow y = -15$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 91 -->
+      <d:para>
+        Let <m>$A = (1, 4)$</m>, <m>$B = (4, 8)$</m>, and <m>$P$</m> divides <m>$AB$</m> externally in the
+        ratio <m>$m:1$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$AP = 10$</m> and <m>$AB = \sqrt{(4 - 1)^2 + (8 - 4)^2} = \sqrt{9 + 16} = 5$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AP = AB + BP$</m>, <m>$P$</m> divides <m>$AB$</m> externally i.e. ratio <m>$m:1 = 2:1$</m>
+      </d:para>
+      <d:para>
+        Coordinates of <m>$P$</m> using external division formula: <m>$x = \frac{m.4 - 1}{m - 1} = \frac{2.4
+        - 1}{2 - 1} = 7$</m>, and <m>$y = \frac{m.8 - 4}{m - 1} = \frac{2.8 - 4}{2 - 1} = 12$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 92 -->
+      <d:para>
+        Let <m>$A = (3, 4), B = (-4, 3), C = (8, 6)$</m>.
+      </d:para>
+      <d:para>
+        Area formula: <m>$\Delta = \frac{1}{2}\left|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 -
+        y_2)\right|$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{1}{2}|3.(3 - 6) + (-4).(6 - 4) + 8.(4 - 3)| = 9/2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 93 -->
+      <d:para>
+        Let the vertices be <m>$A(-3, 2), B(7, -6), C(-5, -4), D(5, 4)$</m>, taken in order.
+      </d:para>
+      <d:para>
+        Area formula for quadrilateral: <m>$Delta = \frac{1}{2}\left|x_1y_2 + x_2y_3 + x_3y_4 + x_4y_1 -
+        (y_1x_2 + y_2x_3 + y_3x_4 + y_4x_1)\right|$</m>
+      </d:para>
+      <d:para>
+        Substituting values: <m>$S_1 = (-3).(-6) + 7.(-4) + (-5).4 + 5.2 = 18 - 28 - 20 + 10 = -20$</m>
+      </d:para>
+      <d:para>
+        <m>$S_2 = 2.7 + (-6).(-5) + (-4).5 + 4.(-3) = 14 + 30 - 20 - 12 = 12$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = (1/2) |-20 - 12| = (1/2).32 = 16$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>
