@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-locus/index.html" ?>
+  <d:title>Answers of locus</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      <d:para>
+        We take the two perpendicular lines as axes of the coordinates. Let <m>$(x, y)$</m> be any point
+        satisfying the given condition. According to condition <m>$x + y = a$</m>.
+      </d:para>
+      <d:para>
+        This is the relation which connects the coordinates of any point on the locus is the equation to the
+        locus.
+      </d:para>
+      <d:para>
+        In the next chapter we will study that it is an equation of a straight line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      <d:para>
+        Let <m>$(x, y)$</m> be any position of the moving point. By given condition from the question we
+        have
+      </d:para>
+      <d:para>
+        <m>$(x - a)^2 + y^2 + (x + a)^2 + y^2 = 2c^2 \Rightarrow x^2 + y^2 = c^2 - a^2$</m>
+      </d:para>
+      <d:para>
+        This is the relation between coordinates of each and every point that satisfies the given condition,
+        and is the equation to required locus.
+      </d:para>
+      <d:para>
+        The equation tells us that the square of distance of the point <m>$(x, y)$</m> from the origin is
+        constant and equal to <m>$c^2 - a^2$</m>, and therefore, the locus of the point is a circle whose
+        center is origin and radius is <m>$\sqrt{c^2 - a^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      <d:para>
+        Let the point be <m>$P(x, y)$</m>. According to question
+      </d:para>
+      <d:para>
+        <m>$\sqrt{(x + 1)^2 + y^2} = 3\sqrt{x^2 + (y - 2)^2} \Rightarrow (x + 1)^2 + y^2 = 9(x^2 + (y - 2)^2)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  8(x^2 + y^2) - 2x - 36y + 35 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      <d:para>
+        Let the point be <m>$P(x, y)$</m>. Given that <m>$PA^2 - PB^2 = 2k^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (x - a)^2 + y^2 - (x + a)^2 - y^2 = 2k^2 \Rightarrow -4ax = 2k^2 \Rightarrow 2ax + k^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      <d:para>
+        Given that <m>$PA = nPB \Rightarrow PA^2 = n^2PB^2 \Rightarrow (x - a)^2 + y^2 = n^2[(x + a)^2 + y^2]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (n^2 - 1)(x^2 + y^2 + a^2) + 2ax(n^2 + 1) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      <d:para>
+        Given that <m>$PA + PB = c \Rightarrow \sqrt{(x - a)^2 + y^2} + \sqrt{(x + a)^2 + y^2} = c$</m>
+      </d:para>
+      <d:para>
+        Squaring, <m>$\Rightarrow (x - a)^2 + y^2 + (x + a)^2 + y^2 + 2\sqrt{(x - a)^2 + y^2} \sqrt{(x +
+        a)^2 + y^2} = c^2$</m>
+      </d:para>
+      <d:para>
+        Squaring again, <m>$\Rightarrow 4x^2(c^2 - 4a^2) + 4c^2y^2 = c^4 - 4a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      <d:para>
+        Given that <m>$PB^2 + PC^2 = 2PA^2 \Rightarrow (x + a)^2 + y^2 + (x - c)^2 + y^2 = 2[(x - a)^2 +
+        y^2]$</m>
+      </d:para>
+      <d:para>
+        Simplifying gives us <m>$(6a - 2c)x = a^2 - c^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point in question. Its distance from <m>$y$</m>-axis would be
+        <m>$x$</m>. Thus, according to question
+      </d:para>
+      <d:para>
+        <m>$(x - 1)^2 + (y - 2)^2 = x^2 \Rightarrow y^2 - 4y - 2x + 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point in question, then according to the question
+      </d:para>
+      <d:para>
+        <m>$(x - 1)^2 + y^2 = x^2 + (y + 2)^2 \Rightarrow -2x + 1 = 4y + 4 \Rightarrow 2x + 4y + 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point in question, then according to the question
+      </d:para>
+      <d:para>
+        <m>$(x - 2)^2 + (y - 3)^2 = (x - 4)^2 + (y - 5)^2 \Rightarrow 4x + 4y = 28 \Rightarrow x + y =
+        7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point in question, then according to the question
+      </d:para>
+      <d:para>
+        <m>$(x - a - b)^2 + (y - a + b)^2 = (x - a + b)^2 + (y - a - b)^2 \Rightarrow x = y$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      <d:para>
+        Distance from <m>$x$</m>-axis is <m>$y$</m> and distance from <m>$y$</m>-axis is <m>$x$</m>, then
+        according to the question <m>$y = 3x$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      <d:para>
+        <m>$(x - a)^2 + y^2 = 4^2.x^2 \Rightarrow 15x^2 - y^2 + 2ax = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      <d:para>
+        According to question, <m>$x + y = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      <d:para>
+        According to question, <m>$x^2 + (y - 2)^2 = 4 \Rightarrow x^2 + y^2 - 4y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      <d:para>
+        According to question, <m>$(x - 3)^2 + y^2 = 3^2[x^2 + (y - 2)^2] \Rightarrow 8x^2 + 8y^2 + 6x - 36y
+        + 27 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      <d:para>
+        <m>$y = \frac{1}{2}\sqrt{x^2 + y^2} \Rightarrow x^2 = 3y^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      <d:para>
+        Let the fixed straight line be parallel to the <m>$x$</m>-axis, and let the fixed point be the
+        origin <m>$O(0,0)$</m>.
+      </d:para>
+      <d:para>
+        Since the fixed point is at a perpendicular distance <m>$a$</m> from the line, and the line is
+        parallel to the <m>$x$</m>-axis, its equation must be <m>$y = a$</m>.
+      </d:para>
+      <d:para>
+        We consider moving point as <m>$P(x, y)$</m>.
+      </d:para>
+      <d:para>
+        Its distance from origin is <m>$\sqrt{x^2 + y^2}$</m>. Its distance from fixed line is <m>$|y -
+        a|$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x^2 + y^2 = (y - a)^2 => x^2 + 2ay = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      <d:para>
+        From given condition <m>$(x^2 + y^2) = \frac{1}{4}(y - a)^2 \Rightarrow 4x^2 + 3y^2 + 2ay = a^2$</m>
+        and <m>$\frac{1}{4}(x^2 + y^2) = (y - a)^2 \Rightarrow x^2 - 3y^2 + 8ay = 4a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      <d:para>
+        Let <m>$P = (x, y)$</m>, then <m>$x = a\cos\theta, y = b\sin\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$\cos\theta = \frac{x}{a}, \sin\theta = \frac{y}{b} \Rightarrow \frac{x^2}{a^2} + \frac{y^2}{b^2}
+        = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the required point, then according to the question
+      </d:para>
+      <d:para>
+        <m>$\sqrt{x^2 + (y - 2)^2} + \sqrt{x^2 + (y + 2)^2} = 6 \Rightarrow 9x^2 + 5y^2 = 45$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      <d:para>
+        Let <m>$AB = 2a$</m>, where <m>$A$</m> is <m>$(-a, 0)$</m> and <m>$B$</m> is <m>$(a, 0)$</m>. Let
+      <m>$P(x, y)$</m> be the moving point. Then according to the question
+      </d:para>
+      <d:para>
+        <m>$AP^2 + PB^2 = AB^2 \Rightarrow (x + a)^2 + y^2 + (x - a)^2 + y^2 = 4a^2 \Rightarrow x^2 + y^2 = a^2$</m>.
+      </d:para>
+      <d:figure xml:id="dummy21">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/A2_1.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        <d:emphasis role="bold">Tip:</d:emphasis> The obtained equation is a circle(we will see this in
+        later chapters) which is evident because from diameters the angle on any point on the perimeter is a
+        right angle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

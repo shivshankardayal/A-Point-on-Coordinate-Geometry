@@ -2173,7 +2173,7 @@
         Let the vertices be <m>$A(-3, 2), B(7, -6), C(-5, -4), D(5, 4)$</m>, taken in order.
       </d:para>
       <d:para>
-        Area formula for quadrilateral: <m>$Delta = \frac{1}{2}\left|x_1y_2 + x_2y_3 + x_3y_4 + x_4y_1 -
+        Area formula for quadrilateral: <m>$\Delta = \frac{1}{2}\left|x_1y_2 + x_2y_3 + x_3y_4 + x_4y_1 -
         (y_1x_2 + y_2x_3 + y_3x_4 + y_4x_1)\right|$</m>
       </d:para>
       <d:para>
@@ -2184,6 +2184,1205 @@
       </d:para>
       <d:para>
         <m>$\Delta = (1/2) |-20 - 12| = (1/2).32 = 16$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 94 -->
+      <d:para>
+        Let <m>A = (6, 3), B = (-3, 5), C = (4, -2), P = (x, y)</m>.
+      </d:para>
+      <d:para>
+        Area of a triangle with vertices <m>$(X_1, Y_1), (X_2, Y_2), (X_3, Y_3)$</m>:
+        <m>$\Delta = \frac{1}{2}|X_1.(Y_2 - Y_3) + X_2.(Y_3 - Y_1) + X_3.(Y_1 - Y_2)|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta ABC = \frac{1}{2}|6.(5 - (-2)) + (-3).(-2 - 3) + 4.(3 - 5)| = \frac{49}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta PBC = \frac{1}{2}|x.(5 - (-2)) + (-3).(-2 - y) + 4.(y - 5)| = \frac{7}{2}|x + y - 2|$</m>
+      </d:para>
+      <d:para>
+        Now, ratio: <m>$\frac{\Delta PBC}{\Delta ABC} = \frac{|x + y - 2|}{7}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 95 -->
+      <d:para>
+        Let <m>$A = (3, 3), B = (h, 0), C = (0, k)$</m>.
+      </d:para>
+      <d:para>
+        Points are collinear if the area of <m>$\triangle ABC$</m> is <m>$0: \Delta ABC = \frac{1}{2}|x_1.(y_2 -
+        y_3) + x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$</m>
+      </d:para>
+      <d:para>
+        Substituting values: <m>$\Delta ABC = \frac{1}{2}|3.(0 - k) + h.(k - 3) + 0.(3 - 0)| =
+        \frac{1}{2}|h.k - 3.h - 3.k|$</m>
+      </d:para>
+      <d:para>
+        For collinearity, <m>$\Delta ABC = 0 \Rightarrow h.k - 3.h - 3.k = 0$</m>
+      </d:para>
+      <d:para>
+        Divide by <m>$h.k$</m> (<m>$h != 0, k != 0$</m>): <m>$1 - \frac{3}{k} - \frac{3}{h} = 0 \Rightarrow
+        \frac{1}{h} + \frac{1}{k} = \frac{1}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 96 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1)$</m>, <m>$B = (x_2, y_2)$</m>, <m>$C = (x_3, y_3)$</m>. Let <m>$(x, y)$</m>
+        be a point on the internal bisector of <m>$\angle A$</m>. Let <m>$AB = c$</m>, <m>$AC = b$</m>.
+      </d:para>
+      <d:para>
+        The area of a triangle can be expressed using the determinant: <m>$\Delta(X, Y, Z) =
+        \begin{vmatrix}X_x &amp; X_y &amp; 1\\ Y_x &amp; Y_y &amp;1\\ Z_x &amp; Z_y &amp;
+        1\end{vmatrix}$</m>
+      </d:para>
+      <d:para>
+        Let <m>$\Delta PAB = \begin{vmatrix}x &amp; y &amp; 1\\ x_1 &amp; y_1 &amp; 1\\ x_2 &amp; y_2 &amp;
+        1\end{vmatrix}$</m> and
+        let <m>$\Delta PAC = \begin{vmatrix}x &amp; y &amp; 1\\ x_1 &amp; y_1 &amp; 1\\ x_3 &amp; y_3 &amp;
+        1\end{vmatrix}$</m>
+      </d:para>
+      <d:para>
+        By the angle bisector theorem, a point on the bisector divides the opposite side in the ratio of
+        adjacent sides: <m>$\frac{BP}{PC} = \frac{AB}{AC} = \frac{c}{b}$</m>
+      </d:para>
+      <d:para>
+        The signed areas satisfy the same ratio: <m>$\frac{\Delta PAB}{\Delta PAC} = - \frac{PC}{PB} = -
+        \frac{b}{c}$</m>
+      </d:para>
+      <d:para>
+        Cross multiplying: <m>$b.\Delta PAB + c. \Delta PAC = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 97 -->
+      <d:para>
+        Let the points be: <m>$P(a) = \left(\frac{a^3}{a - 1}, \frac{a^2 - 3}{a - 1}\right), Q(b) =
+        \left(\frac{b^3}{b - 1}, \frac{b^2 - 3}{b - 1}\right), R(c) = \left(\frac{c^3}{c - 1}, \frac{c^2 -
+        3}{c - 1}\right)$</m>
+      </d:para>
+      <d:para>
+        Three points are collinear if the determinant vanishes: <m>$\begin{vmatrix}x_1 &amp; y_1 &amp;
+        1\\x_2 &amp; y_2 &amp; 1\\x_3 &amp; y_3 &amp; 1\end{vmatrix} = 0$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$x_i$</m> and <m>$y_i$</m>: <m>$\begin{vmatrix}\frac{a^3}{a - 1} &amp; \frac{a^2 -
+        3}{a - 1} &amp; 1\\ \frac{b^3}{b - 1} &amp; \frac{b^2 - 3}{b  - 1} &amp; 1\\ \frac{c^3}{c - 1} &amp;
+        \frac{c^2 - 3}{c - 1} &amp; 1\end{vmatrix} = 0$</m>
+      </d:para>
+      <d:para>
+        Multiplying each row by its denominator to simplify:
+        <m>$\begin{vmatrix}a^3 &amp; a^2 - 3 &amp; a - 1\\ b^3 &amp; b^2 - 3 &amp; b - 1\\ c^3&amp; c^2 - 3
+        &amp; c - 1\end{vmatrix}$</m>
+      </d:para>
+      <d:para>
+        Expanding the determinant and simplifying (using factorization of cubic polynomials) gives:
+        <m>$abc - (ab + bc + ca) + 3(a + b + c) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 98 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$A = (4, -8)$</m>, <m>$B = (-9, 7)$</m>, <m>$C = (x,
+        y)$</m>. The centroid <m>$G = (1, 4)$</m>.
+      </d:para>
+      <d:para>
+        Coordinates of the centroid: <m>$x_G = \frac{x_1 + x_2 + x_3}{3}, y_G = \frac{y_1 + y_2 +
+        y_3}{3}$</m>
+      </d:para>
+      <d:para>
+        Substitute values: <m>$1 = \frac{4 - 9 + x}{3} \Rightarrow 1 = \frac{-5 + x}{3} \Rightarrow x =
+        8\Rightarrow 4 = \frac{-8 + 7 + y}{3} \Rightarrow 4 = \frac{-1 + y}{3} \Rightarrow y = 13$</m>
+      </d:para>
+      <d:para>
+        So <m>$C = (8, 13)$</m>.
+      </d:para>
+      <d:para>
+        Area of <m>$\triangle ABC: \Delta = \frac{1}{2}|x_1.(y_2 - y_3) + x_2.(y_3 - y_1) + x_3.(y_1 -
+        y_2)|$</m>
+      </d:para>
+      <d:para>
+        Substituting values: <m>$\Delta = \frac{1}{2}|4.(7 - 13) + (-9).(13 + 8) + 8.(-8 - 7)| = 166.5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 99 -->
+      <d:para>
+        Assume an equilateral triangle has vertices <m>$A = (x_1, y_1)$</m>, <m>$B = (x_2, y_2)$</m>, <m>$C
+        = (x_3, y_3)$</m> with all coordinates rational.
+      </d:para>
+      <d:para>
+        Distance formula:   <m>$AB^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$</m>,
+      </d:para>
+      <d:para>
+        <m>$BC^2 = (x_3 - x_2)^2 + (y_3 - y_2)^2$</m>, and
+      </d:para>
+      <d:para>
+        <m>$CA^2 = (x_1 - x_3)^2 + (y_1 - y_3)^2$</m>.
+      </d:para>
+      <d:para>
+        For an equilateral triangle: <m>$AB^2 = BC^2 = CA^2 = d^2$</m>
+      </d:para>
+      <d:para>
+        Consider the line <m>$AB$></m>. The perpendicular from <m>$C$</m> to <m>$AB$</m> must satisfy the
+        formula for height of an equilateral triangle: <m>$h = \frac{\sqrt{3}}{2}d$</m>
+      </d:para>
+      <d:para>
+        Coordinates of <m>$C$</m> satisfy the perpendicular distance formula from line <m>$AB$</m>:
+        <m>$\frac{| (y_2 - y_1)x_C - (x_2 - x_1)y_C + (x_2y_1 - x_1y_2)}{\sqrt{(y_2 - y_1)^2 + (x_2 -
+        x_1)^2}} = h = \frac{\sqrt{3}}{2}d$</m>
+      </d:para>
+      <d:para>
+        All numbers on the left are rational, but the right-hand side involves <m>$\sqrt{3}$</m>, which is
+        irrational. This is a contradiction.
+      </d:para>
+      <d:para>
+        Hence, the coordinates of the vertices of an equilateral triangle cannot all be rational.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 100 -->
+      <d:para>
+        Let <m>$A = (-1, 5)$</m>, <m>$B = (3, 1)$</m>, <m>$C = (5, 7)$</m>.
+      </d:para>
+      <d:para>
+        Midpoints: <m>$D = \left(\frac{3 + 5}{2}, \frac{1 + 7}{2}\right) = (4, 4)$</m>, <m>$E =
+        \left(\frac{5 - 1}{2}, \frac{7 + 5}{2}\right) = (2, 6)$</m>, and <m>$F = \left(\frac{-1 + 3}{2},
+        \frac{5 + 1}{2}\right) = (1, 3)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta ABC = \frac{1}{2}|(-1).(1 - 7) + 3.(7 - 5) + 5.(5 - 1)| = 16$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta DEF = \frac{1}{2}|4.(6 - 3) + 2.(3 - 4) + 1.(4 - 6)| = 4$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$\Delta ABC = 4\Delta DEF$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 101 -->
+      <d:para>
+        Let <m>$A = (3, 0)$</m>, <m>$B = (0, 6)$</m>, <m>$C = (6, 9)$</m>.
+      </d:para>
+      <d:para>
+        Points dividing sides: <m>$D =$</m> divides <m>$AB$</m> in <m>$1:2$</m> <m>$= \left(\frac{2.3 +
+        1.0}{3}, \frac{2.0 + 1.6}{3}\right) = (2, 2)$></m> and <m>$E =$</m> divides <m>$AC$</m> in <m>$1:2=
+        \left(\frac{2.3 + 1.6}{3}, \frac{2.0 + 1.9}{3}\right) = (4, 3)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|x_1.(y_2 - y_3) + x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta ABC = \frac{1}{2}|3.(6 - 9) + 0.(9 - 0) + 6.(0 - 6)| = 22.5$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta ADE = \frac{1}{2}|3.(2 - 3) + 2.(3 - 0) + 4.(0 - 2)| = 2.5$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{\Delta ABC}{\Delta ADE} = 9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 102 -->
+      <d:para>
+        Let the vertices be: <m>$A = (t, t - 2)$</m>, <m>$B = (t + 3, t)$</m>, <m>$C = (t + 2, t + 2)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}|x_1.(y_2 - y_3) + x_2.(y_3 - y_1) + x_3.(y_1 - y_2)|$</m>
+      </d:para>
+      <d:para>
+        Substitute coordinates: <m>$\Delta = \frac{1}{2}| t.(t - (t + 2)) + (t + 3).((t + 2) - (t - 2)) + (t
+        + 2).((t - 2) - t) |$</m>
+      </d:para>
+      <d:para>
+        <m>$t.(t - t - 2) = t.(-2) = -2t$</m>, <m>$(t + 3).(t + 2 - t + 2) = (t + 3).4 = 4t + 12$</m>, and
+        <m>$(t + 2).(t - 2 - t) = (t + 2).(-2) = -2t - 4$</m>.
+      </d:para>
+      <d:para>
+        Adding terms: <m>$-2t + 4t + 12 - 2t - 4 = 8$</m>
+      </d:para>
+      <d:para>
+        Divide by <m>$2$</m>: <m>$\Delta = \frac{1}{2}.8 = 4$</m>, which is independent of <m>$t$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 103 -->
+      <d:para>
+        Let the vertices be <m>$A = (x, y)$</m>, <m>$B = (1, 2)$</m>, <m>$C = (2, 1)$</m>.
+      </d:para>
+      <d:para>
+        Area formula: <m>$\Delta = \frac{1}{2}| x.(y_2 - y_3) + x_2.(y_3 - y) + x_3.(y - y_2) |$</m>
+      </d:para>
+      <d:para>
+        Substitute coordinates: <m>$6 = \frac{1}{2}| x.(2 - 1) + 1.(1 - y) + 2.(y - 2) |$</m>
+      </d:para>
+      <d:para>
+        Simplify: <m>$6 = \frac{1}{2}| x.1 + 1.(1 - y) + 2.(y - 2) | \Rightarrow 6 = \frac{1}{2}| x + y - 3 |$</m>
+      </d:para>
+      <d:para>
+        Multiply both sides by <m>$2: 12 = |x + y - 3|$</m>
+      </d:para>
+      <d:para>
+        Solving for absolute value: <m>$x + y - 3 = 12 \Rightarrow x + y = 15$</m> or <m>$x + y - 3 = -12
+        \Rightarrow x + y = -9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 104 -->
+      <d:para>
+        Vertices: <m>$A = (1, 1)$</m>, <m>$B = (7, 3)$</m>, <m>$C = (12, 2)$</m>, <m>$D = (7, 21)$</m>.
+      </d:para>
+      <d:para>
+        Area: <m>$\Delta = \frac{1}{2}|1.(3-21) + 7.(2-1) + 12.(21-3) + 7.(1-2)| = 99$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 105 -->
+      <d:para>
+        Vertices: <m>$A = (4, 3)$</m>, <m>$B = (-5, 6)$</m>, <m>$C = (0, -7)$</m>, <m>$D = (3, -6)$</m>,
+        <m>$E = (-7, -2)$</m>.
+      </d:para>
+      <d:para>
+        Area: <m>$\Delta = \frac{1}{2}|4.6 + (-5).(-7) + 0.(-6) + 3.(-2) + (-7).3 - (3.(-5) + 6.0 + (-7).3 +
+        (-6).(-7) + (-2).4)| = 17$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 106 -->
+      <d:para>
+        Vertices: <m>$A = (5, 0)$</m>, <m>$B = (4, 2)$</m>, <m>$C = (1, 3)$</m>, <m>$D = (-2, 2)$</m>, <m>$E
+        = (-3, -1)$</m>, <m>$F = (0, -4)$</m>.
+      </d:para>
+      <d:para>
+        Area: <m>$\Delta = \frac{1}{2}|5.2 + 4.3 + 1.2 + (-2).(-1) + (-3).(-4) + 0.0 - (0.4 + 2.1 + 3.(-2) + 2.(-3) + (-1).0
+        + (-4).5)| = 34$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 107 -->
+      <d:para>
+        Vertices: <m>$A = ((a+1)(a+2), a+2)$</m>, <m>$B = ((a+2)(a+3), a+3)$</m>, <m>$C = ((a+3)(a+4), a+4)$</m>.
+      </d:para>
+      <d:para>
+        Area: <m>$\Delta = \frac{1}{2}| (a+1)(a+2).((a+3)-(a+4)) + (a+2)(a+3).((a+4)-(a+2))$</m><m>$ +
+        (a+3)(a+4).((a+2)-(a+3)) | = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the points are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 108 -->
+      <d:para>
+        A divides <m>$P(-5, 1)$</m> and <m>$Q(3, 5)$</m> in ratio <m>$k : 1$</m>: <m>$A = \left(\frac{3k -
+        5}{k + 1}, \frac{5k + 1}{k + 1}\right)$</m>
+      </d:para>
+      <d:para>
+        Area of <m>$\triangle ABC = 2$</m>: <m>$2 = 1/2 | \left(\frac{3k - 5}{k + 1}\right).(5-(-2)) +
+        1.\left(-2 - \frac{5k + 1}{k + 1}\right) +  7.\left(\frac{5k + 1}{k + 1} - 5\right) |$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  k = 7$</m> or <m>$k = \frac{31}{9}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 109 -->
+      <d:para>
+        Vertices: <m>$A=(6, 3), B=(-3, 5), C=(4, -2), D=(x, 3x)$</m>.
+      </d:para>
+      <d:para>
+        Area formula: <m>$\Delta ABC = \frac{1}{2}|6.(5-(-2)) + (-3).(-2-3) + 4.(3-5)| = 24.5$</m>
+      </d:para>
+      <d:para>
+        Area <m>$\Delta BCD = (1/2)|(-3).(-2-3x) + 4.(3x-5) + x.(5-(-2))| = |14x -7|$</m>
+      </d:para>
+      <d:para>
+        Given <m>$\Delta ABC = 2\Delta BCD \Rightarrow 24.5 = 2.|14x-7| \Rightarrow |14x-7| = 12.25$</m>
+      </d:para>
+      <d:para>
+        Solving: <m>$14x-7 = 12.25 \Rightarrow 14x = 19.25 \Rightarrow x = 19.25/14 = \frac{77}{56}$</m>
+      </d:para>
+      <d:para>
+        <m>$14x-7 = -12.25 \Rightarrow 14x = -5.25 \Rightarrow x = -\frac{3}{8}$.</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 110 -->
+      <d:para>
+        Vertices: <m>$A=(1, 2), B=(-5, 6), C=(7, -4), D=(h, -2)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Delta = 0 \Rightarrow 1.(6-(-4)) + (-5).(-4-(-2)) + 7.(-2 - 2) + h.(2 - 6) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  h = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 111 -->
+      <d:para>
+        Vertices: <m>$A=(3, 4), B=(-4, 3), C=(8, 6)$</m>.
+      </d:para>
+      <d:para>
+        Area: <m>$\Delta = \frac{1}{2}|3.(3-6) + (-4).(6-4) + 8.(4-3)| = \frac{9}{2}$</m>.
+      </d:para>
+      <d:para>
+        Length of perpendicular from <m>$A$</m> on <m>$BC$</m>: <m>$h = \frac{2\Delta}{BC}$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(8+4)^2 + (6-3)^2} = \sqrt{153}$</m>
+      </d:para>
+      <d:para>
+        <m>$h = (2.(9/2))/\sqrt{153} = 9/\sqrt{153}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 112 -->
+      <d:para>
+        Centroid <m>$G = (2/3, 2)$</m>, vertices <m>$A=(2,3), B=(-1,2), C=(x,y)$</m>.
+      </d:para>
+      <d:para>
+        Centroid formula: <m>$G = \left(\frac{x_A + x_B + x_ C}{3}, \frac{y_A + y_B +
+        y_C}{3}\right)\Rightarrow \left(\frac{2}{3}, 2\right) = \left(\frac{2 - 1 + x}{3}, \frac{3 + 2 +
+        y}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Solve for <m>$C$</m>: <m>$\frac{2 - 1 + x}{3} = \frac{2}{3} \Rightarrow x = 1$</m> and <m>$\frac{3 +
+        2 = y}{3} = 2 \Rightarrow  y = -1$</m>
+      </d:para>
+      <d:para>
+        Area: <m>$\Delta = \frac{1}{2}| 2.(2-(-1)) + (-1).(-1-3) + 1.(3-2) | = \frac{11}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 113 -->
+      <d:para>
+        Vertices: <m>$A=(3, 1), B=(1, -3), C=(x, y)$</m>, centroid <m>$G = \left(\frac{3 + 1 + x}{3},
+        \frac{1 - 3 = y}{3}\right)$M</m> lies on <m>$x$</m>-axis <m>$\Rightarrow y$</m>-coordinate <m>$= 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{1 - 3 + y}{3} = 0 \Rightarrow y = 2$</m>
+      </d:para>
+      <d:para>
+        Area formula: <m>$\Delta = 3 = \frac{1}{2}| 3.(-3-2) + 1.(2-1) + x.(1-(-3)) | \Rightarrow x=5$</m>,
+        or <m>$-14+4x=-6 \Rightarrow x=2$</m>
+      </d:para>
+      <d:para>
+        So <m>$C = (5, 2)$</m> or <m>$C = (2, 2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 114 -->
+      <d:para>
+        Given: <m>$A=(3, 4), B=(5, -2), P=(x, y)$</m> such that <m>$PA = PB$</m>
+      </d:para>
+      <d:para>
+        Perpendicular bisector condition: <m>$(x-3)^2 + (y-4)^2 = (x-5)^2 + (y+2)^2$</m>
+      </d:para>
+      <d:para>
+        Simplifying: <m>$x^2-6x+9 + y^2-8y+16 = x^2-10x+25 + y^2+4y+4$</m>
+      </d:para>
+      <d:para>
+        <m>$4x - 12y = -12 => x - 3y = -3$</m>
+      </d:para>
+      <d:para>
+        Area formula: <m>$\Delta PAB = 10 = \frac{1}{2}| 3(-2 - y) + 5(y - 4) + x(4 - (-2)) |$</m>
+      </d:para>
+      <d:para>
+        Simplifying: <m>$20 = | -6 - 3y + 5y - 20 + 6x | = |6x + 2y - 26|$</m>
+      </d:para>
+      <d:para>
+        Solve system: <m>$x - 3y = -3$</m> and <m>$6x + 2y - 26 = \pm20$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$6x + 2y - 26 = 20 \Rightarrow 6x + 2y = 46
+        \Rightarrow 3x + y = 23$</m>
+      </d:para>
+      <d:para>
+        Solving with <m>$x - 3y = -3 \Rightarrow x = \frac{17}{2}, y = \frac{11}{3}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$6x + 2y - 26 = -20 \Rightarrow 6x + 2y = 6
+        \Rightarrow 3x + y = 3$</m>
+      </d:para>
+      <d:para>
+        Solving with <m>$x - 3y = -3 \Rightarrow x = -\frac{3}{2}, y = -\frac{1}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 115 -->
+      <d:para>
+        Let the points be <m>$A=(a, b+c), B=(b, c+a), C=(c, a+b)$</m>.
+      </d:para>
+      <d:para>
+        Area of triangle: <m>$\Delta = \frac{1}{2}|a((c+a)-(a+b)) + b((a+b)-(b+c)) + c((b+c)-(c+a)) |$</m>
+      </d:para>
+      <d:para>
+        Simplifying each term: <m>$((c+a)-(a+b)) = c-b$, $((a+b)-(b+c)) = a-c$, $((b+c)-(c+a)) = b-a$</m>
+      </d:para>
+      <d:para>
+        So <m>$\Delta = 1/2 | a(c-b) + b(a-c) + c(b-a) |$</m>
+      </d:para>
+      <d:para>
+        Expanding: <m>$a(c-b) + b(a-c) + c(b-a) = ac - ab + ab - bc + bc - ac = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$\Delta = 0$</m> i.e. points are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 116 -->
+      <d:para>
+        Let the points be <m>$A=(x_1, y_1), B=(x_2, y_2), C=(x_3, y_3)$</m>.
+      </d:para>
+      <d:para>
+        If points are collinear, <m>$\Delta = 0: \Delta = \frac{1}{2}| x_1(y_2 - y_3) + x_2(y_3 - y_1) +
+        x_3(y_1 - y_2) | =  0$</m>
+      </d:para>
+      <d:para>
+        Divide both sides by <m>$x_1 x_2 x_3 \neq 0$</m>: <m>$0 = \frac{x_1(y_2 - y_3) + x_2(y_3 - y_1) +
+        x_3(y_1 - y_2)}{x_1 x_2 x_3}$</m>
+      </d:para>
+      <d:para>
+        Splitting terms: <m>$0 = \frac{y_2 - y_3}{x_2x_3} + \frac{y_3 - y_1}{x_3x_1} + \frac{y_1 -
+        y_2}{x_1x-2}$</m>
+      </d:para>
+      <d:para>
+        Hence proved.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 117 -->
+      <d:para>
+        Points: <m>$A=(a,b), B=(a_1,b_1), C=(a-a_1,b-b_1)$</m>.
+      </d:para>
+      <d:para>
+        Collinear <m>$\Rightarrow \Delta = 0\Rightarrow 0 = \frac{1}{2}| a(b_1-(b-b_1)) + a_1((b-b_1)-b) +
+        (a-a_1)((b-b_1)-b_1) |$</m>
+      </d:para>
+      <d:para>
+        Simplifying: <m>$a_1b = a b_1 \Rightarrow \frac{a}{a_1} = \frac{b}{b_1}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 118 -->
+      <d:para>
+        Points: <m>$A=(a,0), B=(0,b), C=(1,1)$</m>.
+      </d:para>
+      <d:para>
+        Collinear <m>$\Rightarrow \Delta = 0 \Rightarrow 0 = \frac{1}{2}| a(b-1) + 0(1-0) + 1(0-b) |$</m>
+      </d:para>
+      <d:para>
+        Simplify: <m>$0 = a(b-1) - b \Rightarrow ab - a - b = 0 \Rightarrow \frac{1}{a} + \frac{1}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Hence, points are collinear if <m>$\frac{1}{a} + \frac{1}{b} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 119 -->
+      <d:para>
+        Let the points be <m>$A=(-4, -1), B=(-2, -4), C=(4, 0), D=(2, 3)$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{( -2 + 4)^2 + (-4 + 1)^2} = \sqrt{13}$</m>
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(4+2)^2 + (0+4)^2} = \sqrt{52}$</m>
+      </d:para>
+      <d:para>
+        <m>$CD = \sqrt{(2-4)^2 + (3-0)^2} = \sqrt{13)}$</m>
+      </d:para>
+      <d:para>
+        <m>$DA = \sqrt{(-4-2)^2 + (-1-3)^2} = \sqrt{52}$</m>
+      </d:para>
+      <d:para>
+        Opposite sides equal: <m>$AB = CD, BC = DA$</m>.
+      </d:para>
+      <d:para>
+        Diagonals: <m>$AC = \sqrt{(4+4)^2 + (0+1)^2} = \sqrt{65}$</m>
+      </d:para>
+      <d:para>
+        <m>$BD = \sqrt{(2+2)^2 + (3+4)^2} = \sqrt{65}$</m>
+      </d:para>
+      <d:para>
+        Equal diagonals imply that all angles are right angles.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 120 -->
+      <d:para>
+        Let the three consecutive vertices be <m>$A=(x_1,y_1), B=(x_2,y_2), C=(x_3,y_3)$</m>, and let
+        <m>$D=(x_4,y_4)$</m> be the fourth vertex.
+      </d:para>
+      <d:para>
+        In a parallelogram, the diagonals bisect each other <m>$\Rightarrow \frac{x_1 + x_3}{2} = \frac{x_2 +
+        x_4}{2}$</m> and <m>$\frac{y_1 + y_3}{2} = \frac{y_2 + y_4}{2}$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$D: x_4 = x_1 + x_3 - x_2$</m> and <m>$y_4 = y_1 + y_3 - y_2$</m>
+      </d:para>
+      <d:para>
+        Hence, the fourth vertex is <m>$D=(x_1+x_3-x_2, y_1+y_3-y_2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 121 -->
+      <d:para>
+        Let <m>$B = (0, 0), C = (c, 0)$</m> and <m>$D$</m> be the midpoint of <m>$BC \Rightarrow
+        D=\left(\frac{c}{2}, 0\right)$</m>. Let <m>$A = (x, y)$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB^2 = (x-0)^2 + (y-0)^2 = x^2 + y^2$</m>
+      </d:para>
+      <d:para>
+        <m>$AC^2 = (x-c)^2 + (y-0)^2 = (x-c)^2 + y^2$</m>
+      </d:para>
+      <d:para>
+        <m>$BD^2 = (c/2-0)^2 + (0-0)^2 = \frac{c^2}{4}$</m>
+      </d:para>
+      <d:para>
+        <m>$AD^2 = \left(x-\frac{c}{2}\right)^2 + (y - 0)^2 = \left(x - \frac{c}{2}\right)^2 + y^2$</m>
+      </d:para>
+      <d:para>
+        Left-hand side: <m>$AB^2 + AC^2 = x^2 + y^2 + (x-c)^2 + y^2 = 2x^2 - 2c x + c^2 + 2y^2$</m>
+      </d:para>
+      <d:para>
+        Right-hand side: <m>$2(AD^2 + BD^2) = 2\left(\left(x - \frac{c}{2}\right)^2 + y^2 +
+        \frac{c^2}{4}\right) = 2\left(x^2 - c x + \frac{c^2}{4} + y^2 + \frac{c^2}{4}\right) = 2x^2 - 2c x +
+        c^2 + 2y^2$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$AB^2 + AC^2 = 2(AD^2 + BD^2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 122 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1), B = (x_2, y_2), C = (x_3, y_3)$</m> and <m>$G$</m> be the centroid: <m>$G =
+        \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Let <m>$O=(x_0, y_0)$</m>.
+      </d:para>
+      <d:para>
+        Using distance formula: <m>$OA^2 + OB^2 + OC^2 = (x_0-x_1)^2 + (y_0-y_1)^2 + (x_0-x_2)^2 +
+        (y_0-y_2)^2 + (x_0-x_3)^2 + (y_0-y_3)^2$</m>
+      </d:para>
+      <d:para>
+        Grouping terms: <m>$= 3x_0^2 - 2x_0(x_1+x_2+x_3) + (x_1^2+x_2^2+x_3^2) + 3y_0^2 - 2y_0(y_1+y_2+y_3)
+        + (y_1^2+y_2^2+y_3^2)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>, rewriting:
+        <m>$OA^2 + OB^2 + OC^2 = GA^2 + GB^2 + GC^2 + 3GO^2$.</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$A = (x_1, y_1), B = (x_2, y_2), C = (x_3, y_3)$</m>, and let <m>$D, E, F$</m> be the
+        midpoints of <m>$B C, C A, A B$</m> respectively:
+      </d:para>
+      <d:para>
+        <m>$D = \left(\frac{x_2 + x_3}{2}, \frac{y_2 + y_3}{2}\right), E = \left(\frac{x_3 + x_1}{2}, \frac{y_3
+        + y_1}{2}\right), F = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Delta_{ABC} = \frac{1}{2}| x_1(y_2-y_3) + x_2(y_3-y_1) + x_3(y_1-y_2) |$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta_{DEF} = \frac{1}{2}| D_x(E_y-F_y) + E_x(F_y-D_y) + F_x(D_y-E_y) |$</m>
+      </d:para>
+      <d:para>
+        Substituting midpoints: <m>$\Delta_{DEF} = \frac{1}{2}.\frac{1}{2^2}| x_1(y_2-y_3) + x_2(y_3-y_1) +
+        x_3(y_1-y_2) | = 1/4 \Delta_{ABC}$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 124 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1), B = (x_2, y_2), C = (x_3, y_3)$</m> be the vertices of a triangle. Let
+        <m>$D$</m> and <m>$E$</m> be the midpoints of <m>$AB$</m> and <m>$AC$</m>:
+      </d:para>
+      <d:para>
+        <m>$D =\left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right), E = \left(\frac{x_1 + x_3}{2},
+        \frac{y_1 + y_3}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Length of <m>$DE: DE^2 = \left(\frac{x_1 + x_3}{2} - \frac{x_1 + x_2}{2}\right)^2 + \left(\frac{y_1
+        + y_3}{2} - \frac{y_1 + y_2}{2}\right)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$= \left(\frac{x_3 - x_2}{2}\right)^2 + \left(\frac{y_3 - y_2}{2}\right)^2$</m>
+      </d:para>
+      <d:para>
+        But <m>$BC^2 = (x_3-x_2)^2 + (y_3-y_2)^2 \Rightarrow DE = \frac{1}{2}BC$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 125 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1), B = (x_2, y_2), C =(x_3, y_3)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> divide <m>$BC$</m> in ratio <m>$k : 1 \Rightarrow P = \left(\frac{kx_3 + x_2}{k + 1},
+        \frac{ky_3 + y_2}{k + 1}\right)$</m>
+      </d:para>
+      <d:para>
+        Let <m>$Q$</m> divide <m>$CA$</m> in ratio <m>$k:1 \Rightarrow Q = \left(\frac{kx_1 + x_3}{k + 1},
+        \frac{ky_1 + y_3}{k + 1}\right)$</m>
+      </d:para>
+      <d:para>
+        Let <m>$R$</m> divide <m>$AB$</m> in ratio <m>$k:1 \Rightarrow R = \left(\frac{kx_2 + x_1}{k + 1},
+        \frac{ky_2 + y_1}{k + 1}\right)$</m>
+      </d:para>
+      <d:para>
+        Centroid of <m>$ABC: G = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Centroid of <m>$PQR: G' = \left(\frac{\frac{kx_3 + x_2}{k + 1} + \frac{kx_1 + x_3}{k + 1} +
+        \frac{kx_2 + x_1}{k + 1}}{3}, \frac{\frac{ky_3 + y_2}{k + 1} + \frac{ky_1 + y_3}{k + 1} +
+        \frac{ky_2 + y_1}{k + 1}}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Simplifying <m>$G'$</m> gives <m>$G' = \left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 +
+        y_3}{3}\right) = G$</m>.
+      </d:para>
+      <d:para>
+        Hence, the centroids coincide.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 126 -->
+      <d:para>
+        Let <m>$A =(x_1, y_1), B =(x_2, y_2), C = (x_3, y_3)$</m>. Let <m>$D, E, F$</m> be the midpoints of
+        <m>$BC, CA, AB$</m> respectively.
+      </d:para>
+      <d:para>
+        <m>$D = \left(\frac{x_2 + x_3}{2},\frac{y_2 + y_3}{2}\right), E = \left(\frac{x_3 + x_1}{2},
+        \frac{y_3 + y_1}{2}\right)$</m>, and <m>$F = \left(\frac{x_1 + x_2}{2}, \frac{y_1 +
+        y_2}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Medians: <m>$AD, BE, CF$</m>
+      </d:para>
+      <d:para>
+        Using distance formula and simplifying: <m>$AD^2 = \frac{1}{4}[2(AB^2 + AC^2) - BC^2]$</m>
+      </d:para>
+      <d:para>
+        <m>$BE^2 = \frac{1}{4}[2(BC^2 + AB^2) - CA^2]$</m>
+      </d:para>
+      <d:para>
+        <m>$CF^2 = \frac{1}{4}[2(CA^2 + BC^2) - AB^2]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow AD^2 + BE^2 + CF^2 =  \frac{1}{4}[3(A B^2+B C^2+C A^2)]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4(AD^2 + BE^2 + CF^2) = 3(AB^2 + BC^2 + CA^2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 127 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1), B = (x_2, y_2), C = (x_3, y_3)$</m>. Centroid <m>$G=\left(\frac{x_1 + x_2 +
+        x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$GA^2 + GB^2 + GC^2 = $</m><d:sbr /><m>$\frac{1}{3}\left[(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2
+        +(y_1-y_2)^2+(y_2-y_3)^2+(y_3-y_1)^2\right]$</m>
+      </d:para>
+      <d:para>
+        But, <m>$A B^2+B C^2+C A^2 = (x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2 +(y_1-y_2)^2+(y_2-y_3)^2+(y_3-y_1)^2$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$A B^2+B C^2+C A^2 = 3(G A^2+G B^2+G C^2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 128 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1), B = (x_2, y_2), C = (x_3, y_3)$</m>. Centroid <m>$G=\left(\frac{x_1 + x_2 +
+        x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Area of <m>$\triangle ABG: \Delta ABG = \frac{1}{2}| x_1(y_2-y_G) + x_2(y_G-y_1) + x_G(y_1-y_2)
+        |$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$x_G, y_G$</m> and simplify: <m>$\Delta ABG = \frac{1}{3}\Delta ABC$</m>
+      </d:para>
+      <d:para>
+        Similarly, <m>$\Delta BCG = \frac{1}{3}\Delta ABC$</m> and <m>$\Delta CAG = \frac{1}{3}\Delta
+        ABC$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$\Delta ABG = \Delta BCG = \Delta CAG$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 129 -->
+      <d:para>
+        Let the right angled triangle be right angled at <m>$a$</m>. Take <m>$A = (0, 0), B = (a, 0), C =
+        (0, b)$</m>.
+      </d:para>
+      <d:para>
+        Midpoint of hypotenuse <m>$BC: D= \left(\frac{a + 0}{2}, \frac{0 + b}{2}\right) = \left(\frac{a}{2},
+        \frac{b}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Distances: <m>$DA^2 = \left(\frac{a}{2}\right)^2 + \left(\frac{b}{2}\right)^2 = \frac{a^2 +
+        b^2}{4}$</m>
+      </d:para>
+      <d:para>
+        <m>$DB^2 = \left(\frac{a}{2} - a\right)^2 + \left(\frac{b}{2} - 0\right)^2 = \frac{a^2 + b^2}{4}$</m>
+      </d:para>
+      <d:para>
+        <m>$DC^2 = \left(\frac{a}{2} - 0\right)^2 + \left(\frac{b}{2} - b\right)^2 = \frac{a^2 + b^2}{4}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$DA = DB = DC$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 130 -->
+      <d:para>
+        Let <m>$A = (a_1, b_1), B = (a_2, b_2), C = (a_3, b_3)$</m>.
+      </d:para>
+      <d:para>
+        <m>$D$</m> divides <m>$AB$</m> in ratio <m>$\lambda:\mu: D = \left(\frac{\lambda . a_2 + \mu
+        . a_1}{\lambda + \mu},\frac{\lambda . b_2 + \mu . b_1}{\lambda + \mu}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$E$</m> divides <m>$DC$</m> in ratio <m>$mu:(\lambda + \mu): E=\left(\frac{\mu . a_3 +
+        (\lambda+\mu).\frac{\lambda . a_2 + \mu . a_1}{\lambda + \mu}}{\lambda + 2\mu}, \frac{\mu
+        . b_3+(\lambda + \mu)\frac{\lambda . b_2 + \mu . b_1}{\lambda + \mu}}{\lambda+2\mu}\right)$</m>
+      </d:para>
+      <d:para>
+        Simplifying: <m>$E=\left(\frac{\lambda . a_2 + \mu . a_1 + \mu . a_3}{\lambda + 2\mu}, \frac{\lambda
+        . b_2 + \mu . b_1 + \mu . b_3}{\lambda + 2\mu}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 131 -->
+      <d:para>
+        Given roots: <m>$\alpha + \beta = -\frac{2h}{a}, \alpha . \beta = \frac{b}{a}$</m> and <m>$\gamma +
+        \delta = -\frac{2h'}{a}, \gamma . \delta = \frac{b'}{a}$</m>
+      </d:para>
+      <d:para>
+        Ratios in which <m>$C$</m> and <m>$D$</m> divide <m>$AB: \frac{AC}{CB} = \frac{\gamma -
+        \alpha}{\beta - \gamma}$</m> and <m>$\frac{AD}{DB} = \frac{\delta - \alpha}{\beta - \delta}$</m>
+      </d:para>
+      <d:para>
+        Sum: <m>$S = \frac{\gamma - \alpha}{\beta - \gamma} + \frac{\delta - \alpha}{\beta - delta}$</m>
+      </d:para>
+      <d:para>
+        Simplify numerator: <m>$S = \frac{(\gamma - \alpha)(\beta - \delta) + (\delta - \alpha)(\beta -
+        \gamma)}{(\beta - \gamma)(\beta - \delta)}$</m>
+      </d:para>
+      <d:para>
+        Numerator expands to: <m>$\beta(\gamma + \delta) - \alpha(\gamma + \delta) - 2\gamma . \delta +
+        2\alpha . \beta$</m>
+      </d:para>
+      <d:para>
+        Substitute root relations: <m>$= \beta.\left(-\frac{2h'}{a}\right) -
+        \alpha\left(-\frac{2h'}{a}\right) - 2\frac{b'}{a} + 2\frac{b}{a} = \frac{2h'}{a}(\alpha - \beta) +
+        2\frac{b - b'}{a}$</m>
+      </d:para>
+      <d:para>
+        Using condition <m>$a.b' + a'.b = 2h.h'$</m> gives numerator <m>$= 0$</m>
+      </d:para>
+      <d:para>
+        Hence: <m>$S = 0$</m>
+      </d:para>
+      <d:para>
+        Thus, the sum of the ratios in which <m>$C$</m> and <m>$D$</m> divide <m>$AB$</m> is zero.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 132 -->
+      <d:para>
+        Given <m>$A = (1, -2), B =(2, 5)$</m> and <m>$O = (0, 0)$</m>.
+      </d:para>
+      <d:para>
+        <m>$OC = 2OA \Rightarrow C = (2.1, 2.(-2)) = (2,-4)$</m> and <m>$OD = 2OB \Rightarrow D = (2.2, 2.5)
+        = (4, 10)$</m>
+      </d:para>
+      <d:para>
+        Distance <m>$CD: CD = \sqrt{(4-2)^2 + (10-(-4))^2} = \sqrt{2^2 + 14^2} = 10\sqrt{2}$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 133 -->
+      <d:para>
+        Given <m>$A =(2, 1), B = (3, -1)$</m> and <m>$C = (x, y)$</m> with <m>$y = x + 9$</m>.
+      </d:para>
+      <d:para>
+        Centroid <m>$G=\left(\frac{2 + 3 + x}{3}, \frac{1 - 1 + y}{3}\right)$</m> lies on <m>$y$</m>-axis
+        <m>$\Rightarrow x$</m>-coordinate of <m>$G = 0: \frac{5 + x}{3} = 0 => x = -5$</m>
+      </d:para>
+      <d:para>
+        Then <m>$y = x + 9 = 4 \Rightarrow C = (-5, 4)$</m>.
+      </d:para>
+      <d:para>
+        Centroid: <m>$G= \left(\frac{2 + 3 - 5}{3}, \frac{1 - 1 + 4}{3}\right) = \left(0,
+        \frac{4}{3}\right)$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 134 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$A = (x_1, y_1), B = (x_2, y_2), C = (x_3, y_3)$</m>.
+      </d:para>
+      <d:para>
+        Centroid: <m>$(x, y)=\left(\frac{x_1 + x_2 + x_3}{3}, \frac{y_1 + y_2 + y_3}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Circumcenter: <m>$(\alpha, \beta)$</m>. Orthocenter: <m>$(p, q)$</m>.
+      </d:para>
+      <d:para>
+        In coordinate geometry, the orthocenter satisfies: <m>$p = x_1 + x_2 + x_3 - 2\alpha$</m> and x1
+        $q = y_1 + y_2 + y_3 - 2\beta$
+      </d:para>
+      <d:para>
+        Multiplying centroid coordinates by <m>$3: 3x = x_1+x_2+x_3$</m> and <m>$3y = y_1+y_2+y_3$</m>
+      </d:para>
+      <d:para>
+        Substitute: <m>$3x = 2\alpha + p$</m> and <m>$3y = 2\beta + q$</m>. Hence proved.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 135 -->
+      <d:para>
+        Vertices: <m>$A = (2, 3), B = (3, 4), C = (6, 8)$</m>
+      </d:para>
+      <d:para>
+        Centroid <m>$G: G=\left(\frac{2 + 3 + 6}{3}, \frac{3 + 4 + 8}{3}\right) = \left(\frac{11}{3},
+        5\right)$</m>
+      </d:para>
+      <d:para>
+        Circumcenter <m>$(\alpha, \beta)$</m>: Using the perpendicular bisector formula: the circumcenter is
+        the intersection of the perpendicular bisectors of any two sides.
+      </d:para>
+      <d:para>
+        Equation of perpendicular bisector of <m>$AB$</m>: Midpoint <m>$M_1 = \left(\frac{2 + 3}{2}, \frac{3
+        = 4}{2}\right) = \left(\frac{5}{2}, \frac{7}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        If <m>$C = (6, 8)$</m>, line <m>$AC$</m>: slope not needed, solve using: <m>$(x - \alpha)^2 + (y -
+        \beta)^2 = (x_C - \alpha)^2 + (y_C - \beta)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$(2 - \alpha)^2 + (3 - \beta)^2 = (3 - \alpha)^2 + (4 - \beta)^2 \Rightarrow (2 - \alpha)^2 + (3
+        - \beta)^2 = (6 - \alpha)^2 + (8 - \beta)^2$</m>
+      </d:para>
+      <d:para>
+        Solve these two equations simultaneously: <m>$\alpha = \frac{9}{2}, \beta = \frac{3}{2}$</m>
+      </d:para>
+      <d:para>
+        Orthocenter <m>$(p, q)$</m> using formula <m>$3x = 2\alpha + p, 3y = 2\beta + q: p = 3.\frac{11}{3}
+        - 2.\frac{9}{2} = 2$</m> and <m>$q = 3.5 - 2.\frac{3}{2} = 12$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 136 -->
+      <d:para>
+        Let <m>$A\left(\alpha, 1/\alpha\right), B\left(\beta, 1/\beta\right), C\left(\gamma,
+        1/\gamma\right)$</m> be the vertices of a triangle.
+      </d:para>
+      <d:para>
+        <m>$\alpha$</m> and <m>$\beta$</m> are roots of <m>$x^2 - 6p_1 x + 2 = 0$</m>, so <m>$\alpha + \beta
+        = 6p_1$</m> and <m>$\alpha \beta = 2$</m>.
+      </d:para>
+      <d:para>
+        <m>$\beta$</m> and <m>$\gamma$</m> are roots of <m>$x^2 - 6p_2 x + 3 = 0$</m>, so <m>$\beta + \gamma
+        = 6p_2$</m> and <m>$\beta \gamma = 3$</m>.
+      </d:para>
+      <d:para>
+        <m>$\gamma$</m> and <m>$\alpha$</m> are roots of <m>$x^2 - 6p_3 x + 6 = 0$</m>, so <m>$\gamma +
+        \alpha = 6p_3$</m> and <m>$\gamma \alpha = 6$</m>.
+      </d:para>
+      <d:para>
+        Solving these gives <m>$p_1 = 1, p_2 = 1, p_3 = 2, \alpha = 2, \beta = 1, \gamma = 3$</m>.
+      </d:para>
+      <d:para>
+        The centroid of the triangle is <m>$\left(\frac{\alpha+\beta+\gamma}{3}, \frac{\frac{1}{\alpha} +
+        \frac{1}{\beta} + \frac{1}{\gamma}}{3}\right) = \left(\frac{2 + 1 + 3}{2}, \frac{\frac{1}{2} + 1 +
+        \frac{1}{3}}{3}\right) = \left(2, \frac{11}{18}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 137 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$A(\tan \alpha, \cot \alpha)$ $B(\tan \beta, \cot \beta)$ $C(\tan \gamma, \cot \gamma)$</m>,
+        where <m>$\tan \alpha, \tan \beta, \tan \gamma$</m> are roots of <m>$x^3 - 3ax^2 + 3bx - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        By Vieta's formulas, <m>$\tan \alpha + \tan \beta + \tan \gamma = 3a$</m>,
+      </d:para>
+      <d:para>
+        <m>$\tan \alpha.\tan \beta + \tan \beta.\tan \gamma + \tan \gamma.\tan \alpha = 3b$</m>,
+        and <m>$\tan \alpha.\tan \beta.\tan \gamma = 1$</m>.
+      </d:para>
+      <d:para>
+        The centroid of the triangle is <m>$\left(\frac{\tan \alpha + \tan \beta + \tan \gamma}{3},
+        \frac{\cot \alpha + \cot \beta + \cot \gamma}{3}\right) = \left(\frac{3a}{3}, \frac{\cot \alpha +
+        \cot \beta + \cot \gamma}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\cot\theta = \frac{1}{\tan\theta}$</m>, we have  <m>$\cot \alpha + \cot \beta + \cot \gamma =
+        \frac{1}{\tan\alpha} + \frac{1}{\tan\beta} + \frac{1}{\tan\gamma}  = \frac{\tan \beta . \tan \gamma
+        + \tan \gamma . \tan \alpha + \tan \alpha . \tan \beta}{\tan \alpha . \tan \beta . \tan \gamma} =
+        3b$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the centroid is <m>$(a, b)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 138 -->
+      <d:para>
+        Let the forces <m>$F_1 = 30$</m> N and <m>$F_2 = 40$</m> N act at points <m>$A(-3, -1)$</m> and
+        <m>$B(4, 6)$</m>.
+      </d:para>
+      <d:para>
+        The resultant acts along the line joining <m>$A$</m> and <m>$B$</m> and its point of application
+        <m>$R(x, y)$</m> divides <m>$AB$</m> in the inverse ratio of the forces: <m>$AR : RB = F_2 : F_1 =
+        40:30 = 4:3$</m>.
+      </d:para>
+      <d:para>
+        Using coordinate geometry, if a point divides the segment joining <m>$(x_1, y_1)$</m> and <m>$(x_2,
+        y_2)$</m> in the ratio <m>$m:n$</m>, its coordinates are <m>$\left(\frac{nx_1 + mx_2}{m + n},
+        \frac{ny-1 + my_2}{m + n}\right)$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$x_1 = -3, y_1 = -1, x_2 = 4, y_2 = 6, m = 4, n = 3$</m>. Then
+      </d:para>
+      <d:para>
+        <m>$x_R = \frac{3.(-3) + 4.4}{3+ 4} = 1$, and $y_R = \frac{3.(-1) + 4.6}{3 + 4} = 3$</m>.
+      </d:para>
+      <d:para>Thus, the point of application of the resultant force is <m>$R(1, 3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 139 -->
+      <d:para>
+        Let <m>$A(-1, 3), B(-2, 4)$</m>, and the other vertices be <m>$C(x_1, y_1), D(x_2, y_2)$</m> with
+        diagonals intersecting at <m>$O$</m> on the positive <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        For a parallelogram, diagonals bisect each other: <m>$O = \left(\frac{-1 + x_2}{2}, \frac{3 +
+        y_2}{2}\right) = \left(\frac{-2 + x_1}{2}, \frac{4 + y_1}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$O = (h, 0)$</m>, then <m>$y_1 = -4, y_2 = -3, x_1 = 2h + 2, x_2 = 2h + 1$</m>.
+      </d:para>
+      <d:para>
+        Area formula: <m>$|(x_1 + 1)(y_2 - 3) - (x_2 + 1)(y_1 - 3)| = 24$</m>.
+      </d:para>
+      <d:para>
+        Substituting: <m>$|(2h + 3)(-6) - (2h + 2)(-7)| = |2h - 4| = 24 \Rightarrow h = 14$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$C(30, -4)$</m> and <m>$D(29, -3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 140 -->
+      <d:para>
+        Let <m>$A(1, 2), B(8, 4), C(4, 10)$</m>.
+      </d:para>
+      <d:para>
+        The point <m>$P(x, y)$</m> such that triangles <m>$PCB, PCA$</m>, and <m>$PAB$</m> have equal area
+        is the centroid of <m>$\triangle ABC$</m>:
+      </d:para>
+      <d:para>
+        <m>$P = \left(\frac{1 + 8 + 4}{3}, \frac{2 + 4 + 10}{3}\right) = \left(\frac{13}{3}, \frac{16}{3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 141 -->
+      <d:para>
+        Let <m>$a, b, c$</m> be the <m>$p$</m>th, <m>$q$</m>th, <m>$r$</m>th terms of an H.P., so
+        <m>$\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$</m> are in A.P.
+      </d:para>
+      <d:para>
+        Consider the points <m>$X(bc, p), Y(ca, q), Z(ab, r)$</m>.
+      </d:para>
+      <d:para>
+        Three points are collinear if <m>$bc(q - r) + ca(r - p) + ab(p - q) = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$</m> are in A.P., this relation is satisfied.
+      </d:para>
+      <d:para>
+        Hence the points <m>$(bc, p), (ca, q), (ab, r)$</m> are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 142 -->
+      <d:para>
+        Let <m>$x_1, x_2, x_3$</m> be in A.P. and <m>$y_1, y_2, y_3$</m> be in A.P.
+      </d:para>
+      <d:para>
+        Consider the points <m>$P_1(x_1, y_1), P_2(x_2, y_2), P_3(x_3, y_3)$</m>.
+      </d:para>
+      <d:para>
+        Three points are collinear if the determinant <m>$(x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)) = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$x_1, x_2, x_3$</m> are in A.P., <m>$x_2 - x_1 = x_3 - x_2$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$y_1, y_2, y_3$</m> are in A.P., <m>$y_2 - y_1 = y_3 - y_2$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) = x_1(-(y_2 - y_1)) + x_2((y_2 - y_1) +
+        (y_2 - y_1)) + x_3(-(y_2 - y_1)) = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence the points <m>$(x_1, y_1)$, $(x_2, y_2)$, $(x_3, y_3)$</m> are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 143 -->
+      <d:para>
+        Consider the points <m>$(a, a^2), (b, b^2), (c, c^2)$</m>.
+      </d:para>
+      <d:para>
+        Three points are collinear if <m>$(a(b^2 - c^2) + b(c^2 - a^2) + c(a^2 - b^2)) = 0$</m>.
+      </d:para>
+      <d:para>
+        Factor each difference of squares: <m>$a(b - c)(b + c) + b(c - a)(c + a) + c(a - b)(a + b) = 0$</m>.
+      </d:para>
+      <d:para>
+        Simplifying: <m>$(a - b)(b - c)(c - a) != 0$</m> for distinct <m>$a, b, c$</m>.
+      </d:para>
+      <d:para>
+        Hence, the points <m>$(a, a^2), (b, b^2), (c, c^2)$</m> are not collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 144 -->
+      <d:para>
+        Let <m>$A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$</m> be the vertices of a triangle, and let <m>$M$</m>
+        be the midpoint of $BC$, so the median through <m>$A$</m> is the line joining <m>$A$</m> and
+        <m>$M$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(x, y)$</m> be a point on this median. Then <m>$M = \left(\frac{x_2 + x_3}{2}, \frac{y_2 +
+        y_3}{2}\right)$</m> and <m>$(x, y)$</m> lies on the line joining <m>$A$</m> and <m>$M$</m>:
+      </d:para>
+      <d:para>
+        <m>$\frac{y - y_1}{\frac{y_2 + y_3}{2} - y_1} = \frac{x - x_1}{\frac{x-2 + x_3}{2} - x_1}$</m>.
+      </d:para>
+      <d:para>
+        Consider the determinants: <m>$\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1 &amp; 1\\x_2 &amp;
+        y_2 &amp; 1\end{vmatrix}$</m> and <m>$\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1 &amp; 1\\x_3
+        &amp; y_3 &amp; 1\end{vmatrix}$</m>
+      </d:para>
+      <d:para>
+        The first determinant represents twice the signed area of triangle <m>$AXB$</m> and the second
+        determinant represents twice the signed area of triangle <m>$AXC$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$(x, y)$</m> lies on the median <m>$AM$</m>, triangles <m>$AXB$</m> and <m>$AXC$</m> have
+        equal areas with opposite signs, so their determinants sum to zero:
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1 &amp; 1\\x_2 &amp;
+        y_2 &amp; 1\end{vmatrix} + \begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1 &amp; 1\\x_3
+        &amp; y_3 &amp; 1\end{vmatrix} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 145 -->
+      <d:para>
+        Let <m>$A(2, -3), B(3, -2), C(x, y)$</m>.
+      </d:para>
+      <d:para>
+        Area <m>$ = \frac{3}{2} \Rightarrow |2(-2 - y) + 3(y + 3) + x(-3 + 2)| / 2 = \frac{3}{2} \Rightarrow
+        |x - y - 5| = 3 \Rightarrow  x - y = 8$</m> or <m>$x - y = 2$</m>.
+      </d:para>
+      <d:para>
+        Centroid <m>$G = \left(\frac{2 + 3 + x}{3}, \frac{-3 - 2 + y}{3}\right)$</m> lies on <m>$3x - y - 8
+        = 0 \Rightarrow 3\left(\frac{5 + x}{3}\right) - \frac{-5 + y}{3} - 8 = 0 \Rightarrow 3x - y =
+        -2$</m>.
+      </d:para>
+      <d:para>
+        Solve with area condition: <m>$x - y = 8$</m> and <m>$3x - y = -2 \Rightarrow x = -5, y = -13$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 146 -->
+      <d:para>
+        Let <m>$A(-2, 5), B(4, -1), C(9, 1), D(3, 7)$</m>.
+      </d:para>
+      <d:para>
+        Midpoint of <m>$AC = \left(\frac{-2 + 9}{2}, \frac{5 + 1}{2}\right) = \left(\frac{7}{2},
+        3\right)$</m>, midpoint of <m>$BD = \left(\frac{4 + 3}{2}, \frac{-1 + 7}{2}\right) =
+        \left(\frac{7}{2}, 3\right)$</m>, so <m>$ABCD$</m> is a parallelogram.
+      </d:para>
+      <d:para>
+        Area <m>$= |(-2.-1 + 4.1 + 9.7 + 3.5) - (5.4 + -1.9 + 1.3 + 7.-2)| / 2 = 42$</m>.
+      </d:para>
+      <d:para>
+        <m>$E$</m> divides <m>$AC$</m> in ratio <m>$2:1 \Rightarrow E = \left(\frac{16}{3},
+        \frac{7}{3}\right)$</m>, midpoint of <m>$BC$</m> is <m>$F = \left(\frac{13}{2}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Delta_{DEF} = 0$</m>, so <m>$D, E, F$</m> are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 147 -->
+      <d:para>
+        Let the points be <m>$A(-3, -1), B(2, -1), C(1, 1), D(-2, 1)$</m>.
+      </d:para>
+      <d:para>
+        Compute slopes of opposite sides:
+      </d:para>
+      <d:para>
+        Slope of <m>$AB = \frac{-1 + 1}{2 + 3}) = 0$</m>,
+      </d:para>
+      <d:para>
+        Slope of <m>$CD = \frac{1 - 1}{1 + 2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$BC = \frac{1 + 1}{1 - 2} = -2$</m>,
+      </d:para>
+      <d:para>
+        Slope of <m>$AD = \frac{1 + 1}{-2 + 3} = 2$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AB \parallel CD$</m> and <m>$BC \not\parallel AD$</m>, the quadrilateral is a trapezium.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 148 -->
+      <d:para>
+        Let the vertices of a triangle be <m>$A(x_1, y_1), B(x_2, y_2), C(x_3, y_3)$</m> with integer
+        coordinates.
+      </d:para>
+      <d:para>
+        The squared distance between two points is <m>$AB^2 = (x_2 - x_1)^2 + (y_2 - y_1)^2$</m>, similarly
+        for <m>$BC^2$</m> and <m>$CA^2$</m>.
+      </d:para>
+      <d:para>
+        If the triangle is equilateral, then <m>$AB^2 = BC^2 = CA^2 = k^2$</m> for some integer <m>$k^2$</m>.
+      </d:para>
+      <d:para>
+        Consider the triangle modulo <m>$y$</m>: the square of any integer is <m>$0$</m> or <m>$1$</m>
+        modulo <m>$4$</m>. The sum of two squares modulo <m>$1$</m> can be <m>$0, 1, 2$</m>, but never
+        <m>$3$</m>. In an equilateral triangle with integer coordinates, all three squared distances must be
+        equal modulo <m>$4$</m>.
+      </d:para>
+      <d:para>
+        It can be shown that no three distinct integer points satisfy <m>$(x_2 - x_1)^2 + (y_2 - y_1)^2 =
+        (x_3 - x_2)^2 + (y_3 - y_2)^2 = (x_1 - x_3)^2 + (y_1 - y_3)^2$</m> modulo <m>$4$</m>. Hence, a
+        triangle with integral coordinates cannot be equilateral.
       </d:para>
     </d:listitem>
   </d:orderedlist>
