@@ -22,7 +22,7 @@
     </d:author>
     <d:copyright>
       <d:year>2026</d:year>
-      <d:year>2026</d:year>
+      <d:year>present</d:year>
       <d:holder>Shiv S. Dayal</d:holder>
     </d:copyright>
     <d:legalnotice>
@@ -43,16 +43,17 @@ the section entitled &#8220;GNU Free Documentation License&#8221;.
   <xi:include href="preface.xml"/>
   <d:part>
     <title>Theory and Problems</title>
-    <!--xi:include href="coordinates.xml"/-->
-    <xi:include href="locus.xml"/>
-    <!--xi:include href="straight-lines.xml"/>
-    <xi:include href="pair-straight-lines.xml"/>
+    <!--xi:include href="coordinates.xml"/>
+    <xi:include href="locus.xml"/-->
+    <xi:include href="straight-lines.xml"/>
+    <!--xi:include href="pair-straight-lines.xml"/>
     <xi:include href="circles.xml"/-->
   </d:part>
   <d:part>
     <title>Answers</title>
-    <!--xi:include href="answers-coordinates.xml"/-->
-    <xi:include href="answers-locus.xml"/>
+    <!--xi:include href="answers-coordinates.xml"/>
+    <xi:include href="answers-locus.xml"/-->
+    <xi:include href="answers-straight-lines.xml"/>
   </d:part>
   <d:index>
     <d:title>Index</d:title>

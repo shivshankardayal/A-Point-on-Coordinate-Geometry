@@ -42,6 +42,16 @@
     </d:para>
   </d:simplesect>
   <d:simplesect>
+    <d:title>Why another book?</d:title>
+    As I said I had no intention to write the book. However, if we ignore that then the special thing about
+    this book is the license. While most of the books are copyrighted this book is copylefted under GNU
+    FDL. That means you are allowed to do almost anything as long as you keep the license same for the
+    derivative work. You are modify, sell copies of the book etc. as long as you distribute derivative work
+    under GNU FDL. There are very few books which are truly a free book. In software world GNU GPL or other
+    equivalent licenses are quite common but in publishing industry we do not have such licensing as
+    prevalent form of license.
+  </d:simplesect>
+  <d:simplesect>
     <d:title>Acknowledgments</d:title>
     <d:para>
       As with any book there are a lot of people involved with this book but

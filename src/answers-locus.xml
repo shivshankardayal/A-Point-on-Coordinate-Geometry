@@ -223,6 +223,10 @@
       <d:para>
         <m>$AP^2 + PB^2 = AB^2 \Rightarrow (x + a)^2 + y^2 + (x - a)^2 + y^2 = 4a^2 \Rightarrow x^2 + y^2 = a^2$</m>.
       </d:para>
+      <d:para>
+        <d:emphasis role="bold">Tip:</d:emphasis> The obtained equation is a circle(we will see this in
+        later chapters) which is evident because from diameters the angle on any point on the perimeter is a
+        right angle.
       <d:figure xml:id="dummy21">
         <d:title></d:title>
         <d:mediaobject>
@@ -231,14 +235,307 @@
           </d:imageobject>
         </d:mediaobject>
       </d:figure>
-      <d:para>
-        <d:emphasis role="bold">Tip:</d:emphasis> The obtained equation is a circle(we will see this in
-        later chapters) which is evident because from diameters the angle on any point on the perimeter is a
-        right angle.
       </d:para>
     </d:listitem>
     <d:listitem>
       <!-- 23 -->
+      <d:para>
+        The diagram is given below:
+      </d:para>
+      <d:para>
+        Let <m>$A = (h, 0), B = (0, k)$</m> and <m>$P = (x, y)$</m>. Given <m>$AP = a, PB = b$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$\frac{AP}{PB} = \frac{a}{b}$</m>, hence, <m>$P$</m> divides <m>$AB$</m> in the ration
+        <m>$a:b$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x = \frac{a.0 + b.h}{a + b} = \frac{bh}{a + b}, y = \frac{a.k + b.0}{a + b} = \frac{ak}{a
+        + b}$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$AB^2 = OA^2 + OB^2 \Rightarrow (a + b)^2 = h^2 + k^2 = \frac{(a + b)^2x^2}{b^2} + \frac{(a
+        + b)^22y^2}{a^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy22">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/A2_2.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1)$</m>. Let the moving point be <m>$P(\alpha, \beta)$</m> then according to the
+        question <m>$A(x_1, y_1)$</m> lies on the curve <m>$y^2 = 8x$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y_1^2 = 8x_1$</m>. Also, since <m>$P$</m> is the mid-point of <m>$OA$</m>,
+      </d:para>
+      <d:para>
+        <m>$\alpha = \frac{x_1}{2} \Rightarrow x_1 = 2\alpha$</m> and <m>$\beta = \frac{y_1}{2}\Rightarrow
+        y_1 = 2\beta$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$4\beta^2 = 8.2.\alpha \Rightarrow \beta^2 = 4\alpha$</m>. Thus, locus of point <m>$P$</m>
+        is <m>$y^2 = 4x$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <d:para>
+        Let <m>$f(x, y) = x^2 + y^2 - 2x + 1.~f(2, -5) = 26 \neq 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the point <m>$(2, -5)$</m> does not lie on the given curve.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      <d:para>
+        Since the given equation represent the identical curves the ratio of coefficients of terms must be
+        equal. Thus,
+      </d:para>
+      <d:para>
+        <m>$\frac{m_1m_2}{a} = -\frac{m_1 + m_2}{2h} = \frac{1}{b} \Rightarrow m_1m-2 = \frac{a}{b}, m_1 +
+        m_2 = \frac{2h}{b}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      <d:para>
+        Let <m>$(x, y) = \left(at^2, 2at\right)$</m>. Then <m>$y^2 = 4ax$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      <d:para>
+        Let <m>$(x, y) = \left(t + \frac{1}{t}, t - \frac{1}{t}\right)$</m>, then <m>$x^2 - y^2 = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <d:para>
+        Let <m>$(x, y) = (\cos\theta + \sin\theta, \cos\theta - \sin\theta)$</m>, then <m>$x^2 + y^2 =
+        2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      <d:para>
+        Centroid will be given by <m>$\left(\frac{\cos\theta + \sin\theta + 1}{3}, \frac{\sin\theta +
+        \cos\theta + 2}{3}\right)$</m>. Let it be <m>$(x, y)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\cos\theta + \sin\theta = S$</m>, then <m>$x = \frac{S + 1}{3} \Rightarrow 3x = S + 1$</m>
+        and <m>$3y = S + 2$</m>.
+      </d:para>
+      <d:para>
+        Subtracting we get <m>$3x - 3y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      <d:para>
+        Let <m>$P(u\cos\alpha.t, u\sin\alpha.t - kt^2) = (x, y)$</m> be the moving point. Then
+      </d:para>
+      <d:para>
+        <m>$x = u\cos\alpha.t \Rightarrow t = \frac{x}{u\cos\alpha}$</m> and <m>$y = u\sin\alpha .t - kt^2$</m>
+      </d:para>
+      <d:para>
+        Substituting for <m>$t$</m> in <m>$y$</m> we have <m>$y = x\tan\alpha - \frac{kx^2}{u^2\cos^2\alpha}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point whose locus is to be determined, then according to the question
+      </d:para>
+      <d:para>
+        <m>$(x + 2)^2 + (y - 3)^2 = 3^2[(x^2 + (y - 3)^2)] \Rightarrow 8x^2 - 4x - 4 + 8(y - 3)^2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2x^2 + 2y^2 - x - 12y + 17 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point whose locus is to be determined, then according to the question
+      </d:para>
+      <d:para>
+        <m>$4PA^2 = 9PB^2 \Rightarrow 4[(x + 5)^2 + (y - 3)^2] = 9[(x - 2)^2 + (y - 4)^2]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 5x^2 + 5y^2 - 76x - 48y + 44 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point whose locus is to be determined, then according to the question
+      </d:para>
+      <d:para>
+        <m>$PS = \sqrt{(x - 4)^2 + y^2},~ PM = x$</m> and <m>$PS = PM \Rightarrow (x - 4)^2 + y^2 = x^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y^2 - 8x + 16 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      <d:para>
+        Let the given points be <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m>. Let <m>$P(x, y)$</m> be a
+        point such that <m>$PA = PB$</m>.
+      </d:para>
+      <d:para>
+        <m>$PA^2 = (x - x_1)^2 + (y - y_1)^2$</m> and <m>$PB^2 = (x - x_2)^2 + (y - y_2)^2$</m>
+      </d:para>
+      <d:para>
+        Since <m>$PA = PB \Rightarrow (x - x_1)^2 + (y - y_1)^2 = (x - x_2)^2 + (y - y_2)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$x^2 - 2xx_1 + x_1^2 + y^2 - 2yy_1 + y_1^2 = x^2 - 2xx_2 + x_2^2 + y^2 - 2yy_2 + y_2^2$</m>
+      </d:para>
+      <d:para>
+        <m>$-2xx_1 - 2yy_1 + x_1^2 + y_1^2 = -2xx_2 - 2yy_2 + x_2^2 + y_2^2$</m>
+      </d:para>
+      <d:para>
+        Rearranging, <m>$2x(x_2 - x_1) + 2y(y_2 - y_1) = x_2^2 + y_2^2 - x_1^2 - y_1^2$</m>
+      </d:para>
+      <d:para>
+        This is a linear equation in <m>$x$</m> and <m>$y$</m>, hence it represents a straight line.
+      </d:para>
+      <d:para>
+        Now let <m>$M$</m> be the midpoint of <m>$AB$</m>. Then <m>$M\left(\frac{x_1 + x_2}{2}, \frac{y_1 +
+        y_2}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of <m>$M$</m> into the equation satisfies it, so the line passes
+        through the midpoint of <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        Now we consider triangles <m>$PAM$</m> and <m>$PBM$</m> and we see that <m>$PA = PB, PM = PM, AM =
+        BM$</m> so both the triangles are congruent. We also find that <m>$PA^2 = PM^2 + AM^2$</m>, thus,
+        the triangles are right angled as well at <m>$M$</m>. Thus, we have proven that the locus bisects
+        <m>$AB$</m> at right angle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      <d:para>
+        Distance of <m>$P(x, y)$</m> from <m>$(a, 0)$</m> is <m>$\sqrt{(x - a)^2 + y^2} = a + x$</m>
+      </d:para>
+      <d:para>
+        Sqauring gives us, <m>$\Rightarrow (x - a)^2 + y^2 = (x + a)^2 \Rightarrow  y^2 = 4ax$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <d:para>
+        Let <m>$A(1, 2), B(-2, 3)$</m> and <m>$P(x, y)$</m>.
+      </d:para>
+      <d:para>
+        The area of triangle <m>$PAB$</m> is given by <m>$\Delta = \frac{1}{2}|x_1(y_2 - y_3) + x_2(y_3 -
+        y_1) + x_3(y_1 - y_2)|$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$A(1,2), B(-2,3)$</m> and <m>$P(x,y)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}| x(2 - 3) + 1(3 - y) + (-2)(y - 2) | \Rightarrow | -x - 3y + 7 | = 18$</m>
+      </d:para>
+      <d:para>
+         <m>$x + 3y = -11$</m> or <m>$x + 3y = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      <d:para>
+        Let <m>$A(1, 2)$</m> and let <m>$Q(x, y)$</m> be a variable point on the curve <m>$x^2 + y^2 + x + y
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h,k)$</m> be the midpoint of <m>$AQ$</m>. By the midpoint formula,
+      </d:para>
+      <d:para>
+        <m>$h = \frac{1 + x}{2}, k = \frac{2 + y}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$x = 2h - 1, y = 2k - 2$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$Q$</m> lies on the curve, <m>$(2h - 1)^2 + (2k - 2)^2 + (2h - 1) + (2k - 2) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4h^2 - 4h + 1 + 4k^2 - 8k + 4 + 2h - 1 + 2k - 2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2h^2 + 2k^2 - h - 3k + 1 = 0$</m>
+      </d:para>
+      <d:para>
+        So the locus is <m>$2x^2 + 2y^2 - x - 3y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      <d:para>
+        If <m>$P(x, y)$</m> divides <m>$AQ$</m> internally in the ratio <m>$3:1$</m>, then by section
+        formula,
+      </d:para>
+      <d:para>
+        <m>$x = \frac{3.3\cos\theta + 1.2}{4},~y = \frac{3.2\sin\theta + 1.3}{4}$</m>.
+      </d:para>
+      <d:para>
+        <m>$x = \frac{9\cos\theta + 2}{4},~y = \frac{6\sin\theta + 3}{4}$</m>.
+      </d:para>
+      <d:para>
+        Rearranging, <m>$4x - 2 = 9\cos\theta$</m>, <m>$4y - 3 = 6\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\cos\theta = \frac{4x - 2}{9}$</m>, <m>$\sin\theta = \frac{4y - 3}{6}$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$\cos^2\theta + \sin^2\theta = 1$</m>,
+      </d:para>
+      <d:para>
+        <m>$\left(\frac{4x - 2}{9}\right)^2 + \left(\frac{4y - 3}{6}\right)^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Hence the locus of <m>$P$</m> is <m>$\frac{(4x - 2)^2}{81} + \frac{(4y - 3)^2}{36} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      <d:para>
+        Let a variable line through <m>$A(6, -8)$</m> cut the <m>$x$</m>-axis at <m>$Q(a, 0)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be the midpoint of <m>$AQ$</m>.
+      </d:para>
+      <d:para>
+        By midpoint formula, <m>$x = \frac{6 + a}{2},~y = \frac{-8 + 0}{2}$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$x = \frac{6 + a}{2},~y = -4$</m>.
+      </d:para>
+      <d:para>
+        From the first equation, <m>$a = 2x - 6$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$a$</m> is arbitrary (any real number), <m>$x$</m> can take any real value, while <m>$y$</m> is constant.
+      </d:para>
+      <d:para>
+        Hence the locus of <m>$P$</m> is <m>$y = -4$</m>.
+      </d:para>
     </d:listitem>
   </d:orderedlist>
 </d:chapter>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-straight-lines/index.html" ?>
+  <d:title>Answers of Straight Lines</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      <d:para>
+        Since the intercept and angle with <m>$x$</m>-axis is given, therefore, we can represent this line
+        using slope intercept form i.e. <m>$y = mx + c$</m>.
+      </d:para>
+      <d:para>
+        <m>$m = \tan45^\circ = 1$</m> and <m>$c = 5$</m>. Therefore, the required equation is <m>$y = x +
+        5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      <d:para>
+        Let the interecepts be <m>$a, -a$</m> for the two axes. So we can represent the line as <m>$x/a -
+        y/a = 1$</m>. Since it passes through <m>$(2, -3) \Rightarrow \frac{2}{a} - \frac{-3}{a} = 1
+        \Rightarrow a = 5$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required equation is <m>$x - y = 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      <d:para>
+        Let the required straight line be <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>, which will meet the axes
+        at <m>$(a, 0)$</m> and <m>$(0, b)$</m>.
+      </d:para>
+      <d:para>
+        The coordinate of the point dividing the line joining these points in the ratio <m>$1:2$</m> is
+        <m>$\frac{2.a + 1.0}{2 + 1}$</m> and <m>$\frac{2.0 + 1.b}{2 + 1}$</m> i.e. <m>$\frac{2a}{3}$</m> and
+        <m>$\frac{b}{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{2a}{3} = - 5 \Rightarrow a = -\frac{15}{2}$</m> and <m>$4 = \frac{b}{3} \Rightarrow
+        b = 12$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required equationis <m>$\frac{x}{-\frac{15}{2}} + \frac{y}{12} = 1 \Rightarrow 5y - 8x = 60$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      <d:para>
+        Comparing the equation with <m>$ax + by + c = 0$</m> we have <m>$a = 1, b = \sqrt{3}, c = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\sqrt{a^2 + b^2} = \sqrt{1 + 3} = 2$</m>
+      </d:para>
+      <d:para>
+        Dividing the given equation by <m>$2$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$\frac{x}{2} + y.\frac{\sqrt{3}}{2} + \frac{7}{2} = 0 \Rightarrow x\cos240^\circ + y\sin240^\circ
+        = \frac{7}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      <d:para>
+        The equation of straight in two-point form is given by <m>$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        So the equation becomes <m>$y - 3 = \frac{-2 - 3}{4 + 1}(x + 1) \Rightarrow x + y = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      <d:para>
+        Since the intercept and slope is given we can represent it as <m>$y = mx + c$</m>. Given that <m>$c
+        = 1$</m> and <m>$m = \tan45^\circ = 1$</m>.
+      </d:para>
+      <d:para>Therefore, the required equation is <m>$y = x + 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      <d:para>
+        Since the intercept and slope is given we can represent it as <m>$y = mx + c$</m>. Given that <m>$c
+        = -5$</m>. Since the line is equally inclined to the axes so angle of inclination is <m>$\theta =
+        45^\circ$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$m = \tan\theta = 1$</m>, and thus, the required equation is <m>$y = x - 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      <d:para>
+        Since the intercept and slope is given we can represent it as <m>$y = mx + c$</m>. Given that <m>$c
+        = -2$</m>. Since the line is inclined at <m>$30^\circ$</m> to <m>$OX$</m> so <m>$m = \tan30^\circ =
+        \frac{1}{\sqrt{3}}$</m>.
+      </d:para>
+      <d:para>
+        Thus, required equation is <m>$y = \frac{x}{\sqrt{3}} - 2 \Rightarrow \sqrt{3}y = x -
+        2\sqrt{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      <d:para>
+        Since the intercept and slope is given we can represent it as <m>$y = mx + c$</m>. Given that <m>$c
+        = -3$</m>. Since the line is inclined at an angle <m>$\tan^{-1}\frac{3}{5}$</m>, therefore <m>$m =
+        \tan\tan^{-1}\frac{3}{5} = \frac{3}{5}$</m>.
+      </d:para>
+      <d:para>
+        Thus, required equation is <m>$y = \frac{3}{5}x - 3 \Rightarrow 5y = 3x - 9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      <d:para>
+        Since intercepts are given so we can use the intercept form i.e. <m>$\frac{x}{a} + \frac{y}{b} =
+        1$</m>. Given that <m>$a = 2$</m> ande <m>$b = 3$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the line is <m>$\frac{x}{2} + \frac{y}{3} = 1 \Rightarrow 3x + 2y =
+        6$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      <d:para>
+        Since intercepts are given so we can use the intercept form i.e. <m>$\frac{x}{a} + \frac{y}{b} =
+        1$</m>. Given that <m>$a = -5$</m> and <m>$b = 6$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the line is <m>$\frac{x}{-5} + \frac{y}{6} = 1 \Rightarrow 5y = 6x +
+        30$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      <d:para>
+        Let the intercept be <m>$a$</m> on both the axes. Then the equation of the line would be
+        <m>$\frac{x}{a} + \frac{y}{a} = 1 \Rightarrow x + y = a$</m>. Since the line passes through <m>$(5,
+        6)$</m>, therefore, <m>$a = 5 + 6 = 11$</m>. And thus, the equation of the straight line is <m>$x +
+        y = 11$</m>.
+      </d:para>
+      <d:para>
+        In the second case let the intercepts be <m>$a, -a$</m>. Then the equation would be <m>$\frac{x}{a}
+        - \frac{y}{a} = 1 \Rightarrow x - y = a$</m>. Since the line passes through <m>$(5, 6)$</m>,
+        therefore, <m>$a = 5 - 6 = -1$</m>. And thus, equation of the straight line would be <m>$x - y + 1 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      <d:para>
+        First let the intercepts be <m>$a, a$</m>, then the equation of the line would be <m>$\frac{x}{a} +
+      \frac{y}{a} = 1 \Rightarrow x + y = a$</m>. Since the line passes theough <m>$(1, -2)$</m>, therefore,
+      <m>$a = 1 - 2 = -1$</m>. And thus, the equation fo the straight line is <m>$x + y = - 1$</m> or <m>$x
+      + y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now let the intercepts be <m>$a, -a$</m>, then <m>$a = x - y = 1 + 2 = 3$</m>. So, the equation
+        would be <m>$x - y = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      <d:para>
+        Let <m>$a, b$</m> are the intercepts with <m>$1$</m>-axis and <m>$y$</m>-axis respectively. Since
+        <m>$\left(x', y'\right)$</m> bisects it therefore <m>$x' = \frac{a}{2} => a = 2x'$</m>, and
+        similarly, <m>$b = 2y'$</m>. The equation of line would be <m>$x/a + y/b = 1$</m>.
+      </d:para>
+      <d:para>
+        And thus, the required equation of the line in question is <m>$xy' + x'y = 2x'y'$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      <d:para>
+        Let <m>$a, b$</m> are the intercepts with <m>$x$</m>-axis and <m>$y$</m>-axis respectively. Since
+        <m>$(-4, 3)$</m> divides the intercept in the ratio <m>$5:3$</m>, therefore, <m>$-4 = \frac{5.0 +
+        3.a}{5 + 3} \Rightarrow a = -\frac{32}{3}$</m> and <m>$3 = \frac{5.b + 3.0}{5 = 3} \Rightarrow b =
+        \frac{24}{5}$</m>.
+      </d:para>
+      <d:para>
+        And thus equation of line is <m>$\frac{x}{a} + \frac{y}{b} = 1 \Rightarrow -\frac{3x}{32} +
+        \frac{5y}{24} = 1 \Rightarrow 20y - 9x = 96$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      <d:para>
+        We will make use of two point form. The equation of the line is given by
+      </d:para>
+      <d:para>
+        <m>$y - 0 = \frac{-2 - 0}{2 - 0}(x - 0) \Rightarrow x + y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      <d:para>
+        We will make use of two point form. The equation of the line is given by
+      </d:para>
+      <d:para>
+        <m>$y - 4 = \frac{6 - 4}{5 - 3}(x - 3) \Rightarrow y = x + 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      <d:para>
+        We will make use of two point form. The equation of the line is given by
+      </d:para>
+      <d:para>
+        <m>$y - 3 = \frac{-7 - 3}{6 + 1}(x + 1) \Rightarrow 7y - 21 = -10x - 10 \Rightarrow 10x + 7y =
+        11$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      <d:para>
+        This problem can be solved with intercept form. Intercept on <m>$x$</m>-axis is <m>$b$</m> and on
+        <m>$y$</m>-axis is <m>$-a$</m>. Thus, equation of the line is <m>$\frac{x}{b} - \frac{y}{a} = 1
+        \Rightarrow ax - by = ab$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      <d:para>
+        We will make use of two point form. The equation of the line is given by
+      </d:para>
+      <d:para>
+        <m>$y - b = \frac{a - b - b}{a + b - a}(x - a) \Rightarrow by - b^2 = (a - 2b)x - a^2 + 2ab
+        \Rightarrow (a - 2b)x - by + b^2 + 2ab - a^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      <d:para>
+        The equation of the given line is given by <m>$y - 2at_1 = \frac{2at_2 - 2at_1}{at_2^2 -
+        at_1^2}\left(x - at_1^2\right) = \frac{2}{t_2 + t_1}\left(x - at_1^2\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y(t_1 + t_2) - 2x = 2at_1t_2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      <d:para>
+        The equation of the given line is given by <m>$y - at_1 = \frac{\frac{a}{t_2} -
+        \frac{a}{t_1}}{at_2 - at_1}(x - at_1) = -\frac{1}{t_1t_2}(x - at_1)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow t_1t_2y + x = a(t_1 + t_2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+      <d:para>
+        The equation of the line is given by <m>$y - a\sin\phi_1 = \frac{a\sin\phi_2 -
+        a\sin\phi_1}{a\cos\phi_2 - a\cos\phi_1}(x - a\cos\phi_1)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y - a\sin\phi_1 = \frac{2\cos\frac{\phi_1 + \phi_2}{2}\sin\frac{\phi_2 -
+        \phi_1}{2}}{2\sin\frac{\phi_1 + \phi_2}{2}\sin\frac{\phi_1 - \phi_2}{2}}(x - a\cos\phi_1)$</m>
+      </d:para>
+      <d:para>
+        <m>$=> x\cos\frac{\phi_1 + \phi_2}{2} + y\sin\frac{\phi_1 + \phi_2}{2} = a\cos\frac{\phi_1 -
+        \phi_2}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      <d:para>
+        The equation of the line is given by <m>$y - b\sin\phi_1 = \frac{b\sin\phi_2 -
+        b\sin\phi_1}{a\cos\phi_2 - a\cos\phi_1}(x - a\cos\phi_1)$</m>
+      </d:para>
+      <d:para>
+        <m>$=> y - b\sin\phi_1 = \frac{2bcos\frac{\phi_1 + \phi_2}{2}\sin\frac{\phi_2 -
+        \phi_1}{2}}{2a\sin\frac{\phi_1 + \phi_2}{2}\sin\frac{\phi_1 - \phi_2}{2}}(x - a\cos\phi_1)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x}{a}\cos\frac{\phi_1 + \phi_2}{2} + \frac{y}{b}\sin\frac{\phi_1 + \phi_2}{2}
+        = \cos(\phi_1 - \phi_2)/2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <d:para>
+        The equation of the line is given by <m>$y - b\tan\phi_1 = \frac{b\tan\phi_2 - b\tan\phi_1}{a\sec\phi_2
+        - a\sec\phi_1}(x - a\sec\phi_1)$</m>
+      </d:para>
+      <d:para>
+        Now <m>$\frac{b\tan\phi_2 - b\tan\phi_1}{a\sec\phi_2 - a\sec\phi_1} =
+        \frac{b}{a}.\frac{\sin\phi_2\cos\phi_1 - \sin\phi_1\cos\phi_2}{\cos\phi_1 - \cos\phi_2}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{\sin(\phi_2 - \phi_1)}{\cos\phi_1 - \cos\phi_2} = \frac{2\sin\frac{\phi_2 -
+        \phi_1}{2}\cos\frac{\phi_2 - \phi_1}{2}}{2 \sin\frac{\phi_1 + \phi_2}{2} \sin\frac{\phi_2 -
+        \phi_1}{2}}$</m>
+      </d:para>
+      <d:para>
+        Simplifying gives us the equation of the line as
+      </d:para>
+      <d:para>
+        <m>$bx\cos\frac{\phi_1 - \phi_2}{2} - ay\sin\frac{\phi_1 + \phi_2}{2} = ab\cos\frac{\phi_1 +
+        \phi_2}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$A(1, 4), B(2, -3)$</m> and <m>$C(-1, -2)$</m>.
+      </d:para>
+      <d:para>
+        We find the equations of the sides <m>$AB, BC$</m> and <m>$CA$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AB: m_{AB} = \frac{-3 - 4}{2 - 1} = -7$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$AB: y - 4 = -7(x - 1)$</m> so <m>$y = -7x + 11$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$BC: m_{BC} = \frac{-2 - (-3)}{-1 - 2} = -\frac{1}{3}$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$BC: y + 3 = -\frac{1}{3}(x - 2)$</m> so <m>$y = -\frac{1}{3} x - \frac{7}{3}
+        \Rightarrow 3y + x + 7 = 0$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$CA: m_{CA} = \frac{4 - (-2)}{1 - (-1)} = 3$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$CA: y - 4 = 3(x - 1)$</m> so <m>$y = 3x + 1$</m>
+      </d:para>
+      <d:para>
+        Hence, the equations of the sides are: <m>$AB: y + 7x = 11, BC: 3y + x + 7 = 0$</m> and <m>$CA: y =
+        3x + 1$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      <d:para>
+        Let the vertices of the triangle be <m>$A(0, 1), B(2, 0)$</m> and <m>$C(-1, -2)$</m>.
+      </d:para>
+      <d:para>
+        We find the equations of the sides <m>$AB, BC$</m> and <m>$CA$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AB: m_{AB} = \frac{0 - 1}{2 - 0} = -\frac{1}{2}$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$AB: y - 1 = -\frac{1}{2}(x - 0)$</m> so <m>$y = -\frac{1}{2}x + 1$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$BC: m_{BC} = \frac{-2 - 0}{-1 - 2} = \frac{2}{3}$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$BC: y - 0 = \frac{2}{3}(x - 2)$ so $y = \frac{2}{3}x - 4/3$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$CA: m_{CA} = \frac{1 - (-2)}{0 - (-1)} = 3$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$CA: y - 1 = 3(x - 0)$</m> so <m>$y = 3x + 1$</m>
+      </d:para>
+      <d:para>
+        Hence, the equations of the sides are: <m>$AB: 2y + x = 2, BC: y = 2/3 x - 4/3$</m>, and <m>$CA: y
+        = 3x + 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      <d:para>
+        Intersection of <m>$x = a, y = b$</m> will give the point <m>$(a, b)$</m> and opposite to it will be
+        intersection of the lines <m>$x = a'$</m> and <m>$y = b'$</m> i.e. <m>$(a', b')$</m>. Equation of
+        this diagonal would be <m>$y - b = \frac{b' - b}{a' - a}(x - a) \Rightarrow (b' - b)x - (a' - a)y +
+        (a' - a)b + (b - b')a = (b' - b)x + (a - a')y + a'b - ab'$</m>.
+      </d:para>
+      <d:para>
+        Intersection of <m>$x = a, y = b'$</m> will give the point <m>$(a, b')$</m> and opposite to it will
+        be intersection of the lines <m>$x = a'$</m> and <m>$y = b$</m> i.e. <m>$(a', b)$</m>. Equation of
+        this diagonal would be <m>$y - b = \frac{b- b'}{a' - a}(x - a')$</m>, simplification of which is left to
+        you.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy21">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_20.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <d:para>
+        Point which bisects the distance between <m>$(a, b)$</m> and <m>$(a', b')$</m> is given by
+        <m>$\left(\frac{a + a'}{2}, \frac{b + b'}{2}\right)$, and point which bisects the distance between
+        <m>$(-a, b)$</m> and <m>$(a', -b')$</m> is given by $\left(\frac{a' - a}{2}, \frac{b -
+        b'}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line passing through these points obtained is given by <m>$y - \frac{b + b'}{2}
+        = \left(\frac{\frac{b - b'}{2} - \frac{b + b'}{2}}{\frac{a' - a}{2} - \frac{a + a'}{2}}\right)\left(x -
+        \frac{a + a'}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2ay - 2b'x = ab - a'b'$</m>.
+      </d:para>
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

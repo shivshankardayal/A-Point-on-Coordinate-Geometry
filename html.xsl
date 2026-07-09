@@ -42,7 +42,7 @@
   </xsl:template>
   <xsl:template name="user.footer.navigation">
     <br/>
-    <p style="text-align: center;">&#xa9; 2026-2026 Shiv S. Dayal. <a href="https://ashtavakra.org">ashtavakra.org</a>.
+    <p style="text-align: center;">&#xa9; 2026-present Shiv S. Dayal. <a href="https://ashtavakra.org">ashtavakra.org</a>.
     GNU FDL license v1.3 or later is applicable where not stated.</p>
   </xsl:template>
 
