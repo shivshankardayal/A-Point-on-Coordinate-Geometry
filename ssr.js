@@ -2,6 +2,9 @@ const fs = require('fs/promises');
 const path = require('path');
 const os = require('os');
 const { fork } = require('child_process');
+const { mathjax } = require('mathjax-full/js/mathjax.js');
+const { TeX } = require('mathjax-full/js/input/tex.js');
+const { SVG } = require('mathjax-full/js/output/svg.js');
 
 async function findIndexFiles(dir, results = []) {
     const entries = await fs.readdir(dir, {
@@ -68,9 +71,6 @@ async function runPool(files, concurrency) {
 }
 
 async function processFile(file) {
-    const { mathjax } = require('mathjax-full/js/mathjax.js');
-    const { TeX } = require('mathjax-full/js/input/tex.js');
-    const { SVG } = require('mathjax-full/js/output/svg.js');
     const {
         liteAdaptor
     } = require('mathjax-full/js/adaptors/liteAdaptor.js');
@@ -108,8 +108,15 @@ async function processFile(file) {
                 const node = html.convert(math, {
                     display
                 });
-
-                return adaptor.outerHTML(node);
+								adaptor.setAttribute(node, 'aria-label', math);
+								const svgHtml = adaptor.outerHTML(node);
+								//const escaped = math
+                //.replace(/&/g, '&amp;')
+                //.replace(/</g, '&lt;')
+                //.replace(/>/g, '&gt;');
+								const tag = display ? 'div' : 'span';
+								return `<${tag} class="math-wrap">${svgHtml}<${tag} class="math-source" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">${math}</${tag}></${tag}>`;
+                //return adaptor.outerHTML(node);
             } catch (err) {
                 console.error(
                     `MathJax error in ${file}:`,

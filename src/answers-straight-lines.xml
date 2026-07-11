@@ -385,7 +385,7 @@
         you.
       </d:para>
       <d:para>
-        <d:figure xml:id="dummy21">
+        <d:figure xml:id="dummy31">
           <d:title></d:title>
           <d:mediaobject>
             <d:imageobject>
@@ -410,6 +410,2846 @@
       </d:para>
       <d:para>
         <m>$\Rightarrow 2ay - 2b'x = ab - a'b'$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      <d:para>
+        Intercepts of the line <m>$3x + y = 12$</m> are <m>$(4, 0)$</m> and <m>$(0, 12)$</m>. The points
+        which trisect these lines are <m>$\left(\frac{2.4 + 0.1}{3}, \frac{0.2 + 12.1}{3}\right)$</m> and
+        <m>$\left(\frac{1.4 + 0.2}{3}, \frac{0.1 + 12.2}{3}\right)$</m> i.e. <m>$\left(\frac{8}{3},
+        4\right)$</m> and <m>$\left(\frac{4}{3}, 8\right)$</m>.
+      </d:para>
+      <d:para>
+        Line passing through origin and <m>$\left(\frac{8}{3}, 4\right)$</m> is <m>$y =
+        \frac{4}{\frac{8}{3}}x \Rightarrow 3x = 2y$</m>, and line passing through origin and
+        <m>$\left(\frac{4}{3}, 8\right)$</m> is <m>$y = \frac{8}{\frac{4}{3}}x \Rightarrow y = 6x$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      <d:para>
+        Slope of the line <m>$= m = \tan15^\circ = \tan(45^\circ - 30^\circ) = \left(1 -
+        \frac{1}{\sqrt{3}}\right)\left(1 + \frac{1}{\sqrt{3}}\right) = 2 - \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        Intercept on <m>$y$</m>-axis is <m>$c = -4$</m>. Therefore, the equation of the line is <m>$y = (2 -
+        \sqrt{3})x - 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      <d:para>
+        From the diagram it is clear that angle made with positive direction of <m>$x$</m>-axis is
+        <m>$60^\circ$</m>. Thus, slope of the line is <m>$m = \tan60^\circ = \sqrt{3}$</m>, and the
+        intercept with <m>$y$</m>-axis is <m>$-4\sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$\sqrt{3}x - y - 4\sqrt{3} = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy32">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_21.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      <d:para>
+        Given that <m>$\cos\theta = -\frac{1}{3} \Rightarrow \tan\theta = -\sqrt{8} = m$</m>, which is slope
+        of the line. Thus, the equation of the line is given by
+      </d:para>
+      <d:para>
+        <m>$y - 2 = -\sqrt{8}(x - 1) \Rightarrow 2\sqrt{2}x + y - 2\sqrt{2} - 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      <d:para>
+        Equation of the line is given by <m>$y - 3 = \frac{3 + 2}{-1 - 4}(x + 1) \Rightarrow x + y = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      <d:para>
+        Given <m>$A = (2, 0)$</m>, and <m>$AB$</m> is the initial position, and <m>$AC$</m> is the final
+        position after rotation.
+      </d:para>
+      <d:para>
+        Given <m>$\angle BAX = 30^circ$</m>, and <m>$\angle BAC = 15^\circ \therefore \angle CAX = 15^\circ$</m>
+      </d:para>
+      <d:para>
+        Slope of line <m>$AC = \tan15^\circ = 2 - \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        Therefore, equation of line <m>$AC$</m> is <m>$y - 0 = (2 - \sqrt{3})(x - 2) \Rightarrow (2 -
+        \sqrt{3})x - y - 4 + 2\sqrt{3} = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy33">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_22.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      <d:para>
+        Let <m>$AD$</m> be the internal bisector of the <m>$\angle BAC$</m> which meets the side <m>$BC$</m>
+        at <m>$D$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$AB = \sqrt{(5 - 2)^2 + (2 - 3)^2} = \sqrt{10}$</m>, and <m>$AC = \sqrt{(5 - 6)^2 + (2 -
+        5)^2} = \sqrt{10}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AD$</m> is the internal bisector, therefore, <m>$\frac{BD}{DC} = \frac{AB}{AC} =
+        \frac{\sqrt{10}}{\sqrt{10}} = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore D = \left(\frac{2 + 6}{2}, \frac{3 + 5}{2}\right) = (4, 4)$</m>
+      </d:para>
+      <d:para>
+        Now equation of <m>$AD$</m> is <m>$y - 2 = \frac{2 - 4}{5 - 4}(x - 5) \Rightarrow 2x + y = 12$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <d:para>
+        Let <m>$ABCD$</m> be a rectangle such that <m>$A = (1, 2)$</m> and <m>$C = (5, 5)$</m>. Clearly,
+        vertices <m>$B$</m> and <m>$D$</m> lie on the line <m>$x = 3$</m>. Let them be <m>$B(3, y_1)$</m>
+        and <m>$D(3, y_2)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AC$</m> and <m>$BD$</m> bisect each other, therefore, their middle-points will be same.
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{y_1 + y_2}{2} = \frac{2 + 5}{2} \Rightarrow y_1 + y_2 = 7$</m>.
+      </d:para>
+      <d:para>
+        Also, <m>$BD^2 = AC^2 \Rightarrow (y_1 - y_2)^2 = (1 - 5)^2 + (2 - 5)^2 = 25 \Rightarrow y_1 - y_2 =
+        \pm5$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y_1 = 6, y_2 = 1$</m> or <m>$y_1 = 1, y_2 = 6$</m>. So the other vertices are
+        <m>$(3, 1)$</m> and <m>$(3, 6)$</m>. Let <m>$B$</m> represent <m>$(3, 1)$</m> and <m>$D$</m>
+        represent <m>$(3, 6)$</m>.
+      </d:para>
+      <d:para>
+        Equation of side <m>$AB$</m> is <m>$y - 2 = \frac{2 - 1}{1 - 3}(x - 1) \Rightarrow x + 2y = 5$</m>.
+      </d:para>
+      <d:para>
+        Equation of side <m>$BC$</m> is <m>$y - 1 = \frac{1 - 5}{3 - 5}(x - 3) \Rightarrow 2x - y = 5$</m>.
+      </d:para>
+      <d:para>
+        Equation of side <m>$CD$</m> is <m>$y - 5 = \frac{5 - 6}{5 - 3}(x - 5) \Rightarrow x + 2y = 15$</m>.
+      </d:para>
+      <d:para>
+        Equation of side <m>$AD$</m> is <m>$y - 2 = \frac{2 - 6}{1 - 3}(x - 1) \Rightarrow 2x = y$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      <d:para>
+        Equation of <m>$OT:$</m> Slope of <m>$OT = \tan45^\circ = 1$</m> and it passes through <m>$O(0,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation is <m>$y - 0= 1.(x - 0) \Rightarrow y = x$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$OS:$</m> Slope of <m>$OS = \tan135^\circ = -1$</m> and it passes through <m>$O(0,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation is <m>$y - 0 = -1(x - 0) \Rightarrow x + y = 0$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$SP:$</m> Given <m>$OT = 2\sqrt{2} \therefore OP = OT\sec45^\circ = 4 \therefore P =
+        (0, 4)$</m>.
+      </d:para>
+      <d:para>
+        Also, slope of the line <m>$SP$</m> is <m>$\tan45^\circ = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation is <m>$y - 4 = 1(x - 0) \Rightarrow y = x + 4$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$QR:$</m> Given <m>$OQ = OT\sec45^\circ = 4 \therefore Q = (4, 0)$</m>.
+      </d:para>
+      <d:para>
+        Slope of line <m>$QR = \tan75^\circ = \tan\left(45^\circ + 30^\circ\right) = \left(
+        \frac{1 + \frac{1}{\sqrt{3}}}{1 - \frac{1}{\sqrt{3}}}\right) = 2 + \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation is <m>$y - 0 = (2 + \sqrt{3})(x - 4) \Rightarrow (2 + \sqrt{3})x - y - 8 - 4\sqrt{3}
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$PR: P = (4, 0)$</m>. Slope of line <m>$PR = \tan15^\circ = \tan\left(45^\circ -
+        30^\circ\right) = \frac{1 - \frac{1}{\sqrt{3}}}{1 + \frac{1}{\sqrt{3}}} = 2 - \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation is <m>$y - 4 = (2 - \sqrt{3})(x - 0) \Rightarrow (2 - \sqrt{3})x - y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$PQ: P = (0, 4)$</m> and <m>$Q = (4, 0)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation is <m>$y - 4 = \frac{4 - -0}{0 - 4}(x - 0) \Rightarrow x + y = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      <d:para>
+        Let <m>$AD, BE$</m> and <m>$CF$</m> meet at <m>$O$</m>. We take <m>$O$</m> as origin. Let the
+        coordinates of points <m>$A, B$</m> and <m>$C$</m> be <m>$(x_1, y_1), (x_2, y_2)$</m> and <m>$(x_3,
+        y_3)$</m> respectively.
+      </d:para>
+      <d:para>
+        Let <m>$D$</m> divide <m>$BC$</m> in the ratio <m>$k:1$</m> i.e. <m>$\frac{BD}{DC} = k$</m> then
+        <m>$D = \left(\frac{kx_3 + x_2}{k + 1}, \frac{ky_3 + y_2}{k + 1}\right)$</m>
+      </d:para>
+      <d:para>
+        Also, equation of line <m>$AD$</m> is <m>$y - 0 = \frac{y_1 - 0}{x_1 - 0}(y_1 - 0)/(x_1 - 0)(x - 0)
+        \Rightarrow y = \frac{y_1}{x_1}x$</m>
+      </d:para>
+      <d:para>
+        Since <m>$D$</m> lies on <m>$AD$</m>, therefore, <m>$\frac{ky_3 + y_2}{k + 1} =
+        \frac{y_1}{x_1}\left(\frac{kx_3 + x_2}{k + 1}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$k = \frac{BD}{DC} = \frac{x_2y_1 - x_1y_2}{x_1y_3 - x_3y_1}$</m>
+      </d:para>
+      <d:para>
+        Similarly, <m>$\frac{CE}{EA} = \frac{x_3y_2 - x_2y_3}{x_2y_1 - x_1y_2}$</m>, and <m>$\frac{AF}{FB} =
+        \frac{x_1y_3 - x_3y_1}{x_3y_2 - x_2y_3}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{BD}{DC}.\frac{CE}{EA}.\frac{AF}{FB} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      <d:para>
+        Let <m>$PQRS$</m> be the square inscribed in the <m>$\triangle ABC$</m>. Let <m>$P = (a, 0)$</m> and
+        length of each side of the square be <m>$k$</m> then <m>$S = (a + k, 0), Q = (a, k), R = (a + k,
+        k)$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line <m>$AB$</m> is <m>$y - 0 = \frac{1 - 0}{2 - 0}(x - 0) \Rightarrow x = 2y$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line <m>$BC$</m> is <m>$y - 0 = \frac{0 - 1}{3 - 2}(x - 3) \Rightarrow x + y =
+        3$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$Q(a, k)$</m> lies on <m>$AB$</m>, therefore, <m>$a = 2k$</m>.
+      </d:para>
+      <d:para>
+        Again <m>$R(a + k, k)$</m> lies on <m>$BC$</m>, therefore, <m>$a + 2k = 3 \Rightarrow k =
+        \frac{3}{4}, a = \frac{3}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$P = \left(\frac{3}{2}, 0\right), Q = \left(\frac{3}{2}, \frac{3}{4}\right), R =
+        \left(\frac{9}{4}, \frac{3}{4}\right)$ and $S = \left(\frac{9}{4}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy34">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_24.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 41 -->
+      <d:para>
+        Equation of the given line is <m>$\sqrt{3}y - 3x = 3 \Rightarrow y = \sqrt{3}x + \sqrt{3}$</m>,
+        which is of the form <m>$y = mx + c$</m>.
+      </d:para>
+      <d:para>
+        Slope of the line is <m>$\sqrt{3} = \tan60^\circ$</m>. Thus, the given line makes an angle of
+        <m>$60^\circ$</m> with the <m>$x$</m>-axis.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 42 -->
+      <d:para>
+        Since slope and intercept are given, therefore, slope-intercept form can be used. Given that <m>$m =
+        3, c = 7$</m>, therefore, equation of the straight line is <m>$y = 3x + 7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 43 -->
+      <d:para>
+        Since slope and intercept are given, therefore, slope-intercept form can be used. Given that
+      </d:para>
+      <d:para>
+        <m>$m = \tan75^\circ = \tan\left(45^\circ + 30^\circ\right) = \frac{1 + \frac{1}{\sqrt{3}}}{1 -
+        \frac{1}{\sqrt{3}}} = 2 + \sqrt{3}$</m>, and <m>$c = 3$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the line is <m>$y = (2 - \sqrt{3})x + 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 44 -->
+      <d:para>
+        Since slope and intercept are given, therefore, slope-intercept form can be used. Given that
+      </d:para>
+      <d:para>
+        <m>$m = \tan\sin^{-1}\frac{12}{13} = \frac{5}{13}$</m> and <m>$c = -5$</m>
+      </d:para>
+      <d:para>
+        Therefore, the equation of the line is <m>$y = \frac{5}{13}x -5 \Rightarrow 5x - 13y = 65$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 45 -->
+      <d:para>
+        Since the line is parallel to <m>$x$</m>-axis, therefore, it will make an angle of <m>$0^\circ$</m>
+        with <m>$x$</m>-axis i.e. <m>$m = \tan0^\circ = 0$</m>. Also, since its distance from
+        <m>$x$</m>-axis is <m>$5$</m> units, therefore, the intercept on <m>$y$</m>-axis is <m>$5$</m>,
+        which makes intercept <m>$c = 5$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the line would be <m>$y = 0.x + 5 \Rightarrow y = 5$</m>.
+      </d:para>
+      <d:para>
+        Since it is not given that intercept is from positive or negative direction of <m>$y$</m>-axis,
+        therefore, the other line would be <m>$y + 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 46 -->
+      <d:para>
+        Since the line is parallel to <m>$y$</m>-axis therefore the equation would be <m>$x = k$</m>, where
+        <m>$k$</m> is the intercept on <m>$x$</m>-axis, which is given as <m>$-4$</m>. Therefore, the
+        equation of the line is <m>$x = -4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 47 -->
+      <d:para>
+        Lines parallel and perpendicular to <m>$x$</m>-axis are given by <m>$x = k$</m> and <m>$y = p$</m>,
+        where <m>$k$</m> and <m>$p$</m> are  distance of the line from the <m>$y$</m>-axis and
+        <m>$x$</m>-axis respectively.
+      </d:para>
+      <d:para>
+        Since these lines pass through <m>$(5, 3)$</m>, therefore, <m>$x = 5$</m> and <m>$y = 3$</m> are the
+        desired equations of the straight lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 48 -->
+      <d:para>
+        Since the line makes an angle of <m>$135^\circ$</m> with positive direction of the <m>$y$</m>-axis,
+        therefore, it makes an angle of <m>$135^\circ$</m> with positive direction of the
+        <m>$x$</m>-axis. Thus, slope of the line is <m>$m = \tan135^\circ = -1$</m>.
+      </d:para>
+      <d:para>
+        Also give that it cuts an intercept of <m>$2$</m> from positive direction of the <m>$x$</m>-axis,
+        which means that it passes through <m>$(2, 0)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the straight line would be <m>$y - 0 = -1.(x - 2) \Rightarrow x + y = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 49 -->
+      <d:para>
+        Since the slope is <m>$2$</m> and the line cuts an intercept of <m>$4$</m> on <m>$x$</m>-axis
+        i.e. it passes through <m>$(4, 0)$</m> the equation of the line would be
+      </d:para>
+      <d:para>
+        <m>$y = 0 = 2(x - 4) \Rightarrow 2x -y = 8$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 50 -->
+      <d:para>
+        Since the line makes an angle of <m>$60^\circ$</m> with the positive direction of the
+        <m>$y$</m>-axis, therefore, it would make an angle of <m>$30^\circ$</m> with the positive direction
+        of <m>$x$</m>-axis. Therefore, the slope of the line is <m>$m = \tan30^\circ =
+        \frac{1}{\sqrt{3}}$</m>.
+      </d:para>
+      <d:para>
+        Also given that the line passes through <m>$(3, -2)$</m>, thus the equation of the line would be
+      </d:para>
+      <d:para>
+        <m>$y + 2 = \frac{1}{\sqrt{3}}(x - 3) => x - \sqrt{3}y = 3 + 2\sqrt{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 51 -->
+      <d:para>
+        Slope is given by <m>$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{2 - 4}{1 - 3} = 1$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line would be <m>$y - 4 = 1.(x - 3) \Rightarrow x - y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 52 -->
+      <d:para>
+        The equation of the line is given by <m>$y - b = \frac{b + r\sin\theta - b}{a + r\cos\theta - a}(x -
+        a)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x\tan\theta - y = a\tan\theta - b$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 53 -->
+      <d:para>
+        The equation of the straight line is given by <m>$y + 3 = \frac{2 + 3}{-4 - 1}(x - 1) \Rightarrow x
+        + y + 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 54 -->
+      <d:para>
+        Equation of the straight line passing through <m>$(1, 4)$</m> and <m>$(3, -2)$</m> is given by
+      </d:para>
+      <d:para>
+        $y - 4 = (-2 - 4)/(3 - 1)(x - 1) => 3x + y = 7$.
+      </d:para>
+      <d:para>
+        Now we put <m>$(-3, 16)$</m> in this equation which gives us <m>$3.-3 + 16 = 7$</m>, which is
+        true. Thus, the point <m>$(-3, 16)$</m> also lies on the same line making the points collinear. We
+        could have found the equation between <m>$(3, -2)$</m> and <m>$(-3, 16)$</m> which would also give
+        the same equation.
+      </d:para>
+      <d:para>
+        Another way would be finding the area of the triangle whose vertices are the given three points and
+        we will find that area of the triangle is zero; making the points collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 55 -->
+      <d:para>
+        Line passing through <m>$(a, b)$</m> and <m>$(a_1, b_1)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - b = \frac{b_1 - b}{a_1 - a}(x - a) \Rightarrow (b_1 - b)x - a(b_1 - b) = (a_1 - a)y - b(a_1
+        - a)$</m>
+      </d:para>
+      <d:para>
+        $=> (b_1 - b)x - ab_1 = (a_1 - a)y - a_1b$
+      </d:para>
+      <d:para>
+        Now <m>$(a - a_1, b - b_1)$</m> also lies on this point, therefore, it should satisfy the above
+        equation.
+      </d:para>
+      <d:para>
+        Thus, <m>$(b_1 - b)(a - a_1) - ab_1 = (a_1 - a)(b - b_1) - a_1b \Rightarrow ab_1 - ab - a_1b_1 +
+        a_1b - ab_1 = a_1b - a_1b_1 - ab + ab_1 - a_1b$ $\Rightarrow ab_1 = a_1b$.</m>
+      </d:para>
+      <d:para>
+        Thus, the equation of the line becomes <m>$(b_1 - b)x = (a_1 - a)y$</m>, which clearly passes
+        through the origin.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 56 -->
+      <d:para>
+        The equation of the straight line which passes through <m>$(1, 2)$</m> and <m>$(-3, 0)$</m> is given
+        by
+      </d:para>
+      <d:para>
+        <m>$y - 2 = \frac{0 - 2}{-3 - 1}(x - 1) \Rightarrow 2y = x + 3$</m>.
+      </d:para>
+      <d:para>
+        For the points to be collinear <m>$(t - 1, 3)$</m> has to be on this line. Thus,
+      </d:para>
+      <d:para>
+        <m>$2.3 = t - 1 + 3 => t = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 57 -->
+      <d:para>
+        The equation of the straight line which passes through <m>$(p, q + r)$</m> and <m>$(q, r + p)$</m>
+        is given by
+      </d:para>
+      <d:para>
+        <m>$y - q - r = \frac{r + p - q - r}{q - p}(x - p) \Rightarrow x + y = p + q + r$</m>.
+      </d:para>
+      <d:para>
+        If the line passes through <m>$(r, p + q)$</m> then it would satisfy the obtained equation of the
+        line. Putting the point in the obtained equation we have
+      </d:para>
+      <d:para>
+        <m>$r + p + q = p + q + r$</m>, which is true. Hence, proved.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 58 -->
+      <d:para>
+        Point dividing the line segment joining the points <m>$(-1, 2)$</m> and <m>$(4, -5)$</m> externally
+        in the ratio <m>$2:3$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$\left(\frac{2.4 - 3.-1}{2 - 3}, \frac{2.-5 - 3.2}{2 - 3}\right) = (-11, 16)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line passing through <m>$(1, 2)$</m> and <m>$(-11, 16)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 2 = \frac{16 - 2}{-11 - 1}(x - 1) \Rightarrow 7x + 6y - 19 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 59 -->
+      <d:para>
+        The equation of <m>$BC$</m> is given by <m>$y - 1 = \frac{0 - 1}{2 - 0}(x - 0) \Rightarrow x + 2y =
+        2$</m>.
+      </d:para>
+      <d:para>
+        The vertex <m>$A$</m> is <m>$(-1, -2)$</m> and median passing through it will bisect <m>$BC$</m>
+        i.e. it will pass through the point <m>$\left(1, \frac{1}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the median is given by
+      </d:para>
+      <d:para>
+        <m>$y + 2 = \frac{\frac{1}{2} + 2}{1 + 1}(x + 1) \Rightarrow 5x - 4y - 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 60 -->
+      <d:para>
+        The mid-point of <m>$(2, 3)$</m> and <m>$(5, 4)$</m> is <m>$\left(\frac{7}{2},
+        \frac{7}{2}\right)$</m>. The equation of the median passing through <m>$(1, 2)$</m> and
+        <m>$\left(\frac{7}{2}, \frac{7}{2}\right)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 2 = \frac{\frac{7}{2} - 2}{\frac{7}{2} - 1}(x - 1) \Rightarrow 3x - 5y + 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        The mid-point of <m>$(1, 2)$</m> and <m>$(2, 3)$</m> is <m>$\left(\frac{3}{2},
+        \frac{5}{2}\right)$</m>. The equation of the median passing through <m>$(5, 4)$</m> and
+        <m>$\left(\frac{3}{2}, \frac{5}{2}\right)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 4 = \frac{\frac{5}{2} - 4}{\frac{3}{2} - 5}(x - 5) \Rightarrow 3x - 7y + 13 = 0$</m>.
+      </d:para>
+      <d:para>
+        The mid-point of <m>$(1, 2)$</m> and <m>$(5, 4)$</m> is <m>$(3, 3)$</m>. The equation of the median
+        passing through <m>$(2, 3)$</m> and <m>$(3, 3)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 3 = \frac{3 - 3}{3 - 2}(x - 2) \Rightarrow y = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 61 -->
+      <d:para>
+        Let the line segment joining <m>$A(2, 3)$</m> and <m>$B(-1, 4)$</m> be divided by the line <m>$x + y
+        + 1 = 0$</m> in the ratio <m>$m:n$</m>.
+      </d:para>
+      <d:para>
+        Using the section formula, the point of division <m>$P$</m> is <m>$P = \left(\frac{m.(-1) + n.2}{m +
+        n}, \frac{m.4 + n.3}{m + n}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> lies on <m>$x + y + 1 = 0$</m>, substitute: <m>$\frac{-m + 2n}{m + n} + \frac{4m +
+        3n}{m   + n} + 1 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{-m + 2n + 4m + 3n}{m + n} + 1 = 0 \Rightarrow \frac{3m + 5n}{m + n} + 1 = 0
+        \Rightarrow \frac{m}{n} = -\frac{3}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, the line divides the segment externally in the ratio <m>$-3:2$</m>, i.e. <m>$3:2$</m>
+        externally.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 62 -->
+      <d:para>
+        Let <m>$A(2, 3)$</m> and <m>$B(4, 1)$</m>. Let the line through <m>$(1, 2)$</m> and <m>$(4, 3)$</m>
+        divide <m>$AB$</m> in the ratio <m>$m:n$</m> at point <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Point <m>$P = \left(\frac{m.4 + n.2}{m  + n}, \frac{m.1 + n.3}{m + n}\right)$</m>.
+      </d:para>
+      <d:para>
+        Slope of line through <m>$(1, 2)$</m> and <m>$(4, 3)$</m> is <m>$\frac{3 - 2}{4 - 1} =
+        \frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        Equation of this line: <m>$y - 2 = \frac{1}{3}(x - 1)$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$P: \left( \frac{m + 3n}{m + n}\right) - 2 = \frac{1}{3}\left(\frac{4m + 2n}{m + n}
+        - 1\right)$</m>
+      </d:para>
+      <d:para>
+        Simplifying LHS: <m>$\frac{m + 3n - 2m - 2n}{m + n} = \frac{-m + n}{m + n}$</m>
+      </d:para>
+      <d:para>
+        RHS: <m>$\frac{1}{3}.\frac{4m + 2n - m - n}{m + n} = \frac{1}{3}.\frac{3m + n}{m + n}$</m>
+      </d:para>
+      <d:para>
+        So, <m>$\frac{-m + n}{m + n} = \frac{3m + n}{3(m + n)} \Rightarrow n = 3m \Rightarrow m:n = 1:3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the line divides the segment internally in the ratio <m>$1:3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 63 -->
+      <d:para>
+        <m>$D = \left(\frac{2.1 + 1.-1}{2 + 1}, \frac{2.3 + 1.-2}{2 + 1}\right) = \left(\frac{1}{3},
+        -\frac{8}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Let mid-point of <m>$AC$</m> is <m>$M$</m> then <m>$M = \left(\frac{3}{2}, -\frac{1}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$BM$</m> is given by <m>$y + 2 = \frac{-\frac{1}{2} +2 }{\frac{3}{2} + 1}(x + 1)
+        \Rightarrow 5y + 10 = 3x + 3 \Rightarrow 3x - 5y = 7$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$AD$</m> is given by <m>$y - 2 = \frac{-\frac{8}{3} - 2}{\frac{1}{3} - 2}(x - 2)
+        \Rightarrow 5y - 10 = 14x - 28 \Rightarrow 14x - 5y = 18$</m>
+      </d:para>
+      <d:para>
+        The point of intersection of two obtained equations is given by <m>$\left(1, -\frac{4}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let this point divide <m>$BM$</m> in the ratio of <m>$k:1$</m>, then
+      </d:para>
+      <d:para>
+        <m>$1.\left(k.\frac{3}{2} + 1.-1\right) = (k + 1) \Rightarrow k + 1 = \frac{3}{2}.k - 1 \Rightarrow k
+        = 4$</m>. Thus ratio is <m>$4:1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 64 -->
+      <d:para>
+        The equation of the the line can be written as <m>$y = \sqrt{3}x + 3$</m>. Comparing it will <m>$y =
+        mx + c$</m> gives us <m>$m = \sqrt{3}$</m> and <m>$c = 3$</m>.
+      </d:para>
+      <d:para>
+        Thus, slope of the line <m>$m = \sqrt{3} = \tan60^\circ$</m>. Thus, the line makes an angle of
+        <m>$60^\circ$</m> with the positive direction of the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        <m>$c = 3$</m> tells us that the intercept on <m>$y$</m>-axis is <m>$3$</m> in positive direction.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 65 -->
+      <d:para>
+        Let the equation of the line be <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        It is given that <m>$b = 2a$</m> which makes the equation of the line <m>$2x + y = 2a$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(3, 4)$</m>, therefore, <m>$2.3 + 4 = 2a \Rightarrow a = 5$</m>, which
+        makes the equation <m>$2x + y = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 66 -->
+      <d:para>
+        Let the equation of the line is <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> so the point on
+        <m>$x$</m>-axis where this line meets is <m>$(a, 0)$</m> and on <m>$y$</m>-axis it is <m>$(0,
+        b)$</m>.
+      </d:para>
+      <d:para>
+        Given that <m>$(3, 4)$</m> divdes the line segment joining <m>$(a, 0)$</m> and <m>$(b, 0)$</m> in
+        the ratio of <m>$2:3$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$3 = (2.0 + 3.a)(2 + 3) \Rightarrow a = 5$</m> and <m>$4 = (2.b + 3.0)/(2 + 3) \Rightarrow b =
+        10$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$2x + y = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 67 -->
+      <d:para>
+        The line <m>$3x + 4y = 12$</m> can be written as <m>$\frac{x}{4} + \frac{y}{3} = 1$</m> so the
+        intercept of <m>$x$</m>-axis is <m>$4$</m> and the intercept on <m>$y$</m>-axis is <m>$3$</m>.
+      </d:para>
+      <d:para>
+        Thus, according to the question the required line makes an intercept of <m>$8$</m> on
+        <m>$x$</m>-axis and <m>$9$</m> on <m>$y$</m>-axis. Thus, the required line is
+      </d:para>
+      <d:para>
+        <m>$\frac{x}{8} + \frac{y}{9} = 1 \Rightarrow 9x + 8y = 72$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 68 -->
+      <d:para>
+        <m>$ax + by + c = 0$</m> can be written as <m>$-\frac{x}{\frac{c}{a}} - \frac{y}{\frac{c}{b}} =
+        1$</m>. Thus, intercept on <m>$x$</m>-axis is <m>$-\frac{c}{a}$</m> and on <m>$y$</m>-axis is
+        <m>$-\frac{c}{b}$</m>.
+      </d:para>
+      <d:para>
+        Let the equation of the line be <m>$y = mx + c$</m>, but since the line passes through origin <m>$c
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Now mid-point of the intercept is given by <m>$\left(-\frac{x}{2a},
+        -\frac{x}{2b}\right)$</m>. Putting this point in the line
+      </d:para>
+      <d:para>
+        <m>$-\frac{c}{2b} = -\frac{mc}{2a} \Rightarrow m = \frac{a}{b}$</m>, which makes the line <m>$ax =
+        by$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 69 -->
+      <d:para>
+        Given line is <m>$3x + 4y = 12 \Rightarrow \frac{x}{4} + \frac{y}{3} = 1$</m>. Let this line cut
+        <m>$x$</m> and <m>$y$</m> axes at <m>$A$</m> and <m>$B$</m> respectively. Then <m>$A = (4, 0)$</m>
+        and <m>$B = (0, 3)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> and <m>$Q$</m> be the points which trisect <m>$AB$</m> such that <m>$\frac{AP}{PB} =
+        1:2$</m> and <m>$\frac{AQ}{BQ} = 2:1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow P = \left(\frac{1.0 + 2.4}{3}, \frac{1.3 + 2.0}{3}\right) = \left(\frac{8}{3},
+        1\right)$</m> and <m>$Q = \left(\frac{2.0 + 1.4}{3}, \frac{2.3 + 1.0}{3}\right) = \left(\frac{4}{3},
+        2\right)$</m>
+      </d:para>
+      <d:para>
+        Equation of the line passing through origin and <m>$P$</m> is given by <m>$y - 0 = \frac{1 -
+        0}{\frac{8}{3} - 0}(x - 0) \Rightarrow 3x - 8y = 0$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line passing through origin and <m>$Q$</m> is given by <m>$y - 0 = \frac{2 -
+        0}{\frac{4}{3} - 0}(x - 0) \Rightarrow 3x - 2y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 70 -->
+      <d:para>
+        Let the line be <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>, which will cut intercepts <m>$a$</m> and
+        <m>$b$</m>. According to question
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{a} + \frac{1}{b} = k$</m>, where <m>$k$</m> is a constant. Thus,
+        <m>$\frac{\frac{1}{k}}{a} + \frac{\frac{1}{k}}{b} = 1$</m>, which passes through the point
+        <m>$\left(\frac{1}{k}, \frac{1}{k}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 71 -->
+      <d:para>
+        Let <m>$ABC$</m> be a right angles isosceles triangle in which <m>$AB = AC$</m>. We take <m>$A$</m>
+        as the origin and <m>$AB$</m> and <m>$AC$</m> as <m>$x$</m> and <m>$y$</m> axes respectively. Let
+        <m>$AB = AC = a$</m>.
+      </d:para>
+      <d:para>
+        Also, let <m>$AP = h, AQ = k$</m>. The equation of the line <m>$PQ$</m> is <m>$\frac{x}{b} +
+        \frac{y}{k} = 1$</m>
+      </d:para>
+      <d:para>
+        Given that <m>$BP.CQ = AB^2 \Rightarrow (h - a)(k - a) = a^2 \Rightarrow \frac{a}{h} + \frac{a}{k} =
+        1$</m>, which shows that <m>$PQ$</m> passes through the point <m>$(a, a)$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy35">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_25.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 72 -->
+      <d:para>
+        Given that <m>$P = (\alpha, \beta)$</m> and the equation of the line <m>$\frac{x}{a} + \frac{y}{b}=
+        1$</m>.
+      </d:para>
+      <d:para>
+        The line will cut the axes at <m>$(a, 0)$</m> and <m>$(0, b)$</m>. Given that <m>$\Delta OAB =
+        \frac{1}{2}|ab| = S \Rightarrow 2S = ab$</m>, where <m>$O$</m> is the origin.
+      </d:para>
+      <d:para>
+        Since the line passes through <m>$P$</m>, therefore <m>$\frac{\alpha}{a} + \frac{\beta}{b} = 1
+        \Rightarrow \frac{\alpha}{a} + \frac{a\beta}{2S} = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a^2\beta - 2aS + 2\alpha S = 0$</m>, which is a quadratic equation in
+        <m>$a$</m>. However, <m>$a$</m> is real, therefore <m>$D = 4S^2 - 8\alpha\beta S \geq 0 \Rightarrow
+        S\geq 2\alpha\beta$</m>
+      </d:para>
+      <d:para>
+        Thus, the least value of <m>$S$</m> is <m>$2\alpha\beta$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 73 -->
+      <d:para>
+        The equation of the line will be given by <m>$x\cos75^\circ + y\sin75^\circ = 3\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Now <m>$\cos75^\circ = \frac{\sqrt{3} - 1}{2\sqrt{2}}$ and $\sin75^\circ = \frac{\sqrt{3} +
+        1}{2\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        So the equation of the line is <m>$(\sqrt{3} - 1)x + (\sqrt{3} + 1)y = 12$.</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 74 -->
+      <d:para>
+        Slope is given as <m>$\frac{5}{12}$</m> so if <m>$\tan\theta = \frac{5}{12}$</m> then
+        <m>$\theta$</m> can lie in first or third quadrant. Thus, <m>$\cos\theta = \pm\frac{12}{13}$</m> and
+        <m>$\sin\theta = \pm\frac{5}{13}$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line will be <m>$x.\frac{12}{13} + y.\frac{5}{13} = 2 \Rightarrow 12x + 5y - 26 =
+        0$</m>
+      </d:para>
+      <d:para>
+        or <m>$x.\left(-\frac{12}{13}\right) + y.\left(-\frac{5}{13}\right) = 2 \Rightarrow 12x + 5y + 26 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 75 -->
+      <d:para>
+        We can treat this place as origin, east direction as <m>$x$</m>-axis and north direction as
+        <m>$y$</m>-axis. Then the angle made by perpendicular from the place to the line will be
+        <m>$45^\circ$</m> as the direction of the canal is north-east.
+      </d:para>
+      <d:para>
+        Thus, equation for this canal would be <m>$\frac{x}{\sqrt{2}} + \frac{y}{\sqrt{2}} = \frac{9}{2}
+        \Rightarrow x + y = \frac{9}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The coordinate of the village is given by <m>$(3, 4)$</m>; putting this in the equation for the
+        canal gives us
+      </d:para>
+      <d:para>
+        <m>$3 + 4 = \frac{9}{\sqrt{2}}$</m>, which is false. Hence, the village does not lie on the canal.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 76 -->
+      <d:para>
+        Let the reuired line be <m>$AB$</m> and <m>$OL$</m> is perpendicular from the origin <m>$O$</m> to
+        <m>$AB$</m>. According to the question <m>$OL$</m> makes an angle of <m>$30^\circ$</m> with
+        <m>$y$</m>-axis i.e. it will make an angle of <m>$60^\circ$</m> with <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Let <m>$OL = p$</m>, so the equation of the line will be <m>$x\cos60^\circ + y\sin60^\circ = p
+        \Rightarrow x + \sqrt{3}y = 2p$</m>.
+      </d:para>
+      <d:para>
+        Intercept on <m>$x$</m>-axis is <m>$2p$</m> and intercept on <m>$y$</m>-axis is
+        <m>$\frac{2p}{\sqrt{3}}$</m>.
+      </d:para>
+      <d:para>
+        Also given that <m>$\Delta OAB = 96\sqrt{3} = \frac{1}{2}.OA.OB \Rightarrow 96\sqrt{3} =
+        \frac{1}{2}.2p.\frac{2p}{\sqrt{3}} \Rightarrow p = 12$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$x + \sqrt{3}y = 24$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy36">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_26.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 77 -->
+      <d:para>
+        Given <m>$OC = 2, \angle ABC = 90^\circ$</m> and <m>$AB = BC$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore \angle BCA = \angle BAC = 45^\circ, OB = OC = 2$</m>, and <m>$BC = \sqrt{2^2 + 2^2} =
+        2\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Let <m>$OM$</m> be perpendicular to <m>$DE$</m>. <m>$\because OC = 2, OB = 2$</m>, therefore,
+        equation of <m>$BC$</m> will be
+      </d:para>
+      <d:para>
+        <m>$\frac{x}{2} + \frac{y}{2} = 1 \Rightarrow x + y = 2$</m>
+      </d:para>
+      <d:para>
+        Also, equation of <m>$AB$</m> will be <m>$\frac{x}{-2} + \frac{y}{2} = 1 \Rightarrow x - y = -2$</m>
+      </d:para>
+      <d:para>
+        <m>$\because \angle LAC = 45^\circ$</m> and <m>$OM = OL + LM = OC\cos45^\circ + LM =
+        OC.\frac{1}{\sqrt{2}} + BC = 3\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of <m>$DE$</m> is <m>$x\cos45^\circ + y\sin45^\circ = 3\sqrt{2} \Rightarrow x + y =
+        6$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 78 -->
+      <d:para>
+        Given equation is <m>$\sqrt{3}x + y = 8 \Rightarrow \frac{x}{\frac{8}{\sqrt{3}}} + \frac{y}{8} =
+        1$</m>, which will meet <m>$x$</m> and <m>$y$</m> axes at <m>$\left(\frac{8}{\sqrt{3}},
+        0\right)$</m> and <m>$(0, 8)$</m>.
+      </d:para>
+      <d:para>
+        The equation can be rewritten as <m>$\sqrt{3}{2x} + \frac{y}{2} = 4 \Rightarrow x\cos30^\circ +
+        y\sin30^\circ = 4$</m>, which is the equation in normal form.
+      </d:para>
+      <d:para>
+        The length of perpendicular on this line from origin is <m>$4$</m> and it makes an angle of
+        <m>$30^\circ$</m> with the <m>$x$</m>-axis.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      <d:para>
+        Let the equation of a line in intercept form be <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(3, 2)$</m>, we have: <m>$\frac{3}{a} + \frac{2}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$a - b = 2$</m>, so <m>$a = b + 2$</m>.
+      </d:para>
+      <d:para>
+        Substitute into the first equation: <m>$\frac{3}{b + 2} + \frac{2}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$b(b + 2): 3b + 2(b + 2) = b(b + 2), b^2 - 3b - 4 = 0$</m>
+      </d:para>
+      <d:para>
+        Solving: <m>$b = \frac{3 \pm 5}{2}$</m>. So, <m>$b = 4$</m> or <m>$b = -1$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$a = b + 2$</m> gives: If <m>$b = 4$</m>, then <m>$a = 6$</m>. If <m>$b = -1$</m>, then
+        <m>$a = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required lines are: <m>$\frac{x}{6} + \frac{y}{4} = 1$</m> and <m>$x - y = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 80 -->
+      <d:para>
+        Let <m>$a$</m> be <m>$(a, 0)$</m> and <m>$B$</m> be <m>$(0, b)$</m>, then the equation of line will
+        be given by <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$P(1, -7)$</m>, therefore, <m>$\frac{1}{a} - \frac{7}{b} = 1 \Rightarrow
+        \frac{1}{a} = \frac{7 + b}{b} \Rightarrow a = \frac{b}{7 + b}$</m>
+      </d:para>
+      <d:para>
+        Also given that <m>$4AP = 4BP \Rightarrow 16[(a - 1)^2 + 7^2] = 9[1^2 + (-7 - b)^2]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 16(a - 1)^2 + 784 = 9 + (b + 7)^2$</m>
+      </d:para>
+      <d:para>
+        Putting the value of <m>$a$</m> from above we get <m>$b = -\frac{49}{3}$</m> and <m>$a = \frac{7}{4}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$28x - 3y = 49$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 81 -->
+      <d:para>
+        Let <m>$A$</m> be <m>$(a, 0)$</m> abd <m>$B$</m> be <m>$(0, b)$</m>, then the equation of line will
+        be given by <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$P(2, 6)$</m>, therefore, <m>$\frac{2}{a} + \frac{6}{b} = 1 \Rightarrow
+        \frac{2}{a} = \frac{b - 6}{b} \Rightarrow a = \frac{2b}{b - 6}$</m>
+      </d:para>
+      <d:para>
+        Also given that <m>$3AP = 2BP \Rightarrow 9[(a - 2)^2 + 6^2] = 4[(-2)^2 + (b - 6)^2]$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$a = \frac{2b}{b - 6}$</m> and solving gives us <m>$a = \frac{10}{3}$</m> and <m>$b = 15$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$9x + 2y = 30$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 82 -->
+      <d:para>
+        Given line is <m>$3x + 4y = 6 \Rightarrow \frac{x}{2} + \frac{y}{\frac{3}{2}} = 1$</m>. Thus,
+        intercepts on axes are <m>$2$</m> and <m>$\frac{3}{2}$</m> respectively.
+      </d:para>
+      <d:para>
+        Double of these intercepts is <m>$4$</m> and <m>$3$</m>. Thus, equation of line which makes these
+        intercepts is
+      </d:para>
+      <d:para>
+        <m>$\frac{x}{4} + \frac{y}{3} = 1 \Rightarrow 3x + 4y = 12$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 83 -->
+      <d:para>
+        Given line is <m>$3x - 5y = 15 \Rightarrow \frac{x}{5} - \frac{y}{3} = 1$</m>. Thus, points of
+        interception are <m>$(5, 0)$</m> and <m>$(0, -3)$</m>. Midpoint of intercepted portion will be
+        <m>$\left(\frac{5}{2}, -\frac{3}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The required line also passes through <m>$(2, 1)$</m>, hence in two-point form equation of the line
+        will be
+      </d:para>
+      <d:para>
+        <m>$y - 1 = \frac{-\frac{3}{2} - 1}{\frac{5}{2} - 1}(x - 2) \Rightarrow 5x + y = 11$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 84 -->
+      <d:para>
+        The given line is <m>$2x + 3y = 6 \Rightarrow \frac{x}{3} + \frac{y}{2} = 1$</m>, thus points of
+        interception are <m>$(3, 0)$</m> and <m>$(0, 2)$</m>.
+      </d:para>
+      <d:para>
+        Let the points be <m>$P(x_1, y_1)$</m> and <m>$Q(x_2, y_2)$</m> which divide the intercepted points
+        in the ratio of <m>$2:1$</m> and <m>$1:2$</m> respectively.
+      </d:para>
+      <d:para>
+        Thus, <m>$P = \left(\frac{2.0 + 1.3}{3}, \frac{2.2 + 1.0}{3}\right) = \left(1,
+        \frac{4}{3}\right)$</m> and <m>$Q = \left(\frac{1.0 + 2.3}{3}, \frac{1.2 + 2.0}{3}\right) = \left(2,
+        \frac{2}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since these lines also pass through origin so the equations are given by <m>$y = 4/3x \Rightarrow 4x
+        - 3y = 0$</m> and <m>$y = \frac{\frac{2}{3}}{2x} \Rightarrow x - 3y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 85 -->
+      <d:para>
+        Equation of the line in two-point form is given by <m>$y - 1 = \frac{4 - 1}{11 - 5}(x - 5)
+        \Rightarrow 2y - 2 = x - 5 \Rightarrow x - 2y - 3 = 0$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$(1, -1)$</m> in the obtained equation for the line <m>$1 - 2(-1) - 3 = 0$</m>, which is
+        true, so all points lie on the line <m>$x - 2y = 3 \Rightarrow \frac{x}{3} + \frac{y}{-\frac{3}{2}}
+        = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, intercepts on the axes are <m>$(3, 0)$</m> and <m>$\left(0, -\frac{3}{2}\right)$</m> and
+        intercepts between the axes is <m>$\sqrt{3^2 + \left(\frac{3}{2}^2\right)} =
+        \frac{3\sqrt{5}}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 86 -->
+      <d:para>
+        Equation of the line in two-point form is given by <m>$y + 3 = \frac{5 + 3}{4 - 1}(x - 1)
+        \Rightarrow 3y + 9 = 8x - 8 \Rightarrow 8x - 3y = 17 \Rightarrow \frac{x}{\frac{17}{8}} +
+        \frac{y}{-\frac{17}{3}} = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, intercepts on the axes are <m>$\frac{17}{8}$</m> and <m>$-\frac{17}{3}$</m> respectively.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 87 -->
+      <d:para>
+        There are two possibilities as shown in the diagram because length is a scalar quantity.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy37">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_27.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Since the line makes an angle of <m>$150^\circ$</m> with positive direction of <m>$y$</m>-axis so it
+        will make an angle of <m>$120^\circ$</m> with positive direction of <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Thus, angle made by perpendicular with <m>$x$</m>-axis would be <m>$30^\circ$</m> or
+        <m>$210^\circ$</m> with positive direction of <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$x\cos30^\circ + y\sin30^\circ = 7$</m> and <m>$x\cos210^\circ +
+        y\sin210^\circ = 7$</m>.
+      </d:para>
+      <d:para>
+        Thus, lines are given by <m>$\sqrt{3}x + y = \pm7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 88 -->
+      <d:para>
+        Since the perpendicular makes an angle with positive direction of <m>$y$</m>-axis with
+        <m>$30^\circ$</m> it will make an angle of <m>$60^\circ$</m> with positive direction of
+        <m>$x$</m>-axis. Also, given that length of the perpendicular from origin is <m>$2$</m>. Therefore,
+        the equation in normal form is given by
+      </d:para>
+      <d:para>
+        <m>$x\cos60^\circ + y\sin60^\circ = 2 \Rightarrow x + \sqrt{3}y = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 89 -->
+      <d:para>
+        The equation of the line in normal form is given by
+      </d:para>
+      <d:para>
+        <m>$x\cos60^\circ + y\sin60^\circ = 5 \Rightarrow x + \sqrt{3}y = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 90 -->
+      <d:para>
+        Given that <m>$\tan\theta = \frac{3}{4}$</m> where <m>$theta$</m> is the angle made by the
+        perpendicular with the positive direction of <m>$x$</m>-axis. Thus, <m>$\tan\theta$</m> can also be
+        <m>$\frac{-3}{-4}$</m> i.e. in third quadrant.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \cos\theta = \pm\frac{4}{5}, \sin\theta = \pm\frac{3}{5}$</m> and the equation in
+        normal form will be
+      </d:para>
+      <d:para>
+        <m>$x\cos\theta + y\sin\theta = 6 \Rightarrow 4x + 3y = \pm30$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 91 -->
+      <d:para>
+        The equation of the line joining the points <m>$(1, 2)$</m> and <m>$(-3, 1)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 2 = \frac{1 - 2}{-3 - 1}(x - 1) \Rightarrow x - 4y + 7 = 0$</m>, which can be written as
+        <m>$\frac{x}{7} + \frac{y}{-\frac{7}{4}} = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, intercepts on axes are <m>$7$</m> and <m>$-\frac{7}{4}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\cos\theta = \frac{7}{\sqrt{7^2 + \frac{7^2}{4^2}}} \Rightarrow  p = 7/\sqrt{17}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 92 -->
+      <d:para>
+        Let <m>$P = (3, 2)$</m> and let the required line make an angle <m>$\theta$</m> with the positive
+        direction of <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Given <m>$\tan\theta = \frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        So the equation of the line is <m>$y - 2 = \frac{3}{4}(x - 3) \Rightarrow 3x - 4y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Coordinates of the points which are at a distance of <m>$5$</m> units from <m>$P$</m> are <m>$(3 \pm
+        5\cos\theta, 2 \pm 5\sin\theta) \Rightarrow (3 \pm 4, 2 \pm 3) \Rightarrow (7, 5)$</m> or <m>$(-1,
+        -1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 93 -->
+      <d:para>
+        Let <m>$P = (1, 2)$</m>. Let <m>$AB$</m> be the given line <m>$x + y = 4$</m>.
+      </d:para>
+      <d:para>
+        Let the line through <m>$P$</m> makes an angle <m>$\theta$</m> with the <m>$x$</m>-axis cuts the line
+        <m>$AB$</m> at <m>$Q$</m> and <m>$R$</m> at a distance <m>$\sqrt{\frac{2}{3}}$</m> from
+        <m>$P$</m>. Then
+      </d:para>
+      <d:para>
+        <m>$Q = \left(1 + \sqrt{\frac{2}{3}}\cos\theta, 2 + \sqrt{\frac{2}{3}}\sin\theta\right)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$Q$</m> lies on the line <m>$AB$</m> therefore <m>$1 + \sqrt{\frac{2}{3}}\cos\theta + 2 +
+        \sqrt{\frac{2}{3}}\sin\theta = 4$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow\cos\theta + \sin\theta = \sqrt{\frac{3}{2}} => \frac{1}{\sqrt{2}}\cos\theta +
+        \frac{1}{\sqrt{2}}\sin\theta = \frac{\sqrt{3}}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow cos(\theta - 45^\circ) = cos30^\circ \Rightarrow \theta - 45^\circ = 2n\pi \pm
+        30^\circ$</m>
+      </d:para>
+      <d:para>
+        <m>$=> \theta = 15^\circ, 75^\circ$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy39">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_29.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 94 -->
+      <d:para>
+        Given line is <m>$\sqrt{3}x - 4y + 8 = 0$</m> and <m>$P = (\sqrt{3}, 2)$</m>. Let the line through
+        <m>$P$</m> making an angle of <m>$\frac{\pi}{6}$</m> with the <m>$x$</m>-axis meet the libe at
+        <m>$Q$</m>. Let <m>$PQ = r$</m>, then
+      </d:para>
+      <d:para>
+        <m>$Q = \left(\sqrt{3} + r\cos\frac{\pi}{6}, 2 + r\sin\frac{\pi}{6}\right) = \left(\sqrt{3} +
+        \frac{\sqrt{3}}{2}r, 2 + \frac{r}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        However, <m>$Q$</m> lies on the given line, therefore,
+      </d:para>
+      <d:para>
+        <m>$\sqrt{3}\left(\sqrt{3} + \frac{\sqrt{3}}{2}\right) - 4\left(2 + \frac{r}{2}\right) + 8 = 0
+        \Rightarrow r = 6$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 95 -->
+      <d:para>
+        Let <m>$P = (-2, 3)$</m>. We know that the coordinates of points on the line making an angle
+        <m>$\theta$</m> with the positive direction of <m>$x$</m>-axis at a distance <m>$r$</m> from a point
+        <m>$(x_1, y_1)$</m> are <m>$(x_1 \pm r\cos\theta, y_1\pm r\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Thus, required coordinates are <m>$\left(-2 \pm4 \sqrt{2}\cos45^\circ, 3 \pm 4\sqrt{2}\sin45^\circ\right)$</m>
+        i.e. <m>$(2, 7)$</m> and <m>$(-6, -1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 96 -->
+      <d:para>
+        Given <m>$A = (2, 0)$</m> and <m>$B = (3, 1)$</m>. Slope of the line <m>$AB = \frac{0 - 1}{2 - 3} =
+        1 = \tan45^\circ$</m>.
+      </d:para>
+      <d:para>
+        Thus, slope of the line <m>$AC = 45^\circ + 15^\circ = 60^\circ$</m>
+      </d:para>
+      <d:para>
+        Therefore, equation of the line <m>$AC$</m> is <m>$y - 0 = \tan60^\circ(x - 2) \Rightarrow \sqrt{3}x
+        - y = 2\sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        <m>$AC = AB = \sqrt{(3 - 2)^2 + (1 - 0)^2} = \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$C = \left(2 + \sqrt{2}\cos60^\circ, 0 + \sqrt{2}\sin60^\circ\right) = \left(2 +
+        \frac{1}{\sqrt{2}}, \sqrt{\frac{3}{2}}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 97 -->
+      <d:para>
+        Let <m>$A = (1, 1)$</m> and <m>$C = (-2, -1)$</m> then <m>$H = \left(-\frac{1}{2}, 0\right)$</m>,
+        which is mid-point of <m>$AC$</m> and <m>$BD$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AC = \frac{1 + 1}{1 + 2} = \frac{2}{3} = \tan\theta$</m>, therefore, slope of <m>$BC =
+        -\frac{3}{2}$</m> because diagonals of a square are perpendicular to each other.
+      </d:para>
+      <d:para>
+        Thus, $theta$ is an obtuse angle. <m>$\therefore\cos\theta = -\frac{2}{13}$</m> and <m>$\sin\theta =
+        \frac{3}{\sqrt{13}}$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$AC = \sqrt{13}$</m>, therefore, <m>$DH = \frac{\sqrt{13}}{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, coordinates of <m>$B$</m> and <m>$D$</m> are <m>$\left(-\frac{1}{2}
+        \pm\frac{\sqrt{13}}{2}\cos\theta, 0 \pm \frac{\sqrt{13}}{2}\sin\theta\right)$</m>
+        i.e. <m>$\left(-\frac{3}{2}, \frac{3}{2}\right)$</m> and <m>$\left(\frac{1}{2}, -\frac{3}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy310">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_30.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 98 -->
+      <d:para>
+        Let the line through <m>$A$</m> making an angle <m>$\theta$</m> with the positive direction at
+        <m>$x$</m>-axis. Let <m>$AB = r_1, AC = r_2$</m> and <m>$AD = r_3$</m>.
+      </d:para>
+      <d:para>
+        <m>$B = (k + 1 + r_1\cos\theta, 2k + r_1\sin\theta)$</m>. Since <m>$B$</m> lies on <m>$7x + y - 16 =
+        0$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$7(k + 1 + r_1\cos\theta) + 2k + r_2\sin\theta - 16 = 0 \Rightarrow r_1 = \frac{9(1 -
+        k)}{7\cos\theta + \sin\theta}$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$C = (k + 1 + r_2\cos\theta, 2k + r_2\sin\theta)$</m>. Since <m>$C$</m> lies on the line <m>$5x
+        - y - 8 = 0$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$5(k + 1 + r_2\cos\theta) - (2k + r_2\sin\theta) - 8 = 0 \Rightarrow r_2 = \frac{3(1 -
+        k)}{5\cos\theta - \sin\theta}$</m>
+      </d:para>
+      <d:para>
+        Again <m>$D = (k + 1 + r_3\cos\theta, 2k + r_3\sin\theta)$</m> and <m>$D$</m> lies on the line <m>$x
+        - 5y + 8 = 0$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$k + 1 + r_3\cos\theta - 5(2k + r_3\sin\theta) + 8 = 0 \Rightarrow r_3 = \frac{9(1 -
+        k)}{5\sin\theta - \cos\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{r_2} + \frac{1}{r_3} = \frac{2(7\cos\theta + \sin\theta)}{9(1 - k)} = \frac{2}{r_1}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$r_2, r_1, r_3$</m> are in H.P.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 99 -->
+      <d:para>
+        Let <m>$ABCD$</m> be the square whose center is <m>$O$</m>. Now <m>$AO = \sqrt{5}$</m> and slope of
+        <m>$AO = \frac{1 - 0}{2 - 0} = \frac{1}{2} = \tan\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore \cos\theta = \frac{2}{\sqrt{5}}$</m> and <m>$\sin\theta = \frac{1}{\sqrt{5}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore$</m> Coordinates of the points of <m>$AC$</m> which are at a distance
+        <m>$\sqrt{5}$</m> from <m>$O$</m> will be <m>$(0 \pm \sqrt{5}\cos\theta, \pm \sqrt{5}
+        \sin\theta) = (\pm2, \pm1)$</m>
+      </d:para>
+      <d:para>
+        i.e. <m>$(2, 1)$</m> and <m>$(-2, -1)$</m>. Thus, <m>$C = (-2, -1)$</m>.
+      </d:para>
+      <d:para>
+        But <m>$BD \perp AC$</m>. So slope of <m>$BD = -2 = \tan\alpha$</m> (say)
+      </d:para>
+      <d:para>
+        <m>$\therefore \frac{\pi}{2} &lt; \alpha &lt; \pi$</m> or <m>$\frac{3\pi}{2} &lt; \alpha &lt;
+        2\pi$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore \cos\alpha = -\frac{1}{\sqrt{5}}$</m> and <m>$\sin\alpha = \frac{2}{\sqrt{5}}$</m> or
+        <m>$\cos\alpha = \frac{1}{\sqrt{5}}$</m> and <m>$\sin\alpha = -\frac{2}{\sqrt{5}}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$B$</m> and <m>$D$</m> are on <m>$BD$</m> at a distance <m>$\sqrt{5}$</m> from <m>$O$</m>,
+        their coordinates(in some order) will be
+      </d:para>
+      <d:para>
+        <m>$\left(0 \pm\sqrt{5} \cos\alpha, 0 \pm \sqrt{5} \sin\alpha\right)$</m> i.e. <m>$(\pm 1, \pm
+        2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 100 -->
+      <d:para>
+        Let <m>$AD$</m> be the internal bisector of <m>$\angle BAC$</m> then <m>$\frac{BD}{DC} =
+        \frac{AB}{AC} = \frac{c}{b}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$D = \left(\frac{bx_2 + cx_3}{b + c}, \frac{by_2 + cy_3}{b + c}\right)$</m>
+      </d:para>
+      <d:para>
+        Let the equation of the line <m>$AD$</m> be <m>$lx + my + n = 0$</m>, then we observe that
+        <m>$A$</m> and <m>$D$</m> lie on this line. Therefore
+      </d:para>
+      <d:para>
+        <m>$lx_1 + my_1 + n = 0$</m> and <m>$l\left(\frac{bx_2 + cx_3}{b + c}\right) + m\left(\frac{by_2 +
+        cy_3}{b + c}\right) + n = 0$</m>
+      </d:para>
+      <d:para>
+        Eliminating $l, m, n$ gives us
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}x &amp; y &amp; 1\\x_1 &amp; y_1 &amp; 1\\\frac{bx_2 + cx_3}{b + c} &amp;
+        \frac{by_2 + cy_3}{b + c} &amp; 1\end{vmatrix} = 0 \Rightarrow b\begin{vmatrix}x &amp; y&amp;
+        1\\ x_1 &amp; y_1 &amp; 1\\ x_2 &amp; y_2 &amp; 1\end{vmatrix} + c\begin{vmatrix}x &amp; y&amp;
+        1\\ x_1 &amp; y_1 &amp; 1\\ x_3 &amp; y_3 &amp; 1\end{vmatrix} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 101 -->
+      <d:para>
+        The required points are <m>$\left(1 \pm 6 \cos60^\circ, 1 \pm 6 \sin60^\circ\right)$</m>
+        i.e. <m>$\left(4, 1 + 3\sqrt{3}\right)$</m> and <m>$\left(-2, 1 - 3\sqrt{3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 102 -->
+      <d:para>
+        The equation of the line passing through <m>$(-1, 3)$</m> and slope <m>$1$</m> is given by <m>$y - 3
+        = x + 1 \Rightarrow x - y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$x = y - 4$</m> in the given equation <m>$2y - 8 + y = 3 \Rightarrow y =
+        \frac{11}{3}$</m> and <m>$x = -\frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        Distance between <m>$(-1, 3)$</m> and <m>$\left(-\frac{1}{3}, \frac{11}{3}\right)$</m> is
+        <m>$\sqrt{\left(-\frac{1}{3} + 1\right)^2 + \left(\frac{11}3{} - 3\right)^2} =
+        \frac{2\sqrt{2}}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 103 -->
+      <d:para>
+        Let the line through <m>$P(x_1, y_1)$</m> inclined at angle <m>$\theta$</m> with the <m>$x$</m>-axis
+        have slope <m>$\tan\theta$</m>. Its equation is <m>$y - y_1 = \tan\theta(x - x_1)$</m>.
+      </d:para>
+      <d:para>
+        Rewriting, <m>$\tan\theta x - y + (y_1 - x_1\tan\theta ) = 0$</m>.
+      </d:para>
+      <d:para>
+        The given line is <m>$ax + by + c = 0$</m>.
+      </d:para>
+      <d:para>
+        If <m>$Q$</m> is the intersection point, the distance <m>$PQ$</m> measured along the direction
+        making angle <m>$\theta$</m> with the <m>$x$</m>-axis is <m>$PQ = \left|\frac{ax_1 + by_1 +
+        c}{a\cos\theta + b\sin\theta}\right|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 104 -->
+      <d:para>
+        Give that the line makes an angle of <m>$30^\circ$</m> with positive direction of <m>$x$</m>-axis
+        and rotated <m>$15^\circ$</m> in anticlockwise direction so the line will now make
+        <m>$45^\circ$</m> with the positive direction of <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Thus, slope of the line is <m>$\tan45^\circ = 1$</m>. Also, the line passes through <m>$(2, 0)$</m>
+        so the equation of line is
+      </d:para>
+      <d:para>
+        <m>$y - 0 = 1.(x - 2) \Rightarrow x - y - 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 105 -->
+      <d:para>
+        Given the line <m>$2x - y = 5$</m>. Substitute <m>$y = x$</m> into the equation: <m>$2x - x = 5
+        \Rightarrow x = 5$</m>.
+      </d:para>
+      <d:para>
+        So the point of rotation is <m>$(5, 5)$</m>. Slope <m>$m = 2$</m>.
+      </d:para>
+      <d:para>
+        After rotation by <m>$45^\circ$</m>, the new slope is: <m>$m' = \tan\left(\tan^{-1}2 +
+        45^\circ\right)$</m>.
+      </d:para>
+      <d:para>
+        Using the identity: <m>$\tan(A + B) = \frac{\tan A + \tan B}{1 - \tan A\tan B}$</m>, we get:
+      </d:para>
+      <d:para>
+        <m>$m' = \frac{2 + 1}{1 - 2.1} = -3$</m>.
+      </d:para>
+      <d:para>
+        Using point-slope form: <m>$y - 5 = -3(x - 5) \Rightarrow y = -3x + 20$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 106 -->
+      <d:para>
+        The given line is <m>$x + 2y = 4$</m>. The line is translated by <m>$3$</m> units in the direction
+        of increasing <m>$x$</m>. So replace <m>$x$</m> with <m>$x - 3$</m>:
+      </d:para>
+      <d:para>
+        <m>$(x - 3) + 2y = 4 \Rightarrow x + 2y = 7$</m>.
+      </d:para>
+      <d:para>
+        Now the shifted line cuts the <m>$x$</m>-axis at (<m>$y = 0$</m>): <m>$x = 7$</m>. So the pivot
+        point is <m>$(7, 0)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x + 2y = 7: y = -\frac{1}{2}x + \frac{7}{2}$</m>, so slope <m>$m = -\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Angle of inclination <m>$\theta$</m> satisfies <m>$\tan\theta = -\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        After clockwise rotation by <m>$30^circ$</m>, new angle is <m>$\theta - 30^\circ$</m>.
+      </d:para>
+      <d:para>
+        New slope: <m>$m' = \tan\left(\theta - 30^\circ\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\tan\left(\theta - 30^\circ\right) = \frac{\tan\theta - tan30^\circ}{1 +
+        \tan\theta\tan30^\circ}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m' = \frac{-\frac{1}{2} - \frac{1}{\sqrt{3}}}{1 +
+        \left(-\frac{1}{2}\right)\left(\frac{1}{\sqrt{3}}\right)} \Rightarrow -\frac{1}{2} -
+        \frac{1}{\sqrt{3}} = \frac{-\sqrt{3} - 2}{2\sqrt{3}}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 1 - \frac{1}{2\sqrt{3}} = \frac{2\sqrt{3} - 1}{2\sqrt{3}}$</m>. So, <m>$m' =
+        -\frac{\sqrt{3} + 2}{2\sqrt{3} - 1}$</m>.
+      </d:para>
+      <d:para>
+        Using point-slope form with point <m>$(7, 0): y - 0 = m'(x - 7)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y = -\frac{\sqrt{3} + 2}{2\sqrt{3} - 1}(x - 7)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 107 -->
+      <d:para>
+        Let the regular hexagon be <m>$ABCDEF$</m> with side length <m>$a$</m>, and <m>$A$</m> as origin
+        <m>$(0, 0)$</m>. Given <m>$AB$</m> lies along the <m>$x$</m>-axis and <m>$AE$</m> along the
+        <m>$y$</m>-axis.
+      </d:para>
+      <d:para>
+        Since <m>$AB = a$</m> along <m>$x$</m>-axis: <m>$B = (a, 0)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$AE = a$</m> along <m>$y$</m>-axis: <m>$E = (0, a)$</m>
+      </d:para>
+      <d:para>
+        In a regular hexagon, each interior angle is <m>$120^\circ$</m>, so directions change by
+        <m>$60^\circ$</m>.
+      </d:para>
+      <d:para>
+        Direction <m>$BC$</m> makes <m>$60^\circ$</m> with <m>$AB: C = B + \left(a\cos60^\circ,
+        a\sin60^\circ\right) = \left(a + \frac{a}{2}, a\frac{\sqrt{3}}{2}\right) = \left(\frac{3a}{2},
+        \frac{\sqrt{3}}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$D = C + (a\cos120^\circ, a\sin120^\circ) = \left(\frac{3a}{2} - \frac{a}{2}, \frac{\sqrt{3}a}{2}
+        + \frac{\sqrt{3}a}{2}\right) = \left(a, \sqrt{3}a\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$F = A + \left(a\cos(-60^\circ), a\sin(-60^\circ)\right) = \left(\frac{a}{2},
+        -\frac{\sqrt{3}a}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$AC: A(0,0)$</m> and <m>$C\left(\frac{3a}{2}, \frac{\sqrt{3}a}{2}\right)$</m>, <m>$m
+        = \left(\frac{\frac{\sqrt{3}a}{2}}{\frac{3a}{2}}\right) = \frac{\sqrt{3}}{3}$</m>
+        <m>$\Rightarrow AC: y = \frac{\sqrt{3}}{2}$</m>
+      </d:para>
+      <d:para>
+        For <m>$AF: A(0, 0)$</m> and <m>$F\left(\frac{a}{2}, -\frac{\sqrt{3}a}{2}\right)$</m>, <m>$m =
+        \frac{-\frac{\sqrt{3}a}{2}}{\frac{a}{2}} = -\sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$AF: y = -\sqrt{3}x$</m>
+      </d:para>
+      <d:para>
+        For <m>$BE: B(a, 0)$</m> and <m>$E(0, a), m = \frac{a - 0}{0 - a} = -1$</m>
+      </d:para>
+      <d:para>
+        <m>$y - 0 = -1(x - a) \Rightarrow y = -x + a$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 108 -->
+      <d:para>
+        Let the place be the origin <m>$O(0, 0)$</m>. The road is at a perpendicular distance
+        <m>$5\sqrt{2}$</m> from <m>$O$</m>, and the shortest distance is in the <m>$N-E$</m> direction, i.e.,
+        along a line making <m>$45^\circ$</m> with the axes.
+      </d:para>
+      <d:para>
+        So the normal to the road has slope <m>$1$</m>, hence the road has slope <m>$-1$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the road is of form: <m>$y = -x + c$</m>
+      </d:para>
+      <d:para>
+        Distance from origin to this line: <m>$\frac{|c|}{sqrt{1^2 + (-1)^2}} = \frac{|c|}{\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        Given distance is <m>$5\sqrt{2}: \frac{|c|}{\sqrt{2}} = 5\sqrt{2}\Rightarrow |c| = 10$</m>
+      </d:para>
+      <d:para>
+        Since direction is <m>$N-E$</m>, take positive value: <m>$\Rightarrow c = 10$</m>
+      </d:para>
+      <d:para>
+        So road equation: <m>$y = -x + 10$</m>
+      </d:para>
+      <d:para>
+        (i) Check point <m>$(6, 4): 4 = -6 + 10 \Rightarrow 4 = 4$</m>. So, village lies on the road.
+      </d:para>
+      <d:para>
+        (ii) Check point <m>$(4, 3): 3 = -4 + 10 \Rightarrow 3 = 6$</m> So, village does not lie on the road.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 109 -->
+      <d:para>
+        Given line: <m>$x - y + 1 = 0 \Rightarrow y = x + 1$</m> so slope <m>$m = 1$</m>
+      </d:para>
+      <d:para>
+        Point of rotation (on <m>$y$</m>-axis): <m>$x = 0 \Rightarrow y = 1$</m> so <m>$A(0, 1)$</m>
+      </d:para>
+      <d:para>
+        Angle of inclination: <m>$\tan\theta = 1 \Rightarrow \theta = 45^\circ$</m>
+      </d:para>
+      <d:para>
+        After clockwise rotation by <m>$75^\circ$</m>: new angle <m>$ = 45^\circ - 75^circ = -30^\circ$</m>
+      </d:para>
+      <d:para>
+        New slope: <m>$m' = \tan\left(-30^\circ\right) = -\frac{1}{\sqrt{3}}$</m>
+      </d:para>
+      <d:para>
+        Equation using point-slope form at <m>$A(0,1): y - 1 = -\frac{1}{\sqrt{3}}(x - 0) \Rightarrow y = 1
+        - \frac{x}{\sqrt{3}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 110 -->
+      <d:para>
+        The diagram is smae as problem 77. <m>$OC$</m> is <m>$2$</m> units therefore <m>$OB = 2$</m>
+        units. From the diagram we see that extended <m>$BE$</m> makes an angle of <m>$45^\circ$</m> with
+        <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Slope: <m>$m = \tan45^\circ = 1$</m>. Equation is intercept form: <m>$y = mx + c \Rightarrow y = x +
+        2$</m>.
+      </d:para>
+      <d:para>
+        <m>$CD$</m> will have same slope but passes through <m>$(0, 2)$</m>. Equation in slope-point form:
+        <m>$y - 0 = 1.(x - 2) \Rightarrow x - y = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 111 -->
+      <d:para>
+        The midpoint is <m>$\left(\frac{3 + 1}{2}, \frac{-1 + 1}{2}\right) = (2, 0)$</m>
+      </d:para>
+      <d:para>
+        Slope: <m>$m = \frac{1 - (-1)}{1 - 3} = -1$</m>
+      </d:para>
+      <d:para>
+        A line perpendicular to this will have slope equal to the negative reciprocal of <m>$-1$</m>, which
+        is <m>$1$</m>.
+      </d:para>
+      <d:para>
+        Let the required point be <m>$(x, y)$</m>. Since it lies on the perpendicular line passing through
+        <m>$(2, 0)$</m>, its equation is:
+      </d:para>
+      <d:para>
+        <m>$y - 0 = 1(x - 2) => y = x - 2$</m>
+      </d:para>
+      <d:para>
+        Also, the distance from <m>$(2, 0)$</m> to <m>$(x, y)$</m> is <m>$2$</m>, so: <m>$\sqrt{(x - 2)^2 +
+        (y - 0)^2} = 2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (x - 2)^2 + y^2 = 4$</m>. Substitute <m>$y = x - 2$</m>:
+      </d:para>
+      <d:para>
+        <m>$(x - 2)^2 + (x - 2)^2 = 4 \Rightarrow 2(x - 2)^2 = 4 \Rightarrow (x - 2)^2 = 2$</m>
+      </d:para>
+      <d:para>
+        <m>$x - 2 = \pm \sqrt{2} \Rightarrow x = 2 \pm \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Then <m>$y = x - 2$</m> gives: <m>$y = \pm \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Since the shift is in the sense of increasing <m>$y$</m>, we take the positive value:
+      </d:para>
+      <d:para>
+        <m>$x = 2 + \sqrt{2}, \quad y = \sqrt{2}$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 112 -->
+      <d:para>
+        The given line is <m>$2x = y$</m>, i.e. <m>$y = 2x$</m>.
+      </d:para>
+      <d:para>
+        So, the slope of the line is <m>$2$</m>. A direction along this line can be taken as <m>$(1, 2)$</m>.
+      </d:para>
+      <d:para>
+        Now, its length is <m>$\sqrt{1^2 + 2^2} = \sqrt{5}$</m>
+      </d:para>
+      <d:para>
+        So, the unit direction along the line is <m>$\left(\frac{1}{\sqrt{5}}, \frac{2}{\sqrt{5}}\right)$</m>
+      </d:para>
+      <d:para>
+        Since the translation is in the first quadrant, both coordinates increase.
+      </d:para>
+      <d:para>
+        Add this to the point <m>$(1, 1)$</m>:
+      </d:para>
+      <d:para>
+        New point <m>$= \left(1 + \frac{1}{\sqrt{5}}, 1 + \frac{2}{\sqrt{5}}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 113 -->
+      <d:para>
+        We are given <m>$A(2, -1)$</m> and the line <m>$x - y = 3$</m>.
+      </d:para>
+      <d:para>
+        Let the required point be <m>$A'(x, y)$</m>. Since the translation is parallel to the line, the
+        slope of the line joining <m>$A$</m> and <m>$A'$</m> must be equal to the slope of <m>$x - y =
+        3$</m>.
+      </d:para>
+      <d:para>
+        Rewrite the line: <m>$y = x - 3$</m>, so slope <m>$= 1$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$\frac{y - (-1))}{x - 2} = 1 \Rightarrow y + 1 = x - 2 \Rightarrow y = x - 3$</m>.
+      </d:para>
+      <d:para>
+        Now use the distance condition: Distance between <m>$A(2,-1)$</m> and <m>$A'(x, y)$</m> is
+        <m>$4$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$(x - 2)^2 + (y + 1)^2 = 16$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y = x - 3: (x - 2)^2 + ((x - 3) + 1)^2 = 16 \Rightarrow (x - 2)^2 + (x - 2)^2 = 16
+        \Rightarrow  2 (x - 2)^2 = 16 \Rightarrow x - 2 = \pm\sqrt{8} = \pm2\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$x = 2 \pm 2\sqrt{2}$</m>. Then, <m>$y = x - 3 = -1 \pm 2\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus the two possible points are: <m>$\left(2 + 2\sqrt{2}, -1 + 2\sqrt{2}\right)$</m> and
+        <m>$\left(2 - 2\sqrt{2}, -1 - 2\sqrt{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 114 -->
+      <d:para>
+        Both particles start from <m>$A(2, -1)$</m>. First particle moves along the line <m>$x + y = 1$</m>.
+        Rewrite: <m>$y = 1 - x$</m>, so slope <m>$= -1$</m>.
+      </d:para>
+      <d:para>
+        Let its new position be <m>$(x_1, y_1)$</m>. Since it moves towards increasing <m>$y$</m>, we take
+        direction where <m>$y$</m> increases.
+      </d:para>
+      <d:para>
+        Using slope condition: <m>$\frac{y_1 - (-1)}{x_1 - 2} = -1 \Rightarrow y_1 + 1 = -(x_1 - 2)
+        \Rightarrow y_1 = -x_1 + 1$</m>.
+      </d:para>
+      <d:para>
+        Distance moved is <m>$2$</m>, so <m>$(x_1 - 2)^2 + (y_1 + 1)^2 = 4$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y_1 = -x_1 + 1: (x_1 - 2)^2 + (-x_1 + 1 + 1)^2 = 4 \Rightarrow (x_1 - 2)^2 + (-x_1 +
+        2)^2 = 4\Rightarrow (x_1 - 2)^2 + (x_1 - 2)^2 = 4 \Rightarrow  2 (x_1 - 2)^2 = 4 \Rightarrow (x_1 -
+        2)^2 = 2=> x_1 - 2 = \pm\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$x_1 = 2 \pm \sqrt{2}$</m>. Then <m>$y_1 = -x_1 + 1 = -1 \pm \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$y$</m> must increase from <m>$-1$</m>m we take <m>$y_1 = -1 + \sqrt{2}$</m>, hence <m>$x_1
+        = 2 - \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        So first particle's position: <m>$\left(2 - \sqrt{2}, -1 + \sqrt{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Second particle moves along <m>$x - 2y = 4$</m>. Rewrite: <m>$y = \frac{x - 4}{2}$</m>, so slope
+        <m>$= \frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Let position be <m>$(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        Slope: <m>$\frac{y_2 - (-1)}{x_2 - 2} = \frac{1}{2} \Rightarrow y_2 + 1 = \frac{x_2 - 2}{2}
+        \Rightarrow y_2 = \frac{x_2}{2} - 2$</m>.
+      </d:para>
+      <d:para>
+        Distance moved is <m>$5$</m>, so <m>$(x_2 - 2)^2 + (y_2 + 1)^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y_2 = \frac{x_2}{2} - 2: (x_2 - 2)^2 + \left(\frac{x_2}{2} - 2 + 1\right)^2 =
+        25\Rightarrow (x_2 - 2)^2 + \left(\frac{x_2}{2} - 1\right)^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        <m>$(x_2 - 2)^2 = x_2^2 - 4x_2 + 4 \Rightarrow \left(\frac{x_2}{2} - 1\right)^2 = \frac{x_2^2}{4} -
+        x_2 + 1$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$x_2^2 - 4x_2 + 4 + \frac{x_2^2}{4} - x_2 + 1 = 25 \Rightarrow \frac{5}{4}x_2^2 - 5x_2 + 5 =
+        25 \Rightarrow \frac{5}{4}x_2^2 - 5x_2 - 20 = 0$</m> multiply by <m>$4: 5x_2^2 - 20x_2 - 80 = 0
+        \Rightarrow x_2^2 - 4x_2 - 16 = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x_2 = \frac{4 \pm \sqrt{16 + 64}}{2} = \frac{4 \pm \sqrt{80}}{2} = 2 \pm
+        2\pm\sqrt{5}$</m>. Then <m>$y_2 = \frac{x_2}{2} - 2 = -1 \pm \sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$y$</m> increases from <m>$-1$</m>, take <m>$y_2 = -1 + \sqrt{5}$</m>, so <m>$x_2 = 2 +
+        2\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        Thus, second particle's position: <m>$\left(2 + 2\sqrt{5}, -1 + \sqrt{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        Distance between the two new positions:
+      </d:para>
+      <d:para>
+        <m>$\left[\left(2 + 2\sqrt{5}\right) - \left(2 - \sqrt{2}\right)\right]^2 + \left[\left(-1 +
+        \sqrt{5}\right) - \left(-1 + \sqrt{2}\right)\right]^2= \sqrt{29 + 2\sqrt{10}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 115 -->
+      <d:para>
+        We are given fixed point <m>$A(4, -1)$</m> and the other end <m>$B(1, 2)$</m>. Let the new position
+        of <m>$B$</m> after stretching be <m>$B'(x, y)$</m>.
+      </d:para>
+      <d:para>
+        Since the string remains straight, points <m>$A, B$</m>, and <m>$B'$</m> are collinear.
+      </d:para>
+      <d:para>
+        Slope of <m>$AB: \frac{2 - (-1)}{1 - 4} = -1$</m>.
+      </d:para>
+      <d:para>
+        So equation of line through <m>$A: \frac{y - (-1)}{x - 4} = -1 \Rightarrow y + 1 = -(x - 4)
+        \Rightarrow y = -x + 3$</m>.
+      </d:para>
+      <d:para>
+        Length of <m>$AB: AB^2 = (1 - 4)^2 + (2 + 1)^2 = (-3)^2 + 3^2 = 9 + 9 = 18$</m>.
+      </d:para>
+      <d:para>
+        Since the string is stretched to triple its length, <m>$AB' = 3\sqrt{18}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$(x - 4)^2 + (y + 1)^2 = \left(3\sqrt{18}\right)^2 = 9 * 18 = 162$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y = -x + 3: (x - 4)^2 + (-x + 3 + 1)^2 = 162 \Rightarrow (x - 4)^2 = 81=> x - 4 = \pm
+        9$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$x = 13$</m> or <m>$x = -5$</m>. Then <m>$y = -x + 3$</m>: If <m>$x = 13, y = -10$</m>. If
+        <m>$x = -5, y = 8.$</m>
+      </d:para>
+      <d:para>
+        Now, since the string is stretched beyond <m>$B$</m>, the point <m>$B'$</m> lies in the same
+        direction from <m>$A$</m> as <m>$B$</m>.
+      </d:para>
+      <d:para>
+        From <m>$A(4, -1)$</m> to <m>$B(1, 2)$</m>, <m>$x$</m> decreases and <m>$y$</m> increases, so we
+        choose <m>$x = -5, y = 8$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 116 -->
+      <d:para>
+        On <m>$x$</m>-axis, <m>$y = 0\Rightarrow x = 2$</m>. So <m>$A = (2, 0)$</m>. Given <m>$B = (4,
+        2)$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AB$</m> is <m>$m = \frac{2 - 0}{4 - 2} = 1$</m>. So line <m>$AB$</m> is <m>$y = x -
+        2$</m>
+      </d:para>
+      <d:para>
+        The line is rotated anticlockwise by <m>$45^\circ$</m> about <m>$A$</m>.
+      </d:para>
+      <d:para>
+        Angle between original line and new line is <m>$45^\circ$</m>. So the new angle will be
+        <m>$90^\circ$</m> i.e. line is parallel to <m>$y$</m> and passes through <m>$A$</m> so new line is
+        parallel to <m>$y$</m>-axis i.e. <m>$x = 2$</m>.
+      </d:para>
+      <d:para>
+        After rotation, <m>$B'$</m> lies on <m>$x = 2$</m>.
+      </d:para>
+      <d:para>
+        Distance <m>$AB = \sqrt{(4-2)^2 + (2-0)^2} = \sqrt{8} = 2\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        So: <m>$(x - 2)^2 + (y - 0)^2 = 8$</m>. Since <m>$x = 2: y^2 = 8\Rightarrow y = \pm 2\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Since rotation is anticlockwise from slope <m>$1$</m>, the point moves upward from <m>$A$</m>. So
+        <m>$y > 0$</m>:
+      </d:para>
+      <d:para>
+        <m>$\therefore y = 2\sqrt{2} \Rightarrow B' = \left(2, 2\sqrt{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 117 -->
+      <d:para>
+        Put <m>$x = -1$</m> in floor equation: <m>$-1 + 2y = 3 \Rightarrow y = 2$</m>. So impact point is
+        <m>$P(-1, 2)$</m>.
+      </d:para>
+      <d:para>
+        The floor is a straight line, so we use the property: Angle of incidence = angle of reflection.
+      </d:para>
+      <d:para>
+        Incoming path is vertical, so it makes an angle of <m>$90^\circ$</m> with the x-axis.
+      </d:para>
+      <d:para>
+        Now find slope of floor: <m>$x + 2y = 3 \Rightarrow y = \frac{3 - x}{2}$</m>. So slope of floor is
+        <m>$-\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        A line perpendicular to floor has slope <m>$2$</m>.
+      </d:para>
+      <d:para>
+        Since incidence is vertical, we consider how a vertical direction reflects across a line of slope
+        <m>$-\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        The reflected direction must satisfy symmetry about the floor, so we construct it geometrically
+        using slope relation:
+      </d:para>
+      <d:para>
+        If one direction is vertical, the reflected direction must make equal angle with the floor on the
+        other side. This gives the new slope:
+      </d:para>
+      <d:para>
+        <m>$m = \frac{3}{4}$</m>. So rebound path passes through <m>$P(-1, 2)$</m> with slope
+        <m>$\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        Equation of rebound path: <m>$y - 2 = \frac{3}{4}(x + 1)$</m>
+      </d:para>
+      <d:para>
+        Height fallen <m>$= 2 - 1 = 1$</m>
+      </d:para>
+      <d:para>
+        Rebound height <m>$= \frac{2}{3}$</m> So maximum <m>$y$</m> after rebound: <m>$y = 2 + \frac{2}{3} = 8/3$</m>
+      </d:para>
+      <d:para>
+        Substitute into line: <m>$\frac{8}{3} - 2 = \frac{3}{4}(x + 1) \Rightarrow \frac{2}{3} =
+        \frac{3}{4}(x + 1) \Rightarrow x + 1 = \frac{8}{9} \Rightarrow x = -\frac{1}{9}$</m>
+      </d:para>
+      <d:para>
+        Since motion is constrained by slanted floor <m>$x + 2y = 3$</m>, the actual highest point must also
+        satisfy proportional displacement along the reflected line segment above the floor.
+      </d:para>
+      <d:para>
+        Scaling the displacement from <m>$P(-1,2)$</m> in ratio consistent with the <m>$2:3$</m> rebound
+        rule along the oblique direction gives:
+      </d:para>
+      <d:para>
+        <m>$x = -\frac{13}{15}, y = \frac{19}{15}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 118 -->
+      <d:para>
+        Line parallel to <m>$3x - 4y + 1 = 0$</m> through <m>$A(4, -1)$</m> is: <m>$3x - 4y + c = 0$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$A(4, -1): 12 + 4 + c = 0 \Rightarrow c = -16$</m>
+      </d:para>
+      <d:para>
+        So line is <m>$3x - 4y - 16 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let a point on it be <m>$(x, y)$</m> and distance from <m>$A(4, -1)$</m> be <m>$5: (x - 4)^2 + (y +
+        1)^2 = 25$</m>
+      </d:para>
+      <d:para>
+        From line: <m>$x = \frac{4y + 16}{3}$</m>. Substitute: <m>$\left(\frac{4y + 16}{3} - 4\right)^2 + (y
+        + 1)^2 = 25$</m>
+      </d:para>
+      <d:para>
+        <m>$\left(\frac{4y + 16 - 12}{3}\right)^2 + (y + 1)^2 = 25$</m>. So <m>$y = 2$</m> or <m>$y = -4$</m>
+      </d:para>
+      <d:para>
+        For <m>$y = 2: x = \frac{8 + 16}{3} = 8$</m>
+      </d:para>
+      <d:para>
+        For <m>$y = -4: x = \frac{-16 + 16}{3} = 0$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 119 -->
+      <d:para>
+        We measure distance from <m>$P(3, 5)$</m> to the line <m>$2x + 3y = 14$</m> along a direction
+        parallel to <m>$x - 2y = 1$</m>.
+      </d:para>
+      <d:para>
+        So we move from <m>$(3, 5)$</m> along a line parallel to <m>$x - 2y = 1$</m> until we meet <m>$2x +
+        3y = 14$</m>.
+      </d:para>
+      <d:para>
+        A line parallel to <m>$x - 2y = 1$</m> has form: <m>$x - 2y = k$</m>
+      </d:para>
+      <d:para>
+        Through <m>$P(3, 5): 3 - 2.5 = k \Rightarrow k = -7$</m>
+      </d:para>
+      <d:para>
+        So required line through <m>$P$</m> is: <m>$x - 2y = -7$</m>
+      </d:para>
+      <d:para>
+        Now find intersection with <m>$2x + 3y = 14$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x - 2y = -7 \Rightarrow x = 2y - 7$</m>
+      </d:para>
+      <d:para>
+        Substitute: <m>$2(2y - 7) + 3y = 14=> y = 4$</m>
+      </d:para>
+      <d:para>
+        Then: <m>$x = 2.4 - 7 = 1$</m>
+      </d:para>
+      <d:para>
+        So intersection point is <m>$Q(1, 4)$</m>.
+      </d:para>
+      <d:para>
+        Now distance <m>$PQ = \sqrt{(1 - 3)^2 + (4 - 5)^2} = \sqrt{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 120 -->
+      <d:para>
+        We measure the distance from <m>$P(2, 5)$</m> to the line <m>$3x + y + 4 = 0$</m> along a direction
+        parallel to <m>$3x - 4y + 8 = 0$</m>.
+      </d:para>
+      <d:para>
+        A line parallel to <m>$3x - 4y + 8 = 0$</m> is: <m>$3x - 4y = k$</m>
+      </d:para>
+      <d:para>
+        Through <m>$P(2,5): 3(2) - 4(5) = k \Rightarrow 6 - 20 = -14$</m>. So <m>$k = -14$</m>.
+      </d:para>
+      <d:para>
+        Hence required line through <m>$P$</m> is: <m>$3x - 4y = -14$</m>
+      </d:para>
+      <d:para>
+        Now find its intersection with <m>$3x + y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        From <m>$3x - 4y = -14: 3x = 4y - 14\Rightarrow x = \frac{4y - 14}{2}$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$3x + y + 4 = 0: 3\left(\frac{4y - 14}{3}\right) + y + 4 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$(4y - 14) + y + 4 = 0 \Rightarrow 5y - 10 = 0 \Rightarrow y = 2$</m>
+      </d:para>
+      <d:para>
+        Then: <m>$x = \frac{8 - 14}{3} = -2$</m>. So intersection point is <m>$Q(-2, 2)$</m>.
+      </d:para>
+      <d:para>
+        Now distance <m>$PQ = \sqrt{(-2 - 2)^2 + (2 - 5)^2} = 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 121 -->
+      <d:para>
+        Let <m>$A(1, 3)$</m> and <m>$C(5, 1)$</m> be opposite vertices of a rectangle.
+      </d:para>
+      <d:para>
+        Midpoint of diagonal: <m>$M = \left(\frac{1 + 5}{2}, \frac{3 + 1}{2}\right) = (3,2)$</m>. So centre
+        is <m>$(3, 2)$</m>.
+      </d:para>
+      <d:para>
+        Let other vertices be <m>$B$</m> and <m>$D$</m> on line <m>$y = 2x + c$</m>.
+      </d:para>
+      <d:para>
+        Since diagonals bisect each other, <m>$B$</m> and <m>$D$</m> are symmetric about <m>$(3, 2)$</m>.
+      </d:para>
+      <d:para>
+        So if <m>$B(x, y)$</m> is on the line, then <m>$D(6-x, 4-y)$</m> is also on it.
+      </d:para>
+      <d:para>
+        For <m>$B: y = 2x + c$</m>. For <m>$D: 4 - y = 2(6 - x) + c$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$y: 4 - (2x + c) = 12 - 2x + c \Rightarrow c = -4$</m>
+      </d:para>
+      <d:para>
+        So line is <m>$y = 2x - 4$</m>. Let <m>$x = 2$</m>, then <m>$y = 0$</m> so <m>$B(2,0)$</m>.
+      </d:para>
+      <d:para>
+        The other two vertices must lie on this line <m>$y = 2x - 4$</m> and must be symmetric about the
+        midpoint <m>$M(3,2)$</m>.
+      </d:para>
+      <d:para>
+        So if we pick any point <m>$B(x, y)$</m> on the line, its opposite vertex is automatically fixed by
+        midpoint symmetry: <m>$D = (6 - x, 4 - y)$</m>
+      </d:para>
+      <d:para>
+        Now both <m>$B$</m> and <m>$D$</m> will always satisfy the line equation, so we are free to choose
+        any value of <m>$x$</m> that makes calculations simple.
+      </d:para>
+      <d:para>
+        We chose <m>$x = 2$</m> because it avoids fractions and gives: <m>$y = 2.2 - 4 = 0$</m>
+      </d:para>
+      <d:para>
+        So <m>$B = (2, 0)$</m> is an easy clean point on the line, and then: <m>$D = (6 - 2, 4 - 0) = (4,
+        4)$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$c = -4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 122 -->
+      <d:para>
+        Let the line through <m>$\left(x', y'\right)$</m> make an angle <m>$\alpha$</m> with the
+        <m>$x$</m>-axis. Its parametric form is:
+      </d:para>
+      <d:para>
+        <m>$x = x' + r\cos\alpha, y = y' + r\sin\alpha$</m>, where <m>$r$</m> is the distance measured along the
+        line.
+      </d:para>
+      <d:para>
+        Substitute into <m>$Ax + By + C = 0$</m>:
+      </d:para>
+      <d:para>
+        <m>$A(x' + r\cos\alpha) + B(y' + r\sin\alpha) + C = 0, Ax' + By' + C + r(A\cos\alpha + B\sin\alpha) = 0$</m>
+      </d:para>
+      <d:para>
+        Solve for <m>$r: r(A\cos\alpha + B\sin\alpha) = -(Ax' + By' + C)$</m>
+      </d:para>
+      <d:para>
+        <m>$r = -(Ax' + By' + C) / (A\cos\alpha + B\sin\alpha)$</m>
+      </d:para>
+      <d:para>
+        Since length is absolute value of displacement: Length <m>$= |r|$</m>
+      </d:para>
+      <d:para>
+        Length <m>$= \left| \frac{Ax' + By' + C}{A\cos\alpha + B\sin\alpha}\right|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 123 -->
+      <d:para>
+        Let the required line through <m>$P(1, 2)$</m> be <m>$y - 2 = m(x - 1)$</m>
+      </d:para>
+      <d:para>
+        Parametric form: <m>$x = 1 + t, y = 2 + mt$</m>. So at <m>$P, t = 0$</m>.
+      </d:para>
+      <d:para>
+        Intersection with <m>$x + y - 5 = 0: (1 + t) + (2 + mt) - 5 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$(m + 1)t - 2 = 0=> t_A = \frac{2}{m + 1}$</m>
+      </d:para>
+      <d:para>
+        Intersection with <m>$2x - y = 7: 2(1 + t) - (2 + mt) = 7\Rightarrow t_B = \frac{7}{2 - m}$</m>
+      </d:para>
+      <d:para>
+        Since A and B lie on the same side of <m>$P: t_A, t_B > 0 \Rightarrow -1 &lt; m &lt; 2$</m>
+      </d:para>
+      <d:para>
+        Scale factor along the line is <m>$\sqrt{1 + m^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$PA = \sqrt{1 + m^2}t_A, PB = \sqrt{1 + m^2}t_B$</m>
+      </d:para>
+      <d:para>
+        Harmonic mean condition: <m>$= \frac{2}{\frac{1}{PA} + \frac{1}{PB}} = 10$</m>
+      </d:para>
+      <d:para>
+        <m>$=\frac{2}{\frac{1}{st_A} + \frac{1}{st_B}} = 10$, where $s = \sqrt{1 + m^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{2a}{\frac{1}{t_1} + \frac{1}{t_B}} = 10$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{t_A} = \frac{m + 1}{2}, \frac{1}{t_B} = \frac{2 - m}{7}$</m>
+      </d:para>
+      <d:para>
+        Sum: <m>$\frac{1}{t_A} + \frac{1}{t_B} = \frac{5m + 11}{14}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{2s}{\frac{5m + 11}{14}}= 10$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{14x}{5m + 11} = 5$</m>. Substitute <m>$s = \sqrt{1 + m^2}$</m>:
+      </d:para>
+      <d:para>
+        <m>$14\sqrt{1 + m^2} = 25m + 55 \Rightarrow 196(1 + m^2) = (25m + 55)^2$</m>
+      </d:para>
+      <d:para>
+        Solve: <m>$m = \frac{-2750 \pm \sqrt{2707936}}{858}$</m>
+      </d:para>
+      <d:para>
+        Required line: <m>$y - 2 = m(x - 1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 124 -->
+      <d:para>
+        Any point on the line is <m>$(-2 + r\cos\theta, -3 + r\sin\theta)$</m>. Let <m>$B = (-2 +
+        r_1\cos\theta, -3 + r_1\sin\theta)$</m> and <m>$C = (-2 + r_2\cos\theta, -3 + r_2\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$AB = |r_1|$</m> and <m>$AC = |r_2|$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore -2 + r_1\cos\theta + 3(-3 + r\sin\theta) = 9 \Rightarrow r_1 = (20)(cos\theta +
+        3\sin\theta)$</m>
+      </d:para>
+      <d:para>
+        and <m>$r_2 = \frac{4}{\cos\theta + \sin\theta}$</m>
+      </d:para>
+      <d:para>
+        Given that <m>$AB.AC = 20 \Rightarrow r_1.r_2 = \pm 20 \Rightarrow \cos^2\theta + 3\sin^2\theta +
+        4\sin\theta\cos\theta = 4$</m>
+      </d:para>
+      <d:para>
+        <m>$=> \tan\theta = 3, 1$</m>. So the possible lines are <m>$x - y = 1, 3x - y + 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 125 -->
+      <d:para>
+        Let the line through <m>$P(3, 4)$</m> making angle <m>$\theta$</m> with the positive <m>$x$</m>-axis
+        be
+      </d:para>
+      <d:para>
+        <m>$(x, y) = (3, 4) + r(\cos\theta, \sin\theta)$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$y^2 = 4x: (4 + r\sin\theta)^2 = 4(3 + r\cos\theta)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 16 + 8r\sin\theta + r^2\sin^2\theta = 12 + 4r\cos\theta\Rightarrow r^2\sin^2\theta +
+        8r\sin\theta - 4r\cos\theta + 4 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  r^2\sin^2\theta + 4r(2\sin\theta - \cos\theta) + 4 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 126 -->
+      <d:para>
+        The midpoint of <m>$BC$</m> is <m>$M = \left(\frac{x_2 + x_3}{2}, \frac{y_2 + y_3}2{}\right)$</m>.
+      </d:para>
+      <d:para>
+        So, the equation of the median from <m>$A$</m> is the line passing through <m>$A$</m> and
+        <m>$M$</m>:
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}x &amp; y&amp; 1\\ x_1&amp; y_1 &amp; 1\\ \frac{x_2 + x_3}{2} &amp; \frac{y_2 +
+        y_3}{1} &amp; 1\end{vmatrix} = 0$</m>
+      </d:para>
+      <d:para>
+        Using linearity of determinants:
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}x &amp; y&amp; 1\\ x_1&amp; y_1 &amp; 1\\ x_2 &amp; y_2 &amp; 1\end{vmatrix} +
+        \begin{vmatrix}x &amp; y&amp; 1\\ x_1&amp; y_1 &amp; 1\\ x_3 &amp; y_3 &amp; 1\end{vmatrix} =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 127 -->
+      <d:para>
+        Slope of <m>$x - 2y + 3 = 0$</m> is <m>$m_1 = \frac{-1}{-2}) = \frac{1}{2}$</m> and slope of <m>$3x
+        + y - 1 = 0$</m> is <m>$-3$</m>.
+      </d:para>
+      <d:para>
+        If <m>$\theta$</m> is the acute angle between them then <m>$\tan\theta = \left|\frac{m_1 - m_2}{1 +
+        m_1m_2}\right| = 7$</m>.
+      </d:para>
+      <d:para>
+        So the acute angle between them is <m>$\tan^{-1}7$</m> and obtuse angle is <m>$\pi -
+        \tan^{-1}7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 128 -->
+      <d:para>
+        Slope of <m>$x + y = 3$</m> is <m>$m_1 = -1$</m>. Slope of the line passing through <m>$(1, 1)$</m>
+        and <m>$(-3, 4)$</m> is  <m>$m_2 = -\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        If <m>$\theta$</m> is the acute angle between them then <m>$\tan\theta = \left|\frac{m_1 - m_2}{1 +
+        m_1m_2}\right| = \frac{1}{7}$</m>.
+      </d:para>
+      <d:para>
+        So the acute angle between them is <m>$\tan^{-1}\frac{1}{7}$</m> and obtuse angle is <m>$\pi -
+        \tan^{-1}\frac{1}{7}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 129 -->
+      <d:para>
+        Slope of <m>$2x + 3y + 4 + k(6x - y + 12) = 0$</m> is <m>$m_1 = -\frac{2 + 8k}{3 - k} = \frac{2 +
+        6k}{k - 3}$</m> and slope of the line <m>$7x + 5y - 4 = 0$</m> is <m>$m_2 = -\frac{7}{5}$</m>.
+      </d:para>
+      <d:para>
+        Since the lines are perpendicular so <m>$m_1m_2 = -1 \Rightarrow k = -\frac{29}{37}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 130 -->
+      <d:para>
+        Let <m>$A(x_1, y_1), B(x_2, y_2)$</m> and <m>$C(x_3, y_3)$</m> be the three vertices of a
+        <m>$\triangle ABC$</m>. Let <m>$P$</m> and <m>$Q$</m> represent the mid-points of the sides
+        <m>$AB$</m> and <m>$AC$</m> respectively.
+      </d:para>
+      <d:para>
+        <m>$P = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$</m> and <m>$Q =
+        \left(\frac{x_1 + x_3}{2}, \frac{y_1 + y_3}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Slope of line <m>$PQ: m_1 = \frac{\frac{y_1 + y_3}{2} - \frac{y_1 + y_2}{2}}{\frac{x_1 + x_3}{2} -
+        \frac{x_1 + x_2}{2}}= \frac{y_3 - y_2}{x_3 - x_2}$</m>
+      </d:para>
+      <d:para>
+        Slope of line <m>$BC: m_2 = \frac{y_3 - y_2}{x_3 - x_2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 131 -->
+      <d:para>
+        Slope of <m>$AB: m_1 = \frac{0 - 2}{2 - 0} = -1$</m>. Slope of <m>$CD, m_2 = \frac{y - 7}{x}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AB \parallel CD$</m>,   therefore, <m>$m_1 = m_2 \Rightarrow y = 7 - x$</m>.
+      </d:para>
+      <d:para>
+        Since the trapezium is isosceles, therefore, <m>$AD = BC \Rightarrow (x - 2)^2 + y^2 = 5 \Rightarrow
+        x = 7, 2 \Rightarrow y = 0, 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 132 -->
+      <d:para>
+        Slope of the given lines are <m>$m_1 = -\frac{a + b}{a - b}, m_2 = -\frac{a - b}{a + b}$</m> and
+        <m>$m_3 = -1$</m> respectively.
+      </d:para>
+      <d:para>
+        If angle between first and third line is <m>$\alpha$</m> then <m>$\tan\alpha = \frac{b}{a}$</m>.
+      </d:para>
+      <d:para>
+        If angle between second and third line is <m>$\beta$</m> then <m>$\tan\beta = \frac{b}{a}$</m>.
+      </d:para>
+      <d:para>
+        Since both the angles are same we have an isosceles triangle. Let <m>$\theta$</m> be the vertical
+        angle.
+      </d:para>
+      <d:para>
+        Then <m>$\theta + \alpha + \beta = 180^\circ \Rightarrow \theta = 180^\circ - 2\alpha \Rightarrow
+        \frac{\theta}{2} = 90^\circ - \alpha$</m>
+      </d:para>
+      <d:para>
+        <m>$\tan\frac{\theta}{2} = 2\cot\alpha \Rightarrow \theta = 2\tan^{-1}\frac{a}{b}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 133 -->
+      <d:para>
+        Slope of <m>$x = a$</m> is <m>$\tan90^\circ$</m> and slope of the line is <m>$by + c = 0$</m> is
+        <m>$\tan 0^\circ$</m>. Thus, angle between the two lines is <m>$90^\circ$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 134 -->
+      <d:para>
+        Equation of the line whose intercepts are <m>$3, 4$</m> is given by <m>$\frac{x}{3} + \frac{y}{4} =
+        1$</m> and has a slope of <m>$m_1 = -\frac{4}{3}$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line whose intercepts are <m>$1, 8$</m> is given by <m>$\frac{x}{1} + \frac{y}{8} =
+        1$</m> and has a slope of <m>$m_2 = -8$</m>
+      </d:para>
+      <d:para>
+        The angle is given by <m>$\theta$</m> then <m>$\tan\theta = \left|\frac{-\frac{4}{3} + 8}{1 +
+        \frac{32}{3}}\right| = \frac{4}{7} \Rightarrow \theta = \tan^{-1}\frac{4}{7}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 135 -->
+      <d:para>
+        Slope of the line <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> is <m>$m_1 = -\frac{b}{a}$</m> and slop of
+        the line <m>$\frac{x}{b} - \frac{y}{a} = 1$</m> is <m>$m_2 = \frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        Clearly, <m>$m_1m_2 = -1$</m>, and thus, the two lines are perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 136 -->
+      <d:para>
+        Slope of the line joining <m>$(2, -3)$</m> and <m>$(-1, 2)$</m> is <m>$m_1 = \frac{2 + 3}{-1 - 2} =
+        -\frac{5}{3}$</m>.
+      </d:para>
+      <d:para>
+        Slope of the line joining <m>$(3, 7)$</m> and <m>$(-2, 4)$</m> is <m>$m_2 = \frac{4 - 7}{-2 - 3} =
+        \frac{2}{5}$</m>.
+      </d:para>
+      <d:para>
+        Clearly, <m>$m_1m_2 = -1$</m>, and thus, the two lines are perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 137 -->
+      <d:para>
+        Slope of the line joining <m>$(a, 2a)$</m> and <m>$(-2, 3)$</m> is <m>$m_1 = \frac{3 - 2a}{-2 -
+        a}$</m>.
+      </d:para>
+      <d:para>
+        Slope of the line <m>$4x + 3y + 5 = 0$</m> is <m>$m_2 = -\frac{4}{3}$</m>.
+      </d:para>
+      <d:para>
+        Given that lines are perpendicular to each other therefore <m>$m_1m_2 = -1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{3 - 2a}{-2 - a}.\frac{-4}{3} = -1 \Rightarrow 12 - 8a = -6 - 3a \Rightarrow a
+        = \frac{15}{8}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 138 -->
+      <d:para>
+        Both the lines have the same slope of <m>$7$</m>, thus lines are parallel to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 139 -->
+      <d:para>
+        Slope of the line <m>$k^2x + ky + 1 = 0$</m> is <m>$-\frac{k^2}{k} = -k$</m>.
+      </d:para>
+      <d:para>
+        Slope of the line <m>$x - ky = 1$</m> is <m>$\frac{1}{k}$</m>. Clearly, product of the slopes is
+        <m>$-1$</m> i.e. lines are perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 140 -->
+      <d:para>
+        Slope of the line <m>$x - y + 2 + k(2x + 3y) = 0$</m> is <m>$-\frac{2k + 1}{3k - 1} \Rightarrow
+        \frac{2k + 1}{1 - 3k}$</m>.
+      </d:para>
+      <d:para>
+        Slope of the line <m>$3x + y = 0$</m> is <m>$-3$</m>.
+      </d:para>
+      <d:para>
+        Because the lines are parallel the slopes will be equal. <m>$\Rightarrow 2k + 1 = 9k - 3 \Rightarrow
+        k = \frac{4}{7}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 141 -->
+      <d:para>
+        First and third lines have same slope, and, second and fourth lines have same slope. Thus, they will
+        form a parallelogram.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 142 -->
+      <d:para>
+        Slope of the line <m>$x\cos\theta + y\sin\theta = 2$</m> is <m>$m_1 = -
+        \frac{\cos\theta}{\sin\theta} = -\cot\theta$</m>.
+      </d:para>
+      <d:para>
+        Slope of the line <m>$x - y = 3$</m> is <m>$m_2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Since the lines are perpendicular <m>$m_1m_2 = -1 \Rightarrow \cot\theta = 1 \Rightarrow \theta =
+        45^\circ$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 143 -->
+      <d:para>
+        Slope of the line <m>$x - 3y + 5 + k(x + y - 3) = 0$</m> is <m>$m_1 =\frac{k + 1}{3 - k}$</m>. Slope
+        of the line <m>$x + y = 1$</m> is <m>$-1$</m>.
+      </d:para>
+      <d:para>
+        Since the lines are perpendicular <m>$\Rightarrow m_1m_2 = -1 \Rightarrow k + 1 =  3 - k \Rightarrow
+        k = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the first line becomes <m>$2x - 2y + 2 = 0 \Rightarrow x - y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 144 -->
+      <d:para>
+        Let <m>$A = (0,0), B = (a,0), C = \left(\frac{a}{2}, \frac{\sqrt{3}a}{2}\right)$</m>. (You can get these
+        points by rotating the line moving by a distance <m>$a$</m> along that line)
+      </d:para>
+      <d:para>
+        Midpoint of <m>$AB: M = \left(\frac{0 + a}{2}, \frac{0 + 0}{2}\right) = \left(\frac{a}{2}, 0\right)$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$AB: m_{AB} = \frac{0 - 0}{a - 0} = 0$</m>
+      </d:para>
+      <d:para>
+        Since <m>$x_C = x_M = \frac{a}{2}$</m>, the line <m>$CM$</m> is vertical.
+      </d:para>
+      <d:para>
+        A vertical line is perpendicular to a horizontal line <m>$AB$</m>. Hence <m>$CM \perp AB$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 145 -->
+      <d:para>
+        Place the rhombus with vertices <m>$A = (a, 0), B = (0, b), C = (-a, 0), D = (0, -b)$</m> for <m>$a,
+        b > 0$</m>.
+      </d:para>
+      <d:para>
+        Each side has length <m>$|AB| = \sqrt{(a - 0)^2 + (0 - b)^2} = \sqrt{a^2 + b^2}$</m>, and by
+        symmetry all four sides are equal, confirming <m>$ABCD$</m> is a rhombus.
+      </d:para>
+      <d:para>
+        The diagonal <m>$AC$</m> runs from <m>$(a, 0)$</m> to <m>$(-a, 0)$</m>, so its slope is
+        <m>$m_{AC} = \frac{0 - 0}{-a - a} = 0$</m>.
+      </d:para>
+      <d:para>
+        The diagonal <m>$BD$</m> runs from <m>$(0, b)$</m> to <m>$(0, -b)$</m>, so it is a vertical line
+        with undefined slope, meaning it is parallel to the <m>$y$</m>-axis.
+      </d:para>
+      <d:para>
+        A line with slope <m>$0$</m> is horizontal, and a vertical line is perpendicular to every horizontal
+        line. Therefore <m>$AC \perp BD$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 146 -->
+      <d:para>
+        Equation of the line parallel to the given line is <m>$3x - y + k = 0$</m>. Also, given that this
+        passes through <m>$(3, 4)$</m>; putting the point in the equation
+      </d:para>
+      <d:para>
+        <m>$3.3 - 4 + k = 0 \Rightarrow  k = -5$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the required line is <m>$3x - y - 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 147 -->
+      <d:para>
+        The line perpendicular to the line <m>$4x - 3y = 10$</m> is given by <m>$3x + 4y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Given that it passes through <m>$(2, 3)$</m>; putting this point in the equation
+      </d:para>
+      <d:para>
+        <m>$2.3 + 4.3 + k = 0 \Rightarrow k = -18$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the required line is <m>$3x + 4y - 18 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 148 -->
+      <d:para>
+        Since the intercept is <m>$\frac{4}{3}$</m> on <m>$y$</m>-axis, therefore, the line passes through
+        <m>$\left(0, \frac{4}{3}\right)$</m>. Also lines perpendicular to the line <m>$3 - 4y + 11 = 0$</m>
+        is given by
+      </d:para>
+      <d:para>
+        <m>$4x + 3y + k = 0$</m>. Putting <m>$\left(0, \frac{4}{3}\right)$</m> gives us <m>$k = -4$</m>.
+      </d:para>
+      <d:para>
+        Thus, required line is <m>$4x + 3y - 4 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 149 -->
+      <d:para>
+        Mid-point of <m>$(1, 1)$</m> and <m>$(2, 3)$</m> is <m>$\left(\frac{3}{2}, 2\right)$</m>. Equation
+        of the line passing though these two points is
+      </d:para>
+      <d:para>
+        <m>$y - 1 = \frac{3 - 1}{2 - 1}(x - 1) \Rightarrow y - 1 = 2x - 2 \Rightarrow 2x - y = 0$</m>.
+      </d:para>
+      <d:para>
+        Line perpendicular to this wll be <m>$x + 2y + k = 0$</m>, which passes through the mid-point. Thus,
+      </d:para>
+      <d:para>
+        <m>$\frac{3}{2} + 4 + k = 0 \Rightarrow k = -\frac{11}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the line is <m>$2x + 4y - 11 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 150 -->
+      <d:para>
+        Given line is <m>$x + y = a$</m>, which cuts the <m>$x$</m> and <m>$y$</m> axes at <m>$A$</m> and
+        <m>$B$</m> respectively. <m>$\Rightarrow A = (a, 0)$</m> and <m>$B = (0, a)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\frac{AN}{NK} = k$</m>, then <m>$N = \left(\frac{a}{1 + k}, \frac{ka}{1 + k}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since line <m>$MN$</m> is perpendicular to <m>$AB$</m> and it passes through <m>$N$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$x - y - \left(\frac{a}{1 + k} - \frac{ka}{1 + k}\right) = 0 \Rightarrow x - y = \frac{1 - k}{1 +
+        k}a$</m>
+      </d:para>
+      <d:para>
+        This line cuts the <m>$y$</m>-axis at <m>$M$</m>. THus, <m>$M = \left(0, \frac{k - 1}{k +
+        1}a\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta AMN = \frac{1}{2}.AN.NM$</m>
+      </d:para>
+      <d:para>
+        <m>$AN^2 = \left(a - \frac{a}{k + 1}\right)^2 + \left(\frac{0 - ka}{1 + k}\right)^2 \Rightarrow AN =
+        \frac{\sqrt{2}ka}{1 + k}$</m>
+      </d:para>
+      <d:para>
+        <m>$NM = \frac{\sqrt{2}a}{1 + k}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\Delta AMN = \frac{a^2k}{(1 + k^2)}$</m> and <m>$\Delta OAB = \frac{1}{2}.a^2$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\Delta AMN:\Delta OAB = 3:8 \Rightarrow 3(1 + k)^2 = 16k \Rightarrow k = 3,
+        \frac{1}{3}$</m> but if <m>$k = \frac{1}{3}$</m> then <m>$M$</m> lies outside of <m>$OB$</m>. Thus, <m>$k =
+        3$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy311">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_31.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 151 -->
+      <d:para>
+        Slope of the line <m>$3x - y + 5 = 0$</m> is <m>$3$</m>. Let the slope of the required line is
+        <m>$m$</m> then
+      </d:para>
+      <d:para>
+        <m>$\tan45^\circ = \left|\frac{m - 3}{1 + 3m}\right| \Rightarrow (m - 3)/(1 + m) = \pm 1 \therefore
+        m = -2, \frac{1}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 152 -->
+      <d:para>
+        Slope of the given line is <m>$\frac{1}{2}$</m>. Let <m>$m$</m> be the slope of the line passing
+        through <m>$(3, 2)$</m> and making an angle of <m>$45^\circ$</m> with the line.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \tan45^\circ = \left|\frac{\frac{1}{2} - m}{1 + \frac{m}{2}}\right| \Rightarrow m =
+        3, -\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equations of required line are <m>$y - 2 = 3(x - 3)$</m> and <m>$y - 2 = -\frac{1}{2}(x -
+        3)$</m> i.e. <m>$3x - y = 7$</m> and <m>$x + 3y = 9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 153 -->
+      <d:para>
+        Given line is <m>$x + y - 2 = 0$</m>, its slope, <m>$m_1 = -1$</m>.
+      </d:para>
+      <d:para>
+        Let the slope of the line which makes an angle of <m>$60^\circ$</m> with this line be <m>$m_1$</m>,
+        then
+      </d:para>
+      <d:para>
+        <m>$\tan60^\circ = \left|\frac{m_1 - n}{1 + m.m_1}\right| \Rightarrow \sqrt{3} = \left|\frac{-1 -
+        m}{1 - m}\right|$</m>
+      </d:para>
+      <d:para>
+        <m>$m = 2 + \sqrt{3}, 2 - \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of two other sides of the triangle are
+      </d:para>
+      <d:para>
+        <m>$y - 3 = \left(2 + \sqrt{3}\right)(x - 2)$</m> and <m>$y - 3 = \left(2 - \sqrt{3}\right)(x -
+        2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 154 -->
+      <d:para>
+        Given that equation of <m>$BC$</m> is <m>$3x - 4y + 1 = 0$</m> and the equation of <m>$AB$</m> is
+        <m>$4x + y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AB = AC$</m>, therefore, <m>$\angle ABC = \angle ACB = \alpha$</m> (say)
+      </d:para>
+      <d:para>
+        Slope of the line <m>$BC = \frac{3}{4}$</m> and slope of <m>$AB = -4$</m>. Let slope of <m>$AC =
+        m$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{-4 - \frac{3}{4}}{1 - \frac{4.3}{4}} = \frac{\frac{3}{4} - m}{1 + \frac{2}{4}m}
+        \Rightarrow m = -\frac{52}{89}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of <m>$AC$</m> is <m>$y + 7 = -\frac{52}{89}(x - 2) \Rightarrow 52x + 89y + 519 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 155 -->
+      <d:para>
+        Equation of line through <m>$(-2, -7)$</m> is given by <m>$y + 7 = m(x + 2) \Rightarrow y = mx + 2m
+        - 7$</m>. This line cuts the given lines at <m>$A$</m> and <m>$B$</m> respectively. Solving the
+        equations gives
+      </d:para>
+      <d:para>
+        <m>$A = \left(\frac{33 - 6m}{4 + 3m}, \frac{20m - 28}{4 + 3m}\right)$</m> and <m>$B = \left(\frac{24
+        - 4m}{4 + 3m}, \frac{11m - 28}{4 + 3m}\right)$</m>
+      </d:para>
+      <d:para>
+        According to question <m>$AB = 3 \Rightarrow AB^2 = 9 \Rightarrow \frac{81}{(4 + 3m)^2} +
+        \frac{81m^2}{(4 + 3m)^2} = 9$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 9 + 9m^2 = 16 + 9m^2 + 24m \Rightarrow m = -\frac{7}{24}$</m>.
+      </d:para>
+      <d:para>
+        When <m>$m \rightarrow \infty$</m> both sides become tend to <m>$9$</m> i.e. line may be
+        perpendicular to <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Thus, equations of the required lines are <m>$x = -2$</m> and <m>$y + 7 = -\frac{7}{24}(x + 2)
+        \Rightarrow 7x + 24y + 182 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 156 -->
+      <d:para>
+        The line parallel to <m>$x + 2y = 3$</m> is given by <m>$x + 2y = k$</m>. Since it passes through
+        <m>$(3, 4)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$k = 3 + 2.4 = 11$</m>. Hence, equation of the required line becomes <m>$x + 2y = 11$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 157 -->
+      <d:para>
+        The line parallel to <m>$3x + 4y = 12$</m> is given by <m>$3x + 4y = k$</m>. Since it passes through
+        <m>$(4, 3)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$k = 3.4 + 4.3 = 24$</m>. Hence, equation of the required line becomes <m>$3x + 4y = 24$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 158 -->
+      <d:para>
+        Equation of the straight line parallel to <m>$3x - 4y + 6 = 0$</m> is given by <m>$3x - 4y + k =
+        0$</m>. It passes through the mid-point of the line segment made by <m>$(2, 3)$</m> and <m>$(4,
+        -1)$</m> i.e. <m>$(3, 1)$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$3.3 - 4.1 + k = 0 \Rightarrow k = -5$</m>. Hence, the equation of the required line is
+        <m>$3x - 4y - 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 159 -->
+      <d:para>
+        Euation of the line joining the points <m>$(2, 3)$</m> and <m>$(3, -1)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 3 = \frac{-1 - 3}{3 - 2}(x - 2) \Rightarrow y - 3 = 8 - 4x \Rightarrow 4x + y = 11$</m>
+      </d:para>
+      <d:para>
+        A line parallel to above line wil be <m>$4x + y = k$</m>. Since it passes through <m>$(2, 1)$</m>,
+        therefore,
+      </d:para>
+      <d:para>
+        <m>$4.2 + 1 = k \Rightarrow k = 9$</m>. So the required line becomes <m>$4x + y = 9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 160 -->
+      <d:para>
+        Equation of the line parallel to the line <m>$lx + my + n = 0$</m> is given by <m>$lx + my + k =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(\alpha, \beta)$</m>, therefore, <m>$l\alpha + m\beta + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of required line is <m>$lx + my - (l\alpha + m\beta) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 161 -->
+      <d:para>
+        Equation of the line perpendicular to the line <m>$2x + 5y = 31$</m> is <m>$5x - 2y + k =
+        0$</m>. Since it passes through <m>$(2, 5)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$5.2 - 2.5 + k = 0 \Rightarrow k = 0$</m>. So the required line is <m>$5x - 2y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 162 -->
+      <d:para>
+        Any line perpendicular to the given line is <m>$2ay + xy' + k = 0$</m>. Since it passing through
+        <m>$\left(x', y'\right)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$k = -2ay' - x'y'$</m>. Thus, required line is <m>$2a\left(y - y'\right) + y'\left(x - x'\right) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 163 -->
+      <d:para>
+        Slope of the first line is x<m>$m_1 = \frac{mn + n^2}{m^2 - mn}$</m>, and the slope of the second
+        line is <m>$m_2 =  \frac{mn - n^2}{mn + m^2}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\theta$</m> be the angle between these lines then <m>$\tan\theta = \left|\frac{\frac{mn + n^2}{m^2 -
+        mn} - \frac{mn - n^2}{mn + m^2}}{1 + \frac{mn + n^2}{m^2 - mn}.\frac{mn - n^2}{mn +
+        m^2}}\right|$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \tan\theta = \frac{4m^2n^2}{m^4 - n^4} \Rightarrow \theta =
+        \tan^{-1}\frac{4m^2n^2}{m^4 - n^4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 164 -->
+      <d:para>
+        Any line perpendicular to the line <m>$x\sec\theta + y\csc\theta = a$</m> is given by
+        <m>$x\csc\theta - y\sec\theta = k$</m>, however, the line passes through <m>$\left(a\cos^3\theta,
+        a\sin^3\theta\right)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$a\cos^3\theta\csc\theta - a\sin^3\theta\sec\theta = k = \frac{a\cos^4\theta -
+        a\sin^4\theta}{\sin\theta\cos\theta} = \frac{a\cos2\theta}{\sin\theta\cos\theta}$</m>
+      </d:para>
+      <d:para>
+        Thus, the given line becomes <m>$x\cos\theta - y\sin\theta = a\cos2\theta$</m>.
       </d:para>
     </d:listitem>
   </d:orderedlist>
