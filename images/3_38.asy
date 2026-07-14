@@ -2,7 +2,7 @@ settings.tex="lualatex";
 settings.outformat="pdf";
 
 defaultpen(fontsize(9pt));
-size(4cm);
+size(6cm);
 
 import geometry;
 
