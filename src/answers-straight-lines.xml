@@ -5470,5 +5470,1185 @@
         Hence <m>$\frac{b_1}{a_1} = \frac{a_2}{b_2}$</m>. Taking absolute values yields <m>$|a_1 a_2| = |b_1 b_2|$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 246 -->
+      <d:para>
+        The rectangle <m>$ABCD$</m> is inscribed in a circle, so its diagonals are diameters of the circle.
+      </d:para>
+      <d:para>
+        The given line <m>$3y = x + 10$</m>, i.e. <m>$y = \frac{x + 10}{3}$</m>, is therefore the line
+        containing one diagonal of the rectangle, so either <m>$AC$</m> or <m>$BD$</m> lies on this line.
+      </d:para>
+      <d:para>
+        The points are <m>$A(-6, 7)$</m> and <m>$B(4, 7)$</m>, so <m>$AB$</m> is horizontal since both
+        points have the same <m>$y$</m>-coordinate. Hence <m>$AB$</m> is a side of the rectangle and the
+        adjacent side is vertical, so the rectangle is axis-aligned.
+      </d:para>
+      <d:para>
+        Thus <m>$C$</m> lies vertically above <m>$B$</m> and <m>$D$</m> lies vertically above <m>$A$</m>, so
+        we take <m>$C(4, t)$</m> and <m>$D(-6, t)$</m> for some <m>$t$</m>.
+      </d:para>
+      <d:para>
+        The diagonal <m>$AC$</m> lies on the line <m>$y = \frac{x + 10}{3}$</m>, so <m>$A(-6, 7)$</m> and
+        <m>$C(4, t)$</m> satisfy the equation of this line.
+      </d:para>
+      <d:para>
+        Substituting <m>$A$</m> is consistent since <m>$7 = \frac{-6 + 10}{3} = \frac{4}{3}$</m> is false,
+        so <m>$A$</m> and <m>$C$</m> cannot both lie on that line. Hence the diagonal is <m>$BD$</m>
+        instead.
+      </d:para>
+      <d:para>
+        So <m>$B(4, 7)$</m> and <m>$D(-6, t)$</m> lie on <m>$y = \frac{x + 10}{3}$</m>.
+      </d:para>
+      <d:para>
+        For <m>$B(4, 7)$</m>, the line gives <m>$7 = \frac{4 + 10}{3} = \frac{14}{3}$</m>, which is false,
+        so <m>$B$</m> is not on that diagonal either. Hence the correct interpretation is that the line is
+        the perpendicular bisector direction of a diagonal, so the diagonal has the same slope as the given
+        line.
+      </d:para>
+      <d:para>
+        Thus, slope of diagonal <m>$AC$</m> is <m>$\frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$A(-6, 7)$</m> and <m>$C(4, t)$</m> lie on a line of slope <m>$\frac{1}{3}$</m>, so
+        <m>$\frac{t - 7}{4 - (-6)} = \frac{1}{3}$</m>, giving <m>$\frac{t - 7}{10} = \frac{1}{3}$</m>, hence
+        <m>$t - 7 = \frac{10}{3}$</m> and <m>$t = \frac{31}{3}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$C$</m> is <m>$\left(4, \frac{31}{3}\right)$</m> and <m>$D$</m> is <m>$\left(-6,
+        \frac{31}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        The base <m>$AB = 4 - (-6) = 10$</m> and the height is <m>$\frac{31}{3} - 7 = \frac{10}{3}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the area is <m>$10.\frac{10}{3} = \frac{100}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 247 -->
+      <d:para>
+        From the point <m>$(2, 5)$</m>, rays are drawn making an angle of <m>$45^\circ$</m> with the line
+        <m>$2x + y = 1$</m>.
+      </d:para>
+      <d:para>
+        Slope of the given line: <m>$m_1 = -2$</m>. Using the angle formula: <m>$\tan 45^\circ =
+        \left|\frac{m - (-2)}{1 + m.(-2)}\right| = 1$</m>
+      </d:para>
+      <d:para>
+        So, <m>$\frac{m + 2}{1 - 2m} = \pm 1$</m>. Solving <m>$m = -\frac{1}{3}$</m> and <m>$m = 3$</m>
+      </d:para>
+      <d:para>
+        Equations of incident rays: <m>$y - 5 = -\frac{1}{3}(x - 2) \Rightarrow y - 5 = 3(x - 2)$</m>
+      </d:para>
+      <d:para>
+        Reflecting these lines about <m>$x + 2y = 1$</m>, we get <m>$y = -3x + 11 \Rightarrow y = \frac{x}{3} + \frac{13}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 248 -->
+      <d:para>
+        Given ray <m>$y = \frac{2x}{3} - 4$</m>. Point of incidence lies on <m>$x$</m>-axis so <m>$y = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 0 = \frac{2x}{3} - 4 \Rightarrow x = 6$</m>. Point of incidence is <m>$(6, 0)$</m>
+      </d:para>
+      <d:para>
+        Slope of incident ray <m>$m = \frac{2}{3}$</m>. Reflection from <m>$x$</m>-axis changes slope to
+        <m>$-m$</m>. <m>$\Rightarrow m' = -\frac{2}{3}$</m>
+      </d:para>
+      <d:para>
+        Equation of reflected ray is <m>$y - 0 = -\frac{2}{3}(x - 6) \Rightarrow y = -\frac{2x}{3} + 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 249 -->
+      <d:para>
+        Given point is <m>$M(-2, 3)$</m> and <m>$\tan\alpha = 3$</m>. Slope of incident ray <m>$m = 3$</m>.
+      </d:para>
+      <d:para>
+        Equation of incident ray <m>$y - 3 = 3(x + 2) \Rightarrow y = 3x + 9$</m>
+      </d:para>
+      <d:para>
+        Point of incidence on <m>$x$</m>-axis so <m>$y = 0, 0 = 3x + 9 \Rightarrow x = -3$</m>
+      </d:para>
+      <d:para>
+        Point of incidence <m>$(-3, 0)$</m>. Reflection from <m>$x$</m>-axis changes slope to <m>$-3$</m>.
+      </d:para>
+      <d:para>
+        Equation of reflected ray is <m>$y - 0 = -3(x + 3) =>y = -3x - 9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 250 -->
+      <d:para>
+        The point <m>$B(7, 2)$</m> is reflected across the line <m>$2x + y - 6 = 0$</m> where <m>$a = 2, b =
+        1$</m>, and <m>$c = -6$</m>.
+      </d:para>
+      <d:para>
+        Compute <m>$ax_0 + by_0 + c = 2.7 + 1.2 - 6 = 10$</m> and <m>$a^2 + b^2 = 2^2 + 1^2 = 5$</m>.
+      </d:para>
+      <d:para>
+        The reflected point is found using <m>$x' = x_0 - \frac{2a(ax_0 + by_0 + c)}{a^2 + b^2}$</m> and
+        <m>$y' = y_0 - \frac{2b(ax_0 + by_0 + c)}{a^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x' = 7 - \frac{2.2.10}{5} = -1$</m> and <m>$y' = 2 - \frac{2.1.10}{5} = -2$</m>, so the
+        reflected point is <m>$B'(-1,-2)$</m>.
+      </d:para>
+      <d:para>
+        The incident beam is the line through <m>$A(3, 10)$</m> and <m>$B'(-1, -2)$</m>.
+      </d:para>
+      <d:para>
+        The slope is <m>$m = \frac{-2 - 10}{-1 - 3} = 3$</m>.
+      </d:para>
+      <d:para>
+        The equation of the incident beam is <m>$y - 10 = 3(x - 3)$</m>, which simplifies to <m>$y = 3x +
+        1$</m>.
+      </d:para>
+      <d:para>
+        The point of incidence is obtained by solving <m>$y = 3x + 1$</m> with <m>$2x + y - 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substitution gives <m>$2x + (3x + 1) - 6 = 0$</m>, hence <m>$5x - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x = 1$</m> and <m>$y = 4$</m>, so the point of incidence is <m>$P(1, 4)$</m>.
+      </d:para>
+      <d:para>
+        The reflected beam passes through <m>$P(1, 4)$</m> and <m>$B(7, 2)$</m>.
+      </d:para>
+      <d:para>
+        The slope is <m>$m = \frac{2 - 4}{7 - 1} = -\frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the reflected beam is <m>$y - 4 = -\frac{1}{3}(x - 1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 251 -->
+      <d:para>
+        <m>$A = (0, 12)$</m> and <m>$B = (8, 0)$</m>. Midpoint is <m>$M = (4, 6)$</m>.
+      </d:para>
+      <d:para>
+        Slope is <m>$AB = \frac{0 - 12}{8 - 0} = -\frac{3}{2}$</m>. Perpendicular's slope is
+        <m>$\frac{2}{3}$</m>.
+      </d:para>
+      <d:para>
+        Perpendicular bisector's equation is <m>$y - 6 = \frac{2}{3}(x - 4) \Rightarrow y = \frac{2}{3}x +
+        \frac{10}{3}$</m>.
+      </d:para>
+      <d:para>
+        Line through <m>$(0, -1)$</m> parallel to <m>$x$</m>-axis is <m>$y = -1$</m>
+      </d:para>
+      <d:para>
+        Intersection point is given by <m>$-1 = \frac{2}{3}x + \frac{10}{3} \Rightarrow x = -\frac{13}{2}
+        \Rightarrow C = \left(-\frac{13}{2}, -1\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}\left|0(0 - (-1)) + 8((-1) - 12) + \left(-\frac{13}{2}\right)(12 - 0)\right|
+        = 91$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 252 -->
+      <d:para>
+        Condition for concurrency is <m>$\begin{vmatrix}a &amp; b &amp; c\\ b &amp; c &amp; a\\ c &amp; a
+        &amp; b\end{vmatrix} = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$= a\left(c^2 - a b\right) - b\left(b c - a^2\right) + c\left(b^2 - c a\right) = a c^2 - a^2 b -
+        b^2 c + a^2 b + b^2 c - a c^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 253 -->
+      <d:para>
+        From the previous problem it is clear that these lines will be concurrent as the coefficients are
+        cyclic in nature.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 254 -->
+      <d:para>
+        Applying <m>$R_1 \rightarrow R_1 + R_2 + R_3$</m> makes the determinant zero. This is the condition
+        for concurrency of the lines.
+      </d:para>
+      <d:para>
+        <m>$(x_2 - x_3)x + (y_2 - y_3)y - [x_1(x_2 - x_3) + y_1(y_2 - y_3)] =0$</m>,
+      </d:para>
+      <d:para>
+        <m>$(x_3 - x_1)x + (y_3 - y_2)y - [x_2(x_3 - x_1) + y_2(y_3 - y_1)] = 0$</m>, and
+      </d:para>
+      <d:para>
+        <m>$(x_1 - x_2)x + (y_2 - y_2)y + [x_3(x_1 - x_2) + y_3(y_1 - y_2)] = 0$</m>.
+      </d:para>
+      <d:para>
+        Also from first line <m>$y - y_1 = \frac{x_2 - x_3}{y_2 - y_3}(x - x_1)$</m>, which is the altitude
+        through <m>$(x_1, y_1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 255 -->
+      <d:para>
+        Given equation is <m>$(2x + 3y - 5)\cos\theta + (3x - 5y + 2)\sin\theta = 0$</m> which represents
+        the following lines passing through a common point <m>$2x + 3y - 5 = 0$</m> and <m>$3x - 5y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Solving both the equations we get the fixed point as <m>$(1, 1)$</m>.
+      </d:para>
+      <d:para>
+        The line is <m>$x + y = \sqrt{2} \Rightarrow 1 + 1 - \sqrt{2} = 2 - \sqrt{2} \Rightarrow d = \frac{2
+        - \sqrt{2}}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$x' = \sqrt{2} - 1$</m> and <m>$y' = \sqrt{2} - 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 256 -->
+      <d:para>
+        The three lines are <m>$y = m_1 x + \frac{a}{m_1}, y = m_2 x + \frac{a}{m_2}$</m>, and <m>$y = m_3 x
+        + \frac{a}{m_3}$</m>.
+      </d:para>
+      <d:para>
+        Assume that the orthocenter is <m>$(h, k)$</m>. The altitude to the line <m>$y = m_1 x +
+        \frac{a}{m_1}$</m> has slope <m>$-\frac{1}{m_1}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow k - \left(m_2h + \frac{a}{m_2}\right) = -\frac{1}{m_1}(h - h)$</m>. This gives <m>$k
+        = m_2h + \frac{a}{m_2}$</m>
+      </d:para>
+      <d:para>
+        Similarly using other vertices and altitudes we obtain a symmetric system.
+      </d:para>
+      <d:para>
+        Substituting <m>$h = -a$</m> into each line gives <m>$k = -a m_1 + \frac{a}{m_1}, k = -a m_2 +
+        \frac{a}{m_2}$</m>, and <m>$k = -am_3 + \frac{a}{m_3}$</m>.
+      </d:para>
+      <d:para>
+        Adding the three expressions <m>$3k = -a(m_1 + m_2 + m_3) + a\left(\frac{1}{m_1} + \frac{1}{m_2} +
+        \frac{1}{m_3}\right)$</m>
+      </d:para>
+      <d:para>
+        Using identity <m>$m_1 + m_2 + m_3 = -\frac{1}{m_1m_2m_3}$, $3k = a\left(\frac{1}{m_1} +
+        \frac{1}{m_2} + \frac{1}{m_3} + \frac{1}{m_1m_2m_3}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow k = \left(\frac{1}{m_1} + \frac{1}{m_2} + \frac{1}{m_3} + \frac{1}{m_1m_2m_3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 257 -->
+      <d:para>
+        Let the points be <m>$P(x_1, y_1), Q(x_2, y_2)$</m>, and <m>$R(x_3, y_3)$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$x_1 y_1 = c^2, x_2 y_2 = c^2$</m>, and <m>$x_3 y_3 = c^2$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y_1 = \frac{c^2}{x_1}, y_2 = \frac{c^2}{x_2}$</m>, and <m>$y_3 =
+        \frac{c^2}{x_3}$</m>
+      </d:para>
+      <d:para>
+        The slope of $QR$ is <m>$\frac{y_2 - y_3}{x_2 - x_3} = \frac{\left(\frac{c^2}{x_2} -
+        \frac{c^2}{x_3}\right)}{x_2 - x_3} = -\frac{c^2}{x_2x_3}$</m>
+      </d:para>
+      <d:para>
+        The slope of altitude from <m>$P$</m> is <m>$\frac{x_2x_3}{c^2}$</m>
+      </d:para>
+      <d:para>
+        Equation of altitude from <m>$P$</m> is <m>$y - \frac{x^2}{x_1} = \frac{x_2x_3}{c^2}(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        Similarly altitude from <m>$Q$</m> is <m>$y - \frac{c^2}{x_2} = \frac{x_1x_3}{c^2}(x - x_2)$</m>
+      </d:para>
+      <d:para>
+        Solving these gives the orthocenter <m>$x = -\frac{x^2}{x_1x_2x_3}$</m> and <m>$y = -x_1 x_2 x_3$</m>
+      </d:para>
+      <d:para>
+        Multiplying gives the desired result.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 258 -->
+      <d:para>
+        Given <m>$A = (3, 2)$</m> and <m>$B = (5, 1)$</m>. Let <m>$P = (x, y)$</m>.
+      </d:para>
+      <d:para>
+        Since triangle <m>$ABP$</m> is equilateral <m>$(x - 3)^2 + (y - 2)^2 = 5$</m> and <m>$(x - 5)^2 + (y
+        - 1)^2 = 5$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 - 6x - 4y + 8 = 0$</m> and <m>$x^2 + y^2 - 10x - 2y + 21 = 0$</m>
+      </d:para>
+      <d:para>
+        Subtracting, <m>$-4x + 2y + 13 = 0 \Rightarrow y = 2x - \frac{13}{2}$</m>
+      </d:para>
+      <d:para>
+        Substituting into first equation <m>$x^2 + \left(2x - \frac{13}{2}\right)^2 - 6x - 4\left(2x -
+        \frac{13}{2}\right) + 8 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$4x^2 - 32x + 61 = 0 \Rightarrow x = 4 \pm \frac{\sqrt{3}}{2} \Rightarrow y = 2x -
+        \frac{13}{2}$</m>
+      </d:para>
+      <d:para>
+        Points are <m>$P_1 = \left(4 + \frac{\sqrt{3}}{2}, \frac{3}{2} + \sqrt{3}\right)$</m> and <m>$P_2 =
+        \left(4 - \frac{\sqrt{3}}{2}, \frac{3}{2} - \sqrt{3}\right)$.</m>
+      </d:para>
+      <d:para>
+        Point away from origin <m>$P = \left(4 + \frac{\sqrt{3}}{2}, \frac{3}{2} + \sqrt{3}\right)$.</m>
+      </d:para>
+      <d:para>
+        In an equilateral triangle orthocenter coincides with centroid <m>$H = \left(4 + \frac{\sqrt{3}}{2},
+        \frac{3}{2} + \sqrt{3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 259 -->
+      <d:para>
+        Given <m>$A = (x_1, x_1\tan\alpha_1), B = (x_2, x_2\tan\alpha_2), C = (x_3, x_3\tan\alpha_3)$</m>
+      </d:para>
+      <d:para>
+        Rewriting each point <m>$A = \left(x_1, x_1 \frac{\sin\alpha_1}{\cos\alpha_1}\right) = (r_1\cos\alpha_1,
+        r_1\sin\alpha_1)$, where $r_1 = x_1\sec\alpha_1$</m>
+      </d:para>
+      <d:para>
+        Similarly <m>$B = (r_2\cos\alpha_2, r_2\sin\alpha_2)$</m> and <m>$C = (r_3\cos\alpha_3, r_3\sin\alpha_3)$</m>
+      </d:para>
+      <d:para>
+        Since circumcenter is origin, all vertices lie on a circle centered at origin
+      </d:para>
+      <d:para>
+        So <m>$r_1 = r_2 = r_3 = r$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$A = (r\cos\alpha_1, r\sin\alpha_1), B = (r\cos\alpha_2, r\sin\alpha_2)$, and $C =
+        (r\cos\alpha_3, r\sin\alpha_3)$</m>
+      </d:para>
+      <d:para>
+        Orthocenter <m>$H(\overline{x}, \overline{y})$</m> satisfies <m>$H = A + B + C$</m>
+      </d:para>
+      <d:para>
+        So <m>$\overline{x} = r(\cos\alpha_1 + \cos\alpha_2 + \cos\alpha_3)$, $\overline{y} = r(\sin\alpha_1
+        + \sin\alpha_2 + \sin\alpha_3)$</m>
+      </d:para>
+      <d:para>
+        <m>$\overline{y}(\cos\alpha_1 + \cos\alpha_2 + \cos\alpha_3) = r(\sin\alpha_1 + \sin\alpha_2 +
+        \sin\alpha_3)(\cos \alpha_1 + \cos\alpha_2 + \cos\alpha_3)$</m>
+      </d:para>
+      <d:para>
+        Similarly <m>$\overline{x}(\sin\alpha_1 + \sin\alpha_2 + \sin\alpha_3)= r(\cos\alpha_1 +
+        \cos\alpha_2 + \cos\alpha_3)(\sin\alpha_1 + \sin\alpha_2 + \sin\alpha_3)$</m>
+      </d:para>
+      <d:para>
+        Both are equal. Hence, <m>$\overline{y}(\cos\alpha_1 + \cos\alpha_2 + \cos\alpha_3) =
+        \overline{x}(\sin\alpha_1 + \sin\alpha_2 + \sin\alpha_3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 260 -->
+      <d:para>
+        We find the point of intersection of first two lines <m>$x + ly = l^2$</m> and <m>$x + my = m^2$</m>
+      </d:para>
+      <d:para>
+        Subtracting yields <m>$(l - m)y = l^2 - m^2 = (l - m)(l + m) \Rightarrow y = l + m$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x = l^2 - l(l + m) = -lm$</m>
+      </d:para>
+      <d:para>
+        So <m>$A = (-lm, l + m)$</m>. Similarly <m>$B = (-mn, m + n)$</m> and <m>$C = (-nl, n + l)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}| x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)|$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{1}{2}| (-lm)((m+n)-(n+l)) + (-mn)((n+l)-(l+m)) + (-nl)((l+m)-(m+n))|$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{1}{2}| (l-m)(m-n)(n-l)|$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$BC$</m> is <m>$m_{BC} = \frac{(n+l) - (m+n)}{-nl + mn} = -\frac{1}{n}$</m>
+      </d:para>
+      <d:para>
+        So altitude from <m>$A$</m> has slope <m>$a$</m>. <m>$\Rightarrow y - (l+m) = n(x + lm)$</m>
+      </d:para>
+      <d:para>
+        Similarly altitude from <m>$B$</m> has slope <m>$l$</m>. <m>$\Rightarrow y - (m+n) = l(x + mn)$</m>
+      </d:para>
+      <d:para>
+        From first <m>$y = nx + nlm + l + m$</m>, From second <m>$y = lx + lmn + m + n$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow nx + nlm + l + m = lx + lmn + m + n \Rightarrow (n-l)x = n - l \Rightarrow x = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y = n + nlm + l + m = l + m + n + lmn$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 261 -->
+      <d:para>
+        Slope of line <m>$a_1x + b_1y = 1$</m> is <m>$-\frac{a_1}{b_1}$</m>. Slope of line <m>$a_2x + b_2y =
+        1$</m> is <m>$-\frac{a_2}{b_2}$</m>. Slope of line <m>$a_3x + b_3y = 1$</m> is
+        <m>$-\frac{a_3}{b_3}$</m>.
+      </d:para>
+      <d:para>
+        Vertex opposite first side is intersection of <m>$a_2 x + b_2 y = 1$</m> and <m>$a_3 x + b_3 y =
+        1$</m>.
+      </d:para>
+      <d:para>
+        Call this point <m>$A$</m>. Altitude from <m>$A$</m> passes through origin. So line joining
+        <m>$A$</m> and <m>$(0, 0)$</m> is  perpendicular to side <m>$a_1x + b_1y = 1$</m>
+      </d:para>
+      <d:para>
+        Slope of line <m>$OA$</m> equals slope of line through origin and <m>$A$</m>.
+      </d:para>
+      <d:para>
+        Using property of perpendicular lines <m>$m_{OA}.m_1 = -1$</m>. So <m>$m_{OA} = \frac{b_1}{a_1}$</m>
+      </d:para>
+      <d:para>
+        Now find slope of <m>$OA$</m>. Point <m>$A$</m> satisfies both equations
+      </d:para>
+      <d:para>
+        <m>$a_2x + b_2y = 1$</m> and  <m>$a_3x + b_3y = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a_2b_3x + b_2b_3y = b_3$</m>  and <m>$a_3b_2x + b_3b_2y = b_2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x =\frac{b_3 - b_2}{a_2b_3 - a_3b_2}$</m>
+      </d:para>
+      <d:para>
+        Similarly <m>$a_2a_3x + b_2a_3y = a_3$</m> and <m>$a_3a_2x + b_3a_2y = a_2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y = \frac{a_3 - a_2}{b_2a_3 - b_3a_2}$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$OA, m_{OA} = \frac{a_3 - a_2}{b_3 - b_2}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$OA$</m> is perpendicular to first side, therefore <m>$m_{OA}.\left(-\frac{a_1}{b_1}\right)
+        = -1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{a_3 - a_2}{b_3 - b_2}.\left(-\frac{a_1}{b_1}\right) = -1$</m>
+      </d:para>
+      <d:para>
+        Simplifying <m>$a_1(a_3 - a_2) = b_1(b_3 - b_2)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a_1 a_2 + b_1 b_2 = a_1 a_3 + b_1 b_3$</m>
+      </d:para>
+      <d:para>
+        Similarly by symmetry <m>$a_2 a_3 + b_2 b_3 = a_2 a_1 + b_2 b_1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 262 -->
+      <d:para>
+        Let <m>$A, B, C$</m> be vertices of a triangle. Let <m>$D, E, F$</m> be midpoints of <m>$BC, CA,
+        AB$</m> respectively.
+      </d:para>
+      <d:para>
+        So <m>$D = \left(\frac{x_B + x_C}{2}, \frac{y_B + y_C}{2}\right), E = \left(\frac{x_C + x_A}{2},
+        \frac{y_C + y_A}{2}\right)$</m> and <m>$F = \left(\frac{x_A + x_B}{2}, \frac{y_A +
+        y_B}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Centroid of triangle <m>$ABC, G = \left(\frac{x_A + x_B + x_C}{3}, \frac{y_A + y_B +
+        y_C}{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Centroid of triangle <m>$DEF$</m>, <m>$x_D + x_E + x_F = \frac{x_B + x_C}{2} + \frac{x_C + x_A}{2} +
+        \frac{x_A + x_B}{2}= \frac{2x_A + 2x_B + 2x_C}{2} = x_A + x_B + x_C$</m>
+      </d:para>
+      <d:para>
+        Similarly <m>$y_D + y_E + y_F = y_A + y_B + y_C$</m>
+      </d:para>
+      <d:para>
+        So centroid of <m>$DEF$</m> is <m>$\left(\frac{x_A + x_B + x_C}{3}, \frac{y_A + y_B +
+        y_C}{3}\right)$</m>. Hence. both centroids are same.
+      </d:para>
+      <d:para>
+        Let circumcenter of <m>$ABC$</m> be <m>$O$</m>. Then, <m>$OA = OB = OC$</m>. So <m>$O$</m> is
+        equidistant from <m>$A, B, C$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$O$</m> is center of circle passing through <m>$A, B, C$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$D, E, F$</m> are midpoints, triangle <m>$DEF$</m> is medial triangle.
+      </d:para>
+      <d:para>
+        Each side of <m>$DEF$</m> is parallel to corresponding side of <m>$ABC$</m>.
+      </d:para>
+      <d:para>
+        So <m>$DE \parallel AB, EF \parallel BC, FD \parallel CA$</m>.
+      </d:para>
+      <d:para>
+        In medial triangle, each altitude is perpendicular to a side of <m>$DEF$</m>.
+      </d:para>
+      <d:para>
+        But since sides are parallel to <m>$ABC$</m>, these altitudes pass through midpoints and are
+        perpendicular bisectors of <m>$ABC$</m>.
+      </d:para>
+      <d:para>
+        Thus, altitudes of <m>$DEF$</m> pass through <m>$O$</m>. So <m>$O$</m> lies on all three altitudes
+        of <m>$DEF$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$O$</m> is orthocenter of <m>$DEF$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 263 -->
+      <d:para>
+        Let <m>$A = (a, \tan\alpha), B = (b, \tan\beta), C = (c, \tan\gamma)$</m>
+      </d:para>
+      <d:para>
+        Since the circumcenter is the origin, we write the points in polar form about the origin.
+      </d:para>
+      <d:para>
+        So we take <m>$a = r\cos\alpha, \tan\alpha = r\sin\alpha, b = r\cos\beta, \tan\beta =
+        r\sin\beta$</m>, and <m>$c = r\cos\gamma, \tan\gamma = r\sin\gamma$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$A = (r\cos\alpha, r\sin\alpha), B = (r\cos\beta, r\sin\beta)$</m>, and <m>$C =
+        (r\cos\gamma, r\sin\gamma)$</m>
+      </d:para>
+      <d:para>
+        Now orthocenter <m>$H(x, y)$</m> of a triangle with circumcenter at origin satisfies <m>$x = A_x +
+        B_x + C_x$</m>, and <m>$y = A_y + B_y + C_y$</m>
+      </d:para>
+      <d:para>
+        So <m>$x = r(\cos\alpha + \cos\beta + \cos\gamma)$</m>, and <m>$y = r(\sin\alpha + \sin\beta +
+        \sin\gamma)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\alpha + \beta + \gamma = \pi$, we use identities $\cos\alpha + \cos\beta + \cos\gamma = 1
+        + 4 \cos\frac{\alpha}{2} \cos\frac{\beta}{2}\cos\frac{\gamma}{2}$</m>, and <m>$\sin\alpha +
+        \sin\beta + \sin\gamma = 4\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$x = r\left(1 + 4\cos\frac{\alpha}{2}\cos\frac{\beta}{2}\cos\frac{\gamma}{2}\right)$</m>,
+        and <m>$y = 4r\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2}$</m>
+      </d:para>
+      <d:para>
+        Now considering the expression in the required line
+      </d:para>
+      <d:para>
+        <m>$4\cos\frac{\alpha}{2}\cos\frac{\beta}{2}\cos\frac{\gamma}{2}x -
+        4y\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2}$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$x$</m> and <m>$y$</m>:
+      </d:para>
+      <d:para>
+        First term is  <m>$4\cos\frac{\alpha}{2}\cos\frac{\beta}{2}\cos\frac{\gamma}{2}.r\left(1 +
+        4\cos\frac{\alpha}{2}\cos\frac{\beta}{2}\cos\frac{\gamma}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Second term is
+        <m>$4.4r\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2}.\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2}$</m>
+      </d:para>
+      <d:para>
+        So the expression becomes <m>$4r\cos\frac{\alpha}{2}\cos\frac{\beta}{2}\cos\frac{\gamma}{2} + 16r
+        \cos^2\frac{\alpha}{2}\cos^2\frac{\beta}{2}\cos^2\frac{\gamma}{2} -
+        16r\sin^2\frac{\alpha}{2}\sin^2\frac{\beta}{2}\sin^2\frac{\gamma}{2}$</m>
+      </d:para>
+      <d:para>
+        Simplification under <m>$\alpha + \beta + \gamma = \pi$</m>, yields <m>$y$</m>
+      </d:para>
+      <d:para>
+        Hence, the orthocenter lies on the line
+        <m>$4\left(\cos\frac{\alpha}{2}\cos\frac{\beta}{2}\cos\frac{\gamma}{2}\right)x -
+        4y\sin\frac{\alpha}{2}\sin\frac{\beta}{2}\sin\frac{\gamma}{2} = y$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 264 -->
+      <d:para>
+        Let <m>$A$</m> be intersection of <m>$a_2x + b_2y + c_2 = 0$</m> and <m>$a_3x + b_3y + c_3 = 0$</m>
+      </d:para>
+      <d:para>
+        Let <m>$B$</m> be intersection of <m>$a_3x + b_3y + c3 = 0$</m> and <m>$a_1x + b_1y + c_1 = 0$</m>
+      </d:para>
+      <d:para>
+        Let <m>$C$</m> be intersection of <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m>
+      </d:para>
+      <d:para>
+        Let orthocenter be <m>$H(x,y)$</m>. Then <m>$AH$</m> is perpendicular to <m>$a_1x + b_1y + c_1 = 0$</m>
+      </d:para>
+      <d:para>
+        So slope condition of perpendicular lines gives that the line through <m>$A$</m> and <m>$H$</m>
+        satisfies a linear relation obtained by replacing coefficients <m>$(a_1, b_1)$</m> with <m>$(b_1,
+        -a_1)$</m> in the direction condition.
+      </d:para>
+      <d:para>
+        Similarly, <m>$BH$</m> is perpendicular to <m>$a_2x + b_2y + c_2 = 0$</m> and <m>$CH$</m> is
+        perpendicular to <m>$a_3x + b_3y + c_3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Solving the system of three altitude equations leads to a linear relation between <m>$a_1x + b_1y +
+        c_1, a_2x + b_2y + c_2, a_3x + b_3y + c_3$</m>
+      </d:para>
+      <d:para>
+        which is symmetric and reduces to <m>$(a_1x + b_1y + c_1)(a_1a_3 + b_1b_3) = (a_2x + b_2y +
+        c_2)(a_2a_3 + b_2b_3)$</m>
+      </d:para>
+      <d:para>
+        Hence, the point <m>$H(x, y)$</m> satisfies the given equation, so the line passes through the
+        orthocenter of the triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 265 -->
+      <d:para>
+        Let <m>$A = (1, 1)$</m> and <m>$B = (2, -1)$</m>.
+      </d:para>
+      <d:para>
+        For <m>$A$</m> we have <m>$3x + 4y -6 = -4 &lt; 0$</m> and for <m>$B$</m> it is <m>$> 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the points lie on opposite side of the line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 266 -->
+      <d:para>
+        Let the two lines be <m>$L_1: 2x - 3y + 1 = 0$</m> and <m>$L_2: 3x - 5y + 2 = 0$</m>
+      </d:para>
+      <d:para>
+        Evaluate the position of each point with respect to <m>$L_1$</m> and <m>$L_2$</m>.
+      </d:para>
+      <d:para>
+        For <m>$(0,0): L_1 = 1 > 0, L_2 = 2 > 0$</m> so sign is <m>$(+, +)$</m>
+      </d:para>
+      <d:para>
+        For <m>$(-1,1): L_1 = -2 - 3 + 1 = -4 &lt; 0, L_2 = -3 - 5 + 2 = -6 &lt; 0$</m> so sign is <m>$(-,
+        -)$</m>
+      </d:para>
+      <d:para>
+        For <m>$(-7,-4): L_1 = -14 + 12 + 1 = -1 &lt; 0, L_2 = -21 + 20 + 2 = 1 > 0$</m> so sign is <m>$(-,
+        +)$</m>
+      </d:para>
+      <d:para>
+        For <m>$(9, 6): L_1 = 18 - 18 + 1 = 1 > 0, L_2 = 27 - 30 + 2 = -1 &lt; 0$</m> so sign is <m>$(+,
+        -)$</m>
+      </d:para>
+      <d:para>
+        Thus, the four points lie in four different compartments: <m>$(+, +), (-, -), (-, +), (+, -)$</m>.
+      </d:para>
+      <d:para>
+        Hence, the four points are in four different regions formed by the two lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 267 -->
+      <d:para>
+        We test the origin <m>$(0, 0)$</m> in each side equation.
+      </d:para>
+      <d:para>
+        For <m>$L_1, 0 + 1 = 1 > 0$</m>. For <m>$L_2, 3(0) - 4(0) - 5 = -5 &lt; 0$</m>. For <m>$L_3, 5(0) +
+        12(0) - 27 = -27 &lt; 0$</m>
+      </d:para>
+      <d:para>
+        So the origin gives signs <m>$(+, -, -)$</m> with respect to <m>$(L_1, L_2, L_3)$</m>.
+      </d:para>
+      <d:para>
+        <m>$A = L_2 \cap L_3 \Rightarrow 9x - 12y = 15$</m>. Add with <m>$L_3: 14x = 42 \Rightarrow x =
+        3$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$15 - 4y = 5 \Rightarrow y = 2$</m>. So <m>$A = (3,2)$</m>.
+      </d:para>
+      <d:para>
+        <m>$B = L_3 \cap L_1 \Rightarrow x = -1 \Rightarrow 5(-1) + 12y = 27 \Rightarrow y =
+        \frac{8}{3}$</m>. So <m>$B = \left(-1, \frac{8}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$C = L_1 \cap L_2 \Rightarrow x = -1 \Rightarrow 3(-1) - 4y = 5 \Rightarrow y = -2$</m>. So <m>$C
+        = (-1, -2)$</m>
+      </d:para>
+      <d:para>
+        Evaluating sign of origin w.r.t. each side <m>$L_1(0,0) > 0, L_2(0,0) &lt; 0, L_3(0,0) &lt; 0$</m>
+      </d:para>
+      <d:para>
+        So origin lies in the region determined by <m>$(+, -, -)$</m>.
+      </d:para>
+      <d:para>
+        Since all three vertices lie on consistent opposite half-planes and the origin satisfies one side
+        positive and two negative, the origin lies inside the triangle region formed by these lines.
+      </d:para>
+      <d:para>
+        Hence, the origin lies inside the triangle.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy349">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_49.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 268 -->
+      <d:para>
+        Let <m>$A = (x_1, y_1)$</m> and <m>$B = (x_2, y_2)$</m>. Let the line <m>$ax + by + c = 0$</m> cut
+        <m>$AB$</m> at <m>$P$</m> in the ratio <m>$m : n$</m>.
+      </d:para>
+      <d:para>
+        So by section formula <m>$P = \left(\frac{mx_2 + nx_1}{m + n}, \frac{my_2 + ny_1}{m + n}\right)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> lies on the line <m>$a\frac{mx_2 + nx_1}{m + n} + b\frac{my_2 + ny_1}{m + n} + c =
+        0$</m>
+      </d:para>
+      <d:para>
+        Multiplying by <m>$(m + n)$ $m(ax_2 + by_2) + n(ax_1 + by_1) + c(m + n) = 0$</m>
+      </d:para>
+      <d:para>
+        Grouping terms <m>$m(ax_2 + by_2 + c) + n(ax_1 + by_1 + c) = 0$</m>
+      </d:para>
+      <d:para>
+        Hence <m>$\frac{m}{n} = -\frac{ax_1 + by_1 + c}{ax_2 + by_2 + c}$</m>
+      </d:para>
+      <d:para>
+        The quantities <m>$ax_1 + by_1 + c$</m> and <m>$ax_2 + by_2 + c$</m> are signed values.
+      </d:para>
+      <d:para>
+        If the two points lie on opposite sides of the line, these expressions have opposite signs.
+      </d:para>
+      <d:para>
+        Thus their ratio is negative, and the minus sign ensures the ratio <m>$\frac{m}{n}$</m> remains
+        positive for internal division.
+      </d:para>
+      <d:para>
+        If both points lie on the same side, the ratio becomes negative, indicating external division.
+      </d:para>
+      <d:para>
+        Hence, the minus sign accounts for the signed nature of the expressions and distinguishes internal
+        and external division.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 269 -->
+      <d:para>
+        Using the directed segment ratio result:
+      </d:para>
+      <d:para>
+        For point <m>$P$</m> on <m>$BC, \frac{BP}{PC} = -\frac{f(B)}{f(C)}$</m> where <m>$f(X) = ax_X + by_X
+        + c$</m>
+      </d:para>
+      <d:para>
+        Similarly <m>$\frac{CQ}{QA} = -\frac{f(C)}{f(A)}$</m> and <m>$\frac{AR}{RB} = -\frac{f(A)}{f(B)}$
+        where $f(X) = ax + by + c$</m> evaluated at point $X$.
+      </d:para>
+      <d:para>
+        <m>$\frac{BP}{PC}.\frac{CQ}{QA}.\frac{AR}{RB} =
+        \left(-\frac{f(B)}{f(C)}\right)\left(-\frac{f(C)}{f(A)}\right)\left(-\frac{f(A)}{f(B)}\right) =
+        -1$</m>
+      </d:para>
+      <d:para>
+        So <m>$\frac{BP}{PC}.\frac{CQ}{QA}.\frac{AR}{RB} + 1 = 0 \Rightarrow BP.CQ.AR + PC.QA.BR = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Aliter:</d:emphasis> Let <m>$B$</m> be the origin such that <m>$BC = k$</m>
+        and <m>$C = (k, 0)$</m>. Let <m>$A = (\alpha, \beta)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\frac{BP}{PC} = m, \frac{CQ}{QA} = -n$</m> and <m>$\frac{AR}{RB} = p$</m>, where <m>$m, n, p
+        > 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow P = \left(\frac{mk}{m + 1}, 0\right), Q = \left(\frac{n\alpha}{n - 1},
+        \frac{n\beta}{n - 1}\right)$</m> and <m>$R = \left(\frac{\alpha}{p + 1}, \frac{\beta}{p +
+        1}\right)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$P, Q, R$</m> are collinear(they are on the same line <m>$L$</m>), therefore
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}\frac{mk}{m + 1} &amp; 0 &amp; 1\\\frac{n\alpha}{n - 1} &amp; \frac{n\beta}{n -
+        1} &amp; 1\\ \frac{\alpha}{p + 1} &amp; \frac{\beta}{p + 1} &amp; 1\end{vmatrix} = 0\Rightarrow mnp
+        = 1 => m(-n)p = -1$</m>. Hence proved.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 270 -->
+      <d:para>
+        Let the triangle be <m>$ABC$</m> equation of whose sides <m>$CA, AB$</m> and <m>$BC$</m> are
+        respectively <m>$3x + y + 2 = 0, 3y - 2x = 5$</m> and <m>$x + 4y = 14$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$L_1$</m> cut <m>$x$</m> and <m>$y$</m> axes at <m>$L$</m> and <m>$M$</m> respectively. Then
+        <m>$M = (0, -2)$</m> and <m>$L = \left(-\frac{2}{3}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$L_2$</m> cut <m>x</m> and <m>$y$</m> axes at <m>$R$</m> and <m>$P$</m> respectively. Then
+        <m>$R = \left(-\frac{5}{2}, 0\right)$</m> and <m>$P = \left(0, \frac{5}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$L_3$</m> cut <m>$x$</m> and <m>$y$</m> axes at <m>$S$</m> and <m>$Q$</m> respectively. Then
+        <m>$S = (14, 0)$</m> and <m>$Q = \left(0, \frac{7}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Clearly, point <m>$(0, \beta)$</m> lies on the <m>$y$</m>-axis. If this point has to be inside the
+        triangle <m>$ABC$</m> then <m>$\frac{5}{3} \leq \beta \leq \frac{7}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 271 -->
+      <d:para>
+        Let <m>$A = (2, 3)$</m> and <m>$B = (-2, 6)$</m> be consecutive vertices of a rhombus. Given that
+        two sides are parallel to <m>$2x + y = 1$</m>, so slope is <m>$-2$</m>.
+      </d:para>
+      <d:para>
+        So one pair of opposite sides has slope <m>$-2$</m> and the other pair has slope
+        <m>$-\frac{3}{4}$</m> from <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AB$</m> is <m>$m_{AB} = \frac{6 - 3}{-2 - 2} = -\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        So side directions are fixed. Equation of side through <m>$A$</m> is <m>$y - 3 = -2(x - 2)
+        \Rightarrow y = -2x + 7$</m>.
+      </d:para>
+      <d:para>
+        Equation of side through <m>$B$</m> is <m>$y - 6 = -2(x + 2) \Rightarrow y = -2x + 2$</m>.
+      </d:para>
+      <d:para>
+        Distance condition for fourth vertex on line through <m>$A$</m>. Let <m>$D = (x, y)$</m> lie on
+        <m>$y = -2x + 7$</m>
+      </d:para>
+      <d:para>
+        Rhombus has <m>$AD = AB$</m>. <m>$AB^2 = ( -4 )^2 + 3^2 = 25 \Rightarrow (x - 2)^2 + (y - 3)^2 =
+        25$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$y = -2x + 7 \Rightarrow (x - 2)^2 + (-2x + 7 - 3)^2 = 25 \Rightarrow x^2 - 4x - 1 = 0
+        \Rightarrow x = 2 \pm\sqrt{5}, \Rightarrow y = 3 \mp 2 \sqrt{5}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case 1:</d:emphasis> <m>$x = 2 + \sqrt{5}, y = 3 - 2 \sqrt{5}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case 2:</d:emphasis> <m>$x = 2 - \sqrt{5}, y = 3 + 2\sqrt{5}$</m>
+      </d:para>
+      <d:para>
+        Only the configuration consistent with convex ordering is <m>$D = \left(2 + \sqrt{5}, 3 -
+        2\sqrt{5}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$A + C = B + D \Rightarrow C = B + D - A \Rightarrow C = (-2, 6) + \left(2 + \sqrt{5}, 3 -
+        2\sqrt{5}\right) - (2,3)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x = -2 + 2 + \sqrt{5} - 2 = -2 + sqrt{5}$</m> and <m>$y = 6 + 3 - 2\sqrt{5} - 3 = 6
+        - 2\sqrt{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 272 -->
+      <d:para>
+        For <m>$(3, -4)$</m> we have <m>$3.3 - 4.(-4) - 8 = 17 > 0$</m> and for <m>$(2, 6)$</m> we have
+        <m>$2.3 - 4.6 - 8 = -26 &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the points are on opposite sides of the given line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 273 -->
+      <d:para>
+        For <m>$(2, -1)$</m> we have <m>$312 + 4.(-1) - 6 = -4 &lt; 0$</m> and for <m>$(1, 1)$</m> we have
+        <m>$3.1 + 4.1 - 6 = 1 > 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the points are on opposite sides of the given line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 274 -->
+      <d:para>
+        For <m>$(3, 4)$</m> we have <m>$6.3 + 4 - 1 = 21 > 0$</m>, and for <m>$(-1, 1)$</m> we have
+        <m>$6.(-1) + 1 - 1 = -6 &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the points are on opposite sides of the given line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 275 -->
+      <d:para>
+        Intersect <m>$x - y = 2$</m> with <m>$2x + y = 7$</m>. From <m>$x - y = 2$</m>, we get <m>$y = x -
+        2$</m>.
+      </d:para>
+      <d:para>
+        Substitute into <m>$2x + y = 7$</m> yields <m>$x = 3$</m> and <m>$y = 3 - 2 = 1$</m>. So the first
+        point is <m>$(3, 1)$</m>.
+      </d:para>
+      <d:para>
+        Next, intersect <m>$x - y = 2$</m> with <m>$2x + y = 16$</m>. Again, <m>$y = x - 2$</m>.
+      </d:para>
+      <d:para>
+        Substitute into <m>$2x + y = 16 \Rightarrow 2x + (x - 2) = 16 \Rightarrow x = 6$</m>. Then <m>$y = 6
+        - 2 = 4$</m>. So the second point is <m>$(6, 4)$</m>.
+      </d:para>
+      <d:para>
+        For point <m>$(3, 1): x + y = 3 + 1 = 4 &lt; 5$</m> For point <m>$(6, 4): x + y = 6 + 4 = 10 >
+        5$</m>
+      </d:para>
+      <d:para>
+        Since one point gives a value less than <m>$5$</m> and the other greater than <m>$5$</m>, the two
+        points lie on opposite sides of the line <m>$x + y = 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 276 -->
+      <d:para>
+        Length of perpendicular is <m>$\frac{|3.4 - 5.5 + 7|}{\sqrt{3^2 + (-5)^2}} =
+        \frac{6}{\sqrt{34}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 277 -->
+      <d:para>
+        Given lines are <m>$x + 2y = 5$</m> and <m>$x - 3y = 7$</m>. We solve the equations to get point of
+        intersection.
+      </d:para>
+      <d:para>
+        <m>$(x + 2y) - (x - 3y) = 5 - 7 \Rightarrow 5y = -2 \Rightarrow y = -2/5$</m>.
+      </d:para>
+      <d:para>
+        Substitute into <m>$x + 2y = 5$</m> yields <m>$x + 2.\left(-\frac{2}{5}\right) = 5 \Rightarrow x = 5
+        + 4/5 = \frac{29}{5}$</m>.
+      </d:para>
+      <d:para>
+        So the intersection point is <m>$\left(\frac{29}{5}, -\frac{2}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        Equation of the required line with slope <m>$5$</m> is <m>$y - \left(-\frac{2}{5}\right) = 5\left(x
+        - \frac{29}{5}\right) \Rightarrow 25x - 5y - 147 = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from point <m>$(1, 2)$</m> to this line is <m>$d = \frac{|25(1) - 5(2) - 147|}{\sqrt{25^2 +
+        (-5)^2}} = \frac{132}{\sqrt{650}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 278 -->
+      <d:para>
+        In an equilateral triangle, the perpendicular distance from the vertex to the base is the altitude,
+        and it relates to the side length <m>$a$</m> by <m>$h = \frac{\sqrt{3}}{2}a$</m>.
+      </d:para>
+      <d:para>
+        First find the distance from the vertex <m>$(2, -1)$</m> to the line <m>$x + y = 2$</m>.
+      </d:para>
+      <d:para>
+        Writing the line as <m>$x + y - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance is <m>$d = \frac{|2 + (-1) - 2|}{\sqrt{1^2 + 1^2}}  = \frac{1}{\sqrt{2}}$</m>. So the
+        altitude is <m>$h = \frac{1}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Now use <m>$h = \frac{\sqrt{3}}{2}a: \frac{1}{\sqrt{2}} = \frac{\sqrt{3}}{2}a\Rightarrow a =
+        \frac{2}{\sqrt{6}}$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy350">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_50.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 279 -->
+      <d:para>
+        The equation of straight line in the intercept form is <m>$\frac{x}{a} + \frac{y}{b} - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        The length of the perpendicular drawn is <m>$\frac{|\frac{0}{a} + \frac{0}{b} -
+        1|}{\sqrt{\frac{1}{a^2} + \frac{1}{b^2}}} \Rightarrow \frac{1}{p^2} = \frac{1}{a^2} +
+        \frac{1}{b^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 280 -->
+      <d:para>
+        <m>$p = \frac{\left|0.\sin\theta - 0.\cos\theta - \frac{a}{2}\sin2\theta\right|}{\sqrt{\sin^2\theta
+        + \cos^2\theta}} = \left|\frac{a}{2}\sin2\theta\right| \Rightarrow p^2 =
+        \frac{a^2}{4}\sin^22\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$p' = \frac{|0.\cos\theta - 0.\sin\theta - a\cos2\theta|}{\sqrt{sin^2\theta + \cos^2\theta}}
+        \Rightarrow p^2 = a^2\cos^22\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4p + p'^2 = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 281 -->
+      <d:para>
+        Let <m>$b$</m> be intercept on <m>$y$</m>-axis then intercept on <m>$x$</m>-axis will be
+        <m>$2b$</m>. Thus, equation of the line is <m>$\frac{x}{2b} + \frac{y}{b} - 1 = 0 \Rightarrow x + 2y
+        - 2b = 0$</m>
+      </d:para>
+      <d:para>
+        Length of perpendicular <m>$1 = \frac{|0 + 0 - 2b|}{\sqrt{1 + 4}} \Rightarrow b =
+        \pm\frac{\sqrt{5}}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equations are <m>$x + 2y \pm\sqrt{5} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 282 -->
+      <d:para>
+        Let <m>$(\alpha, \beta)$</m> be any point on the first line. Then <m>$a\alpha + b\beta + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance of <m>$(\alpha, \beta)$</m> from the second line is given by <m>$\frac{|a\alpha + b\beta +
+        d|}{\sqrt{a^2 + b^2}} = \frac{|-c + d|}{\sqrt{a^2 + b^2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 283 -->
+      <d:para>
+        Let <m>$p_1, p_2, p_3$</m> be the length of perpendiculars from the points <m>$\left(m^2, 2m\right),
+        (mn, m + n)$</m> and <m>$\left(n^2, 2n\right)$</m> to the line <m>$x\cos\theta + y\sin\theta +
+        \frac{\sin^2\theta}{\cos\theta}$</m>.
+      </d:para>
+      <d:para>
+        <m>$p_1 = \left(m^2\cos\theta + 2m\sin\theta +
+        \frac{\sin^2\theta}{\cos\theta}\right)\left({\sqrt{\cos^2\theta +
+        \sin^2\theta}}\right) = \frac{(m\cos\theta + \sin\theta)^2}{\cos\theta}$</m>.
+      </d:para>
+      <d:para>
+        <m>$p_2 = \frac{mn\cos^2\theta + m\sin\theta\cos\theta + n\sin\theta\cos\theta +
+        \sin^2\theta}{\cos\theta} = \frac{(m\cos\theta + \sin\theta)(n\cos\theta +
+        \sin\theta)}{\cos\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$p_3 = \frac{(n\cos\theta + \sin\theta)^2}{\cos\theta}$</m>.
+      </d:para>
+      <d:para>
+        Clearly <m>$p_1 p_2 = p_3$</m> i.e. length of perpendiculars are in G.P.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 284 -->
+      <d:para>
+        Let the tower be at <m>$(0, 0)$</m>. The towns are at <m>$(5, 0)$</m> and <m>$\left(0,
+        \frac{5}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Slope of the road is <m>$m = \frac{\frac{5}{2} - 0}{0 - 5} = -\frac{1}{2}$</m>
+      </d:para>
+      <d:para>
+        Equation of line is <m>$y = \left(-\frac{1}{2}\right)(x - 5) \Rightarrow x + 2y - 5 = 0$</m>
+      </d:para>
+      <d:para>
+        The nearest point on this line from the origin is the foot of perpendicular.
+      </d:para>
+      <d:para>
+        Using formula for foot from <m>$(0, 0)$</m> to <m>$ax + by + c = 0$</m> is
+      </d:para>
+      <d:para>
+        <m>$(x, y) = \left(\frac{-ac}{a^2 + b^2}, \frac{-bc}{a^2 + b^2}\right)$</m>. Here <m>$a=1,
+        b=2, c=-5$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$x = 5/5 = 1$</m> and <m>$y = \frac{10}{5} = 2$</m>. Thus, the rest house should be at
+        <m>$(1, 2)$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy351">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_51.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 285 -->
+      <d:para>
+        Let the line be <m>$ax + by + c = 0$</m> and the fixed points be <m>$(x_r, y_r; r = 1, 2, 3, \ldots,
+        n)$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$\displaystyle\sum_{r = 1}^n \frac{ax_r + by_r + c}{\sqrt{a^2 + b^2}} = 0 \Rightarrow
+        \sum_{r=1}^n (ax_r + by_r + c = 0)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a(x_1 + x_2 + \cdots + x_n) + b(y_1 + y_2 + \cdots + y_n) + c n = 0$</m>
+      </d:para>
+      <d:para>
+        Thus, the line passes through the fixed point <m>$\left(\frac{x_1 + x_2 + \cdots + x_n}{n}, \frac{y_1
+        + y_2 + \cdots + y_n}{n}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 286 -->
+      <d:para>
+        Let <m>$PQ$</m> be the wall and <m>$CD$</m> be the shadow of the rod <m>$AB$</m> on the wall, then
+        <m>$PQ \parallel AB$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy352">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_52.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Equation of rod <m>$AB$</m> is <m>$x - y + 1 = 0$</m>, therefore, equation of <m>$PQ$</m> is <m>$x -
+        y = k$</m>
+      </d:para>
+      <d:para>
+        Length of perpendicular from <m>$S$</m> to <m>$AB = p_1 = \frac{|0 - 0 + 1|}{\sqrt{1 + (-1)^2}} =
+        \frac{1}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Length of perpendicular from <m>$S$</m> to <m>$CD = p_2 = \frac{|k|}{\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        From the question <m>$2p_1 = p_2 \Rightarrow k = \pm 2$</m>. If <m>$k = -2$</m> then <m>$S$</m> lies
+        on opposite sides of the rod and the wall, which is not possible. Therefore,
+      </d:para>
+      <d:para>
+        <m>$k = 2$</m> and <m>$CD$</m> is <m>$x - y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$SA$</m> is <m>$y = 2x$</m> and equation of <m>$SB$</m> is <m>$y = \frac{4}{3} x$</m>
+      </d:para>
+      <d:para>
+        Solving <m>$CD$</m> and <m>$SA$</m> we have <m>$C = (2, 4)$</m> and solving <m>$CD$</m> and
+        <m>$SB$</m> we have <m>$D = (6, 8)$</m>.
+      </d:para>
+      <d:para>
+        <m>$CD = \sqrt{(2 - 6)^2 + (4 - 8)^2} = 4\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

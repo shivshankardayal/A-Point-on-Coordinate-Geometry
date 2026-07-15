@@ -5,6 +5,7 @@ const { fork } = require('child_process');
 const { mathjax } = require('mathjax-full/js/mathjax.js');
 const { TeX } = require('mathjax-full/js/input/tex.js');
 const { SVG } = require('mathjax-full/js/output/svg.js');
+const { SerializedMmlVisitor } = require('mathjax-full/js/core/MmlTree/SerializedMmlVisitor.js');
 
 async function findIndexFiles(dir, results = []) {
     const entries = await fs.readdir(dir, {
@@ -89,13 +90,14 @@ async function processFile(file) {
     });
 
     const svg = new SVG({
-        fontCache: 'local'
+        fontCache: 'none'
     });
 
     const html = mathjax.document('', {
         InputJax: tex,
         OutputJax: svg
     });
+		const visitor = new SerializedMmlVisitor();
 
     let content = await fs.readFile(file, 'utf8');
 
@@ -105,7 +107,9 @@ async function processFile(file) {
             const math = inlineMath || displayMath;
 						const display = !!displayMath;
             try {
-                const node = html.convert(math, {
+                /*
+									// for svg ssr
+									const node = html.convert(math, {
                     display
                 });
 								adaptor.setAttribute(node, 'aria-label', math);
@@ -115,8 +119,13 @@ async function processFile(file) {
                 //.replace(/</g, '&lt;')
                 //.replace(/>/g, '&gt;');
 								const tag = display ? 'div' : 'span';
-								return `<${tag} class="math-wrap">${svgHtml}<${tag} class="math-source" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">${math}</${tag}></${tag}>`;
+								return `<${tag} class="math-wrap">${svgHtml}<${tag} class="math-source" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">${math}</${tag}></${tag}>`;*/
                 //return adaptor.outerHTML(node);
+								const mathItem = new html.options.MathItem(math, tex, display);
+								mathItem.compile(html);
+								let mml = visitor.visitTree(mathItem.root, html);
+								mml = mml.replace(/ xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/, '');
+								return mml;
             } catch (err) {
                 console.error(
                     `MathJax error in ${file}:`,
@@ -128,7 +137,19 @@ async function processFile(file) {
         }
     );
 
-    await fs.writeFile(file, content);
+		/*
+			for svg ssr
+			const cacheHtml = adaptor.outerHTML(svg.pageElements(html));
+		// for global fontCache and remmoving unused stuff
+		content = content.replace(/<body[^>]*>/, (m) => `${m}${cacheHtml}`);
+		content = content
+        .replace(/\s+data-mml-node="[^"]*"/g, '')
+        .replace(/\s+data-c="[^"]*"/g, '')
+        .replace(/\s+role="img"/g, '')
+        .replace(/\s+focusable="false"/g, '')
+        .replace(/ xmlns="http:\/\/www\.w3\.org\/2000\/svg"/g, '')
+        .replace(/ xmlns:xlink="http:\/\/www\.w3\.org\/1999\/xlink"/g, '');*/
+		await fs.writeFile(file, content);
 		/*const css = adaptor.textContent(
 				svg.styleSheet(html)
 		);
