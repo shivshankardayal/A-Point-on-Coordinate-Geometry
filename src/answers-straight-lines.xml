@@ -6650,5 +6650,1880 @@
         <m>$CD = \sqrt{(2 - 6)^2 + (4 - 8)^2} = 4\sqrt{2}$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 287 -->
+      <d:para>
+        Let <m>$ABCD$</m> be the parallelogram and <m>$DL \perp AB, BM \perp AD$</m>. Let <m>$\angle DAB =
+        \theta$</m> then from the right angled <m>$\triangle ADL, DL = AD\sin\theta$</m>
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy353">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_53.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        From right-angled <m>$\triangle AMB, BM = AB\sin\theta$</m>
+      </d:para>
+      <d:para>
+        For this it is sufficient to show that it is a rhombus i.e. <m>$AD = AB$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow AD\sin\theta = AB\sin\theta \Rightarrow DL = BM$</m>.
+      </d:para>
+      <d:para>
+        Let the given straight lines be <m>$AB, BC, CD, AD$</m> respectively.
+      </d:para>
+      <d:para>
+        <m>$DL = $</m> distance between parallel lines <m>$AB$</m> and <m>$DC = \frac{1}{\sqrt{\frac{1}{a^2}
+        + \frac{1}{b^2}}}$</m> and similarly <m>$BM = \frac{1}{\sqrt{\frac{1}{a^2} + \frac{1}{b^2}}}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$ABCD$</m> is a rhombus, and hence, the diagonals are perpendicular.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 288 -->
+      <d:para>
+        The diagram is same as one given in previous problem. Let <m>$ABCD$</m> be the given parallelogram
+        and the given sides are <m>$AB, BC, CD, AD$</m> respectively.
+      </d:para>
+      <d:para>
+        <m>$DL = \frac{|a - b|}{\sqrt{1 + m^2}}$</m> and <m>$BM = \frac{|c - d|}{\sqrt{1 + m^2}}$</m>
+      </d:para>
+      <d:para>
+        If <m>$\theta$</m> is the acute angle between <m>$AB$</m> and <m>$AD$</m> then <m>$\tan\theta =
+        \frac{|m - n|}{\sqrt{1 + mn}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \sin\theta = \frac{|m - n|}{\sqrt{(m - n)^2 + (1 + m n)^2}} =\frac{|m - n|}{sqrt{(1
+        + m^2)(1 + n^2)}}$</m>
+      </d:para>
+      <d:para>
+        Area of <m>$\square ABCD = AB.DL = AB. AD\sin\theta = \frac{MB.DL}{\sin\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \left|\frac{(a - b)(c - d)}{m - n}\right|$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 289 -->
+      <d:para>
+        From first line <m>$x = \frac{21 - 3y}{2}$</m>. Substitute in second <m>$3\left(\frac{21 -
+        3y}{2}\right)( - 4y + 11 = 0 \Rightarrow y = 5$</m>. Then <m>$x = \frac{21 - 15}{2} = 3$</m>
+      </d:para>
+      <d:para>
+        So point of intersection is <m>$(3, 5)$</m>.
+      </d:para>
+      <d:para>
+        Distance is <m>$p = \frac{|8x + 6y + 5|}{\sqrt{8^2 + 6^2}}$</m>. Substituting <m>$(3, 5)$</m>
+      </d:para>
+      <d:para>
+        <m>$p = \frac{|24 + 30 + 5|}{\sqrt{64 + 36}} = \frac{59}{10}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 290 -->
+      <d:para>
+        Let the given points be <m>$A(a, b)$</m> and <m>$B(b, a)$</m>. Slope of <m>$AB$</m> is <m>$m =
+        \frac{a - b}{b - 1} = -1$</m>
+      </d:para>
+      <d:para>
+        So equation is <m>$y - b = -1(x - a) \Rightarrow x + y - (a + b) = 0$</m>
+      </d:para>
+      <d:para>
+        Distance from origin <m>$(0, 0)$</m> to this line is <m>$d = \frac{|0 + 0 - (a + b)|}{\sqrt{1^2 +
+        1^2}} = \frac{|a + b|}{\sqrt{2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 291 -->
+      <d:para>
+        Multiply first by <m>$4$</m> to get <m>$8x - 12y = -56$</m>. Multiply second by <m>$3$</m> to get
+        <m>$15x + 12y = 21$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x = -\frac{35}{23}$</m> and <m>$y = \frac{84}{23}$</m>
+      </d:para>
+      <d:para>
+        Line joining origin and <m>$P$</m> has slope <m>$m = \frac{\frac{84}{23}}{-\frac{35}{23}} =
+        -\frac{12}{5}$</m>. So equation is <m>$y = -\frac{12}{5}x \Rightarrow 12x + 5y = 0$</m>
+      </d:para>
+      <d:para>
+        Distance from <m>$(4, -7)$</m> to this line <m>$d = \frac{|12(4) + 5(-7)|}{\sqrt{12^2 + 5^2}} =
+        1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 292 -->
+      <d:para>
+        Given line is <m>$x + 7y + 2 = 0$</m>. Any line parallel to it is <m>$x + 7y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from point $(1, -1)$ to this line is <m>$\frac{|1 + 7(-1) + c|}{\sqrt{1^2 + 7^2}} = 1
+        \Rightarrow |-6 + c| = \sqrt{50}$</m>
+      </d:para>
+      <d:para>
+        So <m>$c - 6 = \pm \sqrt{50}$ and $c = 6 \pm \sqrt{50}$</m>
+      </d:para>
+      <d:para>
+        Hence required lines are <m>$x + 7y + 6 + \sqrt{50} = 0$</m> and <m>$x + 7y + 6 - \sqrt{50} =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 293 -->
+      <d:para>
+        Given line <m>$3x - 4y - 5 = 0$</m>. Let required parallel lines be <m>$3x - 4y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance between two parallel lines <m>$\frac{|c + 5|}{\sqrt{3^2 + (-4)^2}} = 1 \Rightarrow |c + 5|
+        = 5$</m>.
+      </d:para>
+      <d:para>
+        So <m>$c + 5 = \pm 5$</m> and <m>$c = 0$</m> or <m>$c = -10$</m>
+      </d:para>
+      <d:para>
+        Hence required lines are <m>$3x - 4y = 0$</m> and <m>$3x - 4y - 10 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 294 -->
+      <d:para>
+        Let a line through <m>$(0, a)$</m> be <m>$y - a = m(x - 0)$</m>. So <m>$y = m x + a$</m>.
+      </d:para>
+      <d:para>
+        Rewrite in standard form <m>$m x - y + a = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from <m>$(2a, 2a)$</m> is <m>$\frac{|2am - 2a + a|}{\sqrt{m^2 + 1}} = a$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (2m - 1)^2 = m^2 + 1 \Rightarrow m = 0$</m> or <m>$m = \frac{4}{3}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case 1:</d:emphasis> <m>$m = 0$</m> gives <m>$y = a$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case 2:</d:emphasis> <m>$m = \frac{4}{3}$</m> gives <m>$y - a = \frac{4}{3}x
+        \Rightarrow 4x - 3y + 3a = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 295 -->
+      <d:para>
+        From first <m>$x = 3y - 1$</m>. Substitute in second <m>$2(3y - 1) + 5y - 9 = 0 \Rightarrow 6y - 2 +
+        5y - 9 = 0 \Rightarrow y = 1 \Rightarrow x = 2$</m>.
+      </d:para>
+      <d:para>
+        So point of intersection is <m>$(2, 1)$</m>. Let required line be <m>$y - 1 = m(x - 2)$</m>. So
+        <m>$m x - y + (1 - 2m) = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from origin is <m>$\sqrt{5}$</m>. So <m>$\frac{|1 - 2m|}{\sqrt{m^2 + 1}} = \sqrt{5}
+        \Rightarrow m = -2$</m>
+      </d:para>
+      <d:para>
+        Substitute into line equation <m>$y - 1 = -2(x - 2)\Rightarrow y = -2x + 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 296 -->
+      <d:para>
+        From first line <m>$x = y - 1$</m>. Substitute in second line <m>$2(y - 1) - 3y + 5 = 0 \Rightarrow
+        y = 3 \Rightarrow x = 2$</m>
+      </d:para>
+      <d:para>
+        So the point is <m>$(2, 3)$</m>. Let required line be <m>$y - 3 = m(x - 2) \Rightarrow m x - y + (3
+        - 2m) = 0$</m>
+      </d:para>
+      <d:para>
+        Distance from <m>$(3, 2)$</m> is <m>$\frac{7}{5}$</m>, <m>$\frac{|3m - 2 + 3 - 2m|}{\sqrt{m^2 + 1}} =
+        \frac{7}{5} \Rightarrow \frac{|m + 1|}{\sqrt{m^2 + 1}} = \frac{7}{5}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m = \frac{4}{3}$</m> or  <m>$m = \frac{3}{4}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case 1:</d:emphasis> <m>$y - 3 = \frac{4}{3}(x - 2) \Rightarrow 4x - 3y + 1
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case 2:</d:emphasis> <m>$y - 3 = \frac{3}{4}(x - 2) \Rightarrow 3x - 4y + 6
+        = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 297 -->
+      <d:para>
+        Given that the distance from <m>$(1, 1)$</m> to the line <m>$ax - by + c = 0$</m> is <m>$1$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|a - b + c|}{\sqrt{a^2 + b^2}} = 1$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides <m>$(a - b + c)^2 = a^2 + b^2 \Rightarrow a^2 + b^2 + c^2 - 2ab + 2ac - 2bc =
+        a^2 + b^2$</m>
+      </d:para>
+      <d:para>
+        <m>$c^2 - 2ab + 2ac - 2bc = 0\Rightarrow  c^2 + 2ac - 2bc = 2ab$</m>
+      </d:para>
+      <d:para>
+        Divide throughout by <m>$2abc, \frac{c}{2ab} + \frac{1}{b} - \frac{1}{a} = \frac{1}{c}$</m>
+      </d:para>
+      <d:para>
+        Rearranging yields <m>$\frac{1}{c} + \frac{1}{a} - \frac{1}{b} = \frac{c}{2a}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 298 -->
+      <d:para>
+        Given line is <m>$\frac{x}{a}\cos\theta + \frac{y}{b}\sin\theta = 1$</m>
+      </d:para>
+      <d:para>
+        So <m>$bx\cos\theta + ay\sin\theta - ab = 0$</m>
+      </d:para>
+      <d:para>
+        Distance from <m>$(x_1, y_1)$</m> is <m>$\frac{|bx_1\cos\theta + ay_1\sin\theta - a
+        b|}{\sqrt{b^2\cos^2\theta + a^2\sin^2\theta}}$</m>
+      </d:para>
+      <d:para>
+        For <m>$\left(\pm \sqrt{a^2 - b^2}, 0\right)$</m>
+      </d:para>
+      <d:para>
+        Product of perpendiculars <m>$= \frac{\left|\left(b\sqrt{(a^2 - b^2)}\cos\theta - a
+        b\right)\left(-b\sqrt{a^2 - b^2}\cos\theta - a b\right)\right|}{b^2\cos^2\theta +
+        a^2\sin^2\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{|a^2 b^2 - b^2(a^2 - b^2)\cos^2\theta|}{b^2\cos^2\theta + a^2\sin^2\theta}= \frac{b^2
+        (a^2\sin^2\theta +  b^2\cos^2\theta)}{b^2\cos^2\theta + a^2\sin^2\theta} = b^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 299 -->
+      <d:para>
+        Given lines are <m>$4x + 3y = 11$</m> and <m>$8x + 6y = 15$</m>. Rewrite second line <m>$8x + 6y =
+        15$</m> as <m>$4x + 3y = \frac{15}{2}$</m>.
+      </d:para>
+      <d:para>
+        So these are two parallel lines. Distance between parallel lines <m>$=
+        \frac{\left|\left(-\frac{15}{2} - (-11)\right)\right|}{\sqrt{4^2 + 3^2}} = \frac{7}{10}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 300 -->
+      <d:para>
+        Given lines are <m>$2x + 3y = 19, 2x + 3y + 7 = 0$</m> and <m>$2x + 3y = 6$</m>; all have same
+        slope.
+      </d:para>
+      <d:para>
+        Write in standard form <m>$L_1: 2x + 3y - 19 = 0, L_2: 2x + 3y + 7 = 0$</m> and <m>$L: 2x + 3y - 6 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Distance between parallel lines <m>$ax + by + c_1 = 0$</m> and <m>$ax + by + c_2 = 0$</m> is
+        <m>$\frac{|c_1 - c_2|}{\sqrt{a^2 + b^2}}$</m>
+      </d:para>
+      <d:para>
+        Distance of <m>$L_1$</m> from <m>$L = \frac{|-19 - (-6)|}{\sqrt{2^2 + 3^2}} = \sqrt{13}$</m>
+      </d:para>
+      <d:para>
+        Distance of <m>$L_2$</m> from <m>$L = \frac{|7 - (-6)|}{\sqrt{13}} = \sqrt{13}$</m>
+      </d:para>
+      <d:para>
+        Hence, both distances are equal, so the lines are equidistant from <m>$2x + 3y = 6$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 301 -->
+      <d:para>
+        Distance between parallel lines <m>$= \frac{|c_1 - c|}{\sqrt{m^2 + 1}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 302 -->
+      <d:para>
+        Given sides are <m>$3x - 4y = 0$</m> and <m>$4x + 3y = 0$</m>.
+      </d:para>
+      <d:para>
+        These are perpendicular since <m>$3.4 + (-4)3 = 0$</m>. So they are adjacent sides meeting at
+        origin.
+      </d:para>
+      <d:para>
+        Area of square is <m>$25$</m>, so side <m>$= 5$</m>. Distance between each pair of parallel sides is
+        <m>$5$</m>.
+      </d:para>
+      <d:para>
+        For line <m>$3x - 4y = 0$</m>, required parallel side is <m>$3x - 4y + c = 0$</m>
+      </d:para>
+      <d:para>
+        Distance from origin <m>$\frac{|c|}{\sqrt{3^2 + (-4)^2}} = 5 \Rightarrow |c| = 25$</m>
+      </d:para>
+      <d:para>
+        So lines are <m>$3x - 4y + 25 = 0$</m> or <m>$3x - 4y - 25 = 0$</m>.
+      </d:para>
+      <d:para>
+        For line <m>$4x + 3y = 0$</m>, required parallel side is <m>$4x + 3y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from origin <m>$\frac{|k|}{5} = 5 \Rightarrow |k| = 25$</m>
+      </d:para>
+      <d:para>
+        So lines are <m>$4x + 3y + 25 = 0$</m> or <m>$4x + 3y - 25 = 0$</m>.
+      </d:para>
+      <d:para>
+        Taking consistent pair forming a square, the other two sides are
+      </d:para>
+      <d:para>
+        <m>$3x - 4y + 25 = 0$</m> and <m>$4x + 3y + 25 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 303 -->
+      <d:para>
+        Given lines are <m>$L_1: ax + by + c = 0, L_2: a_1x + b_1y + c = 0, L_3: ax + by + c_1 =
+        0$</m>, and <m>$L_4: a_1x + b_1y + c_1 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$L_1$</m> is parallel to <m>$L_3$</m> and <m>$L_2$</m> is parallel to <m>$L_4$</m>, so they form
+        a parallelogram.
+      </d:para>
+      <d:para>
+        Length of one pair of opposite sides equals distance between <m>$L_1$</m> and <m>$L_3 = \frac{|c_1 -
+        c|}{\sqrt{a^2 + b^2}}$</m>
+      </d:para>
+      <d:para>
+        Length of the other pair equals distance between <m>$L_2$</m> and <m>$L_4 = \frac{|c_1 -
+        c|}{\sqrt{a_1^2 + b_1^2}}$</m>
+      </d:para>
+      <d:para>
+        Given <m>$a^2 + b^2 = a_1^2 + b_1^2$</m>. So both lengths are equal.
+      </d:para>
+      <d:para>
+        Hence, all sides of parallelogram are equal. Therefore, it is a rhombus.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 304 -->
+      <d:para>
+        Given lines are <m>$L_1: 4x + 3y - 6 = 0$</m> and <m>$L_2: 5x + 12y + 9 = 0$</m>.
+      </d:para>
+      <d:para>
+        Angle bisectors are given by <m>$\frac{4x + 3y - 6}{\sqrt{4^2 + 3^2}} = \pm \frac{5x + 12y +
+        9}{\sqrt{5^2 + 12^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{4x + 3y - 6}{5} = \pm \frac{5x + 12y + 9}{13}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$13(4x + 3y - 6) = 5(5x + 12y + 9) \Rightarrow 9x -
+        7y - 41 = 0$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$13(4x + 3y - 6) = -5(5x + 12y + 9) \Rightarrow 7x
+        + 9y - 3 = 0$</m>
+      </d:para>
+      <d:para>
+        To identify angles, test origin <m>$(0, 0)$</m>
+      </d:para>
+      <d:para>
+        For <m>$L_1: -6 &lt; 0$</m>. For <m>$L_2: 9 > 0$</m>.
+      </d:para>
+      <d:para>
+        So origin lies between opposite signs, hence lies in one of the angles.
+      </d:para>
+      <d:para>
+        Checking bisectors: For <m>$9x - 7y - 41 = 0 \Rightarrow -41 &lt; 0$</m>
+      </d:para>
+      <d:para>
+        For <m>$7x + 9y - 3 = 0 \Rightarrow -3 &lt; 0$</m>
+      </d:para>
+      <d:para>
+        The bisector that preserves sign relation corresponds to angle containing origin.
+      </d:para>
+      <d:para>
+        So angle containing origin is <m>$7x + 9y - 3 = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, acute angle bisector is <m>$7x + 9y - 3 = 0$</m> and obtuse angle bisector is <m>$9x - 7y -
+        41 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 305 -->
+      <d:para>
+        Given lines are <m>$L_1: 3x + 4y - 5 = 0$</m> and <m>$L_2: 12x + 5y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        The locus of points equidistant from <m>$L_1$</m> and <m>$L_2$</m> is given by the angle bisectors:
+      </d:para>
+      <d:para>
+        <m>$\frac{3x + 4y - 5}{5} = \pm \frac{12x + 5y - 7}{13}$</m>. So we get two bisectors.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$13(3x + 4y - 5) = 5(12x + 5y - 7) \Rightarrow 7x -
+        9y + 10 = 0$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$13(3x + 4y - 5) = -5(12x + 5y - 7) \Rightarrow 99x
+        + 77y - 100 = 0$</m>
+      </d:para>
+      <d:para>
+        Now observe: The given line <m>$7x - 9y + 10 = 0$</m> is exactly the angle bisector of <m>$L_1$</m>
+        and <m>$L_2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 306 -->
+      <d:para>
+        We have already proven this in Chapter 1, Section, Incenter of a triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 307 -->
+      <d:para>
+        Given triangle sides <m>$L_1: x + 1 = 0, L_2: 3x - 4y - 5 = 0$</m>, and <m>$L_3: 5x + 12y - 27 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        <m>$A = L_2 \cap L_3$</m>. From <m>$3x - 4y = 5$</m> and <m>$5x + 12y = 27$</m>
+      </d:para>
+      <d:para>
+        <m>$x = 3$</m> and <m>$y = 1$</m>. So <m>$A = (3, 1)$</m>.
+      </d:para>
+      <d:para>
+        <m>$B = L_3 \cap L_1 \Rightarrow x = -1$</m> and <m>$y = \frac{8}{3}$</m>. So <m>$B = \left(-1,
+        \frac{8}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$C = L_1 \cap L_2 \Rightarrow x = -1$</m> and <m>$y = -2$</m>. So <m>$C = (-1, -2)$</m>.
+      </d:para>
+      <d:para>
+        <m>$BC = \sqrt{(0)^2 + \frac{14^2}{3^2}} = \frac{14}{3}, CA = \sqrt{(4)^2 + (3)^2} = 5$</m>, and
+        <m>$AB = \sqrt{(4)^2 + (-5/3)^2)} = \frac{13}{3}$</m>
+      </d:para>
+      <d:para>
+        Incenter formula is <m>$I = \frac{ax_1 + bx_2 + cx_3}{a + b + c}, \frac{ay_1 + by_2 + cy_3}{a + b +
+        c}$</m>.
+      </d:para>
+      <d:para>
+        Hence incenter is <m>$\left(\frac{1}{3}, \frac{2}{3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 308 -->
+      <d:para>
+        Let the given opposite sides be <m>$x + y = 1$</m> and <m>$x + y = 5$</m>.
+      </d:para>
+      <d:para>
+        Distance between the parallel sides is <m>$d = \frac{|5 - 1|}{\sqrt{1^2 + 1^2}} = 2\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Let the side length of the rhombus be <m>$a$</m>. Height of rhombus <m>$= a\sin45^\circ$</m>
+      </d:para>
+      <d:para>
+        So <m>$a\sin45^\circ = 2\sqrt{2} \Rightarrow a = 4$</m>
+      </d:para>
+      <d:para>
+        Direction vector of lines <m>$x + y = k$</m> is <m>$(1, -1)$</m>. Unit vector <m>$=
+        \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right)$</m>
+      </d:para>
+      <d:para>
+        Vertex <m>$A$</m> is <m>$(2, -1)$</m>. Adjacent vertex <m>$B$</m> is <m>$B = (2, -1) \pm 4 *
+        \left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right) \Rightarrow B = (2, -1) \pm \left(2\sqrt{2},
+        -2\sqrt{2}\right)$</m>
+      </d:para>
+      <d:para>
+        So <m>$B_1 = \left(2 + 2\sqrt{2}, -1 - 2\sqrt{2}\right)$</m> and <m>$B_2 = \left(2 - 2\sqrt{2}, -1 +
+        2\sqrt{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Second side makes <m>$45^\circ$</m> with first side. Rotating <m>$(1, -1)$</m> by <m>$45^\circ$</m>
+        gives direction <m>$(1, 0)$</m>.
+      </d:para>
+      <d:para>
+        So adjacent vertex <m>$C$</m> is <m>$C_1 = (6, -1)$</m> and <m>$C_2 = (-2, -1)$</m>
+      </d:para>
+      <d:para>
+        Opposite vertex <m>$D$</m> is given by <m>$D = B + C - A$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$D = \left(2 + 2\sqrt{2}, -1 - 2\sqrt{2}\right) +
+        (6, -1) - (2, -1)$</m><d:sbr/> <m>$\Rightarrow D = \left(6 + 2\sqrt{2}, -1 - 2\sqrt{2}\right)$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$D = \left(2 - 2\sqrt{2}, -1 + 2\sqrt{2}\right) + (-2,
+        -1) - (2, -1)$</m><d:sbr/> <m>$\Rightarrow  D = \left(-2 - 2\sqrt{2}, -1 + 2\sqrt{2}\right)$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 309 -->
+      <d:para>
+        Sides are parallel to <m>$y = x + 2$</m> and <m>$y = 7x + 3$</m>. So slopes are <m>$1$</m> and
+        <m>$7$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$A = (0, t)$</m>. Let adjacent vertices be <m>$B = (x_1, y_1)$</m> on line through <m>$A$</m>
+        with slope <m>$1$</m> and <m>$D = (x_2, y_2)$</m> on line through <m>$A$</m> with slope <m>$7$</m>
+      </d:para>
+      <d:para>
+        So <m>$y_1 - t = x_1$</m> and <m>$y_2 - t = 7 x_2$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$B = (x_1, t + x_1)$</m> and <m>$D = (x_2, t + 7 x_2)$</m>
+      </d:para>
+      <d:para>
+        For rhombus, adjacent sides are equal: <m>$AB^2 = A D^2 \Rightarrow x_1 = \pm 5 x_2$</m>
+      </d:para>
+      <d:para>
+        Now <m>$C = B + D - A = (x_1 + x_2, t + x_1 + 7 x_2)$</m>
+      </d:para>
+      <d:para>
+        Diagonals bisect each other at <m>$(1, 2)$</m> i.e. Midpoint of <m>$AC$</m> is <m>$(1, 2)$</m>
+      </d:para>
+      <d:para>
+        <m>$( (x_1 + x_2)(2), *t + t + x_1 + 7 x_2)(2) ) = (1, 2)$</m>
+      </d:para>
+      <d:para>
+        So <m>$x_1 + x_2 = 2 \Rightarrow 2t + x_1 + 7 x_2 = 4$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$x_1 = 5 x_2 \Rightarrow x_2 = \frac{1}{3}$</m> and
+        <m>$x_1 = \frac{5}{3}$</m>
+      </d:para>
+      <d:para>
+        Then <m>$2t + 5/3 + \frac{7}{3} = 4 \Rightarrow t = 0$</m>
+      </d:para>
+      <d:para>
+        So <m>$A = (0, 0)$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$x_1 = -5 x_2 \Rightarrow x_2 = -\frac{1}{2}$ and
+        $x_1 = \frac{5}{2}$</m>
+      </d:para>
+      <d:para>
+        Then  <m>$2t + \frac{5}{2} - \frac{7}{2} = 4 \Rightarrow t = \frac{5}{2}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$A = \left(0, \frac{5}{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 310 -->
+      <d:para>
+        We are given the lines <m>$x - 2y + 3 = 0$</m> and <m>$4x + 2y - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        The angle bisectors are given by <m>$\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2|}} = \pm
+        \frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 + b_2^2}}$</m>.
+      </d:para>
+      <d:para>
+        For the given lines, <m>$a_1 = 1, b_1 = -2, c_1 = 3$</m> and <m>$a_2 = 4, b_2 = 2, c_2 = -5$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$\frac{x - 2y + 3}{\sqrt{5}} = \pm \frac{4x + 2y - 5}{\sqrt{20}}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\sqrt{20} = 2\sqrt{5}, \frac{x - 2y + 3}{\sqrt{5}} = \pm \frac{4x + 2y -
+        5}{2\sqrt{5}}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$\sqrt{5}, x - 2y + 3 = \pm \frac{4x + 2y - 5}{2}$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$x - 2y + 3 = \frac{4x + 2y - 5}{2} \Rightarrow 2x +
+        6y - 11 = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$x - 2y + 3 = -\frac{4x + 2y - 5}{2} \Rightarrow 6x
+        - 2y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 311 -->
+      <d:para>
+        We want to prove that the line <m>$6x + 66y - 7 = 0$</m> bisects the angle between the lines <m>$15x
+        - 18y - 1 = 0$</m> and <m>$12x + 10y - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation is <m>$\frac{15x - 18y - 1}{\sqrt{15^2 + (-18)^2}} = \pm\frac{12x + 10y - 3}{\sqrt{12^2
+        + 10^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\sqrt{15^2 + (-18)^2} = \sqrt{549}$</m> and <m>$\sqrt{12^2 + 10^2} = \sqrt{244}$</m>
+      </d:para>
+      <d:para>
+        So, <m>$\frac{15x - 18y - 1}{\sqrt{549}} = \pm \frac{12x + 10y - 3}{\sqrt{244}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \sqrt{244}{15x - 18y - 1} = \pm\sqrt{549}(12x + 10y - 3)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 30x - 36y - 2 = \pm (36x + 30y - 9)$</m>
+      </d:para>
+      <d:para>
+        Taking plus sign we see that it is the given equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 312 -->
+      <d:para>
+        Rewrite the given lines in standard form: <m>$24x + 7y - 20 = 0, 4x - 3y - 2 = 0$</m>
+      </d:para>
+      <d:para>
+        Let <m>$(x, y)$</m> be any point on <m>$2x + 11y = 5$</m>.
+      </d:para>
+      <d:para>
+        Distance from first line: <m>$D_1 = \frac{|24x + 7y - 20|}{\sqrt{24^2 + 7^2}} = \frac{|24x + 7y -
+        20|}{25}$</m>
+      </d:para>
+      <d:para>
+        Distance from second line: <m>$D_2 = \frac{|4x - 3y - 2|}{\sqrt{4^2 + (-3)^2}} = \frac{|4x - 3y -
+        2|}{5}$</m>
+      </d:para>
+      <d:para>
+        Now use the relation <m>$2x + 11y = 5$</m>.
+      </d:para>
+      <d:para>
+        Then: <m>$24x + 7y - 20 = (24x + 132y - 60) - 125y + 40 = -5(25y - 8)$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$4x - 3y - 2 = (4x + 22y - 10) - 25y + 8= -(25y - 8)$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$|24x + 7y - 20| = 5 |25y - 8|$</m>
+      </d:para>
+      <d:para>
+        <m>$D_1 = 5 \frac{|25y - 8|}{25} = \frac{|25y - 8|}{5}$</m> and <m>$D_2 = \frac{|25y -
+        8|}{5}$</m>. Hence, <m>$D_1 = D_2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 313 -->
+      <d:para>
+        We are given the lines <m>$6x + 8y - 10 = 0$</m> and <m>$4x - 3y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        For a point <m>$(x, y)$</m> equidistant from the two lines, <m>$\frac{|6x + 8y - 10|}{\sqrt{6^2 +
+        8^2}} = \frac{|4x - 3y - 7|}{\sqrt{4^2 + (-3)^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\sqrt{6^2 + 8^2} = \sqrt{36 + 64} = 10$</m> and <m>$\sqrt{4^2 + (-3)^2} = \sqrt{16 + 9} = 5$</m>
+      </d:para>
+      <d:para>
+        So, <m>$\frac{|6x + 8y - 10|}{10} = \frac{|4x - 3y - 7|}{5}$</m>
+      </d:para>
+      <d:para>
+        Multiply: <m>$|6x + 8y - 10| = 2 * |4x - 3y - 7| \Rightarrow 6x + 8y - 10 = \pm 2(4x - 3y - 7)$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$6x + 8y - 10 = 8x - 6y - 14 \Rightarrow x - 7y - 2
+        = 0$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$6x + 8y - 10 = -8x + 6y + 14 \Rightarrow 7x + y -
+        12 = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus is <m>$x - 7y - 2 = 0$</m> or <m>$7x + y - 12 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 314 -->
+      <d:para>
+        The given lines are <m>$x + y - 3 = 0$</m> and <m>$7x - y + 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$x + y - 3 = 0$</m> we have <m>$a_1 = 1$</m> and <m>$b_1 = 1$</m> so the value is
+        <m>$\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        For <m>$7x - y + 5 = 0$</m> we have <m>$a_2 = 7$</m> and <m>$b_2 = -1$</m> so the value is
+        <m>$\sqrt{50} = 5\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The angle bisectors satisfy <m>$\frac{x + y - 3}{\sqrt{2}} = \pm \frac{7x - y + 5}{5\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        After simplification this becomes <m>$5(x + y - 3) = \pm(7x - y + 5)$</m>
+      </d:para>
+      <d:para>
+        First result <m>$5x + 5y - 15 = 7x - y + 5 \Rightarrow x - 3y + 10 = 0$</m>
+      </d:para>
+      <d:para>
+        Second result <m>$5x + 5y - 15 = -7x + y - 5 \Rightarrow 6x + 2y - 5 = 0$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 315 -->
+      <d:para>
+        <m>$\frac{3x + 4y - 11}{\sqrt{3^2 + 4^2}} = \pm\frac{12x - 5y - 2}{\sqrt{12^2 + (-5)^2}}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\frac{3x + 4y - 11}{5} = \pm\frac{12x - 5y - 2}{13}$</m>.
+      </d:para>
+      <d:para>
+        Taking the negative sign gives <m>$13(3x + 4y - 11) = -5(12x - 5y - 2) \Rightarrow 11x + 3y - 17 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The slopes of the given lines are <m>$-\frac{3}{4}$</m> and <m>$\frac{12}{5}$</m>, which form an
+        obtuse angle. Therefore, the bisector corresponding to the negative sign represents the acute angle.
+      </d:para>
+      <d:para>
+        Hence, the bisector of the acute angle is <m>$11x + 3y = 17$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 316 -->
+      <d:para>
+        <m>$\frac{x - 2y + 4}{sqrt{5}} = \pm\frac{4x - 3y + 2}{5}$</m>.
+      </d:para>
+      <d:para>
+        Taking the positive case gives <m>$5(x - 2y + 4) = \sqrt{5}(4x - 3y + 2)$</m>.
+      </d:para>
+      <d:para>
+        Taking the negative case givesv <m>$5(x - 2y + 4) = -\sqrt{5}(4x - 3y + 2)$</m>.
+      </d:para>
+      <d:para>
+        The slopes of the given lines are <m>$\frac{1}{2}$</m> and <m>$\frac{4}{3}$</m>, which form an acute
+        angle. Therefore, the obtuse angle is the supplementary angle, and its bisector corresponds to the
+        negative case.
+      </d:para>
+      <d:para>
+        Hence, the equation of the bisector of the obtuse angle is <m>$5(x - 2y + 4) = -\sqrt{5}(4x - 3y + 2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 317 -->
+      <d:para>
+        The given lines are <m>$x + y - 2 = 0$</m> and <m>$x - y - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        These two lines divide the plane into four compartments depending on the signs of <m>$x + y - 2$</m>
+        and <m>$x - y - 3$</m>.
+      </d:para>
+      <d:para>
+        Evaluating both expressions at each point.
+      </d:para>
+      <d:para>
+        For <m>$(1, 0): x + y - 2 = 1 + 0 - 2 = -1 &lt; 0$</m> and <m>$x - y - 3 = 1 - 0 - 3 = -2 &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$(2, 3): x + y - 2 = 2 + 3 - 2 = 3 > 0$</m> and <m>$x - y - 3 = 2 - 3 - 3 = -4 &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$(1, -4): x + y - 2 = 1 - 4 - 2 = -5 &lt; 0$</m> and <m>$x - y - 3 = 1 - (-4) - 3 = 2 > 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$(8, 1): x + y - 2 = 8 + 1 - 2 = 7 > 0$</m> and <m>$x - y - 3 = 8 - 1 - 3 = 4 > 0$</m>.
+      </d:para>
+      <d:para>
+        Each point gives a distinct sign combination for <m>$(x + y - 2, x - y - 3)$</m>.
+      </d:para>
+      <d:para>
+        Thus, the four points lie in four different compartments formed by the given lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 318 -->
+      <d:para>
+        For <m>$7x - 5y - 11 = 0: 7(0) - 5(0) - 11 = -11 &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$8x + 3y + 31 = 0: 8(0) + 3(0) + 31 = 31 > 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$x + 8y - 19 = 0: 0 + 8(0) - 19 = -19 &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the origin lies on the negative side of the first line, the positive side of the second line,
+        and the negative side of the third line.
+      </d:para>
+      <d:para>
+        Now consider a point clearly inside the triangle. Solving any two equations gives a vertex; testing
+        a point between the vertices shows that the interior region corresponds to the same sign pattern
+        <m>$(-, +, -)$</m>.
+      </d:para>
+      <d:para>
+        Since the origin produces this same pattern, it lies inside the triangle.
+      </d:para>
+      <d:para>
+        Hence, the origin lies inside the triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 319 -->
+      <d:para>
+        These lines are parallel and represent two opposite sides of the square.
+      </d:para>
+      <d:para>
+        The length of the side of the square is equal to the perpendicular distance between the two lines.
+      </d:para>
+      <d:para>
+        Thus, the distance between the lines is
+      </d:para>
+      <d:para>
+        <m>$\frac{|-65 - 26|}{\sqrt{5^2 + (-12)^2}} = \frac{91}{\sqrt{25 + 144}} = 7$</m>.
+      </d:para>
+      <d:para>
+        So, the side of the square is <m>$7$</m>. Hence, the area of the square is <m>$7^2 = 49$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 320 -->
+      <d:para>
+        The given sides of the square are <m>$3x + 4y - 5 = 0$</m> and <m>$3x + 4y - 15 = 0$</m>.
+      </d:para>
+      <d:para>
+        These two lines are parallel, so they represent opposite sides of the square.
+      </d:para>
+      <d:para>
+        So the side length is <m>$\frac{|-5 - (-15)|}{\sqrt{3^2 + 4^2}} = 2$</m>.
+      </d:para>
+      <d:para>
+        Since the third side passes through <m>$(6, 5)$</m> and is perpendicular to the given sides, its
+        equation has the form <m>$4x - 3y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$(6, 5)$</m> gives <m>$4(6) - 3(5) + c = 0 \Rightarrow c = -9$</m>.
+      </d:para>
+      <d:para>
+        So one side of the square is <m>$4x - 3y - 9 = 0$</m>.
+      </d:para>
+      <d:para>
+        The opposite side is parallel to it and is at a distance equal to the side length <m>$2$</m>.
+      </d:para>
+      <d:para>
+        So the parallel line is <m>$4x - 3y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Using distance formula between <m>$4x - 3y - 9 = 0$</m> and <m>$4x - 3y + k = 0$</m>,
+      </d:para>
+      <d:para>
+        <m>$\frac{|k + 9|}{\sqrt{4^2 + (-3)^2}} = 2$</m>. Thus <m>$k = 1$</m> or <m>$k = -19$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$(6, 5)$</m> lies on one side, the opposite side is <m>$4x - 3y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equations of the remaining two sides are <m>$4x - 3y - 9 = 0$</m> and <m>$4x - 3y + 1 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 321 -->
+      <d:para>
+        The given side of the rectangle is <m>$3x - 4y - 10 = 0$</m>, and two vertices are <m>$(2, 1)$</m>
+        and <m>$(2, 4)$</m>.
+      </d:para>
+      <d:para>
+        First, observe that the line joining <m>$(2, 1)$</m> and <m>$(2, 4)$</m> is <m>$x = 2$</m>, since
+        both points have the same <m>$x$</m>-coordinate.
+      </d:para>
+      <d:para>
+        So one side of the rectangle lies on <m>$x = 2$</m>.
+      </d:para>
+      <d:para>
+        Now find the distance between the parallel sides <m>$x = 2$</m> and the given line <m>$3x - 4y - 10
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Taking any point on <m>$x = 2$</m>, for example <m>$(2, 1)$</m>, the distance is
+      </d:para>
+      <d:para>
+        <m>$\frac{|3(2) - 4(1) - 10|}{\sqrt{3^2 + (-4)^2}} = \frac{8}{5}$</m>.
+      </d:para>
+      <d:para>
+        So the height of the rectangle is <m>$\frac{8}{5}$</m>.
+      </d:para>
+      <d:para>
+        The length of the rectangle is the distance between <m>$(2, 1)$</m> and <m>$(2, 4): \sqrt{(2 - 2)^2
+        + (4 - 1)^2} = 3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the area of the rectangle is <m>$3 \times \frac{8}{5} = \frac{24}{5}$</m>.
+      </d:para>
+      <d:para>
+        One diagonal joins <m>$(2, 4)$</m> to the opposite vertex. The opposite side to <m>$x = 2$</m> is
+        parallel to it, so the opposite vertical line is <m>$x = 2 + \frac{8}{5} = \frac{18}{5}$</m> or
+        <m>$x = 2 - \frac{8}{5} = \frac{2}{5}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$(2, 1)$</m> lies on one side, the opposite vertex to <m>$(2, 4)$</m> is
+        <m>$\left(\frac{18}{5}, 1\right)$</m>.
+      </d:para>
+      <d:para>
+        Now find the equation of the diagonal through <m>$(2, 4)$</m> and <m>$\left(\frac{18}{5},
+        1\right)$</m>.
+      </d:para>
+      <d:para>
+        Slope is <m>$\frac{1 - 4}{\frac{18}{5} - 2} = -\frac{15}{8}$</m>.
+      </d:para>
+      <d:para>
+        Equation is <m>$y - 4 = -\frac{15}{8}(x - 2) \Rightarrow 15x + 8y - 62 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the area of the rectangle is <m>$\frac{24}{5}$</m> and the required diagonal is <m>$15x + 8y - 62 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 322 -->
+      <d:para>
+        The four lines are <m>$ax + by + c = 0, ax + by - c = 0, ax - by + c = 0$</m>, and <m>$ax - by - c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Opposite sides are parallel since each pair differs only in the constant term. Hence the figure
+        formed is a parallelogram.
+      </d:para>
+      <d:para>
+        Intersect <m>$ax + by + c = 0$</m> and <m>$ax - by + c = 0$</m>.
+      </d:para>
+      <d:para>
+        We get <m>$ax + by = -c$</m> and <m>$ax - by = -c$</m>.
+      </d:para>
+      <d:para>
+        Adding gives <m>$2ax = -2c$</m>, so <m>$x = -\frac{c}{a}$</m>. Substituting gives <m>$y =
+        0$</m>. Thus one vertex is <m>$\left(-\frac{c}{a}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, other vertices are <m>$\left(\frac{c}{a}, 0\right), \left(0, \frac{c}{b}\right)$</m>,
+        and <m>$\left(0, -\frac{c}{b}\right)$</m>.
+      </d:para>
+      <d:para>
+        The diagonals are the lines joining opposite vertices, so they lie along the coordinate axes.
+      </d:para>
+      <d:para>
+        Hence the diagonals are perpendicular, so the parallelogram is a rhombus.
+      </d:para>
+      <d:para>
+        Diagonal 1 has length <m>$\left|\frac{c}{a} - (-\frac{c}{a})\right| = \frac{2|c|}{|a|}$</m>.
+      </d:para>
+      <d:para>
+        Diagonal 2 has length <m>$\left|\frac{c}{b} - (-\frac{c}{b})\right| = \frac{2|c|}{|b|}$</m>.
+      </d:para>
+      <d:para>
+        Area of a rhombus is <m>$\frac{1}{}2 \times ({\mathrm product of diagonals})$</m>.
+      </d:para>
+      <d:para>
+        So area is <m>$\frac{1}{2} \times\frac{2|c|}{|a|} \times \frac{2|c|}{|b|}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\frac{2c^2}{|a b|}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 323 -->
+      <d:para>
+        We choose a coordinate system such that the given straight line is the <m>$x$</m>-axis. Then <m>$p,
+        q, r$</m> become the signed <m>$y$</m>-coordinates of <m>$A, B, C$</m>. So we write <m>$A(x_1, p),
+        B(x_2, q)$</m>, and <m>$C(x_3, r)$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy354">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_54.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Now we use the formula for the square of the area of a triangle in coordinate form:
+        <m>$4\Delta^2 = (x_1(q - r) + x_2(r - p) + x_3(p - q))^2 + (p(q - r) + q(r - p) + r(p - q))^2$</m>.
+      </d:para>
+      <d:para>
+        The second bracket simplifies as follows: <m>$p(q - r) + q(r - p) + r(p - q) = 0$</m>.
+      </d:para>
+      <d:para>
+        So we get <m>$4\Delta^2 = (x_1(q - r) + x_2(r - p) + x_3(p - q))^2$</m>.
+      </d:para>
+      <d:para>
+        Now consider the squared side lengths using distance formula:
+      </d:para>
+      <d:para>
+        <m>$a^2 = (x_2 - x_3)^2 + (q - r)^2, b^2 = (x_3 - x_1)^2 + (r - p)^2, c^2 = (x_1 - x_2)^2 + (p -
+        q)^2$</m>.
+      </d:para>
+      <d:para>
+        Now we expand the required expression:
+      </d:para>
+      <d:para>
+        <m>$a^2(p - q)(p - r) + b^2(q - r)(q - p) + c^2(r - p)(r - q)$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$a^2, b^2, c^2: \left[(x_2 - x_3)^2 + (q - r)^2\right](p - q)(p - r) + \left[(x_3 -
+        x_1)^2 + (r - p)^2\right](q - r)(q - p)+ \left[(x_1 - x_2)^2 + (p - q)^2\right](r - p)(r - q)$</m>.
+      </d:para>
+      <d:para>
+        We separate terms into two groups: those involving <m>$x_i$</m> and those involving only <m>$p, q,
+        r$</m>.
+      </d:para>
+      <d:para>
+        The pure $p, q, r$ part simplifies to zero due to the identity
+        <m>$(p - q)(p - r) + (q - r)(q - p) + (r - p)(r - q) = 0$</m>.
+      </d:para>
+      <d:para>
+        So the expression reduces to <m>$(x_2 - x_3)^2(p - q)(p - r) + (x_3 - x_1)^2(q - r)(q - p) + (x_1 -
+        x_2)^2(r - p)(r - q)$</m>.
+      </d:para>
+      <d:para>
+        Now expand and regroup in terms of <m>$x_1, x_2, x_3$</m>: This becomes <m>$(x_1(q - r) + x_2(r - p) + x_3(p - q))^2$</m>.
+      </d:para>
+      <d:para>
+        But earlier we showed that <m>$(x_1(q - r) + x_2(r - p) + x_3(p - q))^2 = 4\Delta^2$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$a^2(p - q)(p - r) + b^2(q - r)(q - p) + c^2(r - p)(r - q) = 4\Delta^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 324 -->
+      <d:para>
+        Let the required line pass through <m>$(4, -5)$</m> with slope <m>$m$</m>. Then its equation is
+        <m>$y + 5 = m(x - 4)$</m>, which gives <m>$mx - y - 4m - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        The distance of the point <m>$(-2, 3)$</m> from this line is <m>$\frac{|m(-2) - 3 - 4m -
+        5|}{\sqrt{m^2 + 1}} = \frac{|6m + 8|}{\sqrt{m^2 + 1}}$</m>.
+      </d:para>
+      <d:para>
+        Given that this distance equals <m>$12$</m>, we write <m>$\frac{|6m + 8|}{\sqrt{m^2 + 1}} = 12$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides gives <m>$(6m + 8)^2 = 144(m^2 + 1) \Rightarrow 27m^2 - 24m + 20 = 0$</m>.
+      </d:para>
+      <d:para>
+        The discriminant is <m>$D = (-24)^2 - 4 times 27 times 20 = 576 - 2160 = -1584$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$D &lt; 0$</m>, there is no real solution for <m>$m$</m>. Hence, no line passing through
+        <m>$(4, -5)$</m> can have distance <m>$12$</m> from <m>$(-2, 3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 325 -->
+      <d:para>
+        Slope of <m>$BC$</m> is <m>$\frac{-3 - (-1)}{-1 - (-3)} = -1$</m>.
+      </d:para>
+      <d:para>
+        So equation of <m>$BC$</m> is <m>$y + 1 = -1(x + 3) \Rightarrow x + y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        A line parallel to <m>$BC$</m> has the form <m>$x + y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from origin <m>$(0, 0)$</m> to this line is <m>$\frac{|k|}{\sqrt{1^2 +
+        1^2}} = \frac{|k|}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Given this distance is <m>$\frac{1}{2}$</m>, we write <m>$\frac{|k|}{\sqrt{2}} = \frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$|k| = \frac{\sqrt{2}}{2}$</m>, hence <m>$k = \pm |frac{sqrt{2}}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required lines are <m>$x + y + \frac{\sqrt{2}}{2} = 0$</m> or <m>$x + y -
+        \frac{\sqrt{2}}{2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Now check which line intersects segments <m>$OB$</m> and <m>$OC$</m>.
+      </d:para>
+      <d:para>
+        Line <m>$OB$</m>: slope is <m>$\frac{-1 - 0}{-3 - 0} = \frac{1}{3}$</m>, so equation is <m>$y =
+        \frac{1}{3}x$</m>.
+      </d:para>
+      <d:para>
+        Line <m>$OC$</m>: slope is <m>$\frac{-3 - 0}{-1 - 0} = 3$</m>, so equation is <m>$y = 3x$</m>.
+      </d:para>
+      <d:para>
+        On <m>$OB$</m>, substitute <m>$y = \frac{x}{3}: x + \frac{x}{3} + \frac{\sqrt{2}}{2} = 0$</m> gives
+        a negative intersection point for <m>$x$</m>, so it lies on segment <m>$OB$</m>.
+      </d:para>
+      <d:para>
+        On <m>$OC$</m>, substitute <m>$y = 3x: x + 3x + \frac{\sqrt{2}}{2} = 0$</m> gives another valid
+        intersection point on segment <m>$OC$</m>.
+      </d:para>
+      <d:para>
+        Thus the required line is <m>$x + y + \frac{\sqrt{2}}{2} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 326 -->
+      <d:para>
+        The center of the square is <m>$C(1, -1)$</m> and one side is <m>$x - 2y + 12 = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from <m>$C$</m> to this line is <m>$\frac{|1 - 2(-1) + 12|}{\sqrt{1^2 + (-2)^2}} =
+        3\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        So the side length of the square is <m>$2 \times 3\sqrt{5} = 6\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        The opposite side is parallel to the given line, so it is <m>$x - 2y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance between parallel sides equals <m>$6\sqrt{5}$</m>, so <m>$\frac{|k - 12|}{|sqrt{5}} =
+        6\sqrt{5}$</m>, giving <m>$|k - 12| = 30$</m>.
+      </d:para>
+      <d:para>
+        Thus <m>$k = 42$</m> or <m>$k = -18$</m>, so opposite sides are <m>$x - 2y + 42 = 0$</m> and <m>$x -
+        2y - 18 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now the other two sides are perpendicular to these, so have form <m>$2x + y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from center gives <m>$\frac{|2(1) - 1 + c|}{\sqrt{5}} = 3\sqrt{5}$</m>, so <m>$|1 + c| =
+        15$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$c = 14$</m> or <m>$c = -16$</m>. Hence the remaining sides are <m>$2x + y + 14 = 0$</m>
+        and <m>$2x + y - 16 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 327 -->
+      <d:para>
+        The given sides are <m>$3x - 2y + 12 = 0$</m> and <m>$x - 3y + 11 = 0$</m>, and the diagonals
+        intersect at <m>$(2, 2)$</m>, which is the center of the parallelogram.
+      </d:para>
+      <d:para>
+        Opposite sides are parallel to the given ones.
+      </d:para>
+      <d:para>
+        For <m>$3x - 2y + k = 0$</m>, using distance from <m>$(2, 2): \frac{|3(2) - 2(2) + k|}{\sqrt{13}} =
+        \frac{|2 + k|}{\sqrt{13}}$</m>.
+      </d:para>
+      <d:para>
+        This equals the distance to <m>$3x - 2y + 12 = 0$</m>, so <m>$\frac{|2 + k|} = 14$</m>, giving <m>$k
+        = 12$</m> or <m>$k = -16$</m>.
+      </d:para>
+      <d:para>
+        Hence other side is <m>$3x - 2y - 16 = 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$x - 3y + k = 0: \frac{|2 - 6 + k|}{\sqrt{10}} = \frac{|k - 4|}{\sqrt{10}}$</m>.
+      </d:para>
+      <d:para>
+        This equals the distance to <m>$x - 3y + 11 = 0$</m>, so <m>$|k - 4| = 7$</m>, giving <m>$k =
+        11$</m> or <m>$k = -3$</m>.
+      </d:para>
+      <d:para>
+        Hence, other side is <m>$x - 3y - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Intersect <m>$3x - 2y + 12 = 0$</m> and <m>$x - 3y - 3 = 0$</m> to get <m>$(-6, -3)$</m>. Diagonal
+        through <m>$(2, 2)$</m> and <m>$(-6, -3)$</m> is <m>$5x - 8y - 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        Intersect <m>$3x - 2y - 16 = 0$</m> and <m>$x - 3y + 11 = 0$</m> to get <m>$(10, 7)$</m>. Diagonal
+        through <m>$(2, 2)$</m> and <m>$(10, 7)$</m> is <m>$5x - 8y + 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, other sides are <m>$3x - 2y - 16 = 0, x - 3y - 3 = 0$</m>, and diagonals are <m>$5x - 8y - 6
+        = 0, 5x - 8y + 6 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 328 -->
+      <d:para>
+        The given parallel lines are <m>$3x + 4y + 2 = 0, 3x + 4y + 5 = 0$</m>, and <m>$3x + 4y - 5 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Since all have the same $3x + 4y$ part, their relative positions depend only on constants <m>$2,
+        5,$</m> and <m>$-5$</m>.
+      </d:para>
+      <d:para>
+        Clearly <m>$-5 &lt; 2 &lt; 5$</m>, so the line <m>$3x + 4y + 2 = 0$</m> lies between <m>$3x + 4y + 5 =
+        0$</m> and <m>$3x + 4y - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now find the ratio in which it divides the distance between the other two lines.
+      </d:para>
+      <d:para>
+        So total distance between <m>$3x + 4y + 5 = 0$</m> and <m>$3x + 4y - 5 = 0$</m> is proportional to
+        <m>$|5 - (-5)| = 10$</m>.
+      </d:para>
+      <d:para>
+        Distance from <m>$3x + 4y + 2 = 0$</m> to <m>$3x + 4y + 5 = 0$</m> is proportional to <m>$|5 - 2| =
+        3$</m>.
+      </d:para>
+      <d:para>
+        Distance from <m>$3x + 4y + 2 = 0$</m> to <m>$3x + 4y - 5 = 0$</m> is proportional to <m>$|2 - (-5)|
+        = 7$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required ratio is <m>$3 : 7$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the line <m>$3x + 4y + 2 = 0$</m> lies between the other two and divides their distance
+        in the ratio <m>$3 : 7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 329 -->
+      <d:para>
+        The given lines are <m>$x + 2y + 3 = 0, x + 2y - 7 = 0$</m>, and <m>$2x - y - 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        The first two lines are parallel, so they form one pair of opposite sides of a square.
+      </d:para>
+      <d:para>
+        Their distance is the side length: <m>$\frac{|3 - (-7)|}{\sqrt{1^2 + 2^2}} = 2\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        Now the other pair of sides is parallel to <m>$2x - y - 4 = 0$</m>, so write <m>$2x - y + k =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Distance between parallel sides is <m>$2\sqrt{5}: \frac{|k + 4|}{\sqrt{2^2 + (-1)^2}} =
+        2\sqrt{5}$</m>, so <m>$\frac{|k + 4|}{\sqrt{5}} = 2\sqrt{5}$</m>, hence <m>$|k + 4| = 10$</m>.
+      </d:para>
+      <d:para>
+        Thus <m>$k = 6$</m> or <m>$k = -14$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the fourth sides are <m>$2x - y + 6 = 0$</m> or <m>$2x - y - 14 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 330 -->
+      <d:para>
+        The sides of the triangle are <m>$3x + 4y - 6 = 0, 12x - 5y - 3 = 0$</m>, and <m>$4x - 3y + 12 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Between <m>$3x + 4y - 6 = 0$</m> and <m>$12x - 5y - 3 = 0: \frac{3x + 4y - 6}{5} = \frac{12x - 5y -
+        3}{13}$</m>, giving <m>$13(3x + 4y - 6) = 5(12x - 5y - 3)$</m>, which simplifies to <m>$9x - 77y +
+        63 = 0$</m>.
+      </d:para>
+      <d:para>
+        Between <m>$12x - 5y - 3 = 0$</m> and <m>$4x - 3y + 12 = 0: \frac{12x - 5y - 3}{13} = \frac{4x - 3y
+        + 12}{5}$</m>, giving <m>$5(12x - 5y - 3) = 13(4x - 3y + 12)$</m>, which simplifies to <m>$8x + 19y
+        - 171 = 0$</m>.
+      </d:para>
+      <d:para>
+        Between <m>$4x - 3y + 12 = 0$</m> and <m>$3x + 4y - 6 = 0: \frac{4x - 3y + 12}{5} = \frac{3x + 4y -
+        6}{5}$</m>, giving <m>$4x - 3y + 12 = 3x + 4y - 6$</m>, which simplifies to <m>$x - 7y + 18 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Hence the internal bisectors of the triangle are <m>$9x - 77y + 63 = 0, 8x + 19y - 171 = 0$</m>, and
+        <m>$x - 7y + 18 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 331 -->
+      <d:para>
+        From <m>$3x + 4y = 12$</m> and <m>$5x + 12y = 20$</m>, we get <m>$A = (4, 0)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$3x + 4y = 12$</m> and <m>$-7x + 24y = 22$</m>, we get <m>$B = (2, 3/2)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$5x + 12y = 20$</m> and <m>$-7x + 24y = 22$</m>, we get <m>$C = \left(\frac{18}{17},
+        \frac{125}{1-02}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now the side lengths are computed: <m>$AB = \frac{5}{2}, BC = \frac{50}{51}, CA = 325/102$</m>.
+      </d:para>
+      <d:para>
+        The incenter is given by <m>$I = \frac{aA + bB + cC}{a + b + c}$</m> where <m>$a = BC, b = CA, c =
+        AB$</m>.
+      </d:para>
+      <d:para>
+        So <m>$a = \frac{50}{51}, b = \frac{325}{102}, c = \frac{5}{2}$</m> and <m>$a + b + c =
+        \frac{340}{51}$</m>.
+      </d:para>
+      <d:para>
+        <m>$x = \frac{a.4 + b.2 + c.\frac{18}{17}}{\frac{340}{51}}$</m>. This simplifies to <m>$x =
+        \frac{33}{17}$</m>.
+      </d:para>
+      <d:para>
+        <m>$y = \frac{a.0 + b.\frac{3}{2} + c.\frac{125}{102}}{\frac{340}{51}}$</m>. This simplifies to
+        <m>$y = \frac{20}{17}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 332 -->
+      <d:para>
+        Let a point <m>$(x, y)$</m> reflect to <m>$(X, Y)$</m> in the line <m>$x + y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        For reflection in <m>$ax + by + c = 0$</m>, the formula gives
+      </d:para>
+      <d:para>
+        <m>$X = x - 2a\frac{ax + by + c}{a^2 + b^2}$</m> and <m>$Y = y - 2b\frac{ax + by + c}{a^2 +
+        b^2}$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$a = 1, b = 1, c = 1$</m>, so <m>$a^2 + b^2 = 2$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$X = x - (x + y + 1) = -y - 1$</m> and <m>$Y = y - (x + y + 1) = -x - 1$</m>
+      </d:para>
+      <d:para>
+        So the transformation is <m>$x = -Y - 1, y = -X - 1$</m>.
+      </d:para>
+      <d:para>
+        Now the given line is <m>$px + qy + r = 0$</m>.
+      </d:para>
+      <d:para>
+        Substitute: <m>$p(-Y - 1) + q(-X - 1) + r = 0 \Rightarrow qX + pY + (p + q - r) = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, the reflection of the line is <m>$qx + py + (p + q - r) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 333 -->
+      <d:para>
+        The roads are <m>$x - 2y - 4 = 0$</m> and <m>$2x - y - 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Their intersection point is found from <m>$x - 2y = 4$</m> and <m>$2x - y = 4$</m>, giving <m>$P =
+        (4, 0)$</m>.
+      </d:para>
+      <d:para>
+        The direction of the angle bisector is obtained from normals <m>$(1, -2)$</m> and <m>$(2, -1)$</m>,
+        giving <m>$(3, -3)$</m>, hence direction <m>$(1, -1)$</m>.
+      </d:para>
+      <d:para>
+        So the bisector through <m>$P$</m> is <m>$x + y - 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        A direction vector is <m>$(1, -1)$</m> with magnitude <m>$\sqrt{2}$</m>, so unit vector is
+        <m>$\left(\frac{1}{\sqrt{2}}, -\frac{1}{\sqrt{2}}\right)$</m>.
+      </d:para>
+      <d:para>
+        After moving <m>$2$</m> km, the displacement is <m>$\left(\sqrt{2}, -\sqrt{2}\right)$</m>, so the
+        point reached is <m>$Q = \left(4 + \sqrt{2}, -\sqrt{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The river bank is perpendicular to the path, so its direction is <m>$(1, 1)$</m>.
+      </d:para>
+      <d:para>
+        Through <m>$Q$</m>, its equation is <m>$x - y - 4 - 2\sqrt{2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the river bank is <m>$x - y - 4 - 2\sqrt{2} = 0$</m> and the point of contact is <m>$\left(4 +
+        \sqrt{2}, -\sqrt{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 334 -->
+      <d:para>
+        The sides of the rhombus are parallel to <m>$y = 2x + 3$</m> and <m>$y = 7x + 2$</m>, so their
+        slopes are <m>$2$</m> and <m>$7$</m>.
+      </d:para>
+      <d:para>
+        Hence adjacent sides have slopes <m>$2$</m> and <m>$7$</m>, and the diagonals are along the angle
+        bisectors of these directions.
+      </d:para>
+      <d:para>
+        The diagonals intersect at <m>$(1, 2)$</m>, which is the midpoint of both diagonals.
+      </d:para>
+      <d:para>
+        So if a vertex is <m>$A = (0, y)$</m> (since it lies on the <m>$y$</m>-axis), its opposite vertex
+        <m>$C$</m> satisfies midpoint condition:
+      </d:para>
+      <d:para>
+        <m>$\frac{0 + x_C}{2} = 1$</m> and <m>$\frac{y + y_C}{2} = 2$</m>. So <m>$x_C = 2$</m> and <m>$y_C =
+        4 - y$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$C = (2, 4 - y)$</m>. Now slopes of sides must match <m>$2$</m> and <m>$7$</m>.
+      </d:para>
+      <d:para>
+        Take adjacent vertex <m>$B$</m> from <m>$A$</m> such that <m>$AB$</m> has slope <m>$2$</m> or
+        <m>$7$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> slope of <m>$AB = 2, \frac{y_B - y}{x_B - 0} = 2$</m>
+      </d:para>
+      <d:para>
+        Since rhombus is symmetric about diagonals, solving consistently gives: <m>$y = 1$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> slope of <m>$AB = 7$</m>. Similarly: <m>$y = 3$</m>
+      </d:para>
+      <d:para>
+        So possible vertices on <m>$y$</m>-axis are: <m>$(0, 1)$</m> and <m>$(0, 3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 335 -->
+      <d:para>
+        Let two mutually perpendicular lines be <m>$OX$</m> and <m>$OY$</m>. <m>$AB$</m> be the variable
+        line segment of constant length <m>$l$</m> whose ends <m>$A$</m> and <m>$B$</m> move on the lines
+        <m>$OX$</m> and <m>$OY$</m> respectively.
+      </d:para>
+      <d:para>
+        Let <m>$OA = a$</m> and <m>$OB = b$</m> then <m>$A = (a, 0)$</m> and <m>$B = (0, b)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> divide the line segment in the ratio of <m>$1:2$</m>. Let <m>$P = (\alpha,
+        \beta)$</m>, then
+      </d:para>
+      <d:para>
+        <m>$\alpha = \frac{2a}{3}$</m> and <m>$\beta = \frac{b}{3}$</m>. Also, <m>$l^2 = OA^2 + OB^2
+        \Rightarrow a^2 + b^2 = l^2$</m>
+      </d:para>
+      <d:para>
+        <m>$9\alpha^2 + 36\beta^2 = 4l^2$</m>. Thus, locus of <m>$P$</m> is <m>$9x^2 + 36y^2 = 4l^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 336 -->
+      <d:para>
+        Let the line cut the axes at <m>$A = (p\sec\alpha, 0)$</m> and <m>$B = (0, p\csc\alpha)$</m>. Let
+        <m>$P(h, k)$</m> be the middle point then <m>$h = \frac{p}{2}\sec\alpha, k = \frac{p}{2}\csc\alpha$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\cos\alpha = \frac{p}{2h}$</m> and <m>$\sin\alpha = \frac{p}{2k}$</m>
+      </d:para>
+      <d:para>
+        <m>$\cos^2\alpha + \sin^2\alpha = \frac{p^2}{4h^2} + \frac{p^2}{4K^2} \Rightarrow \frac{1}{h^2} +
+        \frac{1}{k^2} = \frac{4}{p^2}$</m>
+      </d:para>
+      <d:para>
+        Hence, lcous of the point <m>$P$</m> is <m>$\frac{1}{x^2} + \frac{1}{y^2} = \frac{4}{p^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 337 -->
+      <d:para>
+        The point of intersection of the given lines is given by <m>$\left(\frac{ab}{a + b}, \frac{ab}{a +
+        b}\right)$</m>.
+      </d:para>
+      <d:para>
+        Equation of line passing through this point is given by <m>$y - \frac{ab}{a + b} = m\left(x -
+        \frac{ab}{a + b}\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow A = \left(\frac{ab(m - 1)}{m(a + b)}, 0\right)$</m> and <m>$B = \left(0, \frac{ab(1
+        - m)}{a + b}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be the mid-point of <m>$AB$</m>. We have to find its locus
+        i.e. eliminate <m>$m$</m>.
+      </d:para>
+      <d:para>
+        <m>$\alpha = -\frac{ab(1 - m)}{2m(a + b)}$</m> and <m>$\beta = \frac{ab(1 - m)}{2(a + b)}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\frac{\alpha}{\beta} = -\frac{1}{m} \Rightarrow m = -\frac{\beta}{\alpha} \Rightarrow
+        2\alpha\beta(a + b) = ab(\alpha + \beta) \Rightarrow 2xy(a + b) = ab(x + y)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 338 -->
+      <d:para>
+        Equation of any line perpendicular to the given equation passing through the origin is given by
+        <m>$\frac{x}{a} - \frac{y}{b} = 0$</m>
+      </d:para>
+      <d:para>
+        Let foot of the perpendicular from the origin to the given line is intersection of the two
+        lines. Let it be <m>$P(\alpha, \beta)$</m>, then
+      </d:para>
+      <d:para>
+        <m>$\frac{\alpha}{a} + \frac{\beta}{b} = 1$</m> and <m>$\frac{\alpha}{a} - \frac{\beta}{b} = 0$</m>
+      </d:para>
+      <d:para>
+        Squaring and adding <m>$\alpha^2\left(\frac{1}{a^2} + \frac{1}{b^2}\right) +
+        \beta^2\left(\frac{1}{b^2} + \frac{1}{a^2}\right) = 1 \Rightarrow \frac{1}{a^2} + \frac{1}{b^2} =
+        1/c^2$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$c$</m> is a constant and <m>$a, b$</m> are parameters <m>$\Rightarrow \left(\alpha^2 +
+        \beta^2\right).\frac{1}{c^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus of <m>$P(\alpha, \beta)$</m> is <m>$x^2 + y^2 = c^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 339 -->
+      <d:para>
+        Equation of a straight line passing through <m>$(h, k)$</m> is <m>$y - k = m(x - h)$</m>.
+      </d:para>
+      <d:para>
+        Equation of the straight line perpendicular to the above line passing through origin is <m>$y =
+        -\frac{1}{m}x$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be the foot of the perpendicular from the origin to first
+        line. Clearly, <m>$P(\alpha, \beta)$</m> will be point of intersection of the two lines. Since
+        <m>$P$</m> lies on both the lines, therefore,
+      </d:para>
+      <d:para>
+        <m>$\beta - k = m(\alpha - x)$</m> and <m>$\beta = -\frac{1}{m}\alpha \Rightarrow m =
+        -\frac{\alpha}{\beta} =\Rightarrow y - k = -\frac{x}{y}(x - h) \Rightarrow x^2 + y^2 = hx + ky$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 340 -->
+      <d:para>
+        Let <m>$OA = c$</m>, then <m>$A = (0, c)$</m>, where <m>$c$</m> is a constant. Let <m>$C = (\alpha,
+        \beta)$</m>, then <m>$OL = \alpha = OB - BL = c\cot\theta - BC\cos\left(\theta + 60^\circ\right)$</m>
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy355">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_55.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        <m>$= c\cot\theta - BC\left(\cos\theta\cos60^\circ - \sin\theta\sin60^\circ\right) = c\cot\theta -
+        \frac{AB}{2}\cos\theta + \frac{AB}{2}\sqrt{3}\sin\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$= c\cot\theta - \frac{1}{2} c\csc\theta\cos\theta + \frac{1}{2}c\csc\theta\sin\theta
+        \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        <m>$= c\cot\theta - \frac{c}{2}\cot\theta + \frac{\sqrt{3}c}{2} = \frac{c}{2}\left(\cot\theta +
+        \sqrt{3}\right)$</m>
+      </d:para>
+      <d:para>
+        and <m>$\beta = CL = CB\sin\left(\theta + 60^\circ\right) = AB\left(\frac{1}{2}\sin\theta +
+        \cos\theta\frac{\sqrt{3}}{2}\right) = \frac{c\csc\theta}{2\left(\sin\theta +
+        \sqrt{3}\cos\theta\right)}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{c}{2} + \frac{\sqrt{3}c}{2}\cot\theta$</m>
+      </d:para>
+      <d:para>
+        Thus, we get <m>$\beta = \sqrt{3}\alpha - c$</m>
+      </d:para>
+      <d:para>
+        Thus, locus of <m>$C$</m> is <m>$y = \sqrt{3}x - c$</m>, which is a straight line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 341 -->
+      <d:para>
+        Let <m>$P(x, y). \Rightarrow \frac{|y - 2x + 1|}{\sqrt{5}} = \sqrt{x^2 + y^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (y - 2x + 1)^2 = 5\left(x^2 + y^2\right) \Rightarrow y^2 + 4x^2 + 1 - 4x y + 2y - 4x
+        = 5x^2 + 5y^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + 4y^2 + 4x y + 4x - 2y - 1 = 0$</m>
+      </d:para>
+      <d:para>
+        For <m>$y = 2x: 25x^2 - 1 = 0 \Rightarrow x = \pm \frac{1}{5}$</m>
+      </d:para>
+      <d:para>
+        Points: <m>$Q\left(\frac{1}{5}, \frac{2}{5}\right)$</m> and <m>$R\left(-\frac{1}{5},
+        -0-\frac{2}{4}\right)$</m>
+      </d:para>
+      <d:para>
+        Midpoint: <m>$ = (0, 0)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 342 -->
+      <d:para>
+        Equation of any line through origin can be written as <m>$y = mx$</m>.
+      </d:para>
+      <d:para>
+        Solving it with the two equations we have <m>$A = \left(\frac{2}{m + 2}, \frac{2m}{m +
+        2}\right)$</m> and <m>$B = \left(\frac{2}{2m - 1}, \frac{2m}{2m - 1}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let the coordinate of the mid-point be <m>$(\alpha, \beta)$</m>. Then <m>$\alpha = \frac{2m + 1}{(2m
+        - 1)(m+ 2)}$</m> and <m>$\beta = \frac{m(3m + 1)}{(2m - 1)(m + 2)}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{\alpha}{\beta} = \frac{1}{m} \Rightarrow m = \frac{\beta}{\alpha}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\alpha = \frac{(2\beta + \alpha)\alpha}{(2\beta - \alpha)(\beta + 2\alpha)}$</m>
+      </d:para>
+      <d:para>
+        Thus, locus is <m>$2x^2 - 3x y - 2y^2 + x + 3y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 343 -->
+      <d:para>
+        Take <m>$A(h, 0)$</m> and <m>$B(-h, 0)$</m>. Let <m>$O(x_1, y_1)$</m> be a fixed point.
+      </d:para>
+      <d:para>
+        Let <m>$PQ$</m> be a line through <m>$P(a, b)$</m> and <m>$Q(c, d)$</m> such that <m>$OP \perp
+        OQ$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(a - x_1)(c - x_1) + (b - y_1)(d - y_1) = 0$</m>
+      </d:para>
+      <d:para>
+        Equation of line <m>$PQ$</m> is: <m>$(y - b) = m (x - a)$</m> where <m>$m = \frac{d - b}{c -
+        a}$</m>.
+      </d:para>
+      <d:para>
+        Foot of perpendicular from <m>$O(x_1, y_1)$</m> to <m>$PQ$</m> is <m>$R(x, y)$</m>, satisfying,
+        <m>$(x - x_1) + m (y - y_1) = 0$</m>
+      </d:para>
+      <d:para>
+        Also <m>$R$</m> lies on <m>$PQ$</m>, so: <m>$(y - b) = m (x - a)$</m>
+      </d:para>
+      <d:para>
+        Eliminating <m>$m$</m> gives: <m>$(x - x_1)(c - a) + (y - y_1)(d - b) = 0$</m>
+      </d:para>
+      <d:para>
+        Using <m>$OP \perp OQ$</m> condition and simplifying yields: <m>$(x - h)(x + h) + y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Hence: <m>$x^2 + y^2 = h^2$</m>. This is a circle with center <m>$(0, 0)$</m> and radius <m>$h$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the locus of <m>$R$</m> is the circle with diameter <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy356">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_56.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 344 -->
+      <d:para>
+        Let <m>$PQ$</m> be taken as <m>$x$</m>-axis and its middle point is <m>$O$</m>, the origin and
+        <m>$OY$</m> as <m>$y$</m>-axis.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy357">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_57.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let <m>$PQ = 2a$</m> then <m>$P = (a, 0)$</m> and <m>$Q = (-a, 0)$</m>. Let <m>$R = (h,
+        k)$</m>. Also let <m>$\angle RPQ = \theta$</m> and <m>$\angle RQP = \phi$</m>.
+      </d:para>
+      <d:para>
+        Given that <m>$\theta - \phi = 2\alpha$</m>. Let <m>$RM$</m> be perpendicular to <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Here <m>$\theta$</m> and <m>$\phi$</m> are variables and <m>$a$</m> and <m>$\alpha$</m> are
+        constants.
+      </d:para>
+      <d:para>
+        <m>$\tan(\theta - \alpha) = \tan2\alpha \Rightarrow \tan\theta = \frac{k}{a - h}$</m> and
+        <m>$\tan\phi = \frac{k}{a + h}$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$\tan(\theta - \alpha)$</m> yields
+      </d:para>
+      <d:para>
+        <m>$h^2 - k^2 + 2hk\cot2\alpha - a^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, locus of <m>$R$</m> is <m>$x^2 - y^2 + 2xy\cot2\alpha - a^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 345 -->
+      <d:para>
+        Equation of the line which passes through the point of intersection of the given lines is given by
+      </d:para>
+      <d:para>
+        <m>$x + 2y - 1 + k(2x - y - 1) = 0$</m>, where <m>$k$</m> is a parameter.
+      </d:para>
+      <d:para>
+        This line cuts <m>$x$</m> and <m>$y$</m> axes at <m>$A = \left(\frac{k + 1}{2k + 1}, 0\right)$</m>
+        and <m>$B = \left(0, \frac{k + 1}{2 - k}\right)$</m> respectively.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be the mid-point of <m>$AB$</m>, then <m>$\alpha = \left(\frac{k +
+        1}{2k + 1}, \frac{k + 1}{2(2 - k)}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{\alpha}{\beta} = (2 - k)(2k + 1) \Rightarrow k = \frac{2\beta - \alpha}{2\alpha +
+        \beta}$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$k$</m> back in <m>$\alpha$</m> we get <m>$10\alpha\beta = 3\beta + \alpha \Rightarrow 10xy = x + 3y$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 346 -->
+      <d:para>
+        Let the variable line through <m>$O$</m> make an angle <m>$\theta$</m> with the positive direction
+        of <m>$x$</m>-axis. Any point on this line will be <m>$(r\cos\theta + r\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Let the fixed lines be <m>$y = m_1x + c_1$</m> and <m>$y = m_2x + c_2$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$OR = r_1, OS = r_2$</m> and <m>$OP = r_3$</m>, then according to question <m>$\frac{m +
+        n}{r_3} = \frac{m}{r_1} + \frac{n}{r_2}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$A$</m> and <m>$B$</m> lies on the fixed lines, therefore, <m>$r_1\sin\theta =
+        m_1(r_1\cos\theta) + c_1$</m> and <m>$r_2\sin\theta = m_2(r_2\cos\theta) + c_2$</m>
+      </d:para>
+      <d:para>
+        Let <m>$P = (\alpha, \beta)$</m>, then <m>$\alpha = r_3\cos\theta, \beta = r_3\sin\theta$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{m  + n}{r_3} = \frac{m.(\sin\theta - m_1\cos\theta)}{c_1} + \frac{m_2.(\sin\theta -
+        m_2\cos\theta)}{c_2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m + n =\frac{m}{c_1}(\beta - m_1\alpha) + \frac{m}{c_2}(\beta - m_2\alpha)$</m>
+      </d:para>
+      <d:para>
+        The locus of <m>$P$</m> is <m>$m + n = \left(\frac{m}{c_1} + \frac{n}{c_2}\right)y -
+        \left(\frac{mm_1}{c_1} + \frac{mm_2}{c_2}\right)x$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y - m_1x + c_1 + \frac{n}{m}.\frac{c_1}{c_2}(y_2 - m_2x - c_2) = 0$</m>
+      </d:para>
+      <d:para>
+        Clearly locus of <m>$P$</m> is a straight line passing through the point of intersection of the two
+        fixed lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 347 -->
+      <d:para>
+        We take <m>$O$</m> as the origin Let the <m>$n$</m> lines be represented by <m>$y = m_r x +
+        c_r$</m>, where <m>$r = 1, 2, 3, \ldots, n$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$OA$</m> make an angle <m>$\theta$</m> with the <m>$x$</m>-axis and cut the given <m>$n$</m>
+        lines at <m>$n$</m> diferent points.
+      </d:para>
+      <d:para>
+        Let <m>$OR_1 = r_1, OR_2 = r_2, \ldots, OR_n = r_n, OR = r \Rightarrow R(\alpha, \beta) =
+        (r\cos\theta, r\sin\theta)$</m>
+      </d:para>
+      <d:para>
+        <m>$y = m_nx + c_n \Rightarrow r_n = \frac{c_n}{\sin\theta - m_n\cos\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{n}{OR} = \frac{1}{OR_1} + \frac{1}{OR_2} + \cdots + \frac{1}{OR_n}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{n}{r} = \frac{\sin\theta - m_1\cos\theta}{c_1} + \cdots + \frac{\sin\theta -
+        m_n\cos\theta}{c_n}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow n = \frac{\beta - m_1\alpha}{c_1} + \cdots + \frac{\beta - m_n\alpha}{c_n} =
+        \left(\frac{1}{c_1} + \frac{1}{c_2} + \cdots + \frac{1}{c_n}\right)\beta - \left(\frac{m_1}{c_1} +
+        \cdots + \frac{m_n}{c_m}\right)\alpha$</m>
+      </d:para>
+      <d:para>
+        Hence, locus of <m>$R$</m> is a straight line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 348 -->
+      <d:para>
+        Let the base of the triangle <m>$ABC$</m> be <m>$BC$</m> which passes through a fixed point <m>$P(f,
+        g)$</m>. Let <m>$B = (x_1, y_1)$</m> and <m>$C = (x_2, y_2)$</m>
+      </d:para>
+      <d:para>
+        Since $P, B, C$ are collinear, therefore, <m>$\begin{vmatrix}f &amp; g &amp; 1\\ x_1 &amp; y_1 &amp;
+        1\\ x_2 &amp; y_2 &amp; 1\end{vmatrix} = 0 \Rightarrow f(y_1 - y_2) - g(x_1 - x_2) + (x_1y_2
+        - x_2y_1) = 0$</m>
+      </d:para>
+      <d:para>
+        Let <m>$A = (\alpha, \beta)$</m>. We have to find the locus of the point <m>$A$</m>.
+      </d:para>
+      <d:para>
+        Given lines are <m>$y^2 - 8x y - 9x^2 = 0 \Rightarrow y - 9x = 0$</m> and <m>$x + y = 0$</m>.
+      </d:para>
+      <d:para>
+        Let these lines be perpendicular bisectors of <m>$AB$</m> and <m>$AC$</m>. Since <m>$AB$</m> is
+        perpendicular to line <m>$y - 9x = 0$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$\frac{\beta - y_1}{\alpha - x_1} \times 9 = -1 \Rightarrow x_1 + 9y_1 = \alpha + 9\beta$</m>
+      </d:para>
+      <d:para>
+        Since mid-point <m>$\left(\frac{\alpha + x_1}{2}, \frac{\beta + y_1}{2}\right)$</m> of <m>$AB$</m>
+        lies on <m>$y - 9x = 0$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$(\beta + x_1) - 9(\beta + y_1) = 0 \Rightarrow 9x_1 - y_1 = \beta - 9\alpha$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$x_1 = \frac{9\beta - 40\alpha}{41}, y_1 = \frac{40\beta + 9\alpha}{41}$</m>
+      </d:para>
+      <d:para>
+        Proceeding similarly for <m>$AC$</m> we get <m>$x_2 = -\beta$</m> and <m>$y_2 = -\alpha$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x_1 - x_2 = \frac{50\beta - 40\alpha}{41}$</m> and <m>$y_1 - y_2 = \frac{40\beta +
+        50\alpha}{41}$</m> and <m>$x_1y_2 - x_2y_1 = -\frac{1}{41}[\alpha(9\beta - 40\alpha) - \beta(40\beta
+        + 9\alpha)]$</m>
+      </d:para>
+      <d:para>
+        Putting these in first equation we get locus of <m>$A$</m> as
+      </d:para>
+      <d:para>
+        <m>$4(x^2 + y^2) + (4g + 5f)x + (4f - 5g)y = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy358">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_58.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 349 -->
+      <d:para>
+        Let the coordinates of the vertex be <m>$(h, k)$</m>, and let the lengths of the bases be
+        respectively <m>$l, l_1, l_2, \ldots$</m>, and their equations be respectively
+      </d:para>
+      <d:para>
+        <m>$x\cos\alpha + y\sin\alpha = p, x\cos\beta + y\sin\beta = p_1, \ldots$</m> etc.
+      </d:para>
+      <d:para>
+        The length of the perpendiculars from <m>$(h, k)$</m> on the bases will be
+      </d:para>
+      <d:para>
+        <m>$|h\cos\alpha + k\sin\beta -p|, |h\cos\beta + k\sin\beta - p_1|, \ldots$</m> etc.
+      </d:para>
+      <d:para>
+        From the given condition sum of areas is constant. Thus,
+      </d:para>
+      <d:para>
+        <m>$\displaystyle\left(x \sum l\cos\alpha + y \sum l\sin\alpha - \sum lp = k\right)$</m>, which is a straight
+        line.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

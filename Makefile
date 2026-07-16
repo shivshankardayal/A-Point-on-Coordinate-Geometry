@@ -1,4 +1,5 @@
 build/index.html: src/*.xml html.xsl Makefile css/*
+	rm -rf build/*
 	#xsltproc --xinclude --stringparam html.stylesheet "../css/pico.css ../css/pico.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
 	xsltproc --xinclude --stringparam html.stylesheet "../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
 	#xsltproc --xinclude --stringparam html.stylesheet "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml

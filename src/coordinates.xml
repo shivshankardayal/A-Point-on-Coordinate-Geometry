@@ -338,8 +338,8 @@
       centroid of the triangle.
     </d:para>
   </d:sect1>
-  <d:sect1>
-    <d:title>Incenter of a Triangle</d:title>
+  <d:sect1 xml:id="incenter1">
+    <d:title xml:id="incenter_title">Incenter of a Triangle</d:title>
     <d:para>
       The point of intersection of the bisectors of the angles of the triangle is called the <d:emphasis
       role="italic">incenter</d:emphasis> of the triangle.

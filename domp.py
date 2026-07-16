@@ -26,6 +26,7 @@ def setup(files):
         jobs.append(p)
         p.start()
 
+
 def process(filepath):
     #print "in process"
     print(filepath)
