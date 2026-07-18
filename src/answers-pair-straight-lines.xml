@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-pair-straight-lines/index.html" ?>
+  <d:title>Answers of Pair of Straight Lines</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      <d:para>
+        The joint equation is given by <m>$(x - 4y + 2)(x - y - 1) = 0 \Rightarrow x^2 - 5x y + 4y^2 + x +
+        2y - 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      <d:para>
+        Let <m>$y = mx$</m> be the straight line passing through origin and making an angle <m>$\alpha$</m>
+        with <m>$y + x = 0$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$\tan\alpha = \frac{|m + 1|}{1 + m} \Rightarrow m^2(1 - \tan^2\alpha) + 2m(1 + \tan^2\alpha)
+        + (1 - \tan^2\alpha) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m_1 + m_2 = -2\sec2\alpha, m_1m_2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$(y - m_1x)(y - m_2x) = x^2 + 2xy\sec2\alpha + y^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      <d:para>
+        Since the pair of lines are perpendicular and form an isosceles triangle with <m>$2x + 3y = 6$</m>
+        the pair will make <m>$45^\circ$</m> with it. Let $m$ be the slope of pair of straight lines. Then
+      </d:para>
+      <d:para>
+        <m>$\tan45^\circ = 1 = \left|\frac{m - \left(-\frac{2}{3}\right)}{1 + \frac{2m}{3}}\right|
+        \Rightarrow m = 1/5, -5$</m>. So the lines are <m>$5y - x = 0$</m> and <m>$5x + y = 0$</m> as they
+        pass through origin.
+      </d:para>
+      <d:para>
+        Solving the three lines pairwaise we obtain vertices as <m>$(0, 0), \left(\frac{20}{13},
+        \frac{6}{13}\right), \left(-\frac{6}{13}, \frac{30}{13}\right)$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\Delta = \frac{936}{169}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      <d:para>
+        The combined equation is given by <m>$(2x - y - 3)(3x - y + 4) = 6x^2 - 5x y + y^2 - x - y - 12 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      <d:para>
+        Lines parallel to <m>$x - 2y = 5$</m> and <m>$x = 3y - 4$</m> are given by <m>$x - 2y = c$</m> and
+        <m>$x - 3y = k$</m>.
+      </d:para>
+      <d:para>
+        Given that both pass through <m>$(1, 2)$</m>, thus, <m>$c = -3$</m> and <m>$k = -5$</m>. So the
+        lines are <m>$x - 2y + 3 = 0$</m> and <m>$x - 3y + 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, combined equation is <m>$(x - 2y + 3)(x - 3y + 5) = x^2 - 5x y + 6x^2 + 8x - 19y + 15 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      <d:para>
+        The bisectors of angle between coordinates axes is given by <m>$x - y = 0$</m> and <m>$x + y =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The combined equation will be therefore <m>$x^2 - y^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      <d:para>
+        Comparing given equation with general equation in second degree we have <m>$a = 8, b = 2, c = 15, 2h
+        = 8, 2g = 26, 2f = 13$</m>
+      </d:para>
+      <d:para>
+        Now <m>$abc + 2fgh -af^2 - bg^2 - ch^2 = 0$</m>. Hence, the given equation represents a pair of
+        straight lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = 6, h = k, b = 12, g = 11, f = \frac{31}{2}, c = 20$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fgh -af^2 - bg^2 - ch^2 = 0$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$40k^2 - 682k + 2907 = 0 \Rightarrow k = \frac{682 \pm 2}{80} = \frac{171}{20},
+        \frac{17}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = 10, 2h = -11, b = -6, g = -6, f = -\frac{1}{2}, c = 2$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fg h - af^2 - bg^2 - ch^2 = 0$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$0 = 0$</m>. Hence, the give equation represents pair of straight lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = 2, 2h = -15, b = -17, g = 2, f = \frac{23}{2}, c = -6$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$0 = 0$</m>. Hence, the give equation represents pair of straight lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = m, 2h = -5, b = -6, 2g = 14, 2f = 5, c = 4$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$m = 6$</m>. We see that <m>$a + b = 0$</m>, hence, the lines are perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = 1, 2h = m, b = -2, 2g = 0, 2f = 3, c = -1$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m> gives us <m>$m = \pm 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = 12, 2h = -10, b = 2, 2g = 11, 2f = -5, c = m$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m> gives us <m>$m = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      <d:para>
+        Comparing the given equation with the general equation of second degree we get
+      </d:para>
+      <d:para>
+        <m>$a = 6, 2h = 5, b = -4, 2g = 7, 2f = m, c = 2$</m>
+      </d:para>
+      <d:para>
+        Putting these values in <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m> gives us <m>$m = 2$</m> or
+        <m>$\frac{23}{6}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      <d:para>
+        <m>$a = 4, 2h = 24, b = 11$</m> from the given equation.
+      </d:para>
+      <d:para>
+        Let <m>$\theta$</m> be the angle between the pair of straight lines. Then
+      </d:para>
+      <d:para>
+        <m>$\tan\theta = \frac{2\sqrt{h^2 - ab}}{a + b} = \frac{4}{3}$</m>, so the acute angle between the
+        lines is <m>$\tan^{-1}\frac{4}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      <d:para>
+        Given equation is <m>$\left(x^2 + y^2\right)\sin^2\alpha = (x\cos\beta - y\sin\beta)^2$.</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(\cos^2\beta - \sin^2\alpha\right)x^2 - 2\sin\beta\cos\beta xy +
+        \left(\sin^2\beta - \sin^2\alpha\right)y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a = \cos^2\beta - \sin^2\alpha, 2h = -\sin2\beta, b = \sin^2\beta - \sin^2\alpha$</m>
+      </d:para>
+      <d:para>
+        Let <m>$\theta$</m> be the angle between the lines. Then
+      </d:para>
+      <d:para>
+        <m>$\tan\theta = \frac{2\sqrt{h^2 - ab}}{a + b} = \pm\tan2\alpha$</m>
+      </d:para>
+      <d:para>
+        Thus, angle between the straight lines is <m>$2\alpha$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      <d:para>
+        Comparing with the general equation, we have
+      </d:para>
+      <d:para>
+        <m>$a = 1, 2h = -5, b = 4$</m>. If $\theta$ is the angle between the pair of straight lines, then
+      </d:para>
+      <d:para>
+        <m>$\tan\theta = \frac{2\sqrt{h^2 - ab}}{a + b} = \frac{3}{5}$</m>
+      </d:para>
+      <d:para>
+        Thus, acute angle between the lines is <m>$tan^{-1}\frac{3}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      <d:para>
+        We can write the given equation as <m>$y^2 - \frac{2}{\sin\theta\cos\theta}xy +
+        \frac{\sin^4\theta + \cos^4\theta}{\sin^2\theta\cos^2\theta}x^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Let the straight lines by <m>$y - x\tan\alpha = 0$</m> and <m>$y - x\tan\beta = 0$</m>, then
+      </d:para>
+      <d:para>
+        <m>$\tan\alpha + \tan\beta = \frac{2}{\sin\theta\cos\theta}$</m>, and <m>$\tan\alpha\tan\beta =
+        \frac{\sin^4\theta + \cos^4\theta}{\sin^2\theta\cos^2\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$(\tan\alpha - \tan\beta)^2 = (\tan\alpha + \tan\beta)^2 - 4\tan\alpha\tan\beta$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{4}{\sin^2\theta\cos^2\theta}- 4\frac{\sin^4\theta + \cos^4\theta}{\sin^2\theta\cos^2\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{4}{\sin^2\theta\cos^2\theta}(1 - \sin^4\theta - \cos^4\theta) = 8$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \tan\alpha - \tan\beta = 2\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      <d:para>
+        Let <m>$\theta$</m> be the angle between the pair of lines given by the equaiton <m>$a x^2 + 2h x y
+        + b y^2 = 0$</m>. Let <m>$A, B$</m> be the foot of perpendiculars from <m>$P(p, q)$</m> on the two
+        lines.
+      </d:para>
+      <d:para>
+        If we draw a circle with <m>$OP$</m> as diameter then both <m>$A$</m> and <m>$B$</m> will be on tihs
+        circle because diameter  <m>$OP$</m> will make right angle at any point on the circumference.
+      </d:para>
+      <d:para>
+        <m>$\therefore \angle OAB = \angle OPB = \alpha$</m> (let)
+      </d:para>
+      <d:para>
+        From <m>$\triangle OAB$</m>, we have <m>$\frac{OB}{\sin\alpha} = \frac{AB}{\sin\theta}$</m>,
+        and from <m>$\triangle OPB$</m>, we have <m>$\frac{OP}{\sin90^\circ} = \frac{OB}{\sin\alpha} =
+        \frac{AB}{\sin\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$\tan\theta = \frac{2\sqrt{h^2 - ab}}{a + b} = \frac{2\sqrt{h^2 - ab}}{\sqrt{(a - b)^2 +
+        4h^2}} \Rightarrow AB = OP\sin\theta = \frac{2\sqrt{p^2 + q^2}\sqrt{h^2 - ab}}{\sqrt{(a - b)^2 +
+        4h^2}}$</m>
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy41">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/4_1.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      <d:para>
+        From previous question <m>$AB = \frac{2\sqrt{p^2 + q^2}\sqrt{h^2 - ab}}{\sqrt{(a - b)^2 +
+        4h^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore 2k = \frac{2\sqrt{p^2 + q^2}\sqrt{h^2 - ab}}{\sqrt{(a - b)^2 + 4h^2}}$</m>
+      </d:para>
+      <d:para>
+        Hence, locus of point <m>$P(p, q)$</m> is <m>$(x^2 + y^2)(h^2 - a b) = k^2[(a - b)^2 + 4h^2]$</m>.
+      </d:para>
+
+
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

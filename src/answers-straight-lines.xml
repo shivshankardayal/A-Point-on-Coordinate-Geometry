@@ -8525,5 +8525,614 @@
         line.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 350 -->
+      <d:para>
+        Let <m>$A(\cos t, \sin t), B(\sin t, -\cos t), C(1, 2)$</m>.
+      </d:para>
+      <d:para>
+        Centroid <m>$G(x, y)$</m> is given by <m>$x = \frac{\cos t + \sin t + 1}{3}, y = \frac{\sin t - \cos t
+        + 2}{3}$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$3x - 1 = \cos t + \sin t, 3y - 2 = \sin t - \cos t$</m>.
+      </d:para>
+      <d:para>
+        Now, <m>$(\cos t + \sin t)^2 + (\sin t - \cos t)^2 = 2\left(\sin^2 t + \cos^2 t\right) = 2$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$(3x - 1)^2 + (3y - 2)^2 = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 351 -->
+      <d:para>
+        Given position: <m>$x = u\cos\alpha.t$</m> and <m>$y = u\sin\alpha .t - \frac{1}{2}gt^2$</m>
+      </d:para>
+      <d:para>
+        From <m>$x = u\cos\alpha.t, t = \frac{x}{u\cos\alpha}$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$y: y = u\sin\alpha.\frac{x}{u\cos\alpha} - \frac{1}{2}g
+        \left(\frac{x}{u\cos\alpha}\right)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y = x\tan\alpha - \frac{gx^2}{2u^2\cos^2\alpha}$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus is: <m>$y = x\tan\alpha - \frac{gx^2}{2u^2\cos^2\alpha}$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 352 -->
+      <d:para>
+        Let the line through <m>$(1, 1)$</m> meet the axes at <m>$A(a, 0)$</m> and <m>$B(0, b)$</m>.
+      </d:para>
+      <d:para>
+        Equation of line in intercept form is <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(1, 1)$</m>, therefore, <m>$\frac{1}{a} + \frac{1}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Let midpoint of <m>$AB$</m> be <m>$M(x, y)$</m>. Then, <m>$x = \frac{a}{2}, y = \frac{b}{2}
+        \Rightarrow a = 2x, b = 2y$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$\frac{1}{a} + \frac{1}{b} = 1$</m> to get <m>$\frac{1}{2x} + \frac{1}{2y} =
+        1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x + y}{2xy} = 1 \Rightarrow x + y = 2xy$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus is <m>$2xy = x + y$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 353 -->
+      <d:para>
+        Let the line through <m>$(\alpha, \beta)$</m> meet the axes at <m>$A(a, 0)$</m> and <m>$B(0,
+        b)$</m>.
+      </d:para>
+      <d:para>
+        Equation in intercept form: <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(\alpha, \beta)$</m>: <m>$\frac{\alpha}{a} + \frac{\beta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Let midpoint be <m>$M(x, y)$</m> with <m>$x = \frac{a}{2}, y = \frac{b}{2}$</m>. So <m>$a = 2x, b =
+        2y$</m>.
+      </d:para>
+      <d:para>
+        Substitute to get <m>$\frac{\alpha}{2x} + \frac{\beta}{2y} = 1$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$\frac{\alpha}{x} + \frac{\beta}{y} = 2$</m>. Multiplying by <m>$xy$</m> gives <m>$\alpha
+        y + \beta x = 2xy$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 354 -->
+      <d:para>
+        Let the line cut the axes at <m>$A(a, 0)$</m> and <m>$B(0, b)$</m>.
+      </d:para>
+      <d:para>
+        Then its intercept form is <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Given condition is <m>$a + b = k$</m>
+      </d:para>
+      <d:para>
+        Midpoint of <m>$AB$</m> is <m>$M(x, y)$</m>, so <m>$x = \frac{a}{2}, y = \frac{b}{2} \Rightarrow a =
+        2x, b = 2y$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$a + b = k$</m> gives  <m>$2x + 2y = k$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus is <m>$x + y = \frac{k}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 355 -->
+      <d:para>
+        Let the line meet the axes at <m>$A(x_1, 0)$</m> and <m>$B(0, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AP = b$</m> and <m>$PB = a$</m>, the total length is constant, therefore <m>$AB = a +
+        b$</m>
+      </d:para>
+      <d:para>
+        Point <m>$P(x, y)$</m> divides <m>$AB$</m> internally in the ratio, thus, <m>$AP : PB = b : a$</m>
+      </d:para>
+      <d:para>
+        Using section formula: <m>$x = \frac{b.o + a.x_1}{a + b} = \frac{ax_1}{a + b}, y = \frac{b.y_1 -
+        a.0}{a + b}$</m>
+      </d:para>
+      <d:para>
+        So, <m>$x_1 = \frac{(a + b)x}{a}$</m> and <m>$y_1 = \frac{(a + b)y}{b}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$A$</m> and <m>$B$</m> are intercepts of the same line, therefore, <m>$\frac{x_1}{a} +
+        \frac{y_1}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Substituting values yields <m>$\frac{(a + b)x}{a^2} + \frac{(a + b)y}{b^2} = 1$</m>
+      </d:para>
+      <d:para>
+        Dividing by <m>$(a + b)$</m> gives <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 356 -->
+      <d:para>
+        Let the variable line cut the axes at <m>$A(a, 0)$</m> and <m>$B(0, b)$</m>.
+      </d:para>
+      <d:para>
+        Since the line passes through <m>$\left(\frac{6}{5}, \frac{6}{5}\right)$</m>, therefore
+        <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$\left(\frac{6}{5}, \frac{6}{5}\right)$</m> yields  <m>$\frac{6}{5a} + \frac{6}{5b}
+        = 1 \Rightarrow 6(a + b) = 5ab$</m>
+      </d:para>
+      <d:para>
+        Point <m>$P(x, y)$</m> divides <m>$AB$</m> internally in ratio <m>$2:1: \Rightarrow AP : PB = 2 :
+        1$</m>
+      </d:para>
+      <d:para>
+        Using section formula:  <m>$x = \frac{2.0 + 1.a}{2 + 1} = \frac{a}{3}$</m> and <m>$y = \frac{2.b +
+        1.0}{2 + 1} = \frac{2b}{3}$</m>
+      </d:para>
+      <d:para>
+        So, <m>$a = 3x, b = \frac{3y}{2}$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$6(a + b) = 5ab$</m> gives us <m>$6\left(3x + \frac{3y}{2}\right) =
+        5.3x.\frac{3y}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$5xy = 2(2x + y)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 357 -->
+      <d:para>
+        Let the moving line cut the axes at <m>$A(a, 0)$</m> and <m>$B(0, b)$</m>.
+      </d:para>
+      <d:para>
+        Equation of the line is <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>
+      </d:para>
+      <d:para>
+        Perpendicular distance from origin is given as <m>$p$</m> is <m>$\frac{|ab|}{\sqrt{a^2 + b^2}} =
+        p$</m>
+      </d:para>
+      <d:para>
+        Squaring yields <m>$a^2b^2 = p^2(a^2 + b^2)$</m>
+      </d:para>
+      <d:para>
+        Centroid of triangle <m>$OAB$</m> is <m>$G(x, y): x = \frac{a}{3}, y = \frac{b}{3} \Rightarrow a =
+        3x, b = 3y$</m>
+      </d:para>
+      <d:para>
+        Substitute into distance condition to get <m>$(9x^2)(9y^2) = p^2 (9x^2 + 9y^2)$</m>
+      </d:para>
+      <d:para>
+        <m>$81x^2y^2 = 9p^2(x^2 + y^2)$</m>.  Hence the locus of centroid is <m>$9x^2y^2 = p^2(x^2 + y^2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 358 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the moving point. Given <m>$AP \perp BP$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AP = \frac{y - y_1}{x - x_1}$</m> and slope of <m>$BP = \frac{y - y_2}{x - x_2}$</m>
+      </d:para>
+      <d:para>
+        Since lines are perpendicular, therefore, <m>$\frac{y - y_1}{x - x_1} * \frac{y - y_2}{x - x_2} =
+        -1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (y - y_1)(y - y_2) = -(x - x_1)(x - x_2) \Rightarrow (x - x_1)(x - x_2) + (y -
+        y_1)(y - y_2) = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus is <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 359 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the moving point.
+      </d:para>
+      <d:para>
+        Square of distance from <m>$(3, -2)$</m> is <m>$(x - 3)^2 + (y + 2)^2$</m>
+      </d:para>
+      <d:para>
+        Distance from line <m>$5x - 12y = 13$</m> is <m>$\frac{|5x - 12y - 13|}{\sqrt{5^2 + (-12)^2}} =
+        \frac{|5x - 12y - 13|}{13}$</m>
+      </d:para>
+      <d:para>
+        Given condition is <m>$(x - 3)^2 + (y + 2)^2 = \frac{|5x - 12y - 13|}{13}$</m>
+      </d:para>
+      <d:para>
+        Multiply both sides by <m>$13$</m> gives  <m>$13\left[(x - 3)^2 + (y + 2)^2\right] = |5x - 12y - 13|$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides yields <m>$169\left[(x - 3)^2 + (y + 2)^2\right]^2 = (5x - 12y - 13)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 360 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the moving point. Fixed points are <m>$F_1(ae, 0)$</m> and <m>$F_2(-ae, 0)$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$\sqrt{(x - a e)^2 + y^2} + \sqrt{(x + a e)^2 + y^2} = 2a$</m>
+      </d:para>
+      <d:para>
+        This is the definition of an ellipse with foci <m>$F_1, F_2$</m> and constant sum <m>$2a$</m>.
+      </d:para>
+      <d:para>
+        Squaring and simplifying gives <m>$\frac{x^2}{a^2} + \frac{y^2}{a^2\left(1 - e^2\right)} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 361 -->
+      <d:para>
+        Let the line <m>$y = x + c$</m> intersect <m>$2x + 3y = 5$</m> at <m>$A(x_1, y_1)$</m> and <m>$2x +
+        3y = 8$</m> at <m>$B(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        For <m>$A: y = x + c$</m>. Substituting in <m>$2x + 3y = 5$</m> gives <m>$2x + 3(x + c) = 5
+        \Rightarrow 5x + 3c = 5$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x_1 = \frac{5 - 3c}{5}, y_1 = x_1 + c = \frac{5 + 2c}{5}$</m>
+      </d:para>
+      <d:para>
+        For <m>$B: 2x + 3(x + c) = 8 \Rightarrow 5x + 3c = 8 \Rightarrow x_2 = \frac{8 - 3c}{5}, y_2 =
+        \frac{8 + 2c}{5}$</m>
+      </d:para>
+      <d:para>
+        Midpoint <m>$M(x, y): x = \frac{x_1 + x_2}{2} = \frac{13 - 6c}{10}$</m> and <m>$y = \frac{y_1 +
+        y_2}{2} = \frac{13 + 4c}{10}$</m>
+      </d:para>
+      <d:para>
+        Eliminating <m>$c$</m> From <m>$x = \frac{13 - 6c}{10} \Rightarrow 6c = 13 - 10x$</m>
+      </d:para>
+      <d:para>
+        Substitute into <m>$y$</m> yields <m>$y = \left(\frac{13 + 4\frac{13 - 10x}{6}}{10}\right)
+        \Rightarrow 4x + 6y = 13$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 362 -->
+      <d:para>
+        Let the point <m>$A$</m> be <m>$(a, 0)$</m> on the <m>$x$</m>-axis and the point <m>$B$</m> be
+        <m>$(b, 6b)$</m> on the line <m>$y = 6x$</m>.
+      </d:para>
+      <d:para>
+        The length of <m>$AB$</m> is <m>$2l$</m>, so using the distance formula we get <m>$(b - a)^2 +
+        (6b)^2 = 4l^2$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of <m>$AB$</m> is <m>$M(x, y)$</m>, so <m>$x = \frac{a + b}{2}$</m> and <m>$y = \frac{0
+        + 6b}{2}$</m>.
+      </d:para>
+      <d:para>
+        From this we obtain <m>$b = \frac{y}{3}$</m> and <m>$a = 2x - \frac{y}{3}$</m>.
+      </d:para>
+      <d:para>
+        Substituting these values into the length condition gives <m>$\left(\frac{y}{3} - \left(2x -
+        \frac{y}{3}\right)\right)^2 + 36\left(\frac{y}{3}\right)^2 = 4l^2$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\left(\frac{2y}{3} - 2x\right)^2 = 4l^2$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$4$</m> gives <m>$\left(\frac{y}{3} - x\right)^2 + y^2 = l^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 363 -->
+      <d:para>
+        Let the variable line through <m>$P(-1, 2)$</m> meet the <m>$x$</m>-axis at <m>$A(a, 0)$</m> and the
+        <m>$y$</m>-axis at <m>$B(0, b)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line in intercept form is <m>$\frac{x}{a} + \frac{y}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$P(-1, 2)$</m> we get <m>$-\frac{1}{a} + \frac{2}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        This gives the relation <m>$-b + 2a = ab$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$Q(x, y)$</m> lie on <m>$AB$</m>. Then <m>$Q$</m> divides <m>$AB$</m> in some ratio <m>$t :
+        1$</m>.
+      </d:para>
+      <d:para>
+        Using section formula we get <m>$x = \frac{a}{1 + t}$</m> and <m>$y = \frac{tb}{1 + t}$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$a = x(1 + t)$</m> and <m>$b = \frac{y(1 + t)}{t}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P, A, Q, B$</m> are such that <m>$PA, PQ, PB$</m> are in harmonic progression we use
+        <m>$PQ^{-1} = \frac{PA^{-1} + PB^{-1}}{2}$</m>.
+      </d:para>
+      <d:para>
+        This gives the relation <m>$\frac{1}{PQ} = \frac{\frac{1}{PA} + \frac{1}{PB}}{2}$</m>.
+      </d:para>
+      <d:para>
+        Using coordinate distances we obtain after simplification that <m>$y = 2x$</m>.
+      </d:para>
+      <d:para>
+        Hence the locus of <m>$Q$</m> is the line <m>$y = 2x$</m>.
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{PA} + \frac{1}{PB} = \frac{2}{PQ} \Rightarrow y = 2x$</m>
+      </d:para>
+      <d:para>
+        <m>$-\frac{1}{PA} - \frac{1}{PB} = \frac{2}{PQ} \Rightarrow y = 2x + 8$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{PA} - \frac{1}{PB} = \frac{2}{PQ} \Rightarrow y = -2x + 4$</m>
+      </d:para>
+      <d:para>
+        <m>$-\frac{1}{PA} + \frac{1}{PB} = \frac{2}{PQ} \Rightarrow y = -2x - 4$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus is a rhombus bounded by these four lines excluding the vertices.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 364 -->
+      <d:para>
+        Let <m>$B(x_1, y_1)$</m> be a variable point.
+      </d:para>
+      <d:para>
+        The perpendicular bisector of <m>$OB$</m> passes through the midpoint of <m>$O(0, 0)$</m> and
+        <m>$B(x_1, y_1)$</m>, which is <m>$\left(\frac{x_1}{2}, \frac{y_1}{2}\right)$</m>, and has slope
+        perpendicular to <m>$OB$</m>.
+      </d:para>
+      <d:para>
+        Equation of perpendicular bisector of <m>$OB$</m> is <m>$x_1x + y_1y = \frac{x_1^2 + y_1^2}{2}$</m>
+      </d:para>
+      <d:para>
+        The midpoint of <m>$AB$</m>, where <m>$A(4, 4)$</m> and <m>$B(x_1, y_1)$</m>, is <m>$\left(\frac{x_1
+        + 4}{2}, \frac{y_1 + 4}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$AB$</m> is <m>$\frac{y_1 -4}{x_1 - 4}$</m>, so the perpendicular bisector of
+        <m>$AB$</m> is <m>$(x_1 - 4)\left(x - \frac{x_1 + 4}{2}\right) + (y_1 - 4)\left(y -  \frac{y_1 +
+        4}{2}\right) = 0$</m>
+      </d:para>
+      <d:para>
+        The point of intersection <m>$P(x, y)$</m> satisfies both equations.
+      </d:para>
+      <d:para>
+        Eliminating <m>$x_1$</m> and <m>$y_1$</m> from the two equations gives a relation between <m>$x$</m>
+        and <m>$y$</m>.
+      </d:para>
+      <d:para>
+        After simplification, we obtain <m>$(x - 2)^2 + (y - 2)^2 = 8$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 365 -->
+      <d:para>
+        Let <m>$O$</m> be the origin and let <m>$A(a, 0)$</m> and <m>$B(0, b)$</m> be fixed points on the
+        axes.
+      </d:para>
+      <d:para>
+        Let <m>$C(c, 0)$</m> and <m>$D(0, d)$</m> be variable points on the axes.
+      </d:para>
+      <d:para>
+        The given condition is <m>$\frac{1}{c} - \frac{1}{d} = \frac{1}{a} - \frac{1}{b}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point of intersection of the lines <m>$AD$</m> and <m>$BC$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$AD$</m> is <m>$y = d\left(1 - \frac{x}{a}\right)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$BC$</m> is <m>$y = b - \frac{b}{c}x$</m>.
+      </d:para>
+      <d:para>
+        At the intersection point <m>$P(x, y)$</m> we have <m>$d\left(1 - \frac{x}{a}\right) = b -
+        \frac{b}{c}x$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$d - \frac{d}{a}x = b - \frac{b}{c}x$</m>.
+      </d:para>
+      <d:para>
+        Rearranging gives <m>$(b - d) = x\left(\frac{b}{c} - \frac{d}{a}\right)$</m>.
+      </d:para>
+      <d:para>
+        Using the given condition <m>$\frac{1}{c} - \frac{1}{d} = \frac{1}{a} - \frac{1}{b}$</m> we rewrite
+        it as <m>$\frac{d - c}{cd}) = \frac{b - a}{ab}$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$ab(d - c) = cd(b - a)$</m>.
+      </d:para>
+      <d:para>
+        On solving the system and eliminating <m>$c$</m> and <m>$d$</m> we obtain <m>$x = y$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the locus of the point <m>$P$</m> is <m>$x - y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 366 -->
+      <d:para>
+        Let <m>$Q = (a, k)$</m>. Since <m>$QR$</m> is the bisector of <m>$\angle OQA$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$\frac{OR}{RA} = \frac{OQ}{QA} = \frac{\sqrt{a^2 + k^2}}{k} \therefore R = \left(\frac{a\sqrt{a^2 +
+        k^2}}{\sqrt{a^2 + k^2} + k}, 0\right)$</m>
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be the foot of the perpendicular from <m>$R$</m> to <m>$OQ$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$Q, P, Q$</m> are collinear. <m>$\therefore \begin{vmatrix}0 &amp; 0 &amp; 1\\ \alpha &amp;
+        \beta &amp; 1\\ a &amp; k &amp; 1\end{vmatrix} = 0 \Rightarrow k = \frac{a\beta}{\alpha}$</m>
+      </d:para>
+      <d:para>
+        Again <m>$RP \perp QQ \Rightarrow \frac{\beta}{a - \frac{a\sqrt{a^2 + k^2}}{\sqrt{a^2 + k^2} +
+        k}}.\frac{k}{a} = -1$</m>
+      </d:para>
+      <d:para>
+        Putting the value of $k$ we get locus as <m>$\left(a x - x^2 - y^2\right)^2\left(a^2y^2 + x^2\right)
+        = a^2y^2\left(x^2 + y^2\right)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 367 -->
+      <d:para>
+        As shown in the diagram <m>$(h - a)^2 + k^2 = a^2 = CB^2, h^2 + (k - b)^2 = a^2 = CA^2$</m>
+      </d:para>
+      <d:para>
+        We have two equations and two unknowns. Solving thes gives locus of <m>$C(h, k)$</m> as
+      </d:para>
+      <d:para>
+        <m>$bx \pm a y = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy359">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/3_59.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 368 -->
+      <d:para>
+        Let the isosceles triangle have base <m>$BC$</m> on the <m>$x$</m>-axis with <m>$B(-a, 0)$</m> and
+        <m>$C(a, 0)$</m>, and vertex <m>$A(0, h)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be the moving point.
+      </d:para>
+      <d:para>
+        The distance from <m>$P$</m> to the base <m>$BC$</m> is <m>$y$</m>, so the square of the distance is
+        <m>$y^2$</m>.
+      </d:para>
+      <d:para>
+        The equation of line <m>$AB$</m> is <m>$hx + ay - ah = 0$</m>, so the distance from <m>$P$</m> to
+        <m>$AB$</m> is <m>$\frac{|hx + ay -  ah|}{\sqrt{h^2 + a^2}}$</m>.
+      </d:para>
+      <d:para>
+        The equation of line <m>$AC$</m> is <m>$hx - ay + ah = 0$</m>, so the distance from <m>$P$</m> to
+        <m>$AC$</m> is <m>$\frac{|hx - ay + ah|}{\sqrt{h^2 + a^2}}$</m>.
+      </d:para>
+      <d:para>
+        The given condition is <m>$y^2 = \frac{|h x + a y - a h|}{\sqrt{h^2 + a^2}} \times \frac{|hx - ay +
+        ah|}{\sqrt{h^2 + a^2}}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$y^2 (h^2 + a^2) = (h x + a y - a h)(h x - a y + a h)$</m>.
+      </d:para>
+      <d:para>
+        Expanding the product gives <m>$h^2 x^2 - a^2 y^2 + a^2 h^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting gives <m>$y^2 (h^2 + a^2) = h^2 x^2 - a^2 y^2 + a^2 h^2$</m>.
+      </d:para>
+      <d:para>
+        Rearranging gives <m>$h^2 x^2 + a^2 h^2 = y^2 (h^2 + 2a^2)$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$h^2$</m> gives <m>$x^2 + a^2 - y^2 - \frac{2a^2}{h^2} y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Rearranging into standard form gives <m>$x^2 + y^2 \left(1 + \frac{2a^2}{h^2}\right) = a^2$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the locus of <m>$P$</m> is a circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 368 -->
+      <d:para>
+        Let <m>$O$</m> be the origin. A variable line through <m>$O$</m> meets two fixed straight lines at
+        <m>$R$</m> and <m>$S$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> lie on this line such that <m>$\frac{2}{OP} = \frac{1}{OR} + \frac{1}{OS}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$O, R, S, P$</m> are collinear, let <m>$OR = r, O S = s$</m>, and <m>$OP = p$</m>.
+      </d:para>
+      <d:para>
+        The given condition is <m>$\frac{2}{p} = \frac{1}{r} + \frac{1}{s}$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$2 = p\left(\frac{1}{r} + \frac{1}{s}\right)$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$rs$</m> gives <m>$2rs = p(r + s)$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$p = \frac{2rs}{r + s}$</m>.
+      </d:para>
+      <d:para>
+        Let the variable line through <m>$O$</m> have direction ratio <m>$(1, m)$</m> so that <m>$R = (r,
+        mr), S = (s, ms)$</m>, and <m>$P = (p, mp)$</m>.
+      </d:para>
+      <d:para>
+        The points <m>$R$</m> and <m>$S$</m> lie on two fixed straight lines, so <m>$r$</m> and <m>$s$</m>
+        satisfy linear equations depending on <m>$m$</m>.
+      </d:para>
+      <d:para>
+        Eliminating <m>$r$</m> and <m>$s$</m> between these two linear relations and the condition <m>$2rs =
+        p(r + s)$</m> removes the parameter $m$.
+      </d:para>
+      <d:para>
+        The resulting relation between <m>$x$</m> and <m>$y$</m> is linear.
+      </d:para>
+      <d:para>
+        Therefore, the locus of <m>$P$</m> is a straight line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 370 -->
+      <d:para>
+        The <m>$i$</m>-th terms are <m>$x_i = p + (i - 1)a$</m> and <m>$y_i = q + (i - 1)b$</m>.
+      </d:para>
+      <d:para>
+        The mean of the first <m>$n$</m> terms of an arithmetic sequence is the average of first and last
+        terms.
+      </d:para>
+      <d:para>
+        Hence <m>$\alpha = \frac{x_1 + x_n}2{}$</m>.
+      </d:para>
+      <d:para>
+        Substituting gives <m>$\alpha = \frac{p + p + (n - 1)a}{2}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\alpha = p + \frac{(n - 1)a}{2}$</m>.
+      </d:para>
+      <d:para>
+        Similarly <m>$\beta = \frac{y_1 + y_n}{2} = q + \frac{(n - 1)b}{2}$</m>.
+      </d:para>
+      <d:para>
+        Eliminating $n$ from both equations gives <m>$\frac{\alpha - p}{a} = \frac{\beta - q}{b}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$b (\alpha - p) = a (\beta - q)$</m> i.e. the locus is <m>$b x - a y + q a - b p = 0$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

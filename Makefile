@@ -1,4 +1,4 @@
-build/index.html: src/*.xml html.xsl Makefile css/*
+build/index-full.html: src/*.xml html.xsl Makefile css/*
 	rm -rf build/*
 	#xsltproc --xinclude --stringparam html.stylesheet "../css/pico.css ../css/pico.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
 	xsltproc --xinclude --stringparam html.stylesheet "../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
@@ -22,6 +22,29 @@ pdf/cg.pdf: src/*.xml dblatex.xsl Makefile images/*
 	perl -pi -e "s/\.webp\"/\.pdf\"/g;" pdf/*.xml
 	dblatex -bxetex -T db2latex -p dblatex.xsl -P preface.tocdepth="1" pdf/cg.xml
 
+build/index.html: src/*.xml html.xsl Makefile css/*
+	rm -rf build/*
+	#xsltproc --xinclude --stringparam html.stylesheet "../css/pico.css ../css/pico.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
+	xsltproc --xinclude --stringparam html.stylesheet "../css/styled.min.css " --path "src css" --output build/ html.xsl cg-cc.xml
+	#xsltproc --xinclude --stringparam html.stylesheet "https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css ../css/styled.min.css " --path "src css" --output build/ html.xsl cg.xml
+	#xsltproc --xinclude --stringparam html.stylesheet "../css/one.min.css" --path "src css" --output build/ html.xsl cg.xml
+#	perl -pi -e "s/\.pdf\"/\.png\"/g;" src/*.xml
+	find . -name "*.html" | xargs perl -pi -e "s/<html>/<!DOCTYPE html>/g;"
+	#find . -name "*.html" | xargs perl -pi -e "s/<meta/<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"><meta/g;"
+	cp -r images build/
+	./domp.py
+	find . -name "*.html" | xargs perl -pi -e "s/amp\;//g;"
+	find . -name "*.html" | xargs perl -pi -e "s/\&lt\;/\</g;"
+	find . -name "*.html" | xargs perl -pi -e "s/\&gt\;/\>/g;"
+	node ssr.js build
+	cp -r build/* /usr/share/nginx/html/coordinate-geometry/
+
+
+pdf/cg-cc.pdf: src/*.xml dblatex.xsl Makefile images/*
+	rm -rf pdf
+	cp -r src pdf
+	perl -pi -e "s/\.webp\"/\.pdf\"/g;" pdf/*.xml
+	dblatex -bxetex -T db2latex -p dblatex.xsl -P preface.tocdepth="1" pdf/cg-cc.xml
 
 latex:
 	dblatex -bxetex -T db2latex -p dblatex.xsl -P preface.tocdepth="1" -t tex src/cg.xml
