@@ -312,8 +312,823 @@
       <d:para>
         Hence, locus of point <m>$P(p, q)$</m> is <m>$(x^2 + y^2)(h^2 - a b) = k^2[(a - b)^2 + 4h^2]$</m>.
       </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      <d:para>
+        Comparing with the general equation yields <m>$a = 1, b = -1$</m>. Since <m>$a + b = 0$</m>, the
+        lines will be perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      <d:para>
+        Like previour problem $a + b = 0$, the lines will be perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+      <d:para>
+        Comparing with the general equation yields <m>$a = 1, b = 1, h = -p$</m>.
+      </d:para>
+      <d:para>
+        If <m>$\theta$</m> is the angle between lines then <m>$\tan\theta = \frac{2\sqrt{p^2 - 1}}{2} = \sqrt{p^2 - 1}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \theta = \tan^{-1}\sqrt{p^2 - 1}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      <d:para>
+        Comparing with the general equation yields <m>$a = 1, b = 1, h = -\sec\theta$</m>.
+      </d:para>
+      <d:para>
+        If <m>$\alpha$</m> is the angle between the lines then <m>$\tan\alpha = \frac{2\sqrt{\sec^2\theta -
+        1}}{2} = \tan\theta$</m>
+      </d:para>
+      <d:para>
+        Thus, the angle made by the pair of straight lines with one another is <m>$\theta$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <d:para>
+        The given equation is <m>$\left(x^2 + y^2\right)\sin^2\alpha = (x\cos\alpha - y\sin\alpha)^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the right-hand side gives <m>$x^2\cos^2\alpha - 2xy\sin\alpha\cos\alpha +
+        y^2\sin^2\alpha$</m>.
+      </d:para>
+      <d:para>
+        So the equation becomes <m>$x^2\sin^2\alpha + y^2\sin^2\alpha = x^2\cos^2\alpha -
+        2xy\sin\alpha\cos\alpha + y^2\sin^2\alpha$</m>.
+      </d:para>
+      <d:para>
+        Canceling <m>$y^2\sin^2\alpha$</m> from both sides gives <m>$x^2\sin^2\alpha - x^2\cos^2\alpha +
+        2xy\sin\alpha\cos\alpha = 0$</m>.
+      </d:para>
+      <d:para>
+        Using identities <m>$\sin^2\alpha - \cos^2\alpha = -\cos2\alpha$</m> and <m>$2\sin\alpha\cos\alpha =
+        \sin2\alpha$</m>, we get <m>$-x^2\cos2\alpha + xy\sin2\alpha = 0$</m>.
+      </d:para>
+      <d:para>
+        Factoring gives <m>$x(-x\cos2\alpha + y\sin2\alpha) = 0$</m>.
+      </d:para>
+      <d:para>
+        So the two lines are <m>$x = 0$</m> and <m>$y\sin2\alpha - x\cos2\alpha  = 0$</m>.
+      </d:para>
+      <d:para>
+        The first line has slope undefined, and the second line has slope <m>$m =
+        \frac{\cos2\alpha}{\sin2\alpha} = \cot2\alpha$</m>.
+      </d:para>
+      <d:para>
+        Using the angle formula between lines, the angle between them is <m>$2\alpha$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      <d:para>
+        The given equation is <m>$6x^2 - 5x y - 6y^2 + 14x + 5y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Compare with the general second degree form <m>$ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        We identify <m>$a = 6, 2h = -5$</m> so <m>$h = -\frac{5}{2}$</m>, and <m>$b = -6$</m>.
+      </d:para>
+      <d:para>
+        To check if it represents a pair of straight lines, we use the condition <m>$abc + 2fgh - af^2 -
+        bg^2 - ch^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$g = 7, f = 5/2$</m>, and <m>$c = 4$</m>.
+      </d:para>
+      <d:para>
+        Substituting gives <m>$6.(-6).4 + 2.\frac{5}{2}.7.\left(-\frac{5}{2}\right) -
+        6.\left(\frac{5}{2}\right)^2 - (-6).7^2 - 4.\left(-\frac{5}{2}\right)^2$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$-144 - \frac{175}{2} - \frac{150}{4} + 294 - \frac{100}{4} = 0$</m>, so the
+        condition is satisfied.
+      </d:para>
+      <d:para>
+        Hence the equation represents a pair of straight lines.
+      </d:para>
+      <d:para>
+        Now for perpendicularity, we use the condition <m>$a + b = 0$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$a + b = 6 + (-6) = 0$</m>, so the lines are perpendicular.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      <d:para>
+        We identify <m>$a = 16, 2h = 24$</m> so <m>$h = 12$</m>, and <m>$b = 9$</m>.
+      </d:para>
+      <d:para>
+        First check if it represents a pair of straight lines using the condition <m>$abc + 2fgh - af^2 -
+        bg^2 - ch^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$g = 20, f = 15$</m>, and <m>$c = -75$</m>.
+      </d:para>
+      <d:para>
+        Substituting gives <m>$16.9.(-75) + 2.15.20.12 - 16.15^2 - 9.20^2 - (-75).12^2$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$-10800 + 7200 - 3600 - 3600 + 10800 = 0$</m>, so the condition is satisfied.
+      </d:para>
+      <d:para>
+        Hence, it represents a pair of straight lines.
+      </d:para>
+      <d:para>
+        Now check for parallel lines using the condition <m>$h^2 = a b$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$h^2 = 12^2 = 144$</m> and <m>$ab = 16.9 = 144$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$h^2 = ab$</m>, the two lines are parallel.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      <d:para>
+        <m>$a = 1, h = -\frac{5}{2}, b = 4, g = \frac{1}{2}, f = 1$</m>, and <m>$c = -2$</m>.
+      </d:para>
+      <d:para>
+        Check the condition <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting gives <m>$1.4.(-2) + 2.1.\frac{1}{2}.\left(-\frac{5}{2}\right) - 1.1^2 -
+        4.\left(\frac{1}{2}\right)^2 - (-2).\left(-\frac{5}{2}\right)^2$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$-8 - \frac{5}{2} - 1 - 1 + 25/2 = 0$</m>, so the condition is satisfied.
+      </d:para>
+      <d:para>
+        Hence, it represents a pair of straight lines.
+      </d:para>
+      <d:para>
+        Now the angle between the lines is given by <m>$\tan\theta  = 2\frac{\sqrt{h^2 - ab}}{a + b}$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$h^2 = \frac{25}{4}$</m> and <m>$ab = 4$</m>. So <m>$h^2 - ab = \frac{25}{4} -
+        \frac{16}{4} = \frac{9}{4}$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$\tan\theta = \frac{2.\frac{3}{2}}{5} = \frac{3}{5} \Rightarrow \theta =
+        tan^{-1}\frac{3}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <d:para>
+        <m>$a = 12, h = \frac{7}{2}, b = -p, g = -9, f = \frac{q}{2}, c = 6$</m>.
+      </d:para>
+      <d:para>
+        For perpendicular lines: <m>$a + b = 0$</m> gives <m>$12 - p = 0$</m> so <m>$p = 12$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m> gives <m>$q = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      <d:para>
+        <m>$2x^2 + 3x y - 2y^2 = 0 \Rightarrow (2x - y)(x + 2y) = 0$</m>, which gives two straight lines
+        through origin and perpendicular to one another.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      <d:para>
+        Given equation can be written as <m>$2x^2 - (y - 9)x - (y^2 + 3y - 10) = 0$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$x$</m> gives <m>$4x = y - 9 \pm (3y + 1) \Rightarrow x - y + 2 = 0$</m> and <m>$2x +
+        y + 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      <d:para>
+        We can write the given equation as a quadratic equation in <m>$x$</m> as follows:
+      </d:para>
+      <d:para>
+        <m>$2x^2 + (5y + 6)x + (3y^2 + 7y + 4) = 0$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$x$</m> yields <m>$4x = -(5y + 6) \pm (y + 2) \Rightarrow x + y + 1 = 0$</m> and
+        <m>$2x + 3y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Point of intersection is <m>$(1, -2)$</m> and angle between them would be
+        <m>$tan^{-1d})\frac{1}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      <d:para>
+        We can write the given equation as a quadratic equation in <m>$x$</m> as follows:
+      </d:para>
+      <d:para>
+        <m>$8x^2 + (8y + 26)x + 2y^2 + 13y + 15 = 0$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$x$</m> yields <m>$16x = -(8y +26) \pm 14 \Rightarrow 4x + 2y + 3 = 0$</m> and <m>$2x
+        + y + 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, we have a pair of parallel straight lines.
+      </d:para>
+      <d:para>
+        Perpendicular distance between them is <m>$\frac{|5 - \frac{3}{2}|}{\sqrt{2^2 + 1}} =
+        \frac{7}{2\sqrt{5}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      <d:para>
+        We can write the given equation as a quadratic equation in <m>$x$</m> as follows:
+      </d:para>
+      <d:para>
+        <m>$x^2 - (5y - 1)x + (4y^2 + 2y - 2) = 0$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$x$</m> yields <m>$2x = (5y - 1) \pm 3(y - 1) \Rightarrow x - 4y + 2 = 0$</m> and
+        <m>$x - y - 1 = 0$</m>
+      </d:para>
+      <d:para>
+        Lines parallel to these lines and passing through <m>$(1, 1)$</m> are given byy
+      </d:para>
+      <d:para>
+        <m>$x - 4y - (1 - 4.2) = 0$</m> and <m>$x - y - (1 - 1) = 0$</m> i.e. <m>$x - 4y + 3 = 0$</m> and
+        <m>$x = y$</m>.
+      </d:para>
+      <d:para>
+        The combined equation is <m>$(x - 4y + 3)(x - y) = 0 \Rightarrow x^2 - 5x y + 4y^2 + 3x - 3y = 0$</m>
+      </d:para>
+      <d:para>
+        Thus, angle between lines is <m>$\tan\theta = \left|\frac{2\sqrt{\frac{25}{4} - 4}}{1 + 4}\right| =
+        \frac{3}{5} \Rightarrow \theta = \tan^{-1}\frac{3}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      <d:para>
+        Given pair of lines is <m>$2x^2 - 5x y + 2y^2 = 0 \Rightarrow (x - 2y)(2x - y) = 0 \Rightarrow x -
+        2y = 0$</m> and <m>$2x - y = 0$</m> are the two lines represenetd by it.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy42">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/4_2.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let these sides are <m>$OA$</m> and <m>$OB$</m>. Let the given diagonal be <m>$AB$</m> i.e. <m>$5x +
+        2y = 1$</m>.
+      </d:para>
+      <d:para>
+        Solving with the parallel sides we get <m>$B$</m> as <m>$\left(\frac{1}{6}, \frac{1}{12}\right)$</m>
+        and <m>$A$</m> as <m>$\left(\frac{1}{9}, \frac{2}{9}\right)$</m>. Thus, mid-point is
+        <m>$\left(\frac{5}{36}, \frac{11}{72}\right)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of other diagonal would be <m>$11x - 10y = 0$</m> as it passes through <m>$H$</m> and
+        <m>$O$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\Delta_{OAB} = \frac{1}{72}$</m> and area of parallelogram is <m>$\frac{1}{36}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      <d:para>
+        The given pair of lines is <m>$y^2 - 8x y - 9x^2 = 0 \Rightarrow y - 9x = 0$</m> and <m>$x + y =
+        0$</m>.
+      </d:para>
 
-
+      <d:para>
+        <d:figure xml:id="dummy43">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/4_3.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let the vertex be <m>$(\alpha, \beta)$</m> then <m>$9y + x - (\alpha + 9\beta) = 0$</m> and <m>$x -
+        y + (\alpha - \beta) = 0$</m> will be the equation of two sides perpendicular to the bisectors.
+      </d:para>
+      <d:para>
+        Let two other vertices be <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m>. Then <m>$9y_1 + x_1 = \alpha
+        + 9\beta$</m> and <m>$x_2 - y_2 = \alpha - \beta$</m>
+      </d:para>
+      <d:para>
+        Also, mid-points will be <m>$\left(\frac{\alpha + x_1}{2}, \frac{\beta + y_1}{2}\right)$</m> and
+        <m>$\left(\frac{\alpha + x_2}{2}, \frac{\beta + y_2}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Solving we get <m>$(x_1, y_1) = \left(\frac{9\beta - 40\alpha}{41}, \frac{40\beta +
+        9\alpha}{41}\right)$</m> and <m>$(x_2, y_2) = (-\beta, -\alpha)$</m>
+      </d:para>
+      <d:para>
+        <m>$P$</m> is collinear with these two points, therefore,
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}f &amp; g &amp; 1\\ -\beta &amp; -\alpha &amp;\\ \frac{9\beta - 40\alpha}{41}
+        &amp; \frac{40\beta + 9\alpha}{41} &amp; 1\end{vmatrix} = 0$</m>
+      </d:para>
+      <d:para>
+        Thus, we get locus as <m>$4\left(x^2 + y^2\right) + (4g + 5f)x + (4f - 5g)y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <d:para>
+        The two pair of straight lines are <m>$y - mx = \pm a \sqrt{1 + m^2}$</m> and <m>$y - nx = \pm
+        a\sqrt{1 + n^2}$</m>
+      </d:para>
+      <d:para>
+        Clearly the two pairs are parallel to each other. The distance between the lines are <m>$|2a|$</m>
+        for all pairs.
+      </d:para>
+      <d:para>
+        Thus, the given pair of straight lines form a rhombus.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      <d:para>
+        Comparing given equation with the general equation of second degree we have
+      </d:para>
+      <d:para>
+        <m>$a = 0, b = 0, c = c, h = h, g = g, f = f$</m>
+      </d:para>
+      <d:para>
+        Since the equation represents two straight lines, therefore,
+      </d:para>
+      <d:para>
+        <m>$abc + 2fgh - af^2 - bg^2 - ch^2 = 0 \Rightarrow  c = \frac{2fg}{h}$</m>
+      </d:para>
+      <d:para>
+        Thus, the equation becomes <m>$2hxy + 2gx + 2fy +  + \frac{2fg}{h} = 0 \Rightarrow (hx + f)(hy + g)
+        = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$x = -\frac{f}{h}, y = -\frac{g}{h}$</m>, and clearly, these lines will make a rectangle with
+        coordinate axes.
+      </d:para>
+      <d:para>
+        Area of the rectangle is <m>$\left|-\frac{f}{h}\right| \times \left|-\frac{g}{h}\right| =
+        \frac{|fg|}{h^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      <d:para>
+        Assume given line represents a pair of straight lines: <m>$(x + Ay + B)(x + Cy + D) = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding, <m>$x^2 + (A + C)xy + ACy^2 + (B + D)x + (AD + BC)y + BD = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing coefficients: <m>$A + C = -5, AC = 4, B + D = 1, AD + BC = 2, BD = -2$</m>.
+      </d:para>
+      <d:para>
+        From <m>$AC = 4$</m> and <m>$A + C = -5$</m>, we get <m>$A = -1, C = -4$</m>.
+      </d:para>
+      <d:para>
+        Now solve for <m>$B, D$</m> using <m>$B + D = 1$</m> and <m>$BD = -2$</m>, giving <m>$B = -1, D =
+        2$</m>.
+      </d:para>
+      <d:para>
+        Thus the factorization is <m>$(x - y - 1)(x - 4y + 2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the separate equations of the lines are <m>$x - y - 1 = 0$</m> and <m>$x - 4y + 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      <d:para>
+        The given homogeneous equations represent pairs of straight lines through the origin.
+      </d:para>
+      <d:para>
+        First equation is <m>$x^2 - 6x y + 3y^2 = 0$</m>. Divide by <m>$x^2$</m> assuming <m>$x \neq 0$</m>
+        to get <m>$1 - 6\frac{y}{x} + 3\left(\frac{y}{x}\right)^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$m = \frac{y}{x}$</m>. Then <m>$3m^2 - 6m + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        The slopes are given by <m>$m = \frac{6\pm \sqrt{36 - 12}}{6} = \frac{6\pm 2\sqrt{6}}{6} = 1 \pm
+        \sqrt{6}/3$</m>.
+      </d:para>
+      <d:para>
+        So the slopes are <m>$m_1 = 1 + \frac{\sqrt{6}}{3}$</m> and <m>$m_2 = 1 - \frac{\sqrt{6}}{3}$</m>.
+      </d:para>
+      <d:para>
+        Second equation is <m>$3x^2 + 6xy + y^2 = 0$</m>. Divide by <m>$x^2$</m> to get <m>$3 + 6\frac{y}{x}
+        + \left(\frac{y}{x}\right)^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$m = \frac{y}{x}$</m>. Then <m>$m^2 + 6m + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        The slopes are <m>$m = \frac{-6 \pm\sqrt{36 - 12}}{2} = -3 \pm \sqrt{6}$</m>.
+      </d:para>
+      <d:para>
+        So the slopes are <m>$m_3 = -3 + \sqrt{6}$</m> and <m>$m_4 = -3 - \sqrt{6}$</m>.
+      </d:para>
+      <d:para>
+        Now check perpendicularity using the condition that the product of slopes is <m>$-1$</m>.
+      </d:para>
+      <d:para>
+        Compute <m>$m_1m_3 = \left(1 + \frac{\sqrt{6}}{3}\right)\left(-3 + \sqrt{6}\right) = -3 + \sqrt{6} -
+        \sqrt{6} + 2 = -1$</m>.
+      </d:para>
+      <d:para>
+        So <m>$m_1$</m> is perpendicular to <m>$m_3$</m>.
+      </d:para>
+      <d:para>
+        Compute <m>$m_2m_4 = \left(1 - \frac{\sqrt{6}}{3}\right)\left(-3 - \sqrt{6}\right)$  $= -3 -
+        \sqrt{6} + \sqrt{6} + 2 = -1$</m>.
+      </d:para>
+      <d:para>
+        So <m>$m_2$</m> is perpendicular to <m>$m_4$</m>.
+      </d:para>
+      <d:para>
+        Thus, each line from the first equation is perpendicular to one line from the second equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 41 -->
+      <d:para>
+        Given pairs of lines are <m>$y^2 + x y - 12x^2 = 0$</m> and <m>$4y^2 - 13x y + 3x^2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$y^2 + x y - 12x^2 = y^2 + 4x y - 3x y - 12x^2 = 0 \Rightarrow (y + 4x)(y - 3x) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$4y^2 - 13x y + 3x^2 = 4y^2 - 12x y - x y + 3x^2 = (y - 3x)(4y - x) = 0$</m>
+      </d:para>
+      <d:para>
+        We see that <m>$y - 3x = 0$</m> conincides and the other pair i.e. <m>$y + 4x = 0$</m> and <m>$4y -
+        x = 0$</m> are perpendicular to one another.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 42 -->
+      <d:para>
+        <m>$x^2 - 7x y + 12y^2 = x^2 - 3x y - 4x y + 12y^2 = (x - 3y)(x - 4y) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$12x^2 + 7x y + y^2 = 12x^2 + 3x y + 4x y + y^2 = (4x + y)(3x + y) = 0$</m>
+      </d:para>
+      <d:para>
+        Clearly, the lines are perpendicular to each other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 43 -->
+      <d:para>
+        From <m>$x^2 - 7x + 6 = 0$</m> we get <m>$(x - 1)(x - 6) = 0$</m>, so the lines are <m>$x = 1$</m>
+        and <m>$x = 6$</m>.
+      </d:para>
+      <d:para>
+        From <m>$y^2 - 14y + 40 = 0$</m> we get <m>$(y - 4)(y - 10) = 0$</m>, so the lines are <m>$y =
+        4$</m> and <m>$y = 10$</m>.
+      </d:para>
+      <d:para>
+        These four lines form a rectangle with vertices at <m>$(1, 4), (1, 10), (6, 4)$</m> and <m>$(6,
+        10)$</m>.
+      </d:para>
+      <d:para>
+        The diagonals join opposite vertices.
+      </d:para>
+      <d:para>
+        First diagonal passes through <m>$(1, 4)$</m> and <m>$(6, 10)$</m>. Its slope is <m>$\frac{10 - 4}{6
+        - 1} = \frac{6}{5}$</m>.
+      </d:para>
+      <d:para>
+        Using point-slope form <m>$y - 4 = \frac{6}{5}(x - 1)$</m> which simplifies to <m>$6x - 5y + 14 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Second diagonal passes through <m>$(1, 10)$</m> and <m>$(6, 4)$</m>. Its slope is <m>$\frac{4 -
+        10}{6 - 1} = -\frac{6}{5}$</m>.
+      </d:para>
+      <d:para>
+        Using point-slope form <m>$y - 10 = \left(-\frac{6}{5}\right)(x - 1)$</m> which simplifies to <m>$6x
+        + 5y - 56 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 44 -->
+      <d:para>
+        The equation <m>$3x^2 + 8x y - 3y^2 = 0$</m> represents a pair of straight lines through the origin.
+      </d:para>
+      <d:para>
+        Divide by <m>$x^2$</m> and put <m>$m = y/x$</m>. Then <m>$3 + 8m - 3m^2 = 0$</m> which gives
+        <m>$3m^2 - 8m - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Solving, <m>$m = \frac{8 \pm \sqrt{64 + 36}}{6}$</m>. So <m>$m = 3$</m> and <m>$m = -\frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus the lines are <m>$y = 3x$</m> and <m>$y = -\frac{x}{3}$</m>.
+      </d:para>
+      <d:para>
+        Now consider <m>$3x^2 + 8x y - 3y^2 + 2x - 4y - 1 = 0$</m>. This represents another pair of lines
+        parallel to the first pair.
+      </d:para>
+      <d:para>
+        Rewrite it as   <m>$3x^2 + 8x y - 3y^2 + 2x - 4y - 1 = (y - 3x + 1)(3y + x + 1)$</m>.
+      </d:para>
+      <d:para>
+        So the lines are <m>$y = 3x - 1$</m> and <m>$y = -\frac{x}{3} - 1/3$</m>.
+      </d:para>
+      <d:para>
+        Hence, we have two pairs of parallel lines <m>$y = 3x$</m> and <m>$y = 3x - 1, y = -\frac{x}{3}$</m>
+        and <m>$y = -\frac{x}{3} - \frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        The slopes satisfy <m>$3.\left(-\frac{1}{3}\right) = -1$</m>, so the adjacent sides are
+        perpendicular. Also the perpendicular distance between each pair is equal.
+      </d:para>
+      <d:para>
+        Distance between <m>$y = 3x$</m> and <m>$y = 3x - 1$</m> is <m>$\frac{1}{\sqrt{1 + 9}} =
+        \frac{1}{\sqrt{10}}$</m>.
+      </d:para>
+      <d:para>
+        Distance between <m>$y = -\frac{x}{3}$</m> and <m>$y = -\frac{x}{3} - \frac{1}{3}$</m> is
+        <m>$\frac{\frac{1}{3}}{\sqrt{1 + \frac{1}{9}}} = \frac{1}{\sqrt{10}}$</m>.
+      </d:para>
+      <d:para>
+        Thus the four lines form a square.
+      </d:para>
+      <d:para>
+        Vertices are obtained by intersection of adjacent lines
+      </d:para>
+      <d:para>
+        Intersection of <m>$y = 3x$</m> and <m>$y = -\frac{x}{3}$</m> gives <m>$(0, 0)$</m>. Intersection of
+        <m>$y = 3x - 1$</m> and <m>$y = -\frac{x}{3}$</m> gives <m>$\left(\frac{3}{10},
+        -\frac{1}{10}\right)$</m>. Intersection of <m>$y = 3x$</m> and <m>$y = -\frac{x}{3} -
+        \frac{1}{3}$</m> gives <m>$\left(-\frac{1}{10}, -\frac{3}{10}\right)$</m>, and intersection of
+        <m>$y = 3x - 1$</m> and <m>$y = -\frac{x}{3} - \frac{1}{3}$</m> gives <m>$\left(\frac{1}{5},
+        -\frac{2}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        One diagonal joins <m>$(0, 0)$</m> and <m>$\left(\frac{1}{5}, -\frac{2}{5}\right)$</m>. Slope is
+        <m>$-2$</m> so equation is <m>$y = -2x$</m> or <m>$2x + y = 0$</m>.
+      </d:para>
+      <d:para>
+        Other diagonal joins <m>$\left(\frac{3}{10}, -\frac{1}{10}\right)$</m> and <m>$\left(-\frac{1}{10},
+        -\frac{3}{10}\right)$</m>. Slope is <m>$\frac{1}{2}$</m>. Using point-slope form <m>$y +
+        \frac{1}{10} = \frac{1}{2}\left(x - \frac{3}{10}\right)$</m> which simplifies to <m>$x - 2y -
+        \frac{1}{2} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 45 -->
+      <d:para>
+        <m>$2x^2 - 5x y - 3y^2 - 2x + 6y = (2x^2 - 5x y - 3y^2) + (-2x + 6y)$</m>.
+      </d:para>
+      <d:para>
+        Factor the quadratic part <m>$2x^2 - 5x y - 3y^2 = (2x + y)(x - 3y)$</m>.
+      </d:para>
+      <d:para>
+        So the equation becomes <m>$(2x + y)(x - 3y) - 2(x - 3y)$</m>.
+      </d:para>
+      <d:para>
+        Factor out <m>$(x - 3y)\Rightarrow (x - 3y)(2x + y - 2)$</m>.
+      </d:para>
+      <d:para>
+        Hence, the given equation reduces to <m>$(x - 3y)(2x + y - 2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, it represents two straight lines <m>$x - 3y = 0$</m> and <m>$2x + y - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x - 3y = 0$</m> we get <m>$x = 3y$</m>. Substitute into <m>$2x + y - 2 = 0 \Rightarrow
+        2(3y) + y - 2 = 0 \Rightarrow 7y = 2$</m> so <m>$y = 2/7$</m>. Then <m>$x = 3y = \frac{6}{7}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 46 -->
+      <d:para>
+        Let one line represented by <m>$ax^2 + 2hxy + by^2 = 0$</m> is <m>$y - mx = 0$</m>. Thus,
+      </d:para>
+      <d:para>
+        <m>$am^2x^2 + 2hxmx + bm^2x^2 = 0 \Rightarrow a + 2hm + bm^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Then according to question on of the lines of <m>$a_1x^2 + 2h_1x y + b_1y^2 = 0$</m> would be <m>$m
+        y + x = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a_1(-m y)^2 + 2h(-my)y + b_1y^2 = 0 \Rightarrow b_1 - 2h_1m + a_1m^2 = 0$</m>
+      </d:para>
+      <d:para>
+        From two obtained equation we cross-multiply to get
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{2(ha_1 + h_1b)} = \frac{m}{bb_1 - aa_1} = \frac{m62}{-2(ah_1 + b_1h)}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{bb_1 - aa_1}{2(ha_1 + h_1b)} = -\frac{2(ah_1 + b-1h)}{bb_1 - aa_1}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (b b_1 - a a_1)^2+ 4(h_1a + b_1h)(h a_1 + b h_1) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 47 -->
+      <d:para>
+        Consider the equation <m>$ax^2 + 2hxy + by^2 = 0$</m> which represents two straight lines through
+        the origin.
+      </d:para>
+      <d:para>
+        Let their slopes be <m>$m_1$</m> and <m>$m_2$</m>. Put <m>$y = mx$</m> so that <m>$a + 2hm + bm^2 =
+        0$</m> or <m>$bm^2 + 2hm + a = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$m_1$</m> and <m>$m_2$</m> are the roots of <m>$bm^2 + 2hm + a = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1m_2 = \frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        Given that one slope is <m>$\lambda$</m> times the other, let <m>$m_1 = \lambda m_2$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$m_1 + m_2 = \lambda m_2 + m_2 = (1 + \lambda)m_2$</m> and <m>$m_1m_2 = \lambda m_2^2$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$m_1 m_2 = \frac{a}{b}$</m> we get <m>$\lambda m_2^2 = \frac{a}{b}$</m> so <m>$m_2^2 =
+        \frac{a}{b}\lambda$</m>.
+      </d:para>
+      <d:para>
+        Now using <m>$m_1 + m_2 = -\frac{2h}{b}$</m> we get  <m>$(1 + \lambda)m_2 = -\frac{2h}{b}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(\frac{1 + \lambda}{2h}\right)^2 = \frac{a}{b}\lambda$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 48 -->
+      <d:para>
+        Consider the equation <m>$ax^2 + 2hxy + by^2 = 0$</m> which represents two straight lines through
+        the origin.
+      </d:para>
+      <d:para>
+        Let their slopes be <m>$m_1$</m> and <m>$m_2$</m>. Putting <m>$y = mx$</m>, we get  <m>$a + 2hm +
+        bm^2 = 0$</m> or <m>$bm^2 + 2hm + a = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$m_1$</m> and <m>$m_2$</m> are the roots of this equation, so <m>$m_1 + m_2 =
+        -\frac{2h}{b}$</m> and <m>$m_1 m_2 = \frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        Given that one slope is the square of the other, let <m>$m_1 = m_2^2$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$m_1 m_2 = m_2^3 = \frac{a}{b}$</m> so <m>$m_2^3 = \frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        Also <m>$m_1 + m_2 = m_2^2 + m_2 = -\frac{2h}{b}$</m>.
+      </d:para>
+      <d:para>
+        Multiply this by <m>$m_2, m_2^3 + m_2^2 = \left(-\frac{2h}{b}\right)m_2$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$m_2^3 = \frac{a}{b}$</m>, we get <m>$\frac{a}{b} + m_2^2 = \left(-\frac{2h}{b}\right)m_2$</m>.
+      </d:para>
+      <d:para>
+        Multiply by <m>$b, a + bm_2^2 = -2hm_2$</m>.
+      </d:para>
+      <d:para>
+        Now square both sides, <m>$\left(a + bm_2^2\right)^2 = 4h^2m_2^2$</m>. Expand, <m>$a^2 + 2abm_2^2 +
+        b^2m_2^4 = 4h^2m_2^2$</m>.
+      </d:para>
+      <d:para>
+        Divide throughout by <m>$ab, \frac{a}{b} + 2 m_2^2 + \frac{b}{a}m_2^4 = \frac{4h^2}{ab}m_2^2$</m>.
+      </d:para>
+      <d:para>
+        Now use <m>$m_2^3 = \frac{a}{b}$</m>. Then <m>$m_2^4 = m_2.m_2^3 = m_2.\frac{a}{b}$</m> and
+        <m>$m_2^2 = \frac{\frac{a}{b}}{m_2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute these into the equation and simplify. After simplification, we obtain <m>$\frac{a + b}{h}
+        + \frac{8h^2}{ab} = 6$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 49 -->
+      <d:para>
+        Each represents a pair of straight lines through the origin. Let a common line have slope
+        <m>$m$</m>. Then it must satisfy both equations.
+      </d:para>
+      <d:para>
+        Putting <m>$y = m x$</m> in each equation, we get <m>$a + 2hm + bm^2 = 0$</m> and <m>$a' + 2h'm +
+        b'm^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus $m$ is a common root of the two quadratic equations <m>$bm^2 + 2hm + a = 0$</m> and <m>$b'm^2 +
+        2h'm + a' = 0$</m>.
+      </d:para>
+      <d:para>
+        For these two quadratics to have a common root, the condition is  <m>$(a b' - a'b)^2 = 4(a h' -
+        a'h)(h b' - h'b)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 50 -->
+      <d:para>
+        Comparing given equation with the general equation in second degree gives us
+      </d:para>
+      <d:para>
+        <m>$a = 3, 2h = -5$</m> and <m>$b = 4$</m>.
+      </d:para>
+      <d:para>
+        We know that the equation of bisector of angles is given by <m>$\frac{x^2 - y^2}{a - b} = \frac{xy}{h}$</m>
+      </d:para>
+      <d:para>
+        Substituting the values yields <m>$5x^2 - 2x y - 5y^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 51 -->
+      <d:para>
+        The line <m>$x + 2y = 7$</m> will be equally inclined to the lines <m>$135x^2 - 136x y + 33y^2 =
+        0$</m> if it is parallel to bisector of lines of <m>$135x^2 - 136x y + 33y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing given equation with the general equation in second degree gives us
+      </d:para>
+      <d:para>
+        <m>$a = 135, 2h = -136$</m> and <m>$b = 33$</m>.
+      </d:para>
+      <d:para>
+        Equation of bisectors is given by <m>$\frac{x^2 - y^2}{a - b} = \frac{xy}{h}$</m>
+      </d:para>
+      <d:para>
+        Substituting the values we obtain <m>$2x^2 + 3x y - 2y^2 = 0 \Rightarrow (x + 2y)(2x - y) = 0$</m>.
+      </d:para>
+      <d:para>
+        Clearly, the given line is parallel to <m>$x + 2y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 52 -->
+      <d:para>
+        The two pair of straight lines will be equally inclined if they have the same bisectors.
+      </d:para>
+      <d:para>
+        For <m>$ax^2 + 2hxy + by^2 = 0$</m> the bisectors are given by <m>$\frac{x^2 - y^2}{a - b} =
+        \frac{xy}{h}$</m>
+      </d:para>
+      <d:para>
+        For <m>$a^2x^2 + 2h(a + b)x y + b^2y^2 = 0$</m> the bisectors are given by <m>$\frac{x^2 - y^2}{a^2
+        - b^2} = \frac{xy}{h(a + b)} \Rightarrow \frac{x^2 - y^2}{a - b} = \frac{xy}{h}$</m>.
+      </d:para>
+      <d:para>
+        Thus, bisectors are same for them, and hence, they are equally inclined.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 53 -->
+      <d:para>
+        The bisectors of <m>$ax^2 + 2hxy + by^2 = 0$</m> are given by <m>$\frac{x^2 - y^2}{a - b} = \frac{xy}{h}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow hx^2 -(a - b)xy - hy^2 = 0$</m>, whose bisectors are given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{2h} = \frac{xy}{-\frac{a - b}{2}} \Rightarrow (a - b)\left(x^2 - y^2\right) +
+        4hxy = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 54 -->
+      <d:para>
+        Equation of the bisectors for the second equation is <m>$\frac{x^2 - y62}{1 - (-1)} = \frac{xy}{-q}
+        \Rightarrow qx^2 + 2xy - qy^2 = 0$</m>, which is given to be the same as first equation.
+      </d:para>
+      <d:para>
+        Comparing coefficients <m>$\frac{1}{q} = \frac{-2p}{2} = \frac{1}{q} \Rightarrow pq = -1$</m>.
+      </d:para>
     </d:listitem>
   </d:orderedlist>
 </d:chapter>
