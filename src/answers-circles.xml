@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-circles/index.html" ?>
+  <d:title>Answers of Circles</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 - \frac{8}{3}x - \frac{10}{3}y + 1 = 0$</m>. We know that if the
+        equation is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, then the center is <m>$(-g, -f)$</m> and radius
+        is <m>$\sqrt{g^2 + f^2 - c}$</m>.
+      </d:para>
+      <d:para>
+        Thus, center of circle is <m>$\left(\frac{4}{3}, \frac{5}{3}\right)$</m> and radius is
+        <m>$\sqrt{\frac{16}{9} + \frac{25}{9} - 1} = \frac{4}{3}\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      <d:para>
+        Radius of <m>$x^2 + y^2 = 1$</m> is <m>$1$</m>. Radius of <m>$x^2 + y^2 - 2x - 6y = 6$</m> is
+        <m>$\sqrt{1^2 + 3^2 + 6} = 4$</m>. Radius of <m>$x^2 + y^2 - 4x - 12y = 9$</m> is <m>$\sqrt{2^2 +
+        6^2 + 9} = 7$</m>.
+      </d:para>
+      <d:para>
+        Thus, radii of the given circles are in A.P. with a common difference of <m>$3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      <d:para>
+        The center will be <m>$C(-g, -f)$</m> and the radius will be <m>$\sqrt{g^2 + f^2 - c}$</m>
+      </d:para>
+      <d:para>
+        From <m>$\triangle QLC, QL = CQ\sin60^\circ = \frac{\sqrt{3}}{2}\sqrt{g^2 + f^2 - c}$</m>
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy51a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_1a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        <m>$QR = 2QL = \sqrt{3}\sqrt{g^2 + f^2 - c}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{\sqrt{3}}{4} 3.(g^2 + f^2 - c) = \frac{3\sqrt{3}}{4}(g^2 + f^2 - c)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      <d:para>
+        The center of the circle is <m>$(3, -4)$</m> and radius is <m>$\sqrt{3^2 + (-4)^2 + 25} = 7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 + \frac{4}{5}x - \frac{8}{5}y = \frac{16}{5}$</m>. Center is
+        <m>$\left(-\frac{2}{5}, \frac{4}{5}\right)$</m> and radius is <m>$\sqrt{\frac{(-2)^2 + 4^2 +
+        80}{25}} = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      <d:para>
+        Center is <m>$(3, 1)$</m> and radius is <m>$\sqrt{3^2 + 1 + 6} = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 + 2x\cos\theta + 2y\sin\theta - 8 = 0$</m>. Center is <m>$(-\cos\
+        theta, -\sin\theta)$</m> and radius is <m>$\sqrt{\cos^2\theta + \sin^2\theta + 8} = 3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      <d:para>
+        Centers of the given circles are <m>$(0, 0), (-3, 1)$</m> and <m>$(6, -2)$</m>. Area of the triangle
+        whose vertices are these three points is given by
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{1}{2}\begin{vmatrix}0 &amp; 0 &amp; 1\\ -3 &amp; 1 &amp; 1\\ 6 &amp; -2 &amp;
+        1\end{vmatrix} = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the centers of the given circles are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      <d:para>
+        Radii are <m>$1, \sqrt{1 + 3^2 + 6} = 4$</m> and <m>$\sqrt{2^2 + 6^2 + 9} = 7$</m>. Common
+        difference is <m>$3$</m>, and hence, the given circles have radii in A.P.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      <d:para>
+        Radii are <m>$2, \sqrt{1^2 + 3^2 - \frac{15}{4}} = \frac{5}{2}$</m> and <m>$\sqrt{2^2 + 5} =
+        3$</m>. Common difference is <m>$\frac{1}{2}$</m>, and hence, the given circles have radii in A.P.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      <d:para>
+        The line <m>$3x = 4y + 15$</m> gives <m>$y = \frac{3x - 15}{4}$</m>.
+      </d:para>
+      <d:para>
+        Substituting into the circle equation <m>$x^2 + y^2 = 9 + 4r^2$</m> gives <m>$x^2 + \left(\frac{3x -
+        15}{4}\right)^2 = 9 + 4r^2$</m>.
+      </d:para>
+      <d:para>
+        Multiplying through by <m>$16$</m> gives <m>$16x^2 + (3x - 15)^2 = 16(9 + 4r^2)$</m>.
+      </d:para>
+      <d:para>
+        Expanding gives <m>$16x^2 + 9x^2 - 90x + 225 = 144 + 64r^2$</m>.
+      </d:para>
+      <d:para>
+        Simplifying gives <m>$25x^2 - 90x + 81 - 64r^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Solving for <m>$x$</m> gives <m>$x = \frac{90 \pm \sqrt{8100 - 100(81 -
+        64r^2)}}{50}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$x = \frac{90 \pm 80r}{50} = \frac{9 \pm 8r}{5}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the two points of intersection correspond to <m>$x = \frac{9 - 8r}{5}$</m> and <m>$x = \frac{9
+        + 8r}{5}$</m> .
+      </d:para>
+      <d:para>
+        The length of the intercept cut by each circle on the line is <m>$\frac{(9 + 8r) - (9 - 8r)}{5} =
+        \frac{16r}{5}$</m>.
+      </d:para>
+      <d:para>
+        For successive values of <m>$r$</m>, the difference of intercepts is constant since <m>$\frac{16
+        \times 2}{5} - \frac{16 \times 1}{5} = \frac{16}{5}$</m> and <m>$\frac{16 \times 3}{5} - \frac{16
+        \times 2}{5} = \frac{16}{5}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the circles cut off equal intercepts on the given line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      <d:para>
+        Since point <m>$(4, 6)$</m> lies on the circle, therefore, radius <m>$= \sqrt{(1 - 4)^2 + (2 - 6)^2}
+        = 5$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle would be <m>$(x - 1)^2 + (y - 2)^2 = 5^2 \Rightarrow x^2 + y^2 - 2x -
+        4y - 20 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      <d:para>
+        Solving the equations of the diameters we obtain the center as <m>$(8, -2)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is given by <m>$(x - 8)^2 + (y + 2)^2 = 10^2 \Rightarrow x^2 + y^2 -
+        16x + 4y - 32 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      <d:para>
+        Since the line touches the circle, therefore, the perpendicular distance from center will give
+        radius.
+      </d:para>
+      <d:para>
+        Radius is <m>$\frac{3.5 + 4.12 - 1}{\sqrt{5^2 + 12^2}} = \frac{62}{13}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x - 3)^2 + (y - 4)^2 = \left(\frac{62}{13}\right)^2 \Rightarrow
+        x^2 + y^2 - 6x - 8y + \frac{381}{169} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      <d:para>
+        Solving the two equation we have <m>$x = \frac{x + 1}{3c + 2}$</m>. Now as <m>$c\rightarrow 1, x =
+        \frac{2}{5} \Rightarrow y = -\frac{1}{25}$</m>.
+      </d:para>
+      <d:para>
+        The circle passes through <m>$(2, 0)$</m>, so the radius is <m>$\sqrt{\left(2 - \frac{2}{5}\right)^2
+        + \left(\frac{1}{25}\right)^2}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$\left(x - \frac{2}{5}\right)^2 + \left(y + \frac{1}25{}\right)^2
+        = \frac{64}{25} + \frac{1}{625} \Rightarrow 25\left(x^2 + y^2\right) - 20x + 2y - 60 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      <d:para>
+        Let the center be <m>$(\alpha, \beta)$</m>. Since it lies on the line <m>$y = x - 1 \therefore \beta
+        = \alpha - 1$</m>
+      </d:para>
+      <d:para>
+        Equation of the circle would be <m>$(x - \alpha)^2 + (y - \beta)^2 = 3^2$</m>. Putting the value of
+        <m>$\beta$</m> from the above equation, we have
+      </d:para>
+      <d:para>
+        <m>$(x - \alpha)^2 + (y - \alpha + 1)^2 = 9$</m>
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(7, 3)$</m>, therefore, <m>$(7 - \alpha)^2 + (4 - \alpha)^2 = 9
+        \Rightarrow  alpha^2 - 11\alpha + 28 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\alpha = 4, 7 \Rightarrow \beta = 3, 6$</m>
+      </d:para>
+      <d:para>
+        So the center is <m>$(4, 3)$</m> or <m>$(7, 6)$</m>.
+      </d:para>
+      <d:para>
+        Thus equation of circle is <m>$(x - 4)^2 + (y - 3)^2 = 3^2$</m> or <m>$(x - 7)^2 + (y - 6)^2 =
+        3^2$</m> i.e. <m>$x^2 + y^2 - 8x - 6y + 16 = 0$</m> or <m>$x^2 + y^2 - 14x - 12y + 76 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      <d:para>
+        Since the circle touches the axes the center will lie on <m>$x = y$</m> or <m>$y = -x$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> When the center lies on the line <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        Solving the two equations we get <m>$x = -3, y = -3$</m>
+      </d:para>
+      <d:para>
+        The radius of the circle would be <m>$3$</m>. Therefore, the equation of the circle is
+      </d:para>
+      <d:para>
+        <m>$(x + 3)^2 + (y + 3)^2 = 3^2 \Rightarrow x^2 + y^2 + 6x + 6y + 9 = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> When the center lies on the line <m>$y = -x$</m>.
+      </d:para>
+      <d:para>
+        Solving the two equations we get <m>$x = 1, y = -1$</m>.
+      </d:para>
+      <d:para>
+        The radius of the circle will be <m>$1$</m>. Hence, equation of the curcle is <m>$(x - 1)^2 + (y +
+        1)^2 = 1 \Rightarrow x^2 + y^2 - 2x + 2y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      <d:para>
+        Radius of the first circle is <m>$2$</m> so its center would be <m>$(2, 2)$</m> as it touches both
+        the coordinate axes.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy52a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_2a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Distance between the centers is <m>$\sqrt{(2 - 6)^2 + (2 - 5^2)} = 5$</m>. Hence, radius of the
+        second circle is <m>$5 - 2 = 3$</m>
+      </d:para>
+      <d:para>
+        Hence, equation of the circle is <m>$(x - 6)^2 + (y - 5)^2 = 3^2 \Rightarrow x^2 - 12x + 36 + y^2 -
+        10y + 25 = 9$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 - 12x - 10y + 52 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      <d:para>
+        Half of intercept(chord) is <m>$3$</m>. Perpendicualr distance from center to <m>$2x - 5y + 18 =
+        0$</m> is
+      </d:para>
+      <d:para>
+        <m>$\frac{2.3 - 5.(-1) + 18}{\sqrt{2^2 + 5^2}} = \sqrt{29}$</m>
+      </d:para>
+      <d:para>
+        Thus, radius of the circle is <m>$\sqrt{\left(\sqrt{29}\right)^2 + 3^2} = \sqrt{38}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      <d:para>
+        Since the circle touches <m>$y$</m>-axis at <m>$(0, 3)$</m>, therefore, the two circles will be in
+        first two quadrants. Let <m>$C$</m> and <m>$D$</m> be the centers of the circles in the first and
+        second quadrant respectively. Let <m>$AB$</m> be the intercept on <m>$x$</m>-axis i.e. <m>$AB =
+        8$</m>. Let <m>$CL$</m> be the perpendicular from <m>$C$</m> on <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        <m>$\therefore AL = 4. OP = 3 \therefore CL = 3$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = \sqrt{4^2 + 3^2} = 5 \therefore C = (5, 3)$</m> and <m>$D = (-5, 3)$</m>
+      </d:para>
+      <d:para>
+        Hence, equations of circles are <m>$(x - 5)^2 + (y - 3)^2 = 5^2$</m> and <m>$(x + 5)^2 + (y - 3)^2 =
+        5^2$</m> i.e
+      </d:para>
+      <d:para>
+        <m>$x^2 + y^2 - 10x - 6y + 9 = 0$</m> and <m>$x^2 + y^2 + 10x - 6y + 9 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      <d:para>
+        <m>$x^2 + 2xy + 3x + 6y = 0 \Rightarrow (x + 3)(x + 2y) = 0 \Rightarrow x + 3 = 0$</m> and <m>$x +
+        2y = 0$</m>
+      </d:para>
+      <d:para>
+        Since these are normals, therefore, their point of intersection will be the center of the
+        circle. Solving gives us <m>$\left(-3, \frac{3}{2}\right)$</m> as the center of the circle.
+      </d:para>
+      <d:para>
+        Center of the given circle is <m>$\left(2, \frac{3}{2}\right)$</m> and its radius is <m>$\sqrt{2^2 +
+        \frac{9}{4}} = \frac{5}{2}$</m>
+      </d:para>
+      <d:para>
+        Distance between centers is <m>$5$</m>, which is greater than radius of the given circle.
+      </d:para>
+      <d:para>
+        Since the circle is just large enough to contain the given circle the radius of the required circle
+        is distance between the centers plus radius of the given circle i.e. <m>$5 + \frac{5}{2} =
+        \frac{15}{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, the equation is <m>$(x + 3)^2 + \left(y - \frac{3}{2}\right)^2 = \left(\frac{15}{2}\right)^2
+        \Rightarrow x^2 + y^2 + 6x - 3y - 45 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      <d:para>
+        Let $C$ be the center of the circle in original position adn <m>$D$</m> be the center of its new
+        position. Then <m>$C = (5, 5)$</m> and <m>$D = (5 + 10 \pi, 5)$</m>. Radius is <m>$5$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy53a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_3a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle in new position is <m>$(x - 5 - 10\pi)^2 + (y - 5)^2 = 5^2$</m>
+      </d:para>
+      <d:para>
+        <m>$=> x^2 + y^2 - 10(2\pi + 1)x - 10y + 100\pi^2 + 100\pi + 25 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+      <d:para>
+        Equation of tangent to the circle at <m>$\left(2 + \sqrt{3}, 3\right)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$\left(2 + \sqrt{3}\right)x + 3y - 2\left(x + 2 + \sqrt{3}\right) - 4(y + 3) + 16 = 0 \Rightarrow
+        \sqrt{3}x - y - 2\sqrt{3} = 0$</m>
+      </d:para>
+      <d:para>
+        This line makes angle of <m>$60^\circ$</m> with <m>$x$</m>-axis. So initial position of the center
+        is <m>$A = (2, 4)$</m> and final position of the center is <m>$B = \left(2 + 2\cos60^\circ, 4 +
+        2\sin60^\circ\right) = \left(3, 4 + \sqrt{3}\right)$</m>
+      </d:para>
+      <d:para>
+        Radius of the circle is <m>$\sqrt{2^2 + 4^2 - 16} = 2$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle in final position is <m>$(x - 3)^2 + \left(y - 4 - \sqrt{3}\right)^2 =
+        2^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 - 6x - 2\left(4 + \sqrt{3}\right)y + 24 + 8\sqrt{3} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      <d:para>
+        Let <m>$(\alpha, \beta)$</m> be the center and <m>$a$</m> the radius of the required circle, then
+        its equation is
+      </d:para>
+      <d:para>
+        <m>$(x - \alpha)^2 + (y - \beta)^2 = a^2$</m>. According to the questions <m>$\alpha^2 + \beta^2 =
+        1$</m>
+      </d:para>
+      <d:para>
+        Since it touches <m>$y = 0$</m> we have <m>$|\beta| = a \Rightarrow beta = \pm a$</m>
+      </d:para>
+      <d:para>
+        It also touches <m>$y = \sqrt{3}(x + 1)$</m> we have <m>$\frac{|\sqrt{3}\alpha - \beta +
+        \sqrt{3}|}{2} = a \Rightarrow \sqrt{3}\alpha - \beta + \sqrt{3} = \pm 2a$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$\beta = a$</m> and <m>$\sqrt{3}\alpha - \beta +
+        \sqrt{3} = 2a$</m> gives us <m>$\alpha = \sqrt{3}a - 1, \beta = a$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\left(\sqrt{3}a - 1\right)^2 + a^2 = 1 \Rightarrow a = \frac{\sqrt{3}}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, center of the circle is <m>$\left(\frac{1}{2}, \frac{\sqrt{3}}{2}\right)$</m> and radius is
+        <m>$\frac{\sqrt{3}}{2}$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$\beta = a$</m> and <m>$\sqrt{3}\alpha - \beta +
+        \sqrt{3} = -2a$</m> gives us <m>$\alpha = -\frac{a}{\sqrt{3}} - 1$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\left(\frac{a}{\sqrt{3}} + 1\right)^2 + a^2 = a \Rightarrow a = -\frac{\sqrt{3}}{2}[a >
+        0]$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case III:</d:emphasis> <m>$\beta = -a$</m> and <m>$\sqrt{3}\alpha - \beta +
+        \sqrt{3} = 2a$</m> gives us <m>$\alpha = \frac{a}{\sqrt{3}} - 1$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\left(\frac{a}{\sqrt{3}} - 1\right) + a^2 = 1 \Rightarrow a = \frac{\sqrt{3}}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, center of circle is <m>$\left(-\frac{1}2{}, -\frac{\sqrt{3}}{2}\right)$</m> and radius is
+        <m>$\frac{\sqrt{3}}{2}$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case IV:</d:emphasis> <m>$\beta = -a$</m> and <m>$\sqrt{3}\alpha - \beta +
+        \sqrt{3} = -2a$</m> gives us <m>$\alpha = \sqrt{3}a - 1$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\left(\sqrt{3}a + 1\right)^2 + a^2 = 1 \Rightarrow a = 0, -\frac{\sqrt{3}}2{} [a > 0]$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <d:para>
+        Let <m>$C(\alpha, \beta)$</m> be the center of the circle and <m>$a$</m> be its radius. According to
+        question
+      </d:para>
+      <d:para>
+        <m>$\frac{|4\alpha - 3\beta - 24|}{5} = \frac{|4\alpha + 3\beta - 42|}{5} = \sqrt{(\alpha - 2)^2 +
+        (\beta - 8)}^2$</m>
+      </d:para>
+      <d:para>
+        Solving these gives <m>$\beta = 3, \alpha = \frac{33}{4}$</m> but it is given that <m>$|\alpha| \leq
+        8$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$\beta = 3$</m> in first and third one we get <m>$\alpha = 2, -\frac{182}{9} \Rightarrow
+        \alpha = 2$</m>
+      </d:para>
+      <d:para>
+        Hence, equation of the circle is <m>$(x - 2)^2 + (y - 3)^2 = (2 - 2)^2 + (3 - 8)^2 = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      <d:para>
+        Equation of the circle is <m>$(x - 1)^2 + (y + 5)^2 = 7^2 \Rightarrow x^2 - 2x + y^2 + 10y -23 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      <d:para>
+        Equation of the circle is <m>$(x + 1)^2 + (y + 2)^2 = \frac{625}{4} \Rightarrow x^2 + y^2 + 2x + 4y
+        + -\frac{605}{4} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      <d:para>
+        Given diameters are <m>$2x + y = 6$</m> and <m>$3x + 2y = 4$</m>. Solving we get <m>$3x + 2(6 - 2x)
+        = 4 \Rightarrow x = 8, y = -10$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x - 8)^2 + (y + 10)^2 = 10^2 \Rightarrow x^2 + y^2 - 16x + 20y
+        + 64 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <d:para>
+        Given lines are <m>$3x - 2y - 1 = 0$</m> and <m>$4x + y - 27 = 0$</m>. Thus, <m>$y = 27 - 4x$</m>
+        and
+      </d:para>
+      <d:para>
+        <m>$3x -2(27 - 4x) - 1 = 0 \Rightarrow x = 5, y = 7$</m>.
+      </d:para>
+      <d:para>
+        Let the radius of the circle is <m>$r$</m>. Then equation will be <m>$(x - 2)^2 + (y - 3)^2 =
+        r^2$</m>.
+      </d:para>
+      <d:para>
+        Since it passes theough <m>$(5, 7)$</m>, therefore, <m>$3^2 + 4^2 = r^2 \Rightarrow r = 5$</m>
+      </d:para>
+      <d:para>
+        Thus, equation will be <m>$x^2 + y^2 - 4x - 6y - 12 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      <d:para>
+        Given lines are <m>$3x + y = 14$</m> and <m>$2x + 5y = 18$</m>. From first <m>$y = 14 -
+        3x$</m>. Putting in the second <m>$2x + 5(14 - 3x) = 18 \Rightarrow x = 4 \Rightarrow y = 2$</m>
+      </d:para>
+      <d:para>
+        Let the radius of the circle is <m>$r$</m>, then the equation is <m>$(x - 1)^2 + (y - 2)^2 =
+        r^2$</m>
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(4, 2)$</m>, we have <m>$3^2 + 0 = r^2 \Rightarrow r = 3$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$x^2 + y^2 - 2x - 4y - 4 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      <d:para>
+        Given that the circle passes through <m>$(2, 3)$</m> and has center <m>$(1, 4)$</m>.
+      </d:para>
+      <d:para>
+        Let the raidus be <m>$r$</m>, then equation of the circle is <m>$(x - 1)^2 + (y - 4)^2 =
+        r^2$</m>. Since it passes through <m>$(2, 3)$</m>
+      </d:para>
+      <d:para>
+        <m>$(2 - 1)^2 + (3 - 4)^2 = r^2 => r = \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x - 1)^2 + (y - 4)^2 = 2 \Rightarrow x^2 + y^2 - 2x - 8y + 15 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      <d:para>
+        Point of intersection of <m>$x + 3y = 0$</m> and <m>$2x - 7y = 0$</m> is <m>$(0, 0)$</m>. The other
+        two lines are <m>$x + y + 1 = 0$</m> and <m>$x - 2y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$y = -x - 1$</m>.Putting in <m>$x - 2y + 4 = 0 \Rightarrow x - 2(-x - 1) + 4 = 0
+        \Rightarrow x = 2, y = -3$</m>. So center is <m>$(2, -3)$</m>.
+      </d:para>
+      <d:para>
+        Let radius of the circle is <m>$r$</m>. Then the equation of the circle is <m>$(x - 2)^2 + (y + 3)^2
+        = r^2$</m>
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(0, 0)$</m>, therefore, <m>$r^2 = 13$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$x^2 + y^2 -4x + 6y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      <d:para>
+        Given that the radius is <m>$5$</m> and center is at <m>$(5, 0)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x - 5)^2 + y^2 = 5^2 \Rightarrow x^2 + y^2 - 10x = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      <d:para>
+        Let the center be <m>$(h, k)$</m>. Since it lies on the line <m>$x - 2y = 0$</m>, we have <m>$h =
+        2k$</m>.
+      </d:para>
+      <d:para>
+        Because the circle passes through <m>$(-1, 2)$</m> and <m>$(3, -2)$</m>, the distances from the
+        center to these points are equal. So <m>$(h + 1)^2 + (k - 2)^2 = (h - 3)^2 + (k + 2)^2$</m>.
+      </d:para>
+      <d:para>
+        Simplifying this gives <m>$h - k = 1$</m>. Using <m>$h = 2k$</m>, we get <m>$2k - k = 1$</m>, so
+        <m>$k = 1$</m> and <m>$h = 2$</m>.
+      </d:para>
+      <d:para>
+        Thus, the center is <m>$(2, 1)$</m>. The radius squared is <m>$(2 + 1)^2 + (1 - 2)^2 = 10$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the circle is <m>$(x - 2)^2 + (y - 1)^2 = 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      <d:para>
+        Let the center be <m>$(h, k)$</m> with <m>$3h + 4k = 7$</m>.
+      </d:para>
+      <d:para>
+        Since the circle passes through <m>$(1, -2)$</m> and <m>$(4, -3)$</m>, we equate distances <m>$(h -
+        1)^2 + (k + 2)^2 = (h - 4)^2 + (k + 3)^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding and simplifying gives <m>$6h - 2k - 20 = 0$</m>, which reduces to <m>$3h - k = 10$</m>.
+      </d:para>
+      <d:para>
+        Now solve <m>$3h + 4k = 7$</m> and <m>$3h - k = 10$</m>.
+      </d:para>
+      <d:para>
+        Subtracting gives <m>$5k = -3$</m>, so <m>$k = -\frac{3}{5}$</m>. Substitute into <m>$3h - k = 10
+        \Rightarrow 3h + \frac{3}{5} = 10$</m>, so <m>$3h = \frac{47}{5}$</m> and <m>$h =
+        \frac{47}{15}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the center is <m>$\left(\frac{47}{15}, -\frac{3}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now compute radius squared using <m>$(1, -2), \left(\frac{47}{15} - 1\right)^2 + \left(\frac{3}{5} +
+        2\right)^2 = \left(\frac{32}{15}\right)^2 + \left(\frac{7}{5}\right)^2 = \frac{1465}{225}$</m>.
+      </d:para>
+      <d:para>
+        So the equation of the circle is <m>$\left(x - \frac{47}{15}\right)^2 + \left(y +
+        \frac{3}{5}\right)^2 = \frac{1465}{225}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      <d:para>
+        Center of given circle is <m>$(1, 2)$</m> and radius is <m>$5$</m>.
+      </d:para>
+      <d:para>
+        Let required center be <m>$(h, k)$</m>. Point <m>$(5, 5)$</m> lies on it <m>$\Rightarrow (h - 5)^2 +
+        (k - 5)^2 = 25$</m>
+      </d:para>
+      <d:para>
+        Collinearity gives <m>$\frac{k - 5}{h - 5} = \frac{3}{4}$</m>
+      </d:para>
+      <d:para>
+        So <m>$k - 5 = \frac{3}{4}(h - 5)$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$(h - 5)^2 + \left(\frac{3}{4}(h - 5)\right)^2 = 25 \Rightarrow h = 9$</m> or
+        <m>$1$</m>
+      </d:para>
+      <d:para>
+        Reject <m>$(1, 2)$</m>, so center is <m>$(9, 8)$</m>.
+      </d:para>
+      <d:para>
+        Eqaution of the cicle is <m>$(x - 9)^2 + (y - 8)^2 = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <d:para>
+        Perpendicular distance from the center to the tangent will be radius. Let it be <m>$r$</m>.
+      </d:para>
+      <d:para>
+        <m>$r = \frac{|2.1 -(-3) - 4|}{\sqrt{2^2 + (-1)^2}} = \frac{1}{\sqrt{5}}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x - 1) + (y + 3)^2 = \frac{1}{5} \Rightarrow x^2 + y^2 - 2x +
+        6y + \frac{49}{5} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      <d:para>
+        Since the circle is concentric with the circle <m>$x^2 + y^2 - 4x + 6y - 17 = 0$</m>, therefore,
+        center will be <m>$(2, -3)$</m>.
+      </d:para>
+      <d:para>
+        The circle touches the line <m>$3x - 4y + 7 = 0$</m>, therefore, perpendicular distance from tangent
+        will be radius. Let it be <m>$r$</m>.
+      </d:para>
+      <d:para>
+        <m>$r = \frac{|3.2 -4(-3) + 7|}{\sqrt{3^2 + (-4)^2}} = 5$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equation of the circle is <m>$(x - 2)^2 + (y + 3)^2 = 5^2 \Rightarrow x^2 + y^2 - 4x + 6y
+        - 12 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      <d:para>
+        Let <m>$(h, k)$</m> be the center then <m>$(h - 1)^2 + (k - 2)^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        The center is on normal perpendicular to give line. Hence slope will be <m>$-\frac{4}{3}$</m>. Also,
+        slope is <m>$\frac{k - 2}{h - 1}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{k - 2}{h - 1} = -\frac{4}{3} \Rightarrow 4h + 3k = 10 \Rightarrow k = \frac{10 -
+        4h}{3}$</m>.
+      </d:para>
+      <d:para>
+        Putting this in the equation of the circle
+      </d:para>
+      <d:para>
+        <m>$(h - 1)^2 + \left(\frac{10 - 4h}{3} - 2\right)^2 = 25 \Rightarrow h^2 - 2h + 1 + \frac{16h^2 -
+        32h + 16}{9} = 25 \Rightarrow 25h^2 -50h -200 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$h^2 - 2h - 8 = 0 \Rightarrow h = 4, -2, k = -2, 6$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circles are <m>$x^2 + y^2 - 8x + 4y - 5 = 0$</m> and <m>$x^2 + y^2 + 4x - 12y
+        + 15 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      <d:para>
+        The two normals are <m>$3x - 5y + 2 = 0$</m> and <m>$x + 2y = 3$</m>. Solving them <m>$3(3 - 2y) -5y
+        + 2 = 0 \Rightarrow y = 1 \Rightarrow x = 1$</m>.
+      </d:para>
+      <d:para>
+        This point of intersection of two normals give the center of the circle. Thus, the center is <m>$(1,
+        1)$</m>, and it is given that radius of the circle is <m>$5$</m>. Hence, the equation is
+      </d:para>
+      <d:para>
+          <m>$(x - 1)^2 + (y - 1)^2 = 5^2 \Rightarrow x^2 + y^2 - 2x - 2y - 23 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 41 -->
+      <d:para>
+        Let the center of the circle be <m>$(a, 4)$</m> and radius be <m>$r$</m>.
+      </d:para>
+      <d:para>
+        Since the circle touches the <m>$y$</m>-axis at the point <m>$(0, 4)$</m>, the radius equals the
+        distance of the center from the <m>$y$</m>-axis.
+      </d:para>
+      <d:para>
+        Hence <m>$r = a$</m>.
+      </d:para>
+      <d:para>
+        Equation of the circle <m>$(x - a)^2 + (y - 4)^2 = a^2$</m>
+      </d:para>
+      <d:para>
+        The circle cuts an intercept <m>$6$</m> on the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        So the points where the circle meets the <m>$x$</m>-axis satisfy <m>$y = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$y = 0, (x - a)^2 + 16 = a^2 \Rightarrow (x - a)^2 = a^2 - 16$</m>
+      </d:para>
+      <d:para>
+        The length of the intercept on the <m>$x$</m>-axis is <m>$2\sqrt{a^2 - 16} = 6 \Rightarrow a = \pm
+        5$</m>
+      </d:para>
+      <d:para>
+        Hence, the radius is <m>$5$</m> and the center is <m>$(\pm 5, 4)$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the circle is <m>$(x \mp 5)^2 + (y - 4)^2 = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 42 -->
+      <d:para>
+        The circle would be in any quadrant and center would be one of <d:sbr/><m>$(a, a), (-a, a), (-a, -a)$</m>
+        and <m>$(a, -a)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x \mp a)^2 + (y \mp a)^2 = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 43 -->
+      <d:para>
+        Since the circle touches the <m>$y$</m>-axis at origin, therefore, the <m>$x$</m>-axis will be
+        normal. If <m>$r$</m> is the radius then <m>$(r, 0)$</m> will be the center.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(h, k)$</m>, therefore, <m>$(h - r)^2 + k^2 = r^2 \Rightarrow h^2 + k^2
+        - 2h r = 0 \Rightarrow r = \frac{h^2 + k^2}{2h}$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$(x - r)^2 + y^2 = r^2 \Rightarrow x^2 + y^2 - 2r x = 0
+        \Rightarrow h(x^2 + y^2) - (h^2 + k^2)x = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 44 -->
+      <d:para>
+        Since the circle touches the <m>$x$</m>-axis at origin, therefore, the <m>$y$</m>-axis will be
+        normal. If <m>$r$</m> is the radius then <m>$(0, r)$</m> will be the center.
+      </d:para>
+      <d:para>
+        The circle touches the line <m>$4x - 3y + 24 = 0$</m>, so perpendicular distance from the center
+        will be equal to the radius.
+      </d:para>
+      <d:para>
+        <m>$\frac{|4.0 - 3r + 24|}{5} = r \Rightarrow 9(r - 8)^2 = 25r^2 \Rightarrow 9r^2 - 144r + 576 =
+        25r^2 \Rightarrow 16r^2 + 144r - 576 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow r^2 + 9r - 36 = 0 \Rightarrow r = 3, -12$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circles are <m>$x^2 + y^2 + 24y = 0$</m> and <m>$x^2 + y^2 - 6y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 45 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 = 16 = 4^2$</m>. Thus, parametric equaiton is <m>$x = 4\cos\theta, y =
+        4\sin\theta$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 46 -->
+      <d:para>
+        Let the center of the circle be <m>$(h, k)$</m> and radius be <m>$r$</m>.
+      </d:para>
+      <d:para>
+        The circle touches the line <m>$2x - y = 1$</m> at the point <m>$(1, 1)$</m>.
+      </d:para>
+      <d:para>
+        Hence, the center lies on the line perpendicular to <m>$2x - y = 1$</m> through <m>$(1, 1)$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$2x - y = 1$</m> is <m>$2$</m>. Therefore the perpendicular slope is
+        <m>$-\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Equation of the perpendicular line through <m>$(1, 1), y - 1 = \left(-\frac{1}{2}\right)(x -
+        1)\Rightarrow x + 2y - 3 = 0$</m>
+      </d:para>
+      <d:para>
+        So the center <m>$(h, k)$</m> satisfies <m>$h + 2k - 3 = 0$</m>
+      </d:para>
+      <d:para>
+        The radius equals the distance from the center to the line <m>$2x - y - 1 = 0$</m> and also to the
+        line <m>$2x + y - 4 = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$\frac{|2h - k - 1|}{\sqrt{5}} = \frac{|2h + k - 4|}{\sqrt{5}} \Rightarrow |2h - k - 1| =
+        |2h + k - 4|$</m>
+      </d:para>
+      <d:para>
+        Using <m>$h + 2k - 3 = 0$</m>, we get <m>$h = 3 - 2k$</m>
+      </d:para>
+      <d:para>
+        Substituting in the distance equation <m>$|2(3 - 2k) - k - 1| = |2(3 - 2k) + k - 4| \Rightarrow k =
+        \frac{7}{8}$</m>
+      </d:para>
+      <d:para>
+        Then <m>$h = 3 - 2\frac{7}{8} \Rightarrow h = \frac{5}{4}$</m>
+      </d:para>
+      <d:para>
+        Radius <m>$r = \frac{|2\frac{5}{4} - \frac{7}{8} - 1|}{\sqrt{5}} \Rightarrow r =
+        \frac{\sqrt{5}}{8}$</m>
+      </d:para>
+      <d:para>
+        Therefore, the equation of the circle is <m>$\left(x - \frac{5}{4}\right)^2 + \left(y -
+        \frac{7}{8}\right)^2 = \frac{5}{64}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 47 -->
+      <d:para>
+        Let the center be <m>$(h, k)$</m> and radius be <m>$r$</m>. Since the center lies on <m>$2x + y =
+        0$</m>, therefore, <m>$k = -2h$</m>
+      </d:para>
+      <d:para>
+        The circle touches the lines <m>$4x - 3y - 30 = 0$</m> and <m>$4x - 3y + 10 = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, the distances from the center to both lines are equal.
+      </d:para>
+      <d:para>
+        <m>$\frac{|4h - 3k - 30|}{5} = \frac{|4h - 3k + 10|}{5} \Rightarrow 4h - 3k = 10$</m>
+      </d:para>
+      <d:para>
+        Using <m>$k = -2 \Rightarrow 4h + 6h = 10 \Rightarrow h = 1, k = -2$</m>
+      </d:para>
+      <d:para>
+        Radius <m>$r = \frac{|4(1) - 3(-2) - 30|}{5} = 4$</m>
+      </d:para>
+      <d:para>
+        Therefore, the equation of the circle is <m>$(x - 1)^2 + (y + 2)^2 = 16$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 48 -->
+      <d:para>
+        Since the circle touches the coordinate axes and has a radius of <m>$4$</m> units, therefore, its
+        center would be <m>$(4, 4)$</m> in first quadrant.
+      </d:para>
+      <d:para>
+        Given that <m>$y = 0$</m> is the line mirror, so the new center would be <m>$(4, -4)$</m> and the
+        equation of circle will be
+      </d:para>
+      <d:para>
+        <m>$(x - 4)^2 + (y + 4)^2 = 16$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy54a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_4a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 49 -->
+      <d:para>
+        Center of the circle <m>$x^2 + y^2 + 16x - 24y + 183 = 0$</m> is <m>$(-8, 12)$</m> and radius is
+        <m>$\sqrt{64 + 144 - 183} = 5$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy55a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_5a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Image of the center across this line is given by <m>$x' = x - \frac{2a(ab + by + c)}{a^2 + b^2}$ and
+        $y' = y - \frac{2b(ax + by + c)}{a^2 + b62}$</m>
+      </d:para>
+      <d:para>
+        Here <m>$a = 4, b = 7, c = 13$</m> and <m>$(x, y) = (-8, 12)$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$ax + by + c = 4(-8) + 7(12) + 13 = -32 + 84 + 13 = 65$</m>
+      </d:para>
+      <d:para>
+        Also <m>$a^2 + b^2 = 16 + 49 = 65$</m>. Therefore <m>$x' = -8 - (2.4.65)/65 = -16$</m> and <m>$y' =
+        12 - (2.7.65)/65$$= -2$</m>
+      </d:para>
+      <d:para>
+        Hence the image circle has center <m>$(-16, -2)$</m> and radius <m>$5$</m>.
+      </d:para>
+      <d:para>
+        Thereforem its equation is <m>$(x + 16)^2 + (y + 2)^2 = 25 \Rightarrow x^2 + y^2 + 32x + 4y + 235 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 50 -->
+      <d:para>
+        Center of the circle is <m>$(a, a)$</m> and radius is <m>$a$</m>. After one complete revolution
+        along <m>$x$</m>-axis will make the new center as <m>$(a + 2\pi a, a)$</m>.
+      </d:para>
+      <d:para>
+        Thus, new equation is <m>$(x - a - 2\pi a)^2 + (y - a)^2 = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 51 -->
+      <d:para>
+        The center is <m>$(1, 1)$</m> and radius is <m>$5$</m>. The center moves on the line <m>$x - y =
+        0$</m>, so any new center <m>$(h, k)$</m> satisfies
+      </d:para>
+      <d:para>
+        <m>$h - k = 0 \Rightarrow h = k$</m>
+      </d:para>
+      <d:para>
+        Distance between old and new center is <m>$\sqrt{2}$</m>, so <m>$(h - 1)^2 + (k - 1)^2 = 2$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$k = h$ $(h - 1)^2 + (h - 1)^2 = 2$</m>
+      </d:para>
+      <d:para>
+        <m>$2(h - 1)^2 = 2 \Rightarrow h - 1 = \pm 1$</m>
+      </d:para>
+      <d:para>
+        Thus two circles are possible. <m>$h = 2, k = 2$</m> and <m>$h = 0, k = 0$</m>
+      </d:para>
+      <d:para>
+        For <m>$(2, 2)$</m> equation of circle will be <m>$(x - 2)^2 + (y - 2)^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        For <m>$(0, 0)$</m> equation of circle will be <m>$x^2 + y^2 = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 52 -->
+      <d:para>
+        Let the circle pass through the origin and have center <m>$(h, k)$</m> and radius <m>$r$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(0,0), h^2 + k^2 = r^2$</m>
+      </d:para>
+      <d:para>
+        The length of chord cut by the circle on a line is <m>$2\sqrt{r^2 - d^2}$</m> where <m>$d$</m> is
+        perpendicular distance from center to the line.
+      </d:para>
+      <d:para>
+        Given chord length is <m>$\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$2\sqrt{r^2 - d^2} = \sqrt{2} \Rightarrow r^2 - d^2 = \frac{1}{2} \Rightarrow h^2 + k^2 - d^2
+        = 1/2$</m>
+      </d:para>
+      <d:para>Now for line <m>$y = x \Rightarrow x - y = 0$</m></d:para>
+      <d:para>Distance from <m>$(h, k)$</m> is <m>$d_1 = \frac{|h - k|}{\sqrt{2}}$</m></d:para>
+      <d:para>So <m>$h^2 + k^2 - \frac{(h - k)^2}{2} = \frac{1}{2}$</m></d:para>
+      <d:para>Simplifying gives us <m>$(h + k)^2 = 1 \dots$</m> (1)</d:para>
+      <d:para>
+        Now for line <m>$y = -x \Rightarrow x + y = 0$</m>. Distance is <m>$d_2 = \frac{|h +
+        k|}{\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        So similarly <m>$h^2 + k^2 - \frac{(h + k)^2}{2} = \frac{1}{2}$</m>
+      </d:para>
+      <d:para>
+        Simplifying gives <m>$(h - k)^2 = 1 \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        From (1) and (2): <m>$h + k = \pm 1$</m> and <m>$h - k = \pm 1$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$h + k = 1, h - k = 1 \Rightarrow h = 1, k = 0$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$h + k = 1, h - k = -1 \Rightarrow h = 0, k =
+        1$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case III:</d:emphasis> <m>$h + k = -1, h - k = 1 \Rightarrow h = 0, k =
+        -1$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case IV:</d:emphasis> <m>$h + k = -1, h - k = -1 \Rightarrow h = -1, k =
+        0$</m>
+      </d:para>
+      <d:para>
+        Radius: <m>$r^2 = h^2 + k^2 = 1$</m>. So <m>$r = 1$</m>
+      </d:para>
+      <d:para>
+        Thus the circles are <m>$(x - 1)^2 + y^2 = 1, x^2 + (y - 1)^2 = 1, x^2 + (y + 1)^2 = 1$</m>, and
+        <m>$(x + 1)^2 + y^2 = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 53 -->
+      <d:para>
+        Let <m>$A = 3x + 4y - 15 = 0, B = 3x - 4y - 7 = 0, C = 12x + 5y - 115 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{|3x + 4y - 15|}{5} = \frac{3x - 4y - 7|}{5} \Rightarrow 3x + 4y - 15 = \pm (3x - 4y -
+        7)$</m>
+      </d:para>
+      <d:para>
+        Taking plus sign <m>$3x + 4y - 15 = 3x - 4y - 7 \Rightarrow 8y = 8 \Rightarrow y = 1$</m>
+      </d:para>
+      <d:para>
+        Now use the bisector of <m>$A$</m> and <m>$C$</m>, <m>$\frac{|3x + 4y - 15|}{5} = \frac{|12x + 5y -
+        115|}{13}$</m>
+      </d:para>
+      <d:para>
+        Substitute <m>$y = 1$</m> ot get <m>$\frac{|3x - 11|}{5} = \frac{|12x - 110|}{13} \Rightarrow x = 7$</m>
+      </d:para>
+      <d:para>
+        Hence the incenter is <m>$(7, 1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!--54-->
+      <d:para>
+        Let the raidus be <m>$r$</m>. The center could be in any quadrant, and thus, center is <m>$(\pm r,
+        \pm r)$</m>.
+      </d:para>
+      <d:para>
+        Since the center lies on <m>$lx + my + n = 0$</m>, therefore, <m>$r = \pm \frac{n}{l + m}$</m>.
+      </d:para>
+      <d:para>
+        Putting this is in <m>$(x \pm r)^2 + (y \pm r)^2 = r^2$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$(l \pm m)^2(x^2 + y^2) \pm 2n(l \pm m)(x + y) + n^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 55 -->
+      <d:para>
+        The smaller circle is <m>$x^2 + y^2 = 4$</m> so its centre is <m>$(0, 0)$</m> and radius is
+        <m>$2$</m>.
+      </d:para>
+      <d:para>
+        Let the radius of the larger circle be <m>$R$</m>. The distance of the line <m>$x + y = 2$</m> from
+        the centre is <m>$\sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Chord length in a circle of radius <m>$r$</m> at distance <m>$d$</m> from the centre is
+        <m>$2\sqrt{r^2 - d^2}$</m>
+      </d:para>
+      <d:para>
+        Hence, the chord lengths are <m>$2\sqrt{4 - 2} = 2\sqrt{2}$</m> and <m>$2\sqrt{R^2 - 2}$</m>
+      </d:para>
+      <d:para>
+        Given intercept between the circles is <m>$1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \sqrt{R^2 - 2} - \sqrt{2} = 1 \Rightarrow \sqrt{R^2 - 2} = 1 + \sqrt{2} \Rightarrow
+        R^2 = 5 + 2 \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        Therefore, the larger circle is <m>$x^2 + y^2 = 5 + 2\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 56 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 2x + y = 0$</m>. So the centre is
+        <m>$\left(1,-\frac{1}{2}\right)$</m> and radius is <m>$\frac{\sqrt{5}}{2}$</m>.
+      </d:para>
+      <d:para>
+        For the point <m>$(3, 2)$</m>, the distance from the centre is <m>$\sqrt{(3 - 1)^2 + (2 + 1/2)^2} =
+        \frac{\sqrt{41}}{2}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\sqrt{41}{2} > \frac{\sqrt{5}}{2}$</m> the point is exterior to the circle.
+      </d:para>
+      <d:para>
+        The maximum radius of a circle centered at <m>$(3, 2)$</m> containing the given circle is
+      </d:para>
+      <d:para>
+        <m>$\frac{\sqrt{41}}{2} + \frac{\sqrt{5}}{2} = \frac{\sqrt{41} + \sqrt{5}}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence the required circle is <m>$(x - 3)^2 + (y - 2)^2 = \left(\frac{\sqrt{41} +
+        \sqrt{5}}{2}\right)^2 \Rightarrow (x - 3)^2 + (y - 2)^2 = \frac{23 + \sqrt{205}}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 57 -->
+      <d:para>
+        <m>$C_1=(0,2),r_1=3, C_2=(-6,-2),r_2=3$</m>, and <m>$C_3=(-3,-6),r_3=3$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta C_1C_2C_3$</m> is acute, so the minimum enclosing circle of the centers is the circumcircle
+      </d:para>
+      <d:para>
+        <m>$C = \left(-\frac{31}{18},-\frac{23}{12}\right) \Rightarrow R = \frac{5\sqrt{949}}{36}$</m>,
+        where <m>$C$</m> is circumcenter.
+      </d:para>
+      <d:para>
+        Since each given circle has radius <m>$3$</m>, the required minimum radius is <m>$R_{min} = 3 +
+        \frac{5\sqrt{949}}{36} = \frac{108 +5\sqrt{949}}{36}$</m>
+      </d:para>
+      <d:para>
+        Hence, the required circle is <m>$\left(x + \frac{31}{18}\right)^2+\left(y +
+        \frac{23}{12}\right)^2=\left(\frac{108 + 5\sqrt{949}}{36}\right)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 58 -->
+      <d:para>
+        The diamter form of the circle is <m>$(x + 4)(x - 12) + (y - 3)(y + 1) = 0 \Rightarrow x^2 + y^2 -
+        8x - 2y - 51 = 0$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$x = 0$</m> for intercept on <m>$y$</m>-axis, we have <m>$y^2 - 2y - 51 = 0$</m>
+      </d:para>
+      <d:para>
+        Let <m>$y_1$</m> and <m>$y_2$</m> be the roots then <m>$y_1 + y_2 = 2$</m> and <m>$y_1 y_2 =
+        -51$</m>, then
+      </d:para>
+      <d:para>
+        <m>$|y_1 - y_2| = \sqrt{(y_1 + y_2)^2 - 4y_1y_2} = 4\sqrt{13}$</m>.
+      </d:para>
+      <d:para>
+        So the intercept on <m>$y$</m>-axis is <m>$4\sqrt{13}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 59 -->
+      <d:para>
+        One of the diagonals will have endpoints as <m>$(1, 2)$</m> and <m>$(3, 4)$</m> and the other will
+        have <m>$(3, 2)$</m> and <m>$(1, 4)$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equation of the circle is <m>$(x - 1)(x - 3) + (y - 2)(y - 4) = 0$</m>.
+      </d:para>
+      <d:para>
+        The other diagonal will  also give the same equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 60 -->
+      <d:para>
+        Equation of the circle will be <m>$x(x - 2) + y(y + 4) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 61 -->
+      <d:para>
+        Equation of the circle will be <m>$(x - 2)(x + 2) + (y + 3)(y - 4) = 0 \Rightarrow x^2 - 4 + y^2 - y
+        - 12 = 0$</m>
+      </d:para>
+      <d:para>
+        So center will be <m>$\left(0, \frac{1}{2}\right)$</m> and radius will be <m>$\sqrt{\frac{1}{4} +
+        16} = \frac{\sqrt{65}}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 62 -->
+      <d:para>
+        The intercepts are <m>$(3, 0)$</m> and <m>$(0, 4)$</m> on <m>$x$</m> and <m>$y$</m> axes. Thus, the
+        equation of the circle will be
+      </d:para>
+      <d:para>
+        <m>$x(x - 3) + y(y - 4) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 63 -->
+      <d:para>
+        The center of the circles are <m>$(-3, 7)$</m> and <m>$(2, -5)$</m>. Thus, the equation of the
+        circle is
+      </d:para>
+      <d:para>
+        <m>$(x + 3)(x - 2) + (y - 7)(y + 5) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 64 -->
+      <d:para>
+        One of the diagonals will have endpoints as <m>$(6, 3)$</m> and <m>$(9, 6)$</m>. Thus equation of
+        the circle will be
+      </d:para>
+      <d:para>
+        <m>$(x - 6)(x - 9) + (y - 3)(y - 6) = 0$</m>. The other diagonal will also give the same equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 65 -->
+      <d:para>
+        The given lines form a rectangle since there are two pairs of parallel lines.
+      </d:para>
+      <d:para>
+        From <m>$x - 3y = 4$</m> and <m>$3x + y = 22$</m> we get point <m>$A(7, 1)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x - 3y = 14$</m> and <m>$3x + y = 22$</m> we get point <m>$B(8, -2)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x - 3y = 14$</m> and <m>$3x + y = 62$</m> we get point <m>$C(20, 2)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x - 3y = 4$</m> and <m>$3x + y = 62$</m> we get point <m>$D(19, 5)$</m>.
+      </d:para>
+      <d:para>
+        We take one diagonal <m>$(7, 1)$</m> and <m>$(20, 2)$</m> as diameter to get the equation of the
+        circle as
+      </d:para>
+      <d:para>
+        <m>$(x - 7)(x - 20) + (y - 1)(y - 2) = 0$</m>. The other diagonal will also give the same equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 66 -->
+      <d:para>
+        Let <m>$x_1, x_2$</m> be the roots of <m>$x^2 + 2x - a^2 = 0$</m> then <m>$x_1 + x_2 = -2$</m> and
+        <m>$x_1x_2 = -a^2$</m>. Similarly, let <m>$y_1, y_2$</m> be the roots of <m>$y^2 + 4y - b^2 = 0$</m>
+        then <m>$y_1 + y_2 = -4$</m> and <m>$y_1y_2 = -b^2$</m>.
+      </d:para>
+      <d:para>
+        Circle whose endpoints will be the diamter <m>$AB$</m> will be given by <m>$(x - x_1)(x - x_2) + (y
+        - y_1)(y - y_2) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 - x(x_1 + x_2) + x_1x_2 + y^2 - y(y_1 + y_2) + y_1y_2 = 0$</m>
+      </d:para>
+      <d:para>
+        Substituting the values from the equations obtained we have the equation as
+      </d:para>
+      <d:para>
+        <m>$x^2 + 2x - a^2 + y^2 + 4y - b^2 = 0 = (x + 1)^2 + (y + 2)^2 = a^2 + b^2 + 5$</m>
+      </d:para>
+      <d:para>
+        Hence, center is <m>$(-1, -2)$</m> and radius is <m>$\sqrt{a^2 + b^2 + 5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 67 -->
+      <d:para>
+        The circle is given by <m>$x^2 + y^2 - 2x + 6y - 15 = 0$</m>. Let <m>$(h, k)$</m> be the other
+        endpoint. Then the equation for the circle with the diameter is given by
+      </d:para>
+      <d:para>
+        <m>$(x - 4)(x - h) + (y - 1)(y - k) = 0 \Rightarrow x^2 - (4 + h) + 4h + y^2 - (1 + k) + k = 0$</m>
+      </d:para>
+      <d:para>
+        Comparing coefficients of <m>$x$</m> and <m>$y$</m> we have <m>$h = -2$</m> and <m>$k = -7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 68 -->
+      <d:para>
+        The given lines are <m>$a x + b y + c = 0, a x + b y - c = 0, b x - a y + c = 0$</m> and <m>$b x - a
+        y - c = 0$</m>.
+      </d:para>
+      <d:para>
+        These form a rectangle since each pair is parallel and the two directions are perpendicular.
+      </d:para>
+      <d:para>
+        Take one pair of opposite vertices by solving <m>$a x + b y + c = 0$</m> with <m>$b x - a y + c =
+        0$</m> and <m>$a x + b y - c = 0$</m> with <m>$b x - a y - c = 0$</m>.
+      </d:para>
+      <d:para>
+        Let these points be <m>$P(x_1, y_1)$</m> and <m>$Q(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        From symmetry we have <m>$x_2 = -x_1$</m> and <m>$y_2 = -y_1$</m>. So the equation of the circle
+        becomes <m>$x^2 + y^2 = x_1^2 + y_1^2$</m>.
+      </d:para>
+      <d:para>
+        Solving <m>$a x + b y + c = 0$</m> and <m>$b x - a y + c = 0$</m> gives <m>$x_1 = -\frac{c(a +
+        b)}{a^2 + b^2}$ and $y_1 = -\frac{c(b - a)}{a^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x_1^2 + y_1^2 = \frac{c^2[(a + b)^2 + (b - a)^2]}{\left(a^2 + b^2\right)^2}$</m>
+      </d:para>
+      <d:para>
+        This simplifies to <m>$x_1^2 + y_1^2 = \frac{2c^2}{a^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation of the circumcircle is <m>$x^2 + y^2 = \frac{2c^2}{a^2 + b^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 69 -->
+      <d:para>
+        Let the equation of the circle is <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m> whose center is <m>$(-g,
+        -f)$</m>, which lies on <m>$3x + 4y = 7$</m>. Thus,
+      </d:para>
+      <d:para>
+        <m>$-3g - 4f = 7$</m>. Since the circle passes through <m>$(1, -2)$</m> and <m>$(4, -3)$</m>,
+        therefore,
+      </d:para>
+      <d:para>
+        <m>$2g - 4f + c = -5$</m> and <m>$8g - 6f + c = 25$</m>. From these two equations we have <m>$-3g +
+        f = 10$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$f = \frac{3}{5}, g = -\frac{47}{15}$</m> and <m>$c = \frac{11}{3}$</m> and now it is
+        trivial to find the equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 70 -->
+      <d:para>
+        The line <m>$3x + 4y = 12$</m> meets the axes at <m>$(4, 0)$</m> and <m>$(0, 3)$</m>. Let the
+        equation of the circle be <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through origin, therefore, <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        For <m>$(4, 0)$</m> the equation becomes <m>$16 + 8g = 0 \Rightarrow g = -2$</m> and for <m>$(0,
+        3)$</m> the equation is <m>$9 + 6f = 0 \Rightarrow f = -\frac{3}{2}$</m>. Thus, we have found the
+        equation of the circle as <m>$x^2 + y^2 - 4x - 3y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 71 -->
+      <d:para>
+        The given lines are <m>$5x + 3y = 9, x = 3y, 2x = y$</m> and <m>$x + 4y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy56a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_6a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        From <m>$5x + 3y = 9$</m> and <m>$x = 3y$</m> we get <m>$A\left(\frac{3}{2},
+        \frac{1}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x = 3y$</m> and <m>$2x = y$</m> we get <m>$B(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$2x = y$</m> and <m>$x + 4y + 2 = 0$</m> we get <m>$C\left(-\frac{2}{9},
+        -\frac{4}{9}\right)$</m>.
+      </d:para>
+      <d:para>
+        We take the general circle <m>$x^2 + y^2 + g x + f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substitute point <m>$B(0, 0)$</m> and get <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substitute point <m>$A\left(\frac{3}{2}, \frac{1}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$\frac{5}{2} + \frac{3g}{2} + \frac{f}{2} = 0$</m> so <m>$3g + f = -5$</m>.
+      </d:para>
+      <d:para>
+        Substitute point <m>$C(-2/9, -4/9)$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$\frac{20}{81} - \frac{2g}{9} - \frac{4f}{9} = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiply by <m>$81$</m> to get <m>$20 - 18g - 36f = 0$</m> so <m>$9g + 18f = 10$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$g = -\frac{20}{9}$</m> and <m>$f = \frac{5}{3}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the circle is <m>$x^2 + y^2 - \frac{20}{9}x + \frac{5}{3}y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 72 -->
+      <d:para>
+        Let the equation of the circle be <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>. Since it passes through
+        <m>$(1, 2)$</m> and <m>$(3, 4)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$5 + 2g + 4f + c = 0 \ldots$</m> (1) and <m>$25 + 6g + 8f + c = 0 \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        From these two equations we have <m>$g + f + 5 = 0) \ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Since the circle touches the line <m>$3x + y - 3 = 0$</m> so perpendicular distance from center
+        would be radius. Thus,
+      </d:para>
+      <d:para>
+        <m>$\frac{|-3g - f - 3|}{\sqrt{10}} = \sqrt{g^2 + f^2 + c} \Rightarrow (3g + f + 3)^2 = 10(g^2 + f^2
+        + 5 + 2g + 4f)$</m> [from (1)]
+      </d:para>
+      <d:para>
+        <m>$(2g - 5 + 3)^2 = 10[g^2 + (g + 5)^2 + 5 + 2g - 4g - 29]$</m> [Putting the value of <m>$f$</m> from (3)]
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow g = -4, -\frac{3}{2} \Rightarrow f = -1, -\frac{7}{2} \Rightarrow c = 7, 12$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circles are <m>$x^2 + y^2 - 8x - 2y + 7 = 0$</m> and <m>$x^2 + y^2 - 3x - 7y +
+        12 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 73 -->
+      <d:para>
+        Let the equation of the circle be <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>, so the center is
+        <m>$(-g, -f)$</m> and radius <m>$\sqrt{g^2 + f^2 - c}$</m>
+      </d:para>
+      <d:para>
+        Since the circle touches the <m>$x$</m>-axis, therefore, <m>$g^2 - c = 0 \Rightarrow c =
+        g^2[\because \sqrt{g^2 + f^2 - c} = |-f|]\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Also, the circle touches <m>$4x - 3y + 4 = 0 \Rightarrow \frac{|-4g + 3f + 4|}{5} = \sqrt{g^2 + f^2
+        + c} = |f|$</m> [from (1)]
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow -4g + 3f + 4 = \pm f \Rightarrow 2g + f = 2\ldots$</m> (2) and <m>$g - 2f =
+        1\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Also, given that the center lies on <m>$x - y - 1 = 0 \Rightarrow -g + f = 1\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        Thus, <m>$g = \frac{1}{3}, f = \frac{4}{3}$</m> and <m>$f = -2, g = -3$</m>, which lies in first
+        quadrant. Thus, <m>$c = \frac{1}{9}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation of the cirlce is <m>$9(x^2 + y^2) + 6x + 24y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

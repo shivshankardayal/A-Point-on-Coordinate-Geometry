@@ -615,7 +615,6 @@
         The given pair of lines is <m>$y^2 - 8x y - 9x^2 = 0 \Rightarrow y - 9x = 0$</m> and <m>$x + y =
         0$</m>.
       </d:para>
-
       <d:para>
         <d:figure xml:id="dummy43">
           <d:title></d:title>
@@ -1128,6 +1127,1168 @@
       </d:para>
       <d:para>
         Comparing coefficients <m>$\frac{1}{q} = \frac{-2p}{2} = \frac{1}{q} \Rightarrow pq = -1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 55 -->
+      <d:para>
+        Given pair of lines is <m>$ax^2 + 2hxy + by^2 = \lambda\left(x^2 + y^2\right)$</m>
+      </d:para>
+      <d:para>
+        The equation of bisectors is given by <m>$\frac{x^2 - y^2}{a - \lambda - b + \lambda} =
+        \frac{xy}{h}$</m>, which is independent of <m>$\lambda$</m>. Hence, proven.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 56 -->
+      <d:para>
+        Equation of bisectors for lines <m>$ax^2 + acxy + cy^2 = 0$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{a - c} = \frac{xy}{\frac{ac}{2}} = \frac{2xy}{ac}$</m>.
+      </d:para>
+      <d:para>
+        Equation of bisectors for lines <m>$\left(3 + \frac{1}{c}\right)x^2 + xy + \left(3 +
+        \frac{1}{a}\right)y^2 = 0$</m> us given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{3 + \frac{1}{c} - 3 - \frac{1}{a}} =\frac{xy}{\frac{1}{2}} \Rightarrow
+        \frac{x^2 - y^2}{a - c} = \frac{xy}{\frac{ac}{2}} = \frac{2xy}{ac}$</m>, which is same as previous
+        bisectors.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 57 -->
+      <d:para>
+        The lines will be equally inclined if their bisectors are parallel. The bisectors of <m>$2x^2 + 6x y
+        + y^2 = 0$</m> are given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{2 - 1} = \frac{xy}{3} \Rightarrow 3\left(x^2 - y^2\right) = xy$</m>.
+      </d:para>
+      <d:para>
+        The bisectors of <m>$4x^2 + 18x y + y^2 = 0$</m> are given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{4 - 1} = \frac{xy}{9} \Rightarrow 3\left(x^2 - y^2\right) = xy$</m>.
+      </d:para>
+      <d:para>
+        Since the bisectors are same the lines are equally inclined.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 58 -->
+      <d:para>
+        Since the rotation of lines balance each other the bisectors in new position will be same as
+        bisectors of the original position.
+      </d:para>
+      <d:para>
+        Thus, equation of bisectors of angles between the lines <m>$x^2 - 2pxy - y^2 = 0$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{2} = -\frac{xy}{p}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 59 -->
+      <d:para>
+        Let the pair of lines be given by the homogeneous second degree equation <m>$ax^2 + 2hxy + by^2 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Since one of these lines is the bisector of the angle between the coordinate axes, it must be either
+        <m>$y = x$</m> or <m>$y = -x$</m>, because these are the angle bisectors of the axes.
+      </d:para>
+      <d:para>
+        Substitute <m>$y = x$</m> into the given equation <m>$ax^2 + 2hxx + bx^2 = 0$</m> which simplifies
+        to <m>$(a + 2h + b)x^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        For this to represent a line, the coefficient must be zero, so <m>$a + b + 2h = 0$</m>.
+      </d:para>
+      <d:para>
+        Now substitute <m>$y = -x$</m> into the equation <m>$ax^2 + 2hx(-x) + bx^2 = 0$</m>
+      </d:para>
+      <d:para>
+        which simplifies to <m>$(a - 2h + b)x^2 = 0$</m>. Thus we get <m>$a + b - 2h = 0$</m>.
+      </d:para>
+      <d:para>
+        In either case, the condition for one of the lines to be an angle bisector is that either <m>$a + b
+        + 2h = 0$</m> or <m>$a + b - 2h = 0$</m>.
+      </d:para>
+      <d:para>
+        Both can be written together as <m>$a + b = \pm 2h$</m>. Squaring both sides gives <m>$(a + b)^2 =
+        4h^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 60 -->
+      <d:para>
+        First consider the pair of lines <m>$x^2 + xy - 2y^2 + 4x - y + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Assume a line through the origin has slope <m>$m$</m>, so it is <m>$y = mx$</m>. Substituting in the
+        homogeneous equation gives  <m>$x^2 + mx^2 - 2m^2x^2 = 0$</m>. (we consider only homogeneous part)
+      </d:para>
+      <d:para>
+        After dividing by <m>$x^2$</m> we obtain <m>$1 + m - 2m^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thusm the slopes of the two given lines satisfy <m>$2m^2 - m - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the roots be <m>$m_1$</m> and <m>$m_2$</m>. Then <m>$m_1 + m_2 = \frac{1}{2}$</m> and <m>$m_1m_2
+        = -\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        The slopes of the angle bisectors satisfy <m>$(1 - m_1m_2)m^2 + (m_1 + m_2)m - (1 - m_1m_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values gives <m>$\left(1 + \frac{1}{2}\right)m^2 + \frac{m}{2} - \left(1 +
+        \frac{1}{2}\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$2$</m> simplifies this to <m>$3m^2 + m - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the bisectors through the origin have slopes satisfying <m>$3m^2 + m - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now the required lines pass through <m>$(1, 2)$</m> and are parallel to these bisectors, so their
+        form is <m>$y - 2 = m(x - 1)$</m>.
+      </d:para>
+      <d:para>
+        Eliminating <m>$m$</m> using the quadratic condition gives the combined equation <m>$3(y - 2)^2 + (y
+        - 2)(x - 1) - 3(x - 1)^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 61 -->
+      <d:para>
+        Given line is <m>$fx - gy = \lambda \Rightarrow \frac{fx - gy}{\lambda} = 1$</m>.
+      </d:para>
+      <d:para>
+        Given equation is <m>$x^2 + hxy - y^2 + gx + fy = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + hxy - y^2 + gx\frac{fx - gy}{\lambda} + fy\frac{fx - gy}{\lambda} = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (\lambda + fg)x^2 + \left(\lambda h - g^2 + f^2\right)xy - (\lambda + fg)y^2 =
+        0$</m>
+      </d:para>
+      <d:para>
+        The above equation represents two lines through origin to the point of intersection of given line
+        and curve.
+      </d:para>
+      <d:para>
+        Coeff. of <m>$x^2 + $</m> Coeff. of <m>$y^2 = 0$</m>. Hence, the lines are perpendicular to each
+        other.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 62 -->
+      <d:para>
+        <m>$y - 3x = 2 \Rightarrow \frac{y - 3x}{2} = 1$</m>. Now equation of the curve is <m>$x^2 + 2x y +
+        3y^2 + 4x + 8y - 11 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + 2x y + 3y^2 + 4x\frac{y - 3x}{2} + 8y\frac{y - 3x}{2} - 11\frac{(y - 3x)^2}{4}
+        = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 7x^2 - 2x y - y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        This is the equation of the lines passing through origin and point of intersection of the given line
+        and curve.
+      </d:para>
+      <d:para>
+        Angle between lines is <m>$\theta = \tan^{-1}\left|\frac{2\sqrt{h^2 - ab}}{a + b}\right| =
+        \tan^{-1}\frac{2\sqrt{2}}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 63 -->
+      <d:para>
+        We can write <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = -\left(\frac{lx + my}{n}\right)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2\left(\frac{1}{a^2} - \frac{l^2}{n^2}\right) - \frac{2ml}{n^2}xy +
+        y^2\left(\frac{1}{b^2} - \frac{m^2}{n^2}\right) = 0$</m>
+      </d:para>
+      <d:para>
+        which is of the form <m>$Ax^2 + 2Hxy + By^2 = 0$</m> i.e. the lines pass through origin and point of
+        intersection of the given curve and the given line.
+      </d:para>
+      <d:para>
+        The lines obtained will coincident if <m>$H^2 - AB = 0$</m>. Substituting the values yields
+      </d:para>
+      <d:para>
+        <m>$a^2l^2 + b^2m^2 = n^2$</m>. Hence, proved.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 64 -->
+      <d:para>
+        The pair of lines which joining the origin to the point of intersection of the two gives curves can
+        be obtained by making the given curves homogeneous.
+      </d:para>
+      <d:para>
+        Multiplying first with <m>$g_1$</m> and second with <m>$g$</m> and subtracting yields
+      </d:para>
+      <d:para>
+        <m>$(ag_1 - a_1g)x^2 + 2(hg_1 - h_1g)xy + (bg_1 - b_1g)y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        These lines will be perpendicular to each other if <m>$ag_1 - a_1g + bg_1 - b_1g = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow g(a_1 + b_1) = g_1(a + b)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 65 -->
+      <d:para>
+        The required lines pass through the origin and the points of intersection of <m>$3x + 4y = 5$</m>
+        and <m>$2x^2 + 3y^2 = 5$</m>.
+      </d:para>
+      <d:para>
+        Let the slope of such a line be <m>$m$</m>, so its equation is <m>$y = mx$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y = mx$</m> into the line <m>$3x + 4(mx) = 5$</m> which gives <m>$x(3 + 4m) = 5$</m>
+        and hence <m>$x = 5/(3 + 4m)$</m>.
+      </d:para>
+      <d:para>
+        Now substitute <m>$x$</m> and <m>$y = mx$</m> into the curve <m>$2x^2 + 3y^2 = 5$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$2x^2 + 3m^2 x^2 = 5$</m> or <m>$x^2(2 + 3m^2) = 5$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$x = \frac{5}{3 + 4m}, \left(\frac{5}{3 + 4m}\right)^2\left(2 + 3m^2\right) = 5$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$m^2 + 24m - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the slopes satisfy <m>$m^2 + 24m - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$m$</m> by <m>$\frac{y}{x}$</m> gives the combined equation of the pair of lines
+        <m>$\left(\frac{y}{x}\right)^2 + 24\frac{y}{x} - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$x^2$</m> we obtain <m>$y^2 + 24x y - x^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required pair of straight lines is <m>$y^2 + 24x y - x^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 66 -->
+      <d:para>
+        Let the required lines through the origin have slope <m>$m$</m>, so <m>$y = mx$</m>.
+      </d:para>
+      <d:para>
+        From <m>$3x - 2y = 1$</m>, substitute <m>$y = mx, x(3 - 2m) = 1$</m> so <m>$x = \frac{1}{3 -
+        2m}$</m>.
+      </d:para>
+      <d:para>
+        Substitute in <m>$3x^2 + 5x y - 3y^2 + 2x + 3y = 0 \Rightarrow x^2(3 + 5m - 3m^2) + x(2 + 3m) =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Put <m>$x = \frac{1}{3 - 2m}$</m> and simplify <m>$3 + 5m - 3m^2 + (2 + 3m)(3 - 2m) = 0$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$9m^2 - 10m - 9 = 0$</m>.
+      </d:para>
+      <d:para>
+        If slopes are <m>$m_1$</m> and <m>$m_2$</m>, then <m>$m_1 m_2 = -1$</m>. Hence, the lines are
+        perpendicular.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 67 -->
+      <d:para>
+        Given <m>$y = mx + c$</m> and <m>$x^2 + y^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x^2 + (mx + c)^2 = a^2 \Rightarrow \left(1 + m^2\right)x^2 + 2m c x + \left(c^2 -
+        a^2\right) = 0$</m>
+      </d:para>
+      <d:para>
+        Let roots be <m>$x_1, x_2$</m>. Then <m>$x_1 + x_2 = -\frac{2mc}{1 + m^2}$</m>, and <m>$x_1x_2 =
+        \frac{c^2 - a^2}{1 + m^2}$</m>
+      </d:para>
+      <d:para>
+        Slopes of lines from origin are <m>$s_1 = m + \frac{c}{x_1}, s_2 = m + \frac{c}{x_2}$</m>
+      </d:para>
+      <d:para>
+        Product is <m>$s_1 s_2 = m^2 + m c\left(\frac{1}{x_1} + \frac{1}{x_2}\right) +
+        \frac{c^2}{x_1x_2}$</m>
+      </d:para>
+      <d:para>
+        Using identity: <m>$\frac{1}{x_1} + \frac{1}{x_2} = \frac{x_1 + x_2}{x_1x_2}$</m>
+      </d:para>
+      <d:para>
+        Simplifying, <m>$s_1s_2 = \frac{c^2 - m^2a^2}{c^2 - a^2}$</m>
+      </d:para>
+      <d:para>
+        For perpendicular lines: <m>$s_1s_2 = -1$</m>
+      </d:para>
+      <d:para>
+        So, <m>$\frac{c^2 - m^2a^2}{c^2 - a^2} = -1 \Rightarrow 2c^2 = a^2\left(1 + m^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 68 -->
+      <d:para>
+        Let the required lines from origin be <m>$y = kx$</m>.
+      </d:para>
+      <d:para>
+        Point of intersection satisfies both: <m>$lx + mkx + n = 0 \Rightarrow x(l + m k) + n = 0
+        \Rightarrow x = -\frac{n}{l + mk}$</m>
+      </d:para>
+      <d:para>
+        Also from parabola: <m>$(kx)^2 = 4ax \Rightarrow k^2x^2 = 4ax$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$x, k^2 \left(-\frac{n}{l + lm}\right)^2 = 4a \left(-\frac{n}{l + mk}\right)$</m>
+      </d:para>
+      <d:para>
+        Simplifying, <m>$k^2n^2 = -4an(l + m k)$</m>
+      </d:para>
+      <d:para>
+        Rearrangeing <m>$nk^2 + 4amk + 4al = 0$</m>
+      </d:para>
+      <d:para>
+        So slopes <m>$k_1, k_2$</m> satisfy: <m>$k_1 k_2 = \frac{4al}{n}$</m>
+      </d:para>
+      <d:para>
+        Hence, the required lines are given by: <m>$y = kx$</m> where <m>$k$</m> satisfies <m>$nk^2 + 4amk +
+        4al = 0$</m>
+      </d:para>
+      <d:para>
+        Condition for perpendicularity is <m>$k_1k_2 = -1$</m>
+      </d:para>
+      <d:para>
+        So, <m>$\frac{4al}{n} = -1 \Rightarrow 4al + n = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 69 -->
+      <d:para>
+        Expanding <m>$(x-3)^2 + (y-4)^2 = c^2$</m> gives <m>$x^2 + y^2 - 6x - 8y + (25 - c^2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Homogenizing with <m>$\frac{4x + 3y}{24} = 1$</m> yields the joint equation of lines from the
+        origin.
+      </d:para>
+      <d:para>
+        <m>$-1200x y + \left(25 - c^2\right)\left(16x^2 + 24x y + 9y^2\right) = 0$</m>
+      </d:para>
+      <d:para>
+        For perpendicular lines the condition is <m>$a + b = 0$</m>, where <m>$a$</m> and <m>$b$</m> are the
+        coefficients of <m>$x^2$</m> and <m>$y62$</m>:
+      </d:para>
+      <d:para>
+        <m>$16\left(25 - c^2\right) + 9\left(25 - c^2\right) = 0 \Rightarrow 25\left(25 - c^2\right) = 0
+        \Rightarrow c = \pm5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 70 -->
+      <d:para>
+        Homogenizing <m>$x^2 + y^2 = 1$</m> with <m>$y - m x = 1$</m> gives <m>$x^2 + y^2 - (y - m x)^2 =
+        0$</m>,
+      </d:para>
+      <d:para>
+        which expands to <m>$x^2 + y^2 - y^2 + 2mxy - m^2x^2 = 0$</m>, i.e. <m>$\left(1 - m^2\right)x^2 + 2m
+        x y = 0$</m>.
+      </d:para>
+      <d:para>
+        For perpendicular lines, <m>$a + b = 0$</m>, so the sum of coefficients of <m>$x^2$</m> and
+        <m>$y^2$</m> must vanish, i.e. <m>$\left(1 - m^2\right) + 0 = 0$</m>, giving <m>$m^2 = 1$</m>,
+        hence, <m>$m = \pm 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 71 -->
+      <d:para>
+        Rewrite the circle as <m>$x^2 + y^2 - 2h x - 2k y + \left(h^2 + k^2 - c^2\right) = 0$</m> and
+        homogenize using <m>$1 = \frac{kx + hy}{2hk}$</m>:
+      </d:para>
+      <d:para>
+        <m>$x^2 + y^2 - 2hx\frac{kx + hy}{2hk} - 2ky\frac{kx + hy}{2hk}( + (h^2 + k^2 - c^2)\left(\frac{kx +
+        hy}{2hk}\right)^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The coefficient of <m>$x^2$</m> is <m>$1 - 1 + \frac{h^2 + k^2 - c^2}{4h^2} = \frac{h^2 + k^2 -
+        c^2}{4h^2}$</m> and of <m>$y^2$</m> is
+      </d:para>
+      <d:para>
+        <m>$\frac{h^2 + k^2 0 c^2}{4k^2}$</m>. Applying the perpendicularity condition <m>$a + b = 0$</m>:
+      </d:para>
+      <d:para>
+        <m>$\left(h^2 + k^2 - c^2\right)\left[\frac{1}{4h^2} + \frac{1}{4k^2}\right] = 0 \Rightarrow
+        \left(h^2 + k^2 - c^2\right).\frac{h^2 + k^2}{4h^2k^2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$h, k \neq 0$</m>, the second factor is nonzero, so <m>$h^2 + k^2 = c^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 72 -->
+      <d:para>
+        Let the straight lines represented be <m>$y = m_1x$</m> and <m>$y = m_2x$</m> for <m>$ax^2 + 2hxy +
+        by^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Then, <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1m_2 = \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        The lines perpendicular to these would be <m>$x + m_1y = 0$</m> and <m>$x + m_2y = 0$</m>. Thus,
+        combined equation is
+      </d:para>
+      <d:para>
+        <m>$(x + m_1y)(x + m_2y) \Rightarrow bx^2 - 2hxy + ay^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 73 -->
+      <d:para>
+        Let one of the lines have slope <m>$m$</m> then another line will have slope
+        <m>$m\lambda$</m>. Thus,
+      </d:para>
+      <d:para>
+        <m>$(y - m x)(y - m\lambda x) = ax^2 + 2hxy + by^2 \Rightarrow m(1 + \lambda) = -\frac{2h}{b}$</m>
+        and <m>$\lambda m^2 = \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{1 + \lambda^2}{\lambda} = \frac{\frac{4h^2}{b^2}}{\frac{a}{b}} =
+        \frac{4h^2}{ab}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 74 -->
+      <d:para>
+        Let <m>$(y - m_1x)(y - m_2x) = ax^2 + 2bxy + by^2 \Rightarrow m_1 + m_2 = -\frac{2h}{b}, m_1m_2 =
+        \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        Let <m>$p_1$</m> and <m>$p_2$</m> be the length of the perpendiculars from <m>$(x_1, y_1)$</m> on
+        the two lines. Then
+      </d:para>
+      <d:para>
+        <m>$p_1p_2 = \frac{y_1 - m_1x_2}{\sqrt{1 + m_1^2}}\frac{y_1 - m_2x_1}{1 + m_2^2} = \frac{\left(y_1^2
+        - (m_1 + m_2)x_1y_1 + m_1m_2x_1^2\right)}{\sqrt{1 + m_1^2 + m_2^2 + m_1^2m_2^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{ax_1^2 + 2hx_1y_1 + b y_1^2}{\sqrt{(a - b)^2 + 4h^2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 75 -->
+      <d:para>
+        Let <m>$(y - m_1x)(y - m_2x) = ax^2 + 2bxy + by^2 \Rightarrow m_1 + m_2 = -\frac{2h}{b}, m_1m_2 =
+        \frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        If <m>$m_1 = \tan\theta_1$</m> and <m>$m_2 = \tan\theta_2$</m> then the equation of lines making an
+        angle of <m>$45^\circ$</m> with these lines will be given by
+      </d:para>
+      <d:para>
+        <m>$\left(y - \tan\left(\theta_1 - 45^\circ\right)\right)\left(y - \tan\left(\theta_2 -
+        45^\circ\right)\right) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\left(y - \frac{m_1 - 1}{1 + m_1}x\right)\left(y - \frac{m_2 - 1}{1 + m_2}x\right) = [(1 + m_1)y
+        - (m_1 - 1)x][(1 + m_2)y - (m_2 - 1)x] = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$(1 + m_1 + m_2 + m_1m_2)y^2 + [m_1m_2 - (m_1 + m_2) + 1]x^2 + 2(m_1m_2 - 1)x y = 0$</m>
+      </d:para>
+      <d:para>
+        Substituting the values yields <m>$(a + 2b + b)x^2 - 2(a - b)x y + (a - 2h + b)y^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 76 -->
+      <d:para>
+        Let the equation of any line through the origin <m>$(0, 0)$</m> be <m>$y - mx = 0$</m>.
+      </d:para>
+      <d:para>
+        Distance from <m>$(\alpha, \beta)$</m> to the line is
+      </d:para>
+      <d:para>
+        <m>$\left|\frac{\beta - m\alpha}{\sqrt{1 + m^2}}\right| = d \Rightarrow \frac{(\beta - m\alpha)^2}{1
+        + m^2} = d^2$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$m = \frac{y}{x}$</m> in the above equation yields
+      </d:para>
+      <d:para>
+        <m>$(\alpha y - \beta x)^2 = d^2\left(x^2 + y^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 77 -->
+      <d:para>
+        Let the slope of the lines given by first equation be <m>$m_1$</m> and <m>$m_2$</m>. Then
+      </d:para>
+      <d:para>
+        <m>$m_1 + m_2 = -\frac{2h}{b}\ldots$</m> (1) and  <m>$m_1m_2 = \frac{a}{b\ldots}$</m> (2)
+      </d:para>
+      <d:para>
+        Then the slope of the lines of the second equation will be <m>$m_1$</m> and <m>$-\frac{1}{m_2}$</m>
+        and
+      </d:para>
+      <d:para>
+        <m>$m_1 - \frac{1}{m_2} = -\frac{2h_1}{b_1}\ldots$</m> (3) and <m>$-\frac{m_1}{m_2} = \frac{a_1}{b_1}\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        Multiplying (2) and (4) gives
+      </d:para>
+      <d:para>
+        <m>$m_1^2 = -\frac{a_1a}{b_1b} \Rightarrow m_1 = \sqrt{-\frac{a_1a}{b_1b}}$</m>. From (4), <m>$m_2 =
+        -\frac{b_1}{a_1m_1} = -\frac{b_1}{a_1}\sqrt{-\frac{a_1a}{b_1b}}$</m>
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$m_1$</m> and <m>$m_2$</m> in (1) yields
+      </d:para>
+      <d:para>
+        <m>$b\sqrt{-\frac{a_1a}{b_1b}} = \frac{2a_1h}{b_1 - a_1} \Rightarrow \frac{1}{2}\sqrt{-a_1a b_1b} =
+        \frac{a_1b_1h}{b_1 - a_1}$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$m_1$</m> and <m>$m_2$</m> in (3) yields
+      </d:para>
+      <d:para>
+        <m>$\frac{hab}{b - a} = \frac{1}{2}\sqrt{-a a_1b b_1}$</m>. Hence proven.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 78 -->
+      <d:para>
+        Let the equations of parallel lines represented by the given equation are <m>$lx + my + n = 0$</m>
+        and <m>$lx + my + n_1 = 0$</m>, then
+      </d:para>
+      <d:para>
+        <m>$(lx + my + n)(lx + my + n_1) = ax^2 + 2hxy + by^2 + 2gx + 2fy + c$</m>
+      </d:para>
+      <d:para>
+        Comparing coefficients yields
+      </d:para>
+      <d:para>
+        <m>$l^2 = a, m^2 = b, nn_1 = c, m(n + n_1) = 2f, l(n + n_1) = 2g, 2l m = 2h$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow h = l m \Rightarrow h^2 = l^2m^2 = a b \Rightarrow \frac{a}{h} = \frac{h}{b}$</m>
+      </d:para>
+      <d:para>
+        <m>$\frac{2g}{2f} = \frac{l}{m} = \frac{lm}{m^2} = \frac{h}{b}$</m>. Hence, <m>$\frac{a}{h} =
+        \frac{h}{b} = \frac{g}{f}$</m>.
+      </d:para>
+      <d:para>
+        The distance is given by <m>$\frac{|n - n_1|}{\sqrt{l^2 - m^2}}$</m>
+      </d:para>
+      <d:para>
+        Now <m>$(n - n_1)^2 = (n + n_1)^2 - 2n_1n = 4\frac{g^2 - ca}{a} \Rightarrow |n - n_1| =
+        2\sqrt{\frac{g^2 - ca}{a}}$</m> and <m>$l^2 +  m^2 = a + b$</m>
+      </d:para>
+      <d:para>
+        <m>$d = 2\sqrt{\frac{g^2 - ca}{a(a + b)}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      <d:para>
+        Let two straight lines <m>$lx + my + n = 0$</m> and <m>$l_1x + m_1y + n_1 = 0$</m>, then <m>$(lx +
+        my + n)(l_1x + m_1y + n_1) = (ax^2 + 2hxy + by^2 + 2gx + 2fy + c)$</m>
+      </d:para>
+      <d:para>
+        Comparing coefficients yields, <m>$ll_1 = a, mm_1 = b, nn_1 = c, lm_1 + l_1m = 2h, ln_1 + l_1n = 2g,
+        mn_1 + m_1n = 2f$</m>
+      </d:para>
+      <d:para>
+        Solving the two straight line equations we get point of intersection as <m>$\left(\frac{mn_1 -
+        m_1n}{lm_1 - l_1m}, \frac{nl_1 - n_1l}{lm_1 - l_1m}\right)$</m>.
+      </d:para>
+      <d:para>
+        Distance squared from origin is <m>$\left(\frac{mn_1 - m_1n}{lm_1 - l_1m}\right)^2 +
+        \left(\frac{nl_1 - n_1l}{lm_1 + l_1m}\right)^2$</m>
+      </d:para>
+      <d:para>
+        Substituting values yields <m>$\frac{c(a + b) - f^2 - g^2}{ab - h^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 80 -->
+      <d:para>
+        Let the lines be <m>$lx + my + n = 0$</m> and <m>$l'x + m'x + n' = 0$</m> represented by <m>$ax^2 +
+        2hxy + by^2 + 2gx + 2fy + c = 0$</m>. Then
+      </d:para>
+      <d:para>
+        <m>$(lx + my + n)(l'x + m'y + n') = ax^2 + 2hxy + by^2 + 2gx + 2fy + c$</m> which implies
+      </d:para>
+      <d:para>
+        <m>$ll' = a, mm' = b, nn' = c, lm' + l'm = 2h, l n' + l'n = 2g, m n' + m'n = 2f$</m>
+      </d:para>
+      <d:para>
+        Since the lines are equidistant, therefore <m>$\frac{|n|}{\sqrt{l^2 + m^2}} = \frac{|n'|}{\sqrt{l'^2
+        + m;^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow n^2l'^2 + n^2m'^2 = n'^2l^2 + n'^2m^2 \Rightarrow (n l' - n'l)(n l' + n'l) = (m n' -
+        m'n)(m n' + m'n)$</m>
+      </d:para>
+      <d:para>
+        Squaring yields <m>$\left[\left(nl' + n'l\right)^2 - 4l l'n n'\right]\left(n l' + n'l\right)^2
+        =$</m><d:sbr/><m>$
+        \left[\left(m n' + m'n\right)^2 - 4m m'n n'\right]\left(m n' + m'n\right)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow f^4 - g^4 = c\left(bf^2 - ag^2\right)$</m> upon substitution and simplification.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 81 -->
+      <d:para>
+        Let the lines <m>$y = m_1x$</m> and <m>$y = m_2x$</m> be two parallel lines intersecting at the
+        origin <m>$A$</m>. Then <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1m_2 = \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy44">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/4_4.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Clearly, the diagonal <m>$lx + my = 1$</m> is <m>$BD$</m> as it does not pass through
+        origin. Solving this digonal with the two parallel lines we get coordinates of <m>$B =
+        \left(\frac{1}{l + mm_1}, \frac{m}{l + mm_1}\right)$</m> and <m>$D = \left(\frac{1}{l + mm_2},
+        \frac{m}{l + mm_2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$H$</m> be the point of intersection of the two diagonals then <d:sbr/><m>$H = \left(\frac{bl -
+        hm}{b(l + mm_1)(l + mm_2)}, \frac{am - hl}{b(l + mm-1)(l + mm_2)}\right)$</m> and let <m>$A$</m> be
+        the origin.
+      </d:para>
+      <d:para>
+        Equation of other diagonal passing through the origin and $H$ is given by <m>$y(b l - h m) = x(a m -
+        h l)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 82 -->
+      <d:para>
+        Let <m>$\triangle ABC$</m> be the triangle such that <m>$AB, AC$</m> and <m>$BC$</m> are given by
+      <m>$y = m_1x, y = m_2x$</m> and <m>$lx + my = 1$</m> such that
+      </d:para>
+      <d:para>
+        <m>$(y - m_1x)(y - m_2x) = ax^2 + 2hxy + by^2$</m>. Let <m>$AL$</m> and <m>$BM$</m> be
+        perpendiculars from <m>$A$</m> and <m>$B$</m> on opposite sides.
+      </d:para>
+      <d:para>
+        Equation of <m>$AL$</m> which is perpendicular to <m>$BC$</m> and passes through <m>$A$</m>, the
+        origin, is given by
+      </d:para>
+      <d:para>
+        <m>$mx - ly = 0 \Rightarrow \frac{x}{l} = \frac{y}{m} = k$</m> (say)
+      </d:para>
+      <d:para>
+        Orthocenter will be on this line and its coordinates are <m>$(kl, km)$</m> for such suitable values
+        of <m>$k$</m> for which the point may also lie on <m>$BM$</m>, perpendicular from <m>$B$</m> on
+        <m>$AC$</m>, which is perpendicular to line <m>$y = m_2x$</m>.
+      </d:para>
+      <d:para>
+        Thus, we find <m>$H$</m>, the orthocenter as <m>$H = \left(\frac{1}{l + mm_1}, \frac{m_1}{l +
+        mm_1}\right)$</m>
+      </d:para>
+      <d:para>
+        So equation of <m>$BM$</m> is <m>$m_2y + x = \frac{1 + m_1m_2}{l + mm_1}$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$(kl, km)$</m> yields <m>$k = \frac{1 + m_1m_2}{(l + mm_1)(l + mm_2)} = \frac{a +
+        b}{am^2 - 2hlm + bl^2}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{x}{l} = \frac{y}{m} = \frac{a + b}{a m^2 - 2h l m + b l^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 83 -->
+      <d:para>
+        Let <m>$y = m_1x$</m> and <m>$y = m_2x$</m> be the lines represented by <m>$a^2 + 2hxy + by^2 =
+        0$</m> i.e. <m>$(y- m_1x)(y - m_2x) = ax^2 + 2hxy + by^2$</m> then
+      </d:para>
+      <d:para>
+        <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1m_2 = \frac{a}{b}$</m>. Let these lines meet <m>$lx +
+        my + n = 0$</m> at <m>$A$</m> and <m>$B$</m> respectively, then <m>$C$</m> will be the origin.
+      </d:para>
+      <d:para>
+        Solving the equations we get <m>$A = \left(-\frac{n}{l + mm_1}, -\frac{m_1n}{l + mm_1}\right)$</m>
+        and <m>$B = \left(-\frac{n}{l + mm_2}, -\frac{m_2n}{l + mm_2}\right)$</m>
+      </d:para>
+      <d:para>
+        Then <m>$\Delta = \frac{n^2 - \sqrt{h^2 - ab}}{am^2 - 2hlm + bl^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 84 -->
+      <d:para>
+        Let <m>$\theta$</m> be the acute angle between the lines of <m>$\left(A^2 - 3B^2\right)x^2 + 8ABxy +
+        \left(B^2 - 3A^2\right)y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        then <m>$\tan\theta = \left|\frac{2\sqrt{h^2 - ab}}{a + b}\right| = \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        Writing <m>$\left(A^2 - 3B^2\right)x^2 + 8ABxy + \left(B^2 - 3A^2\right)y^2 = 0$</m> as a quadratic
+        equation in <m>$\frac{y}{x}$</m> we have
+      </d:para>
+      <d:para>
+        <m>$\frac{y}{x} = \left(\frac{-4AB\pm \sqrt{3}\left(A^2 + B^2\right)}{B^2 - 3A^2}\right)x$</m>
+      </d:para>
+      <d:para>
+        Taking the positive sign we find angle between these lines and <m>$Ax + By + C = 0$</m> is also
+        <m>$60^\circ$</m>, and hence, the triangle is equilateral.
+      </d:para>
+      <d:para>
+        Computing altitude from <m>$(0, 0)$</m> to <m>$Ax + By + C = 0$</m> we find the area as
+        <m>$\frac{C^2}{\sqrt{3\left(A^2 + B^2\right)}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 85 -->
+      <d:para>
+        Let the pair of lines be <m>$(lx + my)^2 - 3(mx - ly)^2 = 0$</m>
+      </d:para>
+      <d:para>
+        This represents two lines through the origin. Rewrite it as <m>$(lx + my)^2 = 3 (mx - ly)^2$</m>
+      </d:para>
+      <d:para>
+        Taking square roots <m>$lx + my = \sqrt{3}(mx - ly)$</m> and <m>$lx + my = -\sqrt{3}(mx - ly)$</m>
+      </d:para>
+      <d:para>
+        So the two lines are <m>$lx + my - \sqrt{3}(mx - ly) = 0$</m> and <m>$lx + my + \sqrt{3}(mx - ly) =
+        0$</m>
+      </d:para>
+      <d:para>
+        First line <m>$\left(l - \sqrt{3}m\right)x + \left(m + \sqrt{3}l\right) y = 0$</m>
+      </d:para>
+      <d:para>
+        Second line <m>$\left(l + \sqrt{3}m\right)x + \left(m - \sqrt{3}l\right) y = 0$</m>
+      </d:para>
+      <d:para>
+        Thus <m>$\tan\theta = \left|\frac{-2\sqrt{3}\left(l^2 + m^2\right)}{-2\left(l^2 + m^2\right)}\right|
+        = \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        So <m>$\theta = 60^\circ$</m>. Hence the two lines are inclined at <m>$60^\circ$</m>
+      </d:para>
+      <d:para>
+        Now consider the third line <m>$lx + my + n = 0$</m>
+      </d:para>
+      <d:para>
+        The first two lines pass through origin and make angle <m>$60^\circ$</m>. The third line does not
+        pass through origin so it intersects both lines forming a triangle.
+      </d:para>
+      <d:para>
+        Since the angle between the two lines is <m>$60^\circ$</m> and the third line cuts them
+        symmetrically with equal intercept structure, the triangle formed has all angles <m>$60^\circ$</m>.
+      </d:para>
+      <d:para>
+        Hence, the three lines form an equilateral triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 86 -->
+      <d:para>
+        Given <m>$12x^2 + 7x y - 12y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$y = mx, 12 + 7m - 12m^2 = 0 \Rightarrow 12m^2 - 7m - 12 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$m = \frac{7\pm 25}{24} \Rightarrow m_1 = \frac{4}{3}, m_2 = -\frac{3}{4}$</m>
+      </d:para>
+      <d:para>
+        Lines are <m>$4x - 3y = 0, 3x + 4y = 0$</m>
+      </d:para>
+      <d:para>
+        Given <m>$12x^2 + 7xy - 12y^2 - x + 7y - 1 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (4x - 3y + k_1)(3x + 4y + k_2) = 0$</m>
+      </d:para>
+      <d:para>
+        Comparing yields <m>$3k_1 + 4k_2 = -1, 4k_1 - 3k_2 = 7, k_1k_2 = -1$</m>
+      </d:para>
+      <d:para>
+        <m>$k_1 = 1, k_2 = -1$</m>
+      </d:para>
+      <d:para>
+        Lines are <m>$4x - 3y + 1 = 0, 3x + 4y - 1 = 0$</m>
+      </d:para>
+      <d:para>
+        Product of slopes are <m>$\frac{4}{3}\left(-\frac{3}{4}\right) = -1$</m>
+      </d:para>
+      <d:para>
+        Distances between <m>$4x - 3y = 0$</m> and <m>$4x - 3y + 1 = 0$</m> is <m>$\frac{1}{5}$</m>.
+        And between <m>$3x + 4y = 0$</m> and <m>$3x + 4y - 1 = 0$</m> is <m>$\frac{1}{5}$</m>
+      </d:para>
+      <d:para>
+        Parallel pairs, perpendicular adjacent sides, equal distances gives a square.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 87 -->
+      <d:para>
+        <m>$x^2 - 3x y + 2y^2 = 0 \Rightarrow x(x - 2y) - y(x - 2y) = (x - y)(x - 2y) = 0$</m>
+      </d:para>
+      <d:para>
+        Lines parallel to these are <m>$x - y + k = 0$</m> and <m>$x - 2y + k' = 0$</m>. Since both lines
+        pass through <m>$(1, 1)$</m>, therefore <m>$k = 0, k' = 1$</m>
+      </d:para>
+      <d:para>
+        So the combined equation is <m>$(x - y) + (x - 2y + 1) = x^2 - 3x y + 2y^2 + x - y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 88 -->
+      <d:para>
+        <m>$2x^2 - x y - y^2 = 2x(x - y) + y(x - y) \Rightarrow (x - y)(2x + y) = 0$</m>
+      </d:para>
+      <d:para>
+        The equation from whcih these were reflected will be bisectors which are perpendicular to each
+        other. Equation of bisectors is given by
+      </d:para>
+      <d:para>
+        <m>$\frac{x^2 - y^2}{2 + 1} = \frac{xy}{-\frac{1}{2}} = -2x y => x^2 - y^2 + 6x y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 89 -->
+      <d:para>
+        Given <m>$x\cos\alpha + y\sin\alpha = 1$</m> and <m>$x^2 + y^2 = a^2$</m>
+      </d:para>
+      <d:para>
+        Homogenizing yields <m>$x^2 + y^2 = a^2(x\cos\alpha + y\sin\alpha)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 - a^2 (x\cos\alpha + y\sin\alpha)^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Expanding <m>$\left(1 - a^2\cos^2\alpha\right)x^2 - 2a^2\sin\alpha\cos\alpha xy + \left(1 -
+        a^2\sin^2\alpha\right)y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        For perpendicular pair, <m>$\left(1 - a^2\cos^2\alpha\right) + \left(1 - a^2\sin^2\alpha\right) =
+        0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a^2 = 2 \Rightarrow a = \pm \sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 90 -->
+      <d:para>
+        Given <m>$ax^2 + 2hxy + by^2 = 0$</m>. For rotation of axes by an angle <m>$\theta$</m>
+        (anticlockwise), the standard transformation is
+      </d:para>
+      <d:para>
+        <m>$x = x'\cos\theta - y'\sin\theta$</m> and <m>$y = x'\sin\theta + y'\cos\theta$</m>
+      </d:para>
+      <d:para>
+        Now taking <m>$\theta = 90^\circ$</m>
+      </d:para>
+      <d:para>
+        We know <m>$\cos 90^\circ = 0, \sin 90^\circ = 1$</m>
+      </d:para>
+      <d:para>
+        Substituting,  <m>$x = x'(0) - y'(1) = -y'$</m> and <m>$y = x'(1) + y'(0) = x'$</m>
+      </d:para>
+      <d:para>
+        Hence, for <m>$90^\circ$</m> rotation: <m>$x = -y', y = x'$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$a\left(-y'\right)^2 + 2h\left(-y'\right)\left(x'\right) + b\left(x'\right)^2 =
+        0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a y'^2 - 2h x'y' + b x'^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Rewriting <m>$bx'^2 - 2hx'y' + ay'^2 = 0$</m>, thus equation is <m>$bx^2 - 2hxy + ay^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 91 -->
+      <d:para>
+        Let the equations make angles of <m>$\alpha$</m> and <m>$\beta$</m> with the positive direction of
+        <m>$x$</m>-axis. Then
+      </d:para>
+      <d:para>
+        <m>$(y - \tan\alpha x)(y - \tan\beta x) = ax^2 + 2hxy + by^2 \Rightarrow \tan\alpha + \tan\beta =
+        -\frac{2h}{b}, \tan\alpha\tan\beta = \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        <m>$y = 0$</m> is <m>$x$</m>-axis. Since the lines make angle <m>$\alpha, \beta$</m> after
+        reflection they will make same angle with negtive direction of <m>$x$</m>-axis. Thus, reflected
+        lines will make angle <m>$\pi - \alpha$</m> with positive direction of <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Thus, new equation is <m>$(y + \tan\alpha)(y + \tan\beta) = ax^2 - 2hxy + by^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 92 -->
+      <d:para>
+        Given the pair of straight lines <m>$ax^2 + 2hxy + by^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Let the lines be <m>$y = m_1x$</m> and <m>$y = m_2 x$</m> where <m>$bm^2 + 2hm + a = 0$</m>
+      </d:para>
+      <d:para>
+        Hence <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1 m_2 = \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        The perpendicular distance from <m>$\left(x', y'\right)$</m> to the line <m>$y = mx$</m> is
+        <m>$\frac{mx' - y'||}{\sqrt{m^2 + 1}}$</m>
+      </d:para>
+      <d:para>
+        The sum of the squares of the perpendiculars is <m>$S = \frac{\left(m_1x' - y'\right)^2}{m_1^2 + 1}
+        + \frac{\left(m_2 x' - y'\right)}{m_2^2 + 1}$</m>
+      </d:para>
+      <d:para>
+        On combining the two terms into a single fraction and expanding, and then using the relations <m>$m_1 +
+        m_2 = -\frac{2h}{b}$</m> and <m>$m_1 m_2 = \frac{a}{b}$</m>, the numerator simplifies to
+        <m>$4h^2\left(x'^2 + y'^2\right) + 4h(a + b)x'y' + 2(a - b)\left(ax'^2 - b y'^2\right)$</m>
+      </d:para>
+      <d:para>
+        The denominator simplifies to <m>$(a - b)^2 + 4h^2$</m>
+      </d:para>
+      <d:para>
+        Therefore the sum of the squares of the perpendiculars is <d:sbr/><m>$\frac{4h^2\left(x'^2 + y'^2\right) +
+        4h(a + b)x'y' + 2(a - b)\left(ax'^2 - by'^2\right)}{(a - b)^2 + 4h^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 93 -->
+      <d:para>
+        Let the pair of lines <m>$ax^2 + 2hxy + by^2 = 0$</m> represent two lines through the origin. Let
+        their slopes be <m>$m_1$</m> and <m>$m_2$</m> so that <m>$bm^2 + 2hm + a = 0$</m>. Hence <m>$m_1 +
+        m_2 = -\frac{2h}{b}$</m> and <m>$m_1 m_2 = \frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        The triangle is formed by these two lines and <m>$lx + my + n = 0$</m>.
+      </d:para>
+      <d:para>
+        Intersection with <m>$y = m_1x$</m> gives <m>$x_1 = -\frac{n}{l + mm_1}$</m> and <m>$y_1 =
+        -\frac{m_1n}{l + mm_1}$</m>.
+      </d:para>
+      <d:para>
+        Intersection with <m>$y = m_2x$</m> gives <m>$x_2 = -\frac{n}{l + mm_2}$</m> and <m>$y_2 =
+        -\frac{m_2n}{l + mm_2}$</m>.
+      </d:para>
+      <d:para>
+        The centroid is <m>$x = \frac{x_1 + x_2 + x_3}{3}$ and $y = \frac{y_1 + y_2 + y_3}{3}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x = -\frac{n}{3}\left(\frac{1}{l + mm_1} + \frac{1}{l + mm_2}\right)$</m> and <m>$y =
+        -\frac{n}{3} \left(\frac{m_1}{l + mm_1} + \frac{m_2}{l + mm_2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$\frac{1}{l + mm_1} + \frac{1}{l + mm_2} = \frac{2l + m(m_1 + m_2)}{(l + m m_1)(l + m
+        m_2)}$</m>
+      </d:para>
+      <d:para>
+        and <m>$(l + m m_1)(l + m m_2) = l^2 + lm(m_1 + m_2) + m^2m_1 m_2$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1 m_2 = \frac{a}{b}$</m> to get <m>$(l + m
+        m_1)(l + m m_2) = \frac{b l^2 - 2h l m + a m^2}{b}$</m>.
+      </d:para>
+      <d:para>
+        Also <m>$2l + m(m_1 + m_2) = 2l - 2h\frac{m}{b}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x = -\frac{n}{3}\frac{2l - 2h\frac{m}{b}}{\frac{b l^2 - 2h l m + a m^2}{b}} = -2n\frac{b l
+        - h m}{3 (bl^2 - 2hlm + am^2)}$</m>.
+      </d:para>
+      <d:para>
+        Similarly <m>$\frac{m_1}{l + mm_1} + \frac{m_2}{l + m m_2} = \frac{l(m_1 + m_2) + 2m m_1 m_2}{(l + m
+        m_1)(l + m m_2)}$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{-2h l/b + 2a m/b}{\frac{b l^2 - 2h l m + a m^2}{/b}} = \frac{-2hl + 2am}{bl^2 - 2hlm +
+        am^2}$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$y = -\frac{n}{3} \frac{-2h l + 2a m}{b l^2 - 2h l m + a m^2} = -2n \frac{am - hl}{3\left(b l^2
+        - 2h l m + a m^2\right)}$</m>.
+      </d:para>
+      <d:para>
+        Therefore the centroid is <m>$\left(\frac{-2n (bl - hm)}{3\left(bl^2 - 2hlm + am^2\right)}, \frac{-2n(am
+        - hl)}{3\left(bl^2 - 2hlm + am^2\right)}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 94 -->
+      <d:para>
+        Let the two sides of the triangle through the origin be represented by <m>$ax^2 + 2hxy + by^2 =
+        0$</m>
+      </d:para>
+      <d:para>
+        Let their slopes be <m>$m_1$</m> and <m>$m_2$</m>. Then they satisfy <m>$bm^2 + 2hm + a = 0$</m>
+      </d:para>
+      <d:para>
+        Hence <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1 m_2 = \frac{a}{b}$</m>. The two sides are
+        therefore <m>$y = m_1x$</m> and <m>$y = m_2x$</m>.
+      </d:para>
+      <d:para>
+        Let the third side be <m>$lx + my + n = 0$</m> and let the orthocenter be <m>$(l, m)$</m>.
+      </d:para>
+      <d:para>
+        The altitude from <m>$(l, m)$</m> to the line <m>$y = m_1 x$</m> is perpendicular to it, so its
+        slope is <m>$-\frac{1}{m_1}$</m>. Hence its equation is <m>$y - m = -\frac{1}{m_1}(x - l)$</m>.
+      </d:para>
+      <d:para>
+        Since this altitude lies along the other side <m>$y = m_2 x$</m>, substitute <m>$y = m_2 x$</m> to
+        get <m>$m_2x - m = -\frac{1}{m_1}(x - l)$</m>.
+      </d:para>
+      <d:para>
+        On simplifying this relation and using <m>$m_1m_2 = \frac{a}{b}$</m>, a relation between <m>$l$</m>
+        and <m>$m$</m> is obtained. A similar relation is obtained from the other altitude. Combining these
+        and eliminating the parameters gives the equation of the third side.
+      </d:para>
+      <d:para>
+        After simplification using <m>$m_1 + m_2 = -\frac{2h}{b}$</m> and <m>$m_1m_2 = \frac{a}{b}$</m>, the
+        equation of the third side is found to be <m>$(a + b)(lx + my) = am^2 - 2hlm + bl^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 95 -->
+      <d:para>
+        Given <m>$x^2 + 4x y + y^2 = 0$</m>. Putting <m>$y = mx, m^2 + 4m + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$m_1 = -2 + \sqrt{3}$</m> and <m>$m_2 = -2 - \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Angle between the lines <m>$\tan\theta = \left|\frac{(m_1 - m_2)}{1 + m_1 m_2}\right| =
+        \sqrt{3}$</m> so <m>$\theta = 60^\circ$</m>.
+      </d:para>
+      <d:para>
+        Hence, the angle at the origin is <m>$60^\circ$</m>.
+      </d:para>
+      <d:para>
+        The third side is <m>$x - y = 4$</m>.
+      </d:para>
+      <d:para>
+        Distance from origin to this line <m>$= \frac{|0 - 0 - 4|}{\sqrt{1^2 + (-1)^2}} = 2\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        This is the altitude of the equilateral triangle.
+      </d:para>
+      <d:para>
+        Let side be <m>$s$</m>. Altitude <m>$= s \frac{\sqrt{3}}{2} = \sqrt{6}$</m>.
+      </d:para>
+      <d:para>
+        Area <m>$= \frac{\sqrt{3}}{4} s^2 = \frac{3\sqrt{3}}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 96 -->
+      <d:para>
+        Given the pair of lines <m>$x^2 + 4xy + y^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Put <m>$y = m x, m^2 + 4m + 1 = 0 \Rightarrow m_1 = -2 + \sqrt{3}, m_2 = -2 - \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        Angle between the two lines is <m>$\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right| =
+        \sqrt{3}$</m> so <m>$\theta = 60^\circ$</m>
+      </d:para>
+      <d:para>
+        Now the third line is <m>$x + y + 4\sqrt{6} = 0$</m>. Its slope is <m>$-1$</m>
+      </d:para>
+      <d:para>
+        Check angle with <m>$y = mx, \tan\theta_1 = \left|\frac{m_1 + 1}{1 - m_1}\right| = \sqrt{3}$</m> so
+        <m>$\theta_1 = 60^\circ$</m>
+      </d:para>
+      <d:para>
+        <m>$\tan\theta_2 = \left|\frac{(m_2 + 1}{1 - m_2}\right| = \sqrt{3}$</m> so <m>$\theta_2 =
+        60^\circ$</m>
+      </d:para>
+      <d:para>
+        Therefore the triangle is equilateral and the angles are <m>$60^\circ$</m> each.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 97 -->
+      <d:para>
+        Given <m>$ax^2 + 2hxy + by^2 = 0$</m> and <m>$x\cos\alpha + y\sin\alpha = p$</m>
+      </d:para>
+      <d:para>
+        Let slopes of the pair be <m>$m_1, m_2$</m> where <m>$bm^2 + 2hm + a = 0$</m>
+      </d:para>
+      <d:para>
+        So <m>$m_1 + m_2 = -\frac{2h}{b}, m_1m_2 = \frac{a}{b}$</m>
+      </d:para>
+      <d:para>
+        Points of intersection with <m>$y = mx$</m> give <m>$x = \frac{p}{\cos\alpha + m\sin\alpha}, y =
+        \frac{mp}{\cos\alpha + m\sin\alpha}$</m>
+      </d:para>
+      <d:para>
+        Area of triangle is <m>$\frac{1}{2}|x_1 y_2 - x_2 y_1|$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{1}{2} p^2 \frac{|m_2 - m_1|}{(\cos\alpha + m_1\sin\alpha)(\cos\alpha +
+        m_2\sin\alpha)}$</m>
+      </d:para>
+      <d:para>
+        <m>$(\cos\alpha + m_1\sin\alpha)(\cos\alpha + m_2\sin\alpha) = \cos^2\alpha +
+        \cos\alpha\sin\alpha(m_1 + m_2) + \sin^2\alpha m_1m_2$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{b\cos^2\alpha - 2h\sin\alpha\cos\alpha + a\sin^2\alpha}{b}$</m>
+      </d:para>
+      <d:para>
+        Also <m>$m_2 - m_1 = 2\frac{\sqrt{h^2 - ab}}{b}$</m>
+      </d:para>
+      <d:para>
+        So area becomes <m>$p^2\frac{\sqrt{h^2 - ab}}{b\cos^2\alpha - 2h\sin\alpha\cos\alpha + a\sin^2\alpha}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 98 -->
+      <d:para>
+        Given <m>$ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m>
+      </d:para>
+      <d:para>
+        Set <m>$y = 0$</m> to get intersection with <m>$x$</m>-axis, <m>$ax^2 + 2gx + c = 0$</m>
+      </d:para>
+      <d:para>
+        Let roots be $x_1, x_2$. So base lies on x-axis with endpoints <m>$(x_1, 0)$</m> and <m>$(x_2,
+        0)$</m>
+      </d:para>
+      <d:para>
+        Base length <m>$|x_1 - x_2| = 2\frac{\sqrt{g^2 - ac}}{|a|}$</m>
+      </d:para>
+      <d:para>
+        The pair of lines has angle factor of <m>$\sqrt{h^2 - a b}$</m>
+      </d:para>
+      <d:para>
+        Hence, area of triangle formed by the pair of lines and x-axis is <m>$\frac{g^2 - a c}{a\sqrt{h^2 - a b}}$</m>.
       </d:para>
     </d:listitem>
   </d:orderedlist>
