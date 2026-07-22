@@ -1489,5 +1489,1144 @@
         Hence, the equation of the cirlce is <m>$9(x^2 + y^2) + 6x + 24y + 1 = 0$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 74 -->
+      <d:para>
+        Let the circle be <m>$x^2 + y^2 + gx + fy + c = 0$</m>. Substituting point <m>$(1, 0)$</m> gives
+      </d:para>
+      <d:para>
+        <m>$1 + g + c = 0$</m> so <m>$g + c = -1$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$(0, 1)$</m> gives <m>$1 + f + c = 0$</m> so <m>$f + c = -1$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$(1, -2)$</m> gives <m>$1 + 4 + g - 2f + c = 0$</m> so <m>$g - 2f + c =
+        -5$</m>.
+      </d:para>
+      <d:para>
+        From <m>$g + c = -1$</m> we get <m>$g = -1 - c$</m>. From <m>$f + c = -1$</m> we get <m>$f = -1 -
+        c$</m>.
+      </d:para>
+      <d:para>
+        Substitute into <m>$g - 2f + c = -5$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$(-1 - c) - 2(-1 - c) + c = -5$</m>. So <m>$-1 - c + 2 + 2c + c = -5$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$1 + 2c = -5$</m> so <m>$c = -3$</m>. Then <m>$g = 2$</m> and <m>$f = 2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation of the circle is <m>$x^2 + y^2 + 2x + 2y - 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 75 -->
+      <d:para>
+        Let the circle be <m>$x^2 + y^2 + gx + fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$(0, 0)$</m> gives <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$(a, 0)$</m> gives <m>$a^2 + ga = 0$</m> so <m>$g = -a$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$(0, b)$</m> gives <m>$b^2 + fb = 0$</m> so <m>$f = -b$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation of the circle is <m>$x^2 + y^2 - a x - b y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 76 -->
+      <d:para>
+        Let the circle be <m>$x^2 + y^2 + g x + f y + c = 0$</m>. Since it passes through the origin, we get
+        <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        So the equation becomes <m>$x^2 + y^2 + g x + f y = 0$</m>.
+      </d:para>
+      <d:para>
+        Now we consider the intercept on the positive <m>$x$</m>-axis. Putting <m>$y = 0$</m> gives <m>$x^2
+        + g x = 0$</m> which gives <m>$x(x + g) = 0$</m>.
+      </d:para>
+      <d:para>
+        So the intercept points are <m>$x = 0$</m> and <m>$x = -g$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord on the positive <m>$x$</m>-axis is <m>$4$</m>. Hence, <m>$-g = 4$</m> so
+        <m>$g = -4$</m>.
+      </d:para>
+      <d:para>
+        Now we consider the intercept on the positive <m>$y$</m>-axis. Putting <m>$x = 0$</m> gives <m>$y^2
+        + f y = 0$</m> which gives <m>$y(y + f) = 0$</m>.
+      </d:para>
+      <d:para>
+        So the intercept points are <m>$y = 0$</m> and <m>$y = -f$</m>. The length of the chord on the
+        positive <m>$y$</m>-axis is <m>$6$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$-f = 6$</m> so <m>$f = -6$</m>. Therefore, the equation of the circle is <m>$x^2 + y^2 -
+        4x - 6y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 77 -->
+      <d:para>
+        The given lines are <m>$y = x, y = 2x$</m> and <m>$y = 3x + 2$</m>.
+      </d:para>
+      <d:para>
+        From <m>$y = x$</m> and <m>$y = 2x$</m> we get <m>$A(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$y = x$</m> and <m>$y = 3x + 2$</m> we get <m>$B(-1, -1)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$y = 2x$</m> and <m>$y = 3x + 2$</m> we get <m>$C(-2, -4)$</m>.
+      </d:para>
+      <d:para>
+        Let the circle be circle <m>$x^2 + y^2 + g x + f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$A(0, 0)$</m> and get <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$B(-1, -1)$</m> gives <m>$1 + 1 - g - f = 0$</m> so <m>$g + f = 2$</m>.
+      </d:para>
+      <d:para>
+        Substituting point <m>$C(-2, -4)$</m> gives <m>$4 + 16 - 2g - 4f = 0$</m> so <m>$g + 2f = 10$</m>.
+      </d:para>
+      <d:para>
+        From <m>$g + f = 2$</m> we get <m>$g = 2 - f$</m>.
+      </d:para>
+      <d:para>
+        Substituting into <m>$g + 2f = 10$</m> gives <m>$2 - f + 2f = 10$</m> so <m>$f = 8$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$g = -6$</m>. Hence, the equation of the circumcircle is <m>$x^2 + y^2 - 6x + 8y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 78 -->
+      <d:para>
+        The given sides of the triangle are <m>$7x - y + 11 = 0, x + y - 15 = 0$</m> and <m>$7x + 17y + 65 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        From <m>$7x - y + 11 = 0$</m> and <m>$x + y - 15 = 0$</m> we get <m>$A\left(\frac{1}{2},
+        \frac{29}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x + y - 15 = 0$</m> and <m>$7x + 17y + 65 = 0$</m> we get <m>$B(-10, 25)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$7x + 17y + 65 = 0$</m> and <m>$7x - y + 11 = 0$</m> we get <m>$C\left(-\frac{19}{3},
+        -\frac{100}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        If the side lengths opposite <m>$A, B, C$</m> are <m>$a, b, c$</m> then the incenter is
+      </d:para>
+      <d:para>
+        <m>$\frac{ax_1 + bx_2 + cx_3}{a + b + c}$</m> and <m>$\frac{ay_1 + by_2 + cy_3}{a + b + c}$</m>.
+      </d:para>
+      <d:para>
+        Length <m>$a = BC = 5\sqrt{85}$</m>. Length <m>$b = CA = 43\sqrt{5}$</m>. Length <m>$c = AB =
+        3\sqrt{85}$</m>.
+      </d:para>
+      <d:para>
+        After simplification the incenter is <m>$(-3, 11)$</m>.
+      </d:para>
+      <d:para>
+        Now find the radius which is the perpendicular distance from the incenter to any side.
+      </d:para>
+      <d:para>
+        Distance to <m>$x + y - 15 = 0$</m> is <m>$\frac{|-3 + 11 - 15|}{\sqrt{2}} = \frac{7}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation of the incircle is <m>$(x + 3)^2 + (y - 11)^2 = \frac{49}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      <d:para>
+        Let the circle be <m>$x^2 + y^2 + gx + fy + c = 0$</m>. Since it passes through the origin, we get
+        <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        So the equation becomes <m>$x^2 + y^2 + gx + fy = 0$</m>.
+      </d:para>
+      <d:para>
+        Now we consider the line <m>$3x = 4y$</m> which is <m>$3x - 4y = 0$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from the center <m>$\left(-\frac{g}{2}, -\frac{f}{2}\right)$</m> to this
+        line is
+      </d:para>
+      <d:para>
+        <m>$\frac{|3\left(-\frac{g}{2}\right) - 4\left(-\frac{f}{2}\right)|}{5} = \frac{|-3g +
+        4f|}{10}$</m>.
+      </d:para>
+      <d:para>
+        Since the circle cuts off a chord of length <m>$1$</m> on this line, we use
+      </d:para>
+      <d:para>
+        <m>$1 = 2\sqrt{r^2 - d^2}$</m>. So <m>$r^2 - d^2 = \frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$r^2 = \frac{g^2 + f^2}{4}$</m>. So <m>$\frac{g^2 + f^2}{4} - \frac{(-3g + 4f)^2}{100} =
+        \frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        Similarly for the line <m>$4x = 3y$</m> which is <m>$4x - 3y = 0$</m>. Distance from center is
+        <m>$\frac{|-4g + 3f|}{10}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\frac{g^2 + f^2}{4} - \frac{(-4g + 3f)^2}{100} = \frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        Now subtract the two equations. This gives <m>$(-3g + 4f)^2 = (-4g + 3f)^2$</m>.
+      </d:para>
+      <d:para>
+        So either <m>$-3g + 4f = -4g + 3f$</m> or <m>$-3g + 4f = 4g - 3f$</m>. First case gives <m>$g + f =
+        0$</m>. Second case gives <m>$g = f$</m>.
+      </d:para>
+      <d:para>
+        Now substitute each case. For <m>$g + f = 0$</m> we get <m>$g = -f$</m>.
+      </d:para>
+      <d:para>
+        Substitute into equation and solve to get <m>$g = 1$</m> and <m>$f = -1$</m>.
+      </d:para>
+      <d:para>
+        For <m>$g = f$</m> we substitute and get <m>$g = -1$</m> and <m>$f = -1$</m>.
+      </d:para>
+      <d:para>
+        Hence the required circles are <m>$x^2 + y^2 + x - y = 0$</m> and <m>$x^2 + y^2 - x - y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      <d:para>
+        Common chord of the circles is <m>$x^2 + y^2 - 4x - 5 - (x^2 + y^2 + 8y + 7) = 0 \Rightarrow x + 2y
+        + 3 = 0$</m>
+      </d:para>
+      <d:para>
+        Equation of such a circle is <m>$x^2 + y^2 - 4x - 5 + k(x + 2y + 3 ) = 0 \Rightarrow x^2 + y^2 - (4
+        - k)x + 2k y - 3k - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Its center is <m>$\left(\frac{4 - k}{2}, -k\right)$</m>. If <m>$x + 2y + 3 = 0$</m> is diameter then
+        <m>$\frac{4 - k}{2} - 2k + 3 = 0 \Rightarrow k = 2$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$x^2 + y^2 - 2x + 4y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 81 -->
+      <d:para>
+        Equation of any circle passing through the point of intersection of the given circle and the given
+        chord is <m>$x^2 + y^2 - a^2 + k(x\cos\alpha + y\sin\alpha - p) = 0$</m>.
+      </d:para>
+      <d:para>
+        Center of this circle is <m>$\left(-\frac{k\cos\alpha}{2}, -\frac{k\sin\alpha}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$x\cos\alpha + y\sin\alpha - p = 0$</m> is the diameter of this circle the center will lie
+        on this line, therefore,
+      </d:para>
+      <d:para>
+        <m>$-\frac{k\cos\alpha}{2}\cos\alpha - \frac{k\sin\alpha}{2}\sin\alpha - p = 0 \Rightarrow k =
+        -2p$</m>
+      </d:para>
+      <d:para>
+        Thus, the equation of the circle becomes <m>$x^2 + y^2 - a^2 - 2p(x\cos\alpha + y\sin\alpha - p) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 82 -->
+      <d:para>
+        Clearly <m>$x^2 + y^2 - 4 = 0$</m> is the equation of a circle with center at origin and radius
+        <m>$2$</m>.
+      </d:para>
+      <d:para>
+        Also line <m>$y = m x + 2\sqrt{1 + m^2}$</m> is the equation of the line which touches the circle
+        for all values for $m$.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> be the point of contact of the circle and the line. Clearly, given equation is the
+        equation of circles passing through the point of contact of the given circle and the given line. Any
+        two circles of this family touch each other at <m>$P$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 83 -->
+      <d:para>
+        Equation of the line joining the points <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> is <m>$y - y_1 =
+        \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        Also equation of the circle with <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> as endpoints of the
+        diameter is <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Equation of any circle passing through the point of intersection of the above circle and line is
+        given by <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) + \lambda \begin{vmatrix}x &amp; y &amp; 1\\
+        x_1 &amp; y_1 &amp; 1\\ x_2 &amp; y_2 &amp; 1\end{vmatrix} = 0$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$\lambda = 0$</m> gives <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$</m>, which is
+        the diameter form of the equation of the circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 84 -->
+      <d:para>
+        Equation of any circle through the point of intersection <m>$P$</m> and <m>$Q$</m> of the line and
+        the circle is <m>$x^2 + y^2 + ax + by + c + \lambda(Ax + By + C) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 + (a + \lambda A)x + (b + \lambda B)y + c + \lambda C = 0$</m>.
+      </d:para>
+      <d:para>
+        Similarly for other pair of line and circle <m>$x^2 + y^2 + (a' + \mu A')x + (b' + \mu B')y + c' +
+        \mu C' = 0$</m>
+      </d:para>
+      <d:para>
+        If the two circles are the same then the points <m>$P, Q, R$</m> and <m>$S$</m> will be concyclic.
+      </d:para>
+      <d:para>
+        Comparing coefficients <m>$1 = \frac{a + \lambda A}{a' + \mu A'} = frac{b + \lambda B}{b' + \mu B'}
+        = \frac{c + \lambda C}{c' + \mu C'}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$a - a' + \lambda A - mu A' = 0, b - b' + \lambda B - \mu B' = 0$</m>, and <m>$c - c' +
+        \lambda C - \mu C' = 0$</m>.
+      </d:para>
+      <d:para>
+        Eliminating <m>$\lambda$</m> and <m>$-\mu$</m> and writing in discriminant form we have
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix}a - a' &amp; A &amp; A'\\ b - b' &amp; B &amp; B'\\ c - c' &amp; C &amp;
+        C'\end{vmatrix} = \begin{vmatrix} a - a' &amp; b - b' &amp; c - c'\\ A &amp; B &amp; C\\ A' &amp; B'
+        &amp; C'\end{vmatrix} = 0$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 85 -->
+      <d:para>
+        Equation of any circle possing through the points <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m> is
+        given by
+      </d:para>
+      <d:para>
+        <m>$S = (x - x_1)(x - x_2) + (y - y_1)(y - y_2) + \lambda\begin{vmatrix}x &amp; y &amp; 1\\ x_1
+        &amp; y_1 &amp; 1\\x_2 &amp; y_2 &amp; 1\end{vmatrix} = 0 \dots$</m> (1)
+      </d:para>
+      <d:para>
+        Let the fixed circle be <m>$S' = x^2 + y^2 + 2gx + 2fy + c = 0 \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Equation of the chord of intersection of circles (1) and (2) will be <m>$S - S' = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow -(x_1 + x_2 + 2g)x - (y_1 + y_2 + 2f)y + x_1x_2 + y_1y_2 - c + \lambda
+        \begin{vmatrix}x &amp; y &amp; 1\\ x_1 &amp; y_1 &amp; 1\\x_2 &amp; y_2 &amp; 1\end{vmatrix} =
+        0\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Clearly this line passes through the point of intersection of two fixed lines <m>$-(x_1 + x_2 + 2g)x
+        - (y_1 + y_2 + 2f)y + x_1x_2 + y_1y_2 - c = 0$</m> and <m>$\begin{vmatrix}x &amp; y &amp; 1\\ x_1
+        &amp; y_1 &amp; 1\\x_2 &amp; y_2 &amp; 1\end{vmatrix} = 0$</m>, which is a fixed point.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 86 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 - a^2 = 0 \dots$</m> (1)
+      </d:para>
+      <d:para>
+        Since <m>$PQ$</m> and <m>$PR$</m> are tangents to the circle (1), therefore <m>$QR$</m> will be the
+        chord of contact of point <m>$(x_1, y_1)$</m>, and hence, equaiton of <m>$QR$</m> will be
+      </d:para>
+      <d:para>
+        <m>$xx_1 + yy_1 - a^2 = 0 \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Equation of any circle through the point of intersection <m>$Q$</m> and <m>$R$</m> of (1) and (2) is
+      </d:para>
+      <d:para>
+        <m>$x^2 + y^2 - a^2 + k(x x_1 + y y_1 - a^2) = 0 \ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Circle (3) will be circumcircle of <m>$\triangle PQR$</m> if circle (3) passes through the point
+        <m>$P(x_1, y_1)$</m> i.e.
+      </d:para>
+      <d:para>
+        <m>$x_1^2 + y_1^2 - a^2 + k(x_1^2 + y_1^2 - a^2) = 0 \Rightarrow k = -1$</m>
+      </d:para>
+      <d:para>
+        Hence, required circle is <m>$x^2 + y^2 - x x_1 - y y_1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 87 -->
+      <d:para>
+        Given circles are <m>$x^2 + y^2 - 6x + 2y + 4 = 0 \ldots$</m> (1) and <m>$x^2 + y^2 + 2x - 4y - 6 =
+        0 \ldots$</m> (2) and given line is <m>$x - y = 0 \ldots$</m> (3).
+      </d:para>
+      <d:para>
+        Equation of any circle passing through the point of intersection of circles (1) and (2) is
+      </d:para>
+      <d:para>
+        <m>$x^2 + y^2 - 6x + 2y + 4 + k\left(x^2 + y^2 + 2x - 4y - 6\right) = 0 \Rightarrow (1 + k)x^2 + (1 + k)y^2 -
+        2(3 - k)x + 2(1 - 2k)y + 4 - 6k = 0$</m>
+      </d:para>
+      <d:para>
+        Its center is <m>$\left(\frac{3 - k}{1 + k}, \frac{2k - 1}{1 + k}\right)$</m>. Since it lies on the line
+        (3), therefore,
+      </d:para>
+      <d:para>
+        <m>$\frac{3 - k}{1 + k} - \frac{2k - 1}{1 + k} = 0 \Rightarrow k = \frac{4}{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, required equation is <m>$x^2 + y^2 - \frac{10}{7}x - \frac{10}{7}y - \frac{12}{7} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 88 -->
+      <d:para>
+        Let <m>$S_1 = x^2 + y^2 + 2g x + 2f y + c = 0 \dots$</m> (1) and <m>$S_2 = x^2 + y^2 + 2g'x + 2f'y +
+        c' = 0 \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Now equation of common chord of the circles is <m>$S_1 - S_2 = 0 \Rightarrow 2(g - g')x + 2(f - f')y
+        + c - c' = 0 \ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Since cirlce (1) bisects the circumference of the circle (2), therefore, common chord will be the
+        diameter of the circle (2) and hence center will be <m>$(-g', -f')$</m> of circle (2) will lie on
+        the line (3)
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow -2(g - g')g' - 2(f - f')f' + c - c' = 0 \Rightarrow 2g'(g - g') + 2f'(f - f') = c -
+        c'$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 89 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 - 2x - 4y - 4 = 0$</m> and <m>$x^2 + y^2 - 10x - 12y + 40 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The family of circles passing through their points of intersection is <m>$S_1 + \lambda S_2 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        So the required circle is <m>$\left(x^2 + y^2 - 2x - 4y - 4\right) + \lambda\left(x^2 + y^2 - 10x -
+        12y + 40\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$(1 + \lambda)\left(x^2 + y^2\right) + (-2 - 10\lambda)x + (-4 - 12\lambda)y + (-4 +
+        40\lambda) = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 + \frac{-2 - 10\lambda}{1 + \lambda} x + \frac{-4 - 12\lambda}{1 +
+        \lambda} y + \frac{-4 + 40\lambda}{1 + \lambda} = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing with <m>$x^2 + y^2 + gx + fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g = \frac{-2 - 10\lambda}{1 + \lambda}, f = \frac{-4 - 12\lambda}{1 + \lambda}$</m>, and
+        <m>$c = \frac{-4 + 40\lambda}{1 + \lambda}$</m>.
+      </d:para>
+      <d:para>
+        The radius condition is <m>$g^2 + f^2 - c = 16$</m>. After solving we get <m>$\lambda = 1$</m>.
+      </d:para>
+      <d:para>
+        Then the equation becomes <m>$2(x^2 + y^2) - 12x - 16y + 36 = 0 \Rightarrow x^2 + y^2 - 6x - 8y + 18
+        = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 90 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 - 6x - 4y + 9 = 0$</m> and <m>$x^2 + y^2 - 8x - 6y + 23 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The common chord is obtained by subtracting the two equations.
+      </d:para>
+      <d:para>
+        So we get <m>$\left(x^2 + y^2 - 6x - 4y + 9\right) - \left(x^2 + y^2 - 8x - 6y + 23\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$2x + 2y - 14 = 0$</m> or <m>$x + y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x^2 + y^2 - 8x - 6y + 23 = 0$</m> the center is <m>$(4, 3)$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(4, 3)$</m> into <m>$x + y - 7 = 0$</m>. We get <m>$4 + 3 - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        So the common chord passes through the center of the second circle.
+      </d:para>
+      <d:para>
+        The radius of the second circle is <m>$r^2 = 16 + 9 - 23 = 2$</m> so <m>$r = \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from the center <m>$(4, 3)$</m> to the chord <m>$x + y - 7 = 0$</m> is
+        <m>$\frac{|4 + 3 - 7|}{\sqrt{2}} = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the chord passes through the center, so it is a diameter.
+      </d:para>
+      <d:para>
+        Therefore, the length of the chord is <m>$2r = 2\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 91 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2x + 3y + 1 = 0$</m> and <m>$x^2 + y^2 + 4x + 3y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The common chord is obtained by subtracting the equations.
+      </d:para>
+      <d:para>
+        So we get <m>$\left(x^2 + y^2 + 2x + 3y + 1\right) - \left(x^2 + y^2 + 4x + 3y + 2\right) = 0
+        \Rightarrow -2x - 1 = 0$</m> or <m>$x = -\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Now for a circle with diameter along a line, we use the fact that its center lies on the
+        perpendicular bisector of the chord.
+      </d:para>
+      <d:para>
+        The midpoint of the chord lies on the line joining the centers of the two given circles.
+      </d:para>
+      <d:para>
+        The centers are <m>$\left(-1, -\frac{3}{2}\right)$</m> and <m>$\left(-2,
+        -\frac{3}{2}\right)$</m>. So the line joining centers is <m>$y = -\frac{3}{2}$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of the chord is intersection of <m>$x = -\frac{1}{2}$</m> and <m>$y = -\frac{3}{2}$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$\left(-\frac{1}{2}, -\frac{3}{2}\right)$</m>. Substitute <m>$x =
+        -\frac{1}{2}$</m> in first circle.
+      </d:para>
+      <d:para>
+        Then <m>$\frac{1}{4} + y^2 - 1 + 3y + 1 = 0$</m>. This gives <m>$y^2 + 3y + \frac{1}{4} = 0$</m>.
+      </d:para>
+      <d:para>
+        Solve to get <m>$y = \frac{-3 \pm 2\sqrt{2}}{2}$</m>.
+      </d:para>
+      <d:para>
+        So the radius squared is <m>$r^2 = \left(\sqrt{2}\right)^2 = 2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation of the circle is <m>$\left(x + \frac{1}{2}\right)^2 + \left(y +
+        \frac{3}{2}\right)^2 = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 92 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 2a x = 0$</m> and the chord is <m>$y = mx$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y = mx$</m> into the circle.
+      </d:para>
+      <d:para>
+        This gives <m>$x^2 + m^2 x^2 - 2a x = 0 \Rightarrow \left(1 + m^2\right)x^2 - 2a x = 0$</m>.
+      </d:para>
+      <d:para>
+        So the points of intersection are <m>$x = 0$</m> and <m>$x = \frac{2a}{1 + m^2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the points are <m>$(0, 0)$</m> and <m>$\left(\frac{2a}{1 + m^2}, \frac{2am}{1 +
+        m^2}\right)$</m>.
+      </d:para>
+      <d:para>
+        These are the endpoints of the chord.
+      </d:para>
+      <d:para>
+        The equation of the circle with this chord as diameter is <m>$\left(\frac{2a}{1 + m^2}, \frac{2am}{1
+        + m^2}\right)$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$x\left(x - \frac{2a}{1 + m^2}\right) + y\left(y - \frac{2am}{1 + m^2}\right) = 0
+        \Rightarrow \left(1 + m^2\right)\left(x^2 + y^2\right) - 2a(x + my) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 93 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 - 6x + 2y + 4 = 0$</m> and <m>$x^2 + y^2 + 2x - 4y - 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        The family of circles passing through their points of intersection is
+      </d:para>
+      <d:para>
+        <m>$S_1 + \lambda S_2 = 0$</m>. So the required circle is
+      </d:para>
+      <d:para>
+        <m>$(x^2 + y^2 - 6x + 2y + 4) + \lambda\left(x^2 + y^2 + 2x - 4y - 6\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (1 + \lambda)(x^2 + y^2) + (-6 + 2\lambda)x + (2 - 4\lambda)y + (4 - 6\lambda) = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 + \frac{-6 + 2\lambda}{1 + \lambda} x + \frac{2 - 4\lambda}{1 + \lambda}y
+        + \frac{4 - 6\lambda}{1 + \lambda} = 0$</m>.
+      </d:para>
+      <d:para>
+        The center is <m>$\left(\frac{6 - 2\lambda}{2(1 + \lambda)}, \frac{-2 + 4\lambda}{2(1 +
+        \lambda)}\right)$.</m>
+      </d:para>
+      <d:para>
+        Since the center lies on <m>$y = x$</m>, equate the coordinates. So <m>$6 - 2\lambda = -2 + 4\lambda$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$8 = 6\lambda$</m> so <m>$\lambda = \frac{4}{3}$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$1 + \lambda = \frac{7}{3}$</m>. So the equation becomes
+      </d:para>
+      <d:para>
+        <m>$\frac{7}{3}\left(x^2 + y^2\right) + \left(-\frac{10}{3}\right)x + \left(-\frac{10}{3}\right)y -
+        4 = 0 \Rightarrow 7(x^2 + y^2) - 10x - 10y - 12 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 94 -->
+      <d:para>
+        The given equation is <m>$x^2 + y^2 + 2(3 + p)x + 2(3 - p)y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        This is of the form <m>$x^2 + y^2 + g x + f y + c = 0$</m> so it represents a circle for all values
+        of <m>$p$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 + 6x + 6y + 4 + 2p(x - y) = 0$</m>.
+      </d:para>
+      <d:para>
+        For fixed points, the equation must be satisfied for all values of <m>$p$</m>.
+      </d:para>
+      <d:para>
+        So the coefficient of <m>$p$</m> must be zero and the remaining part must also be zero.
+      </d:para>
+      <d:para>
+        Thus, we get <m>$x - y = 0$</m> and <m>$x^2 + y^2 + 6x + 6y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        From <m>$x - y = 0$</m> we get <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        Substitute into the second equation <m>$x^2 + x^2 + 6x + 6x + 4 = 0 \Rightarrow 2x^2 + 12x + 4 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Solving gives <m>$x = -3 \pm\sqrt{7}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$y = x$</m>, the fixed points are <m>$\left(-3 + \sqrt{7}, -3 + \sqrt{7}\right)$ and
+        $\left(-3 - \sqrt{7}, -3 - \sqrt{7}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 95 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 - 4a^2 = 0$</m> and <m>$x^2 + y^2 - 2x - 4y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        The family of circles through their intersection is <m>$(x^2 + y^2 - 4a^2) + \lambda(x^2 + y^2 - 2x
+        - 4y + 4) = 0$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$(1 + \lambda)\left(x^2 + y^2\right) - 2\lambda x - 4\lambda y + \left(-4a^2 +
+        4\lambda\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        The center is <m>$\left(\frac{\lambda}{1 + \lambda}, \frac{2\lambda}{1 + \lambda}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since the circle touches <m>$x + 2y = 0$</m>, the distance from center equals radius.
+      </d:para>
+      <d:para>
+        This gives <m>$\frac{4a^2 - 4\lambda}{1 + \lambda} = 0$</m> so <m>$\lambda = a^2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required circle is <m>$\left(1 + a^2\right)\left(x^2 + y^2\right) - 2a^2 x - 4a^2 y +
+        4a^2\left(1 - a^2\right) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 96 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - x - y = 0$</m> and the line <m>is $x + y = 1$</m>.
+      </d:para>
+      <d:para>
+        The family of circles passing through their intersection points is <m>$x^2 + y^2 - x - y + \lambda(x + y
+        - 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$x^2 + y^2 + (-1 + \lambda)x + (-1 + \lambda)y - \lambda = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the circle passes through <m>$(1, 1)$</m>, substitute it.
+      </d:para>
+      <d:para>
+        So <m>$1 + 1 + (-1 + \lambda) + (-1 + \lambda) - \lambda = 0 \Rightarrow \lambda = -2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required circle is <m>$x^2 + y^2 - 3x - 3y + 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 97 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = a^2$</m> and the line is <m>$px + qy - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(x_1, y_1)$</m> and <m>$(x_2, y_2)$</m> be the endpoints of this chord.
+      </d:para>
+      <d:para>
+        Equation of the circle is <m>$x^2 + y^2 - (x_1 + x_2)x - (y_1 + y_2)y + (x_1x_2 + y_1y_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$(x_1 + x_2, y_1 + y_2)$</m> is twice the midpoint of the chord.
+      </d:para>
+      <d:para>
+        The midpoint is the foot of the perpendicular from the center <m>$(0, 0)$</m> to the line.
+      </d:para>
+      <d:para>
+        So midpoint is <m>$\left(\frac{p}{p^2 + q^2}, \frac{q}{p^2 + q^2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$x_1 + x_2 = \frac{2p}{p^2 + q^2}$</m> and <m>$y_1 + y_2 = \frac{2q}{p^2 + q^2}$</m>.
+      </d:para>
+      <d:para>
+        Also both points satisfy <m>$px + qy = 1$</m>. So <m>$p(x_1 + x_2) + q(y_1 + y_2) = 2$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x_1x_2 + y_1y_2 = \frac{1}{p^2 + q^2}$</m>. Substitute in the diameter form.
+      </d:para>
+      <d:para>
+        Hence, the required circle is <m>$x^2 + y^2 - \frac{2p}{p^2 + q^2}x - \frac{2q}{p^2 + q^2}y +
+        \frac{1}{p^2 + q^2} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 98 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m> and the external point is <m>$A(\alpha,
+        \beta)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P$</m> and <m>$Q$</m> be the points of contact of tangents from <m>$A$</m>. The chord of
+        contact of <m>$A$</m> with respect to the circle is <m>$T = 0$</m>.
+      </d:para>
+      <d:para>
+        So the equation of chord <m>$PQ$</m> is <m>$x\alpha + y\beta + g(x + \alpha) + f(y + \beta) + c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The circumcircle of <m>$\triangle PQR$</m> where <m>$R$</m> is the center of the given circle is
+        obtained by combining <m>$S = 0$</m> and <m>$T = 0$</m>.
+      </d:para>
+      <d:para>
+        So its equation is <m>$S + \lambda T = 0$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$A(\alpha, \beta)$</m>, we substitute it. Then <m>$S_1 + \lambda T_1 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$T_1 = S_1$</m>. So we get <m>$S_1(1 + \lambda) = 0$</m> which gives <m>$\lambda = -1$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required circle is <m>$S - T = 0$</m>.
+      </d:para>
+      <d:para>
+        So the equation is <m>$x^2 + y^2 + 2gx + 2fy + c - [x\alpha + y\beta + g(x + \alpha) + f(y + \beta)
+        + c] = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 + (g - \alpha)x + (f - \beta)y - (g\alpha + f\beta) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 99 -->
+      <d:para>
+        Substituting the value of <m>$y = \frac{1}{4}(3x - c)$</m> in the equation of the circle gives us
+      </d:para>
+      <d:para>
+        <m>$x^2 + \frac{1}{16}(3x - c)^2 - 4x - 8.\frac{1}{4}(3x - c) - 5 = 0 \Rightarrow 25x^2 - 2(80 +
+        3c)x + c^2 + 32c - 80 = 0$</m>
+      </d:para>
+      <d:para>
+        The given line and circle will intersect if the above quadratic equation's roots are real
+        i.e. discrimininate <m>$> 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4(80 + 3c)^2 - 100(c^2 + 32c - 80) > 0 => c^2 + 20c - 525 &lt; 0 \Rightarrow -35
+        &lt; c &lt; 15$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 100 -->
+      <d:para>
+        Center of the circle is <m>$\left(-\frac{3}{2}, \frac{1}{2}\right)$</m> and radius is
+        <m>$\frac{5}{\sqrt{2}}$</m>. Let <m>$l$</m> be the length of the perpendicular from the center to
+        the given line then
+      </d:para>
+      <d:para>
+        <m>$l = \frac{\left|4\left(-\frac{3}{2}\right) - \frac{3}{2} - 5\right|}{5} = \frac{5}{2}$</m>
+      </d:para>
+      <d:para>
+        Hence, length of the chord is <m>$2\sqrt{\frac{25}{2} - \frac{25}{4}} = \frac{5}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 101 -->
+      <d:para>
+        Center of the circle is <m>$(0, 0)$</m> and its perpendicular distance from the line is
+        <m>$\frac{\left|a\sqrt{2}\right|}{\sqrt{2}} = a$</m>, which is equal to the radius of the circle.
+      </d:para>
+      <d:para>
+        Hence, the given circle touches the given line. Let <m>$(\alpha, \beta)$</m> be the point of
+        contact. Then equation of tangent is given by <m>$\alpha x + \beta y - a^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Comparing the coefficients with the given equation of the line we have
+      </d:para>
+      <d:para>
+        <m>$\frac{\alpha}{1} = \frac{\beta}{-1} = -\frac{a^2}{a\sqrt{2}} \Rightarrow (\alpha, \beta) =
+        \left(-\frac{a}{\sqrt{2}}, \frac{a}{\sqrt{2}}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 102 -->
+      <d:para>
+        Center of the given circle is <m>$(3, -2)$</m> and radius is <m>$5$</m>. Equation of any line
+        parallel to given line is <m>$4x + 3y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Since this point is tangent to the given circle, therefore,
+      </d:para>
+      <d:para>
+        <m>$\frac{|4.3 - 3.2 + k|}{5} = 5 \Rightarrow |6 + k| = 25 \Rightarrow k = 19, -31$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 103 -->
+      <d:para>
+        Given circles are <m>$S_1 = x^2 + y^2 - 6x = 0 \ldots$</m> (1) and <m>$S_2 = x^2 + y^2 + 2x = 0
+        \ldots$</m> (2).
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy57a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_7a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let <m>$A$</m> and <m>$B$</m> are the centers and <m>$r_1$</m> and <m>$r_2$</m> the radii of
+        <m>$S_1$</m> and <m>$S_2$</m> respectively.
+      </d:para>
+      <d:para>
+        <m>$A = (3, 0), B = (-1, 0), r_1 = 3, r_2 = 1 \therefore r_1 + r_2 = 4$</m>. Hence two circles touch
+        each other. Thus, there will be three common tangents.
+      </d:para>
+      <d:para>
+        Equation of chord is given by <m>$S_1 - S_2 = x = 0$</m>, when <m>$x = 0, y = 0$</m>. Thus, <m>$x =
+        0$</m> is a common tangent.
+      </d:para>
+      <d:para>
+        Let <m>$y = m x + c$</m> be a common tangent to the given circles then
+      </d:para>
+      <d:para>
+        <m>$frac{|3m + c|}{\sqrt{1 + m^2}} = 3$</m> and <m>$\frac{|-m + c|}{\sqrt{1 + m^2}} = 1$</m>
+      </d:para>
+      <d:para>
+        Solving these two equations gives us <m>$c = \pm\sqrt{3}$</m> and <m>$m = \pm\frac{1}{\sqrt{3}}$</m>
+      </d:para>
+      <d:para>
+        Thus, common tangents are <m>$x = 0, y = \frac{x}{\sqrt{3}} + sqrt(3)$</m>, and <m>$y =
+        -\frac{x}{\sqrt{3}} - \sqrt{3}$</m>
+      </d:para>
+      <d:para>
+        Let <m>$P, Q, R$</m> be points of intersections of these three lines then <m>$P = \left(0,
+        \sqrt{3}\right), Q = (-3, 0)$</m> and <m>$R = \left(0, -\sqrt{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        It is trivial to prove that <m>$\triangle PQR$</m> is an equilateral triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 104 -->
+      <d:para>
+        Given that the biggest circle is <m>$x^2 + y^2 = 1 \ldots$</m> (1). Since the radiio of the circles
+        are in A.P. let the commond difference be <m>$d$</m>.
+      </d:para>
+      <d:para>
+        Thus, other two circles will be <m>$x^2 + y^2 = (1 - d)^2 \ldots$</m> (2) and <m>$x^2 + y^2 = (1 -
+        2d)^2 \ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Given line is <m>$y = x + 1$</m>. Putting in (1) gives us <m>$x^2 + (x + 1)^2 = 1 \Rightarrow x = 0,
+        -1$</m>
+      </d:para>
+      <d:para>
+        Similarly with (2) we have <m>$x^2 + (x + 1)^2 = (1 - d^2) \Rightarrow 2x^2 + 2x + 2d - d^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Since the points are real and distinct, therefore, <m>$4 - 8(2d - d^2) > 0 \Rightarrow 2d^2 - 4d + 1
+        > 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 1 - \frac{1}{\sqrt{2}} > d > 1 + \frac{1}{\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        Similarly with (3) we have <m>$x^2 + (x + 1)^2 = (1 - 2d)^2$</m>. Proceeding similarly we obtain
+      </d:para>
+      <d:para>
+        <m>$\frac{2 - \sqrt{2}}{4} > d > \frac{2 + \sqrt{2}}{4}$</m>. However, <m>$d &lt; 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, we have <m>$0 &lt; d &lt; \frac{2 - \sqrt{2}}{4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 105 -->
+      <d:para>
+        Given <m>$4l^2 - 5m^2 + 6l + 1 = 0 \ldots$</m> (1) and line is <m>$l x + m y + 1 = 0 \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Let the center of the circle be <m>$(\alpha, \beta)$</m> with radius <m>$a$</m>. Then
+      </d:para>
+      <d:para>
+        <m>$\frac{|l alpha + m beta + 1|}{\sqrt{l^2 + m^2}} = a$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow l^2\alpha^2 + m^2\beta^2 + 1 + 2lm\alpha\beta + 2l\alpha + 2m\beta = a^2 l^2 + a^2
+        m^2$</m>
+      </d:para>
+      <d:para>
+        <m>$=> \left(\alpha^2 - a^2\right)^2 + \left(\beta^2 - a^2\right)m^2 + 2l m\alpha\beta + 2\alpha l +
+        2m\beta + 1 = 0$</m>
+      </d:para>
+      <d:para>
+        Comparing this with (1)
+      </d:para>
+      <d:para>
+        <m>$\alpha^2 - a^2 = 4, \beta^2 - a^2 = -5, \alpha = 3, \beta = 0$</m>. Thus, <m>$a = \sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the circle has center <m>$(3, 0)$</m> and radius <m>$\sqrt{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 106 -->
+      <d:para>
+        Given cicle is <m>$x^2 + y^2 - 4x - 6y + 9 = 0 \;dots$</m> (1). Its center is <m>$C(2, 3)$</m> and
+        its radius is <m>$2$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy58a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_8a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let <m>$OP$</m> be a tangent and let <m>$y$</m>-axis(which is a tanegent) touch the circle at
+        <m>$N$</m>. Then <m>$\angle POX$</m> will be minimum when <m>$OP$</m> is tangent to the circle.
+      </d:para>
+      <d:para>
+        Let <m>$\angle POX = \theta$</m> then <m>$\angle LCP = \theta$</m>
+      </d:para>
+      <d:para>
+        Now <m>$CP = 2, OC = \sqrt{2^2 + 3^2} = \sqrt{13}$</m>
+      </d:para>
+      <d:para>
+        <m>$OP = \sqrt{OC^2 - CP^2} = 3$</m>
+      </d:para>
+      <d:para>
+        From figure <m>$OM = OL + LM = OL + HP \Rightarrow OP\cos\theta = 2 + 2\sin\theta$</m> or
+        <m>$3\cos\theta = 2 + 2\sin\theta$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \cos\theta = \frac{12}{13}, \sin\theta = \frac{5}{13}$</m>
+      </d:para>
+      <d:para>
+        <m>$P = \left(\frac{36}{13}, \frac{15}{13}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$OP$</m> will be maximum if <m>$P$</m> becomes the point where extended part of <m>$OC$</m> cuts
+        the circle. Let this point be <m>$P_2$</m>.
+      </d:para>
+      <d:para>
+        <m>$OP_2 = OC + r = \sqrt{13} + 2$</m>
+      </d:para>
+      <d:para>
+        Slope is <m>$\frac{3}{2} = \tan\alpha$</m> (let) <m>$\Rightarrow P_2 = \left(2 +
+        \frac{4}{\sqrt{13}}, 3 + \frac{6}{\sqrt{13}}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 107 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 - 2a x - 2a y + a^2 = 0$</m>. First we find its point of contact with
+        <m>$x$</m>-axis i.e. <m>$y = 0$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$y = 0, x^2 - 2a x + a^2 = 0 \Rightarrow x = a$</m>. Thus, point of contact is <m>$(a,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        Then we put <m>$x = 0$</m> to get <m>$y = a$</m>. Thus, point of contact is <m>$(0, a)$</m>(because
+        we get only one point in both the cases the circle touches the axes.)
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 108 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 16 = 0$</m> so its center is <m>$(0, 0)$</m> and radius is
+        <m>$4$</m>.
+      </d:para>
+      <d:para>
+        The given points are <m>$(2, 3)$</m> and <m>$(1, 2)$</m>. The midpoint is <m>$\left(\frac{3}{2},
+        \frac{5}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The slope of the line joining the points is <m>$1$</m> so the perpendicular slope is <m>$-1$</m>.
+      </d:para>
+      <d:para>
+        Hence the chord is the line through <m>$\left(\frac{3}{2}, \frac{5}{2}\right)$</m> with slope
+        <m>$-1$</m>.
+      </d:para>
+      <d:para>
+        So its equation is <m>$y - \frac{5}{2} = -1\left(x - \frac{3}{2}\right) \Rightarrow x + y - 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$d = \frac{|0 + 0 - 4|}{\sqrt{2}} = \frac{4}{\sqrt{2}} = 2\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{r^2 - d^2} = 2\sqrt{16 - 8} = 4\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 109 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 14x + 4y + 28 = 0 \Rightarrow (x - 7)^2 + (y + 2)^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$(7, -2)$</m> and radius is <m>$5$</m>.
+      </d:para>
+      <d:para>
+        The given line is <m>$x - 7y + 4 = 0$</m>. The perpendicular distance from the center to the line is
+      </d:para>
+      <d:para>
+        <m>$\frac{|7 - 7(-2) + 4|}{\sqrt{1 + 49}} = \frac{5}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{r^2 - d^2} = 2\sqrt{25 - \frac{25}{2}} = 5\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of the chord is the foot of the perpendicular from the center to the line.
+      </d:para>
+      <d:para>
+        Using formula, midpoint is <m>$\left(7 - 1\times \frac{25}{50}, -2 + 7\times\frac{25}{50}\right)
+        \Rightarrow \left(\frac{13}{2}, \frac{3}{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 110 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 3x + 5y + 4 = 0$</m> and <m>$x^2 + y^2 + 5x + 3y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        So we get <m>$-2x + 2y = 0$</m> or <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        First circle is <m>$\left(x + \frac{3}{2}\right)^2 + \left(y + \frac{5}{2}\right)^2 =
+        \frac{9}{2}$</m>. So the center is <m>$\left(-\frac{3}{2}, -\frac{5}{2}\right)$</m> and radius is
+        <m>$\frac{3}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the line <m>$y = x$</m> is <m>$\frac{|-3/2 + 5/2|}{\sqrt{2}} =
+        \frac{1}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The length of the common chord is <m>$2\sqrt{r^2 - d^2} = 2\sqrt{\frac{9}{2} -
+        \frac{1}{2}} = 4$</m>.
+      </d:para>
+      <d:para>
+        Hence, the length of the common chord is <m>$4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 111 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2x + 3y + 1 = 0$</m> and <m>$x^2 + y^2 + 4x + 3y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        So we get <m>$-2x - 1 = 0$</m> or <m>$x = -1/2$</m> upon solving.
+      </d:para>
+      <d:para>
+        First circle is <m>$(x + 1)^2 + \left(y + \frac{3}{2}\right)^2 = \frac{9}{4}$</m>. So the center is
+        <m>$\left(-1, -\frac{3}{2}\right)$</m> and radius is <m>$\frac{3}{2}$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the chord <m>$x = -\frac{1}{2}$</m> is <m>$\frac{| -1 + 1/2 |}{1} =
+        \frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{r^2 - d^2} = 2\sqrt{\frac{9}{4} - \frac{1}{4}} =
+        2\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 112 -->
+      <d:para>
+        The given circles are <m>$(x - a)^2 + (y - b)^2 = c^2$</m> and <m>$(x - b)^2 + (y - a)^2 = c^2$</m>.
+        So <m>$(x - a)^2 + (y - b)^2 - (x - b)^2 - (y - a)^2 = 0 \Rightarrow 2(a - b)(y - x) = 0$</m> so
+        <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        So the common chord lies on <m>$y = x$</m>.
+      </d:para>
+      <d:para>
+        The center is <m>$(a, b)$</m> and radius is <m>$c$</m> of the first circle.
+      </d:para>
+      <d:para>
+        The perpendicular distance from <m>$(a, b)$</m> to the line <m>$y = x$</m> is <m>$\frac{|a -
+        b|}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{c^2 - d^2}$</m>. So it is <m>$2\sqrt{c^2 - \frac{(a -
+        b)^2}{2}}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\sqrt{4c^2 - 2(a - b)^2}$</m>. Hencem the length of the common chord is
+        <m>$sqrt{4c^2 - 2(a - b)^2}$</m>.
+      </d:para>
+      <d:para>
+        For the circles to touch, the chord length must be zero. So <m>$4c^2 - 2(a - b)^2 = 0$</m>. Hence,
+        the condition is <m>$2c^2 = (a - b)^2$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>
