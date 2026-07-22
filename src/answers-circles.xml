@@ -2621,12 +2621,1200 @@
       </d:para>
       <d:para>
         This simplifies to <m>$\sqrt{4c^2 - 2(a - b)^2}$</m>. Hencem the length of the common chord is
-        <m>$sqrt{4c^2 - 2(a - b)^2}$</m>.
+        <m>$\sqrt{4c^2 - 2(a - b)^2}$</m>.
       </d:para>
       <d:para>
         For the circles to touch, the chord length must be zero. So <m>$4c^2 - 2(a - b)^2 = 0$</m>. Hence,
         the condition is <m>$2c^2 = (a - b)^2$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 113 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2h x + a^2 = 0$</m> and <m>$x^2 + y^2 - 2k y - a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Common chord's equaiton is <m>$2h x + a^2 + 2k y + a^2 = 0 \Rightarrow h x + k y + a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        First circle's center is <m>$(-h, 0)$</m> and radius squared is <m>$h^2 - a^2$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from the center to the chord is <m>$\frac{|-h^2 + a^2|}{\sqrt{h^2 + k^2}}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$d^2 = \frac{\left(h^2 - a^2\right)^2}{h^2 + k^2}$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{r^2 - d^2} \Rightarrow 2\sqrt{\left(h^2 - a^2\right) -
+        \frac{\left(h^2 - a^2\right)^2}{h^2 + k^2}}$</m>.
+      </d:para>
+      <d:para>
+        <m>$=2\sqrt{\left(h^2 - a^2\right)\left(1 - \frac{h^2 - a^2}{h^2 + k^2}\right)}$$ =
+        2\sqrt{\frac{\left(h^2 - a^2\right)\left(k^2 + a^2\right)}{h^2 + k^2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 114 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + a x + b y + c = 0$</m> and <m>$x^2 + y^2 + b x + a y + c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        So chord is <m>$(a - b)x + (b - a)y = 0$</m> which gives <m>$x = y$</m>.
+      </d:para>
+      <d:para>
+        First circle's center is <m>$\left(-\frac{a}{2}, -\frac{b}{2}\right)$</m> and radius squared is
+        <m>$\frac{a^2 + b^2}{4} - c$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from the center to the line <m>$x - y = 0$</m> is <m>$\frac{|-a/2 +
+        b/2|}{\sqrt{2}} = \frac{|a - b|}{2\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$d^2 = \frac{(a - b)^2}{8}$</m>.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{r^2 - d^2} = 2\sqrt{\frac{a^2 + b^2}{4} - c - \frac{(a -
+        b)^2}{8}} = 2\sqrt{\frac{(a + b)^2}{8} - c}$</m>.
+      </d:para>
+      <d:para>
+        So the length is <m>$\sqrt{\frac{(a + b)^2}{2} - 4c}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 115 -->
+      <d:para>
+        The center of the given circle is origin and radius is <m>$a$</m>. The length of perpendicular from
+        center to tangent is equal to radius. Therefore,
+      </d:para>
+      <d:para>
+        <m>$\frac{r}{\sqrt{p^2 + q^2}} = a \Rightarrow r^2 = a^2\left(p^2 + q^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 116 -->
+      <d:para>
+        Center of the given circle is <m>$(3, -5)$</m> and radius is <m>$\sqrt{3^2 + 5^2 + 66} = 10$</m>.
+      </d:para>
+      <d:para>
+        Length of the perpendicular on the given line from center is <m>$\frac{|4.3 + 3.5 + 23|}{5} =
+        10$</m>, which is equal to the radius of the circle.
+      </d:para>
+      <d:para>
+        Hence, the given circle touches the given line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 117 -->
+      <d:para>
+        Center of the given circle is the origin and radius is <m>$a$</m>.
+      </d:para>
+      <d:para>
+        Length of the perpendicular on the given line from center is <m>$\frac{|-a|}{\sqrt{\sin^2\theta +
+        \cos^2\theta}} = a$</m>, which is equaal to radius.
+      </d:para>
+      <d:para>
+        Thus, the given line touches the given circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 118 -->
+      <d:para>
+        Center of the given circle is the origin and radius is <m>$a$</m>.
+      </d:para>
+      <d:para>
+        Length of the perpendicular on the given line from center is <m>$\frac{|-1|}{\sqrt{l^2 + m^2}} = a
+        \Rightarrow l^2 + m^2 = a^{-2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, locus of <m>$(l, m)$</m> is the circle <m>$x^2 + y^2 = a^{-2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 119 -->
+      <d:para>
+        Given circle has center <m>$(2, 4)$</m> and radius <m>$\sqrt{2^2 + 4^2 + 5} = 5$</m>.
+      </d:para>
+      <d:para>
+        For the given line to touch the circle length of perpendicular from center to the line must be equal
+        to the radius of the circle. Thus,
+      </d:para>
+      <d:para>
+        <m>$\frac{|3.2 - 4.4 - \lambda|}{5} = 5 \Rightarrow 10 + \lambda = \pm 25 \Rightarrow \lambda = 15,
+        -35$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 120 -->
+      <d:para>
+        The given line is <m>$(x - 1)\cos\theta + (y - 1)\sin\theta = 1$</m>.
+      </d:para>
+      <d:para>
+        Expand to get <m>$x\cos\theta + y\sin\theta - \cos\theta - \sin\theta - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        For a fixed point <m>$(h, k)$</m> to be the center of a circle touched by all these lines, the
+        perpendicular distance from <m>$(h, k)$</m> to the line must be constant.
+      </d:para>
+      <d:para>
+        So distance is <m>$|h\cos\theta + k\sin\theta - \cos\theta - \sin\theta - 1|$</m>.
+      </d:para>
+      <d:para>
+        This becomes <m>$|(h - 1)\cos\theta + (k - 1)\sin\theta - 1|$</m>.
+      </d:para>
+      <d:para>
+        For this to be independent of <m>$\theta$</m>, we must have <m>$h - 1 = 0$</m> and <m>$k - 1 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$(1, 1)$</m>. Now the distance becomes constant equal to <m>$1$</m>.
+      </d:para>
+      <d:para>
+        Hence, the radius is <m>$1$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the required circle is <m>$(x - 1)^2 + (y - 1)^2 = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 121 -->
+      <d:para>
+        The given line is <m>$3x - 16y = 10$</m>. So the required tangents are of the form <m>$3x - 16y + c
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        For the circle <m>$x^2 + y^2 = 16$</m>, the center is <m>$(0, 0)$</m> and radius is <m>$4$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the tangent must be equal to the radius.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|c|}{\sqrt{3^2 + (-16)^2}} = 4 \Rightarrow |c| = 4\sqrt{265}$</m>. Hence, <m>$c = \pm
+        4\sqrt{265}$</m>.
+      </d:para>
+      <d:para>
+        Therefore the required tangents are <m>$3x - 16y + 4\sqrt{265} = 0$</m> and <m>$3x - 16y -
+        4\sqrt{265} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 122 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 2x - 4y - 4 = 0$</m>. So the center is <m>$(1, 2)$</m> and
+        radius is <m>$3$</m>.
+      </d:para>
+      <d:para>
+        First consider tangents parallel to <m>$3x - 4y - 1 = 0$</m>. Such lines are of the form <m>$3x - 4y
+        + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the line equals the radius. So <m>$\frac{|3(1) - 4(2) + c|}{5} =
+        3$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow |-5 + c| = 15 \Rightarrow c = 20$</m> or <m>$c = -10$</m>.
+      </d:para>
+      <d:para>
+        Hence, the tangents are <m>$3x - 4y + 20 = 0$</m> and <m>$3x - 4y - 10 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now consider tangents perpendicular to <m>$3x - 4y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Slope of the given line is <m>$\frac{3}{4}$</m> so perpendicular slope is <m>$-\frac{4}{3}$</m>. So
+        the tangents are of the form <m>$4x + 3y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Again distance condition gives <m>$\frac{|4(1) + 3(2) + c|}{5} = 3 \Rightarrow c = 5$</m> or <m>$c =
+        -25$</m>.
+      </d:para>
+      <d:para>
+        Hence, the tangents are <m>$4x + 3y + 5 = 0$</m> and <m>$4x + 3y - 25 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 123 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 5x + 5y = 0$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$\left(\frac{5}{2}, -\frac{5}{2}\right)$</m> and radius is
+        <m>$\frac{5}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The given line is <m>$7y - x - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to this line is <m>$\frac{\left| -\frac{5}{2} - \frac{35}{2} - 5
+        \right|}{\sqrt{50}} = \frac{5}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        So the line touches the circle. Now the other parallel tangent is of the form <m>$7y - x + c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Again use the distance condition. So <m>$\frac{\left|-\frac{5}{2} - \frac{35}{2} + c\right
+        |}{\sqrt{50}} = \frac{5}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$|c - 20| = 25$</m>. So <m>$c = 45$</m> or <m>$c = -5$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$c = -5$</m> gives the given line, the other tangent is <m>$7y - x + 45 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 124 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 15$</m> so the center is <m>$(0, 0)$</m> and radius is
+        <m>$\sqrt{15}$</m>.
+      </d:para>
+      <d:para>
+        The given line <m>$4x - y + 6 = 0$</m> has slope <m>$4$</m>. So the required tangents have slope
+        <m>$-\frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        Hence, their equations are of the form <m>$x + 4y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the tangent must be equal to the radius.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|c|}{\sqrt{1 + 16}} = \sqrt{15}$</m>. Thus <m>$\frac{|c|}{\sqrt{17}} = \sqrt{15}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow |c| = \sqrt{255}$</m>. Hence, <m>$c = \pm sqrt{255}$</m>.
+      </d:para>
+      <d:para>
+        Therefore the required tangents are <m>$x + 4y + \sqrt{255} = 0$</m> and <m>$x + 4y - \sqrt{255} =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 125 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 6x + 4y - 3 = 0$</m>. So the center is <m>$(3, -2)$</m> and
+        radius is <m>$4$</m>.
+      </d:para>
+      <d:para>
+        The given line <m>$y = 2x - 1$</m> has slope <m>$2$</m>. So the required tangents have slope
+        <m>$-\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, their equations are of the form <m>$x + 2y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the tangent equals the radius. So <m>$\frac{|3 + 2(-2) +
+        c|}{\sqrt{5}} = 4$</m>.
+      </d:para>
+      <d:para>
+        So <m>$c = 1 \pm 4\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required tangents are <m>$x + 2y + 1 + 4\sqrt{5} = 0$</m> and <m>$x + 2y + 1 - 4\sqrt{5}
+        = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 126 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 25$</m> so the center is <m>$(0, 0)$</m> and radius is
+        <m>$5$</m>.
+      </d:para>
+      <d:para>
+        A line making an angle <m>$60^\circ$</m> with the positive <m>$x$</m>-axis has slope
+        <m>$\tan60^\circ = \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        So the required tangents are of the form <m>$y = \sqrt{3}x + c$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the tangent must be equal to the radius. So <m>$\frac{|c|}{\sqrt{1 +
+        3}} = 5 \Rightarrow |c| = 10$</m>. Hence, <m>$c = \pm10$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the required tangents are <m>$y = \sqrt{3}x + 10$</m> and <m>$y = \sqrt{3}x - 10$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 127 -->
+      <d:para>
+        The given pair of lines is <m>$x^2 - y^2 + 2y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Rewrite it as <m>$x^2 - (y - 1)^2 = 0$</m>. So the lines are <m>$x = y - 1$</m> and <m>$x = 1 -
+        y$</m>.
+      </d:para>
+      <d:para>
+        The family of circles touching both lines has its center on the angle bisectors.
+      </d:para>
+      <d:para>
+        The angle bisectors are <m>$x = 0$</m> and <m>$y = 1$</m>. First take center <m>$(0, k)$</m>.
+      </d:para>
+      <d:para>
+        The radius is the distance from <m>$(0, k)$</m> to either line. So <m>$r = \frac{|0 - k +
+        1|}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the circle is <m>$x^2 + (y - k)^2 = \frac{(k - 1)^2}{2}$</m>.
+      </d:para>
+      <d:para>
+        This gives one family. Now take center <m>$(h, 1)$</m>. The radius is <m>$\frac{|h|}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the circle is <m>$(x - h)^2 + (y - 1)^2 = \frac{h^2}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 128 -->
+      <d:para>
+        Let <m>$A$</m> and <m>$B$</m> be the centers and <m>$r_1$</m> and <m>$r_2$</m> the radii of the
+        given circles respectively. Thus, <m>$A = (1, 2), B = (0, 4), r_1 = \sqrt{5}$</m>, and <m>$r_2 =
+        2\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{(1 - 0)^2 + (2 - 4)^2} = \sqrt{5}$</m>
+      </d:para>
+      <d:para>
+        <m>$r_1 + r_2 = 3\sqrt{5}$</m> and <m>$|r_1 - r_2| = \sqrt{5}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$AB = |r_1 - r_2|$</m>, hence, the two circles touch each other internally.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 129 -->
+      <d:para>
+        The centers of the given circles are <m>$A(-a, 0)$</m> and <m>$B(0, -b)$</m> and radii are <m>$r_1 =
+        \sqrt{a^2 - c^2}$</m> and <m>$r_2 = \sqrt{b^2 - c^2}$</m> respectively.
+      </d:para>
+      <d:para>
+        The circle will touch internally or externally if <m>$AB = r_1 + r_2$</m> or <m>$AB = |r_1 -
+        r_2|$</m>
+      </d:para>
+      <d:para>
+        <m>$AB^2 = (r_1 \pm r_2)^2 \Rightarrow a^2 + b^2 = r_1^2 + r_2^2 \pm 2r_1r_2$</m>
+      </d:para>
+      <d:para>
+        Substituting the values and squaring we get <m>$\frac{1}{a^2} + \frac{1}{b^2} = \frac{1}{c^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 130 -->
+      <d:para>
+        The centers of the given circles are <m>$A(0, 0)$</m> and <m>$B(2a, 0)$</m> respectively, and radii
+        are <m>$a$</m> for both.
+      </d:para>
+      <d:para>
+        Distance between centers <m>$AB = 2a = r_1 + r_2$</m>. Hence, the circles touch each other
+        externally.
+      </d:para>
+      <d:para>
+        Let the equations of the circles touching both the given circles be <m>$(x - \alpha)^2 + (y - \beta)^2
+        = a^2$</m> with center <m>$C = (\alpha, \beta)$</m> and radius <m>$a$</m>.
+      </d:para>
+      <d:para>
+        <m>$AC = r_1 + r_3 = 2a \Rightarrow \alpha^2 + \beta^2 = 4a^2$</m>, and similarly, <m>$BC = r_2 + r_3
+        \Rightarrow (2\alpha - a)^2 + \beta^2 = 4a^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \alpha = a, \beta = \pm \sqrt{3}a$</m>, and thus, we have our required circles.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 131 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2x + 2y + 1 = 0$</m> and <m>$x^2 + y^2 - 4x - 6y - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        First circle is <m>$(x + 1)^2 + (y + 1)^2 = 1$</m>. Hence, the center is <m>$(-1, -1)$</m> and
+        radius is <m>$1$</m>.
+      </d:para>
+      <d:para>
+        Second circle is <m>$(x - 2)^2 + (y - 3)^2 = 16$</m>. Hencem the center is <m>$(2, 3)$</m> and
+        radius is <m>$4$</m>.
+      </d:para>
+      <d:para>
+        Now find the distance between the centers. So <m>$d = \sqrt{(2 + 1)^2 + (3 + 1)^2} = 5$</m>.
+      </d:para>
+      <d:para>
+        Also <m>$r_1 + r_2 = 1 + 4 = 5$</m>. Since <m>$d = r_1 + r_2$</m>, the circles touch externally.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 132 -->
+      <d:para>
+        The given circles have centers <m>$(a, b)$</m> and <m>$(b, a)$</m> and both have radius <m>$c$</m>.
+      </d:para>
+      <d:para>
+        The distance between the centers is <m>$\sqrt{(a - b)^2 + (b - a)^2} = \sqrt{2(a - b)^2} =
+        \sqrt{2}|a - b|$</m>.
+      </d:para>
+      <d:para>
+        For the circles to touch externally, the distance must be equal to <m>$2c$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\sqrt{2}|a - b| = 2c$</m>. Hence <m>$|a - b| = \sqrt{2}c$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$a - b = \pm \sqrt{2}c$</m>. So the condition is <m>$a = b \pm \sqrt{2}c$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 133 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2ux + 2vy = 0$</m> and <m>$x^2 + y^2 + 2u_1x + 2v_1y = 0$</m>.
+      </d:para>
+      <d:para>
+        Their centers are <m>$(-u, -v)$</m> and <m>$(-u_1, -v_1)$</m>. Their radii are <m>$\sqrt{u^2 +
+        v^2}$</m> and <m>$\sqrt{u_1^2 + v_1^2}$</m>.
+      </d:para>
+      <d:para>
+        The distance between the centers is <m>$\sqrt{(u - u_1)^2 + (v - v_1)^2}$</m>.
+      </d:para>
+      <d:para>
+        For the circles to touch, we must have <m>$\sqrt{(u - u_1)^2 + (v - v_1)^2} = \sqrt{u^2 + v^2} \pm
+        \sqrt{u_1^2 + v_1^2}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (u - u_1)^2 + (v - v_1)^2 = u^2 + v^2 + u_1^2 + v_1^2 \pm 2 \sqrt{\left(u^2 +
+        v^2\right)\left(u_1^2 + v_1^2\right)}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow u^2 + v^2 + u_1^2 + v_1^2 - 2(uu_1 + vv_1)$</m> equals the right side.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow -2(uu_1 + vv_1) = \pm 2\sqrt{\left(u^2 + v^2\right)\left(u_1^2 + v_1^2\right)}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow uu_1 + vv_1 = \mp\sqrt{\left(u^2 + v^2\right)\left(u_1^2 + v_1^2\right)}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (uu_1 + vv_1)^2 = \left(u^2 + v^2\right)\left(u_1^2 + v_1^2\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow u^2u_1^2 + v^2v_1^2 + 2uu_1vv_1 = u^2u_1^2 + u^2v_1^2 + v^2u_1^2 + v^2v_1^2$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2uu_1 vv_1 = u^2v_1^2 + v^2u_1^2 \Rightarrow u^2v_1^2 - 2uu_1vv_1 + v^2u_1^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(uv_1 - u_1v)^2 = 0$</m>. Hence, <m>$uv_1 = u_1v$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 134 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 = 2^2 \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy59a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_9a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        For point <m>$P\left(1, \frac{1}{2}\right), x^2 + y^2 - 4 = 1 + 1/4 - 4 &lt; 0$</m>, hence, the
+        point lies inside the circle.
+      </d:para>
+      <d:para>
+        Let <m>$AB$</m> be any chord of the circle through <m>$P$</m>. Let <m>$OL \perp AB$</m>, then
+        <m>$L$</m>, the will be the middle point of <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = 2AL = \sqrt{OA^2 - OL^2} = 2\sqrt{4 - OP^2 + LP^2}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> and <m>$O$</m> are fixed points <m>$OP$</m> is fixed.
+      </d:para>
+      <d:para>
+        <m>$AB$</m> will be minimum if <m>$LP$</m> is minimum and minimum value of <m>$LP$</m> is
+        <m>$0$</m>, when <m>$P$</m> coincides with <m>$L$</m>.
+      </d:para>
+      <d:para>
+        Thus, minimum value of <m>$AB = 2\sqrt{4 - \left(1 + \frac{1}{4}\right)} = \sqrt{11}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 135 -->
+      <d:para>
+        Let <m>$AB$</m> be the chord whose equation is <m>$x + y - 1 = 0\ldots$</m> (1) and given circle is
+        <m>$x^2 + y^2 - 4y = 0 \ldots$</m> (2).
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy510a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_10a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Center of the circle is <m>$(0, 2)$</m>. Let <m>$L$</m> be the mid-point of the chord. Let
+        <m>$\angle ACB = 2\theta$</m> then <m>$\angle ACL = \angle BCL = \theta$</m>
+      </d:para>
+      <d:para>
+        <m>$CL =$</m> length of perpendicular from <m>$C$</m> to line (1) <m>$= \frac{|0 + 2 - 1|}{\sqrt{2}}
+        = \frac{1}{\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$AC = 2$</m> (radius of the circle).
+      </d:para>
+      <d:para>
+        From <m>$\triangle ACL, \cos\theta = \frac{CL}{AC} = \frac{1}{2\sqrt{2}}$</m>
+      </d:para>
+      <d:para>
+        Now angle at circumference <m>$= \frac{1}{2}\times$</m> angle at the center <m>$= \theta = \cos^{-1}\frac{1}{2\sqrt{2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 136 -->
+      <d:para>
+        Let <m>$APB$</m> be a semicircle and <m>$AB$</m> be a diameter. Let <m>$O$</m> be the middle point
+        of <m>$AB$</m>. We take <m>$O$</m> as the origin and <m>$OB$</m> as <m>$x$</m>-axis. Let <m>$r$</m>
+        be the radius of the semi-circle. Then <m>$O = (0, 0), A = (-r, 0)$</m> and <m>$B = (r, 0)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P = (x, y)$</m>. Now <m>$OP^2 = r^2 \therefore x^2 + y^2 = r^2$</m>
+      </d:para>
+      <d:para>
+        and <m>$AP^2 + PB^2 = \left[(x + a)^2 + y^2\right] + \left[(x - a)^2 + y^2\right] = 2\left(x^2 + y^2
+        + r^2\right) = 4r^2 = (2a)^2 = AB^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore \angle APB = 90^\circ$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy511a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_11a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 137 -->
+      <d:para>
+        Given <m>$AB = 13$</m>m, <m>$AC = 5$</m>m. Let <m>$OL \perp AC$</m>, then <m>$L$</m> is the
+        mid-point of <m>$AC$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy512a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_12a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        <m>$AL = 2.5$</m>m and <m>$AO = 6.5$</m>m. From <m>$\triangle ALO, \cos\theta = \frac{AL}{AO} =
+        \frac{5}{13}$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$BC_1 = \tan\left(90^\circ + \theta\right) = -\cot\theta = -\frac{5}{12}$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$BC_2 = \tan\left(-90^\circ - \theta\right) = \frac{5}{12}$</m>
+      </d:para>
+      <d:para>
+        Equations of <m>$BC_1$</m> and <m>$BC_2$</m> are <m>$y = -\frac{5}{12}\left(x -
+        \frac{13}{2}\right)$</m> and <m>$y = \frac{5}{12}\left(x - \frac{13}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        The join equation is <m>$100x^2 - 576y^2 - 1300x + 4225 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 138 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> and the internal point is <m>$(\alpha,
+        \beta)$</m>.
+      </d:para>
+      <d:para>
+        Let the center be <m>$(-g, -f)$</m> and radius be <m>$r$</m> where <m>$r^2 = g^2 + f^2 - c$</m>.
+      </d:para>
+      <d:para>
+        Let a chord through <m>$(alpha, beta)$</m> be at perpendicular distance <m>$d$</m> from the center.
+      </d:para>
+      <d:para>
+        The length of the chord is <m>$2\sqrt{r^2 - d^2}$</m>.
+      </d:para>
+      <d:para>
+        For a fixed point inside the circle, the least chord occurs when the chord is perpendicular to the
+        line joining the center and the point.
+      </d:para>
+      <d:para>
+        In that case the distance from the center to the chord is the distance between the center and the
+        point.
+      </d:para>
+      <d:para>
+        So <m>$d^2 = (\alpha + g)^2 + (\beta + f)^2$</m>.
+      </d:para>
+      <d:para>
+        Thus, the least length is <m>$2\sqrt{r^2 - d^2} \Rightarrow 2\sqrt{g^2 + f^2 - c - ((\alpha + g)^2 +
+        (\beta + f)^2)}$</m>.
+      </d:para>
+      <d:para>
+        <m>$= 2\sqrt{-\left(\alpha^2 + \beta^2 + 2g\alpha + 2f\beta + c\right)}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 139 -->
+      <d:para>
+        Equation of any curve through the point of intersection of given lines and coordinate axes is
+        <m>$(a_1x + b_1y + c_1)(a_2x + b_2y + c_2) + kxy = 0$</m>
+      </d:para>
+      <d:para>
+        If this is a circle then coeff. of <m>$x^2 =$</m> coeff. of <m>$y^2 \Rightarrow a_1a_2 = b_1b_2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 140 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = k^2$</m> so the radius is <m>$k$</m>. The line is <m>$y - x - 3
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from the center <m>$(0, 0)$</m> to the chord is
+      </d:para>
+      <d:para>
+        <m>$d = \frac{|-3|}{\sqrt{2}} = \frac{3}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Let the chord subtend angle <m>$30^\circ$</m> at a point on the major segment.
+      </d:para>
+      <d:para>
+        Then the angle subtended at the center by the chord is <m>$360^\circ - 2\times30^\circ =
+        300^\circ$</m>.
+      </d:para>
+      <d:para>
+        The half angle at the center is <m>$150^\circ$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\cos150^\circ = \frac{d}{l}$</m>. Thus <m>$-\frac{\sqrt{3}}{2} =
+        \frac{\frac{3}{\sqrt{2}}}{k}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$k = -3\sqrt{\frac{2}{3}} = -\sqrt{6}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 141 -->
+      <d:para>
+        The tangent to the circle <m>$x^2 + y^2 = 5$</m> at <m>$(1, -2)$</m> is
+      </d:para>
+      <d:para>
+        <m>$xx_1 + yy_1 = r^2$</m>. So <m>$x - 2y = 5$</m>.
+      </d:para>
+      <d:para>
+        Now consider the second circle <m>$x^2 + y^2 - 8x + 6y + 20 = 0$</m>. So the center is <m>$(4,
+        -3)$</m> and radius is <m>$\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        Find the distance from the center to the line <m>$x - 2y - 5 = 0$</m>. So <m>$\frac{|4 + 6 -
+        5|}{\sqrt{5}} = \sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        This equals the radius, so the line is tangent.
+      </d:para>
+      <d:para>
+        Put <m>$x = 2y + 5$</m> into the circle. So <m>$(2y + 5 - 4)^2 + (y + 3)^2 = 5$</m>. This gives
+        <m>$(2y + 1)^2 + (y + 3)^2 = 5$</m>.
+      </d:para>
+      <d:para>
+        So <m>$5y^2 + 10y + 5 = 0 \Rightarrow y^2 + 2y + 1 = 0$</m>. So <m>$(y + 1)^2 = 0$</m> and <m>$y =
+        -1$</m>. Then <m>$x = 3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the point of contact is <m>$(3, -1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 142 -->
+      <d:para>
+        The given family is <m>$x^2 + y^2 - 2x - 2\lambda y - 8 = 0$</m>. Write it as <m>$x^2 + y^2 - 2x - 8
+        - 2\lambda y = 0$</m>.
+      </d:para>
+      <d:para>
+        For fixed points, the equation must hold for all <m>$\lambda$</m>. So <m>$y = 0$</m>(for
+        <m>$x$</m>-axis) and <m>$x^2 - 2x - 8 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x = 4$</m> or <m>$x = -2$</m>. Hence the fixed points are <m>$A(4, 0)$</m> and <m>$B(-2,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        So <m>$2x + 2y y' - 2 - 2\lambda y' = 0$</m>. Thus <m>$y' = \frac{1 - x}{y - \lambda}$</m>.
+      </d:para>
+      <d:para>
+        At <m>$A(4, 0)$</m> we get slope <m>$\frac{3}{\lambda}$</m>. So tangent at <m>$A$</m> is <m>$y =
+        \frac{3}{\lambda}(x - 4)$</m>.
+      </d:para>
+      <d:para>
+        At <m>$B(-2, 0)$</m> we get slope <m>$-\frac{3}{\lambda}$</m>. So tangent at <m>$B$</m> is <m>$y =
+        \left(-\frac{3}{\lambda}\right)(x + 2)$</m>.
+      </d:para>
+      <d:para>
+        Solving gives <m>$x = 1$</m> and <m>$y = -\frac{9}{\lambda}$</m>. This point lies on <m>$x + 2y + 5
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$1 + 2\left(-\frac{9}{\lambda}\right) + 5 = 0$</m>. Thus, <m>$6 - \frac{18}{\lambda} = 0$</m>
+        so <m>$\lambda = 3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required circle is <m>$x^2 + y^2 - 2x - 6y - 8 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 143 -->
+      <d:para>
+        Let <m>$O$</m> be the center of the circle which is taken as the origin. Let $a$ be the radius of
+        the circle. Now <m>$A = (0, a), B = (0, -a)$</m>. Since <m>$CD \parallel AB$</m> and <m>$2CD =
+        AB$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy513a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_13a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let <m>$CL \perp CD. CL = \frac{CD}{2} = \frac{a}{2}$</m>
+      </d:para>
+      <d:para>
+        In <m>$\triangle OLC, OL = \sqrt{OC^2 - CL^2} = \frac{\sqrt{3}a}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$C = \left(\frac{\sqrt{3}}{2}a, \frac{a}{2}\right), D = \left(\frac{\sqrt{3}}{2}a,
+        -\frac{a}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now equation of the circle is <m>$x^2 + y^2 = a^2$</m> and equation of tangent at <m>$(0, -a)$</m>
+        is <m>$-ay = a^2 \Rightarrow y = -a$</m>
+      </d:para>
+      <d:para>
+        Equation of <m>$AC$</m> is <m>$y - a = \frac{0 - \frac{\sqrt{3}}{2}a}{a - \frac{a}{2}}(x -
+        0)$</m>. Solving this with <m>$y = -a$</m> we get <m>$E = \left(2\sqrt{3}a, - a\right)$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$AE = 2.AB$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 144 -->
+      <d:para>
+        Let the center <m>$C$</m> of the circle be taken as the origin and let <m>$a$</m> be the radius of
+        the given circle. Let <m>$CX$</m> and <m>$CY$</m> be the <m>$x$</m> and <m>$y$</m> axes
+        respectively. Let the two parallel tangents to the circle at <m>$Q$</m> and <m>$R$</m> be <m>$y =
+        a$</m> and <m>$y = -a$</m>.
+      </d:para>
+      <d:para>
+        Equation of the circle is <m>$x^2 + y^2 = a^2 \dots$</m> (1) and equation of any other tangent at
+        point <m>$P$</m> be <m>$y = m x + a\sqrt{1 + m^2} \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Let <m>$A$</m> and <m>$B$</m> be the points of intersection of tangent (2) with the lines <m>$y =
+        a$</m> and <m>$y = -a$</m> respectively, then
+      </d:para>
+      <d:para>
+        <m>$A = \left(\frac{a - a\sqrt{1 + m^2}}{m}, a\right)$</m> and <m>$B = \left(\frac{-a - a\sqrt{1 +
+        m^2}}{m}, -a\right)$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$AC = \frac{am}{a\left(1 - \sqrt{1 + m^2}\right)} = m_1$</m> (let) and slope of <m>$BC =
+        \frac{am}{a + \sqrt{1 + m^2}} = m_2$</m> (let)
+      </d:para>
+      <d:para>
+        <m>$m_1m_2 = -1$</m>, hence, <m>$\angle ACB = 90^\circ$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy514a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_14a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 145 -->
+      <d:para>
+        Given <m>$A$</m> is the origin, which is the center of circle I, <m>$AX$</m> and <m>$AY$</m> are the
+        <m>$x$</m> and <m>$y$</m> axes respectively. <m>$B$</m> and <m>$C$</m> are the center of the circles
+        II and III respectively, and their radii are <m>$3$</m> and <m>$4$</m> respectively.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy515a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_15a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Since circles I and II touch each other externally, therefore, <m>$AB = 8$</m> and since circles I
+        and III touch each other externally, therefore <m>$AC = 9$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$BD, CE \perp x$</m>-axis. Then <m>$AD = \sqrt{8^2 - 3^2} = \sqrt{55}$</m> and <m>$AE =
+        \sqrt{9^2 - 4^2}= \sqrt{65}$</m>.
+      </d:para>
+      <d:para>
+        Since both circles I and II touch <m>$x$</m>-axis, therefore, <m>$y = 0$</m> is their common
+        tangent. Let <m>$BC$</m> meet <m>$y = 0$</m> at <m>$H$</m>. Then one more tangent will pass through
+        <m>$H$</m> and <m>$H$</m> will divided <m>$BC$</m> internally or externally in the ratio
+        <m>$3:4$</m> according as circles II and III lie in different qudrants or in the same quadrant.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> When circles II and III lie in the first and fourth
+        quadrant respectively.
+      </d:para>
+      <d:para>
+        In this case <m>$B = \left(\sqrt{55}, 3\right)$</m> and <m>$C = \left(\sqrt{65}, -4\right)$</m>.
+      </d:para>
+      <d:para>
+        From similar <m>$\triangle BDH$</m> and <m>$\triangle CEH, \frac{DH}{HE} = \frac{BD}{CE} =
+        \frac{3}{4}$</m>
+      </d:para>
+      <d:para>
+        Hence, <m>$H$</m> divides <m>$DE$</m> internally in the ratio <m>$3:4$</m>. Thus, <m>$H =
+        \left(\frac{3\sqrt{65} + 4\sqrt{55}}{7}, 0\right)$</m>
+      </d:para>
+      <d:para>
+        Equation of any line through <m>$H$</m> will be <m>$y = m\left(x - \frac{3\sqrt{65} +
+        4\sqrt{55}}{7}\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 7m x - 7y - m\left(3\sqrt{65} + 4\sqrt{55}\right) = 0 \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        If (1) is tangent to circle II then
+      </d:para>
+      <d:para>
+        <m>$\frac{\left|7m \sqrt{55} - 7.3 - m\left(3\sqrt{65} + 4\sqrt{55}\right)\right|}{7\sqrt{1 + m^2}}
+        = 3$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m = 0, \frac{126\left(\sqrt{55} - \sqrt{66}\right)}{9\left(71 -
+        10\sqrt{143}\right)}$</m>
+      </d:para>
+      <d:para>
+        Thus, we have equation for common tangents.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> When both circle II and III lie in the first qudrant.
+      </d:para>
+      <d:para>
+        In this case <m>$B = \left(\sqrt{55}, 3\right)$</m> and <m>$C = \left(\sqrt{65}, 4\right)$</m>.
+      </d:para>
+      <d:para>
+        One common tangent <m>$y = 0$</m> meeting <m>$BC$</m> at <m>$H$</m> and <m>$H$</m> will divide
+        <m>$BC$</m> extrenally in the ratio <m>$3:4$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$H = \left(4\sqrt{55} - 3\sqrt{65}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Now we can proceed like case 1 to find the other common tangent as well as case 3 when both the
+        circles will lie in fourth quadrant.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 146 -->
+      <d:para>
+        Center of the circle is <m>$(1, 2)$</m> and the point is <m>$(2, 3)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the normal will be equation of line passing through these points, which is
+      </d:para>
+      <d:para>
+        <m>$y - 3 = \frac{2- 3}{1 - 2}(x - 2) \Rightarrow x - y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 147 -->
+      <d:para>
+        The equation of the circle is <m>$(x + 4)(x - 6) + (y - 4)(y + 1) = 0 \Rightarrow x^2 + y^2 - 2x -
+        3y - 28 = 0$</m>
+      </d:para>
+      <d:para>
+        Putting <m>$x = 0$</m> gives us <m>$y^2 - 3y - 28 = 0 \therefore y = 7, -4$</m>
+      </d:para>
+      <d:para>
+        Hencem we take <m>$A$</m> as <m>$(0, 7)$</m> and <m>$B$</m> as <m>$(0, -4)$</m>.
+      </d:para>
+      <d:para>
+        Equation of tangent at <m>$A$</m> is <m>$x.0 + y.7 - (x + 0) - \frac{3(y + 7)}{2} - 28 = 0
+        \Rightarrow 2x - 11y = -77$</m>
+      </d:para>
+      <d:para>
+        Equation of tangent at <m>$B$</m> is <m>$x.0 + y(-4) - (x + 0) - \frac{3(y - 4)}{2} - 28 = 0
+        \Rightarrow 2x + 11y = -44$</m>
+      </d:para>
+      <d:para>
+        Solving the two tangents givens us <m>$Q\left(-\frac{121}{4}, \frac{3}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Thus, area of the <m>$\triangle AQB = \frac{363}{8}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 148 -->
+      <d:para>
+        Equation of the tangent is <m>$xx_1 + yy_1 - 2(x + x_1) - 3(y + y_1) - 12 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$(x_1, y_1) = (-1, -1)$</m> gives <m>$-x - y - 2(x - 1) - 3(y - 1) - 12 = 0$</m>.
+      </d:para>
+      <d:para>
+        Simplify to get <m>$-3x - 4y - 7 = 0$</m>. Hence, the equation of the tangent is <m>$3x + 4y + 7 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 149 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 7x - 5y + 18 = 0$</m>. We find the tangent at <m>$(4, 3)$</m>.
+      </d:para>
+      <d:para>
+        So <m>$xx_1 + yy_1 - \frac{7(x + x_1)}{2} - \frac{5(y + y_1)}{2} + 18 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$(4, 3)$</m> gives <m>$4x + 3y - \frac{7(x + 4)}{2} - \frac{5(y + 3)}{2} + 18 = 0$</m>.
+      </d:para>
+      <d:para>
+        Simplifying <m>$x + y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now find the tangent at <m>$(3, 2)$</m>. So <m>$3x + 2y - \frac{7(x + 3)}{2} - \frac{5(y + 2)}{2} +
+        18 = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x + y - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Both tangents have slope <m>$-1$</m>. Hence, they are parallel.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 150 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 169$</m>. The tangent at a point <m>$(x_1, y_1)$</m> on this
+        circle is <m>$xx_1 + yy_1 = 169$</m>.
+      </d:para>
+      <d:para>
+        At <m>$(5, 12)$</m> the tangent is <m>$5x + 12y = 169$</m>. At <m>$(12, -5)$</m> the tangent is
+        <m>$12x - 5y = 169$</m>.
+      </d:para>
+      <d:para>
+        From <m>$5x + 12y = 169$</m> we get slope <m>$-\frac{5}{12}$</m>. From <m>$12x - 5y = 169$</m> we
+        get slope <m>$\frac{12}{5}$</m>.
+      </d:para>
+      <d:para>
+        Their product is <m>$-1$</m> so the tangents are perpendicular. Solving <m>$5x + 12y = 169$</m> and
+        <m>$12x - 5y = 169$</m> gives <m>$x = 17$</m> and <m>$y = 7$</m>.
+      </d:para>
+      <d:para>
+        Hence, the point of intersection is <m>$(17, 7)$</m>.
+      </d:para>
+    </d:listitem>
+    x<d:listitem>
+    <!-- 151 -->
+    <d:para>
+      The equation of the tangent at <m>$(\alpha, \beta)$</m> is <m>$x\alpha + y\beta = r^2$</m>.
+    </d:para>
+    <d:para>
+      To find the intercepts, put <m>$y = 0$</m>. Then <m>$x\alpha = r^2$</m> so <m>$x = \frac{r^2}{\alpha}$</m>.
+    </d:para>
+    <d:para>
+      So point <m>$A$</m> is <m>$\left(\frac{r^2}{\alpha}, 0\right)$</m>.
+    </d:para>
+    <d:para>
+      Now put <m>$x = 0$</m>. Then <m>$y\beta = r^2$</m> so <m>$y = \frac{r^2}{\beta}$</m>. So point
+      <m>$B$</m> is <m>$\left(0, \frac{r^2}{\beta}\right)$</m>.
+    </d:para>
+    <d:para>
+      Now the area of triangle <m>$OAB$</m> is <m>$\frac{1}{2}\times OA\times OB$</m>.
+    </d:para>
+    <d:para>
+      So area is <m>$\frac{1}{2}\times \frac{r^2}{|\alpha|}\times \frac{r^2}{|\beta|} =
+      \frac{1}{2}\frac{r^4}{|\alpha \beta|}$</m>.
+    </d:para>
+  </d:listitem>
+  <d:listitem>
+    <!-- 152 -->
+    <d:para>
+      The given circle is <m>$x^2 + y^2 - 2x - 4y - 20 = 0 \Rightarrow (x - 1)^2 + (y - 2)^2 = 25$</m>.
+    </d:para>
+    <d:para>
+      So the center is <m>$A(1, 2)$</m>. Tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 - (x + x_1) - 2(y
+      + y_1) - 20 = 0$</m>.
+    </d:para>
+    <d:para>
+      Tangent at <m>$(1, 7)$</m> is <m>$x + 7y - (x + 1) - 2(y + 7) - 20 = 0 \Rightarrow y = 7$</m>.
+    </d:para>
+    <d:para>
+      Tangent at <m>$(4, -2)$</m> is <m>$4x - 2y - (x + 4) - 2(y - 2) - 20 = 0 \Rightarrow 3x - 4y - 20 =
+      0$</m>.
+    </d:para>
+    <d:para>
+      Solving the two tangents we get point of intersection as <m>$C(16, 7)$</m>.
+    </d:para>
+    <d:para>
+      Split <m>$ABCD$</m> into triangles <m>$ABC$</m> and <m>$ADC$</m>.
+    </d:para>
+    <d:para>
+      Triangle <m>$ABC$</m> has base <m>$BC = 15$</m> and height <m>$5$</m>. So area is
+      <m>$\frac{1}{2}\times 15\times 5 = \frac{75}{2}$</m>.
+    </d:para>
+    <d:para>
+      Triangle <m>$ADC$</m> has base <m>$DC = \sqrt{(16 - 4)^2 + (7 + 2)^2} = 15$</m> and height
+      <m>$5$</m>. So area is <m>$\frac{75}{2}$</m>.
+    </d:para>
+    <d:para>
+      Hence, total area is <m>$75$</m>.
+    </d:para>
+  </d:listitem>
+  <d:listitem>
+    <!-- 153 -->
+    <d:para>
+      The given circle is <m>$x^2 + y^2 - 2x - 4y + 3 = 0 \Rightarrow (x - 1)^2 + (y - 2)^2 = 2$</m>.
+    </d:para>
+    <d:para>
+      So the center is <m>$(1, 2)$</m> and radius is <m>$\sqrt{2}$</m>. The given line is <m>$x + y - 5 =
+      0$</m>.
+    </d:para>
+    <d:para>
+      The distance from the center to the line is <m>$\frac{|1 + 2 - 5|}{\sqrt{2}} = \frac{2}{\sqrt{2}} =
+      \sqrt{2}$</m>.
+    </d:para>
+    <d:para>
+      This equals the radius, so the line touches the circle.
+    </d:para>
+    <d:para>
+      Put <m>$y = 5 - x$</m> in the circle. So <m>$(x - 1)^2 + (3 - x)^2 = 2$</m>.
+    </d:para>
+    <d:para>
+      Expanding gives <m>$x^2 - 2x + 1 + x^2 - 6x + 9 = 2 \Rightarrow 2x^2 - 8x + 10 = 2$</m>.
+    </d:para>
+    <d:para>
+      <m>$2x^2 - 8x + 8 = 0$</m> so <m>$x^2 - 4x + 4 = 0 \Rightarrow (x - 2)^2 = 0$</m> so <m>$x =
+      2$</m>. Then <m>$y = 3$</m>.
+    </d:para>
+    <d:para>
+      Hence, the point of contact is <m>$(2, 3)$</m>.
+    </d:para>
+  </d:listitem>
+  <d:listitem>
+    <!-- 154 -->
+    <d:para>
+      The tangent to the circle <m>$x^2 + y^2 = 5$</m> at <m>$(1, -2)$</m> is
+    </d:para>
+    <d:para>
+      Tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 = r^2$</m>. So <m>$x - 2y = 5$</m>.
+    </d:para>
+    <d:para>
+      Now consider the second circle <m>$x^2 + y^2 - 8x + 6y + 20 = (x - 4)^2 + (y + 3)^2 = 5$</m>.
+    </d:para>
+    <d:para>
+      So the center is <m>$(4, -3)$</m> and radius is <m>$\sqrt{5}$</m>.
+    </d:para>
+    <d:para>
+      The distance from the center to the line <m>$x - 2y - 5 = 0$</m>. So <m>$\frac{|4 + 6 - 5|}{\sqrt{5}}
+      = \sqrt{5}$</m>.
+    </d:para>
+    <d:para>
+      This equals the radius, so the line is tangent.
+    </d:para>
+    <d:para>
+      Put <m>$x = 2y + 5$</m> into the circle. So <m>$(2y + 5 - 4)^2 + (y + 3)^2 = 5 \Rightarrow y^2 + 2y +
+      1 = 0$</m>.
+    </d:para>
+    <d:para>
+      So <m>$(y + 1)^2 = 0$</m> and <m>$y = -1$</m>. Then <m>$x = 3$</m>.
+    </d:para>
+    <d:para>
+      Hence, the point of contact is <m>$(3, -1)$</m>.
+    </d:para>
+  </d:listitem>
+  <d:listitem>
+    <!-- 155 -->
+    <d:para>
+      The given circles are <m>$x^2 + y^2 - 10x + 4y - 20 = 0$</m> and <m>$x^2 + y^2 + 14x - 6y + 22 =
+      0$</m>.
+    </d:para>
+    <d:para>
+      First circle is <m>$(x - 5)^2 + (y + 2)^2 = 49$</m> so center is <m>$(5, -2)$</m> and radius is
+      <m>$7$</m>.
+    </d:para>
+    <d:para>
+      Second circle is <m>$(x + 7)^2 + (y - 3)^2 = 36$</m> so center is <m>$(-7, 3)$</m> and radius is
+      <m>$6$</m>.
+    </d:para>
+    <d:para>
+      Distance between centers is <m>$\sqrt{(5 + 7)^2 + (-2 - 3)^2} = \sqrt{144 + 25} = 13$</m>.
+    </d:para>
+    <d:para>
+      Since <m>$r_1 + r_2 = 7 + 6 = 13$</m>, the circles touch externally.
+    </d:para>
+    <d:para>
+      The point of contact lies on the line joining the centers and divides it in the ratio <m>$7 : 6$</m>.
+    </d:para>
+    <d:para>
+      So using section formula <m>$x = \frac{7(-7) + 6(5)}{13} = -\frac{19}{13}$</m> and <m>$y = \frac{7(3)
+      + 6(-2)}{13} = \frac{9}{13}$</m>
+    </d:para>
+    <d:para>
+      Hence the point of contact is <m>$\left(-\frac{19}{13}, \frac{9}{12}\right)$</m>.
+    </d:para>
+    <d:para>
+      Tangent at <m>$(x_1, y_1)$</m> on first circle is <m>$xx_1 + yy_1 - 5(x + x_1) + 2(y + y_1) - 20 = 0
+      \Rightarrow 19x - 9y + 110 = 0$</m>.
+    </d:para>
+  </d:listitem>
+  <d:listitem>
+    <!-- 156 -->
+    <d:para>
+      The given circle is <m>$x^2 + y^2 = 2$</m> so the center is <m>$(0, 0)$</m> and radius is
+      <m>$\sqrt{2}$</m>.
+    </d:para>
+    <d:para>
+      The given line is <m>$y - x - 2 = 0$</m>.
+    </d:para>
+    <d:para>
+      The distance from the center to the line is <m>$\frac{|0 - 0 - 2|}{\sqrt{2} = \sqrt{2}$</m>.
+    </d:para>
+    <d:para>
+      This equals the radius, so the line touches the circle.
+    </d:para>
+    <d:para>
+      Put <m>$y = x + 2$</m> in the circle. So <m>$x^2 + (x + 2)^2 = 2$</m>. Thus, <m>$(x + 1)^2 = 0$</m> so
+      <m>$x = -1$</m>.
+    </d:para>
+    <d:para>
+      Then <m>$y = 1$</m>. Hence, the point of contact is <m>$(-1, 1)$</m>.
+    </d:para>
+  </d:listitem>
   </d:orderedlist>
 </d:chapter>
