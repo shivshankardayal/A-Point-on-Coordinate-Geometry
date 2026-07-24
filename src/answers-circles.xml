@@ -3639,182 +3639,1675 @@
         Hence, the point of intersection is <m>$(17, 7)$</m>.
       </d:para>
     </d:listitem>
-    x<d:listitem>
-    <!-- 151 -->
-    <d:para>
-      The equation of the tangent at <m>$(\alpha, \beta)$</m> is <m>$x\alpha + y\beta = r^2$</m>.
-    </d:para>
-    <d:para>
-      To find the intercepts, put <m>$y = 0$</m>. Then <m>$x\alpha = r^2$</m> so <m>$x = \frac{r^2}{\alpha}$</m>.
-    </d:para>
-    <d:para>
-      So point <m>$A$</m> is <m>$\left(\frac{r^2}{\alpha}, 0\right)$</m>.
-    </d:para>
-    <d:para>
-      Now put <m>$x = 0$</m>. Then <m>$y\beta = r^2$</m> so <m>$y = \frac{r^2}{\beta}$</m>. So point
-      <m>$B$</m> is <m>$\left(0, \frac{r^2}{\beta}\right)$</m>.
-    </d:para>
-    <d:para>
-      Now the area of triangle <m>$OAB$</m> is <m>$\frac{1}{2}\times OA\times OB$</m>.
-    </d:para>
-    <d:para>
-      So area is <m>$\frac{1}{2}\times \frac{r^2}{|\alpha|}\times \frac{r^2}{|\beta|} =
-      \frac{1}{2}\frac{r^4}{|\alpha \beta|}$</m>.
-    </d:para>
-  </d:listitem>
-  <d:listitem>
-    <!-- 152 -->
-    <d:para>
-      The given circle is <m>$x^2 + y^2 - 2x - 4y - 20 = 0 \Rightarrow (x - 1)^2 + (y - 2)^2 = 25$</m>.
-    </d:para>
-    <d:para>
-      So the center is <m>$A(1, 2)$</m>. Tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 - (x + x_1) - 2(y
-      + y_1) - 20 = 0$</m>.
-    </d:para>
-    <d:para>
-      Tangent at <m>$(1, 7)$</m> is <m>$x + 7y - (x + 1) - 2(y + 7) - 20 = 0 \Rightarrow y = 7$</m>.
-    </d:para>
-    <d:para>
-      Tangent at <m>$(4, -2)$</m> is <m>$4x - 2y - (x + 4) - 2(y - 2) - 20 = 0 \Rightarrow 3x - 4y - 20 =
-      0$</m>.
-    </d:para>
-    <d:para>
-      Solving the two tangents we get point of intersection as <m>$C(16, 7)$</m>.
-    </d:para>
-    <d:para>
-      Split <m>$ABCD$</m> into triangles <m>$ABC$</m> and <m>$ADC$</m>.
-    </d:para>
-    <d:para>
-      Triangle <m>$ABC$</m> has base <m>$BC = 15$</m> and height <m>$5$</m>. So area is
-      <m>$\frac{1}{2}\times 15\times 5 = \frac{75}{2}$</m>.
-    </d:para>
-    <d:para>
-      Triangle <m>$ADC$</m> has base <m>$DC = \sqrt{(16 - 4)^2 + (7 + 2)^2} = 15$</m> and height
-      <m>$5$</m>. So area is <m>$\frac{75}{2}$</m>.
-    </d:para>
-    <d:para>
-      Hence, total area is <m>$75$</m>.
-    </d:para>
-  </d:listitem>
-  <d:listitem>
-    <!-- 153 -->
-    <d:para>
-      The given circle is <m>$x^2 + y^2 - 2x - 4y + 3 = 0 \Rightarrow (x - 1)^2 + (y - 2)^2 = 2$</m>.
-    </d:para>
-    <d:para>
-      So the center is <m>$(1, 2)$</m> and radius is <m>$\sqrt{2}$</m>. The given line is <m>$x + y - 5 =
-      0$</m>.
-    </d:para>
-    <d:para>
-      The distance from the center to the line is <m>$\frac{|1 + 2 - 5|}{\sqrt{2}} = \frac{2}{\sqrt{2}} =
-      \sqrt{2}$</m>.
-    </d:para>
-    <d:para>
-      This equals the radius, so the line touches the circle.
-    </d:para>
-    <d:para>
-      Put <m>$y = 5 - x$</m> in the circle. So <m>$(x - 1)^2 + (3 - x)^2 = 2$</m>.
-    </d:para>
-    <d:para>
-      Expanding gives <m>$x^2 - 2x + 1 + x^2 - 6x + 9 = 2 \Rightarrow 2x^2 - 8x + 10 = 2$</m>.
-    </d:para>
-    <d:para>
-      <m>$2x^2 - 8x + 8 = 0$</m> so <m>$x^2 - 4x + 4 = 0 \Rightarrow (x - 2)^2 = 0$</m> so <m>$x =
-      2$</m>. Then <m>$y = 3$</m>.
-    </d:para>
-    <d:para>
-      Hence, the point of contact is <m>$(2, 3)$</m>.
-    </d:para>
-  </d:listitem>
-  <d:listitem>
-    <!-- 154 -->
-    <d:para>
-      The tangent to the circle <m>$x^2 + y^2 = 5$</m> at <m>$(1, -2)$</m> is
-    </d:para>
-    <d:para>
-      Tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 = r^2$</m>. So <m>$x - 2y = 5$</m>.
-    </d:para>
-    <d:para>
-      Now consider the second circle <m>$x^2 + y^2 - 8x + 6y + 20 = (x - 4)^2 + (y + 3)^2 = 5$</m>.
-    </d:para>
-    <d:para>
-      So the center is <m>$(4, -3)$</m> and radius is <m>$\sqrt{5}$</m>.
-    </d:para>
-    <d:para>
-      The distance from the center to the line <m>$x - 2y - 5 = 0$</m>. So <m>$\frac{|4 + 6 - 5|}{\sqrt{5}}
-      = \sqrt{5}$</m>.
-    </d:para>
-    <d:para>
-      This equals the radius, so the line is tangent.
-    </d:para>
-    <d:para>
-      Put <m>$x = 2y + 5$</m> into the circle. So <m>$(2y + 5 - 4)^2 + (y + 3)^2 = 5 \Rightarrow y^2 + 2y +
-      1 = 0$</m>.
-    </d:para>
-    <d:para>
-      So <m>$(y + 1)^2 = 0$</m> and <m>$y = -1$</m>. Then <m>$x = 3$</m>.
-    </d:para>
-    <d:para>
-      Hence, the point of contact is <m>$(3, -1)$</m>.
-    </d:para>
-  </d:listitem>
-  <d:listitem>
-    <!-- 155 -->
-    <d:para>
-      The given circles are <m>$x^2 + y^2 - 10x + 4y - 20 = 0$</m> and <m>$x^2 + y^2 + 14x - 6y + 22 =
-      0$</m>.
-    </d:para>
-    <d:para>
-      First circle is <m>$(x - 5)^2 + (y + 2)^2 = 49$</m> so center is <m>$(5, -2)$</m> and radius is
-      <m>$7$</m>.
-    </d:para>
-    <d:para>
-      Second circle is <m>$(x + 7)^2 + (y - 3)^2 = 36$</m> so center is <m>$(-7, 3)$</m> and radius is
-      <m>$6$</m>.
-    </d:para>
-    <d:para>
-      Distance between centers is <m>$\sqrt{(5 + 7)^2 + (-2 - 3)^2} = \sqrt{144 + 25} = 13$</m>.
-    </d:para>
-    <d:para>
-      Since <m>$r_1 + r_2 = 7 + 6 = 13$</m>, the circles touch externally.
-    </d:para>
-    <d:para>
-      The point of contact lies on the line joining the centers and divides it in the ratio <m>$7 : 6$</m>.
-    </d:para>
-    <d:para>
-      So using section formula <m>$x = \frac{7(-7) + 6(5)}{13} = -\frac{19}{13}$</m> and <m>$y = \frac{7(3)
-      + 6(-2)}{13} = \frac{9}{13}$</m>
-    </d:para>
-    <d:para>
-      Hence the point of contact is <m>$\left(-\frac{19}{13}, \frac{9}{12}\right)$</m>.
-    </d:para>
-    <d:para>
-      Tangent at <m>$(x_1, y_1)$</m> on first circle is <m>$xx_1 + yy_1 - 5(x + x_1) + 2(y + y_1) - 20 = 0
-      \Rightarrow 19x - 9y + 110 = 0$</m>.
-    </d:para>
-  </d:listitem>
-  <d:listitem>
-    <!-- 156 -->
-    <d:para>
-      The given circle is <m>$x^2 + y^2 = 2$</m> so the center is <m>$(0, 0)$</m> and radius is
-      <m>$\sqrt{2}$</m>.
-    </d:para>
-    <d:para>
-      The given line is <m>$y - x - 2 = 0$</m>.
-    </d:para>
-    <d:para>
-      The distance from the center to the line is <m>$\frac{|0 - 0 - 2|}{\sqrt{2} = \sqrt{2}$</m>.
-    </d:para>
-    <d:para>
-      This equals the radius, so the line touches the circle.
-    </d:para>
-    <d:para>
-      Put <m>$y = x + 2$</m> in the circle. So <m>$x^2 + (x + 2)^2 = 2$</m>. Thus, <m>$(x + 1)^2 = 0$</m> so
-      <m>$x = -1$</m>.
-    </d:para>
-    <d:para>
-      Then <m>$y = 1$</m>. Hence, the point of contact is <m>$(-1, 1)$</m>.
-    </d:para>
-  </d:listitem>
+    <d:listitem>
+      <!-- 151 -->
+      <d:para>
+        The equation of the tangent at <m>$(\alpha, \beta)$</m> is <m>$x\alpha + y\beta = r^2$</m>.
+      </d:para>
+      <d:para>
+        To find the intercepts, put <m>$y = 0$</m>. Then <m>$x\alpha = r^2$</m> so <m>$x = \frac{r^2}{\alpha}$</m>.
+      </d:para>
+      <d:para>
+        So point <m>$A$</m> is <m>$\left(\frac{r^2}{\alpha}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Now put <m>$x = 0$</m>. Then <m>$y\beta = r^2$</m> so <m>$y = \frac{r^2}{\beta}$</m>. So point
+        <m>$B$</m> is <m>$\left(0, \frac{r^2}{\beta}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now the area of triangle <m>$OAB$</m> is <m>$\frac{1}{2}\times OA\times OB$</m>.
+      </d:para>
+      <d:para>
+        So area is <m>$\frac{1}{2}\times \frac{r^2}{|\alpha|}\times \frac{r^2}{|\beta|} =
+        \frac{1}{2}\frac{r^4}{|\alpha \beta|}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 152 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 2x - 4y - 20 = 0 \Rightarrow (x - 1)^2 + (y - 2)^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$A(1, 2)$</m>. Tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 - (x + x_1) - 2(y
+        + y_1) - 20 = 0$</m>.
+      </d:para>
+      <d:para>
+        Tangent at <m>$(1, 7)$</m> is <m>$x + 7y - (x + 1) - 2(y + 7) - 20 = 0 \Rightarrow y = 7$</m>.
+      </d:para>
+      <d:para>
+        Tangent at <m>$(4, -2)$</m> is <m>$4x - 2y - (x + 4) - 2(y - 2) - 20 = 0 \Rightarrow 3x - 4y - 20 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Solving the two tangents we get point of intersection as <m>$C(16, 7)$</m>.
+      </d:para>
+      <d:para>
+        Split <m>$ABCD$</m> into triangles <m>$ABC$</m> and <m>$ADC$</m>.
+      </d:para>
+      <d:para>
+        Triangle <m>$ABC$</m> has base <m>$BC = 15$</m> and height <m>$5$</m>. So area is
+        <m>$\frac{1}{2}\times 15\times 5 = \frac{75}{2}$</m>.
+      </d:para>
+      <d:para>
+        Triangle <m>$ADC$</m> has base <m>$DC = \sqrt{(16 - 4)^2 + (7 + 2)^2} = 15$</m> and height
+        <m>$5$</m>. So area is <m>$\frac{75}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, total area is <m>$75$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 153 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 2x - 4y + 3 = 0 \Rightarrow (x - 1)^2 + (y - 2)^2 = 2$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$(1, 2)$</m> and radius is <m>$\sqrt{2}$</m>. The given line is <m>$x + y - 5 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the line is <m>$\frac{|1 + 2 - 5|}{\sqrt{2}} = \frac{2}{\sqrt{2}} =
+        \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        This equals the radius, so the line touches the circle.
+      </d:para>
+      <d:para>
+        Put <m>$y = 5 - x$</m> in the circle. So <m>$(x - 1)^2 + (3 - x)^2 = 2$</m>.
+      </d:para>
+      <d:para>
+        Expanding gives <m>$x^2 - 2x + 1 + x^2 - 6x + 9 = 2 \Rightarrow 2x^2 - 8x + 10 = 2$</m>.
+      </d:para>
+      <d:para>
+        <m>$2x^2 - 8x + 8 = 0$</m> so <m>$x^2 - 4x + 4 = 0 \Rightarrow (x - 2)^2 = 0$</m> so <m>$x =
+        2$</m>. Then <m>$y = 3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the point of contact is <m>$(2, 3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 154 -->
+      <d:para>
+        The tangent to the circle <m>$x^2 + y^2 = 5$</m> at <m>$(1, -2)$</m> is
+      </d:para>
+      <d:para>
+        Tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 = r^2$</m>. So <m>$x - 2y = 5$</m>.
+      </d:para>
+      <d:para>
+        Now consider the second circle <m>$x^2 + y^2 - 8x + 6y + 20 = (x - 4)^2 + (y + 3)^2 = 5$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$(4, -3)$</m> and radius is <m>$\sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the line <m>$x - 2y - 5 = 0$</m>. So <m>$\frac{|4 + 6 - 5|}{\sqrt{5}}
+        = \sqrt{5}$</m>.
+      </d:para>
+      <d:para>
+        This equals the radius, so the line is tangent.
+      </d:para>
+      <d:para>
+        Put <m>$x = 2y + 5$</m> into the circle. So <m>$(2y + 5 - 4)^2 + (y + 3)^2 = 5 \Rightarrow y^2 + 2y +
+        1 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(y + 1)^2 = 0$</m> and <m>$y = -1$</m>. Then <m>$x = 3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the point of contact is <m>$(3, -1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 155 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 - 10x + 4y - 20 = 0$</m> and <m>$x^2 + y^2 + 14x - 6y + 22 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        First circle is <m>$(x - 5)^2 + (y + 2)^2 = 49$</m> so center is <m>$(5, -2)$</m> and radius is
+        <m>$7$</m>.
+      </d:para>
+      <d:para>
+        Second circle is <m>$(x + 7)^2 + (y - 3)^2 = 36$</m> so center is <m>$(-7, 3)$</m> and radius is
+        <m>$6$</m>.
+      </d:para>
+      <d:para>
+        Distance between centers is <m>$\sqrt{(5 + 7)^2 + (-2 - 3)^2} = \sqrt{144 + 25} = 13$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$r_1 + r_2 = 7 + 6 = 13$</m>, the circles touch externally.
+      </d:para>
+      <d:para>
+        The point of contact lies on the line joining the centers and divides it in the ratio <m>$7 : 6$</m>.
+      </d:para>
+      <d:para>
+        So using section formula <m>$x = \frac{7(-7) + 6(5)}{13} = -\frac{19}{13}$</m> and <m>$y = \frac{7(3)
+        + 6(-2)}{13} = \frac{9}{13}$</m>
+      </d:para>
+      <d:para>
+        Hence the point of contact is <m>$\left(-\frac{19}{13}, \frac{9}{12}\right)$</m>.
+      </d:para>
+      <d:para>
+        Tangent at <m>$(x_1, y_1)$</m> on first circle is <m>$xx_1 + yy_1 - 5(x + x_1) + 2(y + y_1) - 20 = 0
+        \Rightarrow 19x - 9y + 110 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 156 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 2$</m> so the center is <m>$(0, 0)$</m> and radius is
+        <m>$\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The given line is <m>$y - x - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the line is <m>$\frac{|0 - 0 - 2|}{\sqrt{2}} = \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        This equals the radius, so the line touches the circle.
+      </d:para>
+      <d:para>
+        Put <m>$y = x + 2$</m> in the circle. So <m>$x^2 + (x + 2)^2 = 2$</m>. Thus, <m>$(x + 1)^2 = 0$</m> so
+        <m>$x = -1$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$y = 1$</m>. Hence, the point of contact is <m>$(-1, 1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 157 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>. Its center is <m>$(-g, -f)$</m> and
+        radius is <m>$\sqrt{g^2 + f^2 - c}$</m>.
+      </d:para>
+      <d:para>
+        For the line <m>$l x + m y + n = 0$</m> to touch the circle, the distance from the center to the line
+        must equal the radius.
+      </d:para>
+      <d:para>
+        So the condition is <m>$\frac{|-lg - mf + n|}{\sqrt{l^2 + m^2}} = \sqrt{g^2 + f^2 - c}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides gives <m>$(-lg - mf + n)^2 = \left(l^2 + m^2\right)\left(g^2 + f^2 -
+        c\right)$</m>.
+      </d:para>
+      <d:para>
+        Point of contact is the foot of the perpendicular from the center to the line.
+      </d:para>
+      <d:para>
+        So the coordinates are <m>$x = -g - l\frac{-lg - mf + n}{l^2 + m^2}$</m> and <m>$y = -f - \frac{m(-l g
+        - m f + n)}{l^2 + m^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 158 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 10x \Rightarrow (x - 5)^2 + y^2 = 25$</m>. So the center is
+        <m>$(5, 0)$</m> and radius is <m>$5$</m>.
+      </d:para>
+      <d:para>
+        The line is <m>$3x + 4y - k = 0$</m>. For tangency, the distance from the center to the line equals
+        the radius.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|15 - k|}{5} = 5 \Rightarrow |15 - k| = 25$</m>. So <m>$k = 40$</m> or <m>$k = -10$</m>.
+      </d:para>
+      <d:para>
+        Now find the point of contact using foot of perpendicular from <m>$(5, 0)$</m> to the line.
+      </d:para>
+      <d:para>
+        For <m>$k = 40, x = 5 - 3\frac{15 - 40}{25} = 8$</m> and <m>$y = 0 - 4\frac{15 - 40}{25} = 4$</m>. So
+        point is <m>$(8, 4)$</m>.
+      </d:para>
+      <d:para>
+        For <m>$k = -10, x = 5 - 3\frac{15 + 10}{25} = 2$</m> and <m>$y = 0 - 4\frac{15 + 10}{25} =
+        -4$</m>. So point is <m>$(2, -4)$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$k = 40$</m> or <m>$k = -10$</m> and the points of contact are <m>$(8, 4)$</m> and <m>$(2,
+        -4)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 159 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 5$</m> so the center is <m>$(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        The normal at a point on a circle is the line joining the center to that point.
+      </d:para>
+      <d:para>
+        So the normal passes through <m>$(0, 0)$</m> and <m>$(1, 2)$</m>. The slope is <m>$2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation is <m>$y = 2x$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 160 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 2x \Rightarrow (x - 1)^2 + y^2 = 1$</m> so the center is <m>$(1,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        The given line <m>$x + 2y = 3$</m> has slope <m>$-\frac{1}{2}$</m>. So the required normal must also
+        have slope <m>$-\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        The normal to a circle passes through the center.
+      </d:para>
+      <d:para>
+        Hence, the normal is the line through <m>$(1, 0)$</m> with slope <m>$-\frac{1}{2}$</m>. So its
+        equation is <m>$y = -\frac{1}{2}(x - 1)$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x + 2y - 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 161 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 - 6x - 10y + k = 0$</m>. Let <m>$P = (1, 4)$</m>. Since <m>$P$</m> lies
+        inside the circle <m>$17 - 6 - 40 + k &lt; 0 \Rightarrow k &lt; 29$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$H$</m> be the center and <m>$a$</m> the radius of the circle, then <m>$H = (3, 5)$</m> and
+        <m>$a = \sqrt{34 - k}$</m>.
+      </d:para>
+      <d:para>
+        Since the circle neither cuts the <m>$x$</m>-axis nor touches it <m>$\therefore a &lt; |5| \Rightarrow
+        k > 9$</m>.
+      </d:para>
+      <d:para>
+        Again since the circle neither cuts the <m>$y$</m>-axis not touches it <m>$\therefore a &lt; |3|
+        \Rightarrow k > 25$</m>
+      </d:para>
+      <d:para>
+        Combining the conditions we have <m>$25 &lt; k &lt; 29$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 162 -->
+      <d:para>
+        Lenght of tangent is <m>$\sqrt{5^2 + 1^2 + 6.5 - 4.1 - 3} = 7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 163 -->
+      <d:para>
+        Given circles are <m>$x^2 + y^2 - 2\lambda x - c^2 = 0 \ldots$</m> (1) where $lambda$ is a variable.
+      </d:para>
+      <d:para>
+        Let the three values of <m>$\lambda$</m> be <m>$\lambda_1, \lambda_2$</m> and <m>$\lambda_3$</m>. Let
+        <m>$A, B$</m> and <m>$C$</m> be the centers of the three circles respectively, then
+      </d:para>
+      <d:para>
+        <m>$A = (\lambda_1, 0), B = (\lambda_2, 0)$</m> and <m>$C = (\lambda_3, 0)$</m>. If <m>$O(0, 0)$</m>
+        be the origin, then
+      </d:para>
+      <d:para>
+        <m>$OA = |\lambda_1|, OB = |\lambda_2|$</m> and <m>$OC = |\lambda_3|$</m>.
+      </d:para>
+      <d:para>
+        Given that <m>$|\lambda_1|, |\lambda_2|, |\lambda_3|$</m> are in G.P. <m>$\therefore |\lambda_2|^2 =
+        |\lambda_1||\lambda_3|$</m>
+      </d:para>
+      <d:para>
+        Equation of another circle is <m>$x^2 + y^2 = c^2$</m>. Let <m>$P(\alpha, \beta)$</m> be any circle on
+        this point, then
+      </d:para>
+      <d:para>
+        <m>$\alpha^2 + \beta^2 - c^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Lengths of tangents from <m>$P$</m> to the three circles are <m>$p_1 = \sqrt{\alpha^2 + \beta^2 -
+        2\lambda_1\alpha - c^2} = \sqrt{-2\lambda_1\alpha}, p_2 = \sqrt{-2\lambda_2\alpha}$</m>, and <m>$p_3 =
+        \sqrt{-2\lambda_3\alpha}$</m>
+      </d:para>
+      <d:para>
+        <m>$p_1p_3 = \sqrt{4\lambda_1\lambda_3\alpha^2}$</m>. We see that <m>$\lambda_1\lambda_3 > 0
+        \Rightarrow |\lambda_1||\lambda_3| = \lambda_1\lambda_3$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$p_2^2 = p_1p_3$</m>, and hence, <m>$p_1, p_2, p_3$</m> are in G.P.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 164 -->
+      <d:para>
+        Let <m>$P = (\alpha, \beta)$</m>. Given that the lengths of the tangents are equal, therefore,
+      </d:para>
+      <d:para>
+        <m>$\sqrt{\alpha^2 + \beta^2 + \alpha - 3} = \sqrt{\alpha^2 + \beta^2 - \frac{5}{3}\alpha + \beta} =
+        \sqrt{\alpha^2 + \beta^2 + 2\alpha + \frac{7}{4}\beta + \frac{9}{4}}$</m>
+      </d:para>
+      <d:para>
+        Solving we get <m>$\alpha = 0, \beta = -3 \therefore P = (0, -3)$</m>.
+      </d:para>
+      <d:para>
+        Let the equation of the required circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. It passes through
+        <m>$(0, -3)$</m>, therefore,
+      </d:para>
+      <d:para>
+        <m>$-6f + c + 9 = 0$</m>
+      </d:para>
+      <d:para>
+        Equation of the tangent to the circle at <m>$(6, -1)$</m> is <m>$6x - y + g(x + 6) + f(y - 1) + c =
+        0$</m>
+      </d:para>
+      <d:para>
+        Given that the equation of the tangent is <m>$x + y - 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing coefficients we have <m>$g = -\frac{7}{2}, f = \frac{7}{2} \Rightarrow c = 12$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the circle is <m>$x^2 + y^2 - 7x + 7y + 12 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 165 -->
+      <d:para>
+        The length of tangent from <m>$(f, g)$</m> to <m>$x^2 + y^2 = 6$</m> is <m>$\sqrt{f^2 + g^2 -
+        6}$</m>.
+      </d:para>
+      <d:para>
+        The length of tangent from <m>$(f, g)$</m> to <m>$x^2 + y^2 + 3x + 3y = 0$</m> is <m>$\sqrt{f^2 +
+        g^2 + 3f + 3g}$</m>.
+      </d:para>
+      <d:para>
+        Given the first is twice the second. So <m>$\sqrt{f^2 + g^2 - 6} = 2\sqrt{f^2 + g^2 + 3f + 3g}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$f^2 + g^2 - 6 = 4\left(f^2 + g^2 + 3f + 3g\right)$</m>.
+      </d:para>
+      <d:para>
+        Simplify to get <m>$0 = 3f^2 + 3g^2 + 12f + 12g + 6$</m>. So <m>$f^2 + g^2 + 4f + 4g + 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 166 -->
+      <d:para>
+        The length of the tangent from <m>$(f, g)$</m> to the circle <m>$x^2 + y^2 = 4$</m> is <m>$\sqrt{f^2
+        + g^2 - 4}$</m>.
+      </d:para>
+      <d:para>
+        The second circle is <m>$x^2 + y^2 = 4x$</m> which is <m>$(x - 2)^2 + y^2 = 4$</m>.
+      </d:para>
+      <d:para>
+        So the length of the tangent from <m>$(f, g)$</m> to this circle is <m>$\sqrt{(f - 2)^2 + g^2 -
+        4}$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$\sqrt{f^2 + g^2 - 4} = 4\sqrt{(f - 2)^2 + g^2 - 4}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$f^2 + g^2 - 4 = 16f^2 + 16g^2 - 64f \Rightarrow 15f^2 + 15g^2 - 64f + 4 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 167 -->
+      <d:para>
+        Let <m>$(x_1, y_1)$</m> be any point on the circle <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The length of the tangent from <m>$(x_1, y_1)$</m> to the circle <m>$x^2 + y^2 + 2gx + 2fy + c_1 =
+        0$</m> is
+      </d:para>
+      <d:para>
+        <m>$\sqrt{x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c_1}$</m>.
+      </d:para>
+      <d:para>
+        Using the first relation, substitute <m>$x_1^2 + y_1^2 + 2gx_1 + 2fy_1 = -c$</m>.
+      </d:para>
+      <d:para>
+        So the length becomes <m>$\sqrt{-c + c_1}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 168 -->
+      <d:para>
+        Let the required point be <m>$(x, y)$</m>. The length of the tangent from <m>$(x, y)$</m> to <m>$x^2
+        + y^2 = 1$</m> is
+      </d:para>
+      <d:para>
+        <m>$\sqrt{x^2 + y^2 - 1}$</m>. For the circle <m>$x^2 + y^2 - 8x + 15 = 0$</m> it is <m>$\sqrt{x^2 +
+        y^2 - 8x + 15}$</m>.
+      </d:para>
+      <d:para>
+        For the circle <m>$x^2 + y^2 + 10y + 24 = 0$</m> it is <m>$\sqrt{x^2 + y^2 + 10y + 24}$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$x^2 + y^2 - 1 = x^2 + y^2 - 8x + 15 \Rightarrow x = 2$</m>.
+      </d:para>
+      <d:para>
+        Again <m>$x^2 + y^2 - 1 = x^2 + y^2 + 10y + 24 \Rightarrow y = -\frac{5}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required point is <m>$\left(2, -\frac{5}{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 169 -->
+      <d:para>
+        Let the required point be <m>$(x, y)$</m>. The length of the tangent from <m>$(x, y)$</m> to <m>$x^2
+        + y^2 - 4x + 7 = 0$</m> is
+      </d:para>
+      <d:para>
+        <m>$\sqrt{x^2 + y^2 - 4x + 7}$</m>. For the circle <m>$2x^2 + 2y^2 - 3x + 5y + 9 = 0$</m> divide by
+        <m>$2$</m>.
+      </d:para>
+      <d:para>
+        So it becomes <m>$x^2 + y^2 - \frac{3}{2}x + \frac{5}{2}y + \frac{9}{2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the length is <m>$\sqrt{x^2 + y^2 - \frac{3}{2}x + \frac{5}{2}y + \frac{9}{2}}$</m>.
+      </d:para>
+      <d:para>
+        For the circle <m>$x^2 + y^2 + y = 0$</m> the length is <m>$\sqrt{x^2 + y^2 + y}$</m>.
+      </d:para>
+      <d:para>
+        Equating first and second. So <m>$x^2 + y^2 - 4x + 7 = x^2 + y^2 - \frac{3}{2}x + \frac{5}{2}y +
+        \frac{9}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$-5x - 5y + 5 = 0$</m> so <m>$x + y = 1$</m>.
+      </d:para>
+      <d:para>
+        Now equate first and third. So <m>$x^2 + y^2 - 4x + 7 = x^2 + y^2 + y$</m>. So <m>$y = -4x + 7$</m>.
+      </d:para>
+      <d:para>
+        Solve with <m>$x + y = 1$</m>. So <m>$x - 4x + 7 = 1$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x = 2$</m> and <m>$y = -1$</m>. Hence, the point is <m>$(2, -1)$</m>.
+      </d:para>
+      <d:para>
+        So length is <m>$\sqrt{4 + 1 - 8 + 7} = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 170 -->
+      <d:para>
+        Let the point be <m>$(x, y)$</m>. For the circle <m>$x^2 + y^2 + 2g_i x + 5 = 0$</m>, the length of
+      the tangent from <m>$(x, y)$</m> is <m>$t_i^2 = x^2 + y^2 + 2g_i x + 5$</m>.
+      </d:para>
+      <d:para>
+        Now consider <m>$(g_2 - g_3)t_1^2 + (g_3 - g_1)t_2^2 + (g_1 - g_2)t_3^2$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$t_i^2$</m>. So it becomes <m>$(g_2 - g_3)\left(x^2 + y^2 + 2g_1 x + 5\right) +$</m><d:sbr/> <m>$(g_3 -
+        g_1)\left(x^2 + y^2 + 2g_2 x + 5\right) + (g_1 - g_2)\left(x^2 + y^2 + 2g_3 x + 5\right)$</m>.
+      </d:para>
+      <d:para>
+        The coefficient of <m>$(x^2 + y^2 + 5)$</m> is <m>$(g_2 - g_3) + (g_3 - g_1) + (g_1 - g_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Now consider the remaining terms.
+      </d:para>
+      <d:para>
+        So we get <m>$2x[(g_2 - g_3)g_1 + (g_3 - g_1)g_2 + (g_1 - g_2)g_3]$</m>.
+      </d:para>
+      <d:para>
+        Expanding inside. So <m>$g_1 g_2 - g_1 g_3 + g_2 g_3 - g_1 g_2 + g_1 g_3 - g_2 g_3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the whole expression is <m>$2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 171 -->
+      <d:para>
+        Let the point be <m>$(x, y)$</m>. The length of the tangent from <m>$(x, y)$</m> to <m>$x^2 + y^2 =
+        a^2$</m> is <m>$\sqrt{x^2 + y^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        The second circle is <m>$(x - a)^2 + y^2 = a^2$</m>. So the length of the tangent from <m>$(x,
+        y)$</m> to this circle is <m>$\sqrt{(x - a)^2 + y^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        Given the first is four times the second. So <m>$\sqrt{x^2 + y^2 - a^2} = 4\sqrt{(x - a)^2 + y^2 -
+        a^2}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 - a^2 = 16\left((x - a)^2 + y^2 - a^2\right) \Rightarrow x^2 + y^2 - a^2 =
+        16\left(x^2 + y^2 - 2ax\right)$</m>.
+      </d:para>
+      <d:para>
+        So <m>$0 = 15x^2 + 15y^2 - 32a x + a^2$</m>. Hence, the point lies on the required circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 172 -->
+      <d:para>
+        The equation of the pair of tangents from <m>$(0, 1)$</m> is given by <m>$T^2 = SS_1$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$S = x^2 + y^2 - 2x + 4y$</m> and <m>$S_1 = 0^2 + 1^2 - 2(0) + 4(1) = 5$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$T$</m> is <m>$x\times 0 + y\times 1 - (x + 0) + 2(y + 1)$</m>. So <m>$T = y - x + 2y + 2 =
+        -x + 3y + 2$</m>.
+      </d:para>
+      <d:para>
+        Thus the equation is <m>$(-x + 3y + 2)^2 = 5\left(x^2 + y^2 - 2x + 4y\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 3x^2 - 2y^2 + 3x y - 3x + 4y - 2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 173 -->
+      <d:para>
+        Let <m>$(x_1, y_1)$</m> be any point on the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. So
+        <m>$x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The second circle is <m>$x^2 + y^2 + 2g x + 2f y + c\sin^2\alpha + (g^2 + f^2)\cos^2\alpha = 0$</m>.
+      </d:para>
+      <d:para>
+        The length of the tangent from <m>$(x_1, y_1)$</m> to the second circle is <d:sbr/><m>$\sqrt{x_1^2 + y_1^2 +
+        2gx_1 + 2fy_1 + c\sin^2\alpha + \left(g^2 + f^2\right)\cos^2\alpha}$</m>.
+      </d:para>
+      <d:para>
+        Using the first relation, substitute <m>$x_1^2 + y_1^2 + 2gx_1 + 2fy_1 = -c$</m>.
+      </d:para>
+      <d:para>
+        So the length becomes <m>$\sqrt{-c + c\sin^2\alpha + \left(g^2 + f^2\right)\cos^2\alpha}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$\sqrt{\left(g^2 + f^2 - c\right)\cos^2\alpha}$</m>. So the tangent length is
+        <m>$\sqrt{g^2 + f^2 - c}\cos\alpha$</m>.
+      </d:para>
+      <d:para>
+        The radius of the second circle is <m>$\sqrt{g^2 + f^2 - \left(c\sin^2\alpha + \left(g^2 +
+        f^2\right)\cos^2\alpha\right)}$</m>.
+      </d:para>
+      <d:para>
+        <m>$= \sqrt{\left(g^2 + f^2 - c\right)\sin^2\alpha}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\theta$</m> be the angle between the tangents. Then <m>$\tan\frac{\theta{2}} =
+        \frac{r}{d}$</m> where <m>$d$</m> is the tangent length.
+      </d:para>
+      <d:para>
+        So <m>$\tan\frac{\theta}{2} = \tan\alpha$</m>. Hence, <m>$\theta = 2\alpha$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 174 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 25$</m> so the center is <m>$(0, 0)$</m> and radius is
+        <m>$5$</m>.
+      </d:para>
+      <d:para>
+        Let the tangent from <m>$(1, -7)$</m> have slope <m>$m$</m>. So its equation is <m>$y + 7 = m(x -
+        1)$</m>.
+      </d:para>
+      <d:para>
+        This gives <m>$mx - y - m - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        For tangency, the distance from the center to the line equals the radius. So <m>$\frac{|-m -
+        7|}{\sqrt{m^2 + 1}} = 5$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m = \frac{4}{3}$</m> or <m>$m = -\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the tangents are <m>$y + 7 = \frac{4}{3}(x - 1)$</m> and <m>$y + 7 = -\frac{3}{4}(x - 1)$</m>.
+      </d:para>
+      <d:para>
+        Their product of slopes is $-1$ so they are perpendicular.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 175 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 16$</m>. From the point <m>$(9, 0)$</m> the length of the
+        tangent is
+      </d:para>
+      <d:para>
+        <m>$\sqrt{9^2 - 16} = \sqrt{65}$</m> which is real. Hence, two tangents can be drawn.
+      </d:para>
+      <d:para>
+        The equation of the pair of tangents is given by <m>$T^2 = SS_1$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$S = x^2 + y^2 - 16$</m> and <m>$S_1 = 81 - 16 = 65$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$T = xx_1 + yy_1 - 16 = 9x - 16$</m>.
+      </d:para>
+      <d:para>
+        So the equation is <m>$(9x - 16)^2 = 65\left(x^2 + y^2 - 16\right)$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$16x^2 - 65y^2 - 288x + 1296 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\tan\theta = 2\frac{\sqrt{0 - (16)(-65)}}{16 - 65} = -\frac{8\sqrt{65}}{49}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 176 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 25$</m> so the center is <m>$(0, 0)$</m> and radius is
+        <m>$5$</m>.
+      </d:para>
+      <d:para>
+        Let the tangent through <m>$(7, 1)$</m> have slope <m>$m$</m>.
+      </d:para>
+      <d:para>
+        So its equation is <m>$y - 1 = m(x - 7)$</m>. This gives <m>$mx - y - 7m + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        For tangency, the distance from the center to the line equals the radius.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|-7m + 1|}{\sqrt{m^2 + 1}} = 5$</m>. Solve to get <m>$m = \frac{4}{3}$</m> or <m>$m =
+        -\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the tangents are <m>$y - 1 = \frac{4}{3}(x - 7)$</m> and <m>$y - 1 = -\frac{3}{4}(x -
+        7)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 177 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + k^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of the pair of tangents from the origin is given by <m>$T^2 = SS_1$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$S = x^2 + y^2 + 2gx + 2fy + k^2$</m> and <m>$S_1 = k^2$</m>. Now <m>$T = gx + fy +
+        k^2$</m>.
+      </d:para>
+      <d:para>
+        So the equation is <m>$\left(gx + fy + k^2\right)^2 = k^2\left(x^2 + y^2 + 2gx + 2fy +
+        k^2\right)$</m>.
+      </d:para>
+      <d:para>
+        This is the required pair of tangents.
+      </d:para>
+      <d:para>
+        Now find the intercept on the line <m>$y = h$</m>. Substitute <m>$y = h$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\left(gx + fh + k^2\right)^2 = k^2\left(x^2 + h^2 + 2gx + 2fh + k^2\right)$</m>.
+      </d:para>
+      <d:para>
+        The intercept is the distance between the two roots.
+      </d:para>
+      <d:para>
+        So length is <m>$\frac{2\sqrt{\left(g^2 - k^2\right)\left(h^2 + k^2 + 2f h\right)}}{|k^2 - g^2|}$</m>.
+      </d:para>
+      <d:para>
+        Using the relation <m>$g^2 + f^2 - k^2 = r^2$</m> simplify the expression.
+      </d:para>
+      <d:para>
+        This reduces to <m>$\frac{2hkr}{k^2 - g^2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the intercept is <m>$\frac{2hk}{k^2 - g^2}$</m> times the radius.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 178 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 6x + 8y - 11 = 0$</m>. Let the midpoint of the chord be <m>$(1,
+        -1)$</m>.
+      </d:para>
+      <d:para>
+        The chord whose midpoint is <m>$(x_1, y_1)$</m> is given by <m>$T = S_1$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$S = x^2 + y^2 + 6x + 8y - 11$</m> and <m>$S_1 = 1^2 + (-1)^2 + 6(1) + 8(-1) - 11 =
+        -11$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$T = x x_1 + y y_1 + 3(x + x_1) + 4(y + y_1) - 11$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(1, -1)$</m>. So <m>$T = x - y + 3(x + 1) + 4(y - 1) - 11$</m>.
+      </d:para>
+      <d:para>
+        Thus, the chord is <m>$T = S_1$</m> so <m>$4x + 3y - 12 = -11$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation is <m>$4x + 3y - 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 179 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 6x + 8y + 9 = 0$</m>. Let the midpoint be <m>$(-2, -3)$</m>.
+      </d:para>
+      <d:para>
+        The chord whose midpoint is <m>$(x_1, y_1)$</m> is given by <m>$T = S_1$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$S = x^2 + y^2 + 6x + 8y + 9$</m> and <m>$S_1 = (-2)^2 + (-3)^2 + 6(-2) + 8(-3) + 9 =
+        -14$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$T = x x_1 + y y_1 + 3(x + x_1) + 4(y + y_1) + 9$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(x_1, y_1) = (-2, -3)$</m>. So <m>$T = -2x - 3y + 3(x - 2) + 4(y - 3) + 9$</m>.
+      </d:para>
+      <d:para>
+        Simplify to get <m>$x + y - 9$</m>. Thus, the chord is <m>$T = S_1$</m> so <m>$x + y - 9 = -14$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation is <m>$x + y + 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 180 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 4x - 2y - 3 = 0$</m>. So the center is <m>$(-2, 1)$</m>.
+      </d:para>
+      <d:para>
+        The given line is <m>$y = x + 2$</m> or <m>$x - y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of the chord is the foot of the perpendicular from the center to the line.
+      </d:para>
+      <d:para>
+        Using the formula for foot of perpendicular from <m>$(x_1, y_1)$</m> to <m>$ax + by + c = 0$</m>,
+      </d:para>
+      <d:para>
+        <m>$x = x_1 - \frac{a(a x_1 + b y_1 + c)}{a^2 + b^2}$</m> and <m>$y = y_1 - \frac{b(a x_1 + b y_1 +
+        c)}{a^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$(x_1, y_1) = (-2, 1)$</m> and <m>$a = 1, b = -1, c = 2$</m>.
+      </d:para>
+      <d:para>
+        <m>$ax_1 + by_1 + c = -2 - 1 + 2 = -1$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x = -2 - 1(-1)/2 = -\frac{3}{2}$</m> and <m>$y = 1 - (-1)(-1)/2 = \frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the midpoint is <m>$\left(-\frac{3}{2}, \frac{1}{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 181 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 2x + 4y + 7 = 0$</m>. The chord of contact from a point
+        <m>$(x_1, y_1)$</m> is given by <m>$T = 0$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$T = xx_1 + yy_1 - (x + x_1) + 2(y + y_1) + 7$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(x_1, y_1) = (1, 2)$</m>. So <m>$T = x + 2y - (x + 1) + 2(y + 2) + 7$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4y + 10 = 0 \Rightarrow 2y + 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 182 -->
+      <d:para>
+        Given circle is <m>$x^2 + y^2 = a^2 \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        <d:figure xml:id="dummy516a">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/5_16a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        The equation of the chord of contact <m>$AB$</m> of tangents drawn from <m>$P(h, k)$</m> to the
+        circle (1) is <m>$xh + yk = a^2$</m>.
+      </d:para>
+      <d:para>
+        We have to find the area of <m>$\triangle PAB$</m>. From <m>$P(h, k)$</m> draw <m>$PL \perp
+        AB$</m>. Now
+      </d:para>
+      <d:para>
+        <m>$PL = \frac{h^2 + k^2 - a^2}{\sqrt{h^2 + k^2}}$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$PA = \sqrt{h^2 + k^2 - a^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$AL^2 = AP^2 - PL^2 = \frac{a\sqrt{h^2 + k^2 - a^2}}{\sqrt{h^2 + k^2}}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta_{PAB} = \frac{1}{2}.AB.PL = AL.PL = \frac{a\left(h^2 + k^2 - a^2\right)^{3/2}}{h^2 +
+        k^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 183 -->
+      <d:para>
+        Given circles are <m>$x^2 + y^2 = a^2 \ldots$</m> (1), <m>$x^2 + y^2 = b^2 \ldots$</m> (2), and
+        <m>$x^2 + y^2 = c^2 \ldots$</m> (3).
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be any point on (1), then <m>$\alpha^2 + \beta^2 = a^2 \ldots$</m> (4)
+      </d:para>
+      <d:para>
+        Equation of the chord of contact of the tangents from <m>$P(\alpha, \beta)$</m> to (2) is
+      </d:para>
+      <d:para>
+        <m>$x\alpha + y\beta - b^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        This chord of contact is tangent to (3), therefore,
+      </d:para>
+      <d:para>
+        <m>$\frac{|0.\alpha + 0.\beta - b^2|}{\sqrt{\alpha^2 + \beta^2}} = c \Rightarrow b^2 = a c$</m>, and
+        hence, <m>$a, b, c$</m> are in G.P.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 184 -->
+      <d:para>
+        Common chord of the circles is <m>$5x - 3y - 10 = 0$</m>. Let this meet the circles at <m>$A$</m>
+        and <m>$B$</m>. Let the tangents to first circle at <m>$A$</m> and <m>$B$</m> meet at <m>$P(\alpha,
+        \beta)$</m>, then <m>$AB$</m> will be the chord of contact of the tangents to the circle from
+        <m>$P$</m>, therefore, equation of <m>$AB$</m> will be
+      </d:para>
+      <d:para>
+        <m>$x\alpha + y\beta - 12 = 0$</m>
+      </d:para>
+      <d:para>
+        The two obtained equations are same. Comparing coefficients we have <m>$\frac{\alpha}{5} =
+        \frac{\beta}{-3} = \frac{12}{10}$</m>, which yields
+      </d:para>
+      <d:para>
+        <m>$\alpha = 6, \beta = -\frac{18}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 185 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2x - 3 = 0$</m>. The chord of contact from a point <m>$(x_1,
+        y_1)$</m> is given by <m>$T = 0$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$T = x x_1 + y y_1 + (x + x_1) - 3$</m>. Substitute <m>$\left(x_1, y_1\right) = (-3, 2)$</m>.
+      </d:para>
+      <d:para>
+        So <m>$T = -3x + 2y + (x - 3) - 3$</m>.
+      </d:para>
+      <d:para>
+        Hence, the chord of contact is <m>$x - y + 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 186 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 25$</m>. The chord of contact from a point <m>$(x_1, y_1)$</m>
+        is given by <m>$xx_1 + yy_1 = 25$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(x_1, y_1) = (5, 3)$</m>. So the equation becomes <m>$5x + 3y = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 187 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 4x + 3y - 1 = 0$</m>. The line is <m>$2x + y + 12 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the points of intersection be <m>$P$</m> and <m>$Q$</m>. The intersection of tangents at
+        <m>$P$</m> and <m>$Q$</m> is given by the pole of the line.
+      </d:para>
+      <d:para>
+        So we find the pole of <m>$2x + y + 12 = 0$</m> with respect to the circle.
+      </d:para>
+      <d:para>
+        For the circle, the pole of <m>$lx + my + n = 0$</m> is <m>$\frac{( -2gl - mn , -2fm - ln )}{l^2 +
+        m^2}$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$g = -2$</m> and <m>$f = \frac{3}{2}$</m>. <m>$\Rightarrow x = \frac{-2(-2)(2) - (1)(12)}{5} =
+        -\frac{4}{5}$</m> and <m>$y = \frac{-2(3/2)(1) - (2)(12)}{5} = -\frac{27}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 188 -->
+      <d:para>
+        Let the given circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Let the two points be <m>$P(x_1,
+        y_1)$</m> and <m>$Q(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        Since they are conjugate with respect to the circle, we have <m>$x_1x_2 + y_1y_2 + g(x_1 + x_2) +
+        f(y_1 + y_2) + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The lengths of tangents are <m>$t_1^2 = x_1^2 + y_1^2 + 2gx_1 + 2fy_1 + c$</m> and <m>$t_2^2 = x_2^2
+        + y_2^2 + 2gx_2 + 2fy_2 + c$</m>.
+      </d:para>
+      <d:para>
+        <m>$t_1^2 + t_2^2 = x_1^2 + y_1^2 + x_2^2 + y_2^2 + 2g(x_1 + x_2) + 2f(y_1 + y_2) + 2c$</m>.
+      </d:para>
+      <d:para>
+        Now consider the square of the distance between the points.
+      </d:para>
+      <d:para>
+        So <m>$PQ^2 = (x_1 - x_2)^2 + (y_1 - y_2)^2$ $= x_1^2 + y_1^2 + x_2^2 + y_2^2 - 2(x_1 x_2 + y_1
+        y_2)$</m>.
+      </d:para>
+      <d:para>
+        Using the conjugate condition, <m>$x_1x_2 + y_1y_2 = -g(x_1 + x_2) - f(y_1 + y_2) - c$</m>.
+      </d:para>
+      <d:para>
+        <m>$\therefore PQ^2 = x_1^2 + y_1^2 + x_2^2 + y_2^2 + 2g(x_1 + x_2) + 2f(y_1 + y_2) + 2c$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$PQ^2 = t_1^2 + t_2^2$</m>. Hence, <m>$PQ = \sqrt{t_1^2 + t_2^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 189 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 25$</m>. Let the point be <m>$P(4, 6)$</m>.
+      </d:para>
+      <d:para>
+        The chord of contact from <m>$P$</m> is <m>$4x + 6y = 25$</m>.
+      </d:para>
+      <d:para>
+        The area of the triangle formed by the two tangents and their chord of contact is
+      </d:para>
+      <d:para>
+        <m>$\Delta = \frac{r^2 \times \sqrt{S_1}}{\text{distance from center to chord}}$</m>.
+      </d:para>
+      <d:para>
+        Here <m>$S_1 = 4^2 + 6^2 - 25 = 27$</m>. So <m>$\sqrt{S_1} = 3\sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center <m>$(0, 0)$</m> to the chord <m>$4x + 6y - 25 = 0$</m> is
+      </d:para>
+      <d:para>
+        <m>$= \frac{25\times 3\sqrt{3} \times 2\sqrt{13}}{25} = 6\sqrt{39}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 190 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Let <m>$P(x_1, y_1)$</m> and <m>$Q(x_2,
+        y_2)$</m> be the points of contact of tangents from the origin.
+      </d:para>
+      <d:para>
+        The tangent at <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Since this tangent passes through the origin, substitute <m>$(0, 0)$</m>. So <m>$gx_1 + fy_1 + c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Also since <m>$(x_1, y_1)$</m> lies on the circle, <m>$x_1^2 + y_1^2 + 2g x_1 + 2f y_1 + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$g x_1 + f y_1 = -c$</m>, we get <m>$x_1^2 + y_1^2 - c = 0 \Rightarrow x_1^2 + y_1^2 =
+        c$</m>. Similarly <m>$x_2^2 + y_2^2 = c$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle <m>$x^2 + y^2 + gx + fy = 0$</m>. Substitute <m>$(0, 0)$</m> and it
+        satisfies the equation.
+      </d:para>
+      <d:para>
+        Now substitute <m>$(x_1, y_1)$</m>. Using <m>$x_1^2 + y_1^2 = c$</m> and <m>$gx_1 + fy_1 = -c$</m>,
+        we get <m>$c - c = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(x_1, y_1)$</m> lies on it. Similarly <m>$(x_2, y_2)$</m> lies on it. Hence this circle
+        passes through <m>$O, P, Q$</m>.
+      </d:para>
+      <d:para>
+        Therefore, it is the circumcircle of <m>$\triangle OPQ$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 191 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 = 25$</m>. Let the tangent through <m>$(7, 1)$</m> have slope
+        <m>$m$</m>.
+      </d:para>
+      <d:para>
+        So its equation is <m>$y - 1 = m(x - 7)$</m>. This gives <m>$mx - y - 7m + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        For tangency, the distance from the center <m>$(0, 0)$</m> to the line equals the radius <m>$5$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|-7m + 1|}{\sqrt{m^2 + 1}} = 5$</m>. Solve to get <m>$m = \frac{4}{3}$</m> or <m>$m =
+        -\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        Hence the tangents are <m>$y - 1 = \frac{4}{3}(x - 7)$</m> and <m>$y - 1 = -\frac{3}{4}(x - 7)$</m>.
+      </d:para>
+      <d:para>
+        For <m>$m = \frac{4}{3}$</m>, the tangent is <m>$4x - 3y - 25 = 0$</m>.
+      </d:para>
+      <d:para>
+        Solve with the circle. So <m>$x^2 + \frac{(4x - 25)^2}{9} = 25$</m>. This gives <m>$x = 4$</m> and
+        <m>$y = 3$</m>.
+      </d:para>
+      <d:para>
+        For <m>$m = -\frac{3}{4}$</m>, the tangent is <m>$3x + 4y - 25 = 0$</m>. Solve with the circle. So
+        <m>$x^2 + \frac{(25 - 3x)^2}{16} = 25$.</m>
+      </d:para>
+      <d:para>
+        This gives <m>$x = 3$</m> and <m>$y = -4$</m>. Hence the points of contact are <m>$(4, 3)$</m> and
+        <m>$(3, -4)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 192 -->
+      <d:para>
+        Equation of the polar is <m>$x.2 + y.(-1) - 3\frac{x + 2}{2} + 4\frac{y - 1}{2} - 8 = 0 \Rightarrow
+        x + 2y - 26 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 193 -->
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be the pole of the given line w.r.t. the given circle. Equation of
+        polar is
+      </d:para>
+      <d:para>
+        <m>$(\alpha + 2)x + (\beta + 3)y + 2\alpha + 3\beta + 9 = 0$</m>
+      </d:para>
+      <d:para>
+        Comparing with the given line <m>$\frac{\alpha + 2}{3} = \frac{\beta + 3}{5} = \frac{2\alpha +
+        3\beta + 9}{17}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \alpha = 1, \beta = 2$</m>. So the required pole is <m>$(1, 2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 194 -->
+      <d:para>
+        Given circles are <m>$x^2 + y^2 + 6y + 5 = 0 \ldots$</m> (1) and <m>$x^2 + y^2 + 2x + 8y + 5 = 0
+        \ldots$</m> (2). Let <m>$P = (1, -2)$</m>.
+      </d:para>
+      <d:para>
+        Polar of the point <m>$(1, -2)$</m> w.r.t circle (1) is given by <m>$x + y.(-2) + 3(y - 2) + 5 = 0
+        \Rightarrow x + y - 1 = 0 \ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Polar of this point w.r.t circle (2) is given by <m>$x + y.(-2) + x + 1 + 4(y - 2) + 5 = 0
+        \Rightarrow x + y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, polars are same. Let <m>$Q(\alpha, \beta)$</m> be another point for which the polars are
+        same. The polars of this point w.r.t. given circles are
+      </d:para>
+      <d:para>
+        <m>$x\alpha + y\beta + 3(y + \beta) + 5 = 0$</m> and <m>$x\alpha + y\beta + (x + \alpha) + 4(y +
+        \beta) + 5 = 0$</m>
+      </d:para>
+      <d:para>
+        These two lines are same. Thus, comparing coefficients gives us
+      </d:para>
+      <d:para>
+        <m>$\frac{\alpha + 1}{\alpha} = \frac{\beta + 4}{\beta + 3} = \frac{\alpha + 4\beta + 5}{3\beta +
+        5}$</m>
+      </d:para>
+      <d:para>
+        Solving this gives us two points one of whihc is the given point and another point is <m>$(2,
+        -1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 195 -->
+      <d:para>
+        Let the circle be <m>$x^2 + y^2 = a^2$</m> and points <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        Polars of <m>$A$</m> and <m>$B$</m> will be <m>$xx_1 + yy_1 - a^2 = 0$</m> and <m>$xx_2 + yy_2 - a^2
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\frac{AM}{(BN} = \frac{|x_1x_2 + y_1y_2 -a^2|}{\sqrt{x_2^2 + y_2^2}} = \frac{|x_2x_2 + y_2y_2 -
+        a^2|}{\sqrt{x_1^2 + y_2^2}} = \frac{\sqrt{x_1^2 + y_1^2}}{\sqrt{x_2^2 + y_2^2}} = \frac{CA}{CB}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 196 -->
+      <d:para>
+        First find the point of intersection of the lines <m>$4x - y = 11$</m> and <m>$x - 2y = 1$</m>.
+      </d:para>
+      <d:para>
+        From the second equation we get <m>$x = 1 + 2y$</m>. Substitute in the first equation.
+      </d:para>
+      <d:para>
+        So <m>$4(1 + 2y) - y = 11$</m>. Thus, <m>$x = 3$</m>. So the point is <m>$(3, 1)$</m>.
+      </d:para>
+      <d:para>
+        Now find the polar with respect to <m>$x^2 + y^2 = 7$</m>.
+      </d:para>
+      <d:para>
+        The polar of <m>$(x_1, y_1)$</m> is <m>$xx_1 + yy_1 = 7$</m>.
+      </d:para>
+      <d:para>
+        So the required equation is <m>$3x + y = 7$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 197 -->
+      <d:para>
+        The given circle is <m>$2x^2 + 2y^2 = 11 \Rightarrow x^2 + y^2 = \frac{11}{2}$</m>.
+      </d:para>
+      <d:para>
+        So the polar is <m>$4x - y = \frac{11}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 198 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 8x + 6y + 4 = 0$</m>. The polar of a point <m>$(x_1, y_1)$</m>
+        is given by <m>$T = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$T = xx_1 + yy_1 - 4(x + x_1) + 3(y + y_1) + 4$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(x_1, y_1) = (1, -5)$</m>. So <m>$T = x - 5y - 4(x + 1) + 3(y - 5) + 4$</m>.
+      </d:para>
+      <d:para>
+        Hence, the polar is <m>$3x + 2y + 15 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 199 -->
+      <d:para>
+        The polar of <m>$(p, q)$</m> with respect to <m>$x^2 + y^2 = a^2$</m> is <m>$px + qy = a^2$</m>.
+      </d:para>
+      <d:para>
+        For this line to touch the circle <m>$(x - c)^2 + (y - d)^2 = b^2$</m>, the distance from its center
+        <m>$(c, d)$</m> to the line must equal the radius <m>$b$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|p c + q d - a^2|}{\sqrt{p^2 + q^2}} = b \Rightarrow \left(p c + q d - a^2\right)^2 =
+        b^2\left(p^2 + q^2\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow b^2\left(p^2 + q^2\right) = \left(a^2 - cp - dq\right)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 200 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The polar of the origin is obtained by putting <m>$(0, 0)$</m> in <m>$T$</m>.
+      </d:para>
+      <d:para>
+        So the polar is <m>$gx + fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        For this line to touch the circle <m>$x^2 + y^2 = a^2$</m>, the distance from the center <m>$(0,
+        0)$</m> to the line must equal the radius <m>$a$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|c|}{\sqrt{g^2 + f^2}} = a$</m>. Hence, <m>$c^2 = a^2\left(g^2 + f^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 201 -->
+      <d:para>
+        Let the given line be <m>$lx + my + n = 0$</m>. The pole of this line with respect to <m>$x^2 + y^2
+        = c^2$</m> is <m>$\left(-\frac{c^2l}{n} , -\frac{c^2m}{n}\right)$</m>.
+      </d:para>
+      <d:para>
+        Given this point lies on <m>$x^2 + y^2 = 9c^2$</m>. So <m>$\frac{c^4l^2}{n^2} + \frac{c^4m^2}{n^2} =
+        9c^2$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$c^4\left(l^2 + m^2\right) = 9c^2n^2$</m>. So <m>$n^2 = (\frac{c^2}{0}\left(l^2 +
+        m^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle <m>$9x^2 + 9y^2 = c^2$</m>. Its center is <m>$(0, 0)$</m> and radius is
+        <m>$\frac{c}{3}$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center to the line is <m>$\frac{|n|}{\sqrt{l^2 + m^2}}$</m>.
+      </d:para>
+      <d:para>
+        Using the relation above, this becomes <m>$\frac{c}{3}$</m>.
+      </d:para>
+      <d:para>
+        So the distance equals the radius. Hence the line is tangent to the circle <m>$9x^2 + 9y^2 =
+        c^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 202 -->
+      <d:para>
+        The given circle is <m>$2x^2 + 2y^2 - 3x + 5y - 7 = 0 \Rightarrow x^2 + y^2 - \frac{3}{2}x +
+        \frac{5}{2}y - \frac{7}{2} = 0$</m>. Thus, <m>$g = -\frac{3}{4}$</m> and <m>$f = \frac{5}{4}$</m>.
+      </d:para>
+      <d:para>
+        The pole <m>$(x_1, y_1)$</m> of the line <m>$9x + y - 28 = 0$</m> satisfies that this line is the
+        polar of <m>$(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        So write <m>$T = 0$</m>. Thus, <m>$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0$</m>.
+      </d:para>
+      <d:para>
+        So coefficient of <m>$x$</m> is <m>$x_1 + g$</m> and coefficient of <m>$y$ is $y_1 + f$</m>.
+      </d:para>
+      <d:para>
+        Hence, the equation becomes <m>$(x_1 + g)x + (y_1 + f)y + (gx_1 + fy_1 + c) = 0$</m>.
+      </d:para>
+      <d:para>
+        Compare with <m>$9x + y - 28 = 0$</m>. So <m>$x_1 + g = 9$</m> and <m>$y_1 + f = 1$</m>.
+      </d:para>
+      <d:para>
+        Substitute values. So <m>$x_1 - \frac{3}{4} = 9$</m> hence <m>$x_1 = \frac{39}{4}$</m>. And <m>$y_1
+        + \frac{5}{4} = 1$</m> hence <m>$y_1 = -\frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        So the pole is <m>$\left(\frac{39}{4}, -\frac{1}{4}\right)$</m>. So it becomes <m>$\frac{9}{4}x +
+        \frac{1}{4}y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now compare again. So <m>$x_1 + g = \frac{9}{4}$</m> gives <m>$x_1 = 3$</m>. And <m>$y_1 + f =
+        \frac{1}{4}$</m> gives <m>$y_1 = -1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 203 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 - 7x + 5y - 1 = 0$</m>. Compare with <m>$x^2 + y^2 + 2gx + 2fy + c
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g = -\frac{7}{2}, f = \frac{5}{2}, c = -1$</m>. Let the pole be <m>$(x_1, y_1)$</m>. The
+        polar of <m>$(x_1, y_1)$</m> is
+      </d:para>
+      <d:para>
+        <m>$(x_1 + g)x + (y_1 + f)y + (gx_1 + fy_1 + c) = 0$</m>. This must represent the line <m>$2x - y +
+        10 = 0$</m>.
+      </d:para>
+      <d:para>
+        So equate coefficients with a factor <m>$k: x_1 + g = 2k, y_1 + f = -k$</m> and <m>$gx_1 + fy_1 + c
+        = 10k$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$g = -\frac{7}{2}, f = \frac{5}{2}, c = -1$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x_1 - \frac{7}{2} = 2k$</m> hence <m>$x_1 = 2k + \frac{7}{2}$</m> and <m>$y_1 + \frac{5}{2} =
+        -k$</m> hence <m>$y_1 = -k -\frac{5}{2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute into the third equation: <m>$-\frac{7}{2}\left(2k + \frac{7}{2}\right) +
+        \frac{5}{2}\left(-k -\frac{5}{2}\right) - 1 = 10k$</m>.
+      </d:para>
+      <d:para>
+        Expand: <m>$-7k - \frac{49}{4} - \frac{5k}{2} - \frac{25}{4} - 1 = 10k \Rightarrow -7k -
+        \frac{5k}{2} - \frac{37}{2} - 1 = 10k$</m>.
+      </d:para>
+      <d:para>
+        Write <m>$-1 = -\frac{2}{2}: -7k - \frac{5k}{2} - \frac{39}{2} = 10k \Rightarrow k = -1$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$x_1 = 2k + \frac{7}{2} = -2 + \frac{7}{2} = \frac{3}{2}$</m> and <m>$y_1 = -k - \frac{5}{2}
+        = 1 - \frac{5}{2} = -\frac{3}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 204 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Let the pole of the line <m>$ax + by + c
+        = 0$</m> be <m>$(x_1, y_1)$</m>. The polar of <m>$(x_1, y_1)$</m> is
+      </d:para>
+      <d:para>
+        <m>$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0 \Rightarrow (x_1 + g)x + (y_1 + f)y + (gx_1 + fy_1
+        + c) = 0$</m>.
+      </d:para>
+      <d:para>
+        This must represent the same line as <m>$ax + by + c = 0$</m>.
+      </d:para>
+      <d:para>
+        So coefficients are proportional. Let the factor be <m>$k$</m>.
+      </d:para>
+      <d:para>
+        <m>$x_1 + g = ak$</m> and <m>$y_1 + f = bk \Rightarrow gx_1 + fy_1 + c = ck$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x_1 = ak - g$</m> and <m>$y_1 = bk - f$</m>.
+      </d:para>
+      <d:para>
+        Substitute into the third equation: <m>$g(ak - g) + f(bk - f) + c = ck$</m>.
+      </d:para>
+      <d:para>
+        So <m>$agk - g^2 + bfk - f^2 + c = ck$</m>. Thus, <m>$k(ag + bf - c) = g^2 + f^2 - c$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$k = \frac{g^2 + f^2 - c}{ag + bf - c}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x_1 = a\frac{g^2 + f^2 - c}{ag + bf - c} - g$</m> and <m>$y_1 = b\frac{g^2 + f^2 - c}{ag + bf
+        - c} - f$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 205 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Its center is <m>$(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        Let the point be <m>$P(x_1, y_1)$</m>. The polar of <m>$P$</m> is
+      </d:para>
+      <d:para>
+        <m>$xx_1 + yy_1 + g(x + x_1) + f(y + y_1) + c = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(x_1 + g)x + (y_1 + f)y + (gx_1 + fy_1 + c) = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the normal vector to the polar is <m>$(x_1 + g, y_1 + f)$</m>.
+      </d:para>
+      <d:para>
+        Now consider the line joining the center <m>$C(-g, -f)$</m> and the point <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Its direction vector is <m>$(x_1 + g, y_1 + f)$</m>.
+      </d:para>
+      <d:para>
+        Hence, the polar is perpendicular to the line joining the point and the center.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 206 -->
+      <d:para>
+        The family of circles is <m>$x^2 + y^2 + 2p x + c = 0$</m>. Let the given point be <m>$(x_1,
+        y_1)$</m>.
+      </d:para>
+      <d:para>
+        The polar of <m>$(x_1, y_1)$</m> with respect to the circle is <m>$xx_1 + yy_1 + p(x + x_1) + c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(x_1 + p)x + y_1 y + p x_1 + c = 0 \Rightarrow x_1x + y_1y + c + p(x + x_1) = 0$</m>.
+      </d:para>
+      <d:para>
+        Now observe that if <m>$x + x_1 = 0$</m>, the term containing <m>$p$</m> vanishes.
+      </d:para>
+      <d:para>
+        So the equation reduces to <m>$x_1x + y_1y + c = 0$</m>. Substitute <m>$x = -x_1$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$-x_1^2 + y_1y + c = 0$</m>. So <m>$y = \frac{x_1^2 - c}{y_1}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the point <m>$\left(-x_1, \frac{x_1^2 - c}{y_1}\right)$</m> satisfies the polar for all values
+        of <m>$p$</m>.
+      </d:para>
+      <d:para>
+        Hence, all polars pass through this fixed point.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 207 -->
+      <d:para>
+        The polar of <m>$(\alpha, \beta)$</m> with respect to <m>$x^2 + y^2 = a^2$</m> is <m>$\alpha x +
+        \beta y = a^2$</m>.
+      </d:para>
+      <d:para>
+        For this line to touch the circle <m>$(x - a)^2 + y^2 = a^2$</m>, the distance from its center
+        <m>$(a, 0)$</m> to the line must equal the radius <m>$a$</m>.
+      </d:para>
+      <d:para>
+        So <m>$\frac{\left|\alpha a - a^2\right|}{\sqrt{\alpha^2 + \beta^2}} = a \Rightarrow \left(\alpha a -
+        a^2\right)^2 = a^2\left(\alpha^2 + \beta^2\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (\alpha - a)^2 = \alpha^2 + \beta^2 \Rightarrow \beta^2 + 2a\alpha = a^2$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$(\alpha, \beta)$</m> lies on the curve <m>$y^2 + 2a x = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 208 -->
+      <d:para>
+        For the circle <m>$x^2 + y^2 = a^2$</m>, the polar of <m>$(x_i, y_i)$</m> is <m>$xx_i + yy_i =
+        a^2$</m>.
+      </d:para>
+      <d:para>
+        So the polars of <m>$(x_1, y_1), (x_2, y_2), (x_3, y_3)$</m> are
+      </d:para>
+      <d:para>
+        <m>$xx_1 + yy_1 = a^2, xx_2 + yy_2 = a^2$</m>, and <m>$xx_3 + yy_3 = a^2$</m>.
+      </d:para>
+      <d:para>
+        These three lines are concurrent if there exists a point <m>$(h, k)$</m> satisfying all three.
+      </d:para>
+      <d:para>
+        So <m>$hx_1 + ky_1 = a^2, hx_2 + ky_2 = a^2$</m>, and <m>$hx_3 + ky_3 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Subtract pairwise: <m>$h(x_1 - x_2) + k(y_1 - y_2) = 0$</m> and <m>$h(x_2 - x_3) + k(y_2 - y_3) = 0$</m>.
+      </d:para>
+      <d:para>
+        For non-zero <m>$(h, k)$</m>, these two equations imply <m>$(x_1 - x_2)(y_2 - y_3) = (x_2 - x_3)(y_1
+        - y_2)$</m>.
+      </d:para>
+      <d:para>
+        This is equivalent to <m>$x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus the points <m>$(x_1, y_1), (x_2, y_2), (x_3, y_3)$</m> are collinear.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 209 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 - 2x - 6y - 12 = 0$</m> and <m>$x^2 + y^2 + 6x + 4y - 6 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Compare each with the general form <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        For the first circle, we get <m>$g_1 = -1, f_1 = -3$</m>, and <m>$c_1 = -12$</m>.
+      </d:para>
+      <d:para>
+        For the second circle, we get <m>$g_2 = 3, f_2 = 2$</m>, and <m>$c_2 = -6$</m>.
+      </d:para>
+      <d:para>
+        Two circles cut orthogonally if <m>$2(g_1g_2 + f_1f_2) = c_1 + c_2$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values <m>$2((-1)(3) + (-3)(2)) = 2(-3 - 6) = -18$</m>.
+      </d:para>
+      <d:para>
+        Also <m>$c_1 + c_2 = -12 - 6 = -18$</m>.
+      </d:para>
+      <d:para>
+        Both sides are equal. Hence, the given circles cut each other orthogonally.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 210 -->
+      <d:para>
+        Let the two circles be <m>$S = x^2 + y^2 + 2gx + 2fy + c = 0$</m> and <m>$S_1 = x^2 + y^2 + 2g_1x +
+        2f_1y + c_1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Their radii are <m>$a$</m> and <m>$a_1$</m>. So <m>$g^2 + f^2 - c = a^2$</m> and <m>$g_1^2 + f_1^2 -
+        c_1 = a_1^2$</m>.
+      </d:para>
+      <d:para>
+        Consider the circle <m>$\frac{S}{a} + \frac{S_1}{a_1} = 0$</m>.
+      </d:para>
+      <d:para>
+        Its equation is <m>$\left(\frac{1}{a} + \frac{1}{a_1}\right)(x^2 + y^2) + 2\left(\frac{g}{a} +
+        \frac{g_1}{a_1}\right)x + 2\left(\frac{f}{a} + \frac{f_1}{a_1}\right)y + \left(\frac{c}{a} +
+        \frac{c_1}{a_1}\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$= x^2 + y^2 + 2Gx + 2Fy + C = 0$</m>, where <m>$G = \frac{\frac{g}{a} +
+        \frac{g_1}{a_1}}{\frac{1}{a} + \frac{1}{a_1}}, F = \frac{\frac{f}{a} + \frac{f_1}{a_1}}{\frac{1}{a}
+        + \frac{1}{a_1}}$</m>, and <m>$C = \frac{\frac{c}{a} + \frac{c_1}{a_1}}{\frac{1}{a} +
+        \frac{1}{a_1}}$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle <m>$\frac{S}{a} - \frac{S_1}{a_1} = 0$</m>. Similarly it becomes <m>$x^2 +
+        y^2 + 2G_1x + 2F_1y + C_1 = 0$</m>
+      </d:para>
+      <d:para>
+        where <m>$G_1 = \frac{\frac{g}{a} - \frac{g_1}{a_1}}{\frac{1}{a} - \frac{1}{a_1}}, F_1 =
+        \frac{\frac{f}{a} - \frac{f_1}{a_1}}{\frac{1}{a} - \frac{1}{a_1}}$</m>, and <m>$C_1 =
+        \frac{\frac{c}{a} - \frac{c_1}{a_1}}{\frac{1}{a} - \frac{1}{a_1}}$</m>.
+      </d:para>
+      <d:para>
+        Two circles cut orthogonally if <m>$2(GG_1 + FF_1) = C + C_1$</m>. After simplification, both sides
+        reduce to the same value.
+      </d:para>
+      <d:para>
+        Hence, the circles represented by <m>$\frac{S}{a} \pm \frac{S_1}{a_1} = 0$</m> intersect at right
+        angles.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 211 -->
+      <d:para>
+        Let the required circles pass through the points <m>$(0, 0)$</m> and <m>$(0, -a)$</m>.
+      </d:para>
+      <d:para>
+        Then their equation can be taken as <m>$x^2 + y^2 + 2gx + ay = 0$</m> since substituting <m>$(0,
+        0)$</m> and <m>$(0, -a)$</m> satisfies it.
+      </d:para>
+      <d:para>
+        Now this circle touches the line <m>$y = mx + c$</m>. So the distance of the center <m>$\left(-g,
+        -\frac{a}{2}\right)$</m> from the line is equal to the radius.
+      </d:para>
+      <d:para>
+        The radius is <m>$\sqrt{g^2 + \frac{a^2}{4}}$</m>. So <m>$\frac{\left|-mg + \frac{a}{2} -
+        c\right|}{\sqrt{m^2 + 1}} = \sqrt{g^2 + \frac{a^2}{4}}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(-mg + \frac{a}{2} - c\right)^2 = \left(m^2 + 1\right)\left(g^2 +
+        \frac{a^2}{4}\right)$</m>. This gives a quadratic in <m>$g$</m>.
+      </d:para>
+      <d:para>
+        The two circles correspond to the two values of <m>$g$</m>. Let them be <m>$g_1$</m> and
+        <m>$g_2$</m>.
+      </d:para>
+      <d:para>
+        For the two circles to cut orthogonally, the condition is <m>$2\left(g_1g_2 + \frac{a^2}{4}\right) =
+        0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g_1 g_2 = -\frac{a^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        From the quadratic equation in <m>$g$</m>, the product of roots is <m>$\left(\frac{a}{2} -
+        c\right)^2 - \left(m^2 + 1\right)\frac{a^2}{4}$</m> all divided by <m>$m^2$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g_1g_2 = \frac{\left(\frac{a}{2} - c\right)^2 - \left(m^2 +
+        1\right)}{\frac{a^2}{4}}{m^2}$</m>. Equate this to <m>$-\frac{a^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$c^2 = a^2\left(2 + m^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 212 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Given circle one is <m>$x^2 + y^2
+        + 3x - 5y + 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g_1 = \frac{3}{2}, f_1 = -\frac{5}{2}, c_1 = 6$</m>. Given circle two is <m>$4x^2 + 4y^2 -
+        28x + 29 = 0 => x^2 + y^2 - 7x + 29/4 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g_2 = -\frac{7}{2}, f_2 = 0, c_2 = \frac{29}{4}$</m>.
+      </d:para>
+      <d:para>
+        For orthogonality with first circle <m>$2(gg_1 + ff_1) = c + c_1 \Rightarrow 3g - 5f = c + 6$</m>.
+      </d:para>
+      <d:para>
+        For orthogonality with second circle <m>$2(gg_2 + ff_2) = c + c_2 \Rightarrow c = -7g -
+        \frac{29}{4}$</m>.
+      </d:para>
+      <d:para>
+        Substitute in first equation <m>$3g - 5f = -7g - \frac{29}{4} + 6 \Rightarrow f = 2g +
+        \frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        Now the center lies on the line <m>$3x + 4y + 1 = 0$</m>. So <m>$3(-g) + 4(-f) + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$3g + 4f = 1$</m>. Substitute <m>$f = 2g + \frac{1}{4} \Rightarrow 3g + 4\left(2g +
+        \frac{1}{4}\right) = 1 \Rightarrow 11g = 0$</m> so <m>$g = 0$</m>.
+      </d:para>
+      <d:para>
+        Then, <m>$f = \frac{1}{4}$</m>. Now <m>$c = -7g - \frac{29}{4} = -\frac{29}{4}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required circle is <m>$x^2 + y^2 + \frac{1}{2}y - \frac{29}{4} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 213 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Since it cuts the circle <m>$x^2
+        + y^2 = 4$</m> orthogonally, the condition is <m>$c + (-4) = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$c = 4$</m>. Thus the circle becomes <m>$x^2 + y^2 + 2gx + 2fy + 4 = 0$</m>. Its center is
+        <m>$(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        Given that the center lies on the line <m>$2x - 2y + 9 = 0$</m>, so <m>$2(-g) - 2(-f) + 9 =
+        0$</m>. Thus, <m>$-2g + 2f + 9 = 0$</m> or <m>$f = g - \frac{9}{2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute into the equation of the circle <m>$x^2 + y^2 + 2gx + 2\left(g - \frac{9}{2}\right)y + 4
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$x^2 + y^2 + 2g(x + y) - 9y + 4 = 0$</m>. Rewrite as <m>$x^2 + y^2 - 9y + 4 + 2g(x + y) =
+        0$</m>.
+      </d:para>
+      <d:para>
+        This represents a family of circles depending on <m>$g$</m>.
+      </d:para>
+      <d:para>
+        For fixed points, eliminate <m>$g$</m>. So the condition is <m>$x + y = 0$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y = -x$</m> into the equation <m>$x^2 + x^2 - 9(-x) + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$2x^2 + 9x + 4 = 0$</m>. <m>$x = -\frac{1}{2}$</m> or <m>$x = -4$</m>. Thus, the corresponding
+        <m>$y$</m> values are <m>$\frac{1}{2}$</m> and <m>$4$</m>.
+      </d:para>
+      <d:para>
+        Hence, the two fixed points are <m>$\left(-\frac{1}{2}, \frac{1}{2}\right)$</m> and <m>$(-4,
+        4)$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>
