@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="conic-sections/index.html" ?>
+  <d:title>Conic Sections</d:title>
+  <d:para>
+    In this chapter we will study parabola, ellipse and hyperbola, their properties and elements like
+    tangents and normals. The study of conic sections combines geometry and algebra. Using the coordinate
+    plane, every conic can be represented by an equation in $x$ and $y$, allowing geometric properties to be
+    studied analytically. Conics have rich mathematical structures involving focus, directrix, axis,
+    eccentricity, tangents, normals, and chords.
+  </d:para>
+  <d:para>
+    Pair of straight lines, circles, parabolas, ellipses and hyperbolas are sections of a right circular
+    cone by a plane, and so they are called conic sections.
+  </d:para>
+  <d:para>
+    As you can see in the <xref linkend="cs1" /> that when a plane cuts the right circular cone perpendicular
+    to the axis of the cone then we get a circle, when the plane cuts the cone parallel to the generator we
+    get a parabola, when the plane is parallel to the axis we get hyperbola, and when the cone is neither
+    parallel nor perpendicular to axis or generator we get an ellipse.
+  </d:para>
+  <d:sect1>
+    <d:title>Definition</d:title>
+    <d:para>
+      A conic section is defined as the locus of a point, which moves in a plane such that the ratio of its
+      distance from a fixed point and a fixed line is a constant.
+    </d:para>
+    <d:para>
+      The fixed point is called the <d:emphasis role="italic">focus</d:emphasis> and the fixed line the
+      <d:emphasis role="italic">directrix</d:emphasis> of the conic section. The constant ratio is called
+      <d:emphasis role="italic">eccentricity</d:emphasis> of the curve and is usually denoted by
+      <m>$e$</m>. One such conic section is shown below:
+    </d:para>
+    <d:figure xml:id="cs1">
+      <d:title>Conic Sections</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/conic sections.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:figure xml:id="cs2">
+      <d:title>A Conic Section</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/6_1.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      If <m>$e = 1$</m>, then the resulting coninc is a <d:emphasis role="italic">parabola</d:emphasis>, if
+      <m>$e &lt; 1$</m>, then the resulting conic is an <d:emphasis role="italic">ellipse</d:emphasis>,
+      and if <m>$e > 1$</m>, then the resulting conic is a <d:emphasis
+      role="italic">hyperbola</d:emphasis>. In the given diagram <m>$\frac{PS}{PN} = e$</m>.
+    </d:para>
+    <d:para>
+      The straight line perpendicular from the focus to the directrix is called the <d:emphasis
+      role="italic">axis</d:emphasis> of the conic. The point of intersection of the conic and its axis us
+      called the <d:emphasis role="italic">vertex</d:emphasis> of the conic.
+    </d:para>
+    <d:para>
+      In the given diagram <m>$S$</m> is the focus, <m>$AN$</m> the directrix, <m>$AS$</m> is the axis and
+      <m>$A$</m> is the vertex of the conic.
+    </d:para>
+    <d:sect2>
+      <d:title>Equation of a Conic</d:title>
+      <d:figure xml:id="cs3">
+        <d:title>A Conic Section</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_2.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$S(\alpha, \beta)$</m> be the focus and <m>$QN$</m> the directrix whose equation is <m>$Ax +
+        By + C = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the conic section. From <m>$P$</m> draw <m>$PN \perp
+        QN$</m>. Let <m>$e$</m> be the eccentricity, then by definition <m>$\frac{PS}{PN} = e \Rightarrow
+        PS^2 = e^2PN^2$</m>.
+      </d:para>
+      <d:para>
+        <m>$PS^2 = (x - \alpha)^2 + (y - \beta)^2$</m> and <m>$PN^2 = \frac{(Ax + By + C)^2}{A^2 + B^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (x - \alpha)^2 + (y - \beta)^2 = \frac{e^2(A x + B y + C)^2}{A^2 + B^2}$</m>, which
+        on simplification will have the form <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, where <m>$a, b, c, f,
+        g, h$</m> are constants.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Corollary:</d:emphasis> Let the focus <m>$S$</m> lie on the directrix
+        <m>$QN$</m> and <m>$S$</m> be taken as the origin and <m>$QN$</m> be taken as the
+        <m>$y$</m>-axis. Let <m>$P(x, y)$</m> be any point on the conic then
+      </d:para>
+      <d:para>
+        <m>$\frac{PS}{PN} = e \Rightarrow \frac{\sqrt{x^2 + y^2}}{|x|} = e \Rightarrow \left(e^2 -
+        1\right)x^2 = y^2$</m>, which is a pair of straight lines through the focus or the origin.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Corollary:</d:emphasis> The general equation of the second degree <m>$ax^2 +
+        2y^2 + 2hxy  + 2gx + 2fy + c = 0$</m> represents a parabols if <m>$h^2 = ab$</m> and <m>$\Delta \neq
+        0$</m>, where <m>$\Delta = abc + 2fgh - af^2 - bg^2 - ch^2$</m> or alternatively a second degree
+        equation represents a parabola if second degree terms form a complete square and <m>$\Delta neq
+        0$</m>.
+      </d:para>
+      <d:para>
+        The second degree equation will represent an ellipse if <m>$h^2 &lt; ab$</m>. We will see that a
+        circle is a special case of an ellipse.
+      </d:para>
+      <d:para>
+        The second degree equation will represent a hyperbola if <m>$h^2 > ab$</m> and <m>$\Delta \neq
+        0$</m> and a pair of straight lines if <m>$\Delta = 0$</m>.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Parabola</d:title>
+    <d:para>
+      A parabola is the locus of a point which moves so that its distance from a fixed point, called the
+      <d:emphasis role="italic">focus</d:emphasis>, is equal to the distance from a fixed line, called the
+      <d:emphasis role="italic">directrix</d:emphasis>.
+    </d:para>
+    <d:para>
+      The straight line perpendicular from the focus to the directrix is called the <d:emphasis
+      role="italic">axis</d:emphasis> of the parabola.
+    </d:para>
+    <d:para>
+      The equation of the parabola can be obtained if its directrix and focus are given.
+    </d:para>
+    <d:figure xml:id="cs4">
+      <d:title>A Conic Section</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/6_3.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      Let <m>$S$</m> be the focus and <m>$QM$</m> the directrix of the parabola. From <m>$S$</m> draw
+      <m>$SQ$</m> perpendicular to the directrix. Let <m>$OP$</m> be the middle point of <m>$QS$</m>. Take
+      <m>$O$</m> as the origin and <m>$OS$</m> as the <m>$x$</m>-axis and <m>$OY$</m> through <m>$O$</m>
+      perpendicular to <m>$OS$</m> as the <m>$y$</m>-axis.
+    </d:para>
+    <d:para>
+      Let <m>$QS = 2a$</m> then <m>$QO = OS = a$</m>.
+    </d:para>
+    <d:para>
+      Now <m>$S = (a, 0)$</m> and the equation of <m>$QM$</m> is <m>$x = -a$</m>. Let <m>$P(x, y)$</m> be
+      any point on the parabola. Join <m>$PS$</m> and drop perpendicular <m>$PM$</m> on <m>$QM$</m>.
+    </d:para>
+    <d:para>
+      Be definition of the parabola <m>$PS = PM \Rightarrow (x - a)^2 + y^2 = |x + a|^2$</m>
+      <m>\[y^2 = 4a x\label{eq:6.1}\tag{6.1}\]</m>
+    </d:para>
+    <d:para><d:emphasis role="bold">Notes:</d:emphasis></d:para>
+    <d:orderedlist>
+      <d:listitem>
+        If the point <m>$(x, y)$</m> lies on the parabola <m>$y^2 = 4ax$</m> then point <m>$(-x, -y)$</m>
+        will also lie on the parabola. Hence, the parabola is symmatrical about its axis.
+      </d:listitem>
+      <d:listitem>
+        The point of intersection of the axis of a parabola and the parabola itself is called the
+        <d:emphasis role="italic">vertex</d:emphasis> if the parabola.
+      </d:listitem>
+      <d:listitem>
+        If the perpendicular drawn from a point <m>$P$</m> to the axis of the parabola meets the parabola at
+        its symmateric point <m>$P'$</m> then <m>$PP'$</m> is called a <d:emphasis role="italic">double
+        oridinate</d:emphasis>.
+      </d:listitem>
+      <d:listitem>
+        The double ordinate which passes through the focus is called the <d:emphasis role="italic">latus
+        recturm</d:emphasis> of the parabola. The length of latus rectum of <m>$y^2 = 4ax$</m> is
+        <m>$4a$</m>.
+        <d:para>
+          The equation of the latus ractum of the parabola <m>$y^2 = 4ax$</m> is <m>$x = a$</m>.
+        </d:para>
+      </d:listitem>
+      <d:listitem>
+        Joining any two points on a parabola yields a line segment called <d:emphasis
+        role="italic">chord</d:emphasis>.
+      </d:listitem>
+      <d:listitem>
+        If a chord passes through focus of a parabola is called <d:emphasis role="italic">focal
+        chord</d:emphasis>.
+      </d:listitem>
+      <d:listitem>
+        The distance of any point on a parabola from the focus of the parabola is callled <d:emphasis
+        role="italic">focal distance</d:emphasis>.
+      </d:listitem>
+    </d:orderedlist>
+    <d:para>
+      The other parabolas having the same length of latus rectum as that of <m>$y^2 = 4ax$</m> are <m>$y^2 +
+      4a x = 0, x^2 = 4ay$</m> and <m>$x^2 + 4a y = 0$</m>.
+    </d:para>
+    <d:sect2>
+      <d:title>
+        Intersection of a Line and a Parabola
+      </d:title>
+      <d:para>
+        Consider a straight line given by the equation <m>$y = mx + c$</m> and a parabola given by the
+        equation <m>$y^2 = 4ax$</m>.
+      </d:para>
+      <d:para>
+        Solving the equations gives us <m>$(m x + c)^2 = 4a x \Rightarrow m^2x^2 + 2x(m c - 2a) + c^2 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The above equation, which is a quadratic equation in <m>$x$</m> will have two roots. If the roots
+        are real i.e. <m>$(mc - 2a)^2 - m^2c^2 > 0$</m>, then the will cut the parabola at two different
+        points. If <m>$(m c - 2a)^2 - m^2c^2 = 0$</m>, then there will be a repeated root and the line will
+        be a tangent to the parabola and if <m>$(m c - 2a)^2 - m^2c^2 &lt; 0$</m>, then roots will be
+        imaginary and the line will not inttersect with the parabola.
+      </d:para>
+      <d:para>
+        We see that <m>$(m c - 2a)^2 - m^2c^2 = 0$</m> is the condition for tangency. Thus, <m>\[ c =
+        \frac{a}{m} \tag{6.2}\]</m>
+      </d:para>
+      <d:para>
+        Thus, any line of the form <m>$y = mx + a/m$</m> will be a tangent to the parabola.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of a Tangent at a Given Point on a Parabola</d:title>
+      <d:para>
+        Let the equation of parabola be <m>$y^2 = 4a x$</m>. Let <m>$P = (x_1, y_1)$</m> and <m>$Q(x_2,
+        y_2)$</m> be any two points on the parabola. The equation of <m>$PQ$</m> will be given by
+      </d:para>
+      <d:para>
+        <m>$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Since both the points lie on the parabola, therefore <m>$y_1^2 = 4a x_1$</m> and <m>$y_2^2 = 4a x_2$</m>
+      </d:para>
+      <d:para>
+        Subtracting these two equations yields <m>$(y_2 + y_1)(y_2 - y_1) = 4a(x_2 - x_1) \Rightarrow
+        \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) = \frac{4a}{y_2 + y_1}$</m>
+      </d:para>
+      <d:figure xml:id="cs5">
+      <d:title>A Tangent to a Parabola</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/6_4.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Putting this in (1) gives us <m>$y - y_1 = \frac{4a}{x_2 + x_1}(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        Now, when <m>$Q \rightarrow P, x_2 \rightarrow x_1$</m> and <m>$y_2 \rightarrow y_1$</m> so the above equation becomes
+      </d:para>
+      <d:para>
+        <m>$y - y_1 = \frac{4a}{2y_1}(x - x_1) \Rightarrow y y_1 = 2a x + y_1^2 - 2a x_1$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$y_1^2 = 4a x_1$</m> we have <m>\[ y y_1 = 2a(x + x_1) \tag{6.3}\]</m>
+      </d:para>
+      <d:para>
+        which is the equation of the required tangent.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of a Normal at a Given Point on a Parabola</d:title>
+      <d:para>
+        We have obtained the equation of the tangent to a parabola <m>$y^2 = 4ax$</m> at <m>$(x_1, y_1)$</m>
+        as <m>$yy_1 = 2a(x + x_1) \ldots$</m> (1), The slope of tangent is <m>$\frac{2a}{y1}$</m>.
+      </d:para>
+      <d:para>
+        The normal will be perpendicular to the tangent, and hence, its slope will be <m>$-\frac{y_1}{2a}$</m>.
+      </d:para>
+      <d:para>
+        Thus equation of normal would be <m>\[y - y_1 = -\frac{y_1}{2a}(x - x_1) \tag{6.4}\]</m>
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of the Normal in terms of its Slope</d:title>
+      <d:para>
+        The normal to the parabola <m>$y^2 = 4ax$</m> at <m>$(x_1, y_1)$</m> is <m>$y - y_1 =
+        -\frac{y_1}{2a}(x - x_1)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$-\frac{y_1}{2a} = m \Rightarrow y_1 = 2am$</m>. Since <m>$y_1^2 = 4a x_1 \Rightarrow 4a^2m^2
+        = 4ax_1 \Rightarrow x_1 = a m^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y - (-2a m) = m(x - a m^2) \Rightarrow y = mx - 2am - am^3$</m>, which is the
+        equation of the normal in terms of its slope.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Notes:</d:emphasis> The equation of the normal obtained is <m>$y = mx - 2am
+        - am^3$</m>. This normal passes through <m>$(x_1, y_1)$</m>. Thus, <m>$a m^3 + (2a - x_1) + m + y_1
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        This is a cubic equation in <m>$m$</m>, which will have three roots of which at least one will be
+        real because complex roots occur in pair.
+      </d:para>
+      <d:para>
+        Any three points on the parabola, normals at which pass through a common point, are called co-normal
+        points.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Parametric Equation of the Parabola <m>$y^2 = 4a x$</m></d:title>
+      <d:para>
+        The point <m>$P$</m> whose coordinates are <m>$x = at^2, y = 2at$</m> lies on the parabola <m>$y^2 =
+        4a x$</m>, which can be trivially verified by substituting in <m>$y^2 = 4a x$</m>.
+      </d:para>
+      <d:para>
+        This representation in which <m>$x$</m> and <m>$y$</m> are represented using a single parameter
+        <m>$t$</m> is called the parametric equation of the parabola.
+      </d:para>
+      <d:para>
+        The point <m>$(at^2, 2at)$</m> is also referred to as the point '<m>$t$</m>'.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of a Chord of a Parabola</d:title>
+      <d:para>
+        Consider two points <m>$(at_1^2, 2at_1)$</m> and <m>$(at_2^2, 2at_2)$</m> on the parabola forming a
+        chord.
+      </d:para>
+      <d:para>
+        The equation will be given by <m>$y - 2at_1 = \frac{2at_2 - 2at_1}{at_2^2 - at_1^2}(x - at_1^2)$</m>
+      </d:para>
+      <d:para>
+        <m>\[y(t_1 + t_2) = 2x + 2a t_1t_2\tag{6.5}\]</m>
+      </d:para>
+      <d:para>
+        is the equation of the the chord.
+      </d:para>
+      <d:para>
+        If this line passes through the focus i.e. <m>$(a, 0)$</m> then <m>$2a + 2at_1t_2 = 0 \Rightarrow
+        t_1t_2 = -1$</m>. Thus, if one point is <m>$t$</m> then the condition for the chord to pass through
+        the focus requires the other point to be <m>$-\frac{1}{t}$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Tangent and Normal at any Point <m>$t$</m></d:title>
+      <d:para>
+        The tangent to the parabola <m>$y^2 = 4ax$</m> at the point <m>$(at^2, 2at)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y(2at) = 2a(x + a t^2) \Rightarrow ty = x + at^2$</m>.
+      </d:para>
+      <d:para>
+        The normal to the parabola <m>$y^2 = 4ax$</m> at the point <m>$(at^2, 2at)$</m> is given by
+      </d:para>
+      <d:para>
+        <m>$y - 2at = -t(x - at^2) \Rightarrow y + t x = 2at + at^3$</m>.
+      </d:para>
+      <d:para>
+        We see that two tangents at <m>$t_1$</m> and <m>$t_2$</m> have <m>$(a t_1t_2, a(t_1 + t_2))$</m> as
+        their point of intersection and the normals at the same points will have <m>$\left(2a +
+        a\left(t_1^2 + t_2^2 + t_1t_2\right), -a t_1t_2(t_1 + t_2)\right)$</m> as their point of intersection.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of the Chord of a Parabola whose middle point is <m>$(x_1, y_1)$</m></d:title>
+      <d:figure xml:id="cs6">
+      <d:title>Chord of a parabola</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/6_5.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Equation of the parabola is <m>$y^2 = 4ax$</m>. Let <m>$AB$</m> be a chord of the parabola whose
+        middle point is <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Equation of the chord is <m>$y - y_1 = m(x - x_1)$</m>, where <m>$m$</m> is the slope of
+        <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$A = (x_2, y_2)$</m> and <m>$B = (x_3, y_3) \Rightarrow y_2^2 = 4a x_2$</m> and <m>$y_3^2 =
+        4a x_3$</m>
+      </d:para>
+      <d:para>
+        <m>$\therefore y_2^2- y_3^2 = 4a(x_2 - x_3) \Rightarrow \frac{y_2 - y_3}{x_2 - x_3} = \frac{4a}{y_2
+        + y_3}$</m>
+      </d:para>
+      <d:para>
+        But <m>$P$</m> is mid-point of <m>$AB$</m>, so we can write <m>$y_2 + y_3 = 2y_1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{y_2 - y_3}{x_2 - x_3} = \frac{2a}{y_1} = m$</m>
+      </d:para>
+      <d:para>
+        Thus, equation of the chord is <m>$y - y_1 = \frac{2a}{y_1}(x - x_1) \Rightarrow y y_1 - 2a(x + x_1)
+        = y_1^2 - 4a x_1$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Position of a Point w.r.t. a Parabola</d:title>
+      <d:figure xml:id="cs7">
+        <d:title>Position of a point w.r.t. a parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_6.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be a given point. Let <m>$PL \perp OX$</m> and let <m>$PL$</m> intersect
+        the parabole at <m>$Q(x_2, y_2)$</m>. Since <m>$Q(x_2, y_2)$</m> lies on the parabola, therefore
+        <m>$y_2^2 = 4ax_2$</m>.
+      </d:para>
+      <d:para>
+        Point <m>$P$</m> will lie outside, on or inside the parabola <m>$&lt;=> P L >, =, \text{or} &lt;
+        Q L$</m>
+      </d:para>
+      <d:para>
+        <m>$|y_1| >, = \text{or} &lt; |y_2| => y_1^2 - 4a x_1 >, = , \text{or} &lt; 0$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Tangents from a Point outside a Parabola to the Parabola</d:title>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m> and <m>$P(\alpha, \beta)$</m> be a given point.
+      </d:para>
+      <d:para>
+        The equation of a tangent to the parabola is <m>$y = m x + \frac{a}{m}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow m^2\alpha - \beta m + a = 0. D > 0 \Rightarrow \beta^2 - 4a\alpha > 0$</m> i.e. if
+        the point lies outside the parabola then <m>$m$</m> will be real and the equation will have two real
+        roots, which gives us two tangents to the parabola from the point <m>$P$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of Pair of Tangents from a Point to a Parabola</d:title>
+      <d:figure xml:id="cs8">
+        <d:title>Pair of tangents from a point w.r.t. to a parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_7.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4a x$</m>. Let <m>$P(x_1, y_1)$</m> be a point outside the
+        parabola. Let a chord of the parabola through the point <m>$P$</m> cut the parabola at <m>$R$</m>
+        and let <m>$Q(\alpha, \beta)$</m> be any arbitrary point on the line <m>$PR$</m>. Let <m>$R$</m>
+        divide <m>$PQ$</m> in the ratio <m>$\lambda:1$</m>, then
+      </d:para>
+      <d:para>
+        <m>$R = \left(\frac{\lambda\alpha + x_1}{\lambda + 1}, \frac{\lambda\beta + y_1}{\lambda +
+        1}\right)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$R$</m> lies on the parabola, therefore <m>$\left(\frac{\lambda\beta + y_1}{\lambda + 1}\right)^2
+        = 4a\frac{\lambda\alpha + x_1}{\lambda + 1}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (\beta^2 - 4a\alpha)\lambda^2 + 2[\beta y_1 - 2a(\alpha + x_1)]\lambda + \left(y_1^2
+        - 4a x_1\right) = 0 \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Line <m>$PQ$</m> will become a tangent to the parabola if the roots of the above equation (1) are
+        equal
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4[\beta y_1 - 2a(\alpha + x_1)]^2 = 4\left(\beta^2 - 4a\alpha\right)\left(y_1^2 -
+        4ax_1\right)$</m>
+      </d:para>
+      <d:para>
+        Hence, locus of <m>$(\alpha, \beta)$</m> i.e. equation of pair of tangents from <m>$P$</m> is <m>$[y y_1
+        - 2a(x + x_1)]^2 = \left(y^2 - 4a x\right)\left(y_1^2 - 4a x_1\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow T^2 = SS_1$</m>, where <m>$T, S$</m> and <m>$S_1$</m> have usual meanings.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of Chord of Contact of point <m>$P(\alpha, \beta)$</m> w.r.t. a Parabola</d:title>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4a x \ldots$</m> (1) Let <m>$P(\alpha, \beta)$</m> be a point outside
+        the parabola. Let <m>$PA$</m> and <m>$PB$</m> be the two tangents from <m>$P$</m> to the parabola
+        (1). Let <m>$PA$</m> and <m>$PB$</m> be the two tangents from <m>$P$</m> to the parabola (1).
+      </d:para>
+      <d:figure xml:id="cs9">
+        <d:title>Chord of contact from a point w.r.t. to a parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_8.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$A = (x_1, y_1)$</m> and <m>$B = (x_2, y_2)$</m>. Equation of the tangent <m>$PA$</m> is
+        <m>$yy_1 = 2a(x + x_1)$</m> and that of <m>$PB$</m> is <m>$y y_2 = 2a(x + x_2)$</m>.
+      </d:para>
+      <d:para>
+        Since both the lines pass through <m>$P$</m>, therefore <m>$\beta y_1 = 2a(\alpha + x_1)$</m> and
+        <m>$\beta y_2 = 2a(\alpha + x_2)$</m>.
+      </d:para>
+      <d:para>
+        Now we consider the equation <m>$y\beta = 2a(x + \alpha)$</m>. We see that this line passes through
+        both <m>$A$</m> and <m>$B$</m>. Therefore, it is the equation of chord of contact <m>$AB$</m> of
+        point <m>$P$</m> w.r.t. the parabola.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Pole and Polar of a Parabola</d:title>
+      <d:figure xml:id="cs10">
+        <d:title>Pole and polar of a parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_9.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$P$</m> be a given point. Let a line through <m>$P$</m> intersect parabola at two points
+        <m>$A$</m> and <m>$B$</m>. Let the tangents at <m>$A$</m> and <m>$B$</m> meet at <m>$Q$</m>. The
+        locus of <m>$Q$</m> is a straight line called the <d:emphasis role="italic">polar</d:emphasis> of
+        point <m>$P$</m>.
+      </d:para>
+      <d:para>
+        If the line <m>$LM$</m> is the polar of a point <m>$P$</m> w.r.t. a parabola, then the point
+        <m>$P$</m> is called the pole of the line <m>$LM$</m> w.r.t. the parabola.
+      </d:para>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4a x\ldots$</m> (1) Let <m>$P(x_1, y_1)$</m> be the given point. Let a
+        line though <m>$P$</m> cut parabola in two points <m>$A$</m> and <m>$B$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$Q(\alpha, \beta)$</m> be the point of intersection of the tangents to the parabola at
+        <m>$A$</m> and <m>$B$</m>.
+      </d:para>
+      <d:para>
+        Clearly, <m>$AB$</m> is the chord of contact of point <m>$Q(\alpha, \beta)$</m> w.r.t. the
+        parabola. Thereforem, equation of <m>$AB$</m> will be
+      </d:para>
+      <d:para>
+        <m>$y\beta = 2a(x + \alpha)\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Since this line passes through <m>$P(x_1, y_1)$</m>, therefore <m>$y_1\beta = 2a(x_1 + \alpha)$</m>.
+      </d:para>
+      <d:para>
+        Hence, locus of <m>$Q(\alpha, \beta)$</m> i.e. equation of polar of point <m>$P$</m> w.r.t. the
+        parabola is
+      </d:para>
+      <d:para>
+        <m>\[ y y_1 = 2a(x + x_1) \tag{6.6}\]</m>
+      </d:para>
+      <d:para>
+        According to the above definition of polar, <m>$AB$</m> will not be a part of the locus because no
+        two tangents to the parabola can intersect on the line segment <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        So the correct definition is here. Let <m>$P(x_1, y_1)$</m> be any point. The line whose equation is
+        that of the tangent to <m>$P$</m> to parabola whether <m>$P$</m> lies on the curve or not is called
+        the polar of point <m>$P$</m> w.r.t. the parabola. According to this definition equation of polar of
+        point <m>$P(x_1, y_1)$</m> w.r.t. the parabola is <m>$T = 0$</m> or <m>$y y_1 = 2a(x + x_1)$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Diameter of a Parabola</d:title>
+      <d:para>
+        Diameter of a conic is the locus of mid-points of a series of its parallel chords.
+      </d:para>
+      <d:figure xml:id="cs11">
+        <d:title>Diameter a parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_10.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4a x\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$AB$</m> be one of the chords of a series of parallel chords having slope <m>$m$</m>. Let
+        <m>$P(\alpha, \beta)$</m> be the mid-point of chord <m>$AB$</m>, then equation of <m>$AB$</m> will
+        be <m>$T = S_1$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow y\beta - 2a(x + \alpha) = \beta^2 - 4a\alpha \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Slope of this line is <m>$frac{2a}{\beta}$</m>. But slope of the line <m>$AB$</m> is <m>$m$</m>,
+        therefore <m>$\frac{2a}{\beta} = m \Rightarrow beta = \frac{2a}{m}$</m>.
+      </d:para>
+      <d:para>
+        Hence, locus of <m>$P(\alpha, \beta)$</m> i.e. equation of diameter is <m>\[ y = \frac{2a}{m}
+        \tag{6.7}\]</m>
+      </d:para>
+      <d:para>
+        Clearly, this line is parallel to the axis of the parabola.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>The Optical Property of a Parabola</d:title>
+      <d:para>
+        The tangent at any point <m>$P$</m> on a parabola bisects the angle between the focal chord through
+        <m>$P$</m> and the perpendicular from <m>$P$</m> on the directrix.
+      </d:para>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4a x \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P(at^2, 2at)$</m> be a point on the parabola and let <m>$PM \perp \text{ directrix}$</m>.
+      </d:para>
+      <d:figure xml:id="cs12">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_11.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Equation of the tangent to parabola at <m>$P$</m> is <m>$yt = x + at^2$</m>. Slope of this tangent
+        <m>$PT$</m> is <m>$\frac{1}{t} \Rightarrow \tan\theta = \frac{1}{t}$</m>
+      </d:para>
+      <d:para>
+        Slope of <m>$PS = \frac{2at}{a\left(t^2 - 1\right)} = \frac{\frac{2}{t}}{1 - \frac{1}{t^2}} =
+        \frac{2\tan\theta}{1 - \tan^2\theta} = \tan2\theta$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \angle PSX = 2\theta \Rightarrow \angle TPS = \angle PSX - \angle PTS = 2\theta -
+        \theta = \theta$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$\angle SPT = \angle MPT = \theta$</m>.
+      </d:para>
+      <d:para>
+        Therefore <m>$PT$</m> bisects <m>$\angle MPS$</m>.
+      </d:para>
+      <d:para>
+        The other property we know from physics is that rays coming from infinity are reflected by parabolas
+        in such a manner that they pass through focus. We will prove that here.
+      </d:para>
+      <d:para>
+        Let <m>$PN$</m> be normal to <m>$PT$</m>. In <m>$\triangle PTN, \angle TPN = 90^\circ$</m> and
+        <m>$\angle PTN = \theta$</m>
+      </d:para>
+      <d:para>
+        Since <m>$PR \parallel TN, \therefore \angle RPN = \angle TNP = 90^\circ - \theta$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$\angle SPN = 180^\circ - \angle PSN - \angle SNP = 180^\circ - 2\theta - \left(90^\circ -
+        \theta\right) = 90^\circ - \theta$</m>
+      </d:para>
+      <d:figure xml:id="cs13">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_12.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        <m>$\therefore \angle SPN = \angle RPN$</m>.
+      </d:para>
+      <d:para>
+        Thus, a ray parallel to the axis of parabola after reflection from parabola passes through the
+        focus.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Ellipse</d:title>
+    <d:para>
+      An ellipse is the locus of the point, which moves in the plane so that the ratio of its distance from
+      a fixed point, and a fixed line is a constant, which is less than one.
+    </d:para>
+    <d:figure xml:id="cs14">
+      <d:title>Definition of an ellipse</d:title>
+      <d:mediaobject>
+        <d:imageobject>
+          <d:imagedata fileref="../images/6_13.webp"/>
+        </d:imageobject>
+      </d:mediaobject>
+    </d:figure>
+    <d:para>
+      The fixed point is called the <d:emphasis role="italic">focus</d:emphasis>, the constant ratio is
+      called the <d:emphasis role="italic">eccentricity</d:emphasis>, and the fixed straight line is known
+      as the directrix of the ellipse.
+    </d:para>
+    <d:para>
+      In the figure above, <m>$S$</m> is the focus and <m>$MM'$</m> the directrix. Let <m>$P$</m>
+      be any point on the ellipse, then <m>$\frac{PS}{PN} = e &lt; 1$</m>.
+    </d:para>
+    <d:para>
+      Thus, we can find the equation of an ellipse when the coordinates of the focus, the equation of the
+      directrix, and the eccentricity are known.
+    </d:para>
+    <d:sect2>
+      <d:title>Equation of an Ellipse</d:title>
+      <d:para>
+        Let <m>$S$</m> be the focus and <m>$M M'$</m> be the directrix of the ellipse. Draw <m>$SH \perp
+        MM'$</m>, wed divide <m>$SH$</m> internally and externally in the ratio <m>$e: 1(e &lt; 1)$</m> at
+        points <m>$A$</m> and <m>$A'$</m> respectively, then
+      </d:para>
+      <d:figure xml:id="cs15">
+        <d:title>Equation of an ellipse</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_14.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        <m>$\frac{AS}{AH} = e \ldots$</m> (1) and <m>$\frac{A'S}{A'H} = e\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Clearly, <m>$A$</m> and <m>$A'$</m> will lie on the ellipse. Let <m>$AA' = 2a$</m>. Let <m>$O$</m>
+        be the mid-point of <m>$AA'$</m>. We take <m>$O$</m> as the origin and <m>$OA'$</m> and <m>$OY$</m>
+        as the <m>$x$</m> and <m>$y$</m> axes respectively.
+      </d:para>
+      <d:para>
+        From (1), <m>$AS = e AH$</m> and from (2) <m>$A'S = e A'H$</m>.
+      </d:para>
+      <d:para>
+        <m>$AS + A'S = e(AH + A'H) \Rightarrow 2a = (AH + AH + AA') = e(2Ah + 2a) \therefore A H =
+        \frac{a}{e} - e$</m>.
+      </d:para>
+      <d:para>
+        From (1) <m>$AS = e AH = a - ae \therefore O S= OA - AS = ae \therefore S = (-ae, 0)$</m>.
+      </d:para>
+      <d:para>
+        and <m>$OH = OA + AH = \frac{a}{e}$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$MM'$</m> is <m>$x = -\frac{a}{e} \Rightarrow e x + a = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be a point on ellipse. Draw <m>$PN \perp MM'$</m>
+      </d:para>
+      <d:para>
+        Now <m>$\frac{PS}{PN} = e \Rightarrow PS^2 = e^2PN^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (\alpha + ae)^2 + beta^2 = e^2\left(\frac{|e alpha + a|}{e}\right)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{\alpha^2}{a^2} + \frac{\beta^2}{a^2\left(1 - e^2\right)} = 1$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$b^2 = a^2\left(1 - e^2\right)$</m>
+      </d:para>
+      <d:para>
+        Then the locus of <m>$P$</m> is the equation of the ellipse, which is
+      </d:para>
+      <d:para>
+        <m>\[ \frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \tag{6.8}\]</m>
+      </d:para>
+      <d:para>
+        It is clear that if <m>$(ae, 0)$</m> is the focus, and <m>$ex - a = 0$</m> is the directrix even
+        then the ellipse will have the same equation.
+      </d:para>
+      <d:para>
+        Thus, the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> has two foci and two directrices.
+      </d:para>
+      <d:para>
+        A circle is a special limiting case of an ellipse whose major axis is <m>$2a$</m>, both foci
+        approach the center and eccentricity approaches <m>$0$</m>.
+      </d:para>
+      <d:para>
+        A typical ellipse is given below:
+      </d:para>
+      <d:figure xml:id="cs16">
+        <d:title>An ellipse</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_15.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        As you can see an ellipse cuts <m>$x$</m>-axis at <m>$(-a, 0)$</m> and <m>$(a, 0)$</m>, cuts
+        <m>$y$</m>-axis at <m>$(-b, 0)$</m> and <m>$(b, 0)$</m>. Equation of ellipse does not change when
+        <m>$x$</m> or <m>$y$</m> are changed to <m>$-x$</m> and <m>$-y$</m>, hence, an ellipse is
+        symmetrical about <m>$x$</m> and <m>$y$</m> axes.
+      </d:para>
+      <d:para>
+        We have <m>$y = \pm \frac{b}{a} \sqrt{a^2 - x^2} \Rightarrow a^2 - x^2 \geq 0 \Rightarrow -a \leq x
+        \leq a$</m>.
+      </d:para>
+      <d:para>
+        Similarly, <m>$x = \pm \frac{a}{b} \sqrt{b^2 - y^2} \Rightarrow b^2 - x^2 \geq 0 \Rightarrow -b \leq
+        y \leq b$</m>.
+      </d:para>
+      <d:para>
+        We see that ellipse is bounded between <m>$-a \leq x \leq a$</m> and <m>$-b \leq y \leq b$</m> so an
+        eclipse is a closed curve.
+      </d:para>
+      <d:para>
+        <m>$\frac{dy}{dx} = -\frac{b^2x}{b^2y}$</m>. At <m>$(-a, 0)$</m> and <m>$(a, 0)$</m>, the slope is
+        not defined, and hence, tangent at <m>$(-a, 0)$</m> and <m>$(a, 0)$</m> will be perpendicular to
+        <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        At <m>$(0, -b)$</m> and <m>$(0, b), \frac{dy}{dx} = 0$</m>, therefore, at these points tangents are
+        parallel to <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        If <m>$(x_1, y_1)$</m> lies on the curve, so does <m>$(-x_1, -y_1)$</m>. But <m>$(x_1, y_1)$</m> and
+        <m>$(-x_1, -y_1)$</m> are points on the line through the origin and are equidistant from the
+        origin. Hence, every chord through the origin <m>$C$</m> is bisected at <m>$C$</m>. The point
+        <m>$C$</m> is, therefore, callled the center of the ellipse.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Second focus and second directrix of an ellipse</d:title>
+      <d:figure xml:id="cs17">
+        <d:title>An ellipse</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_16.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$P(x, y)$</m> be a point on the ellipse and let <m>$C$</m> be its center. Let the equation of
+        the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>, where <m>$b^2 = a^2\left(1 -
+        e^2\right)\ldots$ (1)</m>
+      </d:para>
+      <d:para>
+        Here <m>$CA = CA' = a$</m> and <m>$e$</m> is the eccentricity of the ellipse and the point
+        <m>$S$</m> and the line <m>$QN$</m> are the focus and directrix respectively.
+      </d:para>
+      <d:para>
+        Let us take <m>$S'$</m> and <m>$Q'$</m> on the <m>$x$</m>-axis on that side of <m>$C$</m> which is
+        opposite to the side of <m>$S$</m> such that <m>$CS' = ae$</m> and <m>$CQ' = \frac{a}{e}\ldots$</m> (2)
+      </d:para>
+      <d:para>
+
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+</d:chapter>

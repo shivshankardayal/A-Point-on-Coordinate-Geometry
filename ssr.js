@@ -86,7 +86,8 @@ async function processFile(file) {
     RegisterHTMLHandler(adaptor);
 
     const tex = new TeX({
-        packages: AllPackages
+        packages: AllPackages,
+				tags: 'ams'
     });
 
     const svg = new SVG({
@@ -99,7 +100,94 @@ async function processFile(file) {
     });
 		const visitor = new SerializedMmlVisitor();
 
+
     let content = await fs.readFile(file, 'utf8');
+
+		// MathML Core (what real browsers implement) renders <mlabeledtr>'s
+    // label cell with `display: none` — it's never going to show up, by
+    // spec, regardless of what MathJax puts in it. So instead of emitting
+    // the <mtable><mlabeledtr> MathJax normally produces for a \tag'd
+    // equation, split it apart at the MmlNode level into a plain <math>
+    // (untagged) plus an ordinary HTML span for the label, and lay the two
+    // out with flexbox. This is the same approach arXiv/LaTeXML and
+    // Wikipedia use.
+    function splitTag(root) {
+        let kids = root.childNodes || [];
+        if (kids.length === 1 && kids[0].kind === 'inferredMrow') {
+            kids = kids[0].childNodes || [];
+        }
+        if (kids.length === 1 && kids[0].kind === 'mtable') {
+            const mtable = kids[0];
+            const rows = mtable.childNodes || [];
+            if (rows.length === 1 && rows[0].kind === 'mlabeledtr') {
+                const [labelMtd, contentMtd] = rows[0].childNodes;
+                return { labelMtd, contentMtd };
+            }
+        }
+        return null;
+    }
+
+    function toStandaloneMath(mtdNode, display) {
+        let mml = visitor.visitTree(mtdNode, html);
+        const openTag = `<math xmlns="http://www.w3.org/1998/Math/MathML"${display ? ' display="block"' : ''}>`;
+        return mml.replace(/^\s*<mtd\b[^>]*>/, openTag).replace(/<\/mtd>\s*$/, '</math>');
+    }
+
+    content = content.replace(
+        /\$\$([\s\S]*?)\$\$|\$([\s\S]*?)\$|\\\[([\s\S]*?)\\\]/g,
+        (_, dollarDisplayMath, inlineMath, bracketDisplayMath) => {
+            const math = dollarDisplayMath ?? inlineMath ?? bracketDisplayMath;
+            const display = dollarDisplayMath !== undefined || bracketDisplayMath !== undefined;
+            try {
+                const mathItem = new html.options.MathItem(math, tex, display);
+                mathItem.compile(html);
+
+                const split = splitTag(mathItem.root);
+                if (split) {
+                    const { labelMtd, contentMtd } = split;
+                    const idAttr = labelMtd.attributes.get('id');
+                    const labelMml = visitor.visitTree(labelMtd, html);
+                    const textMatch = labelMml.match(/<mtext>([^<]*)<\/mtext>/);
+                    const tagText = textMatch ? textMatch[1] : '';
+                    const contentMath = toStandaloneMath(contentMtd, display);
+
+                    return `<span class="mjx-tagged-eq"${display ? ' style="align-items:center;justify-content:center;gap:1em;"' : ''}>` +
+                        contentMath +
+                        `<span class="mjx-eqn-tag"${idAttr ? ` id="${idAttr}"` : ''}>${tagText}</span>` +
+                        `</span>`;
+                }
+
+                let mml = visitor.visitTree(mathItem.root, html);
+                mml = mml.replace(/ xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/, '');
+                return mml;
+            } catch (err) {
+                console.error(
+                    `MathJax error in ${file}:`,
+                    err.message
+                );
+
+                return _;
+            }
+        }
+    );
+
+		/*content = content.replace(
+				/\$\$([\s\S]*?)\$\$|\$([\s\S]*?)\$|\\\[([\s\S]*?)\\\]/g,
+				(_, dollarDisplayMath, inlineMath, bracketDisplayMath) => {
+						const math = dollarDisplayMath ?? inlineMath ?? bracketDisplayMath;
+						const display = dollarDisplayMath !== undefined || bracketDisplayMath !== undefined;
+						try {
+								const mathItem = new html.options.MathItem(math, tex, display);
+								mathItem.compile(html);
+								let mml = visitor.visitTree(mathItem.root, html);
+								mml = mml.replace(/ xmlns="http:\/\/www\.w3\.org\/1998\/Math\/MathML"/, '');
+								return mml;
+						} catch (err) {
+								console.error(`MathJax error in ${file}:`, err.message);
+								return _;
+						}
+				}
+		);
 
     content = content.replace(
         /\$([\s\S]*?)\$|\\\[([\s\S]*?)\\\]/g,
@@ -119,7 +207,7 @@ async function processFile(file) {
                 //.replace(/</g, '&lt;')
                 //.replace(/>/g, '&gt;');
 								const tag = display ? 'div' : 'span';
-								return `<${tag} class="math-wrap">${svgHtml}<${tag} class="math-source" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">${math}</${tag}></${tag}>`;*/
+								return `<${tag} class="math-wrap">${svgHtml}<${tag} class="math-source" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">${math}</${tag}></${tag}>`;
                 //return adaptor.outerHTML(node);
 								const mathItem = new html.options.MathItem(math, tex, display);
 								mathItem.compile(html);
@@ -135,7 +223,7 @@ async function processFile(file) {
                 return _;
             }
         }
-    );
+    );*/
 
 		/*
 			for svg ssr

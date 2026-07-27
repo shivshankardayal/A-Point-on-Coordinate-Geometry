@@ -5309,5 +5309,1324 @@
         4)$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 214 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Since it cuts the given circles
+        orthogonally,
+      </d:para>
+      <d:para>
+        therefore <m>$2gg_1 + 2ff_2 - c - c_1 = 0 \ldots$</m> (1) and <m>$2gg_2 + 2ff_2 - c - c_2 = 0
+        \ldots$(2)</m>
+      </d:para>
+      <d:para>
+        Eliminating <m>$g$</m> and <m>$f$</m> from these equations gives us <m>$\begin{vmatrix}x^2 + y^2 +
+        c &amp; x &amp; y\\ -c - c_1 &amp; g_1 &amp; f_1\\ -c - c_2 &amp; g_2 &amp; f_2\end{vmatrix} =
+        0$</m>
+      </d:para>
+      <d:para>
+        <m>$\begin{vmatrix} x^2 + y^2 &amp; -x &amp; -y\\ -c_1 &amp; g_1 &amp; f_1\\ -c_2 &amp; g_2 &amp;
+        f_2\end{vmatrix} + c\begin{vmatrix} 1 &amp; -x &amp; -y\\ 1 &amp; g_1 &amp; f_1 \\ 1 &amp; g_2 &amp;
+        f_2\end{vmatrix} = 0$</m>, which is of the form
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \begin{vmatrix} x^2 + y^2 &amp; -x &amp; -y\\ c_1 &amp; g_1 &amp; f_1\\ c_2 &amp; g_2 &amp;
+        f_2\end{vmatrix} + k\begin{vmatrix} 1 &amp; -x &amp; -y\\ 1 &amp; g_1 &amp; f_1 \\ 1 &amp; g_2 &amp;
+        f_2\end{vmatrix} = 0$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 215 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 5x + 3y + 7 = 0$</m> and <m>$x^2 + y^2 - 8x + 6y + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Compare them with the general form <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        For the first circle, <m>$g_1 = \frac{5}{2}, f_1 = \frac{3}{2}$</m>, and <m>$c_1 = 7$</m>.
+      </d:para>
+      <d:para>
+        For the second circle, <m>$g_2 = -4, f_2 = 3$</m>, and <m>$c_2 = k$</m>.
+      </d:para>
+      <d:para>
+        Two circles cut orthogonally if <m>$2(g_1g_2 + f_1f_2) = c_1 + c_2$</m>.
+      </d:para>
+      <d:para>
+        Substitute the values, <m>$2.\frac{5}{2}.(-4) + \frac{3}{2}.3 = 7 + k$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$-11 = 7 + k \Rightarrow k = -18$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 216 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through the origin, <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle <m>$x^2 + y^2 - 4x + 6y + 10 = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing with the general form, <m>$g_1 = -2, f_1 = 3$</m>, and <m>$c_1 = 10$</m>.
+      </d:para>
+      <d:para>
+        Since the circles cut orthogonally, <m>$2(gg_1 + ff_1) = c + c_1$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$2(-2g + 3f) = 10 \Rightarrow -2g + 3f = 5$</m>.
+      </d:para>
+      <d:para>
+        Now consider the second circle <m>$x^2 + y^2 + 12y + 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing with the general form, <m>$g_2 = 0, f_2 = 6$</m>, and <m>$c_2 = 6$</m>.
+      </d:para>
+      <d:para>
+        Again using the orthogonality condition, <m>$2(gg_2 + ff_2) = c + c_2 \Rightarrow f = 1/2$</m>.
+      </d:para>
+      <d:para>
+        Substitute into <m>$-2g + 3f = 5$</m>. So <m>$-2g + \frac{3}{2} = 5 \Rightarrow g =
+        -\frac{7}{4}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required circle is <m>$x^2 + y^2 - \frac{7}{2}x + y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 217 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Since it passes through the
+        origin, <m>$c = 0$</m>.
+      </d:para>
+      <d:para>
+        Given that the center lies on the line <m>$x + y + 4 = 0$</m>, so <m>$-g - f + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle <m>$x^2 + y^2 - 4x + 2y + 4 = 0$</m>. Comparing with the general form,
+        <m>$g_1 = -2, f_1 = 1$</m>, and <m>$c_1 = 4$</m>.
+      </d:para>
+      <d:para>
+        Since the circles cut orthogonally, <m>$2(gg_1 + ff_1) = c + c_1$</m>. So <m>$2(-2g + f) =
+        4$</m>. Hence, <m>$-2g + f = 2$</m>.
+      </d:para>
+      <d:para>
+        Solving the two equation gives <m>$g = \frac{2}{3}$</m> and <m>$f = 4 - \frac{2}{3} =
+        \frac{10}{3}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required circle is <m>$x^2 + y^2 + \frac{4}{3}x + \frac{20}{3}y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 218 -->
+      <d:para>
+        Let the third circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Let the other two circles be <m>$x^2
+        + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m> and <m>$x^2 + y^2 + 2g_2x + 2f_2y + c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the first two circles cut the third circle orthogonally, <m>$2(gg_1 + ff_1) = c + c_1$</m> and
+        <m>$2(gg_2 + ff_2) = c + c_2$</m>.
+      </d:para>
+      <d:para>
+        The common chord of the first two circles is obtained by subtracting their equations.
+      </d:para>
+      <d:para>
+        So its equation is <m>$2(g_1 - g_2)x + 2(f_1 - f_2)y + c_1 - c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        From orthogonality <m>$\Rightarrow c_1 - c_2 = 2g(g_1 - g_2) + 2f(f_1 - f_2)$</m>.
+      </d:para>
+      <d:para>
+        Substitute into the equation of the common chord. Then <m>$2(g_1 - g_2)x + 2(f_1 - f_2)y + 2g(g_1 -
+        g_2) + 2f(f_1 - f_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Factor, <m>$(g_1 - g_2)(x + g) + (f_1 - f_2)(y + f) = 0$</m>. The center of the third circle is
+        <m>$(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$x = -g$</m> and <m>$y = -f$</m>. The equation is satisfied.
+      </d:para>
+      <d:para>
+        Hence, the common chord passes through the center of the third circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 219 -->
+      <d:para>
+        Let the required circle be <m>$S = x^2 + y^2 + 2gx + 2fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$S_1 = x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0, S_2 = x^2 + y^2 + 2g_2x + 2f_2y + c_2 = 0$</m>
+        and <m>$S_3 = x^2 + y^2 + 2g_3x + 2f_3y + c_3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the circle <m>$S = 0$</m> cuts each of these orthogonally,
+      </d:para>
+      <d:para>
+        <m>$2(gg_1 + ff_1) = c + c_1, 2(gg_2 + ff_2) = c + c_2$</m>, and <m>$2(gg_3 + ff_3) = c + c_3$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle <m>$kS_1 + lS_2 + mS_3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Its equation is <m>$(k + l + m)\left(x^2 + y^2\right)+ 2(kg_1 + lg_2 + mg_3)x+ 2(kf_1 + lf_2 +
+        mf_3)y+ (kc_1 + lc_2 + mc_3) = 0$</m>.
+      </d:para>
+      <d:para>
+        Divide throughout by <m>$(k + l + m)$</m>. Then the circle becomes <m>$x^2 + y^2 + 2Gx + 2Fy + C =
+        0$</m>, where <m>$G = \frac{kg_1 + lg_2 + mg_3}{k + l + m}, F = \frac{kf_1 + lf_2 + mf_3}{k + l +
+        m}$</m>, and <m>$C = \frac{kc_1 + lc_2 +  mc_3}{k + l + m}$</m>.
+      </d:para>
+      <d:para>
+        <m>$2(gG + fF) = \frac{k(2(g g_1 + f f_1)) + l(2(g g_2 + f f_2)) + m(2(g g_3 + f f_3))}{k + l +
+        m}$</m>.
+      </d:para>
+      <d:para>
+        Using the orthogonality conditions, <m>$2(gG + fF) = \frac{k(c + c_1) + l(c + c_2) + m(c + c_3)}{k +
+        l + m}$</m>.
+      </d:para>
+      <d:para>
+        <m>$2(gG + fF)= c + \frac{k c_1 + l c_2 + m c_3}{k + l + m} = c + C$</m>.
+      </d:para>
+      <d:para>
+        Hence, the circle <m>$kS_1 + lS_2 + mS_3 = 0$</m> cuts the circle <m>$S = 0$</m> orthogonally.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 220 -->
+      <d:para>
+        Any circle passing through <m>$(0, k)$</m> and <m>$(0, -k)$</m> has equation <m>$x^2 + y^2 + 2gx +
+        2fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$(0, k)$</m> lies on it, <m>$k^2 + 2f k + c = 0$</m>. Since <m>$(0, -k)$</m> lies on it,
+        <m>$k^2 - 2f k + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Subtracting, <m>$4fk = 0$</m>. So <m>$f = 0$</m>. Then <m>$c = -k^2$</m>. Hence, the circle is
+        <m>$x^2 + y^2 + 2g x - k^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Its center is <m>$(-g, 0)$</m> and radius is <m>$\sqrt{g^2 + k^2}$</m>.
+      </d:para>
+      <d:para>
+        Now the circle touches the line <m>$y = mx + b$</m>
+      </d:para>
+      <d:para>
+        Therefore, the perpendicular distance of the center from the line equals the radius.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|-mg + b|}{\sqrt{m^2 + 1}} = \sqrt{g^2 + k^2} \Rightarrow b^2 - 2bmg + m^2g^2 = m^2g^2
+        + g^2 + k^2m^2 + k^2$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$g^2 + 2bmg + k^2\left(m^2 + 1\right) - b^2 = 0$</m>. This quadratic gives the two possible
+        circles.
+      </d:para>
+      <d:para>
+        Let their corresponding parameters be <m>$g_1$</m> and <m>$g_2$</m>. Then <m>$g_1 g_2 = k^2\left(m^2
+        + 1\right) - b^2$</m>.
+      </d:para>
+      <d:para>
+        Now the two circles are <m>$x^2 + y^2 + 2g_1x - k^2 = 0$</m> and <m>$x^2 + y^2 + 2g_2x - k^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        They cut orthogonally if <m>$2(g_1 g_2) = -2k^2$</m>.
+      </d:para>
+      <d:para>
+        So <m>$g_1g_2 = -k^2$</m>. Hence, <m>$k^2\left(m^2 + 1\right) - b^2 = -k^2$</m>. Therefore, <m>$b^2
+        = k^2\left(m^2 + 2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 221 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Since it cuts the circle <m>$x^2 + y^2 = c^2$</m> orthogonally, the condition is <m>$2(g * 0 + f *
+        0) = k - c^2$</m>.
+      </d:para>
+      <d:para>
+        So <m>$k = -c^2$</m>. Hence the general equation of the circle is <m>$x^2 + y^2 + 2gx + 2fy - c^2 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Now suppose it passes through the point <m>$(a, b)$</m>.
+      </d:para>
+      <d:para>
+        Substituting, <m>$a^2 + b^2 + 2ga + 2fb - c^2 = 0$</m>. So <m>$2ga + 2fb = c^2 - a^2 - b^2$</m>.
+      </d:para>
+      <d:para>
+        Now consider the point <m>$\left(\frac{c^2a}{a^2 + b^2}, \frac{c^2b}{a^2 + b^2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substitute this point into the equation of the circle. We get
+      </d:para>
+      <d:para>
+        <m>$\frac{c^4 a^2}{\left(a^2 + b^2\right)^2} + \frac{c^4 b^2}{\left(a^2 + b^2\right)^2} +
+        \frac{2gc^2a}{\left(a^2 + b^2\right)} + \frac{2fc^2b}{\left(a^2 + b^2\right)} - c^2$</m>.
+      </d:para>
+      <d:para>
+        Combine the first two terms, <m>$= \frac{c^4\left(a^2 + b^2\right)}{\left(a^2 + b^2\right)^2} +
+        \frac{2c^2(g a + f b)}{a^2 + b^2} - c^2$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{c^4}{a^2 + b^2} + \frac{2c^2(g a + f b)}{a^2 + b^2} - c^2$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$2ga + 2fb = c^2 - a^2 - b^2$</m>, we get <m>$2(g a + f b) = c^2 - a^2 - b^2$</m>.
+      </d:para>
+      <d:para>
+        Substitute, <m>$= \frac{c^4}{a^2 + b^2} + \frac{c^2\left(c^2 - a^2 - b^2\right)}{a^2 + b^2} -
+        c^2$</m> .
+      </d:para>
+      <d:para>
+        Simplify, <m>$= \frac{c^4 + c^4 - c^2\left(a^2 + b^2\right)}{a^2 + b^2} - c^2 = \frac{2c^4 - c^2(a^2
+        + b^2)}{a^2 + b^2} - c^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the circle also passes through <m>$\left(\frac{c^2a}{a^2 + b^2}, \frac{c^2 b}{a^2 +
+        b^2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 222 -->
+      <d:para>
+        Let the given circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Let <m>$P(x_1, y_1)$</m> and
+        <m>$Q(x_2, y_2)$</m> be conjugate points with respect to this circle.
+      </d:para>
+      <d:para>
+        Therefore the polar of <m>$P$</m> passes through <m>$Q$</m>. So <m>$x_1x_2 + y_1y_2 + g(x_1 + x_2) +
+        f(y_1 + y_2) + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Now consider the circle having <m>$PQ$</m> as diameter. Its equation is <m>$(x - x_1)(x - x_2) + (y
+        - y_1)(y - y_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing with <m>$x^2 + y^2 + 2Gx + 2Fy + C = 0$</m>, we get <m>$G = -\frac{x_1 + x_2}{2}, F =
+        -\frac{y_1 + y_2}{2}$</m> and <m>$C = x_1x_2 + y_1y_2$</m>.
+      </d:para>
+      <d:para>
+        For orthogonality with the given circle, the condition is <m>$2(gG + fF) = c + C$</m>.
+      </d:para>
+      <d:para>
+        Substitute the values, <m>$2(gG + fF) = 2g\left(-\frac{x_1 + x_2}{2}\right) + 2f\left(-\frac{y_1 +
+        y_2}{2}\right) = -g(x_1 + x_2) - f(y_1 + y_2)$</m>.
+      </d:para>
+      <d:para>
+        Also <m>$c + C = c + x_1 x_2 + y_1 y_2$</m>.
+      </d:para>
+      <d:para>
+        Using the conjugate point relation, <m>$x_1x_2 + y_1y_2 + g(x_1 + x_2) + f(y_1 + y_2) + c = 0$</m>,
+      </d:para>
+      <d:para>
+        we get <m>$c + x_1 x_2 + y_1 y_2 = -g(x_1 + x_2) - f(y_1 + y_2)$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$2(gG + fF) = c + C$</m>. Therefore, the circle on <m>$PQ$</m> as diameter cuts the circle
+        <m>$S$</m> orthogonally.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 223 -->
+      <d:para>
+        Equation of common chord of the circle is <m>$x + y - 7 = 0$</m>, which is also the radical axis.
+      </d:para>
+      <d:para>
+        Center of second circle is <m>$(4, 3)$</m>, which lies on the line obtained. Hence, the line is a
+        diamter of the second circle, and hence, the circumference of the second circle is bisected.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 224 -->
+      <d:para>
+        The given circles are <m>$2x^2 + 2y^2 - 2x + 6y - 3 = 0$</m> and <m>$x^2 + y^2 + 4x + 2y + 1 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Divide the first equation by <m>$2$</m>. Then the circles become <m>$S_1 = x^2 + y^2 - x + 3y -
+        \frac{3}{2} = 0$</m> and <m>$S_2 = x^2 + y^2 + 4x + 2y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Any circle coaxal with them is <m>$S_1 + \lambda S_2 = 0$</m>. So <m>$(1 + \lambda)\left(x^2 +
+        y^2\right) + (-1 + 4\lambda)x + (3 + 2\lambda)y + \left(-\frac{3}{2} + \lambda\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Divide throughout by <m>$(1 + \lambda)$</m>. Then the circle is <m>$x^2 + y^2 + 2g x + 2f y + c =
+        0$</m>, where <m>$2g = \frac{-1 + 4\lambda}{1 + \lambda}$</m> and <m>$2f = \frac{3 + 2\lambda}{1 +
+        \lambda}$</m>.
+      </d:para>
+      <d:para>
+        Hence, the center is <m>$\left(\frac{-4\lambda + 1}{2(1 + \lambda)}, -\frac{3 + 2\lambda}{2(1 +
+        \lambda)}\right)$</m>.
+      </d:para>
+      <d:para>
+        Subtracting, <m>$5x - y + \frac{5}{2} = 0$</m>. So the center must satisfy <m>$5\frac{-4\lambda +
+        1}{2(1 + \lambda)} - \frac{-(3 + 2\lambda)}{2(1 + \lambda)} + \frac{5}{2} = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 5(-4\lambda + 1) + (3 + 2\lambda) + 5(1 + \lambda) = 0 \Rightarrow -20\lambda + 5 +
+        3 + 2\lambda + 5 + 5\lambda = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 13 - 13\lambda = 0 \Rightarrow \lambda = 1$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the required circle is <m>$S_1 + S_2 = 0$</m>. So <m>$2x^2 + 2y^2 + 3x + 5y - \frac{1}{2} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 225 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> and <m>$2x^2 + 2y^2 + 3x + 8y + 2c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The radical axis is obtained by subtracting the equations. So <m>$\left(2g - \frac{3}{2}\right)x +
+        (2f - 4)y = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the radical axis is <m>$(4g - 3)x + (4f - 8)y = 0$</m>.
+      </d:para>
+      <d:para>
+        Now this line touches the circle <m>$x^2 + y^2 + 2x - 2y + 1 = 0$</m>. Its center is <m>$(-1,
+        1)$</m> and radius is <m>$\sqrt{1 - 1 + 1} = 1$</m>.
+      </d:para>
+      <d:para>
+        Therefore the perpendicular distance from the center to the line equals the radius.
+      </d:para>
+      <d:para>
+        So <m>$\frac{|(4g - 3)(-1) + (4f - 8)(1)|}{\sqrt{(4g - 3)^2 + (4f - 8)^2}} = 1$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (4g - 3)(f - 2) = 0$</m>. Therefore, either <m>$g = \frac{3}{4}$</m> or <m>$f =
+        2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 226 -->
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 2x + 4y - 6 = 0$</m> and <m>$x^2 + y^2 = 4$</m>.
+      </d:para>
+      <d:para>
+        Their radical axis is obtained by subtraction. So <m>$\left(x^2 + y^2 + 2x + 4y - 6\right) -
+        \left(x^2 + y^2 - 4\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the radical axis is <m>$x + 2y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let one circle of the required family be <m>$x^2 + y^2 - 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Then every circle having the same radical axis with it is obtained by adding a multiple of the
+        radical axis.
+      </d:para>
+      <d:para>
+        Hence, the required family is <m>$x^2 + y^2 - 4 + \lambda(x + 2y - 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the general equation is <m>$x^2 + y^2 + \lambda x + 2\lambda y - (\lambda + 4) = 0$</m>,
+        where <m>$\lambda$</m> is an arbitrary parameter.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 227 -->
+      <d:para>
+        Let the required point be <m>$(h, k)$</m>. The square of the length of the tangent from <m>$(h,
+        k)$</m> to a circle is obtained by substituting the point in the equation of the circle.
+      </d:para>
+      <d:para>
+        For the circle <m>$x^2 + y^2 = 1$</m>, the tangent length squared is <m>$h^2 + k^2 - 1$</m>.
+      </d:para>
+      <d:para>
+        For the circle <m>$x^2 + y^2 - 8x + 15 = 0$</m>, the tangent length squared is <m>$h^2 + k^2 - 8h +
+        15$</m>.
+      </d:para>
+      <d:para>
+        Since the tangent lengths are equal, <m>$h^2 + k^2 - 1 = h^2 + k^2 - 8h + 15$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$h = 2$</m>. Now consider the third circle <m>$x^2 + y^2 + 10y + 24 = 0$</m>.
+      </d:para>
+      <d:para>
+        The tangent length squared is <m>$h^2 + k^2 + 10k + 24$</m>.
+      </d:para>
+      <d:para>
+        Again equating tangent lengths, <m>$h^2 + k^2 - 1 = h^2 + k^2 + 10k + 24 \Rightarrow k = -\frac{5}{2}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the required point is <m>$\left(2, -\frac{5}{2}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 228 -->
+      <d:para>
+        Let the two circles be <m>$S_1 = x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m> and <m>$S_2 = x^2 + y^2 +
+        2g_2x + 2f_2y + c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the given point be <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        The polar of <m>$P$</m> with respect to <m>$S_1$</m> is <m>$xx_1 + yy_1 + g_1(x + x_1) + f_1(y +
+        y_1) + c_1 = 0$</m>.
+      </d:para>
+      <d:para>
+        The polar of <m>$P$</m> with respect to <m>$S_2$</m> is <m>$xx_1 + yy_1 + g_2(x + x_1) + f_2(y +
+        y_1) + c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        These two polars meet at the point <m>$Q$</m>. Subtract the two equations.
+      </d:para>
+      <d:para>
+        Then the coordinates of <m>$Q$</m> satisfies <m>$(g_1 - g_2)x + (f_1 - f_2)y + g_1x_1 - g_2x_1 +
+        f_1y_1 - f_2y_1 + c_1 - c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        So <m>$(g_1 - g_2)(x + x_1) + (f_1 - f_2)(y + y_1) + c_1 - c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now the radical axis of the two circles is <m>$2(g_1 - g_2)x + 2(f_1 - f_2)y + c_1 - c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the midpoint of <m>$PQ$</m> be <m>$(h, k)$</m>. Then <m>$h = \frac{x + x_1}{2}$</m> and <m>$k =
+        \frac{y + y_1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute in the equation obtained above.
+      </d:para>
+      <d:para>
+        We get <m>$2(g_1 - g_2)h + 2(f_1 - f_2)k + c_1 - c_2 = 0$</m>. But this is exactly the equation of
+        the radical axis. Hence, the midpoint of <m>$PQ$</m> lies on the radical axis.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 229 -->
+      <d:para>
+        Let the given points be <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be a point such that <m>$\frac{PA}{PB} = k$</m>, where <m>$k$</m> is a constant
+        and <m>$k \neq 1$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$\frac{\sqrt{(x - x_1)^2 + (y - y_1)^2}}{\sqrt{(x - x_2)^2 + (y - y_2)^2}} = k$</m>.
+      </d:para>
+      <d:para>
+        Squaring, <m>$(x - x_1)^2 + (y - y_1)^2 = k^2((x - x_2)^2 + (y - y_2)^2)$</m>.
+      </d:para>
+      <d:para>
+        Expand both sides, <m>$x^2 - 2x x_1 + x_1^2 + y^2 - 2y y_1 + y_1^2 = k^2\left(x^2 - 2x x_2 + x_2^2 +
+        y^2 - 2y y_2 + y_2^2\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(1 - k^2\right)\left(x^2 + y^2\right) + 2\left(k^2 x_2 - x_1\right)x +
+        2\left(k^2 y_2 - y_1\right)y + x_1^2 + y_1^2 - k^2\left(x_2^2 + y_2^2\right) = 0$.</m>
+      </d:para>
+      <d:para>
+        Since <m>$k \neq 1$</m>, divide by <m>$(1 - k^2)$</m>. The equation becomes of the form <m>$x^2 +
+        y^2 + 2gx + 2fy + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus is a circle.
+      </d:para>
+      <d:para>
+        At <m>$A, P A = 0$</m>. So the condition <m>$\frac{PA}{PB} = k$</m> gives <m>$0 = k$</m>, which is
+        impossible since <m>$k$</m> is a fixed non-zero constant.
+      </d:para>
+      <d:para>
+        Hence, the circle does not pass through <m>$A$</m>.
+      </d:para>
+      <d:para>
+        Similarly, at <m>$B, PB = 0$</m>, so the ratio becomes infinite, which is impossible.
+      </d:para>
+      <d:para>
+        Hence, the circle does not pass through <m>$B$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 230 -->
+      <d:para>
+        Let <m>$AB$</m> and <m>$CD$</m> be the two rods of lengths <m>$a$</m> and <m>$b$</m> respectively.
+      </d:para>
+      <d:para>
+        Let the equation of the circle passing through points <m>$A, B, C$</m> and <m>$D$</m> be <m>$x^2 +
+        y^2 - 2\alpha x - 2\beta y + \lambda = 0$</m>, whose center is <m>$P(\alpha, \beta)$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$y = 0$</m> gives us <m>$x^2 - 2\alpha x + \lambda = 0 \Rightarrow x_1 + x_2 = 2\alpha,
+        x_1x_2 = \lambda$</m>
+      </d:para>
+      <d:para>
+        <m>$\because a = |x_1 - x_2|, \therefore a^2 = (x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1x_2 =
+        4\left(\alpha^2 - \lambda\right)$</m>
+      </d:para>
+      <d:para>
+        Similarly, <m>$b^2 = 4\left(\beta^2 - \lambda\right) \therefore a^2 - b^2 = 4\left(\alpha^2 -
+        \beta^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus of the point <m>$P(\alpha, \beta)$</m> is <m>$4\left(x^2 - y^2\right) = a^2 -
+        b^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 231 -->
+      <d:para>
+        Let <m>$A$</m> and <m>$B$</m> be two fixed points. Let <m>$AB = 2a$</m>, we take the mid-point
+        <m>$O$</m> of <m>$AB$</m> as the origin and <m>$OB$</m> as <m>$x$</m>-axis. Let <m>$A = (-a, 0)$</m>
+        and <m>$B = (a, 0)$</m>.
+      </d:para>
+      <d:para>
+        Let one straight line which rotates about <m>$B$</m> makes an angle $theta$ with the <m>$x$</m>-axis
+        at any time <m>$t$</m> and at that time the second line which rotates about <m>$A$</m> makes an
+        angle <m>$2\theta$</m> with <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Now equations of these lines are <m>$y = \tan\theta(x - a) \ldots$</m> (1) and <m>$y = \tan2\theta(x
+        + a)$</m>
+      </d:para>
+      <d:para>
+        Solving we get <m>$x = \frac{a(\tan 2\theta + tan\theta)}{\tan\theta - \tan2\theta}$</m> and <m>$y =
+        \frac{2a.(\tan2\theta\tan\theta)}{\tan\theta - \tan2\theta}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x + a = -2a\cos2\theta$</m> and <m>$y = -2a\sin2\theta \Rightarrow (x + a)^2 + y^2 =
+        4a^2$</m> is the required locus.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 232 -->
+      <d:para>
+        Let <m>$OA = a, OB = b$</m>. The equation of the circle through <m>$O, A, B$</m> is <m>$x^2 + y^2 -
+        ax - by = 0$</m>
+      </d:para>
+      <d:para>
+        Its radius is <m>$r = \sqrt{\left(-\frac{a}{2}\right)^2 + \left(-\frac{b}{2}\right)^2} \Rightarrow
+        a^2 + b^2 = 4r^2$</m>. Here, <m>$a, b$</m> are variables and <m>$r$</m> is a constant.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> and <m>$\angle POA = \theta$</m>, then <m>$\alpha = OP\cos\theta =
+        r\cos\theta$</m> and <m>$\beta = r\sin\theta$</m>
+      </d:para>
+      <d:para>
+        Equation of line <m>$AB$</m> is <m>$\frac{x}{a} + \frac{y}{b} = 1. P$</m> lies on the line <m>$AB
+        \Rightarrow \frac{\alpha}{a} + \frac{\beta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        <m>$\because OP \perp AB \therefore \frac{\beta}{\alpha}\frac{b - 0}{0 - a} = -1 \Rightarrow a\alpha
+        = b\beta = k({\text {let}}) \Rightarrow a = \frac{\alpha}{k}, b = \frac{k}{\beta}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{\alpha}{\frac{k}{\alpha}} + \frac{\beta}{\frac{k}{\beta}} = 1 \Rightarrow
+        \alpha^2 + \beta^2 = k \Rightarrow a = \frac{\alpha^2 + \beta^2}{\alpha}, b = \frac{\alpha^2 +
+        \beta^2}{\beta}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(\alpha^2 + \beta^2\right)^2\left(\frac{1}{\alpha^2} + \frac{1}{\beta^2}\right)
+        = 4r^2$</m>
+      </d:para>
+      <d:para>
+        Thus, locus of point <m>$P$</m> is <m>$\left(x^2 + y^2\right)^2\left(\frac{1}{x^2} +
+        \frac{1}{y^2}\right) = 4r^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 233 -->
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be the point whose locus is to be found. Let the given circle be
+        <m>$x^2 + y^2 = a^2$</m>, and tangent to this circle is <m>$y = mx + a\sqrt{1 + m^2}$</m> which
+        passes through <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\beta = m\alpha + a\sqrt{1 + m^2} \Rightarrow  m^2\left(a^2 - \alpha^2\right) +
+        2m\alpha\beta + a^2 - \beta^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        This is a quadratic equation in <m>$m$</m> and hance two values are possible. Thus, these lines will
+        be orthogonal if <m>$m_1m_2 = -1 \Rightarrow \frac{a^2 - \beta^2}{a^2 - \alpha^2} = -1 \Rightarrow
+        \alpha^2 + \beta^2 = 2a^2$</m>.
+      </d:para>
+      <d:para>
+        Thus, locus of <m>$P(\alpha, \beta)$</m> is <m>$x^2 + y^2 = 2a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 234 -->
+      <d:para>
+        Given is the parametric equation of the circle. The cartesian equation will be <m>$x^2 + y^2 =
+        a^2$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$A = (a\cos\theta, a\sin\theta), B = \left(a\cos\frac{\theta + \pi}{3}, a\sin\frac{\theta +
+        \pi}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        Equation of tangent at <m>$A$</m> is <m>$xa\cos\theta + ya\sin\theta = a^2 \Rightarrow x\cos\theta +
+        y\sin\theta = a$</m>.
+      </d:para>
+      <d:para>
+        Similarly, equation of tangent at <m>$B$</m> is <m>$x\cos\frac{\theta + \pi}{3} + y\sin\frac{\theta
+        + \pi}{3} = a$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x\cos\theta.\frac{1}{2} - x\sin\theta \frac{\sqrt{3}}{2} + y\sin\theta.\frac{1}{2} +
+        y\cos\theta\frac{\sqrt{3}}{2} = a$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{1}{2}(x\cos\theta + y\sin\theta) + \frac{\sqrt{3}}2{}(y\cos\theta -
+        x\sin\theta) = a$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{a}{2} + \frac{\sqrt{3}}{2}(y\cos\theta - x\sin\theta) = a \Rightarrow
+        y\cos\theta - x\sin\theta = \frac{a}{\sqrt{3}}$</m>
+      </d:para>
+      <d:para>
+        Squaring and adding with the equation of tangent at <m>$A$</m> yields
+      </d:para>
+      <d:para>
+        <m>$3\left(x^2 + y^2\right) = 4a^2$</m>, which is the required locus.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 235 -->
+      <d:para>
+        Equation of chord of intersection is <m>$2(a - b)x = 0 \Rightarrow x = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$x = 0$</m> is the equation of the chord of intersection. <m>$OA^2 = \sqrt{a^2 + c^2 - a^2}
+        = a$</m>.
+      </d:para>
+      <d:para>
+        Since common chord of the two circles is <m>$y$</m>-axis and their centers are <m>$(-a, 0)$</m> and
+        <m>$(-b, 0)$</m> lying on the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Therefore, one of <m>$aq$</m> and <m>$b$</m> will be positive and other negative. WLOG we can assume
+        that <m>$a &lt; 0, b> 0$</m> with <m>$|a| &lt; b$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$AP$</m> be an arbitrary line through <m>$A(0, c)$</m> which meets first circle at <m>$P(x_2,
+        y_2)$</m>. Let the slope of <m>$AP$</m> be <m>$m$</m>.
+      </d:para>
+      <d:para>
+        Equation of <m>$AP$</m> is <m>$y = mx + c$</m> and that of <m>$BQ$</m> is <m>$y = mx - c$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$Q = (x_3, y_3)$</m>. Let <m>$R(\alpha, \beta)$</m> be the mid-point of <m>$PQ$</m>. Putting
+        <m>$y = mx + c$</m> in first circle yields
+      </d:para>
+      <d:para>
+        <m>$x^2 + (mx + c)^2 + 2ax - c^2 = 0 \Rightarrow x = 0, -\frac{2(a + cm)}{1 + m^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\because x_2 \neq 0 \therefore x_2 = -\frac{2(a + c m)}{1 + m^2}$</m> and <m>$y_2 = -\frac{2m(a
+        + c m)}{1 + m^2} + c$</m>
+      </d:para>
+      <d:para>
+        Replacing <m>$a$</m> by <m>$b$</m> and <m>$c$</m> by <m>$-c$</m> gives us
+      </d:para>
+      <d:para>
+        <m>$x_3 = \frac{2(b - c m)}{1 + m^2}$</m> and <m>$y_3 = -\frac{2m(b - c m)}{1 + m^2} - c$</m>
+      </d:para>
+      <d:para>
+        <m>$\alpha = frac{x_2 + x_3}{2} = -\frac{a + b}{1 + m^2}, \beta = -\frac{m(a + b)}{1 + m^2}
+        \Rightarrow \frac{\beta}{\alpha} = m$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \alpha = -\frac{(a +b)\alpha^2)}{\alpha^2 + \beta^2} \Rightarrow \alpha^2 + \beta^2
+        + (a + b)\alpha = 0$</m>
+      </d:para>
+      <d:para>
+        Hence, the locus of <m>$(\alpha, \beta)$</m> is <m>$x^2 + y^2 + (a + b)x = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 236 -->
+      <d:para>
+        The chord of contact of tangents drawn from <m>$(\alpha, \beta)$</m> to the circle <m>$x^2 + y^2 =
+        a^2$</m> is $\alpha x + \beta y = a^2$.
+      </d:para>
+      <d:para>
+        This chord subtends a right angle at the center <m>$(0, 0)$</m>. Let the perpendicular distance from
+        the center to the chord be <m>$d$</m>.
+      </d:para>
+      <d:para>
+        For a chord of a circle of radius <m>$a$</m> subtending a right angle at the center, <m>$d =
+        a\cos\frac{\pi}{4} = \frac{a}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        Now the distance of the center from the chord <m>$\alpha x + \beta y - a^2 = 0$</m> is
+        <m>$\frac{a^2}{\sqrt{\alpha^2 + \beta^2}}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$\frac{a^2}{\sqrt{\alpha^2 + \beta^2}} = \frac{a}{\sqrt{2}}$</m>. So <m>$a^4 =
+        a^2\frac{\alpha^2 + \beta^2}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$\alpha^2 + \beta^2 = 2a^2$</m>. Therefore, the required condition is <m>$\alpha^2 +
+        \beta^2 = 2a^2$</m>.
+      </d:para>
+      <d:para>
+        Thus, the locus of <m>$(\alpha, \beta)$</m> is the circle <m>$x^2 + y^2 = 2a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 237 -->
+      <d:para>
+        Let the tangents to the circles <m>$x^2 + y^2 = a^2$</m> and <m>$x^2 + y^2 = b^2$</m> intersect at
+        the point <m>$(h, k)$</m>.
+      </d:para>
+      <d:para>
+        The tangent from <m>$(h, k)$</m> to the first circle has equation <m>$y = mx \pm \sqrt{a^2\left(1 +
+        m^2\right)}$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(h, k), k = mh \pm \sqrt{a^2\left(1 + m^2\right)} \Rightarrow (k - mh)^2
+        = a^2\left(1 + m^2\right)$</m>.
+      </d:para>
+      <d:para>
+        This gives the combined equation of tangents from <m>$(h, k)$</m> to the circle <m>$x^2 + y^2 =
+        a^2$</m>,
+      </d:para>
+      <d:para>
+        namely <m>$\left(xh + yk - a^2\right)^2 = \left(h^2 + k^2 - a^2\right)\left(x^2 + y^2 -
+        a^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the pair of tangents from <m>$(h, k)$</m> to the circle <m>$x^2 + y^2 = b^2$</m> is
+      </d:para>
+      <d:para>
+        <m>$\left(xh + yk - b^2\right)^2 = \left(h^2 + k^2 - b^2\right)\left(x^2 + y^2 - b^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Now the two tangents are mutually perpendicular. For a pair of tangents drawn from a point to the
+        circle <m>$x^2 + y^2 = r^2$</m>, the angle between them is a right angle if <m>$h^2 + k^2 =
+        2r^2$</m>.
+      </d:para>
+      <d:para>
+        Applying this separately to the two circles and combining for perpendicular tangents, we obtain
+        <m>$h^2 + k^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus of the point of intersection is <m>$x^2 + y^2 = a^2 + b^2$</m>. This is a circle
+        concentric with the given circles.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 238 -->
+      <d:para>
+        Let <m>$(h, k)$</m> be the point from which tangents are drawn to the circle <m>$x^2 + y^2 =
+        a^2$</m>.
+      </d:para>
+      <d:para>
+        Let the angle between the tangents be $alpha$. If <m>$P$</m> is the external point and <m>$O$</m> is
+        the center, then in the right triangle formed by joining the center to the point of contact,
+      </d:para>
+      <d:para>
+        <m>$\sin\frac{\alpha}{2} = \frac{a}{\sqrt{h^2 + k^2}}$</m>. Hence, <m>$h^2 + k^2 =
+        a^2\csc^2\frac{\alpha}{2}$</m>.
+      </d:para>
+      <d:para>
+        Now use the identity <m>$\csc^2\frac{\alpha}{2} = \frac{\tan^2\alpha + 4}{4\tan^2\frac{\alpha}{2}}$</m>.
+      </d:para>
+      <d:para>
+        After simplification, <m>$\left(h^2 + k^2 - 2a^2\right)^2\tan^2\alpha = 4a^2\left(h^2 + k^2 -
+        a^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> by the general point <m>$(x, y)$</m>, the locus is <m>$\left(x^2 + y^2 -
+        2a^2\right)^2\tan^2\alpha = 4a^2\left(x^2 + y^2 - a^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 239 -->
+      <d:para>
+        Let the variable line through the fixed point <m>$(h, k)$</m> have slope <m>$m$</m>. Its equation is
+        <m>$y - k = m(x - h)$</m>.
+      </d:para>
+      <d:para>
+        So <m>$mx - y + (k - mh) = 0$</m>. Let <m>$(x, y)$</m> be the foot of the perpendicular drawn from
+        the origin to this line.
+      </d:para>
+      <d:para>
+        Since <m>$(x, y)$</m> lies on the line, <m>$mx - y + k - mh = 0$</m>.
+      </d:para>
+      <d:para>
+        Also the line joining the origin to <m>$(x, y)$</m> is perpendicular to the given line.
+      </d:para>
+      <d:para>
+        The slope of the given line is <m>$m$</m>. Hence, the slope of the perpendicular from the origin is
+        <m>$-\frac{1}{m}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$\frac{y}{x} = -\frac{1}{m}$</m>, so <m>$m = -\frac{x}{y}$</m>.
+      </d:para>
+      <d:para>
+        Substitute this in the line equation, <m>$\left(-\frac{x}{y}\right)x - y + k -
+        \left(-\frac{x}{y}\right)h = 0 \Rightarrow -x^2 - y^2 + ky + hx = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus is <m>$x^2 + y^2 - hx - ky = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 240 -->
+      <d:para>
+        Take the fixed point <m>$O$</m> as the origin. Let the two fixed parallel lines be <m>$x = a$</m>
+        and <m>$x = -b$</m>.
+      </d:para>
+      <d:para>
+        Then the points <m>$A(a, 0)$</m> and <m>$B(-b, 0)$</m> lie on the perpendicular through <m>$O$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(a, p)$</m> and <m>$Q(-b, q)$</m>. Since <m>$\angle POQ$</m> is a right angle, the slopes
+        of <m>$OP$</m> and <m>$OQ$</m> satisfy
+      </d:para>
+      <d:para>
+        <m>$\frac{p}{a}\left(\frac{q}{-b}\right) = -1$</m>. So <m>$pq = ab$</m>. Now find the equation of
+        the line <m>$PQ$</m>.
+      </d:para>
+      <d:para>
+        Using the two-point form, <m>$y - p = \frac{(q - p)(x - a)}{-b - a}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$(p - q)x + (a + b)y - (aq + bp) = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(h, k)$</m> be the foot of the perpendicular from the origin to this line.
+      </d:para>
+      <d:para>
+        Then <m>$h = -\frac{(p - q)(-aq - bp)}{(p - q)^2 + (a + b)^2}$</m> and <m>$k = -\frac{(a + b)(-a q -
+        b p)}{(p - q)^2 + (a + b)^2}$</m>.
+      </d:para>
+      <d:para>
+        So <m>$h = \frac{(p - q)(aq + bp)}{(p - q)^2 + (a + b)^2}$</m> and <m>$k = \frac{(a + b)(aq +
+        bp)}{(p - q)^2 + (a + b)^2}$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$pq = ab$</m>, simplification gives <m>$h^2 + (k^2) = (a - b)h$</m>.
+      </d:para>
+      <d:para>
+        Rewrite, <m>$h^2 - (a - b)h + k^2 = 0$</m>. Complete the square, <m>$\left(h - \frac{a -
+        b}{2}\right)^2 + k^2 = \frac{(a + b)^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        This is the equation of the circle whose diameter has endpoints <m>$(a, 0)$</m> and <m>$(-b,
+        0)$</m>, that is, the circle on <m>$AB$</m> as diameter.
+      </d:para>
+      <d:para>
+        Hence, the locus of the foot of the perpendicular from <m>$O$</m> to <m>$PQ$</m> is the circle on
+        <m>$AB$</m> as diameter.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 241 -->
+      <d:para>
+        Let the other end of the diameter through <m>$P(1, 2)$</m> be <m>$(x, y)$</m>. Let the center of the
+        circle be <m>$(h, k)$</m>.
+      </d:para>
+      <d:para>
+        Since the center is the midpoint of the diameter joining <m>$(1, 2)$</m> and <m>$(x, y), h = \frac{x
+        + 1}{2}$</m> and <m>$k = \frac{y + 2}{2}$</m>.
+      </d:para>
+      <d:para>
+        The circle touches the <m>$x$</m>-axis. Therefore, the radius equals the distance of the center from
+        the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        So the radius is <m>$k$</m>. Now the radius is also half the length of the diameter.
+      </d:para>
+      <d:para>
+        Hence, <m>$\frac{(x - 1)^2 + (y - 2)^2}{4} = k^2$</m>. Substitute <m>$k = \frac{y + 2}{2}$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$\frac{(x - 1)^2 + (y - 2)^2}{4} = \frac{(y + 2)^2}{4} \Rightarrow (x - 1)^2 = 8y$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 242 -->
+      <d:para>
+        Let the required point be <m>$(x, y)$</m>. The length of the tangent from <m>$(x, y)$</m> to the
+        circle
+      </d:para>
+      <d:para>
+        <m>$x^2 + y^2 = a^2$</m> is <m>$\sqrt{x^2 + y^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the length of the tangent from <m>$(x, y)$</m> to the circle <m>$x^2 + y^2 = b^2$</m> is
+        <m>$\sqrt{x^2 + y^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        Given that the tangent lengths vary inversely as the radii, <m>$\frac{\sqrt{x^2 + y^2 -
+        a^2}}{\sqrt{x^2 + y^2 - b^2}} = \frac{b}{a}$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x^2 + y^2 - a^2}{x^2 + y^2 - b^2} = \frac{b^2}{a^2} \Rightarrow a^2\left(x^2 +
+        y^2 - a^2\right) = b^2\left(x^2 + y^2 - b^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$x^2 + y^2 = a^2 + b^2$</m>. Therefore, the locus is the circle <m>$x^2 + y^2 = a^2 +
+        b^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 243 -->
+      <d:para>
+        Take the square with sides parallel to the axes and center at the origin.
+      </d:para>
+      <d:para>
+        Since the side of the square is unity, its sides are <m>$x = \frac{1}{2}, x = -\frac{1}{2}, y =
+        \frac{1}{2}$</m>, and <m>$y = -\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(x, y)$</m> be the moving point. Its perpendicular distances from the four sides are
+        <m>$\left|x - \frac{1}{2}\right|, \left|x + \frac{1}{2}\right|, \left|y - \frac{1}{2}\right|$</m>,
+        and <m>$\left|y + \frac{1}{2}\right|$</m>.
+      </d:para>
+      <d:para>
+        Given that the sum of their squares is <m>$9, \left(x - \frac{1}{2}\right)^2 + \left(x +
+        \frac{1}{2}\right)^2 + \left(y - \frac{1}{2}\right)^2 + \left(y + \frac{1}{2}\right)^2 = 9$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 = 4$</m>. This is a circle centered at the origin, which is the center of
+        the square.
+      </d:para>
+      <d:para>
+        Therefore the locus is a circle concentric with the square. Its radius is <m>$2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 244 -->
+      <d:para>
+        The given circle is <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Its center is <m>$(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        Let the center be <m>$(h, k)$</m>. Then <m>$g = -h$</m> and <m>$f = -k$</m>.
+      </d:para>
+      <d:para>
+        The length of the tangent from the origin to the circle is <m>$\sqrt{c}$</m> evaluated at the
+        origin, so <m>$\sqrt{0 + 0 + 0 + 0 + c} = \sqrt{c}$</m>.
+      </d:para>
+      <d:para>
+        The pair of tangents drawn from the origin are perpendicular.
+      </d:para>
+      <d:para>
+        For tangents from a point to a circle to be perpendicular, the point must lie on the director circle.
+      </d:para>
+      <d:para>
+        The director circle of <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m> is <m>$x^2 + y^2 + 2gx + 2fy + 2c -
+        g^2 - f^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the origin lies on it, <m>$2c - g^2 - f^2 = 0$</m>. So <m>$g^2 + f^2 = 2c$</m>.
+      </d:para>
+      <d:para>
+        Now the radius squared of the circle is <m>$g^2 + f^2 - c$</m>. Substitute the above relation,
+        <m>$r^2 = c$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$g^2 + f^2 = 2c$</m>. Replacing <m>$g = -h$</m> and <m>$f = -k$, $h^2 + k^2 = 2c$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus of the center is <m>$x^2 + y^2 = 2c$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 245 -->
+      <d:para>
+        Let the required circle have center <m>$(h, k)$</m> and radius <m>$r$</m>. The circle <m>$x^2 + y^2
+        = a^2$</m> has center <m>$(0, 0)$</m> and radius <m>$a$</m>.
+      </d:para>
+      <d:para>
+        The circle <m>$x^2 + y^2 = 4ax$</m>. So its center is <m>$(2a, 0)$</m> and radius is <m>$2a$</m>.
+      </d:para>
+      <d:para>
+        Since the required circle touches both circles externally, <m>$\sqrt{h^2 + k^2} = r + a$</m>, and
+        <m>$\sqrt{(h - 2a)^2 + k^2} = r + 2a$</m>.
+      </d:para>
+      <d:para>
+        Subtracting, <m>$\sqrt{(h - 2a)^2 + k^2} - \sqrt{h^2 + k^2} = a$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$d_1 = \sqrt{h^2 + k^2}$</m>, and <m>$d_2 = \sqrt{(h - 2a)^2 + k^2}$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$d_2 = d_1 + a$</m>. Squaring, <m>$(h - 2a)^2 + k^2 = h^2 + k^2 + 2a d_1 + a^2$</m>.
+      </d:para>
+      <d:para>
+        Simplify, <m>$h^2 - 4a h + 4a^2 + k^2 = h^2 + k^2 + 2a d_1 + a^2$</m>.
+      </d:para>
+      <d:para>
+        So <m>$-4a h + 3a^2 = 2a d_1$</m>. Hence, <m>$d_1 = \frac{3a - 4h}{2}$</m>.
+      </d:para>
+      <d:para>
+        Now square again, <m>$h^2 + k^2 = \frac{(3a - 4h)^2}{4}$</m>. Thus, <m>$4h^2 + 4k^2 = 9a^2 - 24a h +
+        16h^2$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$12h^2 - 4k^2 - 24a h + 9a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> by <m>$(x, y)$</m>, the locus is <m>$12x^2 - 4y^2 - 24a x + 9a^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 246 -->
+      <d:para>
+        Let the required circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Its center is <m>$(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        The given circles are <m>$x^2 + y^2 + 4x - 6y + 9 = 0$</m>, and <m>$x^2 + y^2 - 4x + 6y + 4 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        For the first circle, <m>$g_1 = 2, f_1 = -3$</m>, and <m>$c_1 = 9$</m>.
+      </d:para>
+      <d:para>
+        Since the required circle cuts it orthogonally, <m>$2(gg_1 + ff_1) = c + c_1$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$4g - 6f = c + 9$</m>. For the second circle, <m>$g_2 = -2, f_2 = 3$</m>, and <m>$c_2 =
+        4$</m>.
+      </d:para>
+      <d:para>
+        Again using orthogonality, <m>$2(gg_2 + ff_2) = c + c_2$</m>.
+      </d:para>
+      <d:para>
+        So <m>$-4g + 6f = c + 4$</m>. Subtract the two equations, <m>$(4g - 6f) - (-4g + 6f) = (c + 9) - (c
+        + 4)$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$8g - 12f = 5$</m>. Now let the center be <m>$(x, y)$</m>. Then <m>$g = -x$</m> and <m>$f
+        = -y$</m>.
+      </d:para>
+      <d:para>
+        Substitute, <m>$8(-x) - 12(-y) = 5$</m>. So <m>$-8x + 12y = 5$</m>. Therefore, <m>$8x - 12y + 5 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 247 -->
+      <d:para>
+        Let the fixed point on the <m>$x$</m>-axis be <m>$(c, 0)$</m>. Take any tangent to the circle
+        <m>$x^2 + y^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Its equation may be written as <m>$y = mx \pm a\sqrt{1 + m^2} \Rightarrow mx - y \pm a\sqrt{1 + m^2}
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(h, k)$</m> be the foot of the perpendicular from <m>$(c, 0)$</m> to this tangent. Since
+        <m>$(h, k)$</m> lies on the tangent,
+      </d:para>
+      <d:para>
+        <m>$mh - k \pm a\sqrt{1 + m^2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Also the line joining <m>$(c, 0)$</m> to <m>$(h, k)$</m> is perpendicular to the tangent.
+      </d:para>
+      <d:para>
+        Hence, its slope is <m>$-\frac{1}{m}$</m>. Therefore, <m>$\frac{k}{h - c} = -\frac{1}{m}$</m>, so
+        <m>$m = -\frac{h - c}{k}$</m>.
+      </d:para>
+      <d:para>
+        Substitute in the tangent equation, <m>$-\frac{h(h - c)}{k} - k \pm a\sqrt{1 + \frac{(h -
+        c)^2}{k^2}} = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow -h(h - c) - k^2 \pm a\sqrt{k^2 + (h - c)^2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Transpose, <m>$a\sqrt{(h - c)^2 + k^2} = h(h - c) + k^2$</m>.
+      </d:para>
+      <d:para>
+        Now square and simplify. After reduction, <m>$\left(h^2 + k^2 - ch\right)^2 = a^2\left((h - c)^2 +
+        k^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> by <m>$(x, y)$</m>, the locus is <m>$\left(x^2 + y^2 - cx\right)^2 =
+        a^2\left((x - c)^2 + y^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 248 -->
+      <d:para>
+        Let the point $P$ on the circle <m>$x^2 + y^2 = 2$</m> be <m>$(x_1, y_1)$</m>. Then <m>$x_1^2 +
+        y_1^2 = 2$</m>.
+      </d:para>
+      <d:para>
+        The tangent at <m>$P$</m> is <m>$xx_1 + yy_1 = 2$</m>. This tangent cuts the <m>$x$</m>-axis at the
+        point <m>$L$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$y = 0, x x_1 = 2$</m>, so <m>$L\left(\frac{2}{x_1}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, it cuts the <m>$y$</m>-axis at the point <m>$M$</m>. Putting <m>$x = 0, y y_1 = 2$</m>,
+        so <m>$M\left(0, \frac{2}{y_1}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let the midpoint of <m>$LM$</m> be <m>$(h, k)$</m>. Then <m>$h = \frac{1}{x_1}$</m>, and <m>$k =
+        \frac{1}{y_1}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$x_1 = \frac{1}{h}$</m> and <m>$y_1 = \frac{1}{k}$</m>. Substitute in <m>$x_1^2 +
+        y_1^2 = 2$</m>.
+      </d:para>
+      <d:para>
+        We get <m>$\frac{1}{h^2} + \frac{1}{k^2} = 2$</m>. Hence, the locus is <m>$x^2 + y^2 = 2x^2
+        y^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 249 -->
+      <d:para>
+        Let the triangle have vertices <m>$(0, 0), (h, 0)$</m> and <m>$(0, k)$</m>. Its third side joins
+        <m>$(h, 0)$</m> and <m>$(0, k)$</m>.
+      </d:para>
+      <d:para>
+        Hence its equation is <m>$\frac{x}{h} + \frac{y}{k} = 1$</m>. Or, <m>$kx + hy - hk = 0$</m>.
+      </d:para>
+      <d:para>
+        This line touches the circle <m>$x^2 + y^2 - 2ax - 2ay + a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        So the center is <m>$(a, a)$</m> and the radius is <m>$a$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the perpendicular distance from <m>$(a, a)$</m> to the line equals <m>$a$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{|ak + ah - hk|}{\sqrt{h^2 + k^2}} = a$</m>.
+      </d:para>
+      <d:para>
+        Squaring, <m>$hk\left(hk - 2ah - 2ak + 2a^2\right) = 0 \Rightarrow hk - 2ah - 2ak + 2a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now the triangle is right-angled at the origin, so the circumcenter is the midpoint of the
+        hypotenuse.
+      </d:para>
+      <d:para>
+        Hence, the circumcenter is <m>$\left(\frac{h}{2}, \frac{k}{2}\right)$</m>. Let it be <m>$(x,
+        y)$</m>. Then <m>$h = 2x$</m>, and <m>$k = 2y$</m>.
+      </d:para>
+      <d:para>
+        Substitute, <m>$(2x)(2y) - 2a(2x) - 2a(2y) + 2a^2 = 0$</m>. So <m>$4xy - 4ax - 4ay + 2a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2(x + y) - a = \frac{2xy}{a}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 250 -->
+      <d:para>
+        Let the moving point on the circle <m>$x^2 + y^2 = 4$</m> be <m>$(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Let the midpoint of <m>$AP$</m> be <m>$(h, k)$</m>. Since <m>$A = (1, 5)$</m> and <m>$P = (x_1,
+        y_1)$</m>, the midpoint is <m>$h = \frac{x_1 + 1}{2}$</m> and <m>$k = \frac{y_1 + 5}{2}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$x_1 = 2h - 1$</m> and <m>$y_1 = 2k - 5$</m>. Since <m>$P$</m> lies on the circle,
+        <m>$x_1^2 + y_1^2 = 4$</m>.
+      </d:para>
+      <d:para>
+        Substitute, <m>$(2h - 1)^2 + (2k - 5)^2 = 4 \Rightarrow 2h^2 + 2k^2 - 2h - 10k + 11 = 0$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> by <m>$(x, y)$</m>, the locus is <m>$2x^2 + 2y^2 - 2x - 10y + 11 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 251 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be the midpoint of a variable chord through the fixed point <m>$A(a, b)$</m> of
+        the circle <m>$x^2 + y^2 + 2g x + 2f y + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the other end of the chord be <m>$Q(x_1, y_1)$</m>. Since <m>$P$</m> is the midpoint of <m>$AQ,
+        x_1 = 2x - a$</m> and <m>$y_1 = 2y - b$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$Q$</m> lies on the circle. Therefore, <m>$(2x - a)^2 + (2y - b)^2 + 2g(2x - a) + 2f(2y - b)
+        + c = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4x^2 - 4a x + a^2 + 4y^2 - 4b y + b^2 + 4g x - 2a g + 4f y - 2b f + c = 0$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow  4\left(x^2 + y^2 + gx + fy\right) - 4(ax + by) + a^2 + b^2 - 2ag - 2bf + c =
+        0$</m>.
+      </d:para>
+      <d:para>
+        <m>$=> x^2 + y^2 + gx + fy - ax - by + \frac{a^2 + b^2 - 2a g - 2b f + c}{4} = 0$</m>.
+      </d:para>
+      <d:para>
+        This is a circle. The center is <m>$\left(\frac{a - g}{2}, \frac{b - f}{2}\right)$</m>. The center
+        of the given circle is <m>$(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of the points <m>$(a, b)$</m> and <m>$(-g, -f)$</m> is <m>$\left(\frac{a - g}{2},
+        \frac{b - f}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Hence, the locus is a circle whose center is the midpoint of the fixed point $A$ and the center of
+        the given circle.
+      </d:para>
+      <d:para>
+        Also, its radius is half the radius of the given circle.
+      </d:para>
+      <d:para>
+        Therefore, the locus is the circle obtained by reducing the given circle in the ratio <m>$1:2$</m>
+        with respect to the point <m>$A$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 252 -->
+      <d:para>
+        Let the two fixed points be <m>$A(x_1, y_1)$</m> and <m>$B(x_2, y_2)$</m>. Let the moving line be
+        <m>$lx + my + n = 0$</m>, where <m>$l^2 + m^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Then the algebraic perpendicular distances of the points from the line are <m>$lx_1 + my_1 + n$</m>
+        and <m>$lx_2 + my_2 + n$</m>.
+      </d:para>
+      <d:para>
+        Given that their algebraic sum is constant, say <m>$2k, (lx_1 + my_1 + n) + (lx_2 + my_2 + n) =
+        2k$</m>.
+      </d:para>
+      <d:para>
+        So <m>$l(x_1 + x_2) + m(y_1 + y_2) + 2n = 2k$</m>. Hence, <m>$n = k - \frac{l(x_1 + x_2) + m(y_1 +
+        y_2)}{2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute this in the equation of the line, <m>$lx + my + k - \frac{l(x_1 + x_2) + m(y_1 + y_2)}{2}
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Rearrange, <m>$l\left(x - \frac{x_1 + x_2}{2}\right) + m\left(y - \frac{y_1 + y_2}{2}\right) + k =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$l^2 + m^2 = 1$</m>, this represents the tangent form of a circle.
+      </d:para>
+      <d:para>
+        Therefore, the line always touches the fixed circle whose center is <m>$\left(\frac{x_1 + x_2}{2},
+        \frac{y_1 + y_2}{2}\right)$</m> and radius is <m>$|k|$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required fixed circle is <m>$\left(x - \frac{x_1 + x_2}{2}\right)^2 + \left(y - \frac{y_1
+        + y_2}{2}\right)^2 = k^2$.</m>
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

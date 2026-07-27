@@ -48,6 +48,7 @@ the section entitled &#8220;GNU Free Documentation License&#8221;.
     <xi:include href="straight-lines.xml"/>
     <xi:include href="pair-straight-lines.xml"/>
     <xi:include href="circles.xml"/>
+    <xi:include href="conic-sections.xml"/>
   </d:part>
   <d:part>
     <title>Answers</title>
@@ -55,6 +56,7 @@ the section entitled &#8220;GNU Free Documentation License&#8221;.
     <xi:include href="answers-locus.xml"/>
     <xi:include href="answers-straight-lines.xml"/>
     <xi:include href="answers-pair-straight-lines.xml"/>
+    <xi:include href="answers-circles.xml"/>
   </d:part>
   <d:index>
     <d:title>Index</d:title>
