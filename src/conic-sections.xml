@@ -240,12 +240,12 @@
         \frac{y_2 - y_1}{x_2 - x_1}(x - x_1) = \frac{4a}{y_2 + y_1}$</m>
       </d:para>
       <d:figure xml:id="cs5">
-      <d:title>A Tangent to a Parabola</d:title>
-      <d:mediaobject>
-        <d:imageobject>
-          <d:imagedata fileref="../images/6_4.webp"/>
-        </d:imageobject>
-      </d:mediaobject>
+        <d:title>A Tangent to a Parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_4.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
       </d:figure>
       <d:para>
         Putting this in (1) gives us <m>$y - y_1 = \frac{4a}{x_2 + x_1}(x - x_1)$</m>
@@ -362,12 +362,12 @@
     <d:sect2>
       <d:title>Equation of the Chord of a Parabola whose middle point is <m>$(x_1, y_1)$</m></d:title>
       <d:figure xml:id="cs6">
-      <d:title>Chord of a parabola</d:title>
-      <d:mediaobject>
-        <d:imageobject>
-          <d:imagedata fileref="../images/6_5.webp"/>
-        </d:imageobject>
-      </d:mediaobject>
+        <d:title>Chord of a parabola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_5.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
       </d:figure>
       <d:para>
         Equation of the parabola is <m>$y^2 = 4ax$</m>. Let <m>$AB$</m> be a chord of the parabola whose
@@ -835,8 +835,418 @@
         opposite to the side of <m>$S$</m> such that <m>$CS' = ae$</m> and <m>$CQ' = \frac{a}{e}\ldots$</m> (2)
       </d:para>
       <d:para>
-
+        Let <m>$Q;N' \perp CQ', PN' \perp Q'N'$</m> and <m>$PM \perp CX$</m>.
       </d:para>
+      <d:para>
+        Since <m>$P = (x, y)\therefore CM = x, PM = y$</m>. Join <m>$P$</m> and <m>$S$</m>. Clearly, <m>$PN'
+        = MQ'$</m>
+      </d:para>
+      <d:para>
+        Equation (1) may be rewritten as <m>$x^2\left(1 - e^2\right) + y^2 = a^2\left(1 - e^2\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + y^2 + a^2e^2 = a^2 + e^2x^2\Rightarrow (ae + x)^2 + y^2 =
+        e^2\left(\frac{a}{e} + x\right)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(CS' + CM\right)^2 + PM^2 = e^2\left(CQ' + CM\right)^2\Rightarrow S'M^2 + PM^2
+        = e^2Q'M^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow S'P^2 = e^2N'P^2 \Rightarrow \frac{PS'}{PN'} = e$</m>.
+      </d:para>
+      <d:para>
+        Hence, the distance of <m>$P$</m> from <m>$S' = e\times$</m> (the distance of <m>$P$</m> from
+        <m>$Q'N'$</m>). Hence, <m>$S'$</m> is a focus and <m>$Q'N'$</m> is a directrix.
+      </d:para>
+      <d:para>
+        Thus, it is clear that the ellipse has a second focus and a second directrix.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Some Terms</d:title>
+      <d:figure xml:id="cs18">
+        <d:title>An ellipse</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_17.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:orderedlist>
+        <d:listitem>
+          Center: In the figure <m>$C$</m> is the center. All chords
+          passing through <m>$C$</m> is bisected at <m>$C$</m>.
+        </d:listitem>
+        <d:listitem>
+          Foci: <m>$S$</m> and <m>$S'$</m> are the two foci of the ellipse and their coordinates are
+          <m>$(ae, 0)$</m> annd <m>$(-ae, 0)$</m> respectively.
+        </d:listitem>
+        <d:listitem>
+          Directrices: <m>$QN$</m> and <m>$Q'N'$</m> are the two directrices of the ellipse and their
+          equations are <m>$x = \frac{a}{e}$</m> and <m>$x = -\frac{a}{e}$</m> respectively.
+        </d:listitem>
+        <d:listitem>
+          Axes: The lines <m>$AA'$</m> and <m>$BB'$</m> are called the major and minor axes respectively of
+          the ellipse.
+          <d:para>
+            <m>$CA = CA' = a$</m> and <m>$CB = CB' = b$</m>
+          </d:para>
+          <d:para>
+            <m>$\because 0 &lt; e &lt; 1 \therefore 0 &lt; 1 - e^2 &lt; 1\therefore a^2(1 - e^2) &lt; a^2$</m>
+          </d:para>
+          <d:para>
+            Thus, <m>$b^2 &lt; a^2$</m> i.e. <m>$b &lt; a$</m>.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          Ordinate and double ordinates: Let <m>$P$</m> be a point on the ellipse. From <m>$P$</m> we draw
+          <m>$PM \perp AA'$</m>. Produce <m>$PM$</m> to meet the ellipse at <m>$P'$</m>, then <m>$PM$</m> is
+          called an ordinate and <m>$PMP'$</m> is called the double ordinate of point <m>$P$</m>.
+        </d:listitem>
+        <d:listitem>
+          Latus rectum: <m>$LL'$</m> and <m>$MM'$</m> are the latus rectrum of the ellipse. These lines are
+          perpendicular to the major axis <m>$AA'$</m> through the foci <m>$S$</m> and <m>$S'$</m>
+        </d:listitem>
+        <d:listitem>
+          Length of latus rectum: Let <m>$LL' = 2k$</m>, then <m>$LS = k$</m> and <m>$L = (ae,
+          k)$</m>. Since <m>$L(ae, k)$</m> lies on the ellipse
+          <d:para>
+            <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \therefore \frac{a^2e^2}{a^2} + \frac{k^2}{b^2} =
+            1\Rightarrow \frac{k^2}{b^2} = 1 - e^2$</m>
+          </d:para>
+          <d:para>
+            <m>$\Rightarrow k^2 = b^2\left(1 - e^2\right) = \frac{b^4}{a^2}\Rightarrow k =
+            \frac{b^2}{a}$</m>.
+          </d:para>
+          <d:para>
+            Hence, lenth of latus rectum <m>$LSL'$</m> is <m>$\frac{2b^2}{a}$</m>.
+          </d:para>
+        </d:listitem>
+        <d:listitem>
+          Vertices: The points where major axis of the ellipse meets it are called its vertices. In the
+          given figure <m>$A$</m> and <m>$A'$</m> are the vertices.
+        </d:listitem>
+        <d:listitem>
+          Diameter: A chord of the ellipse passing through the center is called the diameter of the
+          ellipse. All such chords are bisected by the center.
+        </d:listitem>
+        <d:listitem>
+          Focal chord: A chord of the ellipse passing through its focus is called a focal chord.
+        </d:listitem>
+      </d:orderedlist>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Position of a Point w.r.t. an Ellipse</d:title>
+      <d:figure xml:id="cs19">
+        <d:title>Position of a Point w.r.t. an Ellipse</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_18.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$D(\alpha, \beta)$</m> be any point. Let <m>$DM$</m> be perpendicular to <m>$AA'$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> When <m>$-a &lt; \alpha &lt; 1$</m> i.e. <m>$DM$</m>
+        cuts the ellipse in real distinct points.
+      </d:para>
+      <d:para>
+        Let the perpendicular <m>$DM$</m> cut the ellipse at <m>$R$</m> and the major axis at <m>$M$</m>.
+      </d:para>
+      <d:para>
+        <m>$\because D = (\alpha, \beta)\therefore CM = \alpha, DM = \beta$</m>
+      </d:para>
+      <d:para>
+        Let <m>$RM = y_1$</m> then <m>$R = (\alpha, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$R$</m> lies on the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>,
+      </d:para>
+      <d:para>
+        <m>$\therefore \frac{\alpha^2}{a^2} + \frac{y_1^2}{b^2} = 1 \therefore \frac{y_1^2}{b^2} = 1 -
+        \frac{\alpha^2}{a^2} \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Now <m>$D$</m> lies outside, on or inside the ellipse according as <m>$MD >, =, &lt; MR$</m> or
+        <m>$MD^2 >, =, &lt; MR^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \beta^2 >, =, &lt; y_1^2 \Rightarrow \frac{\beta^2}{b^2} >, =, &lt; \frac{y_1^2}{a^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{\beta^2}{b^2} >, = &lt; 1 - \frac{\alpha^2}{a^2}\Rightarrow
+        \frac{\alpha^2}{a^2} + \frac{\beta^2}{b^2} - 1 >, =, &lt; 0$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> When <m>$\alpha\geq a$</m> or <m>$\alpha\leq -a$</m>.
+      </d:para>
+      <d:para>
+        In this case <m>$\frac{\alpha^2}{a^2} + \frac{\beta^2}{b^2} - 1\geq 1 + \frac{\beta^2}{b^2} - 1 =
+        \frac{\beta^2}{b^2} > 0$</m> where <m>$\beta \neq 0$</m>
+      </d:para>
+      <d:para>
+        Hence in all cases <m>$(\alpha, \beta)$</m> is outside the ellipse if <m>$\frac{\alpha^2}{a^2} +
+        \frac{\beta^2}{b^2} > 0$</m>; on the ellipse if <m>$\frac{\alpha^2}{a^2} +
+        \frac{\beta^2}{b^2} = 0$</m>; and inside the ellipse if <m>$\frac{\alpha^2}{a^2} +
+        \frac{\beta^2}{b^2} &lt; 0$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Parametric Equation of an Ellipse</d:title>
+      <d:para>
+        Clearly <m>$x = a\cos\theta$</m> and <m>$y = b\sin\theta$</m> satisfy the equation
+        <m>$\frac{x^2}{a^2} + \frac{y^2}{b^1} = 1$</m> for all real values of <m>$\theta$</m>.
+      </d:para>
+      <d:para>
+        Hence, these values, where <m>$\theta$</m> is the parameter is the parametric equation of the
+        ellipse. Hence, coordinates of any point on the ellipse may be taken as <m>$(a\cos\theta,
+        b\sin\theta)$</m>. This point is also called point '<m>$\theta$</m>'. This angle <m>$\theta$</m> is
+        called the eccentric angle of the point <m>$(a\cos\theta, b\sin\theta)$</m> on the ellipse.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Auxilliary Circle and Geometrical Meaning of the Eccentric Angle of a Point</d:title>
+      <d:para>
+        Auxilliary Circle: The circle described on the major axis of an ellipse as diameter is called the
+        auxilliary circle of the ellipse.
+      </d:para>
+      <d:figure xml:id="cs20">
+        <d:title>An ellipse with auxilliary circle</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_19.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let the equation of the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>, then the
+        equation of the auxilliary circle is <m>$x^2 + y^2 = a^2$</m>. Let <m>$P(a\cos\theta,
+        b\sin\theta)$</m> be a point on the ellipse. Draw <m>$PM\perp AA'$</m>. Let <m>$PM$</m> cut the
+        auxilliary cirle at <m>$Q$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\angle QCA = \alpha$</m> then <m>$Q = (a\cos\alpha, a\sin\alpha)$</m>.
+      </d:para>
+      <d:para>
+        But <m>$x$</m>-coordinate of <m>$Q = x$</m>-coordinate of <m>$P$</m>.
+      </d:para>
+      <d:para>
+        <m>$\therefore a\cos\alpha = a\cos\theta \Rightarrow \alpha = \theta$</m>.
+      </d:para>
+      <d:para>
+        Clearly, <m>$QM:PM = a\sin\alpha : b\sin\theta = a\sin\theta:b\sin\theta = a:b$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>An Important Property</d:title>
+      <d:figure xml:id="cs21">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_20.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        <d:emphasis role="italic">The sum of the focal distances of any point on an ellipse is a constant
+        and is equal to the length of the major axis of the ellipse.</d:emphasis>
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Then by definition <m>$SP = ePN, S'P = ePN'\Rightarrow SP + S'P = e\left(PN + PN'\right) = eNN' =
+        eQQ' = e\left(CQ + CQ'\right)$</m>
+      </d:para>
+      <d:para>
+        But <m>$CQ = \frac{a}{e}$</m> and <m>$CQ' = \frac{a}{e} \therefore SP + S'P = 2a = AA'$</m>, where
+        <m>$AA'$</m> is the length of the major axis of the ellipse.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Tangent of an Ellipse</d:title>
+      <d:para>
+        Let the equation of ellipse by <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1). Also, let <m>$P(x_1,
+        y_1)$</m> and <m>$Q(x_2, y_2)$</m> be two points on the ellipse.
+      </d:para>
+      <d:para>
+        Equation of the chord <m>$PQ$</m> is <m>$y - y_1 = \frac{y_2 - y_1}{x_2 - x_1}(x - x_1)\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> and <m>$Q$</m> are on the ellipse, therefore, <m>$\frac{x_1^2}{a^2} +
+        \frac{y_1^2}{b^2} = 1$</m> and <m>$\frac{x_2^2}{a^2} + \frac{y_2^2}{b^2} = 1$</m>
+      </d:para>
+      <d:para>
+        Subtracting <m>$\frac{y_2 - y_1}{x_2 - x_1} = -\frac{b^2}{a^2}\left(\frac{x_2 + x_1}{y_2 +
+        y_1}\right)$</m>
+      </d:para>
+      <d:para>
+        Putting this in equation (2) gives us <m>$y - y_1 = -\frac{b^2}{a^2}\left(\frac{x_2 + x_1}{y_2 +
+        y_1}\right)(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        Now, when <m>$Q\rightarrow P, x_2 \rightarrow x_1, y_2\rightarrow y_1$</m>, so the above equation becomes
+      </d:para>
+      <d:para>
+        <m>$y - y_1 = -\frac{b^2}{a^2}.\frac{x_1}{y_1}(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        Simplifying gives the equation of tangent as <m>\[\frac{xx_1}{a^2} + \frac{yy_1}{b^2} = 1 \tag{6.9}\]</m>
+      </d:para>
+      <d:para>
+        which is the required equation of the tangent to an ellipse at <m>$P(x_1, y_1)$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Normal of an Ellipse</d:title>
+      <d:para>
+        Let <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> be an ellipse and <m>$P(x_1, y_1)$</m> be a point
+        on it.
+      </d:para>
+      <d:para>
+        We have derived the equation of tangent at <m>$P$</m> as <m>$\frac{xx_1}{a^2} + \frac{yy_1}{b^2} =
+        1$</m>.
+      </d:para>
+      <d:para>
+        The slope of normal at this point is <m>$\frac{a^2}{b^2}\times\frac{y_1}{x_1}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of normal is <m>$y - y_1 = \frac{a^2y_1}{b^2x_1(x - x_1)}$</m> i.e.
+      </d:para>
+      <d:para>
+        <m>\[ \frac{x- x_1}{x_1/a^2} = \frac{y - y_1}{y_1/b^2} \tag{6.10}\]</m>
+      </d:para>
+      <d:para>
+        Putting <m>$P(a\cos\theta, b\sin\theta)$</m> the equation becomes <m>\[ax\sec\theta - by\csc\theta =
+        a^2 - b^2 \tag{6.11}\]</m>
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Intersection of a Line and an Ellipse</d:title>
+      <d:para>
+        Let the equation of the line be <m>$y = mx + c$</m> and that of an ellipse be <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The points of intersection of the line and the ellipse can be obtained by solving the two equations
+        simultaneously.
+      </d:para>
+      <d:para>
+        The abscissae of the point of intersection is given by <m>$\frac{x^2}{a^2} + \frac{(mx + c)^2}{b^2}
+        = 1$</m>
+      </d:para>
+      <d:para>
+        i.e. <m>$\left(b^2 + a^2m^2\right)x^2 + 2a^2cmx + a^2\left(c^2 - b^2\right) = 0\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$x_1, x_2$</m> be the roots of the quadratic equation (1). The line meets the ellipse in real
+        and distinct points if the roots are real and different. The line is a tangent to the ellipse if
+        <m>$x_1 = x_2$</m> and the line does not intersect with the ellipse if the roots are complex
+        numbers.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of a Tangent in Terms of Its Slope</d:title>
+      <d:para>
+        Let the equation of the line be <m>$y = mx + c$</m> and that of an ellipse be <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        We have seen that roots of (1) should be equal for tangency. Thus, discriminant must be zero i.e.
+      </d:para>
+      <d:para>
+        <m>$4a^4c^2m^2 - 4\left(b^2 + a^2m^2\right)a^2\left(c^2 - b^2\right) = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4a^2\left[a^2c^2m^2 - b^2c^2 - a^2m^2c^2 + b^4 + a^2b^2m^2\right] = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow b^2\left(-c^2 + b^2 + a^2m^2\right) = 0\Rightarrow c^2 = b^2 + a^2m^2 \Rightarrow c
+        = \pm \sqrt{a^2m^2 + b^2}$</m>
+      </d:para>
+      <d:para>
+        which is the required condition for tangency. Thus, the equation of the line is <m>$y = mx
+        \pm\sqrt{a^2m^2 + b^2}$</m>, which are tangents to the ellipse for all values of <m>$m$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of the Chord of an Ellipse Whose Eccentric Angles are <m>$\theta$</m> and
+      <m>$\phi$</m></d:title>
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P(a\cos\theta, b\sin\theta)$</m> and <m>$Q(a\cos\phi, b\sin\phi)$</m> be any two points on
+        ellipse (1).
+      </d:para>
+      <d:para>
+        Equation of chord <m>$PQ$</m> is <m>$y - b\sin\theta = \frac{b(\sin\theta - \sin\phi)}{a(\cos\theta
+        - \cos\phi)}(x - a\cos\theta)$</m>
+      </d:para>
+      <d:para>
+        <m>$= \frac{b}{a}.\frac{2\cos\frac{\theta + \phi}{2}\sin\frac{\theta - \phi}{2}}{2\sin\frac{\theta +
+        \phi}{2}sin\frac{\phi - \theta}{2}}(x - a\cos\theta)$</m>
+      </d:para>
+      <d:para>
+        <m>$\left(\frac{y - b\sin\theta}{b}\right)\sin\frac{\theta + \phi}{2} = -\left(\frac{x -
+        a\cos\theta}{a}\right)\cos\frac{\theta + \phi}{2}$</m>
+      </d:para>
+      <d:para>
+        Simplifying <m>$\frac{x}{a}\cos\frac{\theta + \phi}{2} + \frac{y}{b}\sin\frac{\theta + \phi}{2} =
+        \cos\frac{\theta - \phi}{2}$</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Note:</d:emphasis> When <m>$\phi\rightarrow \theta$</m>, chord <m>$PQ$</m>
+        becomes tangent at <m>$P$</m>. Thus, equation of tangent at <m>$P$</m> is <m>$\frac{x}{a}\cos\theta
+        + \frac{y}{b}\sin\theta = 1$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of the Chord of an Ellipse, Whose Middle Point is Given</d:title>
+      <d:figure xml:id="cs22">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_21.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1 \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be the the mid-point of a chord <m>$AB$</m> of the ellipse (1). Let
+        <m>$m$</m> be the slope of chord <m>$AB$</m>. Then <m>$m = \frac{y_2 - y_3}{x_2 - x_3}\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Since <m>$A$</m> and <m>$B$</m> are on the ellipse, therefore <m>$\frac{x_2^2}{a^2} +
+        \frac{y_2^2}{b^2} = 1\ldots$</m> (3) and <m>$\frac{x_3^2}{a^2} + \frac{y_3^2}{b^2} = 1\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        Subtracting (3) and <m>$(4)$</m> gives us <m>$\frac{y_2 - y_3}{x_2 - x_3} =
+        -\frac{b^2}{a^2}\frac{x_1}{y_1}$</m>
+      </d:para>
+      <d:para>
+        Now equation of the chord <m>$AB$</m> is <m>$y - y_1 = -\frac{b^2}{a^2}\frac{x_1}{y_1}(x - x_1)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{xx_1}{a^2} + \frac{yy_1}{b^2} - 1 = \frac{x_1^2}{a^2} + \frac{y_1^2}{b^2} -
+        1\Rightarrow T = S_1$</m>, where <m>$T$</m> and <m>$S_1$</m> have usual meanings.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Equation of Pair of Tangents to an Ellipse from an External Point</d:title>
+      <d:figure xml:id="cs23">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_22.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
     </d:sect2>
   </d:sect1>
 </d:chapter>
