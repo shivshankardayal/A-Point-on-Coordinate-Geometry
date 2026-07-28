@@ -1247,6 +1247,351 @@
           </d:imageobject>
         </d:mediaobject>
       </d:figure>
+      <d:para>
+        Let the given ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be an external point.
+      </d:para>
+      <d:para>
+        Let <m>$Q(\alpha, \beta)$</m> be any point on the chord of the ellipse passing through <m>$P(x_1,
+        y_1)$</m>. Coordinates of any point <m>$R$</m> on the chord dividing the line segment <m>$PQ$</m>,
+        joining <m>$P(x_1, y_1)$</m> and <m>$Q(\alpha, \beta)$</m> in the ratio <m>$\lambda:1$</m> will be
+        <m>$\left(\frac{\lambda\alpha + x_1}{\lambda + 1}, \frac{\lambda\beta + y_1}{\lambda +
+        1}\right)$</m>.
+      </d:para>
+      <d:para>
+        If this point <m>$R$</m> lies on the ellipse (1), then
+      </d:para>
+      <d:para>
+        <m>$\frac{1}{a^2}\left(\frac{\lambda\alpha + x_1}{\lambda + 1}\right)^2 +
+        \frac{1}{b^2}\left(\frac{\lambda\beta + y_1}{\lambda + 1}\right) = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{(\lambda\alpha + x_1)^2}{a^2} + \frac{(\lambda\beta + y_1)^2}{b^2} = (\lambda
+        + 1)^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(\frac{\alpha^2}{a^2} + \frac{\beta^2}{b^2} - 1\right)\lambda^2 +
+        2\left(\frac{x_1\alpha}{a^2} + \frac{y_1\beta}{b^2} - 1\right)\lambda + \left(\frac{x_1^2}{a^2} +
+        \frac{y_1^2}{b^2} - 1\right) = 0\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        (2) is a quadratic equation in <m>$\lambda$</m>. If the chord through <m>$P(x_1, y_1)$</m> cuts the
+        ellipse in two coincident points i.e. if the two values of <m>$\lambda$</m> are real and equal then
+        the chord through <m>$P(x_1, y_1)$</m> will become tangent to the ellipse from <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Thus, for the line <m>$PQ$</m> to become tangent to the ellipse (1)
+      </d:para>
+      <d:para>
+        <m>$4\left(\frac{\alpha x_1}{a^2} + \frac{\beta y_1}{b^2} - 1\right)^2 = 4\left(\frac{\alpha^2}{a^2}
+        + \frac{\beta^2}{b^2} - 1\right)\left(\frac{x_1^2}{a^2} + \frac{y_1^2}{b^2} - 1\right)$</m>
+      </d:para>
+      <d:para>
+        Hence, locus of <m>$Q(\alpha, \beta)$</m> i.e. equation of pair of tangents from <m>$P(x_1,
+        y_1)$</m> is
+      </d:para>
+      <d:para>
+        <m>$\left(\frac{xx_1}{a^2} + \frac{yy_1}{b^2} - 1\right)^2 = \left(\frac{x^2}{a^2}
+        + \frac{y^2}{b^2} - 1\right)\left(\frac{x_1^2}{a^2} + \frac{y_1^2}{b^2} - 1\right)$</m>
+      </d:para>
+      <d:para>
+        This can be written as <m>$SS_1 = T^2$</m>, where <m>$S, S_1$</m> and <m>$T$</m> have usual meanings.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Pole and Polar of an Ellipse</d:title>
+      <d:figure xml:id="cs24">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_23.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$A$</m> and <m>$B$</m> be any two points on the ellipse and a point <m>$P$</m> is given on
+        this line outside the ellipse. Let the tangents at <m>$A$</m> and <m>$B$</m> meet at <m>$Q$</m>.
+      </d:para>
+      <d:para>
+        Locus of <m>$Q$</m> is called the <d:emphasis role="italic">polar</d:emphasis> of point <m>$P$</m>
+        w.r.t. the ellipse.
+      </d:para>
+      <d:para>
+        We will see that polar of a  point w.r.t. an ellipse is a straight line.
+      </d:para>
+      <d:para>
+        If line <m>$LM$</m> is the polar of the point <m>$P$</m> w.r.t. an ellipse, then point <m>$P$</m> is
+        called the <d:emphasis role="italic">pole</d:emphasis> of the line <m>$LM$</m> w.r.t. the ellipse.
+      </d:para>
+      <d:sect3>
+        <d:title>Equation of Polar of a Point</d:title>
+        <d:para>
+          Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1)
+        </d:para>
+        <d:para>
+          Let <m>$P(x_1, y_1)$</m> be a given point. Let a line through <m>$P$</m> cut the ellipse (1) at two
+          points <m>$A$</m> and <m>$B$</m>. Let <m>$Q(\alpha, \beta)$</m> be the point of intersection of the
+          tangents to the ellipse at <m>$A$</m> and <m>$B$</m>.
+        </d:para>
+        <d:para>
+          Clearly, <m>$AB$</m> is the chord of contact of point <m>$Q(\alpha, \beta)$</m> w.r.t. the ellipse
+          (1). Therefore, equation of <m>$AB$</m> will be <m>$\frac{x\alpha}{a^2} + \frac{y\beta}{b^2} =
+          1\ldots$</m> (2)
+        </d:para>
+        <d:para>
+          Since line (2) passes through <m>$P(x_1, y_1)$</m>, therefore, <m>$\frac{x_1\alpha}{a^2} +
+          \frac{y_1\beta}{b^2} = 1$</m>
+        </d:para>
+        Hence, locus of <m>$Q(\alpha, \beta)$</m> i.e. equation of the polar of point <m>$P(x_1, y_1)$</m> is
+        <m>\[\frac{xx_1}{a^2} + \frac{yy_1}{b^2} = 1\tag{6.12} \]</m>
+      </d:sect3>
+      <d:sect3>
+        <d:title>
+          Properties of Pole and Polar
+        </d:title>
+        <d:orderedlist>
+          <d:listitem>
+            If the polar of <m>$P$</m> w.r.t. an ellipse passes through <m>$Q$</m>, then polar of <m>$Q$</m>
+            w.r.t. the same ellipse will pass through <m>$P$</m>
+          </d:listitem>
+          <d:listitem>
+            The point of intersection o faany two lines is the pole of the line joining the poles of the two
+            lines.
+          </d:listitem>
+        </d:orderedlist>
+      </d:sect3>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Diameter of an Ellipse</d:title>
+      <d:figure xml:id="cs25">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_24.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        The locus of the middle points of a system of parallel chords of an ellipse is called a diameter of
+        the ellipse.
+      </d:para>
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$AB$</m> be one chord of a system of parallel chords of slope <m>$m$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha,\beta)$</m> be the middle point of chord <m>$AB$</m>, then equation of <m>$AB$</m> is
+      </d:para>
+      <d:para>
+        <m>$T = S_1\Rightarrow \frac{x\alpha}{a^2} + \frac{y\beta}{b^2} - 1 = \frac{\alpha^2}{a^2} +
+        \frac{\beta^2}{b^2} - 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x\alpha}{a^2} + \frac{y\beta}{b^2} = \frac{\alpha^2}{a^2} +
+        \frac{\beta^2}{b^2}\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Slope of line (2), <m>$m = -\frac{b^2\alpha}{a^2\beta}$</m>
+      </d:para>
+      <d:para>
+        Thus, locus of <m>$P$</m> i.e. equation the diameter is <m>\[ y = -\frac{b^2}{a^2}x\tag{6.13} \]</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Note:</d:emphasis> Diameter of an ellipse passes through its center. Thus, a
+        diameter of an ellipse is its chord passing through the center.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Conjugate Diameters:</d:emphasis> Two diameters of an ellipse are said to be
+        conjugate diameters if each bisects the chords parallel to the other.
+      </d:para>
+      <d:para>
+        Clearly, if slope of a pair of conjugate diameters be <m>$m_1$</m> and <m>$m_2$</m>, then <m>$m_1m_2
+        = -\frac{b^2}{a^2}$</m>, provided <m>$m_1$</m> and <m>$m_2$</m> are defined.
+      </d:para>
+      <d:para>
+        Major and minor axes of an ellipse are also a pair of conjugate diameters.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Eccentric Angles of the Ends of a Pair of Conjugate Diameters Differ by a Right
+      Angle</d:title>
+      <d:para>
+        Let <m>$POP'$</m> and <m>$QOQ'$</m> be a pair of conjugate diameters.
+      </d:para>
+      <d:figure xml:id="cs26">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_25.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let the eccentric angles of <m>$P$</m> and <m>$Q$</m> be <m>$\theta$</m> and <m>$\phi$</m>, then
+        <m>$P = (a\cos\theta, b\sin\theta)$</m> and <m>$Q = (a\cos\phi, b\sin\phi)$</m>.
+      </d:para>
+      <d:para>
+        Slope of <m>$POP' = \frac{b}{a}\tan\theta$</m> and slope of <m>$QOQ' = \frac{b}{a}\tan\phi$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$POP'$</m> and <m>$QOQ'$</m> are conjugate diameters, therefore,
+        <m>$-\frac{b^2}{a^2}\tan\theta\tan\phi = -\frac{b^2}{a^2}\Rightarrow \tan\theta\tan\phi = -1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \cos\theta\cos\phi + \sin\theta\sin\phi = \cos(\theta - \phi) = 0 \Rightarrow \theta
+        - \phi = \pm\frac{\pi}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, if eccentric angle of <m>$P$</m> is <m>$\theta$</m>, then eccentric angles of <m>$Q, P',
+        Q'$</m> will be <m>$\theta + \frac{\pi}{2}, \theta + \pi$</m> and <m>$\theta + \frac{3\pi}{2}$</m>
+        respectively.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Director Circle of an Ellipse</d:title>
+      <d:para>
+        Locus of the point of intersection of mutually perpendicular tangents to an ellipse is a circle
+        called <d:emphasis role="italic">director circle</d:emphasis> of the ellipse.
+      </d:para>
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Equation of any tangent to ellipse (1)  is <m>$y = mx + \sqrt{a^2m^2 + b^2}\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Equestion of a tangent to ellipse (1) perpendicular to line (2) is <m>$my + x = \sqrt{a^2 +
+        b^2m^2}\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        In order to find the locus of the point of intersection of line (2) and (3), we need to eliminate
+        <m>$m$</m>.
+      </d:para>
+      <d:para>
+        Squaring (2) and (3) and adding gives us <m>$\left(1 + m^2\right)\left(x^2 + y^2\right) = \left(1 +
+        m^2\right)\left(a^2 + b^2\right)$</m>
+      </d:para>
+      <d:para>
+        <m>\[\Rightarrow x^2 + y^2 = a^2 + b^2\tag{6.14}\]</m>
+      </d:para>
+      <d:para>
+        which is the equation of the director circle of the ellipse (1).
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Focal Distances</d:title>
+      <d:figure xml:id="cs27">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_20.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        The focal distances of the point <m>$P(x, y)$</m> on the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> are <m>$a + ex$</m> and <m>$a - ex$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P$</m> lies on the ellipse, therefore, <m>$PS' = ePM' = e\frac{|ex + a|}{e} = |ex + a| = a
+        + ex$</m>
+      </d:para>
+      <d:para>
+        Again <m>$PS + ePM = e\frac{|ex - a|}{e} = |ex - a| = a - ex[\because |ex| &lt; a]$</m>
+      </d:para>
+      <d:para>
+        Cleaerly, <m>$PS + PS' = 2a$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Four Normals on an Ellipse from a Point</d:title>
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be a point in the <m>$xy$</m>-plane.
+      </d:para>
+      <d:para>
+        Equation of any normal to the ellipse is <m>$ax\sec\theta - by\csc\theta = a^2 - b^2\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        If line (2) passes through <m>$P(\alpha, \beta)$</m>, then
+      </d:para>
+      <d:para>
+        <m>$a\alpha\sec\theta - b\beta\csc\theta = a^2 - b^2\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow a\alpha\left(\frac{1 + \tan^2\frac{\theta}{2}}{1 - \tan^2\frac{\theta}{2}}\right) +
+        b\beta\left(\frac{1 + \tan^2\frac{\theta}{2}}{2\tan\frac{\theta}{2}}\right) = a^2 - b^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2a\alpha\left(1 + \tan^2\frac{\theta}{2}\right)\tan\frac{\theta}{2} - b\beta\left(1
+        - \tan^4\frac{\theta}{2}\right) = 2\left(a^2 - b^2\tan\frac{\theta}{2}\left(1 -
+        tan^2\frac{\theta}{2}\right)\right)$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow b\beta t^4 - 2\left(a^2 - b^2 + a\alpha\right)t^3 - 2\left(a^2 - b^2 -
+        a\alpha\right)t - b\beta = 0$</m>, where <m>$t = \tan\frac{\theta}{2}$</m>
+      </d:para>
+      <d:para>
+        The above equation will give <m>$4$</m> values of <m>$t$</m>. Corresponding to these four values of
+        <m>$t$</m>, we will get four points on the ellipse the normals to which will pass through
+        <m>$P(\alpha, \beta)$</m>.
+      </d:para>
+      <d:para>
+        Hence, in general four normals can be drawn from any to an ellipse. These four points are called
+        <d:emphasis role="italic">co-normal points</d:emphasis>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Corollary:</d:emphasis> If <m>$\alpha, \beta, \gamma, \delta$</m> be the
+        eccentric angles of four points on the ellipse such that the normals at these points are concurrent,
+        then <m>$\alpha + \beta + \gamma + \delta$</m> is an odd multiple of <m>$\pi$</m>.
+      </d:para>
+      <d:para>
+        Let the normals be concurrent at <m>$P(\alpha, \beta)$</m>, then from previous section the equation
+        <m>$\Rightarrow b\beta t^4 - 2\left(a^2 - b^2 + a\alpha\right)t^3 - 2\left(a^2 - b^2 -
+        a\alpha\right)t - b\beta = 0$</m> will have four roots, which are  <m>$\tan\frac{\alpha}{2},
+        \tan\frac{\beta}{2}, \tan\frac{\gamma}{2}$</m> and <m>$\tan\frac{\delta}{2}$</m>.
+      </d:para>
+      <d:para>
+        From Vieta's relations <m>$\displaystyle\sum\tan\frac{\alpha}{2}\tan\frac{\beta}{2} = 0$</m> and
+        <m>$\displaystyle\prod\tan\frac{\alpha}{2} = -1$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$1 - \displaystyle\sum\tan\frac{\alpha}{2}\tan\frac{\beta}{2} + \prod\tan\frac{\alpha}{2} =
+        0$</m>
+      </d:para>
+      <d:para>
+        Now <m>$\tan\frac{\alpha + \beta + \gamma + \delta}{2} = \frac{\displaystyle\sum\tan\frac{\alpha}{2}
+        - \sum\tan\frac{\alpha}{2}\tan\frac{\beta}{2}\tan\frac{\gamma}{2}}{1 -
+        \displaystyle\sum\tan\frac{\alpha}{2}\tan\frac{\beta}{2} + \prod\tan\frac{\alpha}{2}}$</m>
+      </d:para>
+      <d:para>
+        The denominator of above equation is <m>$0$</m>, and hence, <m>$\alpha + \beta + \gamma +
+        \delta$</m> is an odd multiple of <m>$\pi$</m>.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Hyperbola</d:title>
+    <d:sect2>
+      <d:title>Definition</d:title>
+      <d:para>
+        A hyperbola is the locus of the point which moves such that the ratio of its distance from a fixed
+        point and a fixed straight line is a constant(greater than unity).
+      </d:para>
+      <d:figure xml:id="cs28">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_26.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
     </d:sect2>
   </d:sect1>
 </d:chapter>
