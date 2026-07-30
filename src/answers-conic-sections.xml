@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-conic-sections/index.html" ?>
+  <d:title>Answers of Conic Sections</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      Let <m>$P(x, y)$</m> be any point on the parabola. Then the distance of <m>$P$</m> from the focus is
+      equal to its distance from the directrix. Thus,
+      <d:para>
+        <m>$\sqrt{(x - 1)^2 + (y - 1)^2} = \frac{|x + y + 1|}{\sqrt{1^2 + 1^2}}$</m>
+      </d:para>
+      <d:para>
+        Squaring we get <m>$(x - 1)^2 + (y - 1)^2 = \frac{(x + y + 1)^2}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 - 2xy + y^2 - 6x - 6y + 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let vertex <m>$A$</m> is <m>$(2, 1)$</m> and focus <m>$S$</m> is <m>$(1, -1)$</m>. Let the axis meet
+        the directrix in <m>$Q$</m>.
+      </d:para>
+      <d:para>
+        Let the coordinate of <m>$Q$</m> be <m>$(\alpha, \beta)$</m>. Since <m>$A$</m> is the mid-point of
+        <m>$QS$</m>, therefore <m>$\frac{\alpha + 1}{2} = 2\Rightarrow \alpha = 3$</m> and <m>$\frac{\beta -
+        1}{2} = 1\Rightarrow \beta = 3$</m>. Thus, <m>$Q = (3, 3)$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="csa1">
+          <d:title>A Conic Section</d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/6_3a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Slope of the axis <m>$QS = \frac{1 - (-1)}{2 - 1} = 2$</m>. Thus, slope of the directrix, which is
+        perpendicular to axis is <m>$-\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of directrix is <m>$y - 3 = -\frac{1}{2}(x - 3)\Rightarrow x + 2y - 9 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the parabola. Then the distance of <m>$P$</m> from the focus is
+        equal to its distance from the directrix. Thus,
+      </d:para>
+      <d:para>
+        <m>$\sqrt{(x - 1)^2 + (y + 1)^2} = \frac{|x + 2y - 9|}{\sqrt{1^2 + 2^2}}\Rightarrow 4x^2 - 4xy + y^2
+        + 8x + 46y - 71 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
+      </d:para>
+      <d:para>
+        <m>$PF =$</m> perpendicular distance from <m>$P$</m> to the directrix, where <m>$F$</m> is the focus.
+      </d:para>
+      <d:para>
+        Hence, <m>$\sqrt{(x + 1)^2 + (y - 2)^2}=\frac{|x - 2y - 15|}{\sqrt{1^2 + (-2)^2}}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides, <m>$5\left((x + 1)^2+(y - 2)^2\right)=(x - 2y - 15)^2$</m>.
+      </d:para>
+      <d:para>
+        <m>$4x^2 + 4xy + y^2 + 40x - 80y - 200 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
+      </d:para>
+      <d:para>
+        <m>$PF =$</m> perpendicular distance from <m>$P$</m> to the directrix, where <m>$F$</m> is the focus.
+      </d:para>
+      <d:para>
+        Hence, <m>$\sqrt{(x - 2)^2 + (y - 3)^2} = \frac{|x - 2y - 6|}{\sqrt{1^2 + 2^2}}$</m>
+      </d:para>
+      <d:para>
+        Squaring gives us <m>$4x^2 + 4xy + y^2 - 8x - 54y + 9 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      Let <m>$P(x, y)$</m> be any point on the parabola. Then the distance of <m>$P$</m> from the focus is
+      equal to its distance from the directrix. Thus,
+      <d:para>
+        <m>$\sqrt{(x + 1)^2 + (y - 1)^2} = \frac{|x + y + 1|}{\sqrt{1^2 + 1^2}}$</m>
+      </d:para>
+      <d:para>
+        Squaring we get <m>$(x + 1)^2 + (y - 1)^2 = \frac{(x + y + 1)^2}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 - 2xy + y^2 + 2x - 6y + 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
+      </d:para>
+      <d:para>
+        <m>$PF =$</m> perpendicular distance from <m>$P$</m> to the directrix, where <m>$F$</m> is the focus.
+      </d:para>
+      <d:para>
+        <m>$\sqrt{(x - 5)^2 + (y - 3)^2} = \frac{|3x - 4y + 1|}{\sqrt{3^2 + (-4)^2}} = \frac{|3x - 4y +
+        1|}{5}$</m>.
+      </d:para>
+      <d:para>
+        Squaring and simplifying gives us <m>$16x^2 + 24xy + 9y^2 - 256x - 142y + 849 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
+      </d:para>
+      <d:para>
+        <m>$PF =$</m> perpendicular distance from <m>$P$</m> to the directrix, where <m>$F$</m> is the focus.
+      </d:para>
+      <d:para>
+        <m>$\sqrt{\left(x - \frac54\right)^2 + (y + 1)^2} = \left|x-\frac{13}{4}\right|$</m>.
+      </d:para>
+      <d:para>
+        Squaring and simplifying gives us <m>$4x + y^2 + 2y - 8 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        The vertex is <m>$V(0,1)$</m> and the focus is <m>$F(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        Since the focus lies one unit below the vertex, the axis of the parabola is the <m>$y$</m>-axis and
+        the parabola opens downward.
+      </d:para>
+      <d:para>
+        The standard equation of a parabola with vertex <m>$(h, k)$</m> and vertical axis is
+        <m>$(x - h)^2 = 4p(y - k)$</m>, where <m>$p$</m> is the directed distance from the vertex to the
+        focus.
+      </d:para>
+      <d:para>
+        Here, <m>$(h, k) = (0, 1)$</m> and <m>$p = 0 - 1 = -1$</m>.
+      </d:para>
+      <d:para>
+        Substituting these values into the standard equation, we get <m>$(x - 0)^2=4(-1)(y - 1)$</m>, which
+        simplifies to <m>$x^2 = -4(y - 1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the vertex be <m>$(h, k)$</m>. Since the vertex lies on the tangent <m>$x - y + 1 = 0$</m>,
+      </d:para>
+      <d:para>
+        <m>$h - k + 1 = 0\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        The axis is perpendicular to the tangent, so it has slope <m>$-1$</m>. Hence the vertex and the
+        focus <m>$(0, 0)$</m> lie on <m>$y = -x$</m>, giving
+      </d:para>
+      <d:para>
+        <m>$k = -h \ldots$</m> (2)
+      </d:para>
+      <d:para>
+        From (1) and (2), <m>$h=-\frac{1}{2},\qquad k=\frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus the vertex is <m>$\left(-\frac12,\frac12\right)$</m>.
+      </d:para>
+      <d:para>
+        Using the rotated coordinates <m>$X = \frac{x - y}{\sqrt2},\qquad Y = \dfrac{x + y}{\sqrt2},$</m>
+      </d:para>
+      <d:para>
+        The vertex becomes <m>$\left(-\frac1{\sqrt2},0\right)$</m> and the focus is <m>$(0, 0)$</m>.
+        Hence <m>$p=\frac1{\sqrt2}$</m> and the parabola is
+      </d:para>
+      <d:para>
+        <m>$Y^2 = 4p\left(X+\frac1{\sqrt2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substituting for <m>$X$</m> and <m>$Y$</m>, <m>$\frac{(x + y)^2}{2} = 2(x - y + 1)$</m>,
+      </d:para>
+      <d:para>
+        which simplifies to <m>$(x + y)^2 = 4(x - y + 1)$</m>.
+      </d:para>
+      <d:para>
+        Expanding, <m>$x^2 + y^2 + 2xy - 4x + 4y - 4 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        The vertex is <m>$V(-2, 2)$</m> and the focus is <m>$F(-6, -6)$</m>.
+      </d:para>
+      <d:para>
+        The axis of the parabola passes through the vertex and the focus. Its slope is <m>$m = \frac{-6
+        - 2}{-6 - (-2)} = 2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the axis is <m>$y - 2 = 2(x + 2)$</m>, or <m>$y = 2x + 6$</m>.
+      </d:para>
+      <d:para>
+        The directrix is perpendicular to the axis and is at the same distance from the vertex as the
+        focus. Since
+      </d:para>
+      <d:para>
+        <m>$VF = \sqrt{(-4)^2 + (-8)^2} = 4\sqrt5$</m>, the point on the directrix nearest the vertex is
+        <m>$\left(2,10\right)$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the directrix is <m>$x + 2y - 22 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x,y)$</m> be any point on the parabola. Then <m>$\sqrt{(x + 6)^2 + (y + 6)^2} =\frac{|x +
+        2y - 22|}{\sqrt5}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides, <m>$5\left((x + 6)^2 + (y + 6)^2\right) = (x + 2y - 22)^2$</m>.
+      </d:para>
+      <d:para>
+        Hence, the required equation of the parabola is <m>$5\left((x + 6)^2 + (y + 6)^2\right) = (x + 2y -
+        22)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Since the axis is parallel to the <m>$y$</m>-axis, let the equation of the parabola be <m>$y = ax^2
+        + bx + c$</m>.
+      </d:para>
+      <d:para>
+        As the parabola passes through <m>$(0, 4), (1, 9)$</m>, and <m>$(-2, 6)$</m>, we have
+      </d:para>
+      <d:para>
+        <m>$c = 4, a + b + 4 = 9$</m>, and <m>$4a - 2b + 4 = 6$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$a + b = 5, 2a - b = 1$</m>.
+      </d:para>
+      <d:para>
+        Solving, we get <m>$a=2,b=3$</m>.
+      </d:para>
+      <d:para>
+        Hence the equation of the parabola is <m>$y = 2x^2 + 3x + 4$</m>.
+      </d:para>
+      <d:para>
+        Completing the square, <m>$y = 2\left(x + \frac34\right)^2 + \frac{23}{8}$</m>.
+      </d:para>
+      <d:para>
+        Comparing with <m>$\left(x + \frac34\right)^2 = 4p\left(y-\frac{23}{8}\right)$</m>, we obtain
+      </d:para>
+      <d:para>
+        <m>$4p=\frac12,p=\frac18$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the length of the latus rectum is <m>$4p =\frac12$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Given, <m>$y^2 - 4y - 2x - 8 = 0$</m>.
+      </d:para>
+      <d:para>
+        Completing the square, <m>$(y - 2)^2 = 2(x + 6)$</m>.
+      </d:para>
+      <d:para>
+        Comparing with the standard form <m>$(y - k)^2 = 4p(x - h)$</m>,
+      </d:para>
+      <d:para>
+        we have <m>$h = -6, k = 2, 4p = 2, p=\frac12$</m>.
+      </d:para>
+      <d:para>
+        Hence,  vertex <m>$= (-6, 2)$</m>, focus <m>$=\left(-6 + \frac12,\,2\right)=\left(-\frac{11}{2},\,2\right)$</m>,
+      </d:para>
+      <d:para>
+        Directrix <m>$=x = -6 -\frac12 = -\frac{13}{2}$</m>,
+      </d:para>
+      <d:para>
+        Length of the latus rectum <m>$= 4p = 2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Given, <m>$2y^2 + 3y - 4x - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Completing the square, <m>$2\left(y + \frac34\right)^2 = 4\left(x + \frac{33}{32}\right)$</m>,
+      </d:para>
+      <d:para>
+        or <m>$\left(y + \frac34\right)^2 = 2\left(x + \dfrac{33}{32}\right)$</m>.
+      </d:para>
+      <d:para>
+        Comparing with the standard form <m>$(y - k)^2 = 4p(x - h)$</m>, we get
+      </d:para>
+      <d:para>
+        <m>$h = -\frac{33}{32}, k = -\frac34, 4p=2, p=\dfrac12$</m>.
+      </d:para>
+      <d:para>
+        Hence, vertex <m>$=\left(-\frac{33}{32},-\frac34\right)$</m>, axis <m>$= y = -\frac34$</m>,
+      </d:para>
+      <d:para>
+        focus <m>$= \left(-\frac{17}{32},-\dfrac34\right)$</m>, directrix <m>$= x = -\frac{49}{32}$</m>,
+      </d:para>
+      <d:para>
+        tangent at the vertex <m>$= x = -\frac{33}{32}$</m>, length of the latus rectum <m>$= 4p = 2$</m>.
+      </d:para>
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

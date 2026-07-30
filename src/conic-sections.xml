@@ -1592,6 +1592,524 @@
           </d:imageobject>
         </d:mediaobject>
       </d:figure>
+      <d:para>
+        The fixed point is called the <d:emphasis role="italic">focus</d:emphasis>, the fixed line the
+        <d:emphasis role="italic">directrix</d:emphasis> and the constant ratio the <d:emphasis
+        role="italic">eccentricity</d:emphasis> of the hyperbola. Eccentricity is denoted by <m>$e$</m>.
+      </d:para>
+      <d:para>
+        In the given figure <m>$S$</m> is the focus and <m>$MM'$</m> the directrix. Let <m>$P$</m> be any
+        given point on the hyperbola then <m>$\frac{PS}{PN} = e > 1$</m>.
+      </d:para>
+      <d:para>
+        Equation of the hyperbola can be obtained if the coordinates of its focus, equation of its directrix
+        and the eccentricity are known.
+      </d:para>
     </d:sect2>
+    <d:sect2>
+      <d:title>Standard Equation of the Hyperbola</d:title>
+      <d:para>
+        We will find the standard equation of hyperbola as <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:figure xml:id="cs29">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_27.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        Let <m>$S$</m> be the focus and <m>$MM'$</m> the directrix of the hyperbola. Draw <m>$SH\perp MM'$</m>.
+      </d:para>
+      <d:para>
+        We divide <m>$SH$</m> internally and externally in the ratio <m>$e:1(e > 1)$</m> at points
+        <m>$A$</m> and <m>$A'$</m> respectively, then
+      </d:para>
+      <d:para>
+        <m>$\frac{AS}{AH} = e\ldots$</m> (1) and <m>$\frac{A'S}{A'H} = e\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Clearly, <m>$A$</m> and <m>$A'$</m> will lie on the parabola. Let <m>$AA' = 2a$</m>. Let <m>$O$</m>
+        be the middle point of <m>$AA'$</m>. We take <m>$O$</m> as the origin and <m>$OS$</m> and
+        <m>$OY$</m> as <m>$x$</m> and <m>$y$</m> axes respectively.
+      </d:para>
+      <d:para>
+        From (1), <m>$AS = eAH$</m> and from (3), <m>$A'S = eA'H\Rightarrow A'S - AS = e\left(A'H - AH\right)$</m>.
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow AA' = e\left(AA' - AH - AH\right) = e(2a - 2AH)\Rightarrow 2a = 2e(a -
+        AH)\Rightarrow \frac{a}{e} = a - AH$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow AH = a - \frac{a}{e}\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        From (1), <m>$AS = eAH = ae - a \therefore OS = OA + AS = a + ae - a = ae \therefore S = (ae,
+        0)\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        Also <m>$OH = OA - AH = a - \left(a - \frac{a}{e}\right) = \frac{a}{e}$</m>
+      </d:para>
+      <d:para>
+        Therefore, equation of <m>$MM'$</m> is <m>$x = \frac{a}{e}$</m> or <m>$ex - a = 0\ldots$</m> (5)
+      </d:para>
+      <d:para>
+        Let <m>$P(\alpha, \beta)$</m> be a point on the hyperbola. We draw <m>$PN\perp MM'$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$\frac{PS}{PN} = e$</m> or <m>$PS^2 = e^2PN^2\Rightarrow (\alpha - ae)^2 + \beta^2 =
+        e^2\left(\frac{|e\alpha - a|}{e}\right)^2\ldots$</m> (6)
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow (\alpha - ae)^2 + \beta^2 = (e\alpha - a)^2 \Rightarrow \left(e^2 - 1\right)\alpha^2
+        - \beta^2 = \left(e^2 - a\right)a^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{\alpha^2}{a^2} - \frac{\beta^2}{a^2\left(e^2 - 1\right)} = 1\Rightarrow
+        \frac{\alpha^2}{a^2} - \frac{\beta^2}{b^2} = 1$</m>, where <m>$b^2 = (e^2 - 1)a^2$</m>
+      </d:para>
+      <d:para>
+        Hence locus of <m>$P(\alpha, \beta)$</m> i.e. equation of the hyperbola is <m>\[\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} = 1\tag{6.15}\]</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Note:</d:emphasis> From (6) it is clear than if focus of the hyperbola is
+        <m>$(-ae, 0)$</m> and directrix is <m>$x = -\frac{a}{e}$</m>, then also equation of the hyperbola
+        will be same. Thus, hyperbola has two foci; <m>$(ae, 0)$</m> and <m>$(-ae, 0)$</m> with two
+        directrices <m>$x = \frac{a}{e}$</m> and <m>$x = -\frac{a}{e}$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Graph of a Hyperbola</d:title>
+      <d:para>
+        Let the equation of the hyperbola is <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\ldots$</m>(1)
+      </d:para>
+      <d:para>
+        The graph is given below:
+      </d:para>
+      <d:figure xml:id="cs30">
+        <d:title>Graph of a hyperbola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_28.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        (i) When <m>$y = 0, x = \pm a$</m>. Therefore, hyperbola cuts the <m>$x$</m>-axis at <m>$(a, 0)$</m>
+        and <m>$(-a, 0)$</m>
+      </d:para>
+      <d:para>
+        (ii) When <m>$x = 0, y^2 = -b^2$</m>, which is not possible. Hence, the hyperbola does not cut the
+        <m>$y$</m>-axis.
+      </d:para>
+      <d:para>
+        (iii) When <m>$y$</m> is replaced by <m>$-y$</m>, the equation of hyperbola does not change, hence
+        it is symmetrical about <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        (iv) When <m>$x$</m> is replaced by <m>$-x$</m>, the equation of hyperbola does not change, hence
+        it is symmetrical about <m>$y$</m>-axis.
+      </d:para>
+      <d:para>
+        (v) From (1), <m>$y = \pm\frac{b}{a}\sqrt{x^2 - a^2}$</m>. Since <m>$y$</m> is real, therefore,
+        <m>$x^2 - a^2 \geq 0\Rightarrow x\leq -a$</m> or <m>$x\geq a$</m>.
+      </d:para>
+      <d:para>
+        Hence, no part of the parabola will lie between the lines <m>$x = -a$</m> and <m>$x = a$</m>.
+      </d:para>
+      <d:para>
+        When <m>$x\rightarrow \infty, y\rightarrow \pm\infty$</m> and when <m>$x\rightarrow -\infty,
+        y\rightarrow \pm\infty$</m>
+      </d:para>
+      <d:para>
+        Also, <m>$x = \pm\frac{a}{b}\sqrt{y^2 + b^2}$</m>. Hence, <m>$x$</m> is reall for all real values of
+        <m>$y$</m>. Thus, <m>$-\infty &lt; y &lt; \infty$</m>
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Terms Related to Hyperbola</d:title>
+      <d:para>
+        Given below are some terms related to hyperbola.
+      </d:para>
+      <d:figure xml:id="cs31">
+        <d:title>Conjugate axes and latus rectum of a hyperbola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_29.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:orderedlist>
+        <d:listitem>
+          <d:emphasis role="bold">Vertices and transverse axis:</d:emphasis> If the line perpendicular to
+          the directrix from focus cuts the hyperbola at two points <m>$A$</m> and <m>$A'$</m>, then
+          <m>$A$</m> and <m>$A'$</m> are called the vertices and <m>$AA'$</m> the transverse axis of the
+          hyperbola.
+        </d:listitem>
+        <d:listitem>
+          <d:emphasis role="bold">Conjugate axis:</d:emphasis> The hyperbola does not meet at
+          <m>$y$</m>-axis. However, we take two points <m>$B_1$</m> and <m>$B_2$</m> on <m>$y$</m>-axis, on
+          opposite side of center <m>$O$</m> of the hyperbola such that <m>$OB_1 = OB_2 =
+          b$</m>. <m>$B_1B_2$</m> is called the conjugate axis of the parabola.
+        </d:listitem>
+        <d:listitem>
+          <d:para>
+            <d:emphasis role="bold">Latus rectum:</d:emphasis> The chord of the hyperbola through its focus
+            and perpendicular to the transverse axis is called the latus rectum.
+          </d:para>
+          <d:para>
+            Let <m>$L_1 = (ae, \beta)$</m>. Then since <m>$L_1$</m> lies on the hyperbola <m>$\frac{x^2}{a^2}
+            - \frac{y^2}{b^2} = 1$</m>, therefore, <m>$e^2 - \frac{\beta^2}{b^2} = 1\Rightarrow
+            \frac{\beta^2}{b^2} = e^2 - 1$</m>
+          </d:para>
+          <d:para>
+            <m>$\therefore \beta^2 = b^2\left(e^2 - 1\right)\Rightarrow \beta^2 = b^2\left(\frac{b^2}{a^2}\right)$</m>
+          </d:para>
+          <d:para>
+            <m>$\beta = \pm\frac{b^2}{a}$</m>. Hence, length of latus rectum <m>$L_1L_1' = 2|\beta| =
+            \frac{2b^2}{a}$</m>.
+          </d:para>
+        </d:listitem>
+      </d:orderedlist>
+    </d:sect2>
+    <d:sect2>
+      <d:title>An Important Property</d:title>
+       <d:figure xml:id="cs32">
+        <d:title></d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_30.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        The difference of the focal distances of any point on a hyperbola is a constant and is equal to the
+        length of the transverse axis of the hyperbola.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^1} = 1
+        \ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Now <m>$SP = ePN = eQM\ldots$</m> (2) and <m>$S'P = ePN' = eMQ'\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Subtracting (2) from (3) gives us <m>$S'P - SP = e(MQ' - QM)\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        But <m>$Q'M = QC + CM = \frac{a}{e} + x$</m> and <m>$QM = CM - CQ = x - \frac{a}{e}$</m>
+      </d:para>
+      <d:para>
+        Hence from (4), <m>$S'P - SP = 2a = $</m> length of the transverse axis <m>$A_1A_2$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Conjugate Hyperbolas</d:title>
+      <d:figure xml:id="cs33">
+        <d:title>Conjugate hyperbolas</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_31.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        The equation <m>$\frac{y^2}{b^2} - \frac{x^2}{a^2} = 1$</m> is another standard form of equation of
+        a hyperbola.
+      </d:para>
+      <d:para>
+        The transverse and conjugate axes of this hyperbola coincide with the conugate and transverse axes
+        of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Such hyperbolas are said to be conjugate to one another.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Tanngent to a Hyperbola</d:title>
+      <d:para>
+        ELet the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P = (x-1, y_1)$</m>. From (1), <m>$\frac{dy}{dx} = \frac{b^2}{a^2}\frac{x_1}{y_1}$</m> at
+        <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Equation of tangent at <m>$P(x_1, y_1)$</m> is <m>$y - y_1 = \frac{b^2}{a^2}\frac{x_1}{y_1}(x -
+        x_1)$</m>
+      </d:para>
+      <d:para>
+        <m>\[\Rightarrow \frac{xx_1}{a^2} - \frac{yy_1}{b^2} = 1\tag{6.16}\]</m>
+      </d:para>
+      <d:para>
+        which is the equation of a tangent to a parabola at <m>$(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of tangent at <m>$(a\sec\theta, b\tan\theta)$</m> is given by
+        <m>$\frac{x\sec\theta}{a} - \frac{y\tan\theta}{b} = 1$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Normal to a Parabola</d:title>
+      <d:para>
+        Let the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P = (x-1, y_1)$</m>. From (1), <m>$\frac{dy}{dx} = \frac{b^2}{a^2}\frac{x_1}{y_1}$</m> at
+        <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Equation of normal at <m>$P(x_1, y_1)$</m> is <m>$y - y_1 = -\frac{a^2}{b^2}\frac{y_1}{x_1}(x -
+        x_1)$</m>
+      </d:para>
+      <d:para>
+        <m>\[\Rightarrow \frac{x - x_1}{\frac{x_1}{a^2}} = - \frac{y - y_1}{\frac{y_1}{b^2}}\tag{6.17}\]</m>
+      </d:para>
+      <d:para>
+        which is the equation of a normal to a parabola at <m>$(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of normal at <m>$(a\sec\theta, b\tan\theta)$</m> is given by <m>$ax\cos\theta +
+        by\cot\theta = a^2 + b^2$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Condition for a Line <m>$y = mx + c$</m> to be a Tangent to a Hyperbola</d:title>
+      <d:para>
+        Let the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let given line be <m>$y = mx + c\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Solving gives us <m>$\frac{x^2}{a^2} - \frac{(mx + c)^2}{b^2} = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \left(b^2 - a^2m^2\right)x^2 - 2a^2mcx - a^2\left(c^2 + b^2\right) = 0\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Line (2) will be tangent if roots of (3) are equal i.e. <m>$D = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 4a^4m^2c^2 + 4a^2\left(b^2 - a^2m^2\right)(c^2 + b^2) = 0$</m>
+      </d:para>
+      <d:para>\Rightarrow a^2m^2c^2 + b^2c^2 - a^2c^2m^2 + b^4 - a^2b^2m^2 = 0</d:para>
+      <d:para>
+        <m>$\Rightarrow b^2c^2 + b^4 - a^2b^2m^2 = 0 \Rightarrow c = \pm\sqrt{a^2m^2 - b^2}$</m>
+      </d:para>
+      <d:para>
+        which is the required condition.
+      </d:para>
+      <d:para>
+        Thus, we find two tangents <m>$y = mx + \sqrt{a^2m^2 - b^2}$</m> and <m>$y = mx - \sqrt{a^2m^2 -
+        b^2}$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Aymptote of a Hyperbola</d:title>
+      <d:para>
+        An asymptote of a conic is a straight line which meets the curve in two points which are at infinity
+        but which itself does not lie entirely at infinity. A hyperbola has two asymptotes.
+      </d:para>
+      <d:para>
+        Let the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be a point on hyperbola (1), then <m>$\frac{x_1^2}{a^2} - \frac{y_1^1}{b^2}
+        = 1\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Equation of tangent to hyperbola (1) at <m>$P$</m> is <m>$\frac{xx_1}{a^2} - \frac{yy_1}{b^2} = 1\ldots$</m>(3)
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{xx_1}{a^2} - \frac{y}{b^2}\left(\pm\frac{b}{a}\sqrt{x_1^2 - a^2}\right) = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow \frac{x}{a^2}\mp\frac{y}{ab}\sqrt{1 - \frac{a^2}{x_1^2}} =
+        \frac{1}{x_1}\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        When <m>$x_1\rightarrow\infty$</m>, line (4) becomes <m>$\frac{x}{a^2}\mp\frac{y}{ab}\Rightarrow
+        \frac{x}{a} \mp \frac{y}{b} = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, asymptotes of hyperbola (1) are <m>$y = \pm\frac{b}{a}x\ldots$</m> (5)
+      </d:para>
+      <d:para>
+        Combined equation of asymptotes is <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 0\ldots$</m> (6)
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Rectangular or Equilateral Hyperbola</d:title>
+      <d:figure xml:id="cs34">
+        <d:title>Rectangular hyperbola</d:title>
+        <d:mediaobject>
+          <d:imageobject>
+            <d:imagedata fileref="../images/6_32.webp"/>
+          </d:imageobject>
+        </d:mediaobject>
+      </d:figure>
+      <d:para>
+        For rectangular hyperbola <m>$a = b$</m>, therefore, equation of rectangular hyperbola is <m>$x^2 -
+        y^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        We see that asymptotes are right angle each inclined to <m>$x$</m>-axis at an angle of
+        <m>$45^\circ$</m>.
+      </d:para>
+      <d:para>
+        Rotating the axes through an angle of <m>$45^\circ$</m> in clockwise direction makes the equation of
+        rectangular hyperbola as
+      </d:para>
+      <d:para>
+        <m>$\left[x\cos\left(-45^\circ\right) - y\sin\left(-45^\circ\right)\right]^2 -
+        \left[x\sin\left(-45^\circ\right) + y\cos\left(-45^\circ\right)\right]^2 = a^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow xy = \frac{a^2}{2} = c^2$</m>, where <m>$c^2 = \frac{a^2}{2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of a rectangular hyperbola when its asymptotes are taken as axes is <m>\[xy =
+        c^2\tag{6.18}\]</m>
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Note:</d:emphasis> If we rotate the axes through the same aangle in
+        anti-clockwise direction, then equation of rectangular hyperbola will be <m>$xy = -\frac{a^2}{2}$</m>.
+      </d:para>
+      <d:para>
+        If equation of a rectangular hyperbola is <m>$xy = c^2$</m>, then the equation of its conjugate
+        hyperbola will be <m>$xy = -c^2$</m>.
+      </d:para>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Parametric Equation of a Rectangular Hyperbola</d:title>
+      <d:para>
+        Parametric equation of the rectangular hyperbola <m>$xy = c^2$</m> is <m>$x = ct, y = \frac{c}{t}$</m>.
+      </d:para>
+      <d:para>
+        Thus, coordinates of any points on the rectangular hyperbola <m>$xy = c^2$</m> may be taken as
+        <m>$\left(ct, \frac{c}{t}\right)$</m>.
+      </d:para>
+      <d:para>
+        The point <m>$\left(ct, \frac{c}{t}\right)$</m> is also called the point '<m>$t$</m>'.
+      </d:para>
+      <d:orderedlist>
+        <d:listitem>
+          Equation of the chord of the hyperbola <m>$xy = c^2$</m> joining points <m>$t_1$</m> and
+          <m>$t_2$</m> is <m>$x + t_1t_2y = c(t_1 + t-2)$</m>.
+        </d:listitem>
+        <d:listitem>
+          The equation of the tangent to hyperbola <m>$xy = c^2$</m> at '<m>$t$</m>' is <m>$x + t^2y =
+          2ct$</m>.
+        </d:listitem>
+        <d:listitem>
+          The equation of the normal to hyperbola <m>$xy = c^2$</m> at '<m>$t$</m>' is <m>$y - t^2x =
+          \frac{c}{t}\left(1 - t^4\right)$</m> or <m>$t^3x - ty - ct^4 + c = 0$</m>.
+        </d:listitem>
+      </d:orderedlist>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Some Equations Related to Hyperbolas</d:title>
+      <d:orderedlist>
+        <d:listitem>
+          Equation of the chord of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> whose middle
+          point is <m>$(x_1, y_1)$</m> is <m>$T = S_1$</m> i.e. <m>$\frac{xx_1}{a^2} - \frac{yy_1}{b^2} - 1
+          = \frac{x_1^2}{a^2} - \frac{y_1^2}{b^2} - 1$</m>.
+        </d:listitem>
+        <d:listitem>
+          Point <m>$(x_1, y_1)$</m> lies inside, in or outside the hyperbola <m>$\frac{x^2}{a^2} -
+          \frac{y^2}{b^2} = 1$</m> according as <m>$\frac{x_1^2}{a^2} - \frac{y_1^2}{b^2} &lt;, =$</m> or
+          <m>$> 1$</m>.
+        </d:listitem>
+        <d:listitem>
+          Equation of pair of tangents from point <m>$(x_1, y_1)$</m> to the hyperbola <m>$\frac{x^2}{a^2} -
+          \frac{y^2}{b^2} = 1$</m> is <m>$SS_1 = T^2$</m> i.e. <m>$\left(\frac{x^2}{a^2} - \frac{y^2}{b^2} -
+          1\right)\left(\frac{x_1^2}{a^2} - \frac{y_1^2}{b^2} - 1\right) = \left(\frac{xx_1}{a^2} -
+          \frac{yy_1}{b^2} - 1\right)^2$</m>
+        </d:listitem>
+        <d:listitem>
+          Equation of chord of contact of point <m>$(x_1, y_1)$</m> w.r.t. the hyperbola is <m>$T = 0$</m>
+          or <m>$\frac{xx_1}{a^2} - \frac{yy_1}{b^2} = 1$</m>.
+        </d:listitem>
+        <d:listitem>
+          Equation of chord of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> joining points
+          <m>$(a\sec\theta_1, b\tan\theta_1)$</m> and <m>$(a\cos\theta_1, b\tan\theta_1)$</m> is
+          <m>$\frac{x}{x}\cos\left(\frac{\theta_1 - \theta_2}{2}\right) -
+          \frac{y}{b}\sin\left(\frac{\theta_1 + \theta_2}{2}\right) = \cos\frac{\theta_1 + \theta_2}{2}$</m>.
+        </d:listitem>
+      </d:orderedlist>
+    </d:sect2>
+    <d:sect2>
+      <d:title>Diameter of a Conic</d:title>
+      <d:para>
+        It is the locus of the middle points of a conic of all parallel chords. In order to find the
+        equation of any diameter, slope of parallel chords must be known. The locus of the middle points of
+        a system of parallel chords of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{a^1} = 1$</m> with
+        slope <m>$m$</m> is <m>$y = \frac{b^2}{a^2m}x$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equation of the diameter of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>,
+        which is the locus of middle points of parallel chords having slope <m>$m$</m> is <m>$y =
+        \frac{b^2}{a^2m}x$</m>.
+      </d:para>
+    </d:sect2>
+  </d:sect1>
+  <d:sect1>
+    <d:title>Problems</d:title>
+    <d:orderedlist>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$(1, 1)$</m> and the directrix is <m>$x + y + 1
+        = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$(1, -1)$</m> and vertex is <m>$(2, 1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$(-1, 2)$</m> annd directrix is <m>$x - 2y - 15
+        = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$(2, 3)$</m> annd directrix is <m>$x - 2y - 6
+        = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$(-1, 1)$</m> and the directrix is <m>$x + y + 1
+        = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$(5, 3)$</m> and the directrix is <m>$3x - 4y +
+        1 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola whose focus is <m>$\left(\frac{5}{4}, -1\right)$</m> and the
+        directrix is <m>$4x - 13 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola having the vertex at <m>$(0, 1)$</m> and the focus at <m>$(0,
+        0)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the equation of the parabola whose focus is <m>$(0, 0)$</m> and tangent at the vertex is
+        <m>$x - y + 1 = 0$</m> is <m>$x^2 + y^2 + 2xy - 4x + 4y - 4 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola if the focus is at <m>$(-6, -6)$</m> and vertex is at <m>$(-2,
+        2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation to the parabola whose axis is parallel to <m>$y$</m>-axis and which passes through
+        the points <m>$(0, 4), (1, 9)$</m>, and <m>$(-2, 6)$</m> and determine its latus rectum.
+      </d:listitem>
+      <d:listitem>
+        Find the vertex, focus, directrix and length of the latus rectum of the parabola <m>$y^2 - 4y - 2x -
+        8 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the vertex, axis, focus, directrix, tangent at the vertex and length of the latus recturm of
+        the parabola <m>$2y^2 + 3y - 4x - 3 = 0$</m>.
+      </d:listitem>
+    </d:orderedlist>
   </d:sect1>
 </d:chapter>
