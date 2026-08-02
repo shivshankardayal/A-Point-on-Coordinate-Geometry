@@ -2110,6 +2110,249 @@
         Find the vertex, axis, focus, directrix, tangent at the vertex and length of the latus recturm of
         the parabola <m>$2y^2 + 3y - 4x - 3 = 0$</m>.
       </d:listitem>
+      <d:listitem>
+        Find the vertex, focus, axis and latus rectum of the parabola <m>$4y^2 + 12x - 20y + 67 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the focus and directrix of the parabola <m>$3x^2 + 12x + 8y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the circle described on the line segment joining the foci of the parabola
+        <m>$x^2 = 4ay$</m> and <m>$y^2 = 4a(x - a)$</m> as diameter.
+      </d:listitem>
+      <d:listitem>
+        For the parabola <m>$y^2 = 4ax$</m> find the extremeties of a double ordinate of length
+        <m>$8a$</m>. Prove that the lines from the vertex to its extremeties are at right angle.
+      </d:listitem>
+      <d:listitem>
+        Find the vertex, axis, focus and latus rectum of the parabola whose parametric equations are <m>$x =
+        u\cos\alpha t, y = u\sin\alpha t - \frac{1}{2}gt^2$</m>, where <m>$u, \alpha, g$</m> are constants.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of normals to the parabola <m>$y^2 = 4ax$</m> at the ends of latus rectum. If the
+        normals again meet the parabola at <m>$Q, Q'$</m> prove that <m>$QQ' = 12a$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that through any point three normals can be drawn to a parabola and the algebraic sum of the
+        ordinates of the three points is zero.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of the point of intersection of the tangents to the parabola <m>$y^2 = 4ax$</m> which
+        includes an angle <m>$\alpha$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the tangent at the extremeties of any focal chord intersect at right angles on the
+        directrix.
+      </d:listitem>
+      <d:listitem>
+        On the parabola <m>$y^2 = 4ax$</m>, three points <m>$E, F, G$</m> are taken so that their ordinates
+        are in G.P. Prove that the tangents at <m>$E$</m> and <m>$G$</m> intersect on the ordinate
+        <m>$F$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the common tangents of <m>$x^2 + y^2 = 2a^2$</m> and <m>$y^2 = 4ax$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the angle at which the parabolas <m>$y^2 = 4ax$</m> and <m>$x^2 =4by$</m> cut each other.
+      </d:listitem>
+      <d:listitem>
+        Show that the length of the tangent to the parabola <m>$y^2 = 4ax$</m> intercepted between two its
+        point of contact and the axis of the parabola is bisected by the tangent at the vertex.
+      </d:listitem>
+      <d:listitem>
+        Show that the normal at a point <m>$\left(at_1^2, 2at_1\right)$</m> on the parabola <m>$y^2 =
+        4ax$</m> cuts the curve again at the point whose parameter <m>$t_2 = -t_1 - \frac{2}{t_1}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <m>$P, Q$</m> are the points '<m>$t_1$</m>', '<m>$t_2$</m>' on the parabola <m>$y^2 = 4ax$</m>. If
+        the normals at <m>$P, Q$</m> meet on the parabola at <m>$R$</m>, show that <m>$t_1t_2 = 2$</m>. Also
+        find the locus of the mid-point of <m>$PQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the tangents to the parabola <m>$y^2 =8x$</m> inclined at <m>$45^\circ$</m> to
+        the <m>$x$</m>-axis. Find also the point of contact.
+      </d:listitem>
+      <d:listitem>
+        Find the equations of the tangents to the parabola <m>$y^2 = 4ax$</m> at the ends of its latus
+        rectum. Also show that they are perpendicular to each other.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the tangents to the parabola <m>$y^2 = 16x$</m> which are parallel and
+        perpendicular respectively to the line <m>$2x - y + 5 = 0$</m>. Also find the coordinates of their
+        point of contact.
+      </d:listitem>
+      <d:listitem>
+        The tangents to the parabola <m>$y^2 = 4ax$</m> at <m>$P\left(at_1^2, 2at_1\right)$</m> and
+        <m>$Q\left(at_2^2, 2at_2\right)$</m> intersect at <m>$R$</m>. Prove that the area of the
+        <m>$\triangle PQR$</m> is <m>$\frac{1}{2}a^2(t_1 - t_2)^3$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the oridinate of the point of intersection of two tangents to the parabola <m>$y^2 =
+        4ax$</m> is the A.M. between the ordinates of the point of contact of the tangents.
+      </d:listitem>
+      <d:listitem>
+        Show that the locus of the points of intersection of the mutually perpendicular tangents to a
+        parabola is the directrix of parabola.
+      </d:listitem>
+      <d:listitem>
+        If the tangents at two points to a parabola are at right angle, show that the line joining the two
+        points passes through the focus.
+      </d:listitem>
+      <d:listitem>
+        Find the point of intersection of the tangents to the parabola <m>$y^2 = 4ax$</m> at the points
+        <m>$t_1$</m> and <m>$t_2$</m>.
+      </d:listitem>
+      <d:listitem>
+        A tangent to the parabola <m>$y^2 = 8x$</m> makes an angle of <m>$45^\circ$</m> with the straight
+        line <m>$y = 3x + 5$</m>. Find the equation of the tangents and its point of contact.
+      </d:listitem>
+      <d:listitem>
+        For what value of <m>$k$</m> does the line <m>$x + y + 1 = 0$</m> touch the parabola <m>$y^2 =
+        kx$</m>? Also find the point of contact.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of the point of intersection of the tangents to the parabola <m>$y^2 = 4ax$</m> which
+        include an angle <m>$45^\circ$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the normal to the parabola <m>$y^2 = 4x$</m> at the point <m>$(9, -6)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the normals to the parabola <m>$y^2 = 4x$</m> which pass through <m>$(3,
+        0)$</m>. Find also the coordinates of the feet of the normals.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the normal to the parabola <m>$y^2 = 4x$</m> which is perpendicular to the line
+        <m>$x + 3y + 1 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the condition that the line <m>$\frac{x}{a} + \frac{y}{b}$ = 1</m> may be a normal to the
+        parabola <m>$y^2 = 4px$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the normal at <m>$\left(am^2,\,-2am\right)$</m> to the parabola <m>$y^2 = 4ax$</m>
+        intersects the parabola again at an angle <m>$\tan^{-1}\left(\frac{m}{2}\right),\,m > 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that from any point <m>$P\left(at^2,\, 2at\right)$</m> on the parabola <m>$y^2 = 4ax$</m>, two
+        normals can be drawn and their feet <m>$Q$</m> and <m>$R$</m> have the parameters satisfying the
+        equation <m>$\lambda^2 + \lambda t + 2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the normals to the parabola <m>$y^2 = 4ax$</m> at three points <m>$P,\;Q$</m> and <m>$R$</m> meet
+        at <m>$A$</m> and <m>$S$</m> be the the focus, then prove that <m>$SP.SQ.SR = a.SA^2$</m>, where
+        <m>$a > 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the normal chord to a parabola at the point whose ordinate is equal to the abscissa,
+        subtends a right angle at the focus.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of the point of intersection of the two normals to the parabola <m>$y^2 = 4ax$</m>
+        which are at right angles to one another.
+      </d:listitem>
+      <d:listitem>
+        The normals to the parabola <m>$y^2 = 4ax$</m> from a point <m>$P$</m> meet the axis at
+        <m>$A,\,B\,C$</m>. If <m>$B$</m> is the middle point of <m>$AC$</m>, find the locus of <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the area of the triangle formed by the normals to the parabola <m>$y^2 = 4ax$</m> at
+        points <m>$t_1, t_2$</m> and <m>$t_3$</m> is <m>$\frac{1}{2}a^2[(t_1 - t_2)(t_2 - t_3)(t_3 -
+        t_1)](t_1 + t_2 + t_3)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the condition that the line <m>$lx + my + n = 0$</m> may touch the parabola <m>$y^2 = 4ax$</m>
+        and find the coordinates of the point of contact.
+      </d:listitem>
+      <d:listitem>
+        Show that the line <m>$x\cos\alpha + y\sin\alpha = p$</m> touches the parabola <m>$y^2 = 4ax$</m> if
+        <m>$p\cos\alpha + a\sin^2\alpha = 0$</m> and that the point of contact is
+        <m>$\left(a\tan^2\alpha,\,-2a\tan\alpha\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the line <m>$x\cos\alpha + y\sin\alpha = p$</m> touches the parabola <m>$y^2 = 4a(x +
+        a)$</m> if <m>$p\cos\alpha + a = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the line <m>$lx + my + n = 0$</m> touches the parabola <m>$y^2 = 4a(x - b)$</m> if
+        <m>$am^2 = nl - bl^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that <m>$2y = x + 4a$</m> is tangent to the parabola <m>$y^2 = 4ax$</m>. What are the
+        coordinates of the point of contact?
+      </d:listitem>
+      <d:listitem>
+        If from the vertex of the parabola <m>$y^2 = 4ax$</m> a pair of chords be drawn at right angles to
+        one another and with these chords as adjacent sides a rectangle be drawn, prove that the locus of
+        the vertex of the farther angle of the rectangle is the parabola <m>$y^2 = 4a(x - 8a)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the circle circumscribing the triangle formed by any three tangents to a parabola passes
+        through the focus.
+      </d:listitem>
+      <d:listitem>
+        Prove that the locus of the middle points of all chords of the parabola <m>$y^2 = 4ax$</m> which are
+        drawn through the vertex is the parabola <m>$y^2 = 2ax$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the point <m>$\left(at_1^2,\,2at_1\right)$</m> is one extremity of a focal chord of the parabola
+        <m>$y^2 = 4ax$</m>, find the coordinates of the other extremity and show that the length of the
+        chord is a <m>$\left(t_1 + \frac{1}{t_1}\right)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the equation of the chord of the parabola <m>$y^2 = 4ax$</m> through the points
+        <m>$(x_1,y_1)$</m> and <m>$(x_2,y_2)$</m> on it is <m>$(y - y_1)(y - y_2) = y^2 - 4ax$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola the extremeties of whose latus rectum are <m>$(1, 2)$</m> and
+        <m>$(1, -4)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola the extremeties of whose latus rectum are <m>$(3, 5)$</m> and
+        <m>$(3, -3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the euqation of the parabola whose axis is the <m>$x$</m>-axis and which passes
+        through the points <m>$(3, 2)$</m> and <m>$(-2, -1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the parabola with its axis parallel to <m>$x$</m>-axis and which passes through
+        the points <m>$(1, 2), (-1, 3)$</m> and <m>$(-2, 1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the axis, tangent at the vertex, focus, directrix and latus rectum of the parabola <m>$9y^2 -
+        16x - 12y - 57 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of a point whose sum of the distances from the origin and the line <m>$x = 2$</m> is
+        <m>$4$</m> units. Sketch the path.
+      </d:listitem>
+      <d:listitem>
+        Find the vertex, focus, directrix, axis, tangent at the vertex and the latus rectum of the parabola
+        <m>$(y - 1)^2 = 4(x - 2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the vertex, focus, directrix, axis, tangent at the vertex and the latus rectum of the parabola
+        <m>$5x^2 + 30x + 2y + 59 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the center and radius of the smaller of the two circles that touch the parabola <m>$75y^2 =
+        64(5x - 3)$</m> at <m>$\left(\frac{6}{5}, \frac{8}{5}\right)$</m> and the <m>$x$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        A ray of light is coming along the line <m>$y = b$</m> from the positive direction of
+        <m>$x$</m>-axis and strikes a concave mirror whose intersection with the <m>$xy$</m>-plane is a
+        parabola <m>$y^2 = 4ax$</m>. Find the equation of the reflected ray and show that it passes through
+        the focus of the parabola. Both <m>$a$</m> and <m>$b$</m> are positive.
+      </d:listitem>
+      <d:listitem>
+        Points <m>$A, B$</m> and <m>$C$</m> lie on the parabola <m>$y^2 = 4ax$</m>. The tangents to the
+        parabola at <m>$A, B$</m> and <m>$C$</m> taken in pairs, intersect at points <m>$P, Q$</m> and
+        <m>$R$</m>. Determine the ratio of the areas of the triangles <m>$ABC$</m> and <m>$PQR$</m>.
+      </d:listitem>
+      <d:listitem>
+
+      </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
