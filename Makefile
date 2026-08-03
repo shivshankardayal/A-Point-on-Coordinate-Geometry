@@ -48,7 +48,7 @@ pdf/cg-cc.pdf: src/*.xml dblatex.xsl Makefile images/*
 
 latex:
 	dblatex -bxetex -T db2latex -p dblatex.xsl -P preface.tocdepth="1" -t tex src/cg-cc.xml
-	cd src && perl -pi -e "s/\.png/\.pdf/g;" cg.tex
+	cd src && perl -pi -e "s/\.png/\.pdf/g;" cg-cc.tex
 
 fop:
 #	cd src && xmllint --xinclude c.xml>resolvedc.xml

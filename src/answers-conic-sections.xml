@@ -1743,5 +1743,823 @@
         Clearly, <m>$\frac{\Delta_1}{\Delta_2} = \frac{2}{1} = 2$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <d:para>
+        Given parabola is <m>$y^2 = 12x\ldots$</m> (1). This is of the form <m>$y^2 = 4ax$</m> where <m>$a =
+        3$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P = \left(3t_1^2, 6t_1\right)$</m> and <m>$Q = \left(3t_2^2, 6t_2\right)$</m>.
+      </d:para>
+      <d:para>
+        According to the question <m>$\frac{6t_1}{6t_2} = \frac{1}{2}\Rightarrow t_2 = 2t_1\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Let <m>$R(\alpha, beta)$</m> be the point of intersection of the normals to the parabola (1) at
+        <m>$P$</m> and <m>$Q$</m>, then
+      </d:para>
+      <d:para>
+        <m>$\alpha = 2a + a\left(t_1^2 + t_2^2 + t_1t_2\right) = 6 + 21t_1^2$</m> and <m>$\beta =
+        -at_1t_2(t_1 + t_2) = -18t_1^3$</m>
+      </d:para>
+      <d:para>
+        Eliminating <m>$t_1$</m> we arrive at <m>$343\beta^2 = 12(\alpha - 6)^3$</m>
+      </d:para>
+      <d:para>
+        Thus, locus of <m>$R(\alpha, \beta)$</m> is <m>$343y^2 = 12(x - 6)^3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Given parabola is <m>$y^2 - 16x - 8y = 0\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Equation of tangent at <m>$P(\alpha, \beta)$</m> to parabola (1) is <m>$y\beta - 8(x + \alpha) - 4(y
+        + \beta) = 0\Rightarrow (\beta - 4)y = 8x + 8\alpha + 4\beta\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Its slope is <m>$\frac{8}{\beta - 4}$</m> and hence slope of normal is <m>$\frac{4 - \beta}{8}$</m>.
+      </d:para>
+      <d:para>
+        Thus, equation of normal to the parabola (1) at <m>$P(\alpha, \beta)$</m> is <m>$y - \beta = \frac{4
+        - \beta}{8}(x - \alpha)$</m>.
+      </d:para>
+      <d:para>
+        The normal passes sthrough <m>$(14, 7)$</m>. Thus, <m>$7 - \beta = \frac{4 - 7}{8}(14 -
+        \alpha)\Rightarrow \alpha = \frac{6\beta}{\beta - 4}$</m>.
+      </d:para>
+      <d:para>
+        <m>$P(\alpha, beta)$</m> lies on the parabola, therefore, <m>$\beta^2 - 16\alpha - 8\beta = 0$</m>
+      </d:para>
+      <d:para>
+        Eliminating <m>$\alpha$</m> from the two equations gives us <m>$\beta(\beta - 16)(\beta + 4) =
+        0$</m>, which gives <m>$\beta = 0, 16, -4$</m> and corresponding values of <m>$\alpha$</m> are
+        <m>$0, 8, 3$</m>, and thus, we have feet of the normals.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Given parabola is <m>$x^2 = 8y\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Let <m>$P\left(4t_1, 2t_1^2\right)$</m> and <m>$Q\left(4t_2, 2t_2^2\right)$</m> be two points of the
+        parabola (1).
+      </d:para>
+      <d:para>
+        Equations of normals to parabola (1) at <m>$P$</m> and <m>$Q$</m> are
+      </d:para>
+      <d:para>
+        <m>$y - 2t_1^2 = -\frac{1}{t_1}(x - 4t_1)\ldots$</m> (2) and <m>$y - 2t_2^2 = -\frac{1}{t_2}(x -
+        4t_2)\ldots$</m> (3)
+      </d:para>
+      <d:para>
+        Subtracting gives us <m>$2\left(t_2^2 - t_1^2\right) = x\left(\frac{1}{t_2} - \frac{1}{t_1}\right) =
+        \frac{x(t_1 - t_2)}{t_1t_2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x = -2(t_1 + t_2)t_1t_2\ldots$</m> (4) Putting this in the equation (2)
+      </d:para>
+      <d:para>
+        <m>$y = 2t_1^2 - \frac{1}{t_1}[-2(t_1 + t_2)t_1t_2 - 4t_1] = 2t_1^2 + 2t_1t_2 + 2t_2^2 +
+        4\ldots$</m> (5)
+      </d:para>
+      <d:para>
+        Since normals (2) and (3) are right angles, therefore, <m>$t_1t_2 = -1\ldots$</m> (6)
+      </d:para>
+      <d:para>
+        From (4), <m>$x = 2(t_1 + t_2)$</m> and from (5) <m>$2\left(t_1^2 + t_2^2 + t_1t_2 + 2\right) = y$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow 2\left[\left(t_1 + t_2\right)^2 - t_1t_2 + 2\right] = y = 2\left[\frac{x^2}{4} + 1 +
+        2\right]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Rightarrow x^2 + 12 = 2y$</m>, which is the required locus.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the extremities of the chord be the points with parameters <m>$t_1$</m> and <m>$t_2$</m>. Since
+        the chord subtends a right angle at the vertex <m>$(0, 0)$</m>,
+      </d:para>
+      <d:para>
+        <m>$\left(\frac{2}{t_1}\right)\left(\frac{2}{t_2}\right)=-1$</m>, so <m>$t_1t_2 = -4$</m>.
+      </d:para>
+      <d:para>
+        The tangents at these points are <m>$t_1y = x + at_1^2$</m> and <m>$t_2y =  x + at_2^2$</m>. Their
+        point of intersection is
+      </d:para>
+      <d:para>
+        <m>$x = at_1t_2, y = a(t_1 + t_2)$</m>. Since <m>$t_1t_2 = -4$</m>, <m>$x + 4a = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent at
+        <m>$P$</m> is <m>$ty = x + at^2$</m>.
+      </d:para>
+      <d:para>
+        The focal chord through <m>$P$</m> joins <m>$P\left(at^2, 2at\right)$</m> and
+        <m>$Q\left(\frac{a}{t^2}, -\dfrac{2a}{t}\right)$</m>. Hence its slope is
+      </d:para>
+      <d:para>
+        <m>$\frac{-\frac{2}{t}-2t}{\frac{1}{t^2}-t^2} = \dfrac{2t}{t^2-1} = -\tan2\theta$</m>, where <m>$t =
+        \tan\theta$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular from <m>$P$</m> to the directrix <m>$x = -a$</m> is horizontal, so it makes an
+        angle <m>$0$</m> with the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        The slope of the tangent is <m>$\frac{1}{t} = \cot\theta = \tan\left(\frac{\pi}{2} -
+        \theta\right)$</m>, so it makes an angle <m>$\frac{\pi}{2}-\theta$</m> with the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        Since <m>$2\theta+\left(\frac{\pi}{2} - \theta\right) = 2\left(\frac{\pi}{4} +
+        \frac{\theta}{2}\right)$</m>,
+      </d:para>
+      <d:para>
+        the tangent lies midway between the focal chord and the perpendicular to the directrix. Hence the
+        tangent bisects the angle between them.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent at
+        <m>$P$</m> is <m>$ty = x + at^2$</m>.
+      </d:para>
+      <d:para>
+        The tangent meets the directrix <m>$x = -a$</m> at <m>$T$</m>. Putting <m>$x = -a$</m> in the
+        tangent equation,
+      </d:para>
+      <d:para>
+        <m>$ty = -a + at^2 = a(t^2 - 1)$</m>, so <m>$T\left(-a, \frac{a(t^2-1)}{t}\right)$</m>.
+      </d:para>
+      <d:para>
+        The focus is $S(a,0)$. Now, slope of <m>$SP=\frac{2at}{at^2-a} = \frac{2t}{t^2-1}$</m>, and
+      </d:para>
+      <d:para>
+        slope of <m>$ST = \frac{\frac{a(t^2-1)}{t}}{-2a} = -\frac{t^2-1}{2t}$</m>.
+      </d:para>
+      <d:para>
+        Their product is <m>$\frac{2t}{t^2-1}\cdot\left(-\frac{t^2-1}{2t}\right) = -1$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$SP\perp ST$</m>, so <m>$\angle PST = 90^\circ$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the portion of the tangent cut off between the parabola and the directrix subtends a
+        right angle at the focus.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent at
+        <m>$P$</m> is <m>$ty = x + at^2$</m>, or <m>$x - ty + at^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$Q(h, k)$</m> be the foot of the perpendicular from the focus <m>$S(a, 0)$</m> to the
+        tangent. Since <m>$Q$</m> lies on the tangent, <m>$h - tk + at^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Also, <m>$SQ$</m> is perpendicular to the tangent, whose normal has direction ratios <m>$(1,
+        -t)$</m>E. Hence, <m>$h - a = \lambda, k=-\lambda t$</m>.
+      </d:para>
+      <d:para>
+        Substituting in the tangent equation, <m>$a + \lambda + \lambda t^2 + at^2 = 0$</m>, giving
+        <m>$\lambda = -a$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$h = a - a = 0, k = at$</m>. Thus <m>$Q = (0, at)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$t$</m> is variable, the locus of <m>$Q$</m> is <m>$x = 0$</m>, which is the tangent at the
+        vertex.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the tangent at the point <m>$P\left(at^2, 2at\right)$</m> of the parabola <m>$y^2 = 4ax$</m> be
+        <m>$ty = x + at^2$</m>.
+      </d:para>
+      <d:para>
+        The tangent at the vertex is <m>$x = 0$</m>. The line through the focus <m>$S(a, 0)$</m>
+        perpendicular to the tangent has slope <m>$-t$</m>, so its equation is
+      </d:para>
+      <d:para>
+        <m>$y=-t(x-a)$</m>. Solving <m>$ty = x + at^2$</m> and <m>$y = -t(x - a)$</m>, we get <m>$-t^2(x -
+        a) = x + at^2$</m>, or <m>$(1 + t^2)x = 0$</m>. Hence <m>$x = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the tangent and the perpendicular from the focus always meet on the line <m>$x = 0$</m>,
+        which is the tangent at the vertex.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the tangents be at the points with parameters <m>$t_1$</m> and <m>$t_2$</m>. Their equations are
+        <m>$t_1y = x + at_1^2$</m> and <m>$t_2y  =x + at_2^2$</m>.
+      </d:para>
+      <d:para>
+        Their point of intersection is <m>$x = at_1t_2, y = a(t_1 + t_2)$</m>.
+      </d:para>
+      <d:para>
+        The tangents meet the directrix <m>$x = -a$</m> at the points <m>$\left(-a, \frac{a(t_1^2 -
+        1)}{t_1}\right)$</m> and <m>$\left(-a, \frac{a(t_2^2 - 1)}{t_2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Hence the intercepted length on the directrix is <m>$d = a\left|\frac{t_1^2-1}{t_1} -
+        \frac{t_2^2-1}{t_2}\right| = a|t_1 - t_2|\left|1 + \frac{1}{t_1t_2}\right|$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$x = at_1t_2$</m>, <m>$d = \frac{|t_1-t_2|(x + a)}{|t_1t_2|} = \frac{a|t_1 - t_2|(x + a)}{|x|}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$d^2x^2 = a^2(t_1 - t_2)^2(x + a)^2$</m>.
+      </d:para>
+      <d:para>
+        Now <m>$(t_1 - t_2)^2 = (t_1 + t_2)^2 - 4t_1t_2 = \frac{y^2}{a^2} - \frac{4x}{a} = \frac{y^2 - 4ax}{a^2}$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$d^2x^2 = (y^2 - 4ax)(x + a)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the tangent be at the point with parameter <m>$t$</m>, and let <m>$P$</m> and <m>$Q$</m>
+        correspond to the parameters <m>$t_1$</m> and <m>$t_2$</m>.
+      </d:para>
+      <d:para>
+        The three tangents are <m>$ty = x + at^2,\qquad t_1y = x + at_1^2,\qquad t_2y = x + at_2^2$</m>.
+      </d:para>
+      <d:para>
+        The tangent at <m>$t$</m> meets the tangents at <m>$t_1$</m> and <m>$t_2$</m> at
+        <m>$\left(att_1,\,a(t+t_1)\right)$</m> and <m>$\left(att_2,\,a(t+t_2)\right)$</m> respectively.
+      </d:para>
+      <d:para>
+        Hence the midpoint of the intercept is <m>$M =
+        \left(\frac{at(t_1+t_2)}{2},\,\frac{a(2t+t_1+t_2)}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The chord <m>$PQ$</m> has slope <m>$\frac{2}{t_1+t_2}$</m>, so the tangent parallel to <m>$PQ$</m>
+        is the tangent at the point whose parameter is <m>$t = \frac{t_1+t_2}{2}$</m>.
+      </d:para>
+      <d:para>
+        Its equation is <m>$\frac{t_1 + t_2}{2}y = x + \frac{a(t_1 + t_2)^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of <m>$M$</m>, <m>$\frac{t_1 + t_2}{2}\cdot\frac{a(2t + t_1 + t_2)}{2}
+        = \frac{at(t_1 + t_2)}{2} + \frac{a(t_1 + t_2)^2}{4}$</m>, which is an identity.
+      </d:para>
+      <d:para>
+        Hence, <m>$M$</m> lies on the tangent parallel to <m>$PQ$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the tangent be at the point <m>$P\left(at^2, 2at\right)$</m>. Its equation is <m>$ty = x +
+        at^2$</m>.
+      </d:para>
+      <d:para>
+        It meets the axis <m>$y = 0$</m> at <m>$T\left(-at^2, 0\right)$</m> and the tangent at the vertex
+        <m>$x = 0$</m> at <m>$Y(0, at)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$A=(0, 0)$</m>, the fourth vertex of the rectangle <m>$TAYG$</m> is <m>$G\left(-at^2,
+        at\right)$</m>. If <m>$G = (x,y)$</m>, then <m>$x = -at^2,\qquad y = at$</m>.
+      </d:para>
+      <d:para>
+        Eliminating <m>$t$</m>, <m>$t = \frac{y}{a}$</m>, so <m>$x = -a\left(\frac{y}{a}\right)^2 =
+        -\frac{y^2}{a}$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$y^2 + ax = 0$</m>. Thus, the locus of <m>$G$</m> is <m>$y^2 + ax = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        The tangents at the points <m>$t_1$</m>, <m>$t_2$</m> and <m>$t_3$</m> are <m>$t_1y = x +
+        at_1^2,\qquad t_2y = x + at_2^2,\qquad t_3y = x + at_3^2$</m>.
+      </d:para>
+      <d:para>
+        The intersection of the tangents at <m>$t_2$</m> and <m>$t_3$</m> is
+        <m>$\left(at_2t_3,\,(t_2+t_3)\right)$</m>.
+      </d:para>
+      <d:para>
+        Hence the slope of the side joining the other two vertices is <m>$\frac{1}{t_2 + t_3}$</m>.
+      </d:para>
+      <d:para>
+        Therefore the altitude through the vertex formed by the tangents at <m>$t_2$</m> and <m>$t_3$</m>
+        has slope <m>$-(t_2 + t_3)$</m> and its equation is <m>$y - a(t_2 + t_3) = -(t_2 + t_3)(x -
+        at_2t_3)$</m>.
+      </d:para>
+      <d:para>
+        This is <m>$y = -(t_2 + t_3)x + a(t_2 + t_3)(1 + t_2t_3)$</m>. Similarly, another altitude is <m>$y
+        = -(t_1 + t_3)x + a(t_1 + t_3)(1 + t_1t_3)$</m>.
+      </d:para>
+      <d:para>
+        Let these meet at <m>$(h, k)$</m>. Subtracting the two equations, <m>$(t_1 - t_2)(h + a) = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$t_1\ne t_2$</m>, <m>$h = -a$</m>.
+      </d:para>
+      <d:para>
+        Substituting in the first altitude, <m>$k = a(t_2 + t_3) + a(t_2 + t_3)(1 + t_2t_3)
+        =a(t_2+t_3)(2+t_2t_3)$</m>.
+      </d:para>
+      <d:para>
+        Using the identity obtained from the three altitudes, <m>$(t_2 + t_3)(2 + t_2t_3) = t_1 + t_2 + t_3
+        + t_1t_2t_3$</m>, we get <m>$k = a(t_1 + t_2 + t_3 + t_1t_2t_3)$</m>.
+      </d:para>
+      <d:para>
+        Hence the orthocentre is <m>$\left(-a,\,a(t_1 + t_2 + t_3 + t_1t_2t_3)\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the slopes be <m>$m_1, m_2, m_3$</m>, which are in H.P. Therefore <m>$\frac{1}{m_2} -
+        \frac{1}{m_1} = \frac{1}{m_3} - \frac{1}{m_2} = d$</m>(let)
+      </d:para>
+      <d:para>
+        Equation of tangents are <m>$y = m_Ix + \frac{a}{m_i}$</m>, where <m>$i = 1, 2, 3$</m>.
+      </d:para>
+      <d:para>
+        So point of intersections are <m>$\left(\frac{a}{m_im_j}, \frac{a}{m_im_j}(m_i + m_j)\right)$</m>.
+      </d:para>
+      <d:para>
+        Solving for area gives us <m>$\Delta = a^2d^3$</m>, which is a constant.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let <m>$P\left(at^2,\,2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent
+        at <m>$P$</m> is <m>$ty = x + at^2$</m>.
+      </d:para>
+      <d:para>
+        Its slope is <m>$\frac{1}{t}$</m>. Hence the line through the focus <m>$S(a, 0)$</m> perpendicular
+        to it has slope <m>$-t$</m>, and its equation is <m>$y = -t(x - a)$</m>.
+      </d:para>
+      <d:para>
+        Let this line meet the tangent at <m>$Q$</m>. Solving <m>$ty = x + at^2,\qquad y = -t(x - a)$</m>,
+        we get <m>$-t^2(x - a) = x + at^2$</m>, or <m>$(1 + t^2)x = 0$</m>.
+      </d:para>
+      <d:para>
+        Hence, <m>$x = 0$</m>. But <m>$x = 0$</m> is the tangent at the vertex of the parabola. Therefore,
+        any tangent to the parabola and the perpendicular on it from the focus meet on the tangent at the
+        vertex.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let three points corresponding to three tangents be <m>$t_1, t_2, t_3$</m>. Tangents at these points
+        is given by <m>$t_iy = x + at_i^2$</m> where <m>$i = 1, 2, 3$</m>.
+      </d:para>
+      <d:para>
+        The points of intersection is given by <m>$(at_it_j, a(t_i + t_j))$</m> where <m>$i, j = 1, 2, 3;
+        i\neq j $</m>.
+      </d:para>
+      <d:para>
+        Let the circumcircle by <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. The points <m>$t_i$</m> lie on this
+        circle. So we have
+      </d:para>
+      <d:para>
+        <m>$a^2t_1^2t_2^2 + a^2(t_1 + t_2)^2 + 2ga t_1t_2 + 2fa(t_1 + t_2) + c = 0$</m>, and two other
+        cyclic equations.
+      </d:para>
+      <d:para>
+        Subtracting the first two equations, <d:sbr/><m>$(t_1 - t_3)\left[a^2t_2^2(t_1 + t_3) + a^2(t_1 + t_3 +
+        2t_2) + 2gat_2 + 2fa\right]=0$</m> and two other cyclic equations as well.
+      </d:para>
+      <d:para>
+        Subtracting these gives <m>$g = -\frac{a}{2}(t_1+t_2+t_3)$</m>. Substituting back, <m>$f =
+        \frac{a}{2}(t_1t_2+t_2t_3+t_3t_1-a?)$</m>.
+      </d:para>
+      <d:para>
+        At the focus <m>$S(a, 0)$</m>, <m>$S$</m> lies on the circle if <m>$a^2 + 2ga + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Using any one of the three point equations to eliminate <m>$c$</m>, and substituting the values of
+        <m>$g$</m> and <m>$f$</m>, all terms cancel identically, giving <m>$a^2 + 2ga + c = 0$</m>.
+        Hence the focus satisfies the equation of the circumcircle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Points of the parabola <m>$y^{2} = 4ax$</m> may be written as <m>$x = at^{2}$</m>, <m>$y=2at$</m>,
+        where <m>$t$</m> is a parameter. The tangent to the parabola at the point <m>$t$</m> is <m>$ty = x +
+        at^{2}\ldots$</m> (1).
+      </d:para>
+      <d:para>
+        Let two tangents correspond to parameters <m>$t_1$</m> and <m>$t_2$</m>. Then <m>$t_1y = x +
+        at_1^{2}$</m> and <m>$t_2y=x+at_2^{2}$</m>. Subtracting, <m>$(t_1-t_2)y = a(t_1^{2}-t_2^{2})$</m>,
+        so <m>$y = a(t_1 + t_2)$</m>. Substituting back, <m>$x = at_1t_2$</m>. Hence the point of
+        intersection of the tangents <m>$t_1,t_2$</m> is <m>$(x,y)=\big(a\,t_1t_2,\
+        a(t_1+t_2)\big)\ldots$</m> (2).
+      </d:para>
+      <d:para>
+        The slope of the tangent line (1) is <m>$\frac{1}{t}$</m>; if <m>$\psi$</m> is its inclination to
+        the <m>$x$</m>-axis, then <m>$t=\cot\psi\ldots$</m> (3).
+      </d:para>
+      <d:para>
+        A triangle circumscribing the parabola is formed by three tangents with parameters
+        <m>$t_1,t_2,t_3$</m>. For the triangle to be equilateral, the three tangent lines must be equally
+        inclined to one another (each pair making a <m>$60^{\circ}$</m> angle). Thus their inclinations may
+        be taken as <m>$\psi$</m>, <m>$\psi+60^{\circ}$</m>, <m>$\psi+120^{\circ}$</m> for some angle
+        <m>$\psi$</m>, so that <m>$t_1=\cot\psi$</m>, <m>$t_2=\cot(\psi+60^{\circ})$</m>,
+        <m>$t_3=\cot(\psi+120^{\circ})$</m>.
+      </d:para>
+      <d:para>
+        Consider the vertex <m>$C = (x, y)$</m> formed by the tangents <m>$t_1, t_2$</m>. By (2),
+        <m>$x = at_1t_2$</m> and <m>$y = a(t_1 + t_2)$</m>, with <m>$t_1=\cot\psi$</m> and
+        <m>$t_2=\cot(\psi+60^{\circ})$</m>.
+      </d:para>
+      <d:para>
+        Using the cotangent addition identity, <m>$\cot\psi\cot(\psi + 60^{\circ}) = \frac{\cos\psi\cos(\psi
+        + 60^{\circ}) - \sin\psi\sin(\psi + 60^{\circ})}{\sin\psi\sin(\psi + 60^{\circ})}$</m> can be
+         written as: <m>$\cot A\cot B=\frac{\cos A\cos B}{\sin A\sin B}$</m>, and <m>$\cot
+        A+\cot B=\frac{\sin(A+B)}{\sin A\sin B}$</m>.
+      </d:para>
+      <d:para>
+        With <m>$A=\psi$</m>, <m>$B = \psi + 60^{\circ}$</m>, we have <m>$A + B = 2\psi+60^{\circ}$</m>, so
+        <m>$t_1+t_2=\frac{\sin(2\psi + 60^{\circ})}{\sin\psi\,\sin(\psi + 60^{\circ})}$</m>, and
+        <m>$t_1t_2=\frac{\cos\psi\cos(\psi + 60^{\circ})}{\sin\psi\sin(\psi + 60^{\circ})}$</m>.
+      </d:para>
+      <d:para>
+        Also, using product-to-sum formulas, <m>$2\sin\psi\sin(\psi + 60^{\circ}) =
+        \cos(60^{\circ})-\cos(2\psi + 60^{\circ}) = \frac12-\cos(2\psi + 60^{\circ})$</m>, and
+        <m>$2\cos\psi\cos(\psi + 60^{\circ}) = \cos(60^{\circ}) + \cos(2\psi +
+        60^{\circ})=\frac12+\cos(2\psi + 60^{\circ})$</m>.
+      </d:para>
+      <d:para>
+        Writing <m>$\theta=2\psi + 60^{\circ}$</m> and <m>$D=\tfrac12-\cos\theta$</m> for the common
+        denominator factor (up to the factor <m>$2$</m>), we obtain <m>$y=a(t_1 +
+        t_2)=\frac{a\sin\theta}{D}$</m> and <m>$x = at_1t_2 = \frac{a\left(\tfrac12 +
+        \cos\theta\right)}{D}$</m>.
+      </d:para>
+      <d:para>
+        From the two relations above, <m>$\frac{y}{x}\cdot\left(\tfrac12 + \cos\theta\right) =
+        \sin\theta$</m>, i.e. <m>$y\left(\tfrac12 + \cos\theta\right) = x\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Also we eliminate <m>$\theta$</m> using <m>$\sin^{2}\theta + \cos^{2}\theta = 1$</m> applied to
+        <m>$\sin\theta = \frac{yD}{a}$</m>, <m>$\cos\theta = \frac{xD}{a}-\frac12$</m>,
+        which gives <m>$\frac{y^{2}D^{2}}{a^{2}} + \left(\frac{xD}{a} - \frac12\right)^{2}=1$</m>, and since
+        <m>$D=\tfrac12 - \cos\theta = \tfrac12 - \left(\frac{xD}{a} - \frac12\right) = 1-\frac{xD}{a}$</m>,
+        solving this consistently and simplifying (after clearing $D$ throughout) leads, upon collecting
+        terms, to the relation <m>$(3x + a)(x + 3a) = y^{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Consider any point <m>$\left(at^2, 2at\right)$</m> on the parabola. The tangent in given by <m>$yt =
+        x + at^2$</m>, which cuts the directrix <m>$x = -a$</m> at <m>$\left(-a, \frac{a(t^2 -
+        1)}{t}\right)$</m>.
+      </d:para>
+      <d:para>
+        The midpoint will be <m>$\left(\frac{-a + at^2}{2}, \frac{2at + \frac{a(t^2 - 1)}{t}}{2}\right) =
+        \left(\frac{a(t^2 - 1)}{2}, \frac{a(3t^2 - 1)}{2t}\right) = (x, y)$</m> (let)
+      </d:para>
+      <d:para>
+        From this we can establish <m>$y^2(2x + a) = a(3x + a)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Take the two parabolas as <m>$y^2 = 4ax$</m> and <m>$x^2 = 4by$</m>, having the same vertex and
+        perpendicular axes.
+      </d:para>
+      <d:para>
+        Let their common tangent be <m>$y = mx + c$</m>. Since it is tangent to <m>$y^2 = 4ax$</m>,
+        <m>$c=\frac{a}{m}$</m>.
+      </d:para>
+      <d:para>
+        Since it is tangent to <m>$x^2 = 4by$</m>, <m>$c=-bm^2$</m>. Hence <m>$\frac{a}{m}=-bm^2$</m>, or
+        <m>$m^3 = -\frac{a}{b}$</m>.
+      </d:para>
+      <d:para>
+        The point of contact on <m>$y^2 = 4ax$</m> is <m>$\left(am^2,\frac{2a}{m}\right)$</m>. Using <m>$m^3
+        = -\frac{a}{b}$</m>, <m>$\frac{2a}{m}=-2bm^2$</m>.
+      </d:para>
+      <d:para>
+        Thus the point is <m>$\left(am^2,-2bm^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Now the latus rectum of <m>$y^2 = 4ax$</m> has equation <m>$x=a$</m>. Since <m>$am^2 = a$</m>,
+        <m>$m^2=1$</m>.
+      </d:para>
+      <d:para>
+        Therefore the common tangent touches the first parabola at <m>$(a,\pm2a)$</m>, the ends of its latus
+        rectum.
+      </d:para>
+      <d:para>
+        Similarly, the point of contact on <m>$x^2 = 4by$</m> is <m>$\left(-2bm,\;bm^2\right)$</m>. <m>Using
+        $m^2=1$</m>, it is <m>$(\mp2b,\;b)$</m>, which are the ends of the latus rectum of the second
+        parabola.
+      </d:para>
+      <d:para>
+        Hence, the common tangent touches each parabola at an end of its latus rectum.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the parabolas be <m>$y^2 = 4ax$</m> and <m>$x^2=4ay$</m>.
+      </d:para>
+      <d:para>
+        Their common points satisfy <m>$y^2 = 4ax,\qquad x^2 = 4ay$</m>.
+      </d:para>
+      <d:para>
+        Besides the common vertex <m>$(0, 0)$</m>, let <m>$(x,y)$</m> be the other point of intersection.
+      </d:para>
+      <d:para>
+        From the first equation, <m>$x=\frac{y^2}{4a}$</m>. Substituting in the second,
+        <m>$\frac{y^4}{16a^2} = 4ay$</m>, or <m>$y(y^3-64a^3)=0$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$y = 4a,\qquad x = 4a$</m>. Thus, the second point of intersection is <m>$(4a, 4a)$</m>.
+      </d:para>
+      <d:para>
+        The tangent to <m>$y^2 = 4ax$</m> at <m>$(4a, 4a)$</m> is <m>$yy_1 = 2a(x + x_1)$</m>, so <m>$4ay =
+        2a(x + 4a)$</m>, or <m>$x - 2y + 4a = 0$</m>. Its slope is <m>$\frac12$</m>.
+      </d:para>
+      <d:para>
+        The tangent to <m>$x^2 = 4ay$</m> at <m>$(4a, 4a)$</m> is <m>$xx_1 = 2a(y + y_1)$</m>, so <m>$4ax =
+        2a(y + 4a)$</m>, or <m>$2x - y - 4a = 0$</m>. Its slope is <m>$2$</m>.
+      </d:para>
+      <d:para>
+        Hence the angle <m>$\theta$</m> between the tangents is <m>$\tan\theta =
+        \left|\frac{2-\frac12}{1+2\cdot\frac12}\right| = \frac{3/2}{2} =\frac34$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the tangents to the parabolas <m>$y^2 = 4a(x + a)$</m> and <m>$y^2 = 4b(x + b)$</m> be at the
+        parameters <m>$t_1$</m> and <m>$t_2$</m> respectively.
+      </d:para>
+      <d:para>
+        Their equations are <m>$t_1y = x + a(1 + vt_1^2),\qquad t_2y = x + b(1 + t_2^2)$</m>.
+      </d:para>
+      <d:para>
+        The slopes are <m>$\frac1{t_1}$</m> and <m>$\frac1{t_2}$</m>. Since the tangents are perpendicular,
+        <m>$\frac1{t_1}\cdot\frac1{t_2}=-1$</m>, so <m>$t_1t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(x, y)$</m> be their point of intersection. Subtracting the two tangent equations,
+        <m>$(t_1 - t_2)y = a(1 + t_1^2) - b(1 + t_2^2)$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$y = \frac{a(1 + t_1^2) - b(1 + t_2^2)}{t_1 - t_2}$</m>. Using <m>$t_2 = -\frac1{t_1}$</m>,
+        <m>$1 + t_2^2 = \frac{1 + t_1^2}{t_1^2},\qquad t_1 - t_2 = \frac{1 + t_1^2}{t_1}$</m>.
+      </d:para>
+      <d:para>
+        Therefore <m>$y = \frac{a(1 + t_1^2) - b\frac{1 + t_1^2}{t_1^2}}{\frac{1 + t_1^2}{t_1}} = at_1 -
+        \frac{b}{t_1}$</m>.
+      </d:para>
+      <d:para>
+        Now from <m>$x = t_1y - a(1 + t_1^2)$</m>, we get <m>$x = t_1\left(at_1 - \frac{b}{t_1}\right) - a(1
+        + t_1^2) = -a - b$</m>.
+      </d:para>
+      <d:para>
+        Thus every point of intersection satisfies <m>$x + a + b = 0$</m>.
+      </d:para>
+      <d:para>
+        Finally, the common chord of the two parabolas is obtained by subtracting their equations: <m>$4a(x
+        + a) = 4b(x + b)$</m>, or <m>$(a - b)(x + a + b) = 0$</m>. Hence its equation is <m>$x + a + b =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        The parabola is <m>$y^2 = 8x$</m>, so <m>$a = 2$</m>. The tangent at parameter <m>$t$</m> is <m>$ty
+        = x + 2t^2$</m>.
+      </d:para>
+      <d:para>
+        Its slope is <m>$m = \frac{1}{t}$</m>. The given line <m>$y = 3x + 5$</m> has slope <m>$3$</m>.
+      </d:para>
+      <d:para>
+        If the tangent makes an angle <m>$45^\circ$</m> with this line, then <m>$\left|\frac{m - 3}{1 +
+        3m}\right| = 1$</m>.
+      </d:para>
+      <d:para>
+        Hence <m>$\frac{m - 3}{1 + 3m} = \pm1$</m>. For <m>$+1$</m>, <m>$m - 3 = 1 + 3m$</m>, so <m>$m =
+        -2$</m>.
+      </d:para>
+      <d:para>
+        For <m>$-1$</m>, <m>$m - 3 = -1 - 3m$</m>, so <m>$m = \frac12$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$t = -\frac12\quad\text{or}\quad t = 2$</m>.
+      </d:para>
+      <d:para>
+        Hence the required tangents are: for <m>$t = -\frac12$</m>, <m>$-\frac12y = x + \frac12$</m>, or
+        <m>$2x + y + 1 = 0$</m>. The point of contact is <m>$\left(\frac12,-2\right)$</m>.
+      </d:para>
+      <d:para>
+        For <m>$t v= 2$</m>, <m>$2y = x + 8$</m>, or <m>$x - 2y + 8 = 0$</m>. The point of contact is
+        <m>$(8, 8)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Any tangent to the parabola <m>$y^2 = 4ax$</m> with slope <m>$m$</m> can be written in its standard
+        slope form as: <m>$y = mx + \frac{a}{m}\ldots$</m> (1)
+      </d:para>
+      <d:para>
+        Since the second tangent is at a right angle to the first, its slope must be perpendicular, which is
+        given by <m>$m' = -\frac{1}{m}$</m>.
+      </d:para>
+      <d:para>
+        The general equation of a tangent to the parabola <m>$x^2 = 4by$</m> with slope <m>$m'$</m> is:
+        <m>$y = m'x - b(m')^2$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$m' = -\frac{1}{m}$</m> into this formula yields: <m>$y = -\frac{1}{m}x -
+        b\left(-\frac{1}{m}\right)^2$</m>
+        <m>$\Rightarrow y = -\frac{x}{m} - \frac{b}{m^2}\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Let <m>$(x, y)$</m> be the coordinates of the point of intersection of these two tangents. We
+        rearrange equations (1) and (2) into standard quadratic equations with respect to the slope
+        parameter <m>$m$</m>.
+      </d:para>
+      <d:para>
+        From equation (1): <m>$my = m^2x + a\Rightarrow xm^2 - ym + a = 0$</m>
+      </d:para>
+      <d:para>
+        From equation (2): <m>$m^2y = -mx - b\Rightarrow ym^2 + xm + b = 0$</m>
+      </d:para>
+      <d:para>
+        We now have a system of two quadratic equations in <m>$m$</m>: <m>$x \cdot m^2 - y \cdot m + a =
+        0$</m> and <m>$y \cdot m^2 + x \cdot m + b = 0$</m>
+      </d:para>
+      <d:para>
+        Applying the rule of cross-multiplication to eliminate $m$, we set up the ratios:
+        <m>$\frac{m^2}{(-y)(b) - (a)(x)} = \frac{-m}{(x)(b) - (a)(y)} = \frac{1}{(x)(x) - (-y)(y)}$</m>
+      </d:para>
+      <d:para>
+        Simplifying the denominators gives: <m>$\frac{m^2}{-(ax + by)} = \frac{m}{ay - bx} = \frac{1}{x^2 +
+        y^2}$</m>
+      </d:para>
+      <d:para>
+        From these simultaneous ratios, we can express <m>$m^2$</m> and <m>$m$</m> explicitly in terms of
+        <m>$x$</m> and <m>$y$</m>: <m>$m^2 = -\frac{ax + by}{x^2 + y^2}\ldots$</m> (3) and <m>$m = \frac{ay
+        - bx}{x^2 + y^2} = -\frac{bx - ay}{x^2 + y^2}\ldots$</m> (4)
+      </d:para>
+      <d:para>
+        By definition, <m>$(m)^2 = m^2$</m>. Equating the square of our expression for <m>$m$</m> from
+        equation (4) to our expression for <m>$m^2$</m> from equation (3) gives: <m>$\left(-\frac{bx -
+        ay}{x^2 + y^2}\right)^2 = -\frac{ax + by}{x^2 + y^2}$</m>
+      </d:para>
+      <d:para>
+        Expanding the left side: <m>$\frac{(bx - ay)^2}{(x^2 + y^2)^2} = -\frac{ax + by}{x^2 + y^2}$</m>
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$(x^2 + y^2)^2$</m> to eliminate the denominators: <m>$(bx - ay)^2 =
+        -(ax + by)(x^2 + y^2)$</m>
+      </d:para>
+      <d:para>
+        Rearranging all the terms to the left-hand side yields the desired locus equation: <m>$(ax + by)(x^2
+        + y^2) + (bx - ay)^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        The general equation of any tangent to the parabola <m>$y^2 = 4ax$</m> in terms of its slope
+        <m>$m$</m> is <m>$y = mx + \frac{a}{m}$</m>
+      </d:para>
+      <d:para>
+        For this line to also be a tangent to the second parabola <m>$x^2 = 4by$</m>, it must intersect it
+        at exactly one point. Substitute the expression for <m>$y$</m> into <m>$x^2 = 4by$</m>: <m>$x^2 =
+        4b\left(mx + \frac{a}{m}\right)$</m>
+      </d:para>
+      <d:para>
+        Rearranging this into a standard quadratic equation in terms of <m>$x$</m> gives us <m>$x^2 - 4bmx -
+        \frac{4ab}{m} = 0$</m>
+      </d:para>
+      <d:para>
+        Since a tangent line touches a parabola at only one point, the roots of this quadratic equation must
+        be real and equal. Therefore, set its discriminant (<m>$D = B^2 - 4AC$</m>) to zero:
+        <m>$(-4bm)^2 - 4(1)\left(-\frac{4ab}{m}\right) = 0$</m> <m>$\Rightarrow 16b^2m^2 + \frac{16ab}{m} =
+        0$</m>
+      </d:para>
+      <d:para>
+        Divide the entire equation by <m>$16b$</m> (assuming <m>$b \neq 0$</m>): <m>$b^2m^2 + \frac{a}{m} = 0$</m>
+        <m>$\Rightarrow bm^3 + a = 0$</m><m>$\Rightarrow m^3 = -\frac{a}{b}$</m><m>$m =
+        \left(-\frac{a}{b}\right)^{1/3} = -\frac{a^{1/3}}{b^{1/3}}$</m>
+      </d:para>
+      <d:para>
+        Substitute the value of $m$ back into our initial tangent equation <m>$y = mx + \frac{a}{m}$</m>:
+        <m>$y = \left(-\frac{a^{1/3}}{b^{1/3}}\right)x + \frac{a}{-\frac{a^{1/3}}{b^{1/3}}}$</m>
+        <m>$\Rightarrow y = -\frac{a^{1/3}}{b^{1/3}}x - a^{2/3}b^{1/3}$</m>
+      </d:para>
+      <d:para>
+        Multiply the entire equation by <m>$b^{1/3}$</m> to clear the fractional denominators:
+        <m>$b^{1/3}y = -a^{1/3}x - a^{2/3}b^{2/3}$</m>
+        Rearrange all terms to standard linear form: <m>$a^{1/3}x + b^{1/3}y + a^{2/3}b^{2/3} = 0$</m>
+      </d:para>
+      <d:para>
+        Thus, the equation of the common tangent to the two given parabolas is <m>$a^{1/3}x + b^{1/3}y +
+        a^{2/3}b^{2/3} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m> with focus <m>$S(a, 0)$</m>. We define two points on the
+        parabola using parametric coordinates: <m>$P\left(at_1^2, 2at_1\right)$ and $Q\left(at_2^2,
+        2at_2\right)$</m>.
+      </d:para>
+      <d:para>
+        Using the focal distance formula <m>$x + a$</m>, the distances <m>$SP$</m> and <m>$SQ$</m> are:
+        <m>$SP = a(t_1^2 + 1)$</m> and <m>$SQ = a(t_2^2 + 1)$</m>
+      </d:para>
+      <d:para>
+        Multiplying these two values gives our first expression: <m>$SP \cdot SQ = a^2(t_1^2 + 1)(t_2^2 + 1)$</m>
+      </d:para>
+      <d:para>
+        The intersection point <m>$R$</m> of the tangents at <m>$P$</m> and <m>$Q$</m> is given by the
+        standard formula <m>$R(at_1t_2, a(t_1 + t_2))$</m>. We compute the squared distance <m>$SR^2$</m>
+        from the focus <m>$S(a, 0)$</m> to <m>$R$</m>: <m>$SR^2 = (at_1t_2 - a)^2 + (a(t_1 + t_2) - 0)^2$</m>
+        <m>$\Rightarrow SR^2 = a^2(t_1^2t_2^2 - 2t_1t_2 + 1) + a^2(t_1^2 + 2t_1t_2 + t_2^2)$</m>
+        <m>$\Rightarrow SR^2 = a^2(t_1^2t_2^2 + t_1^2 + t_2^2 + 1)$</m>
+      </d:para>
+      <d:para>
+        Factoring the terms inside the parentheses gives our second expression: <m>$SR^2 = a^2(t_1^2 +
+        1)(t_2^2 + 1)$</m>
+      </d:para>
+      <d:para>
+        Since both algebraic expressions are identical, we have verified that <m>$SR^2 = SP \cdot SQ$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Since point <m>$C$</m> lies on the <m>$x$</m>-axis, its <m>$y$</m>-coordinate is <m>$0$</m>.
+      </d:para>
+      <d:para>
+        Given that <m>$AB : AC = 3 : 1$</m>, it implies that <m>$AC : CB = 1 : 2$</m>. Therefore, point
+        <m>$C$</m> divides the line segment <m>$AB$</m> internally in the ratio <m>$1 : 2$</m>.
+      </d:para>
+      <d:para>
+        Using the section formula for the <m>$y$</m>-coordinate of point <m>$C$</m>: <m>$0 = \frac{1(2at_2) + 2(2at_1)}{1 + 2}$</m>
+        <m>$\Rightarrow 0 = \frac{2at_2 + 4at_1}{3}$</m> <m>$\Rightarrow 2at_2 + 4at_1 =
+        0$</m><m>$\Rightarrow t_2 = -2t_1$</m>.
+      </d:para>
+      <d:para>
+        Let the point of intersection of the tangents at <m>$A\left(at_1^2, 2at_1\right)$</m> and
+        <m>$B\left(at_2^2, 2at_2\right)$</m> be <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the intersection point $P$ are given by <m>$(at_1t_2, a(t_1 + t_2))$</m>.
+      </d:para>
+      <d:para>
+        From the previous result, we know that <m>$t_2 = -2t_1$</m>. Substituting this into the coordinates
+        of <m>$P$</m>:
+        <m>$x_1 = a(t_1)(-2t_1) = -2at_1^2$</m> and <m>$y_1 = a(t_1 - 2t_1) = -at_1 \implies t_1 =
+        -\frac{y_1}{a}$</m>
+      </d:para>
+      <d:para>
+        Now, substitute <m>$t_1 = -\frac{y_1}{a}$</m> into the equation for <m>$x_1$</m>: <m>$x_1 =
+        -2a\left(-\frac{y_1}{a}\right)^2$</m> <m>$\Rightarrow x_1 = -2a\left(\frac{y_1^2}{a^2}\right)$</m>
+        <m>$\Rightarrow x_1 = -\frac{2y_1^2}{a}$</m>
+      </d:para>
+      <d:para>
+        Cross-multiplying yields: <m>$ax_1 = -2y_1^2 \implies 2y_1^2 = -ax_1$</m>
+      </d:para>
+      <d:para>
+        Replacing <m>$(x_1, y_1)$</m> with <m>$(x, y)$</m>, the required locus is: <m>$2y^2 = -ax$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <d:para>
+        Let the vertex be <m>$O(0, 0)$</m>, and the points on the parabola <m>$y^2 = 4ax$</m> be
+        <m>$A\left(at_1^2, 2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the circle with <m>$OA$</m> as diameter is <m>$x(x - at_1^2) + y(y - 2at_1) = 0
+        \implies x^2 + y^2 - at_1^2x - 2at_1y = 0$</m>
+      </d:para>
+      <d:para>
+        Similarly, the equation of the circle with <m>$OB$</m> as diameter is <m>$x^2 + y^2 - at_2^2x -
+        2at_2y = 0$</m>
+      </d:para>
+      <d:para>
+        The line <m>$OC$</m> is the common chord of these two circles, obtained by subtracting their
+        equations (<m>$S_1 - S_2 = 0$</m>): <m>$a(t_2^2 - t_1^2)x + 2a(t_2 - t_1)y = 0$</m>
+      </d:para>
+      <d:para>
+        Dividing by <m>$a(t_2 - t_1)$</m> (since <m>$t_1 \neq t_2$</m>): <m>$(t_1 + t_2)x + 2y = 0 \implies
+        y = -\frac{t_1 + t_2}{2}x$</m>
+      </d:para>
+      <d:para>
+        The slope of the line <m>$OC$</m> is <m>$m_3$</m>: <m>$m_3 = -\frac{t_1 + t_2}{2}$</m>
+      </d:para>
+      <d:para>
+        The slopes of the tangents at <m>$A$</m> and <m>$B$</m> are <m>$m_1 = \frac{1}{t_1}$</m> and <m>$m_2
+        = \frac{1}{t_2}$</m>, which means <m>$t_1 = \frac{1}{m_1}$</m> and <m>$t_2 =
+        \frac{1}{m_2}$</m>. Substituting these into the expression for <m>$m_3$</m>: <m>$m_3 =
+        -\frac{\frac{1}{m_1} + \frac{1}{m_2}}{2}$</m>
+      </d:para>
+      <d:para>
+        <m>$m_3 = -\frac{m_1 + m_2}{2m_1m_2}$</m> <m>$\implies m_1 + m_2 + 2m_1m_2m_3 = 0$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

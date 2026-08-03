@@ -2351,7 +2351,116 @@
         <m>$R$</m>. Determine the ratio of the areas of the triangles <m>$ABC$</m> and <m>$PQR$</m>.
       </d:listitem>
       <d:listitem>
-
+        The ordinates of the points <m>$P$</m> and <m>$Q$</m> on the parabola <m>$y^2 = 12x$</m> are in the
+        ratio <m>$1:2$</m>. Find the locus of the points of intersection of the normals to the parabola at
+        <m>$P$</m> and <m>$Q$</m>.
+      </d:listitem>
+      <d:listitem>
+        Three normals are drawn from the point <m>$(14, 7)$</m> to the parabola <m>$y^2 - 16x - 8y =
+        0$</m>. Find the coordinates of the feet of the normals.
+      </d:listitem>
+      <d:listitem>
+        Find the locus of the point of intersectioon of those normals to the parabola <m>$x^2 = 8y$</m>
+        which are at right angles to each other.
+      </d:listitem>
+      <d:listitem>
+        Prove that the locus of the point of intersection of the tangents at the extremeties of any chord of
+        the parabola <m>$y^2 = 4ax$</m> which subtend a right aangle at the vertex is <m>$x + 4x = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the tangent at any point of a parabola bisects the angle between the focal chord through
+        the point and the perpendicular on the directrix from the point.
+      </d:listitem>
+      <d:listitem>
+        Show that the portion of the tangent to a parabola cut off between the directrix anad the curve
+        subtends a right angle at the focus.
+      </d:listitem>
+      <d:listitem>
+        Show that the locus of the foot of the perpendicular from the focus on the tangent at any point of
+        the parabola is the tangent at the vertex.
+      </d:listitem>
+      <d:listitem>
+        Prove that any tangent to a parabola <m>$y^2 = 4ax$</m> and perpendicular to it from the focus meet
+        on the tangent at the vertex.
+      </d:listitem>
+      <d:listitem>
+        Show that the locus of the points of intersection of tangents to <m>$y^2 = 4ax$</m> which intercept
+        a constant length <m>$d$</m> on the directrix is <m>$\left(y^2 - 4ax\right)(x + a)^2 = d^2x^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the middle point of the intercept made on a tangent to a parabola by the tangents at two
+        points <m>$P$</m> and <m>$Q$</m> lies on the tangent which is parallel to <m>$PQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the tangent to the parabola <m>$y^2 = 4ax$</m> meets the axis in <m>$T$</m> and the tangent at
+        the vertex in <m>$Y$</m> and the rectangle <m>$TAYG$</m> is completed, show that the locus of
+        <m>$G$</m> is <m>$y^2 + ax = 0$</m> where <m>$A$</m> is the vertex of <m>$y^2 = 4ax$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that the orthoccenter of the triangle formed by the tangents at the points <m>$t_1, t_2,
+        t_3$</m> to the parabola <m>$y^2 = 4ax$</m> is <m>$(-a, a(t_1 + t_2 + t_3 + t_1t_2t_3))$</m>.
+      </d:listitem>
+      <d:listitem>
+        Show that any three tangents to a parabola whose slopes are in H.P. enclose a triangle of constant
+        area.
+      </d:listitem>
+      <d:listitem>
+        Prove that any tangent to a parabola and the perpendicular on it from the focus meet on the tengent
+        at vertex.
+      </d:listitem>
+      <d:listitem>
+        Prove that the circumcircle of the triangle formed by any three tangents to parabola <m>$y^2 =
+        4ax$</m> passes through the focus.
+      </d:listitem>
+      <d:listitem>
+        Equilateral triangles are circumscribed by the parabola <m>$y^2 = 4ax$</m>. Prrove that their
+        angular points lie on the conic <m>$(3x + a)(x + 3a) = y^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Prove that the locus of the middle points of all tangents drawn from points on the directrix to the
+        parabola <m>$y^2 = 4ax$</m> is <m>$y^2(2x + a) = a(3x + a)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        Two parabolas have the same vertex and their axes are at right angles. Prove that their common
+        tangent touches each at the end of a latus rectum.
+      </d:listitem>
+      <d:listitem>
+        Two parabolas have the same vertex and their axes are at right angles. Prove that they cut again at
+        an angle <m>$\tan^{-1}\frac{3}{4}$</m>.
+      </d:listitem>
+      <d:listitem>
+        If a tangent to the parabola <m>$y^2 = 4a(x + a)$</m> be at right angles to a tangent to the
+        parabola <m>$y^2 = 4b(x + b)$</m>, show that the locus of the point of intersection of the tangents
+        is the line <m>$x + a + b = 0$</m>, which is the common chord of the two parabolas.
+      </d:listitem>
+      <d:listitem>
+        A tangent to the parabola <m>$y^2 = 8x$</m> makes an angle <m>$45^\circ$</m> with straight line
+        <m>$y = 3x + 5$</m>. Find its equation and its point of contact.
+      </d:listitem>
+      <d:listitem>
+        Two lines are drawn at right angles, one being a tangent to <m>$y^2 = 4ax$</m> and the other to
+        <m>$x^2 = 4by$</m>. Show that the locus of their point of intersection is the curve <m>$(ax +
+        by)(x^2 + y^2) + (bx - ay)^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        Find the equation of the common tangent to the parabola <m>$y^2 = 4ax$</m> and <m>$x^2 = 4by$</m>.
+      </d:listitem>
+      <d:listitem>
+        If the tangents at point <m>$P$</m> and <m>$Q$</m> on the parabola <m>$y^2 = 4ax$</m> meet at
+        <m>$R$</m> and <m>$S$</m> is the focus, prove that <m>$SR^2 = SP.SQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        If <m>$A\left(at_1^2, 2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m> be the two points
+        on the parabola <m>$y^2 = 4ax$</m> and <m>$AB$</m> cuts the <m>$x$</m>-axis at <m>$C$</m> such that
+        <m>$AB:AC = 3:1$</m>, show that <m>$t_2 = -2t_1$</m>. Also show that the locus of the point of
+        intersection of the tangents at <m>$A$</m> and <m>$B$</m>is <m>$2y^2 = -ax$</m>.
+      </d:listitem>
+      <d:listitem>
+        Through the vertex <m>$O$</m> of the parabola <m>$y^2 = 4ax$</m> two chords <m>$OA$</m> and
+        <m>$OB$</m> are drawn and the circle on <m>$OA$</m> and <m>$OB$</m> as diameters intersect in
+        <m>$C$</m>. If <m>$m-1, m_2$</m> and <m>$m_3$</m> be the slope of tangents to parabolas at
+        <m>$A$</m> and <m>$B$</m> and line <m>$OC$</m> respectively, show that <m>$m_1 + m_2 + 2m_1m_2m_3 =
+        0$</m>.
       </d:listitem>
     </d:orderedlist>
   </d:sect1>
