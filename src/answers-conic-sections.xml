@@ -6,6 +6,7 @@
   <d:title>Answers of Conic Sections</d:title>
   <d:orderedlist>
     <d:listitem>
+      <!-- 1 -->
       Let <m>$P(x, y)$</m> be any point on the parabola. Then the distance of <m>$P$</m> from the focus is
       equal to its distance from the directrix. Thus,
       <d:para>
@@ -19,6 +20,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 2 -->
       <d:para>
         Let vertex <m>$A$</m> is <m>$(2, 1)$</m> and focus <m>$S$</m> is <m>$(1, -1)$</m>. Let the axis meet
         the directrix in <m>$Q$</m>.
@@ -55,6 +57,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 3 -->
       <d:para>
         Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
       </d:para>
@@ -72,6 +75,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 4 -->
       <d:para>
         Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
       </d:para>
@@ -86,6 +90,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 5 -->
       Let <m>$P(x, y)$</m> be any point on the parabola. Then the distance of <m>$P$</m> from the focus is
       equal to its distance from the directrix. Thus,
       <d:para>
@@ -99,6 +104,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 6 -->
       <d:para>
         Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
       </d:para>
@@ -114,6 +120,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 7 -->
       <d:para>
         Let <m>$P(x, y)$</m> be any point on the parabola. By definition,
       </d:para>
@@ -128,6 +135,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 8 -->
       <d:para>
         The vertex is <m>$V(0,1)$</m> and the focus is <m>$F(0, 0)$</m>.
       </d:para>
@@ -149,6 +157,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 9 -->
       <d:para>
         Let the vertex be <m>$(h, k)$</m>. Since the vertex lies on the tangent <m>$x - y + 1 = 0$</m>,
       </d:para>
@@ -189,6 +198,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 10 -->
       <d:para>
         The vertex is <m>$V(-2, 2)$</m> and the focus is <m>$F(-6, -6)$</m>.
       </d:para>
@@ -223,6 +233,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 11 -->
       <d:para>
         Since the axis is parallel to the <m>$y$</m>-axis, let the equation of the parabola be <m>$y = ax^2
         + bx + c$</m>.
@@ -256,6 +267,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 12 -->
       <d:para>
         Given, <m>$y^2 - 4y - 2x - 8 = 0$</m>.
       </d:para>
@@ -279,6 +291,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 13 -->
       <d:para>
         Given, <m>$2y^2 + 3y - 4x - 3 = 0$</m>.
       </d:para>
@@ -305,6 +318,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 14 -->
       <d:para>
         Given, <m>$4y^2 + 12x - 20y  +67=0$</m>. Completing the square, <m>$4(y^2 - 5y) = -12x - 67$</m>,
       </d:para>
@@ -329,6 +343,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 15 -->
       <d:para>
         Given, <m>$3x^2 + 12x + 8y = 0$</m>. Completing the square, <m>$(x + 2)^2 = -\frac{8}{3}\left(y -
         \frac32\right)$</m>.
@@ -345,6 +360,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 16 -->
       <d:para>
         The focus of the parabola <m>$x^2 = 4ay$</m> is <m>$(0, a)$</m>.
       </d:para>
@@ -369,6 +385,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 17 -->
       <d:para>
         Let the extremities of the double ordinate be <m>$(at^2, 2at)$</m> and <m>$(at^2, -2at)$</m>.
       </d:para>
@@ -390,6 +407,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 18 -->
       <d:para>
         The given parametric equations are <m>$x = u\cos\alpha\,t, y=u\sin\alpha\,t - \frac12gt^2$</m>.
       </d:para>
@@ -422,6 +440,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 19 -->
       <d:para>
         Given parabola is <m>$y^2 = 4ax\ldots$</m> (1)
       </d:para>
@@ -457,6 +476,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 20 -->
       <d:para>
         Let the prabola be <m>$y^2 = 4ax\ldots$</m> (1)
       </d:para>
@@ -488,6 +508,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 21 -->
       <d:para>
         Given parabola is <m>$y^2 = 4ax\ldots$</m> (1)
       </d:para>
@@ -523,6 +544,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 22 -->
       <d:para>
         Let the parabola be <m>$y^2 = 4ax\ldots$</m> (1)
       </d:para>
@@ -554,6 +576,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 23 -->
       <d:para>
         Given parabola is <m>$y^2 = 4ax\ldots$</m> (1)
       </d:para>
@@ -578,6 +601,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 24 -->
       <d:para>
         The line <m>$y =mx + \frac{2a}{m}$</m> is a tangemt to the given parabola whatever <m>$m$</m> may
         be.
@@ -601,6 +625,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 25 -->
       <d:para>
         By solving the two equations, we get the coordinates of the point of intersection. They are <m>$(0,
         0)$</m> and <m>$A\left(4a^{1/3}b^{2/3},4a^{2/3}b^{1/3}\right)$</m>. Obviously at <m>$(0, 0)$</m> the
@@ -623,6 +648,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 26 -->
       <d:para>
         Given parabola is <m>$y^2 = 4ax\ldots$</m> (1)
       </d:para>
@@ -649,6 +675,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 27 -->
       <d:para>
         The equation of the normal at the point <m>$\left(at_1^2, 2at_1\right)$</m> is <m>$y - 2at_1 =
         -t_1\left(x - at_1^2\right)\ldots$</m> (1)
@@ -662,6 +689,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 28 -->
       <d:para>
         Let the normals at <m>$P, Q$</m> meet at <m>$R(x_1, y_1)$</m> i.e. <m>$\left(at_3^2,
         2at_3\right)$</m>.
@@ -698,6 +726,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 29 -->
       <d:para>
         The parabola is <m>$y^2 = 8x$</m>, which is of the form $y^2 = 4ax$. Hence, <m>$4a = 8 \Rightarrow a
         = 2$</m>.
@@ -722,6 +751,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 30 -->
       <d:para>
         The ends of the latus rectum of the parabola <m>$y^2 = 4ax$</m> are <m>$(a, 2a)$</m> and <m>$(a,
         -2a)$</m>.
@@ -742,6 +772,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 31 -->
       <d:para>
         The given parabola is <m>$y^2 = 16x$</m>. Comparing it with the standard form <m>$y^2 = 4ax$</m>, we
         obtain <m>$a=4$</m>.
@@ -768,6 +799,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 32 -->
       <d:para>
         The equations of the tangents at <m>$P\left(at_1^2, 2at_1\right)$</m> and <m>$Q\left(at_2^2,
         2at_2\right)$</m> are <m>$t_1y = x + at_1^2$</m> and <m>$t_2y = x + at_2^2$</m>.
@@ -790,6 +822,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 33 -->
       <d:para>
         Let the tangents touch the parabola <m>$y^2 = 4ax$</m> at <m>$P\left(at_1^2, 2at_1\right)$</m> and
         <m>$Q\left(at_2^2, 2at_2\right)$</m>.
@@ -815,6 +848,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 34 -->
       <d:para>
         Let the tangents touch the parabola <m>$y^2 = 4ax$</m> at $P(at_1^2,2at_1)$ and $Q(at_2^2,2at_2)$.
       </d:para>
@@ -837,6 +871,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 35 -->
       <d:para>
         Consider the parabola <m>$y^2 = 4ax$</m>. Let the points of contact of the tangents be
         <m>$P\left(at_1^2,\,2at_1\right)$</m> and <m>$Q\left(at_2^2,\,2at_2\right)$</m>.
@@ -877,6 +912,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 36 -->
       <d:para>
         The points corresponding to the parameters <m>$t_1$</m> and <m>$t_2$</m> are
         <m>$P\left(at_1^2,\,2at_1\right)$</m> and <m>$Q\left(at_2^2,\,2at_2\right)$</m>, respectively.
@@ -901,6 +937,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 37 -->
       <d:para>
         Here, <m>$y^2 = 8x$</m> gives <m>$a = 2$</m> on comparison with <m>$y^2 = 4ax$</m>.
       </d:para>
@@ -931,6 +968,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 38 -->
       <d:para>
         The parabola is <m>$y^2 = 4ax$</m>, where <m>$4a = k$</m>.
       </d:para>
@@ -957,6 +995,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 39 -->
       <d:para>
         Let the tangents touch the parabola <m>$y^2=4ax$</m> at the points corresponding to the parameters
         <m>$t_1$</m> and <m>$t_2$</m>.
@@ -990,6 +1029,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 40 -->
       <d:para>
         The given parabola is <m>$y^2 = 4x$</m>, so <m>$a = 1$</m>. Since <m>$(9,-6)$</m> lies on the
         parabola, its parameter is
@@ -1004,6 +1044,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 41 -->
       <d:para>
         For <m>$y^2 = 4x$</m>, we have <m>$a = 1$</m>. The normal at the point corresponding to the
         parameter <m>$t$</m> is <m>$y = -tx + 2t + t^3$</m>.
@@ -1025,6 +1066,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 42 -->
       <d:para>
         For the line <m>$x + 3y + 1 = 0$</m>, the slope is <m>$-\frac13$</m>. Hence the required normal has
         slope <m>$3$</m>.
@@ -1041,6 +1083,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 43 -->
       <d:para>
         The line is <m>$\frac{x}{a} + \dfrac{y}{b} = 1$</m>, or <m>$bx + ay - ab = 0$</m>, whose slope is
         <m>$-\frac{b}{a}$</m>.
@@ -1058,6 +1101,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 44 -->
       <d:para>
         The normal at <m>$\left(am^2,\,-2am\right)$</m> is <m>$y = mx - 2am - am^3$</m>.
       </d:para>
@@ -1079,6 +1123,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 45 -->
       <d:para>
         Let the parameters of the feet of the two normals from <m>$P\left(at^2,\,2at\right)$</m> be
         <m>$\lambda_1$</m> and <m>$\lambda_2$</m>.
@@ -1103,6 +1148,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 46 -->
       <d:para>
         Let the parameters of <m>$P$</m>, <m>$Q$</m> and <m>$R$</m> be <m>$t_1, t_2, t_3$</m>. Since their
         normals pass through the same point <m>$A(h,k)$</m>,
@@ -1134,6 +1180,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 47 -->
       <d:para>
         Let the parabola be <m>$y^2 = 4ax$</m> and let the point be <m>$\left(at^2,\,2at\right)$</m>. Since
         its ordinate equals its abscissa,
@@ -1168,6 +1215,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 48 -->
       <d:para>
         Let the normals be at the points corresponding to the parameters <m>$t_1$</m> and <m>$t_2$</m>,
         meeting at <m>$(h,\,k)$</m>. Their equations are <m>$y = -tx + 2at + at^3$</m>.
@@ -1191,6 +1239,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 49 -->
       <d:para>
         Let the normals from <m>$P(h,\, k)$</m> correspond to the parameters <m>$t_1, t_2, t_3$</m>.
       </d:para>
@@ -1221,6 +1270,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 50 -->
       <d:para>
         The normals at the parameters <m>$t_1,\,t_2,\,t_3$</m> are <m>$y = -t_ix + 2at_i + at_i^3$</m>,
         where <m>$i=1,\,2,\,3$</m>.
@@ -1244,6 +1294,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 51 -->
       <d:para>
         Let the given line touch the parabola <m>$y^2 = 4ax$</m> at the point corresponding to the parameter
         <m>$t$</m>. Its equation is <m>$ty = x + at^2$</m>, or <m>$x - ty + at^2 = 0$</m>.
@@ -1267,6 +1318,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 52 -->
       <d:para>
         The given line may be written as <m>$x + \tan\alpha\,y - p\sec\alpha=0$</m>.
       </d:para>
@@ -1288,6 +1340,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 53 -->
       <d:para>
         The parabola is <m>$y^2 = 4a(x + a)$</m>, i.e., <m>$y^2 = 4aX$</m>, where <m>$X = x + a$</m>.
       </d:para>
@@ -1308,6 +1361,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 54 -->
       <d:para>
         The parabola is <m>$y^2 = 4a(x - b)$</m>. Let the given line touch it at the point corresponding to
         the parameter <m>$t$</m>. Its tangent is <m>$x - ty - b + at^2 = 0$</m>.
@@ -1328,6 +1382,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 55 -->
       <d:para>
         The given line is <m>$x - 2y + 4a = 0$</m>. Comparing it with the tangent <m>$x - ty + at^2 = 0$</m>
         to the parabola <m>$y^2 = 4ax$</m>, we have
@@ -1344,6 +1399,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 56 -->
       <d:para>
         Let the chords from the vertex join the points corresponding to the parameters <m>$t_1$</m> and
         <m>$t_2$</m>. Since the chords are perpendicular,
@@ -1370,6 +1426,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 57 -->
       <d:para>
         The tangents at the points corresponding to the parameters <m>$t_1,t_2,t_3$</m> are <m>$ty = x +
         at^2$</m>.
@@ -1402,6 +1459,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 58 -->
       <d:para>
         Let the chord through the vertex join the vertex and the point corresponding to the parameter
         <m>$t$</m>. Its midpoint is
@@ -1418,6 +1476,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 59 -->
       <d:para>
         If <m>$\left(at_1^2,\,2at_1\right)$</m> is one end of a focal chord, then the parameter of the other end
         is <m>$-\frac{1}{t_1}$</m>.
@@ -1444,6 +1503,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 60 -->
       <d:para>
         The chord joining <m>$(x_1,y_1)$</m> and <m>$(x_2,y_2)$</m> is <m>$y - y_1 = \frac{y_2 - y_1}{x_2 -
         x_1}(x - x_1)$</m>.
@@ -1465,6 +1525,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 61 -->
       <d:para>
         The extremities of the latus rectum are <m>$(1, 2)$</m> and <m>$(1, -4)$</m>. Their midpoint is the
         focus, <m>$S=\left(1,-1\right)$</m>.
@@ -1485,6 +1546,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 62 -->
       <d:para>
         Let the equation of the parabola be <m>$(y - k)^2 = \pm4a(x - h)$</m>. Since <m>$(3, 5)$</m> and
         <m>$(3, -3)$</m> are the extremities of the latus rectum, both lie on the parabola.
@@ -1503,6 +1565,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 63 -->
       <d:para>
         Since the axis is the <m>$x$</m>-axis, let the equation be <m>$y^2 = 4a(x - h)$</m>.
       </d:para>
@@ -1520,6 +1583,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 64 -->
       <d:para>
         Since the axis is parallel to the <m>$x$</m>-axis, let the equation of the parabola be <m>$(y - k)^2
         = 4a(x - h)$</m>.
@@ -1551,6 +1615,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 65 -->
       <d:para>
         The equation can be rewritten as <m>$9y^2 - 12y = 16x + 57 \Rightarrow \left(y -
         \frac{2}{3}\right)^2 = \frac{16}{9}\left(x + \frac{61}{16}\right)$</m>, which is of the form <m>$Y^2
@@ -1572,6 +1637,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 66 -->
       <d:para>
         Required locus is <m>$\sqrt{x^2 + y^2} + |x - 2| = 4$</m>. Thus,
       </d:para>
@@ -1590,6 +1656,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 67 -->
       <d:para>
         The given parabola is <m>$(y - 1)^2 = 4(x - 2)$</m>. Comparing with the standard form <m>$(y - k)^2
         = 4a(x - h)$</m>, we get <m>$h = 2$</m>, <m>$k = 1$</m> and <m>$a = 1$</m>.
@@ -1602,6 +1669,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 68 -->
       <d:para>
         The given parabola is <m>$5x^2 + 30x + 2y + 59 = 0$</m>.
       </d:para>
@@ -1623,6 +1691,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 69 -->
       <d:para>
         <d:figure xml:id="csa4">
           <d:title></d:title>
@@ -1669,6 +1738,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 70 -->
       <d:para>
         Given parabola is <m>$y^2 = 4ax$</m>. Let <m>$QP$</m> and <m>$PR$</m> be the incident and reflected
         rays respectively.
@@ -1713,6 +1783,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 71 -->
       <d:para>
         Let <m>$A = \left(at_1^2, 2at_1\right), B = \left(at_2^2, 2at_2\right), C = \left(at_3^2,
         2at_3\right)$</m>.
@@ -1744,6 +1815,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 72 -->
       <d:para>
         Given parabola is <m>$y^2 = 12x\ldots$</m> (1). This is of the form <m>$y^2 = 4ax$</m> where <m>$a =
         3$</m>.
@@ -1770,6 +1842,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 73 -->
       <d:para>
         Given parabola is <m>$y^2 - 16x - 8y = 0\ldots$</m> (1)
       </d:para>
@@ -1798,6 +1871,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 74 -->
       <d:para>
         Given parabola is <m>$x^2 = 8y\ldots$</m> (1)
       </d:para>
@@ -1838,6 +1912,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 75 -->
       <d:para>
         Let the extremities of the chord be the points with parameters <m>$t_1$</m> and <m>$t_2$</m>. Since
         the chord subtends a right angle at the vertex <m>$(0, 0)$</m>,
@@ -1854,6 +1929,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 76 -->
       <d:para>
         Let <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent at
         <m>$P$</m> is <m>$ty = x + at^2$</m>.
@@ -1884,6 +1960,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 77 -->
       <d:para>
         Let <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent at
         <m>$P$</m> is <m>$ty = x + at^2$</m>.
@@ -1913,6 +1990,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 78 -->
       <d:para>
         Let <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent at
         <m>$P$</m> is <m>$ty = x + at^2$</m>, or <m>$x - ty + at^2 = 0$</m>.
@@ -1938,6 +2016,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 79 -->
       <d:para>
         Let the tangent at the point <m>$P\left(at^2, 2at\right)$</m> of the parabola <m>$y^2 = 4ax$</m> be
         <m>$ty = x + at^2$</m>.
@@ -1956,6 +2035,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 80 -->
       <d:para>
         Let the tangents be at the points with parameters <m>$t_1$</m> and <m>$t_2$</m>. Their equations are
         <m>$t_1y = x + at_1^2$</m> and <m>$t_2y  =x + at_2^2$</m>.
@@ -1985,6 +2065,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 81 -->
       <d:para>
         Let the tangent be at the point with parameter <m>$t$</m>, and let <m>$P$</m> and <m>$Q$</m>
         correspond to the parameters <m>$t_1$</m> and <m>$t_2$</m>.
@@ -2016,6 +2097,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 82 -->
       <d:para>
         Let the tangent be at the point <m>$P\left(at^2, 2at\right)$</m>. Its equation is <m>$ty = x +
         at^2$</m>.
@@ -2037,6 +2119,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 83 -->
       <d:para>
         The tangents at the points <m>$t_1$</m>, <m>$t_2$</m> and <m>$t_3$</m> are <m>$t_1y = x +
         at_1^2,\qquad t_2y = x + at_2^2,\qquad t_3y = x + at_3^2$</m>.
@@ -2076,6 +2159,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 84 -->
       <d:para>
         Let the slopes be <m>$m_1, m_2, m_3$</m>, which are in H.P. Therefore <m>$\frac{1}{m_2} -
         \frac{1}{m_1} = \frac{1}{m_3} - \frac{1}{m_2} = d$</m>(let)
@@ -2091,6 +2175,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 85 -->
       <d:para>
         Let <m>$P\left(at^2,\,2at\right)$</m> be any point on the parabola <m>$y^2 = 4ax$</m>. The tangent
         at <m>$P$</m> is <m>$ty = x + at^2$</m>.
@@ -2110,6 +2195,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 86 -->
       <d:para>
         Let three points corresponding to three tangents be <m>$t_1, t_2, t_3$</m>. Tangents at these points
         is given by <m>$t_iy = x + at_i^2$</m> where <m>$i = 1, 2, 3$</m>.
@@ -2144,6 +2230,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 87 -->
       <d:para>
         Points of the parabola <m>$y^{2} = 4ax$</m> may be written as <m>$x = at^{2}$</m>, <m>$y=2at$</m>,
         where <m>$t$</m> is a parameter. The tangent to the parabola at the point <m>$t$</m> is <m>$ty = x +
@@ -2210,6 +2297,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 88 -->
       <d:para>
         Consider any point <m>$\left(at^2, 2at\right)$</m> on the parabola. The tangent in given by <m>$yt =
         x + at^2$</m>, which cuts the directrix <m>$x = -a$</m> at <m>$\left(-a, \frac{a(t^2 -
@@ -2224,6 +2312,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 89 -->
       <d:para>
         Take the two parabolas as <m>$y^2 = 4ax$</m> and <m>$x^2 = 4by$</m>, having the same vertex and
         perpendicular axes.
@@ -2261,6 +2350,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 90 -->
       <d:para>
         Let the parabolas be <m>$y^2 = 4ax$</m> and <m>$x^2=4ay$</m>.
       </d:para>
@@ -2291,6 +2381,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 91 -->
       <d:para>
         Let the tangents to the parabolas <m>$y^2 = 4a(x + a)$</m> and <m>$y^2 = 4b(x + b)$</m> be at the
         parameters <m>$t_1$</m> and <m>$t_2$</m> respectively.
@@ -2328,6 +2419,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 92 -->
       <d:para>
         The parabola is <m>$y^2 = 8x$</m>, so <m>$a = 2$</m>. The tangent at parameter <m>$t$</m> is <m>$ty
         = x + 2t^2$</m>.
@@ -2359,6 +2451,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 93 -->
       <d:para>
         Any tangent to the parabola <m>$y^2 = 4ax$</m> with slope <m>$m$</m> can be written in its standard
         slope form as: <m>$y = mx + \frac{a}{m}\ldots$</m> (1)
@@ -2422,6 +2515,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 94 -->
       <d:para>
         The general equation of any tangent to the parabola <m>$y^2 = 4ax$</m> in terms of its slope
         <m>$m$</m> is <m>$y = mx + \frac{a}{m}$</m>
@@ -2462,6 +2556,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 95 -->
       <d:para>
         Let the parabola be <m>$y^2 = 4ax$</m> with focus <m>$S(a, 0)$</m>. We define two points on the
         parabola using parametric coordinates: <m>$P\left(at_1^2, 2at_1\right)$ and $Q\left(at_2^2,
@@ -2490,6 +2585,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 96 -->
       <d:para>
         Since point <m>$C$</m> lies on the <m>$x$</m>-axis, its <m>$y$</m>-coordinate is <m>$0$</m>.
       </d:para>
@@ -2528,6 +2624,7 @@
       </d:para>
     </d:listitem>
     <d:listitem>
+      <!-- 97 -->
       <d:para>
         Let the vertex be <m>$O(0, 0)$</m>, and the points on the parabola <m>$y^2 = 4ax$</m> be
         <m>$A\left(at_1^2, 2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m>.
@@ -2559,6 +2656,1175 @@
       </d:para>
       <d:para>
         <m>$m_3 = -\frac{m_1 + m_2}{2m_1m_2}$</m> <m>$\implies m_1 + m_2 + 2m_1m_2m_3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 98 -->
+      <d:para>
+        The equation of a normal to the parabola <m>$y^2 = 4ax$</m> in terms of its slope <m>$m$</m> is
+        <m>$y = mx - 2am - am^3$</m>. If this normal passes through a specific point <m>$(h, k)$</m>, the
+        coordinates must satisfy the equation <m>$k = mh - 2am - am^3$</m>. Rearranging these terms gives a
+        cubic equation in <m>$m$</m>, which is <m>$am^3 + (2a - h)m + k = 0$</m>.
+      </d:para>
+      <d:para>
+        Since it is a cubic equation, it has three roots <m>$m_1$</m>, <m>$m_2$</m>, and <m>$m_3$</m>
+        representing the slopes of the three possible normals. According to Vieta's formulas, the relations
+        are <m>$m_1 + m_2 + m_3 = 0$</m>, <m>$m_1m_2 + m_2m_3 + m_3m_1 = \frac{2a - h}{a}$</m>, and
+        <m>$m_1m_2m_3 = -\frac{k}{a}$</m>.
+      </d:para>
+      <d:para>
+        We are given that two of the lines are perpendicular to each other. Let these slopes be <m>$m_1$</m>
+        and <m>$m_2$</m>, meaning <m>$m_1m_2 = -1$</m>. Substituting <m>$m_1m_2 = -1$</m> into the product
+        of the roots relation gives <m>$-1 \cdot m_3 = -\frac{k}{a}$</m>, which simplifies to <m>$m_3 =
+        \frac{k}{a}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$m_3 = \frac{k}{a}$</m> is a root of the original cubic equation, it must satisfy it
+        directly, giving <m>$a\left(\frac{k}{a}\right)^3 + (2a - h)\left(\frac{k}{a}\right) + k =
+        0$</m>. Simplifying the fractions yields <m>$\frac{k^3}{a^2} + \frac{(2a - h)k}{a} + k =
+        0$</m>. Factoring out <m>$k$</m> (assuming <m>$k \neq 0$</m> for a non-trivial locus) leaves
+        <m>$\frac{k^2}{a^2} + \frac{2a - h}{a} + 1 = 0$</m>. Combining the constant fractions results in
+        <m>$\frac{k^2}{a^2} + \frac{3a - h}{a} = 0$</m>. Multiplying by <m>$a^2$</m> gives <m>$k^2 + a(3a -
+        h) = 0$</m>, which rearranges to <m>$k^2 = a(h - 3a)$</m>.
+      </d:para>
+      <d:para>
+        Replacing the arbitrary point <m>$(h, k)$</m> with the general locus coordinates <m>$(x, y)$</m>
+        gives us <m>$y^2 = a(x - 3a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 99 -->
+      <d:para>
+        Let the coordinates of the points <m>$P$</m> and <m>$Q$</m> on the parabola <m>$y^2 = 4ax$</m> be
+        <m>$P\left(at_1^2, 2at_1\right)$</m> and <m>$Q\left(at_2^2, 2at_2\right)$</m>, where <m>$t_1$</m>
+        and <m>$t_2$</m> are the parameters. The vertex of the parabola is the origin <m>$O(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        The slope of the line <m>$OP$</m> is given by <m>$\frac{2at_1 - 0}{at_1^2 - 0} = \frac{2}{t_1}$</m>,
+        and the slope of the line <m>$OQ$</m> is given <m>by $\frac{2at_2 - 0}{at_2^2 - 0} =
+        \frac{2}{t_2}$</m>. Since the chord <m>$PQ$</m> subtends a right angle at the vertex <m>$O$</m>, the
+        lines <m>$OP$</m> and <m>$OQ$</m> are perpendicular to each other. Therefore, the product of their
+        slopes must be <m>$-1$</m>, which gives <m>$\left(\frac{2}{t_1}\right) \cdot
+        \left(\frac{2}{t_2}\right) = -1$</m>, leading to the condition <m>$t_1t_2 = -4$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(x, y)$</m> be the coordinates of the point of intersection of the normals drawn at
+        <m>$P$</m> and <m>$Q$</m>. The standard formula for the point of intersection of two normals at
+        parameters <m>$t_1$</m> and <m>$t_2$</m> on the parabola <m>$y^2 = 4ax$</m> gives <m>$x = 2a +
+        a\left(t_1^2 + t_2^2 + t_1t_2\right)$</m> and <m>$y = -at_1t_2(t_1 + t_2)$</m>.
+      </d:para>
+      <d:para>
+        We can rewrite the expression for <m>$x$</m> by completing the square for the parameters, which
+        gives <m>$x = 2a + a\left((t_1 + t_2)^2 - t_1t_2\right)$</m>. Substituting the condition <m>$t_1t_2
+        = -4$</m> into this expression yields <m>$x = 2a + a\left((t_1 + t_2)^2 - (-4)\right)$</m>, which
+        simplifies to <m>$x = 2a + a(t_1 + t_2)^2 + 4a$</m>, or <m>$x = 6a + a(t_1 +
+        t_2)^2$</m>. Rearranging this gives <m>$x - 6a = a(t_1 + t_2)^2$</m>.
+      </d:para>
+      <d:para>
+        Next, we substitute the condition <m>$t_1t_2 = -4$</m> into the expression for <m>$y$</m>, obtaining
+        <m>$y = -a(-4)(t_1 + t_2)$</m>, which simplifies to <m>$y = 4a(t_1 + t_2)$</m>. Squaring both sides
+        of this equation results in <m>$y^2 = 16a^2(t_1 + t_2)^2$</m>, which can be factored as <m>$y^2 =
+        16a \cdot \left[a(t_1 + t_2)^2\right]$</m>.
+      </d:para>
+      <d:para>
+        Finally, substituting the relation <m>$a(t_1 + t_2)^2 = x - 6a$</m> into the equation for
+        <m>$y^2$</m> eliminates the parameters <m>$t_1$</m> and <m>$t_2$</m>. This yields <m>$y^2 = 16a(x -
+        6a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 100 -->
+      <d:para>
+        Let <m>$(h, k)$</m> be the point from which three normals are drawn to <m>$y^2 = 4ax$</m>. Their
+        slopes <m>$m_1, m_2, m_3$</m> are the roots of the cubic equation <m>$am^3 + (2a - h)m + k = 0$</m>.
+      </d:para>
+      <d:para>
+        By Vieta's relations, <m>$m_1 + m_2 + m_3 = 0$</m> implies <m>$m_1 + m_3 = -m_2$</m>.
+      </d:para>
+      <d:para>
+        A normal line cuts the <m>$x$</m>-axis at <m>$\left(2a + am^2, 0\right)$</m>. The distances from the
+        vertex are <m>$2a + am_1^2, 2a + am_2^2$</m>, and <m>$2a + am_3^2$</m>. Since these distances are in
+        Arithmetic Progression, we have <m>$m_1^2 + m_3^2 = 2m_2^2$</m>.
+      </d:para>
+      <d:para>
+        Rewriting this relation as <m>$(m_1 + m_3)^2 - 2m_1m_3 = 2m_2^2$</m> and substituting <m>$m_1 + m_3
+        = -m_2$</m> gives <m>$m_1m_3 = -\frac{1}{2}m_2^2$</m>.
+      </d:para>
+      <d:para>
+        Using the product of the roots <m>$m_1m_2m_3 = -\frac{k}{a}$</m>, we get
+        <m>$\left(-\frac{1}{2}m_2^2\right)m_2 = -\frac{k}{a}$</m>, which simplifies to <m>$m_2^3 =
+        \frac{2k}{a}$</m>, or <m>$am_2^3 = 2k$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$m_2$</m> satisfies the original cubic equation, <m>$am_2^3 + (2a - h)m_2 + k =
+        0$</m>. Substituting <m>$am_2^3 = 2k$</m> yields <m>$3k + (2a - h)m_2 = 0$</m>, which gives <m>$m_2
+        = \frac{3k}{h - 2a}$</m>.
+      </d:para>
+      <d:para>
+        Substituting this into <m>$m_2^3 = \frac{2k}{a}$</m> gives <m>$\left(\frac{3k}{h - 2a}\right)^3 =
+        \frac{2k}{a}$</m>. Simplifying the terms leads to <m>$27ak^2 = 2(h - 2a)^3$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m> proves the locus is <m>$27ay^2 =
+        2(x - 2a)^3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 101 -->
+      <d:para>
+        The equation of the normal to the parabola <m>$y^2 = 4ax$</m> at the parametric point <m>$t_1$</m>
+        is given by <m>$y = -t_1x + 2at_1 + at_1^3$</m>. For the given parabola <m>$y^2 = 4x$</m>, the value
+        of the parameter is <m>$a = 1$</m>, so the normal equation simplifies to <m>$y = -t_1x + 2t_1 +
+        t_1^3$</m>.
+      </d:para>
+      <d:para>
+        If this normal line meets the curve again at a second point <m>$t_2$</m>, the coordinates of the
+        point <m>$\left(t_2^2, 2t_2\right)$</m> must satisfy the line equation. Substituting these coordinates
+        gives <m>$2t_2 = -t_1(t_2^2) + 2t_1 + t_1^3$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms to group the differences yields <m>$2t_2 - 2t_1 = -t_1t_2^2 + t_1^3$</m>,
+        which can be factored as <m>$2(t_2 - t_1) = -t_1\left(t_2^2 - t_1^2\right)$</m>. Factoring the
+        difference of squares gives <m>$2(t_2 - t_1) = -t_1(t_2 - t_1)(t_2 + t_1)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$t_1$</m> and <m>$t_2$</m> represent two distinct intersection points on the parabola, we
+        know <m>$t_2 \neq t_1$</m>. Dividing both sides of the equation by the non-zero term <m>$(t_2 -
+        t_1)$</m> leaves <m>$2 = -t_1(t_1 + t_2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 102 -->
+      <d:para>
+        Let the coordinates of the points <m>$P$</m> and <m>$Q$</m> on the parabola <m>$y^2 = 4ax$</m> be
+        <m>$P\left(at_1^2, 2at_1\right)$</m> and <m>$Q\left(at_2^2, 2at_2\right)$</m>. The tangents at
+        <m>$P$</m> and <m>$Q$</m> intersect at the point <m>$T(at_1t_2, a(t_1 + t_2))$</m>.
+      </d:para>
+      <d:para>
+        The point of intersection <m>$R$</m> of the normals drawn at <m>$P$</m> and <m>$Q$</m> is given by
+        <m>$R(2a + a(t_1^2 + t_2^2 + t_1t_2), -at_1t_2(t_1 + t_2))$</m>. Since <m>$R$</m> lies on the
+        parabola <m>$y^2 = 4ax$</m>, its coordinates must satisfy the curve equation, giving
+        <m>$[-at_1t_2(t_1 + t_2)]^2 = 4a[2a + a(t_1^2 + t_2^2 + t_1t_2)]$</m>. Simplifying this algebraic
+        relation yields <m>$a^2(t_1t_2 - 2)(t_1^2 + t_1t_2 + 2)(t_1t_2 + t_2^2 + 2) = 0$</m>. For real and
+        distinct points, this gives the necessary condition <m>$t_1t_2 = 2$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(h, k)$</m> be the center of the circumcircle of <m>$\triangle TPQ$</m>. The circumcenter of
+        the triangle formed by two tangents and their chord of contact on a parabola has coordinates <m>$h =
+        \frac{a}{2}(t_1^2 + 2t_1t_2 + t_2^2 + 2)$</m> and <m>$k = \frac{a}{2}(t_1 + t_2)(1 - t_1t_2)$</m>.
+      </d:para>
+      <d:para>
+        Substituting the condition <m>$t_1t_2 = 2$</m> into the expression for <m>$k$</m> gives <m>$k =
+        \frac{a}{2}(t_1 + t_2)(1 - 2)$</m>, which simplifies to <m>$k = -\frac{a}{2}(t_1 + t_2)$</m>, or
+        <m>$t_1 + t_2 = -\frac{2k}{a}$</m>.
+      </d:para>
+      <d:para>
+        Next, rewriting the expression for <m>$h$</m> gives <m>$h = \frac{a}{2}((t_1 + t_2)^2 +
+        2)$</m>. Substituting <m>$t_1 + t_2 = -\frac{2k}{a}$</m> into this equation yields <m>$h =
+        \frac{a}{2}\left(\left(-\frac{2k}{a}\right)^2 + 2\right)$</m>, which simplifies to <m>$h =
+        \frac{2k^2}{a} + a$</m>. Rearranging the terms to isolate the squared variable gives <m>$2k^2 = a(h
+        - a)$</m>.
+      </d:para>
+      <d:para>
+        Replacing the arbitrary point <m>$(h, k)$</m> with the general locus coordinates <m>$(x, y)$</m>
+        shows that the center of the circumcircle lies on the curve <m>$2y^2 = a(x - a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 103 -->
+      <d:para>
+        The given parabola is <m>$x^2 = 8y$</m>, which is of the form <m>$x^2 = 4by$</m> where <m>$b =
+        2$</m>.
+      </d:para>
+      <d:para>
+        The equation of a normal to the vertical parabola <m>$x^2 = 4by$</m> in terms of its slope
+        <m>$m$</m> is given by <m>$y = mx + 2b + \frac{b}{m^2}$</m>. For <m>$b = 2$</m>, this normal
+        equation becomes <m>$y = mx + 4 + \frac{2}{m^2}$</m>.
+      </d:para>
+      <d:para>
+        If this normal passes through a specific intersection point <m>$(h, k)$</m>, the coordinates must
+        satisfy the line equation, yielding <m>$k = mh + 4 + \frac{2}{m^2}$</m>. Rearranging this equation
+        to eliminate the fraction gives <m>$m^2(k - 4) = m^3h + 2$</m>, which forms the cubic equation in
+        <m>$m$</m>: <m>$hm^3 - (k - 4)m^2 + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$m_1, m_2, m_3$</m> be the roots of this cubic equation, representing the slopes of the three
+        possible normals drawn from <m>$(h, k)$</m>. According to Vieta's formulas: <m>$m_1 + m_2 + m_3 =
+        \frac{k - 4}{h}$</m>, <m>$m_1m_2 + m_2m_3 + m_3m_1 = 0$</m>, and <m>$m_1m_2m_3 = -\frac{2}{h}$</m>.
+      </d:para>
+      <d:para>
+        We are given that two of these normals are perpendicular to each other. Let these slopes be
+        <m>$m_1$</m> and <m>$m_2$</m>, which gives the condition <m>$m_1m_2 = -1$</m>. Substituting this
+        into the product of the roots relation gives <m>$(-1) \cdot m_3 = -\frac{2}{h}$</m>, which
+        simplifies to <m>$m_3 = \frac{2}{h}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$m_3 = \frac{2}{h}$</m> is a root of the original cubic equation, it must satisfy it
+        directly, giving <m>$h\left(\frac{2}{h}\right)^3 - (k - 4)\left(\frac{2}{h}\right)^2 + 2 =
+        0$</m>. Simplifying the fractions yields <m>$\frac{8}{h^2} - \frac{4(k - 4)}{h^2} + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$h^2$</m> to clear the denominators gives <m>$8 - 4(k - 4) +
+        2h^2 = 0$</m>. Expanding and simplifying the constant terms results in <m>$8 - 4k + 16 + 2h^2 =
+        0$</m>, which reduces to <m>$2h^2 - 4k + 24 = 0$</m>. Dividing the equation by <m>$2$</m> yields
+        <m>$h^2 - 2k + 12 = 0$</m>, or <m>$h^2 = 2(k - 6)$</m>.
+      </d:para>
+      <d:para>
+        Replacing the arbitrary point <m>$(h, k)$</m> with the general locus coordinates <m>$(x, y)$</m>
+        gives the final algebraic relation <m>$x^2 = 2(y - 6)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 104 -->
+      <d:para>
+        Given the parabola <m>$y^2 = 4ax$</m>, the length of the latus rectum is <m>$4a$</m>.
+      </d:para>
+      <d:para>
+        The abscissa of <m>$P$</m> is <m>$4a$</m>. Substituting into the parabola equation: <m>$y^2 = 4a(4a)
+        = 16a^2 \implies y = 4a \implies P = (4a, 4a)$</m>. This corresponds to the parametric value <m>$t_1
+        = 2$</m>.
+      </d:para>
+      <d:para>
+        The equation of the tangent at <m>$t_1 = 2$</m> is: <m>$2y = x + 4a$</m> Setting <m>$y = 0$</m>
+        (axis intersection <m>$T$</m>): <m>$x = -4a \implies T = (-4a, 0)$</m>
+      </d:para>
+      <d:para>
+        The normal at <m>$t_1$</m> meets the curve again at <m>$t_2$</m>: <m>$t_2 = -t_1 - \frac{2}{t_1} =
+        -2 - \frac{2}{2} = -3$</m>. The coordinates of <m>$Q\left(at_2^2, 2at_2\right)$</m> are <m>$Q = (9a,
+        -6a)$</m>
+      </d:para>
+      <d:para>
+        Using the distance formula: <m>$PT = \sqrt{(4a - (-4a))^2 + (4a - 0)^2} = \sqrt{64a^2 + 16a^2} =
+        4\sqrt{5}a$</m> and <m>$PQ = \sqrt{(9a - 4a)^2 + (-6a - 4a)^2} = \sqrt{25a^2 + 100a^2} = 5\sqrt{5}a$</m>
+      </d:para>
+      <d:para>
+        Taking the ratio: <m>$\frac{PT}{PQ} = \frac{4\sqrt{5}a}{5\sqrt{5}a} = \frac{4}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 105 -->
+      <d:para>
+        Any general point (the foot of the normal) on the parabola <m>$y^2 = 4ax$</m> can be expressed in
+        terms of the parameter <m>$t$</m> as: <m>$x = at^2, \quad y = 2at$</m>
+      </d:para>
+      <d:para>
+        The standard equation of the normal to the parabola <m>$y^2 = 4ax$</m> at the point <m>$\left(at^2,
+        2at\right)$</m> is given by: <m>$y = -tx + 2at + at^3$</m>
+      </d:para>
+      <d:para>
+        Since the normal is drawn from the point <m>$(h, k)$</m>, this point must lie on the normal
+        line. Substituting <m>$x = h$</m> and <m>$y = k$</m> into the normal equation yields: <m>$k = -th +
+        2at + at^3$</m>
+      </d:para>
+      <d:para>
+        Now, we can express the parameter <m>$t$</m> in terms of the coordinates <m>$(x, y)$</m> of the foot
+        of the normal. Since <m>$y = 2at$</m>, we have: <m>$t = \frac{y}{2a}$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$t = \frac{y}{2a}$</m> and <m>$at^2 = x$</m> into the relation <m>$k = -th + 2at +
+        at^3$</m>: <m>$k = -\left(\frac{y}{2a}\right)h + 2a\left(\frac{y}{2a}\right) +
+        \left(\frac{y}{2a}\right)(at^2)$</m>
+      </d:para>
+      <d:para>
+        <m>$k = -\frac{hy}{2a} + y + \frac{y}{2a}(x)$</m>
+      </d:para>
+      <d:para>
+        To clear the fraction, multiply the entire equation by <m>$2a$</m>: <m>$2ak = -hy + 2ay + xy$</m>
+      </d:para>
+      <d:para>
+        Rearranging all terms to one side of the equation: <m>$xy - hy + 2ay - 2ak = 0$</m>
+      </d:para>
+      <d:para>
+        Factoring out <m>$y$</m> from the middle terms gives: <m>$xy - (h - 2a)y - 2ak = 0$</m>
+      </d:para>
+      <d:para>
+        Since <m>$(x, y)$</m> represents the coordinates of the feet of the normals, the locus of these points
+        satisfies the required equation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 106 -->
+      <d:para>
+        The standard equation of a normal to the parabola <m>$y^2 = 4ax$</m> in terms of slope parameter
+        <m>$t$</m> is: <m>$y = -tx + 2at + at^3$</m>
+      </d:para>
+      <d:para>
+        If this normal passes through a given point <m>$(h, k)$</m>, the coordinates must satisfy the
+        equation: <m>$k = -th + 2at + at^3$</m>
+      </d:para>
+      <d:para>
+        Rearranging this expression into a standard cubic equation in terms of <m>$t$</m> yields: <m>$at^3 +
+        (2a - h)t - k = 0$</m>
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$a$</m> simplifies it to: <m>$t^3 + \left(\frac{2a -
+        h}{a}\right)t - \frac{k}{a} = 0$</m>
+      </d:para>
+      <d:para>
+        This is a cubic equation of the form <m>$t^3 + pt + q = 0$</m>, where: <m>$p = \frac{2a - h}{a},
+        \quad q = -\frac{k}{a}$</m>
+      </d:para>
+      <d:para>
+        For two of the three normals to coincide, the cubic equation in <m>$t$</m> must have two equal
+        roots. The mathematical condition for a cubic equation <m>$t^3 + pt + q = 0$</m> to have repeated
+        roots is given by its discriminant condition: <m>$4p^3 + 27q^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Substituting the expressions for <m>$p$</m> and <m>$q$</m> into this condition: <m>$4\left(\frac{2a
+        - h}{a}\right)^3 + 27\left(-\frac{k}{a}\right)^2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\implies 4\frac{(2a - h)^3}{a^3} + \frac{27k^2}{a^2} = 0$</m>
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$a^3$</m> to clear the denominators: <m>$4(2a - h)^3 + 27ak^2
+        = 0$</m>
+      </d:para>
+      <d:para>
+        Rearranging the terms gives: <m>$27ak^2 = -4(2a - h)^3$</m>
+      </d:para>
+      <d:para>
+        Reversing the terms inside the cube changes the sign, which simplifies to: <m>$27ak^2 = 4(h -
+        2a)^3$</m>
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with the general coordinates <m>$(x, y)$</m> gives the required locus of
+        the points. Hence, the locus is: <m>$27ay^2 = 4(x - 2a)^3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 107 -->
+      <d:para>
+        Let the points <m>$P, Q$</m>, and <m>$R$</m> on the parabola <m>$y^2 = 4ax$</m> have aparameters
+        <m>$t_1$</m>, <m>$t_2$</m>, and <m>$t_3$</m> respectively. Their coordinates can be written as:
+        <m>$P = \left(at_1^2, 2at_1\right), \quad Q = \left(at_2^2, 2at_2\right), \quad R = \left(at_3^2,
+        2at_3\right)$</m>
+      </d:para>
+      <d:para>
+        The equation of the normal to the parabola at any point with parameter <m>$t$</m> is given by: <m>$y
+        = -tx + 2at + at^3 \implies at^3 + (2a - x)t - y = 0$</m>
+      </d:para>
+      <d:para>
+        If the normals at <m>$P(t_1)$</m> and <m>$Q(t_2)$</m> intersect at the point <m>$R(t_3)$</m> which
+        lies on the parabola, then <m>$R$</m> is the point of concurrence for these normals. Thus,
+        <m>$t_1$</m>, <m>$t_2$</m>, and <m>$t_3$</m> must be the three roots of the cubic equation generated
+        by substituting the coordinates of <m>$R(at_3^2, 2at_3)$</m> into the general normal equation:
+        <m>$at^3 + (2a - at_3^2)t - 2at_3 = 0$</m>
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$a$</m> gives: <m>$t^3 + (2 - t_3^2)t - 2t_3 = 0$</m>
+      </d:para>
+      <d:para>
+        Since this is a standard cubic equation in <m>$t$</m>, the coefficient of the <m>$t^2$</m> term is
+        <m>$0$</m>. By Vieta's formulas, the sum of the roots of this cubic equation must equal zero:
+        <m>$t_1 + t_2 + t_3 = 0$</m>
+      </d:para>
+      <d:para>
+        The ordinate (<m>$y$</m>-coordinate) of the centroid <m>$G$</m> of <m>$\triangle PQR$</m> is the
+        average of the ordinates of its three vertices: <m>$y_G = \frac{2at_1 + 2at_2 + 2at_3}{3}$</m>
+      </d:para>
+      <d:para>
+        Factoring out <m>$2a$</m>: <m>$y_G = \frac{2a}{3}(t_1 + t_2 + t_3)$</m>. <m>Substituting $t_1 + t_2
+        + t_3 = 0$</m> into the centroid ordinate expression: <m>$y_G = \frac{2a}{3}(0) = 0$</m>
+      </d:para>
+      <d:para>
+        Since the <m>$y$</m>-coordinate of the centroid is <m>$0$</m>, the centroid lies on the line <m>$y =
+        0$</m>, which is the axis of the parabola.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 108 -->
+      <d:para>
+        Let the feet of the three normals be <m>$P\left(at_1^2, 2at_1\right)$</m>, <m>$Q\left(at_2^2,
+        2at_2\right)$</m>, and <m>$R\left(at_3^2, 2at_3\right)$</m>, where <m>$t_1, t_2, t_3$</m> are the
+        parameters of the points.
+      </d:para>
+      <d:para>
+        The standard equation of a normal to the parabola passing through <m>$(h, k)$</m> is <m>$k = -th +
+        2at + at^3$</m>
+      </d:para>
+      <d:para>
+        Rearranging this into a cubic equation in terms of <m>$t$</m> gives <m>$t^3 + \left(\frac{2a -
+        h}{a}\right)t - \frac{k}{a} = 0$</m>
+      </d:para>
+      <d:para>
+        This cubic equation is of the form <m>$t^3 + pt + q = 0$</m>, where: <m>$p = \frac{2a - h}{a}, \quad
+        q = -\frac{k}{a}$</m>
+      </d:para>
+      <d:para>
+        By Vieta's formulas, the roots <m>$t_1, t_2, t_3$</m> satisfy: <m>$t_1 + t_2 + t_3 = 0$</m>,
+        <m>$t_1t_2 + t_2t_3 + t_3t_1 = p$</m> and <m>$t_1t_2t_3 = -q$</m>.
+      </d:para>
+      <d:para>
+        The area <m>$\Delta$</m> of the triangle formed by the vertices <m>$\left(at_1^2, 2at_1\right)$</m>,
+        <m>$\left(at_2^2, 2at_2\right)$</m>, and <m>$\left(at_3^2, 2at_3\right)$</m> is given by the
+        determinant formula: <m>$\Delta = \frac{1}{2} \begin{vmatrix} at_1^2 &amp; 2at_1 &amp; 1 \\ at_2^2
+        &amp; 2at_2 &amp; 1 \\ at_3^2 &amp; 2at_3 &amp; 1 \end{vmatrix} = a^2 \begin{vmatrix} t_1^2 &amp;
+        t_1 &amp; 1 \\ t_2^2 &amp; t_2 &amp; 1 \\ t_3^2 &amp; t_3 &amp; 1 \end{vmatrix}$</m>
+      </d:para>
+      <d:para>
+        Evaluating this standard Vandermonde determinant yields: <m>$\Delta = a^2 |(t_1 - t_2)(t_2 -
+        t_3)(t_3 - t_1)|$</m>
+      </d:para>
+      <d:para>
+        Squaring both sides to simplify the expression: <m>$\Delta^2 = a^4 (t_1 - t_2)^2 (t_2 - t_3)^2 (t_3
+        - t_1)^2$</m>
+      </d:para>
+      <d:para>
+        The product of the squared differences of the roots of a cubic equation <m>$t^3 + pt + q = 0$</m> is
+        equal to its discriminant, which is given by: <m>$(t_1 - t_2)^2 (t_2 - t_3)^2 (t_3 - t_1)^2 = -4p^3
+        - 27q^2$</m>
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$p$</m> and <m>$q$</m> into this formula: <d:sbr/><m>$\Delta^2 = a^4 \left[
+        -4\left(\frac{2a - h}{a}\right)^3 - 27\left(-\frac{k}{a}\right)^2 \right]$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta^2 = a^4 \left[ \frac{4(h - 2a)^3}{a^3} - \frac{27k^2}{a^2} \right]$</m>
+      </d:para>
+      <d:para>
+        Multiplying <m>$a^4$</m> inside the brackets: <m>$\Delta^2 = a \cdot 4(h - 2a)^3 - a^2 \cdot
+        27k^2$</m>
+      </d:para>
+      <d:para>
+        <m>$\Delta^2 = 4a(h - 2a)^3 - 27a^2k^2$</m>
+      </d:para>
+      <d:para>
+        Taking the square root of both sides gives the required area: <d:sbr/><m>$\Delta = \sqrt{4a(h - 2a)^3 -
+        27a^2k^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 109 -->
+      <d:para>
+        The general equation of any normal to the parabola <m>$y^2 = 4ax$</m> in terms of its slope
+        <m>$m$</m> is given by: <m>$y = mx - 2am - am^3$</m>
+      </d:para>
+      <d:para>
+        This normal intersects the axis of the parabola (<m>$x$</m>-axis, where <m>$y = 0$</m>) at a point
+        <m>$G$</m>. Setting <m>$y = 0$</m> in the normal equation: <m>$0 = mx - 2am - am^3 \implies mx = 2am
+        + am^3 \implies x = 2a + am^2$</m>
+      </d:para>
+      <d:para>
+        Thus, the coordinates of the intersection point <m>$G$</m> are: <m>$G = (2a + am^2, 0)$</m>
+      </d:para>
+      <d:para>
+        We are given that a line is drawn through <m>$G$</m> perpendicular to this normal line. Since the
+        slope of the original normal line is <m>$m$</m>, the slope of this perpendicular line must be the
+        negative reciprocal: <m>$m' = -\frac{1}{m}$</m>
+      </d:para>
+      <d:para>
+        Using the point-slope form, the equation of this perpendicular line passing through <m>$G\left(2a +
+        am^2, 0\right)$</m> is: <m>$y - 0 = -\frac{1}{m}\left(x - (2a + am^2)\right)$</m>
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$m$</m>: <m>$my = -x + 2a + am^2$</m>
+      </d:para>
+      <d:para>
+        Rearranging the terms to express <m>$x$</m> explicitly: <m>$x - 2a = am^2 - my$</m>
+      </d:para>
+      <d:para>
+        Let <m>$M = -m$</m>, which implies <m>$m = -M$</m> and <m>$m^2 = M^2$</m>. Substituting these
+        variables into the equation: <m>$x - 2a = aM^2 + My \implies aM^2 + My - (x - 2a) = 0$</m>
+      </d:para>
+      <d:para>
+        This is a quadratic equation in terms of the parameter <m>$M$</m>. For this line to touch a envelope
+        curve (the required parabola), the discriminant of this quadratic equation with respect to
+        <m>$M$</m> must equal zero: <m>$\text{Discriminant } (D) = B^2 - 4AC = 0$</m>
+      </d:para>
+      <d:para>
+        Here, the coefficients are <m>$A = a$</m>, <m>$B = y$</m>, and <m>$C = -(x - 2a)$</m>. Substituting
+        these values: <m>$y^2 - 4(a)(-(x - 2a)) = 0$</m>
+      </d:para>
+      <d:para>
+        Simplifying the signs and expanding the equation: <m>$y^2 + 4a(x - 2a) = 0$</m>
+      </d:para>
+      <d:para>
+        Since the envelope of these lines satisfies this quadratic condition, the perpendicular line always
+        touches the parabola. Hence, the line always touches the equal parabola: <m>$y^2 + 4a(x - 2a) = 0$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 110 -->
+      <d:para>
+        The normal to <m>$y^2 = 4ax$</m> is <m>$y = mx - 2am - am^3$</m>, which gives <m>$am^3 + (2a - x)m +
+        y = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the roots be <m>$m_1, m_2, m_3$</m>. By Vieta's formulas, <m>$m_1 m_2 m_3 = -\frac{y}{a}$</m>.
+      </d:para>
+      <d:para>
+        Since two normals are perpendicular, <m>$m_1 m_2 = -1$</m>, so <m>$m_3 = \frac{y}{a}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$m_3$</m> into the cubic equation gives <m>$a(\frac{y}{a})^3 + (2a - x)\frac{y}{a} +
+        y = 0$</m>.
+      </d:para>
+      <d:para>
+        Simplifying for <m>$y \neq 0$</m> yields <m>$y^2 = a(x - 3a)$</m>.
+      </d:para>
+      <d:para>
+        For real coordinates, <m>$y^2 \geq 0 \implies a(x - 3a) \geq 0$</m>. Assuming <m>$a > 0$</m>, we get
+        <m>$x \geq 3a$</m>. Thus, the abscissa is never smaller than <m>$3a$</m>.
+      </d:para>
+      <d:para>
+        When <m>$x = 3a$</m>, substituting it back gives <m>$y^2 = a(3a - 3a) = 0 \implies y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 111 -->
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m>. A point <m>$P$</m> on the curve is parameterized by
+        <m>$P\left(at_1^2, 2at_1\right)$</m>, where the tangent slope is <m>$1/t_1$</m> and the normal slope
+        is <m>$m_1 = -t_1$</m>. Given the normal makes an angle <m>$\phi$</m> with the axis, its slope is
+        <m>$\tan\phi = -t_1$</m>, which gives <m>$t_1 = -\tan\phi$</m>.
+      </d:para>
+      <d:para>
+        If this normal cuts the curve again at <m>$Q(t_2)$</m>, the parameters satisfy <m>$t_2 = -t_1 -
+        2/t_1$</m>. Substituting <m>$t_1 = -\tan\phi$</m> yields <m>$t_2 = \tan\phi + 2/\tan\phi$</m>.
+      </d:para>
+      <d:para>
+        The tangent slope at <m>$Q(t_2)$</m> is <m>$m_2 = 1/t_2$</m>, and the normal line slope is <m>$m_1 =
+        \tan\phi$</m>. The intersection angle <m>$\theta$</m> between the normal line and the curve
+        satisfies <m>$\tan\theta = |(m_1 - m_2)/(1 + m_1 m_2)| = |(t_2\tan\phi - 1)/(t_2 + \tan\phi)|$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$t_2 = \tan\phi + 2/\tan\phi$</m> into the expression simplifies the numerator to
+        <m>$(\tan\phi + 2/\tan\phi)\tan\phi - 1 = \tan^2\phi + 1$</m>, and the denominator to <m>$(\tan\phi
+        + 2/\tan\phi) + \tan\phi = 2(\tan^2\phi + 1)/\tan\phi$</m>.
+      </d:para>
+      <d:para>
+        Combining these values yields <m>$\tan\theta = |(\tan^2\phi + 1) / [2(\tan^2\phi + 1)/\tan\phi]| =
+        \frac{1}{2}\tan\phi$</m>. Taking the inverse tangent proves <m>$\theta =
+        \tan^{-1}\left(\frac{1}{2}\tan\phi\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 112 -->
+      <d:para>
+        Let the normal at <m>$P\left(at_1^2, 2at_1\right)$</m> on <m>$y^2 = 4ax$</m> cut the curve again at
+        <m>$Q\left(at_2^2, 2at_2\right)$</m>, satisfying <m>$t_2 = -t_1 - 2/t_1$</m>. Because <m>$PQ$</m>
+        subtends a right angle at vertex <m>$V(0, 0)$</m>, the product of the slopes of <m>$VP$</m> and
+        <m>$VQ$</m> is <m>$(2/t_1)(2/t_2) = -1$</m>, yielding <m>$t_1 t_2 = -4$</m>.
+      </d:para>
+      <d:para>
+        Substituting the chord relation gives <m>$t_1(-t_1 - 2/t_1) = -4$</m>, which simplifies to <m>$t_1^2
+        = 2$</m> or <m>$t_1 = \pm\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$t_1 = \pm\sqrt{2}$</m> into the standard normal equation <m>$y + t_1x = 2at_1 +
+        at_1^3$</m> gives <m>$y \pm \sqrt{2}x = \pm 2\sqrt{2}a \pm 2\sqrt{2}a = \pm
+        4\sqrt{2}a$</m>. Rearranging for <m>$y$</m> yields the final equations: <m>$y = \mp\sqrt{2}(x -
+        4a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 113 -->
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m>. Let the normals at <m>$P(t_1)$</m> and <m>$Q(t_2)$</m>
+        intersect at a third point <m>$R(t_3)$</m> on the parabola.
+      </d:para>
+      <d:para>
+        Using the standard normal re-intersection property for points <m>$P$</m> and <m>$Q$</m> meeting at
+        <m>$R$</m>, we have <m>$t_3 = -t_1 - 2/t_1$</m> and <m>$t_3 = -t_2 - 2/t_2$</m>. Equating these two
+        expressions gives <m>$-t_1 - 2/t_1 = -t_2 - 2/t_2$</m>. Rearranging terms yields <m>$t_2 - t_1 =
+        2/t_1 - 2/t_2 = 2(t_2 - t_1)/(t_1 t_2)$</m>. Since <m>$P$</m> and <m>$Q$</m> are distinct points
+        (<m>$t_1 \neq t_2$</m>), dividing by <m>$t_2 - t_1$</m> results in <m>$t_1 t_2 = 2$</m>.
+      </d:para>
+      <d:para>
+        The equation of the chord joining <m>$P(t_1)$</m> and <m>$Q(t_2)$</m> is given by <m>$y(t_1 + t_2) =
+        2x + 2at_1 t_2$</m>. To find where this line cuts the axis of the parabola (<m>$y = 0$</m>), we
+        substitute <m>$y = 0$</m> into the chord equation, which gives <m>$0 = 2x + 2at_1 t_2$</m>, or <m>$x
+        = -a(t_1 t_2)$</m>.
+      </d:para>
+      <d:para>
+        Substituting the relation <m>$t_1 t_2 = 2$</m> yields <m>$x = -2a$</m>. Thus, the line <m>$PQ$</m>
+        always cuts the axis at the fixed point <m>$(-2a, 0)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 114 -->
+      <d:para>
+        Let the extremities of the focal chord be <m>$P(t_1)$</m> and <m>$Q(t_2)$</m> on the parabola
+        <m>$y^2 = 4ax$</m>. Since <m>$PQ$</m> is a focal chord, its parameters satisfy the condition <m>$t_1
+        t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        The point of intersection <m>$(x, y)$</m> of the normals drawn at <m>$P(t_1)$</m> and
+        <m>$Q(t_2)$</m> is given by the standard formulas <m>$x = 2a + a\left(t_1^2 + t_2^2 + t_1
+        t_2\right)$</m> and <m>$y = -a t_1 t_2 (t_1 + t_2)$</m>. Substituting <m>$t_1 t_2 = -1$</m> into
+        these expressions simplifies the coordinates to <m>$x = 2a + a\left(t_1^2 + t_2^2 - 1\right) =
+        a\left(t_1^2 + t_2^2 + 1\right)$</m> and <m>$y = a(t_1 + t_2)$</m>.
+      </d:para>
+      <d:para>
+        To eliminate the parameters, we square the expression for <m>$y$</m>, giving <m>$y^2 = a^2(t_1 +
+        t_2)^2 = a^2\left(t_1^2 + t_2^2 + 2t_1 t_2\right)$</m>. Substituting <m>$t_1 t_2 = -1$</m> again
+        yields <m>$y^2 = a^2\left(t_1^2 + t_2^2 - 2\right)$</m>, which can be rewritten to express the
+        squared terms as <m>$t_1^2 + t_2^2 = y^2/a^2 + 2$</m>.
+      </d:para>
+      <d:para>
+        Finally, substituting this value of <m>$t_1^2 + t_2^2$</m> back into the expression for <m>$x$</m>
+        gives <m>$x = a\left(y^2/a^2 + 2 + 1\right) = y^2/a + 3a$</m>. Multiplying by <m>$a$</m> and
+        rearranging terms gives the required locus of the point of intersection as <m>$y^2 = a(x - 3a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 115 -->
+      <d:para>
+        Let <m>$P = (\alpha, \beta)$</m>. Let the tangents from <m>$P$</m> to the parabola touch the
+        parabola at <m>$A\left(at_1^2, 2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P(\alpha, \beta)$</m> is the point of intersection of the tangents at <m>$A$</m> and
+        <m>$B$</m>, therefore, <m>$\alpha = at_1t_2$</m> and <m>$\beta = a(t_1 + t_2)$</m>.
+      </d:para>
+      <d:para>
+        <m>$AB = \sqrt{a^2\left(t_1^2 - t_2^2\right)^2 + 4a^2(t_1 - t_2)^2} = |a(t_1 - t_2)|\sqrt{(t_1 +
+        t_2)^2 + 4}$</m>
+      </d:para>
+      <d:para>
+        <m>$= |a|\sqrt{(t_1 + t_2)^2 - 4t_1t_2}\sqrt{\frac{\beta^2}{\alpha^2} + 4} =
+        \frac{\sqrt{\left(\beta^2 - 4a\alpha\right)\left(\beta^2 + 4a^2\right)}}{|a|}$</m>
+      </d:para>
+      <d:para>
+        Also, equation of <m>$AB$</m> is <m>$y\beta - 2a(x + \alpha) = 0$</m>
+      </d:para>
+      <d:para>
+        Lenth of perpendicular from <m>$P$</m> is <m>$\frac{|\beta.\beta - 2a(\alpha +
+        \alpha)|}{\sqrt{\beta^2 + 4a^2}} = \frac{\beta^2 - 4a\alpha}{\sqrt{\beta^2 +
+        4a^2}}$</m>[<m>$\because P$</m> lies outside the parabola, <m>$\therefore \beta^2 - 4a\alpha >
+        0$</m>]
+      </d:para>
+      <d:para>
+        <m>$\Delta PAB = \frac{\left|a^2(t_1 + t_2)^2 - 4a^2t_1t_2\right|^\frac{3}{2}}{2|a|} =
+        \frac{a^2}{2}|t_1 - t_2|^3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 116 -->
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m> with directrix <m>$x = -a$</m>. Let <m>$A\left(at^2,
+        2at\right)$</m> and <m>$B\left(a/t^2, -2a/t\right)$</m> be endpoints of a focal chord <m>$AB$</m>,
+        satisfying <m>$t_1t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        The circle with diameter <m>$AB$</m> is given by: <m>$(x - at^2)(x - a/t^2) + (y - 2at)(y + 2a/t) = 0$</m>
+      </d:para>
+      <d:para>
+        Substitute the directrix equation <m>$x = -a$</m> into the circle equation: <m>$(-a - at^2)(-a -
+        a/t^2) + (y - 2at)(y + 2a/t) = 0$</m>
+      </d:para>
+      <d:para>
+        Simplify the first term: <m>$a^2(1 + t^2)(1 + 1/t^2) = a^2(t + 1/t)^2 = a^2(t - 1/t)^2 + 4a^2$</m>
+      </d:para>
+      <d:para>
+        Expand the second term: <m>$y^2 - 2ay(t - 1/t) - 4a^2$</m>
+      </d:para>
+      <d:para>
+        Combine and simplify both terms: <m>$a^2(t - 1/t)^2 + 4a^2 + y^2 - 2ay(t - 1/t) - 4a^2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\implies y^2 - 2ay(t - 1/t) + a^2(t - 1/t)^2 = 0$</m>
+      </d:para>
+      <d:para>
+        <m>$\implies (y - a(t - 1/t))^2 = 0$</m>
+      </d:para>
+      <d:para>
+        This yields a single repeated root <m>$y = a(t - 1/t)$</m>. Since the line <m>$x = -a$</m>
+        intersects the circle at exactly one unique point, the directrix is tangent to the circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 117 -->
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m> with directrix <m>$x = -a$</m>. Let <m>$A\left(at_1^2,
+        2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m> be the extremities of a focal chord
+        <m>$AB$</m>. Since <m>$AB$</m> passes through the focus <m>$(a,0)$</m>, we have the condition
+        <m>$t_1t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        The equation of the tangent to the parabola at any point <m>$P\left(at^2, 2at\right)$</m> is given
+        by: <m>$ty = x + at^2$</m>
+      </d:para>
+      <d:para>
+        Therefore, the equations of the tangents at the endpoints <m>$A$</m> and <m>$B$</m> are: <m>$t_1y =
+        x + at_1^2 \quad\ldots \text{ (1)}$</m> and <m>$t_2y = x + at_2^2 \quad \ldots\text{ (2)}$</m>
+      </d:para>
+      <d:para>
+        Subtracting equation (2) from equation (1) yields: <m>$(t_1 - t_2)y = a(t_1^2 - t_2^2)$</m>
+        <m>$\implies (t_1 - t_2)y = a(t_1 - t_2)(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$t_1 \neq t_2$</m>, we divide by <m>$(t_1 - t_2)$</m> to find the <m>$y$</m>-coordinate of
+        the intersection point: <m>$y = a(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        Substituting this value of $y$ back into equation (1) gives the x-coordinate: <m>$t_1[a(t_1 + t_2)]
+        = x + at_1^2$</m> <m>$\implies at_1^2 + at_1t_2 = x + at_1^2$</m><m>$\implies x = at_1t_2$</m>
+      </d:para>
+      <d:para>
+        Using the focal chord condition <m>$t_1t_2 = -1$</m>, the <m>$x$</m>-coordinate simplifies to: <m>$x
+        = -a$</m>
+      </d:para>
+      <d:para>
+        Since <m>$x = -a$</m> is the equation of the directrix, the point of intersection <m>$(-a, a(t_1 +
+        t_2))$</m> lies on the directrix.
+      </d:para>
+      <d:para>
+        The slopes of the tangents at <m>$A$</m> and <m>$B$</m> are <m>$m_1 = 1/t_1$</m> and <m>$m_2 =
+        1/t_2$</m>, respectively. The product of their slopes is: <m>$m_1 \cdot m_2 = \frac{1}{t_1} \cdot
+        \frac{1}{t_2} = \frac{1}{t_1t_2} = \frac{1}{-1} = -1$</m>
+      </d:para>
+      <d:para>
+        Since the product of the slopes is <m>$-1$</m>, the two tangents intersect each other at a right angle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 118 -->
+      <d:para>
+        Let the parabola be <m>$y^2 = 4ax$</m>. The extremities of the focal chord are <m>$A\left(at_1^2,
+        2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m>, which satisfies <m>$t_1 t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        The circle with diameter <m>$AB$</m> is given by <m>$(x - at_1^2)(x - at_2^2) + (y - 2at_1)(y -
+        2at_2) = 0$</m>
+      </d:para>
+      <d:para>
+        Expanding and substituting <m>$t_1 t_2 = -1$</m> yields <m>$x^2 + y^2 - a\left(t_1^2 + t_2^2\right)x
+        - 2a(t_1 + t_2)y - 3a^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Substituting the parametric point <m>$(at^2, 2at)$</m> into the circle gives the intersection points
+        <m>$t^4 + \left[4 - \left(t_1^2 + t_2^2\right)\right]t^2 - 4(t_1 + t_2)t - 3 = 0$</m>
+      </d:para>
+      <d:para>
+        Let the roots be <m>$t_1, t_2, t_3, t_4$</m>, where <m>$t_3, t_4$</m> correspond to points <m>$P,
+        Q$</m>. By Vieta's formulas: <m>$t_1 + t_2 + t_3 + t_4 = 0 \implies t_3 + t_4 = -(t_1 + t_2)$</m>,
+        <m>$t_1 t_2 t_3 t_4 = -3 \implies (-1)t_3 t_4 = -3 \implies t_3 t_4 = 3$</m>
+      </d:para>
+      <d:para>
+        The equation of the chord <m>$PQ$</m> is <m>$2x - (t_3 + t_4)y + 2at_3 t_4 = 0$</m>
+      </d:para>
+      <d:para>
+        Substituting the root relations into the chord equation yields <m>$2x + (t_1 + t_2)y + 6a = 0$</m>
+      </d:para>
+      <d:para>
+        Rearranging into a family of lines <m>$(2x + 6a) + (t_1 + t_2)y = 0$</m>
+      </d:para>
+      <d:para>
+        Setting components to zero gives <m>$2x + 6a = 0 \implies x = -3a$</m> and <m>$y = 0$</m>. Thus,
+        <m>$PQ$</m> passes through the fixed point <m>$(-3a, 0)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 119 -->
+      <d:para>
+        Let the given parabola be <m>$y^2 = 2ax$</m>. Comparing this with the standard equation <m>$y^2 =
+        4a_0 x$</m>, the semi-latus rectum parameter is <m>$4a_0 = 2a \implies a_0 = \frac{a}{2}$</m>. The
+        focus <m>$S$</m> is located at <m>$\left(\frac{a}{2}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$A\left(a_0 t_1^2, 2a_0 t_1\right)$</m> and <m>$B\left(a_0 t_2^2, 2a_0 t_2\right)$</m> be the
+        extremities of the focal chord <m>$AB$</m>. Since <m>$AB$</m> passes through the focus, its
+        parameters satisfy <m>$t_1 t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        The focal distance of any point on a parabola equals its distance to the directrix (<m>$x =
+        -a_0$</m>). Therefore, the lengths of the focal segments <m>$l$</m> and <m>$l'$</m> are
+        <m>$l = SA = a_0 t_1^2 + a_0 = a_0(t_1^2 + 1) = \frac{a}{2}(t_1^2 + 1)$</m> and
+        <m>$l' = SB = a_0 t_2^2 + a_0 = a_0(t_2^2 + 1) = \frac{a}{2}(t_2^2 + 1)$</m>
+      </d:para>
+      <d:para>
+        Taking the sum of the reciprocals of these two lengths <m>$\frac{1}{l} + \frac{1}{l'} =
+        \frac{2}{a(t_1^2 + 1)} + \frac{2}{a(t_2^2 + 1)}$</m>
+      </d:para>
+      <d:para>
+        Factoring out $\frac{2}{a}$ and finding a common denominator yields <m>$\frac{1}{l} + \frac{1}{l'} =
+        \frac{2}{a} \left[ \frac{(t_2^2 + 1) + (t_1^2 + 1)}{(t_1^2 + 1)(t_2^2 + 1)} \right]$</m>
+        <m>$\implies \frac{1}{l} + \frac{1}{l'} = \frac{2}{a} \left[ \frac{t_1^2 + t_2^2 + 2}{t_1^2 t_2^2 +
+        t_1^2 + t_2^2 + 1} \right]$</m>
+      </d:para>
+      <d:para>
+        Using the focal chord condition <m>$t_1 t_2 = -1 \implies t_1^2 t_2^2 = 1$</m>, substitute into the
+        denominator <m>$\frac{1}{l} + \frac{1}{l'} = \frac{2}{a} \left[ \frac{t_1^2 + t_2^2 + 2}{1 + t_1^2 +
+        t_2^2 + 1} \right]$</m> <m>$\implies \frac{1}{l} + \frac{1}{l'} = \frac{2}{a} \left[ \frac{t_1^2 +
+        t_2^2 + 2}{t_1^2 + t_2^2 + 2} \right]$</m> <m>$\implies \frac{1}{l} + \frac{1}{l'} =
+        \frac{2}{a}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\frac{1}{l} + \frac{1}{l'} = \frac{2}{a}$</m>, the terms <m>$\frac{1}{l}, \frac{1}{a},
+        \frac{1}{l'}$</m> are in Arithmetic Progression, which directly implies that <m>$l, a, l'$</m> are
+        in Harmonic Progression.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 120 -->
+      <d:para>
+        Let the point of intersection of the tangents at <m>$A$</m> and <m>$B$</m> be <m>$P(h, k)$</m>. If
+        the parametric coordinates of <m>$A$</m> and <m>$B$</m> on the parabola <m>$y^2 = 4ax$</m> are
+        <m>$t_1$</m> and <m>$t_2$</m> respectively, then the intersection point of their tangents is given
+        by <m>$P(h, k) = \big(at_1t_2, a(t_1 + t_2)\big)$</m>
+      </d:para>
+      <d:para>
+        This gives the <m>$y$</m>-coordinate of the intersection point as <m>$k = a(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        Now, let <m>$M(x_1, y_1)$</m> be the midpoint of the chord <m>$AB$</m>. The coordinates of
+        <m>$A$</m> and <m>$B$</m> are <m>$\left(at_1^2, 2at_1\right)$</m> and <m>$\left(at_2^2,
+        2at_2\right)$</m>. The <m>$y$</m>-coordinate of the midpoint <m>$S$</m> is <m>$y_1 = \frac{2at_1 +
+        2at_2}{2} = a(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        Comparing the expressions for <m>$k$</m> and <m>$y_1$</m>, we see that <m>$y_1 = k$</m>
+      </d:para>
+      <d:para>
+        We are given that the midpoint lies on the line <m>$y = \lambda a$</m>, which means <m>$y_1 =
+        \lambda a$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$y_1 = k$</m> into this condition yields <m>$k = \lambda a$</m>. Replacing
+        <m>$k$</m> with <m>$y$</m> to get the equation of the locus <m>$y = \lambda a$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 121 -->
+      <d:para>
+        Let the parametric coordinates of points <m>$P$</m> and <m>$Q$</m> on the parabola be <m>$p$</m> and
+        <m>$q$</m> respectively. Thus, <m>$P = \left(ap^2, 2ap\right)$</m> and <m>$Q = \left(aq^2,
+        2aq\right)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the chord joining <m>$P(p)$</m> and <m>$Q(q)$</m> is given by <m>$2x - (p+q)y + 2apq
+        = 0$</m>
+      </d:para>
+      <d:para>
+        We are given that this line matches <m>$lx + my + na = 0$</m>. Comparing the coefficients of the two
+        equations yields <m>$\frac{2}{l} = \frac{-(p+q)}{m} = \frac{2apq}{na} = \frac{2pq}{n}$</m>
+      </d:para>
+      <d:para>
+        From these ratios, we can express the sum and product of the parameters <m>$p$</m> and <m>$q$</m> as
+        <m>$p+q = -\frac{2m}{l}$</m> and <m>$pq = \frac{n}{l}$</m>
+      </d:para>
+      <d:para>
+        The line joining <m>$P(p)$</m> to the focus <m>$S(a, 0)$</m> meets the parabola again at
+        <m>$R(r)$</m>. Since $PR$ is a focal chord, the parameters satisfy <m>$pr = -1 \implies r =
+        -\frac{1}{p}$</m>
+      </d:para>
+      <d:para>
+        Similarly, the line joining <m>$Q(q)$</m> to the focus meets the parabola again at <m>$T(t)$</m>,
+        making <m>$QT$</m> a focal chord <m>$qt = -1 \implies t = -\frac{1}{q}$</m>
+      </d:para>
+      <d:para>
+        We now find the sum and product of the new parameters <m>$r$</m> and <m>$t$</m>: <m>$r+t =
+        -\frac{1}{p} - \frac{1}{q} = -\frac{p+q}{pq}$</m> and <m>$rt =
+        \left(-\frac{1}{p}\right)\left(-\frac{1}{q}\right) = \frac{1}{pq}$</m>
+      </d:para>
+      <d:para>
+        Substituting the expressions for <m>$p + q$</m> and <m>$pq$</m> in terms of <m>$l, m, n$</m>:
+        <m>$r+t = -\frac{-2m/l}{n/l} = \frac{2m}{n}$</m> and <m>$rt = \frac{1}{n/l} = \frac{l}{n}$</m>
+      </d:para>
+      <d:para>
+        The equation of the chord <m>$RT$</m> joining points with parameters <m>$r$</m> and <m>$t$</m> is
+        <m>$2x - (r+t)y + 2art = 0$</m>
+      </d:para>
+      <d:para>
+        Substitute the values of <m>$r + t$</m> and <m>$rt$</m> into this formula <m>$2x -
+        \left(\frac{2m}{n}\right)y + 2a\left(\frac{l}{n}\right) = 0$</m>
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$\frac{n}{2}$</m> gives the final result <m>$nx - my + la =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 122 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>. Its vertex is at the origin <m>$O(0,
+        0)$</m>, and its focus is <m>$S(a, 0)$</m>.
+      </d:para>
+      <d:para>
+        Let the first focal chord have extremities <m>$A\left(at_1^2, 2at_1\right)$</m> and
+        <m>$B\left(at_2^2, 2at_2\right)$</m>, where <m>$t_1t_2 = -1$</m>. The equation of the circle
+        <m>$C_1$</m> described on <m>$AB$</m> as diameter is <m>$(x - at_1^2)(x - at_2^2) + (y - 2at_1)(y -
+        2at_2) = 0$</m>
+      </d:para>
+      <d:para>
+        Expanding this equation and substituting <m>$t_1t_2 = -1$</m> gives <m>$C_1: x^2 + y^2 - a(t_1^2 +
+        t_2^2)x - 2a(t_1 + t_2)y - 3a^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Let the second focal chord have extremities <m>$D\left(at_3^2, 2at_3\right)$</m> and
+        <m>$E\left(at_4^2, 2at_4\right)$</m>, where <m>$t_3t_4 = -1$</m>. Similarly, the equation of the
+        circle <m>$C_2$</m> described on <m>$DE$</m> as diameter is <m>$C_2: x^2 + y^2 - a(t_3^2 + t_4^2)x -
+        2a(t_3 + t_4)y - 3a^2 = 0$</m>
+      </d:para>
+      <d:para>
+        The equation of the common chord of the two circles is given by <m>$C_1 - C_2 = 0$</m>:
+        <m>$-a\big[(t_1^2 + t_2^2) - (t_3^2 + t_4^2)\big]x - 2a\big[(t_1 + t_2) - (t_3 + t_4)\big]y = 0$</m>
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$-a$</m> (assuming the chords are distinct) yields:
+        <m>$\big[(t_1^2 + t_2^2) - (t_3^2 + t_4^2)\big]x + 2\big[(t_1 + t_2) - (t_3 + t_4)\big]y = 0$</m>
+      </d:para>
+      <d:para>
+        Since there is no constant term in this linear equation, it represents a line passing through the
+        origin. Thus, the common chord always passes through the vertex <m>$(0, 0)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 123 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>. Let <m>$A\left(at_1^2, 2at_1\right)$</m> and
+        <m>$B\left(at_2^2, 2at_2\right)$</m> be the extremities of a focal chord <m>$AB$</m>. Since
+        <m>$AB$</m> passes through the focus, its parameters satisfy the relation: <m>$t_1 t_2 = -1 \implies
+        t_2 = -\frac{1}{t_1}$</m>
+      </d:para>
+      <d:para>
+        The equation of the tangent to the parabola at the point <m>$A(t_1)$</m> is <m>$t_1 y = x + at_1^2
+        \implies y = \frac{1}{t_1}x + at_1$</m>
+      </d:para>
+      <d:para>
+        Thus, the slope of the tangent at <m>$A$</m>, denoted by <m>$m_1$</m>, is <m>$m_1 =
+        \frac{1}{t_1}$</m>
+      </d:para>
+      <d:para>
+        The equation of the normal to the parabola at the other endpoint <m>$B(t_2)$</m> is <m>$y = -t_2 x +
+        2at_2 + at_2^3$</m>
+      </d:para>
+      <d:para>
+        Thus, the slope of the normal at <m>$B$</m>, denoted by <m>$m_2$</m>, is <m>$m_2 = -t_2$</m>
+      </d:para>
+      <d:para>
+        Substituting the focal chord condition <m>$t_2 = -\frac{1}{t_1}$</m> into the expression for
+        <m>$m_2$</m> yields <m>$m_2 = -\left(-\frac{1}{t_1}\right) = \frac{1}{t_1}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$m_1 = m_2$</m>, the slope of the tangent at <m>$A$</m> is equal to the slope of the normal
+        at <m>$B$</m>, proving that the lines are parallel.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 124 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>, whose axis of symmetry is the line <m>$y =
+        0$</m>. Let <m>$A\left(at_1^2, 2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m> be the
+        ends of the focal chord, which satisfies the relation <m>$t_1t_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        The tangents at <m>$A(t_1)$</m> and <m>$B(t_2)$</m> intersect at point <m>$P(h_1, k_1)$</m>. The
+        coordinates of <m>$P$</m> are given by <m>$P = \big(at_1t_2, a(t_1 + t_2)\big)$</m>
+      </d:para>
+      <d:para>
+        Substituting the condition <m>$t_1t_2 = -1$</m>, the coordinates of <m>$P$</m> become <m>$P =
+        \big(-a, a(t_1 + t_2)\big)$</m>
+      </d:para>
+      <d:para>
+        The equations of the normals at <m>$A(t_1)$</m> and <m>$B(t_2)$</m> are <m>$y = -t_1x + 2at_1 +
+        at_1^3$</m> and <m>$y = -t_2x + 2at_2 + at_2^3$</m>
+      </d:para>
+      <d:para>
+        To find the <m>$y$</m>-coordinate of their intersection point <m>$M(h_2, k_2)$</m>, we eliminate $x$
+        by multiplying the first equation by <m>$t_2$</m>, the second equation by <m>$t_1$</m>, and
+        subtracting them <m>$t_2y - t_1y = (2at_1t_2 + at_1^3t_2) - (2at_2t_1 + at_2^3t_1)$</m> <m>$\implies
+        y(t_2 - t_1) = at_1t_2(t_1^2 - t_2^2)$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$t_1t_2 = -1$</m> into the right-hand side gives <m>$y(t_2 - t_1) = -a(t_1 -
+        t_2)(t_1 + t_2) = a(t_2 - t_1)(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$(t_2 - t_1)$</m> yields the <m>$y$</m>-coordinate of <m>$M$</m> is
+        <m>$k_2 = a(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        We observe that the <m>$y$</m>-coordinate of the point of intersection of tangents <m>$P$</m> and
+        the <m>$y$</m>-coordinate of the point of intersection of normals <m>$M$</m> are identical <m>$k_1 =
+        k_2 = a(t_1 + t_2)$</m>
+      </d:para>
+      <d:para>
+        Since both points <m>$P$</m> and <m>$M$</m> share the same <m>$y$</m>-coordinate, the line
+        <m>$PM$</m> is a horizontal line given by the equation <m>$y = a(t_1 + t_2)$</m>. This line is
+        perfectly parallel to the axis of the parabola (<m>$y = 0$</m>).
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 125 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>. The vertex of this parabola is at the origin
+        <m>$O(0, 0)$</m>. Let <m>$M(h, k)$</m> be the midpoint of a variable chord <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        The equation of a chord of a parabola whose midpoint is <m>$(h, k)$</m> is given by <m>$T =
+        S_1$</m>: <m>$yk - 2a(x + h) = k^2 - 4ah \implies yk - 2ax = k^2 - 2ah$</m>
+      </d:para>
+      <d:para>
+        Rearranging this equation to express in terms of <m>$x$</m> and <m>$y$</m>: <m>$\frac{yk - 2ax}{k^2
+        - 2ah} = 1$</m>
+      </d:para>
+      <d:para>
+        To find the combined equation of the lines <m>$OA$</m> and <m>$OB$</m> joining the vertex <m>$O(0,
+        0)$</m> to the intersection points <m>$A$</m> and <m>$B$</m>, we homogenize the parabola equation
+        <m>$y^2 - 4ax = 0$</m>: <m>$y^2 - 4ax\left(\frac{yk - 2ax}{k^2 - 2ah}\right) = 0$</m> <m>$\implies
+        y^2(k^2 - 2ah) - 4akxy + 8a^2x^2 = 0$</m>
+      </d:para>
+      <d:para>
+        Since the chord <m>$AB$</m> subtends a right angle at the vertex <m>$O(0, 0)$</m>, the lines
+        <m>$OA$</m> and <m>$OB$</m> are perpendicular to each other. Therefore, the sum of the coefficients
+        of <m>$x^2$</m> and <m>$y^2$</m> in the homogenized equation must be zero: <m>$\text{Coefficient of
+        } x^2 + \text{Coefficient of } y^2 = 0$</m> <m>$8a^2 + (k^2 - 2ah) = 0$</m>
+      </d:para>
+      <d:para>
+        Rearranging the terms yields <m>$k^2 = 2ah - 8a^2 \implies k^2 = 2a(h - 4a)$</m>
+      </d:para>
+      <d:para>
+        Replacing <m>$h$</m> with <m>$x$</m> and <m>$k$</m> with <m>$y$</m> gives the final equation of the
+        locus <m>$y^2 = 2a(x - 4a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 126 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>. The vertex of this parabola is at the origin
+        <m>$O(0, 0)$</m>. Let the equation of any variable chord <m>$AB$</m> be <m>$lx + my = 1$</m>
+      </d:para>
+      <d:para>
+        To find the combined equation of the lines <m>$OA$</m> and <m>$OB$</m> connecting the vertex to the
+        endpoints of the chord, we homogenize the parabola's equation <m>$y^2 - 4ax = 0$</m> using the line
+        equation <m>$y^2 - 4ax(lx + my) = 0 \implies y^2 - 4alx^2 - 4amxy = 0$</m>
+      </d:para>
+      <d:para>
+        Since the chord <m>$AB$</m> subtends a right angle at the vertex, the lines <m>$OA$</m> and
+        <m>$OB$</m> must be perpendicular. The condition for perpendicularity is that the sum of the
+        coefficients of <m>$x^2$</m> and <m>$y^2$</m> is zero: <m>$(-4al) + 1 = 0 \implies 4al = 1 \implies
+        l = \frac{1}{4a}$</m>
+      </d:para>
+      <d:para>
+        Substituting this value of <m>$l$</m> back into the equation of the variable chord yields
+        <m>$\left(\frac{1}{4a}\right)x + my = 1 \implies x + 4amy = 4a \implies (x - 4a) + m(4ay) = 0$</m>
+      </d:para>
+      <d:para>
+        This matches the family of straight lines equation <m>$L_1 + \lambda L_2 = 0$</m>, where <m>$\lambda
+        = m$</m> is the variable parameter. The fixed point of intersection is found by setting both
+        individual components to zero: <m>$x - 4a = 0 \implies x = 4a$</m> and <m>$4ay = 0 \implies y =
+        0$</m>
+      </d:para>
+      <d:para>
+        Thus, all such chords pass through the fixed point <m>$(4a, 0)$</m>, which lies on the axis of the
+        parabola.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 127 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>. Let <m>$M(x_1, y_1)$</m> be the midpoint of
+        a variable chord <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        The equation of a chord of a parabola with a given midpoint <m>$(x_1, y_1)$</m> is written using the
+        formula <m>$T = S_1$</m>: <m>$yy_1 - 2a(x + x_1) = y_1^2 - 4ax_1 \implies yy_1 - 2ax - 2ax_1 = y_1^2
+        - 4ax_1$</m>
+      </d:para>
+      <d:para>
+        Simplifying this equation by moving the constants together yields <m>$yy_1 - 2ax = y_1^2 - 2ax_1$</m>
+      </d:para>
+      <d:para>
+        We are given that this variable chord always passes through the fixed point <m>$(h,
+        k)$</m>. Therefore, the coordinates <m>$(h, k)$</m> must satisfy the equation of the chord: <m>$ky -
+        2ah = y_1^2 - 2ax_1$</m>
+      </d:para>
+      <d:para>
+        Rearranging the terms to group the variables of the midpoint <m>$(x_1, y_1)$</m> on one side gives
+        <m>$y_1^2 - ky = 2ax_1 - 2ah \implies y_1^2 - ky = 2a(x_1 - h)$</m>
+      </d:para>
+      <d:para>
+        Replacing the midpoint coordinates <m>$(x_1, y_1)$</m> with the general coordinates <m>$(x, y)$</m>
+        gives the final equation of the locus <m>$y^2 - ky = 2a(x - h)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 128 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m> with focus <m>$S(a, 0)$</m>. Let
+        <m>$P\left(at^2, 2at\right)$</m> be any point on the parabola.
+      </d:para>
+      <d:para>
+        The diameter through <m>$P$</m> is a line parallel to the axis of the parabola (<m>$y = 0$</m>),
+        which is represented by the horizontal ray extending to the right from <m>$P$</m>. Let a point on
+        this line be <m>$D(x_D, 2at)$</m> where <m>$x_D \to \infty$</m>. Thus, the vector representing the
+        diameter direction is parallel to the positive <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        The equation of the normal to the parabola at the point <m>$P(t)$</m> is given by <m>$y = -tx + 2at
+        + at^3 \implies tx + y - (2at + at^3) = 0$</m>
+      </d:para>
+      <d:para>
+        Let this normal intersect the axis of the parabola (<m>$y = 0$</m>) at the point <m>$G$</m>. Setting
+        <m>$y = 0$</m> in the normal equation gives <m>$tx = 2at + at^3 \implies x = 2a + at^2$</m>
+      </d:para>
+      <d:para>
+        Thus, the coordinates of <m>$G$ are $(2a + at^2, 0)$</m>.
+      </d:para>
+      <d:para>
+        We compute the lengths of the segments <m>$SG$</m> and <m>$SP$</m>: The distance from the focus
+        <m>$S(a, 0)$</m> to <m>$G\left(2a + at^2, 0\right)$</m> is <m>$SG = (2a + at^2) - a = a + at^2$</m>
+      </d:para>
+      <d:para>
+        The focal distance of the point <m>$P\left(at^2, 2at\right)$</m> is <m>$SP = x_P + a = at^2 + a$</m>
+      </d:para>
+      <d:para>
+        Since <m>$SG = SP$</m>, the triangle <m>$\triangle SPG$</m> is an isosceles triangle. Therefore, the
+        base angles are equal <m>$\angle SPG = \angle SGP$</m>
+      </d:para>
+      <d:para>
+        Since the line <m>$PD$</m> (the diameter) is parallel to the axis of the parabola <m>$SG$</m>, the
+        alternate interior angles formed by the transversal line <m>$PG$</m> (the normal) are equal
+        <m>$\angle DPG = \angle SGP$</m>
+      </d:para>
+      <d:para>
+        Comparing the two angle relations, we find that <m>$\angle SPG = \angle DPG$</m>
+      </d:para>
+      <d:para>
+        This proves that the normal <m>$PG$</m> bisects the angle <m>$\angle SPD$</m> between the focal
+        radius <m>$SP$</m> and the diameter <m>$PD$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 129 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m>. Let the ends of the rod be
+        <m>$A\left(at_1^2, 2at_1\right)$</m> and <m>$B\left(at_2^2, 2at_2\right)$</m>. The length of the rod
+        <m>$AB$</m> is given as <m>$2l$</m>, so <m>$AB^2 = 4l^2$</m>.
+      </d:para>
+      <d:para>
+        Using the distance formula for <m>$A$</m> and <m>$B$</m>: <m>$\left(at_1^2 - at_2^2\right)^2 +
+        (2at_1 - 2at_2)^2 = 4l^2\implies a^2(t_1 - t_2)^2(t_1 + t_2)^2 + 4a^2(t_1 - t_2)^2 = 4l^2$</m>
+      </d:para>
+      <d:para>
+        Factoring out <m>$a^2(t_1 - t_2)^2$</m> from the left side yields <m>$a^2(t_1 - t_2)^2 \big[(t_1 +
+        t_2)^2 + 4\big] = 4l^2$</m>
+      </d:para>
+      <d:para>
+        Let <m>$M(h, k)$</m> be the midpoint of the rod <m>$AB$</m>. Using the midpoint formula: <m>$h =
+        \frac{at_1^2 + at_2^2}{2} \implies t_1^2 + t_2^2 = \frac{2h}{a}$</m> and <m>$k = \frac{2at_1 +
+        2at_2}{2} = a(t_1 + t_2) \implies t_1 + t_2 = \frac{k}{a}$</m>
+      </d:para>
+      <d:para>
+        We can express <m>$(t_1 - t_2)^2$</m> using the identity <m>$(t_1 - t_2)^2 = 2\left(t_1^2 +
+        t_2^2\right) - (t_1 + t_2)^2$</m>: <m>$(t_1 - t_2)^2 = 2\left(\frac{2h}{a}\right) -
+        \left(\frac{k}{a}\right)^2 = \frac{4h}{a} - \frac{k^2}{a^2} = \frac{4ah - k^2}{a^2}$</m>
+      </d:para>
+      <d:para>
+        Now, substitute the expressions for <m>$(t_1 - t_2)^2$</m> and <m>$(t_1 + t_2)$</m> back into the
+        length relation: <m>$a^2 \left(\frac{4ah - k^2}{a^2}\right) \left[\left(\frac{k}{a}\right)^2 +
+        4\right] = 4l^2\implies (4ah - k^2) \left[\frac{k^2 + 4a^2}{a^2}\right] = 4l^2$</m>
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$a^2$</m> gives: <m>$\left(4ah - k^2\right)\left(k^2 + 4a^2\right) =
+        4a^2l^2$</m>
+      </d:para>
+      <d:para>
+        Replacing the midpoint coordinates <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m> gives
+        the final equation of the locus <m>$\left(4ax - y^2\right)\left(y^2 + 4a^2\right) = 4a^2l^2$</m>.
       </d:para>
     </d:listitem>
   </d:orderedlist>
