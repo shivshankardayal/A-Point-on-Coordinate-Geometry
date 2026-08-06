@@ -3827,5 +3827,1622 @@
         the final equation of the locus <m>$\left(4ax - y^2\right)\left(y^2 + 4a^2\right) = 4a^2l^2$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 130 -->
+      <d:para>
+        Let the equation of the parabola be <m>$y^2 = 4ax$</m> with its vertex at the origin <m>$O(0,
+        0)$</m>. Let <m>$P$</m> and <m>$Q$</m> be the endpoints of two perpendicular chords passing through
+        the vertex <m>$O$</m>. We can express their coordinates in parametric form as <m>$P = \left(at_1^2,
+        2at_1\right)$</m> and <m>$Q = \left(at_2^2, 2at_2\right)$</m>. Thus, the two chords are the line
+        segments <m>$OP$</m> and <m>$OQ$</m>, with lengths <m>$r_1$</m> and <m>$r_2$</m> respectively.
+      </d:para>
+      <d:para>
+        The slopes of the chords <m>$OP$</m> (<m>$m_1$</m>) and <m>$OQ$</m> (<m>$m_2$</m>) are given by
+        <m>$m_1 = \frac{2at_1 - 0}{at_1^2 - 0} = \frac{2}{t_1}$</m> and <m>$m_2 = \frac{2at_2 - 0}{at_2^2 -
+        0} = \frac{2}{t_2}$</m>. Since the chords are perpendicular to each other, the product of their
+        slopes must be <m>$-1$</m>, which means <m>$m_1 \cdot m_2 = -1 \implies \frac{2}{t_1} \cdot
+        \frac{2}{t_2} = -1 \implies t_1 t_2 = -4$</m>. Without loss of generality, we assume <m>$t_1 >
+        0$</m> and <m>$t_2 &lt; 0$</m>, which ensures that <m>$(t_1 - t_2) > 0$</m>.
+      </d:para>
+      <d:para>
+        Using the distance formula from the origin, the squared length of chord <m>$OP$</m> (<m>$r_1^2$</m>)
+        is <m>$r_1^2 = (at_1^2)^2 + (2at_1)^2 = a^2 t_1^4 + 4a^2 t_1^2 = a^2 t_1^2 (t_1^2 + 4)$</m>. Since
+        <m>$4 = -t_1 t_2$</m>, substituting this into the brackets gives <m>$r_1^2 = a^2 t_1^2 (t_1^2 - t_1
+        t_2) = a^2 t_1^3 (t_1 - t_2)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, for the second chord <m>$OQ$</m> (<m>$r_2^2$</m>), we have <m>$r_2^2 = (at_2^2)^2 +
+        (2at_2)^2 = a^2 t_2^4 + 4a^2 t_2^2 = a^2 t_2^2 (t_2^2 + 4)$</m>. Substituting <m>$4 = -t_1 t_2$</m>
+        gives <m>$r_2^2 = a^2 t_2^2 (t_2^2 - t_1 t_2) = a^2 t_2^3 (t_2 - t_1) = a^2 (-t_2)^3 (t_1 -
+        t_2)$</m>.
+      </d:para>
+      <d:para>
+        To evaluate the Left-Hand Side (LHS), we first find the product of the squared lengths <m>$r_1^2
+        r_2^2 = [ a^2 t_1^3 (t_1 - t_2) ] \cdot [ a^2 (-t_2)^3 (t_1 - t_2) ] = a^4 (-t_1 t_2)^3 (t_1 -
+        t_2)^2$</m>. Since <m>$-t_1 t_2 = 4$</m>, this simplifies to <m>$r_1^2 r_2^2 = a^4 (4)^3 (t_1 -
+        t_2)^2 = 64 a^4 (t_1 - t_2)^2$</m>. Taking the square root to find <m>$r_1 r_2$</m> yields <m>$r_1
+        r_2 = 8 a^2 (t_1 - t_2)$</m>. Now, raising this product to the power of <m>$\frac{4}{3}$ gives
+        $\text{LHS} = (r_1 r_2)^{\frac{4}{3}} = [ 8 a^2 (t_1 - t_2) ]^{\frac{4}{3}} = 8^{\frac{4}{3}}
+        a^{\frac{8}{3}} (t_1 - t_2)^{\frac{4}{3}} = 16 a^{\frac{8}{3}} (t_1 - t_2)^{\frac{4}{3}}$</m>.
+      </d:para>
+      <d:para>
+        To evaluate the Right-Hand Side (RHS), we find <m>$r_1^{\frac{2}{3}}$</m> and
+        <m>$r_2^{\frac{2}{3}}$</m> by raising the expressions for <m>$r_1^2$</m> and <m>$r_2^2$</m> to the
+        power of <m>$\frac{1}{3}$</m>. This gives <m>$r_1^{\frac{2}{3}} = [ a^2 t_1^3 (t_1 - t_2)
+        ]^{\frac{1}{3}} = a^{\frac{2}{3}} t_1 (t_1 - t_2)^{\frac{1}{3}}$</m> and <m>$r_2^{\frac{2}{3}} = [
+        a^2 (-t_2)^3 (t_1 - t_2) ]^{\frac{1}{3}} = a^{\frac{2}{3}} (-t_2) (t_1 -
+        t_2)^{\frac{1}{3}}$</m>. Adding these two terms together yields <m>$r_1^{\frac{2}{3}} +
+        r_2^{\frac{2}{3}} = a^{\frac{2}{3}} (t_1 - t_2)^{\frac{1}{3}} [ t_1 + (-t_2) ] = a^{\frac{2}{3}}
+        (t_1 - t_2)^{\frac{1}{3}} (t_1 - t_2) = a^{\frac{2}{3}} (t_1 - t_2)^{\frac{4}{3}}$</m>. Multiplying
+        this sum by <m>$16a^2$</m> gives <m>$\text{RHS} = 16a^2 ( r_1^{\frac{2}{3}} + r_2^{\frac{2}{3}} ) =
+        16a^2 \cdot a^{\frac{2}{3}} (t_1 - t_2)^{\frac{4}{3}} = 16 a^{\frac{8}{3}} (t_1 -
+        t_2)^{\frac{4}{3}}$</m>.
+      </d:para>
+      <d:para>
+        Comparing the two expressions, we see that <m>$\text{LHS} = 16 a^{\frac{8}{3}} (t_1 -
+        t_2)^{\frac{4}{3}} = \text{RHS}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 131 -->
+      <d:para>
+        Let the chord endpoints be <m>$P\left(at_1^2, 2at_1\right)$</m> and <m>$Q\left(at_2^2,
+        2at_2\right)$</m>, and let <m>$M(h, k)$</m> be its midpoint. By the midpoint formula, <m>$h =
+        \frac{a(t_1^2 + t_2^2)}{2} \implies t_1^2 + t_2^2 = \frac{2h}{a}$</m> and <m>$k = a(t_1 + t_2)
+        \implies t_1 + t_2 = \frac{k}{a}$</m>.
+      </d:para>
+      <d:para>
+        Using the identity <m>$(t_1 + t_2)^2 = t_1^2 + t_2^2 + 2t_1 t_2$</m>, we find <m>$t_1 t_2 =
+        \frac{k^2 - 2ah}{2a^2} \implies (t_1 t_2)^2 = \frac{(k^2 - 2ah)^2}{4a^4}$</m>.
+      </d:para>
+      <d:para>
+        The focal distances are <m>$a\left(1 + t_1^2\right)$</m> and <m>$a\left(1 +
+        t_2^2\right)$</m>. Given their <m>$2:1$</m> ratio, <m>$\frac{1 + t_1^2}{1 + t_2^2} = 2 \implies
+        t_1^2 - 2t_2^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        We solve the linear system for <m>$t_1^2$</m> and <m>$t_2^2$</m>: <m>$t_1^2 + t_2^2 =
+        \frac{2h}{a}\ldots$</m> (1) and <m>$t_1^2 - 2t_2^2 = 1\ldots$</m> (2)
+      </d:para>
+      <d:para>
+        Subtracting (2) from (1) gives <m>$t_2^2 = \frac{2h - a}{3a}$</m>. Multiplying (1) by <m>$2$</m> and
+        adding (2) gives <m>$t_1^2 = \frac{4h + a}{3a}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying these results yields <m>$(t_1 t_2)^2 = t_1^2 \cdot t_2^2 = \frac{(2h - a)(4h +
+        a)}{9a^2}$</m>.
+      </d:para>
+      <d:para>
+        Equating the two expressions for <m>$(t_1 t_2)^2$</m> gives <m>$\frac{(k^2 - 2ah)^2}{4a^4} =
+        \frac{(2h - a)(4h + a)}{9a^2}$</m>. Simplifying yields <m>$9(k^2 - 2ah)^2 = 4a^2(2h - a)(4h +
+        a)$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with <m>$(x, y)$</m> gives the required locus: <m>$9\left(y^2 -
+        2ax\right)^2 = 4a^2(2x - a)(4x + a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 132 -->
+      <d:para>
+        Let the line <m>$y = mx + c$</m> intersect the parabola <m>$y^2 = 4ax$</m> at two points <m>$P(x_1,
+        y_1)$</m> and <m>$Q(x_2, y_2)$</m>. The chord <m>$PQ$</m> forms the diameter of the required
+        circle. The equation of a circle in diameter form is <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) =
+        0$</m>, which expands to <m>$x^2 - (x_1 + x_2)x + x_1 x_2 + y^2 - (y_1 + y_2)y + y_1 y_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the relations for <m>$x_1$</m> and <m>$x_2$</m>, substitute <m>$y = mx + c$</m> into <m>$y^2
+        = 4ax$</m>, yielding <m>$(mx + c)^2 = 4ax \implies m^2 x^2 + 2mcx + c^2 - 4ax = 0 \implies m^2 x^2 +
+        2(mc - 2a)x + c^2 = 0$</m>. Since <m>$x_1$</m> and <m>$x_2$</m> are the roots of this quadratic
+        equation, by Vieta's formulas, <m>$x_1 + x_2 = -\frac{2(mc - 2a)}{m^2}$ and $x_1 x_2 =
+        \frac{c^2}{m^2}$</m>.
+      </d:para>
+      <d:para>
+        To find the relations for <m>$y_1$</m> and <m>$y_2$</m>, substitute <m>$x = \frac{y - c}{m}$ into
+        $y^2 = 4ax$, giving $y^2 = 4a\left(\frac{y - c}{m}\right) \implies my^2 - 4ay + 4ac = 0$</m>. Since
+        <m>$y_1$</m> and <m>$y_2$</m> are the roots of this quadratic equation, by Vieta's formulas, <m>$y_1
+        + y_2 = \frac{4a}{m}$</m> and <m>$y_1 y_2 = \frac{4ac}{m}$</m>.
+      </d:para>
+      <d:para>
+        Substituting these sums and products of roots into the expanded circle equation gives <m>$x^2 -
+        \left[-\frac{2(mc - 2a)}{m^2}\right]x + \frac{c^2}{m^2} + y^2 - \left[\frac{4a}{m}\right]y +
+        \frac{4ac}{m} = 0 \implies x^2 + y^2 + \frac{2(mc - 2a)}{m^2}x - \frac{4a}{m}y + \frac{4ac}{m} +
+        \frac{c^2}{m^2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$m^2$</m> eliminates the denominators and yields the required
+        equation: <m>$m^2(x^2 + y^2) + 2x(mc - 2a) - 4amy + 4amc + c^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 133 -->
+      <d:para>
+        Let the given fixed base of the triangle be <m>$AB$</m> of length <m>$2c$</m>, positioned along the
+        <m>$x$</m>-axis such that its midpoint lies at the origin <m>$O(0, 0)$</m>. The coordinates of the
+        base vertices are <m>$A(-c, 0)$</m> and <m>$B(c, 0)$</m>. Let the variable vertex of the triangle be
+        <m>$V(h, k)$</m>, whose locus needs to be determined. Let <m>$\alpha$</m> and <m>$\beta$</m> denote
+        the base angles at vertices <m>$A$</m> and <m>$B$</m>, respectively.
+      </d:para>
+      <d:para>
+        By dropping a perpendicular from <m>$V(h, k)$</m> to the <m>$x$</m>-axis at <m>$(h, 0)$</m>, we can
+        express the tangents of the base angles in terms of coordinates. For the angle <m>$\alpha$</m> at
+        vertex <m>$A$</m>, the height is <m>$k$</m> and the horizontal distance is <m>$h - (-c) = h +
+        c$</m>, giving <m>$\tan \alpha = \frac{k}{h + c}$</m>. For the angle <m>$\beta$</m> at vertex
+        <m>$B$</m>, the height is <m>$k$</m> and the horizontal distance is <m>$c - h$</m>, giving <m>$\tan
+        \beta = \frac{k}{c - h}$</m>.
+      </d:para>
+      <d:para>
+        According to the problem statement, the sum of the tangents of these base angles is equal to a
+        constant value, which we will denote as <m>$\lambda$</m>. This gives the condition <m>$\tan \alpha +
+        \tan \beta = \lambda$</m>. Substituting the coordinate expressions into this equation yields
+        <m>$\frac{k}{h + c} + \frac{k}{c - h} = \lambda$</m>.
+      </d:para>
+      <d:para>
+        Factoring out <m>$k$</m> and combining the fractions over a common denominator gives <m>$k \left[
+        \frac{(c - h) + (h + c)}{(h + c)(c - h)} \right] = \lambda \implies k \left( \frac{2c}{c^2 - h^2}
+        \right) = \lambda$</m>. Cross-multiplying to clear the denominator results in <m>$2ck = \lambda(c^2
+        - h^2) \implies \lambda h^2 = \lambda c^2 - 2ck \implies h^2 = -\frac{2c}{\lambda}k + c^2$</m>.
+      </d:para>
+      <d:para>
+        Replacing the arbitrary coordinates <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m>, we
+        obtain the equation of the locus: <m>$x^2 = -\frac{2c}{\lambda}y + c^2$</m>. Since this equation is
+        quadratic in <m>$x$</m> and linear in <m>$y$</m>, it represents a vertical parabola, thereby proving
+        the statement.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 134 -->
+      <d:para>
+        Let the centroid be <m>$G(h, k)$</m> and the vertices be <m>$P, Q$</m> and <m>$R$</m> representing
+        <m>$t_1, t_2$</m> and <m>$t_3$</m> on the parabola.
+      </d:para>
+      <d:para>
+        Since it is an equilateral triangle <m>$G$</m> will also be circumcenter and <m>$P, Q, R$</m> will
+        lie on the circumcenter. The cicle is <m>$x^2 + y^2 - 2hx - 2ky + c = 0$</m>.
+      </d:para>
+      <d:para>
+        Putting <m>$x = at^2$</m> and <m>$y = 2at$</m> gives us <m>$a^2t^4 + (4a^2 - 2ah)t^2 - 4akt + c = 0$</m>.
+      </d:para>
+      <d:para>
+        From Vieta's relations we have: <m>$t_1 + t_2 + t_3 = 0$</m> and <m>$t_1t_2 + t_2t_3 + t_3t_1 - (t_1
+        + t_2 + t_3)^2 = \frac{4a^2 0 2ah}{a^2}$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$3h = a\left(t_1^2 + t_2^2 + t_3^2\right)$</m> and <m>$3k = 2a(t_1 + t_2 + t_3)$</m>
+      </d:para>
+      <d:para>
+        Thus, <m>$\frac{3h}{a} + \left(\frac{3h}{2a}\right)^2 = \frac{2\left(2ah - 4a^2\right)}{a^2}$</m>
+      </d:para>
+      <d:para>
+        <m>$\implies 9y^2 = 4a(x - 8a)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 135 -->
+      <d:para>
+        The center is at <m>$(2, -3)$</m>, one focus is at <m>$(3, -3)$</m>, and one vertex is at <m>$(4,
+        -3)$</m>. Notice that the <m>$y$</m>-coordinates of the center, focus, and vertex are all equal to
+        <m>$-3$</m>. This means the major axis is horizontal along the line <m>$y = -3$</m>.
+      </d:para>
+      <d:para>
+        The standard equation of a horizontal ellipse with center <m>$(h, k)$</m> is <m>$\frac{(x-h)^2}{a^2}
+        + \frac{(y-k)^2}{b^2} = 1$</m>. From the given center <m>$(2, -3)$</m>, we get <m>$h = 2$</m> and
+        <m>$k = -3$</m>.
+      </d:para>
+      <d:para>
+        The value of <m>$a$</m> is the distance from the center <m>$(h, k)$</m> to a vertex, so <m>$a = 4 -
+        2 = 2$</m>, which gives <m>$a^2 = 2^2 = 4$</m>.
+      </d:para>
+      <d:para>
+        The value of <m>$c$</m> is the distance from the center <m>$(h, k)$</m> to a focus, so <m>$c = 3 - 2
+        = 1$</m>, which gives <m>$c^2 = 1^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        For any ellipse, the relationship between <m>$a, b$</m>, and <m>$c$</m> is given by the formula
+        <m>$c^2 = a^2 - b^2$</m>. Substituting our known values gives <m>$1 = 4 - b^2$</m>, which simplifies
+        to <m>$b^2 = 4 - 1 = 3$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$h = 2$</m>, <m>$k = -3$</m>, <m>$a^2 = 4$</m>, and <m>$b^2 = 3$</m> into the
+        standard form equation yields <m>$\frac{(x-2)^2}{4} + \frac{(y - (-3))^2}{3} = 1$</m>, which
+        simplifies to <m>$\frac{(x-2)^2}{4} + \frac{(y+3)^2}{3} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 136 -->
+      <d:para>
+        The center <m>$(h, k)$</m> is the midpoint of the foci <m>$(2, 3)$</m> and <m>$(-2, 3)$</m>, so
+        <m>$h = \frac{2 - 2}{2} = 0$</m> and <m>$k = \frac{3 + 3}{2} = 3$</m>, giving center <m>$(0,
+        3)$</m>. Since the foci share the <m>$y$</m>-coordinate, the major axis is horizontal with standard
+        form <m>$\frac{(x-h)^2}{a^2} + \frac{(y-k)^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The focal distance <m>$c$</m> is the distance from the center <m>$(0, 3)$</m> to a focus <m>$(2,
+        3)$</m>, so <m>$c = 2 - 0 = 2$</m> and <m>$c^2 = 4$</m>. The semi-minor axis is <m>$b =
+        \sqrt{5}$</m>, so <m>$b^2 = 5$</m>. Using <m>$a^2 = b^2 + c^2$</m>, we find <m>$a^2 = 5 + 4 =
+        9$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$h = 0$</m>, <m>$k = 3$</m>, <m>$a^2 = 9$</m>, and <m>$b^2 = 5$</m> into the
+        standard equation yields <m>$\frac{x^2}{9} + \frac{(y-3)^2}{5} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 137 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the ellipse. By definition, the distance to the focus <m>$S(-1,
+        1)$</m> satisfies <m>$SP^2 = e^2 \cdot PM^2$</m>, where <m>$PM$</m> is the perpendicular distance to
+        the directrix <m>$x - y + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        The focus distance squared is <m>$SP^2 = (x + 1)^2 + (y - 1)^2 = x^2 + 2x + 1 + y^2 - 2y + 1$</m>.
+      </d:para>
+      <d:para>
+        The directrix distance squared is <m>$PM^2 = \frac{(x - y + 3)^2}{1^2 + (-1)^2} = \frac{x^2 + y^2 +
+        9 - 2xy + 6x - 6y}{2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting these and <m>$e = \frac{1}{2}$</m> into the definition gives <m>$(x^2 + y^2 + 2x - 2y +
+        2) = \left(\frac{1}{2}\right)^2 \cdot \frac{x^2 + y^2 - 2xy + 6x - 6y + 9}{2}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$8$</m> yields <m>$8(x^2 + y^2 + 2x - 2y + 2) = x^2 + y^2 - 2xy + 6x - 6y + 9$</m>.
+      </d:para>
+      <d:para>
+        Expanding and simplifying gives the final equation <m>$7x^2 + 2xy + 7y^2 + 10x - 10y + 7 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 138 -->
+      <d:para>
+        Let <m>$P(x, y)$</m> be any point on the ellipse. By definition, the distance from <m>$P$</m> to the
+        focus <m>$S(2, 1)$</m> satisfies <m>$SP^2 = e^2 \cdot PM^2$</m>, where <m>$PM$</m> is the
+        perpendicular distance to the directrix <m>$2x - y + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        The squared distance to the focus is <m>$SP^2 = (x - 2)^2 + (y - 1)^2 = x^2 - 4x + 4 + y^2 - 2y +
+        1$</m>.
+      </d:para>
+      <d:para>
+        The squared distance to the directrix is <m>$PM^2 = \frac{(2x - y + 3)^2}{2^2 + (-1)^2} = \frac{4x^2
+        + y^2 + 9 - 4xy + 12x - 6y}{5}$</m>.
+      </d:para>
+      <d:para>
+        Substituting these and <m>$e = \frac{1}{\sqrt{2}}$</m> into the formula yields <m>$x^2 + y^2 - 4x -
+        2y + 5 = \left(\frac{1}{\sqrt{2}}\right)^2 \cdot \frac{4x^2 + y^2 - 4xy + 12x - 6y + 9}{5}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$10$</m> gives <m>$10(x^2 + y^2 - 4x - 2y + 5) = 4x^2 + y^2 - 4xy + 12x
+        - 6y + 9$</m>.
+      </d:para>
+      <d:para>
+        <m>$\implies 6x^2 + 4xy + 9y^2 - 52x - 14y + 41 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 139 -->
+      <d:para>
+        The standard equation of an ellipse with center <m>$(h, k)$</m> and major axis parallel to the
+        <m>$y$</m>-axis is <m>$\frac{(x - h)^2}{b^2} + \frac{(y - k)^2}{a^2} = 1$</m>, where <m>$a$</m> is
+        the semi-major axis and <m>$b$</m> is the semi-minor axis.
+      </d:para>
+      <d:para>
+        Given the center <m>$(h, k) = (-2, 3)$</m>, semi-major axis <m>$a = 3$</m>, and semi-minor axis
+        <m>$b = 2$</m>, substituting these values yields <m>$\frac{(x - (-2))^2}{2^2} + \frac{(y -
+        3)^2}{3^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the denominators gives <m>$\frac{(x + 2)^2}{4} + \frac{(y - 3)^2}{9} = 1$</m>.
+      </d:para>
+      <d:para>
+        <m>$\implies 9(x + 2)^2 + 4(y - 3)^2 = 36\implies 9x^2 + 4y^2 + 36x - 24y + 36 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 140 -->
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> (<m>$a > b$</m>).
+      </d:para>
+      <d:para>
+        The distance between the foci is <m>$2ae = 10 \implies ae = 5 \implies a^2e^2 = 25$</m>.
+      </d:para>
+      <d:para>
+        The length of the latus rectum is <m>$\frac{2b^2}{a} = 15 \implies b^2 = \frac{15a}{2}$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$b^2 = a^2 - a^2e^2$</m>, substitute the known values: <m>$\frac{15a}{2} = a^2 - 25
+        \implies 2a^2 - 15a - 50 = 0$</m>.
+      </d:para>
+      <d:para>
+        Factoring gives <m>$(2a + 5)(a - 10) = 0$</m>. Since <m>$a > 0$</m>, we have <m>$a = 10 \implies a^2
+        = 100$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$b^2 = \frac{15(10)}{2} = 75$</m>. The equation is <m>$\frac{x^2}{100} + \frac{y^2}{75} = 1
+        \implies 3x^2 + 4y^2 = 300$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 141 -->
+      <d:para>
+        Let the standard ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> (<m>$a > b$</m>).
+      </d:para>
+      <d:para>
+        The minor axis equals the distance between the foci, so <m>$2b = 2ae \implies b^2 = a^2e^2$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$b^2 = a^2 - a^2e^2$</m>, substituting <m>$a^2e^2 = b^2$</m> gives <m>$b^2 = a^2 - b^2
+        \implies 2b^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        The latus rectum is <m>$\frac{2b^2}{a} = 10 \implies 2b^2 = 10a$</m>.
+      </d:para>
+      <d:para>
+        Equating the two expressions for <m>$2b^2$</m> gives <m>$a^2 = 10a \implies a = 10 \implies a^2 =
+        100$</m>.
+      </d:para>
+      <d:para>
+        Then <m>$2b^2 = 10(10) = 100 \implies b^2 = 50$</m>.
+      </d:para>
+      <d:para>
+        The equation is <m>$\frac{x^2}{100} + \frac{y^2}{50} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 142 -->
+      <d:para>
+        Let the standard ellipse equation be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> (<m>$a >
+        b$</m>).
+      </d:para>
+      <d:para>
+        The distance between the foci is <m>$2ae = 4 \implies ae = 2$</m>.
+      </d:para>
+      <d:para>
+        Given the eccentricity is <m>$e = \frac{1}{2}$</m>, substituting this gives
+        <m>$a\left(\frac{1}{2}\right) = 2 \implies a = 4 \implies a^2 = 16$</m>.
+      </d:para>
+      <d:para>
+        Using the relationship <m>$b^2 = a^2(1 - e^2)$</m>, we find <m>$b^2 = 16\left(1 - \frac{1}{4}\right)
+        = 16 \times \frac{3}{4} = 12$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a^2 = 16$</m> and <m>$b^2 = 12$</m> gives the final equation <m>$\frac{x^2}{16} +
+        \frac{y^2}{12} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 143 -->
+      <d:para>
+        Let the standard ellipse equation be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> (<m>$a >
+        b$</m>).
+      </d:para>
+      <d:para>
+        The foci are given as <m>$(\pm 4, 0)$</m>, so <m>$ae = 4$</m>.
+      </d:para>
+      <d:para>
+        Given the eccentricity is <m>$e = \frac{1}{3}$</m>, substituting this gives
+        <m>$a\left(\frac{1}{3}\right) = 4 \implies a = 12 \implies a^2 = 144$</m>.
+      </d:para>
+      <d:para>
+        Using the relationship <m>$b^2 = a^2(1 - e^2)$</m>, we find <m>$b^2 = 144\left(1 -
+        \frac{1}{9}\right) = 144 \times \frac{8}{9} = 16 \times 8 = 128$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a^2 = 144$</m> and <m>$b^2 = 128$</m> yields the final equation <m>$\frac{x^2}{144}
+        + \frac{y^2}{128} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 144 -->
+      <d:para>
+        Let the standard ellipse equation be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> (<m>$a >
+        b$</m>).
+      </d:para>
+      <d:para>
+        Using <m>$b^2 = a^2(1 - e^2)$</m> with <m>$e = \sqrt{\frac{2}{5}}$</m>, we get <m>$b^2 = a^2(1 -
+        \frac{2}{5}) \implies b^2 = \frac{3a^2}{5}$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$b^2$</m> into the ellipse equation: <m>$\frac{x^2}{a^2} + \frac{5y^2}{3a^2} = 1
+        \implies 3x^2 + 5y^2 = 3a^2$</m>.
+      </d:para>
+      <d:para>
+        Since the ellipse passes through <m>$(-3, 1)$</m>, substitute these coordinates: <m>$3(-3)^2 +
+        5(1)^2 = 3a^2 \implies 27 + 5 = 3a^2 \implies 3a^2 = 32$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$a^2 = \frac{32}{3}$, and $b^2 = \frac{3}{5}\left(\frac{32}{3}\right) = \frac{32}{5}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a^2$</m> and <m>$b^2$</m> gives <m>$\frac{x^2}{32/3} + \frac{y^2}{32/5} = 1$</m>,
+        which simplifies to <m>$3x^2 + 5y^2 = 32$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 145 -->
+      <d:para>
+        Given equation: <m>$12x^2 + 4y^2 + 24x - 16y + 25 = 0$</m>.
+      </d:para>
+      <d:para>
+        Group <m>$x$</m> and <m>$y$</m> terms: <m>$12(x^2 + 2x) + 4(y^2 - 4y) = -25$</m>.
+      </d:para>
+      <d:para>
+        Complete the square: <m>$12(x + 1)^2 - 12 + 4(y - 2)^2 - 16 = -25 \implies 12(x + 1)^2 + 4(y - 2)^2
+        = 3$</m>.
+      </d:para>
+      <d:para>
+        Divide by <m>$3$</m> to get standard form: <m>$\frac{(x + 1)^2}{1/4} + \frac{(y - 2)^2}{3/4} =
+        1$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\frac{3}{4} > \frac{1}{4}$</m>, the major axis is parallel to the <m>$y$</m>-axis, with
+        <m>$b^2 = \frac{1}{4} \implies b = \frac{1}{2}$ and $a^2 = \frac{3}{4} \implies a =
+        \frac{\sqrt{3}}{2}$</m>.
+      </d:para>
+      <d:para>
+        The center <m>$(h, k)$</m> is <m>$(-1, 2)$</m>.
+      </d:para>
+      <d:para>
+        The length of the major axis is <m>$2a = \sqrt{3}$</m>, and the length of the minor axis is <m>$2b =
+        1$</m>.
+      </d:para>
+      <d:para>
+        The eccentricity is found using <m>$b^2 = a^2(1 - e^2) \implies \frac{1}{4} = \frac{3}{4}(1 - e^2)
+        \implies 1 - e^2 = \frac{1}{3} \implies e = \sqrt{\frac{2}{3}}$</m>.
+      </d:para>
+      <d:para>
+        The foci are <m>$(h, k \pm ae)$</m>, where <m>$ae = \frac{\sqrt{3}}{2} \times \sqrt{\frac{2}{3}} =
+        \frac{1}{\sqrt{2}}$, yielding the points $\left(-1, 2 \pm \frac{1}{\sqrt{2}}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 146 -->
+      <d:para>
+        The center is <m>$(1, 2)$</m> and one focus is <m>$(6, 2)$</m>. Since the <m>$y$</m>-coordinates are
+        equal, the major axis is parallel to the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        The focal distance is <m>$ae = 6 - 1 = 5 \implies a^2e^2 = 25$</m>. Using the relation <m>$b^2 = a^2
+        - a^2e^2$</m>, we have <m>$b^2 = a^2 - 25$</m>.
+      </d:para>
+      <d:para>
+        The standard equation of the ellipse is <m>$\frac{(x - 1)^2}{a^2} + \frac{(y - 2)^2}{a^2 - 25} =
+        1$</m>.
+      </d:para>
+      <d:para>
+        Since it passes through <m>$(4, 6)$</m>, substitute these coordinates: <m>$\frac{(4 - 1)^2}{a^2} +
+        \frac{(6 - 2)^2}{a^2 - 25} = 1 \implies \frac{9}{a^2} + \frac{16}{a^2 - 25} = 1$</m>.
+      </d:para>
+      <d:para>
+        Clearing fractions gives <m>$9(a^2 - 25) + 16a^2 = a^2(a^2 - 25) \implies a^4 - 50a^2 + 225 = 0$</m>.
+      </d:para>
+      <d:para>
+        Factoring the quadratic yields <m>$(a^2 - 45)(a^2 - 5) = 0$</m>. Since <m>$b^2 = a^2 - 25$</m> must
+        be positive, we choose <m>$a^2 = 45$</m>, which gives <m>$b^2 = 45 - 25 = 20$</m>.
+      </d:para>
+      <d:para>
+        The equation is <m>$\frac{(x - 1)^2}{45} + \frac{(y - 2)^2}{20} = 1$</m>, which simplifies to
+        <m>$4x^2 + 9y^2 - 8x - 36y - 140 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 147 -->
+      <d:para>
+        Equation: <m>$8x^2 + 6y^2 - 16x + 12y + 13 = 0$</m>
+      </d:para>
+      <d:para>
+        Group terms: <m>$8(x^2 - 2x) + 6(y^2 + 2y) = -13$</m>
+      </d:para>
+      <d:para>
+        Complete squares: <m>$8(x - 1)^2 - 8 + 6(y + 1)^2 - 6 = -13$</m>
+      </d:para>
+      <d:para>
+        Simplify: <m>$8(x - 1)^2 + 6(y + 1)^2 = 1$</m>
+      </d:para>
+      <d:para>
+        Standard form: <m>$\frac{(x - 1)^2}{1/8} + \frac{(y + 1)^2}{1/6} = 1$</m>
+      </d:para>
+      <d:para>
+        This matches <m>$\frac{(x - h)^2}{a^2} + \frac{(y - k)^2}{b^2} = 1$</m>, proving it is an ellipse.
+      </d:para>
+      <d:para>
+        Center <m>$(h, k) = (1, -1)$</m>. Identify axes: <m>$a^2 = \frac{1}{8}$, $b^2 = \frac{1}{6}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$b^2 > a^2$</m>, it has a vertical major axis.
+      </d:para>
+      <d:para>
+        Eccentricity formula: <m>$a^2 = b^2(1 - e^2)$</m>
+      </d:para>
+      <d:para>
+        Substitute: <m>$\frac{1}{8} = \frac{1}{6}(1 - e^2) \implies \frac{3}{4} = 1 - e^2 \implies e^2 =
+        \frac{1}{4} \implies e = \frac{1}{2}$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 148 -->
+      <d:para>
+        The given equation is <m>$2x^2 + 3y^2 - 4x - 12y + 13 = 0$</m>
+      </d:para>
+      <d:para>
+        Grouping terms yields <m>$2(x^2 - 2x) + 3(y^2 - 4y) = -13$</m>
+      </d:para>
+      <d:para>
+        Completing squares gives <m>$2(x - 1)^2 - 2 + 3(y - 2)^2 - 12 = -13$</m>
+      </d:para>
+      <d:para>
+        Simplifying results in <m>$2(x - 1)^2 + 3(y - 2)^2 = 1$</m>
+      </d:para>
+      <d:para>
+        The standard form is <m>$\frac{(x - 1)^2}{1/2} + \frac{(y - 2)^2}{1/3} = 1$</m>
+      </d:para>
+      <d:para>
+        The center <m>$(h, k)$</m> is <m>$(1, 2)$</m>
+      </d:para>
+      <d:para>
+        The squared semi-axes are <m>$a^2 = \frac{1}{2}$ and $b^2 = \frac{1}{3}$</m>
+      </d:para>
+      <d:para>
+        The semi-axes lengths are <m>$a = \frac{1}{\sqrt{2}}$ and $b = \frac{1}{\sqrt{3}}$</m>
+      </d:para>
+      <d:para>
+        The major axis length <m>$2a$</m> equals <m>$2\left(\frac{1}{\sqrt{2}}\right) = \sqrt{2}$</m>
+      </d:para>
+      <d:para>
+        The minor axis length <m>$2b$</m> equals <m>$2\left(\frac{1}{\sqrt{3}}\right) =
+        \frac{2\sqrt{3}}{3}$</m>
+      </d:para>
+      <d:para>
+        The eccentricity formula is <m>$b^2 = a^2(1 - e^2)$</m>. Substituting values gives <m>$\frac{1}{3} =
+        \frac{1}{2}(1 - e^2)$</m>. This simplifies to <m>$\frac{2}{3} = 1 - e^2$</m>. Thus <m>$e^2 =
+        \frac{1}{3}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 149 -->
+      <d:para>
+        The equation <m>$x^2 + 3y^2 = 6$</m> translates to <m>$\frac{x^2}{6} + \frac{y^2}{2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The semi-axes parameters are <m>$a = \sqrt{6}$</m> and <m>$b = \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The general parametric point is <m>$P(\sqrt{6}\cos\theta, \sqrt{2}\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        The distance from <m>$(0,0)$</m> is <m>$2$</m> which implies <m>$(\sqrt{6}\cos\theta)^2 +
+        (\sqrt{2}\sin\theta)^2 = 2^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the terms yields <m>$6\cos^2\theta + 2\sin^2\theta = 4$</m>.
+      </d:para>
+      <d:para>
+        Solving for the sine term produces <m>$4\sin^2\theta = 2$</m> which means <m>$\sin^2\theta =
+        \frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        Taking the square root leads to <m>$\sin\theta = \pm\frac{1}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The final eccentric angles are <m>$\theta = \frac{\pi}{4}, \frac{3\pi}{4}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 150 -->
+      <d:para>
+        Let the semi-major axis be <m>$a$</m> and the semi-minor axis be <m>$b$</m>.
+      </d:para>
+      <d:para>
+        The length of the major axis is <m>$2a$</m>. The length of the latus rectum is <m>$\frac{2b^2}{a}$</m>.
+      </d:para>
+      <d:para>
+        The given condition states that the latus rectum equals half the major axis. This condition is
+        expressed as <m>$\frac{2b^2}{a} = \frac{1}{2}(2a)$</m>. Simplifying the equation gives
+        <m>$\frac{2b^2}{a} = a$</m>. Multiplying both sides by <m>$a$</m> yields <m>$2b^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        The standard eccentricity formula is <m>$b^2 = a^2(1 - e^2)$</m>. Substituting <m>$a^2 = 2b^2$</m>
+        into the formula gives <m>$b^2 = 2b^2(1 - e^2)$</m>. Solving for <m>$e^2$</m> produces <m>$e^2 =
+        \frac{1}{2}\implies e = \frac{1}{\sqrt{2}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 151 -->
+      <d:para>
+        Standard ellipse equation <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Latus rectum end point <m>$P\left(ae, \frac{b^2}{a}\right)$</m>.
+      </d:para>
+      <d:para>
+        Normal equation at <m>$(x_1, y_1)$</m> is <m>$\frac{a^2 x}{x_1} - \frac{b^2 y}{y_1} = a^2 e^2$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$P$</m> into the normal equation <m>$\frac{a^2 x}{ae} - \frac{b^2 y}{b^2/a} = a^2
+        e^2$</m>.
+      </d:para>
+      <d:para>
+        Simplify the normal line <m>$\frac{x}{e} - y = ae^2$</m>. Substitute minor axis end point <m>$(0,
+        -b)$</m> into the line <m>$0 - (-b) = ae^2$</m>.
+      </d:para>
+      <d:para>
+        This yields <m>$b = ae^2$</m>. Square both sides <m>$b^2 = a^2 e^4$</m>.
+      </d:para>
+      <d:para>
+        Eccentricity identity <m>$b^2 = a^2(1 - e^2)$</m>. Equate expressions <m>$a^2(1 - e^2) = a^2
+        e^4$</m>. Divide by $a^2$ to get <m>$1 - e^2 = e^4$</m> <m>$\implies e^4 + e^2 = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 152 -->
+      <d:para>
+        Ellipse equation is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Normal equation at <m>$(a\cos\theta, b\sin\theta)$</m> is <m>$(a\sec\theta)x - (b\csc\theta)y = a^2
+        - b^2$</m>.
+      </d:para>
+      <d:para>
+        Given line equation <m>$lx + my = n$</m>. Comparing coefficients of identical lines
+        <m>$\frac{a\sec\theta}{l} = \frac{-b\csc\theta}{m} = \frac{a^2 - b^2}{n}$</m>.
+      </d:para>
+      <d:para>
+        Isolate cosine <m>$\cos\theta = \frac{an}{l(a^2 - b^2)}$</m>. Isolate sine <m>$\sin\theta =
+        \frac{-bn}{m(a^2 - b^2)}$</m>. Identity <m>$\cos^2\theta + \sin^2\theta = 1$</m>.
+      </d:para>
+      <d:para>
+        Substitute expressions <m>$\left[\frac{an}{l(a^2 - b^2)}\right]^2 + \left[\frac{-bn}{m(a^2 -
+        b^2)}\right]^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Expand <m>$\frac{a^2 n^2}{l^2(a^2 - b^2)^2} + \frac{b^2 n^2}{m^2(a^2 - b^2)^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Final condition <m>$\frac{a^2}{l^2} + \frac{b^2}{m^2} = \frac{(a^2 - b^2)^2}{n^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 153 -->
+      <d:para>
+        The standard equation of the ellipse is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The equation of a tangent at point <m>$(a\cos\theta, b\sin\theta)$</m> is <m>$\frac{x\cos\theta}{a}
+        + \frac{y\sin\theta}{b} = 1$</m>. The tangent intersects the <m>$x$</m>-axis at
+        <m>$A\left(\frac{a}{\cos\theta}, 0\right)$</m>. The tangent intersects the <m>$y$</m>-axis at
+        <m>$B\left(0, \frac{b}{\sin\theta}\right)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the midpoint of the portion <m>$AB$</m> included between the axes. Using the
+        midpoint formula yields <m>$h = \frac{a}{2\cos\theta}$</m> and <m>$k = \frac{b}{2\sin\theta}$</m>.
+      </d:para>
+      <d:para>
+        Isolating the trigonometric functions gives <m>$\cos\theta = \frac{a}{2h}$ and $\sin\theta =
+        \frac{b}{2k}$</m>. Applying the fundamental identity <m>$\cos^2\theta + \sin^2\theta = 1$</m>.
+      </d:para>
+      <d:para>
+        Substituting the terms results in <m>$\left(\frac{a}{2h}\right)^2 + \left(\frac{b}{2k}\right)^2 =
+        1$</m>. Expanding the squares produces <m>$\frac{a^2}{4h^2} + \frac{b^2}{4k^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$4$</m> gives <m>$\frac{a^2}{h^2} + \frac{b^2}{k^2} = 4$</m>. Replacing <m>$h$</m>
+        with <m>$x$</m> and <m>$k$</m> with <m>$y$</m> establishes the locus equation <m>$\frac{a^2}{x^2} +
+        \frac{b^2}{y^2} = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 154 -->
+      <d:para>
+        Standard ellipse equation <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>. The foci coordinates are
+        <m>$S(ae, 0)$</m> and <m>$S'(-ae, 0)$</m>.
+      </d:para>
+      <d:para>
+        The equation of a tangent at point <m>$(a\cos\theta, b\sin\theta)$</m> is <m>$\frac{x\cos\theta}{a}
+        + \frac{y\sin\theta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the tangent equation gives <m>$(b\cos\theta)x + (a\sin\theta)y - ab = 0$</m>.
+      </d:para>
+      <d:para>
+        Perpendicular distance <m>$d_1$</m> from <m>$S(ae, 0)$</m> is <m>$\frac{|bae\cos\theta -
+        ab|}{\sqrt{b^2\cos^2\theta + a^2\sin^2\theta}}$</m>.
+      </d:para>
+      <d:para>
+        Perpendicular distance <m>$d_2$</m> from <m>$S'(-ae, 0)$</m> is <m>$\frac{|-bae\cos\theta -
+        ab|}{\sqrt{b^2\cos^2\theta + a^2\sin^2\theta}}$</m>.
+      </d:para>
+      <d:para>
+        Product of distances <m>$d_1 d_2$</m> is <m>$\frac{|a^2b^2(1 - e^2\cos^2\theta)|}{b^2\cos^2\theta +
+        a^2\sin^2\theta}$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$b^2 = a^2(1 - e^2)$</m> simplifies the numerator to <m>$a^2b^2 -
+        b^2(a^2e^2\cos^2\theta)$</m>.
+      </d:para>
+      <d:para>
+        The denominator simplifies to <m>$b^2\cos^2\theta + a^2(1 - \cos^2\theta) = a^2 - (a^2 -
+        b^2)\cos^2\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a^2e^2 = a^2 - b^2$</m> turns the denominator into <m>$a^2 -
+        a^2e^2\cos^2\theta$</m>. Factoring the denominator gives <m>$a^2(1 - e^2\cos^2\theta)$</m>.
+      </d:para>
+      <d:para>
+        The product expression becomes <m>$\frac{a^2b^2(1 - e^2\cos^2\theta)}{a^2(1 -
+        e^2\cos^2\theta)}$</m>. Canceling common terms yields <m>$d_1 d_2 = b^2$</m> which is a constant
+        value.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 155 -->
+      <d:para>
+        Substitute <m>$y$</m> to get <m>$x^2 + 2(1)^2 = 4 \implies x^2 = 2 \implies x = \pm\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        Points of contact are <m>$P_1(\sqrt{2}, 1)$</m> and <m>$P_2(-\sqrt{2}, 1)$</m>. Tangent equation
+        formula at <m>$(x_1, y_1)$</m> is <m>$x x_1 + 2y y_1 = 4$</m>.
+      </d:para>
+      <d:para>
+        Tangent equation at <m>$P_1$</m> is <m>$\sqrt{2}x + 2y = 4$</m>. Tangent equation at <m>$P_2$</m> is
+        <m>$-\sqrt{2}x + 2y = 4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 156 -->
+      <d:para>
+        Ellipse equation <m>$4x^2 + 25y^2 = 100 \implies \frac{x^2}{25} + \frac{y^2}{4} = 1$</m>.
+      </d:para>
+      <d:para>
+        Semi-axes parameters <m>$a^2 = 25$</m> and <m>$b^2 = 4$</m>. Given line equation <m>$lx + my + n =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Tangent at point <m>$(x_1, y_1)$</m> is <m>$4x x_1 + 25y y_1 = 100 \implies 4x x_1 + 25y y_1 - 100 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Comparing coefficients <m>$\frac{4x_1}{l} = \frac{25y_1}{m} = \frac{-100}{n}$</m>. Isolate
+        coordinates <m>$x_1 = -\frac{25l}{n}$ and $y_1 = -\frac{4m}{n}$</m>.
+      </d:para>
+      <d:para>
+        Point of contact is <m>$\left(-\frac{25l}{n}, -\frac{4m}{n}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substitute coordinates into ellipse <m>$4\left(-\frac{25l}{n}\right)^2 +
+        25\left(-\frac{4m}{n}\right)^2 = 100$</m>.
+      </d:para>
+      <d:para>
+        Simplify terms <m>$\frac{2500l^2}{n^2} + \frac{400m^2}{n^2} = 100$</m>. Divide by <m>$100$</m> for
+        final condition <m>$25l^2 + 4m^2 = n^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 157 -->
+      <d:para>
+        Ellipse equation <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Tangent equation at point <m>$(x_1, y_1)$</m> is <m>$\frac{x x_1}{a^2} + \frac{y y_1}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Given line equation <m>$x\cos\alpha + y\sin\alpha = p$</m>. Comparing coefficients of identical
+        lines gives <m>$\frac{x_1}{a^2\cos\alpha} = \frac{y_1}{b^2\sin\alpha} = \frac{1}{p}$</m>.
+      </d:para>
+      <d:para>
+        Isolate coordinates <m>$x_1 = \frac{a^2\cos\alpha}{p}$</m> and <m>$y_1 =
+        \frac{b^2\sin\alpha}{p}$</m>. Point of contact is <m>$\left(\frac{a^2\cos\alpha}{p},
+        \frac{b^2\sin\alpha}{p}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substitute coordinates into ellipse equation <m>$\frac{1}{a^2}\left(\frac{a^2\cos\alpha}{p}\right)^2
+        + \frac{1}{b^2}\left(\frac{b^2\sin\alpha}{p}\right)^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Simplify terms <m>$\frac{a^2\cos^2\alpha}{p^2} + \frac{b^2\sin^2\alpha}{p^2} = 1$</m>. Final
+        condition is <m>$a^2\cos^2\alpha + b^2\sin^2\alpha = p^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 158 -->
+      <d:para>
+        Standard equation <m>$\frac{x^2}{6} + \frac{y^2}{2} = 1$</m> with <m>$a = \sqrt{6}$ and $b =
+        \sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        Parametric point <m>$P(\sqrt{6}\cos\theta, \sqrt{2}\sin\theta)$</m>. Distance squared from <m>$(0,
+        0)$</m> is <m>$6\cos^2\theta + 2\sin^2\theta = 4$</m>.
+      </d:para>
+      <d:para>
+        Using identity <m>$6(1 - \sin^2\theta) + 2\sin^2\theta = 4$</m> yields <m>$6 - 4\sin^2\theta =
+        4$</m>. Solving gives <m>$4\sin^2\theta = 2 \implies \sin^2\theta = \frac{1}{2}$</m>.
+      </d:para>
+      <d:para>
+        First quadrant choice <m>$\sin\theta = \frac{1}{\sqrt{2}} \implies \theta = \frac{\pi}{4}$</m>.
+      </d:para>
+      <d:para>
+        Point coordinates <m>$P\left(\sqrt{6}\cdot\frac{1}{\sqrt{2}}, \sqrt{2}\cdot\frac{1}{\sqrt{2}}\right)
+        = P\left(\sqrt{3}, 1\right)$</m>.
+      </d:para>
+      <d:para>
+        Tangent at <m>$(\sqrt{3}, 1)$</m> is <m>$x(\sqrt{3}) + 3y(1) = 6$</m>. Final tangent equation
+        <m>$\sqrt{3}x + 3y = 6$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 159 -->
+      <d:para>
+        The standard equation of the ellipse is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The equation of a tangent with slope <m>$m$</m> is <m>$y = mx \pm \sqrt{a^2 m^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        A line making equal intercepts on the axes has a slope of <m>$m = \pm 1$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$m = 1$</m> gives <m>$y = x \pm \sqrt{a^2(1)^2 + b^2} \implies y = x \pm \sqrt{a^2 +
+        b^2}$</m>. Substituting <m>$m = -1$</m> gives <m>$y = -x \pm \sqrt{a^2(-1)^2 + b^2} \implies y = -x
+        \pm \sqrt{a^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms yields <m>$x \pm y \pm \sqrt{a^2 + b^2} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 160 -->
+      <d:para>
+        Ellipse equation is <m>$2x^2 + 3y^2 = 1 \implies \frac{x^2}{1/2} + \frac{y^2}{1/3} = 1$</m>.
+      </d:para>
+      <d:para>
+        Semi-axes parameters are <m>$a^2 = \frac{1}{2}$</m> and <m>$b^2 = \frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        Given line equation is <m>$y = x + \sqrt{\frac{5}{6}}$</m> with slope <m>$m = 1$</m> and intercept
+        is <m>$c = \sqrt{\frac{5}{6}}$</m>.
+      </d:para>
+      <d:para>
+        Tangency condition formula is <m>$c^2 = a^2 m^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Evaluate right side <m>$a^2 m^2 + b^2 = \frac{1}{2}(1)^2 + \frac{1}{3} = \frac{5}{6}$</m>.
+      </d:para>
+      <d:para>
+        Evaluate left side <m>$c^2 = \left(\sqrt{\frac{5}{6}}\right)^2 = \frac{5}{6}$</m>. Since <m>$c^2 =
+        a^2 m^2 + b^2$</m> holds true the line touches the ellipse.
+      </d:para>
+      <d:para>
+        Point of contact formula is <m>$\left(-\frac{a^2 m}{c}, \frac{b^2}{c}\right)$</m>. Substitute
+        parameters <m>$\left(-\frac{(1/2)(1)}{\sqrt{5/6}}, \frac{1/3}{\sqrt{5/6}}\right)$</m>.
+      </d:para>
+      <d:para>
+        Simplifying coordinates <m>$\left(-\frac{1}{2}\sqrt{\frac{6}{5}},
+        \frac{1}{3}\sqrt{\frac{6}{5}}\right)$</m>. Final point of contact is <m>$\left(-\sqrt{\frac{3}{10}},
+        \sqrt{\frac{2}{15}}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 161 -->
+      <d:para>
+        Ellipse equation is <m>$4x^2 + 3y^2 = 5 \implies \frac{x^2}{5/4} + \frac{y^2}{5/3} = 1$</m>.
+      </d:para>
+      <d:para>
+        Semi-axes parameters are <m>$a^2 = \frac{5}{4}$</m> and <m>$b^2 = \frac{5}{3}$</m>.
+      </d:para>
+      <d:para>
+        Given line <m>$y = 3x + 7$</m> implies the parallel tangent slope is <m>$m = 3$</m>. Tangent
+        equation formula is <m>$y = mx \pm \sqrt{a^2 m^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        Substitute parameters <m>$y = 3x \pm \sqrt{\frac{5}{4}(3)^2 + \frac{5}{3}}$</m>. Simplify terms
+        under radical <m>$\frac{45}{4} + \frac{5}{3} = \frac{135 + 20}{12} = \frac{155}{12}$</m>.
+      </d:para>
+      <d:para>
+        Equation becomes <m>$y = 3x \pm \sqrt{\frac{155}{12}}$</m>. Rationalize radical term
+        <m>$\sqrt{\frac{155}{12}} = \frac{\sqrt{465}}{6}$</m>.
+      </d:para>
+      <d:para>
+        Final tangent equations are <m>$y = 3x \pm \frac{\sqrt{465}}{6}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 162 -->
+      <d:para>
+        Standard ellipse equation <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> with center <m>$C(0,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        Tangent equation at point <m>$(a\cos\theta, b\sin\theta)$ is $\frac{x\cos\theta}{a} +
+        \frac{y\sin\theta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Major axis intersection <m>$P\left(\frac{a}{\cos\theta}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Minor axis intersection <m>$Q\left(0, \frac{b}{\sin\theta}\right)$</m>.
+      </d:para>
+      <d:para>
+        Distance squared <m>$CP^2 = \frac{a^2}{\cos^2\theta}$</m>. Distance squared <m>$CQ^2 =
+        \frac{b^2}{\sin^2\theta}$</m>.
+      </d:para>
+      <d:para>
+        Evaluate left hand side <m>$\frac{a^2}{CP^2} + \frac{b^2}{CQ^2} = \frac{a^2}{a^2/\cos^2\theta} +
+        \frac{b^2}{b^2/\sin^2\theta}$</m>.
+      </d:para>
+      <d:para>
+        Simplify fractions <m>$\cos^2\theta + \sin^2\theta$</m>. Applying identity completes proof showing
+        <m>$\frac{a^2}{CP^2} + \frac{b^2}{CQ^2} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 163 -->
+      <d:para>
+        Standard ellipse equation <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> with center <m>$C(0,
+        0)$</m>.
+      </d:para>
+      <d:para>
+        Tangent equation with slope <m>$m$</m> is <m>$mx - y + \sqrt{a^2 m^2 + b^2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Perpendicular line from <m>$C(0, 0)$</m> with slope <m>$-\frac{1}{m}$</m> is <m>$x + my = 0
+        \implies m = -\frac{x}{y}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the intersection point representing the foot of the perpendicular.
+      </d:para>
+      <d:para>
+        Substitute <m>$P$</m> into both lines yields <m>$mh - k + \sqrt{a^2 m^2 + b^2} = 0$</m> and <m>$m
+        = -\frac{h}{k}$</m>.
+      </d:para>
+      <d:para>
+        Isolate radical term <m>$k - mh = \sqrt{a^2 m^2 + b^2}$</m>. Square both sides <m>$(k - mh)^2 =
+        a^2 m^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$m = -\frac{h}{k}$</m> into the equation <m>$\left(k + \frac{h^2}{k}\right)^2 =
+        a^2\left(-\frac{h}{k}\right)^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Simplify left side <m>$\left(\frac{k^2 + h^2}{k}\right)^2 = \frac{(h^2 +
+        k^2)^2}{k^2}$</m>. Simplify right side <m>$\frac{a^2 h^2}{k^2} + b^2 = \frac{a^2 h^2 + b^2
+        k^2}{k^2}$</m>.
+      </d:para>
+      <d:para>
+        Equate numerators <m>$(h^2 + k^2)^2 = a^2 h^2 + b^2 k^2$</m>. Replace <m>$h$</m> with <m>$x$</m>
+        and <m>$k$</m> with <m>$y$</m> for final locus <m>$\left(x^2 + y^2\right)^2 = a^2 x^2 + b^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 164 -->
+      <d:para>
+        Standard ellipse equation is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The ends of the focal chord are <m>$P(a\cos\theta, b\sin\theta)$ and $Q(a\cos\psi, b\sin\psi)$</m>.
+      </d:para>
+      <d:para>
+        The line passing through <m>$P$</m> and <m>$Q$</m> is <m>$x\cos\frac{\theta + \psi}{2} +
+        y\sin\frac{\theta + \psi}{2} = a\cos\frac{\theta - \psi}{2}$</m>.
+      </d:para>
+      <d:para>
+        This focal chord passes through the focus <m>$S(ae, 0)$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$S$</m> into the line equation yields <m>$ae\cos\frac{\theta + \psi}{2} + 0 =
+        a\cos\frac{\theta - \psi}{2}$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$a$</m> gives <m>$e\cos\frac{\theta + \psi}{2} = \cos\frac{\theta - \psi}{2}$</m>.
+      </d:para>
+      <d:para>
+        Rearranging terms produces <m>$\frac{\cos\frac{\theta - \psi}{2}}{\cos\frac{\theta + \psi}{2}} =
+        \frac{e}{1}$</m>.
+      </d:para>
+      <d:para>
+        Applying componendo and dividendo <m>$\frac{\cos\frac{\theta - \psi}{2} - \cos\frac{\theta +
+        \psi}{2}}{\cos\frac{\theta - \psi}{2} + \cos\frac{\theta + \psi}{2}} = \frac{e - 1}{e + 1}$</m>
+      </d:para>
+      <d:para>
+        Using trigonometric sum-to-product identities
+        <m>$\frac{2\sin\frac{\theta}{2}\sin\frac{\psi}{2}}{2\cos\frac{\theta}{2}\cos\frac{\psi}{2}} =
+        \frac{e - 1}{e + 1}$</m>
+      </d:para>
+      <d:para>
+        Simplifying the fractions completes the proof showing <m>$\tan\frac{\theta}{2}\tan\frac{\psi}{2} =
+        \frac{e - 1}{e + 1}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 165 -->
+      <d:para>
+        Ellipse equation is <m>$x^2 + 4y^2 = 9 \implies \frac{x^2}{9} + \frac{y^2}{9/4} = 1$</m>.
+      </d:para>
+      <d:para>
+        Semi-axes parameters are <m>$a = 3$</m> and <m>$b = \frac{3}{2}$</m>. Eccentric angle <m>$\theta =
+        \frac{\pi}{4}$</m>.
+      </d:para>
+      <d:para>
+        Parametric point coordinates <m>$P\left(3\cos\frac{\pi}{4}, \frac{3}{2}\sin\frac{\pi}{4}\right) =
+        P\left(\frac{3}{\sqrt{2}}, \frac{3}{2\sqrt{2}}\right)$</m>.
+      </d:para>
+      <d:para>
+        Normal equation formula at <m>$\theta$</m> is <m>$\frac{a^2 x}{x_1} - \frac{b^2 y}{y_1} = a^2 -
+        b^2$</m>.
+      </d:para>
+      <d:para>
+        Substitute parameters <m>$\frac{9x}{3/\sqrt{2}} - \frac{(9/4)y}{3/(2\sqrt{2})} = 9 -
+        \frac{9}{4}$</m>.
+      </d:para>
+      <d:para>
+        Simplify fractions <m>$3\sqrt{2}x - \frac{3\sqrt{2}}{2}y = \frac{27}{4}$</m>.
+      </d:para>
+      <d:para>
+        Multiply the entire equation by <m>$\frac{4}{3\sqrt{2}}$</m> yields <m>$4x - 2y =
+        \frac{9}{\sqrt{2}}$</m>. Rationalize right side for final equation <m>$4x - 2y =
+        \frac{9\sqrt{2}}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 166 -->
+      <d:para>
+        Ellipse equation is <m>$x^2 + 4y^2 = 25$</m>. Ordinate value <m>$y = 2$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$y$</m> to get <m>$x^2 + 4(2)^2 = 25 \implies x^2 + 16 = 25 \implies x^2 = 9 \implies
+        x = \pm 3$</m>.
+      </d:para>
+      <d:para>
+        Points of contact are <m>$P_1(3, 2)$</m> and <m>$P_2(-3, 2)$</m>.
+      </d:para>
+      <d:para>
+        Normal equation formula at <m>$(x_1, y_1)$</m> is <m>$\frac{a^2 x}{x_1} - \frac{b^2 y}{y_1} = a^2 -
+        b^2$</m>.
+      </d:para>
+      <d:para>
+        Identify parameters <m>$a^2 = 25$</m> and <m>$b^2 = \frac{25}{4}$ yielding $a^2 - b^2 =
+        \frac{75}{4}$</m>.
+      </d:para>
+      <d:para>
+        Normal equation at <m>$P_1$</m> is <m>$\frac{25x}{3} - \frac{(25/4)y}{2} = \frac{75}{4}$</m>.
+      </d:para>
+      <d:para>
+        Simplify fraction terms <m>$\frac{25x}{3} - \frac{25y}{8} = \frac{75}{4}$</m>.
+      </d:para>
+      <d:para>
+        Divide by <m>$25$</m> and multiply by <m>$24$</m> yields <m>$8x - 3y = 18$</m>.
+      </d:para>
+      <d:para>
+        Normal equation at <m>$P_2$</m> is <m>$\frac{25x}{-3} - \frac{(25/4)y}{2} = \frac{75}{4}$</m>.
+      </d:para>
+      <d:para>
+        Simplify fraction terms <m>$-\frac{25x}{3} - \frac{25y}{8} = \frac{75}{4}$</m>.
+      </d:para>
+      <d:para>
+        Divide by <m>$25$</m> and multiply by <m>$24$</m> yields <m>$-8x - 3y = 18 \implies 8x + 3y = -18$</m>.
+      </d:para>
+      <d:para>
+        Final normal equations are <m>$8x \mp 3y = 18$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 167 -->
+      <d:para>
+        Let the line touch the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> at <m>$(x_1,
+        y_1)$</m>. The tangent equation at this point is <m>$\frac{xx_1}{a^2} + \frac{yy_1}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Comparing this with the rewritten given line <m>$-\frac{l}{n}x - \frac{m}{n}y = 1$</m> yields the
+        coefficients <m>$\frac{x_1}{a^2} = -\frac{l}{n}$ and $\frac{y_1}{b^2} = -\frac{m}{n}$</m>. Solving
+        for the coordinates gives the point of contact <m>$x_1 = -\frac{a^2 l}{n}$ and $y_1 = -\frac{b^2
+        m}{n}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$(x_1, y_1)$</m> lies on the ellipse, substituting these coordinates into
+        <m>$\frac{x_1^2}{a^2} + \frac{y_1^2}{b^2} = 1$</m> produces <m>$\frac{a^2 l^2}{n^2} + \frac{b^2
+        m^2}{n^2} = 1$</m>, which simplifies to <m>$a^2 l^2 + b^2 m^2 = n^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 168 -->
+      <d:para>
+        The equations of the tangents to the ellipse <m>$x^2 + 4y^2 = 25$</m> at the points where the
+        ordinate is <m>$2$</m> are <m>$3x + 8y = 25$</m> and <m>$-3x + 8y = 25$</m>.
+      </d:para>
+      <d:para>
+        The given ellipse equation is <m>$x^2 + 4y^2 = 25$</m> and the ordinate of the point of contact is
+        <m>$y_1 = 2$</m>. Substituting <m>$y_1 = 2$</m> into the ellipse equation to find the corresponding
+        abscissa gives <m>$x_1^2 + 4(2)^2 = 25$</m>, which simplifies to <m>$x_1^2 + 16 = 25$</m>. Solving
+        for <m>$x_1$</m> yields <m>$x_1^2 = 9$</m>, which gives two possible values <m>$x_1 = 3$</m> or
+        <m>$x_1 = -3$</m>. Thus, there are two distinct points of contact on the ellipse: <m>$(3, 2)$</m>
+        and <m>$(-3, 2)$</m>.
+      </d:para>
+      <d:para>
+        Substituting the first point <m>$(3, 2)$</m> into the equation for tangents yields the first tangent
+        equation <m>$3x + 4y(2) = 25$</m>, which simplifies to <m>$3x + 8y = 25$</m>. Substituting the
+        second point <m>$(-3, 2)$</m> into the relation yields the second tangent equation <m>$-3x + 4y(2) =
+        25$</m>, which simplifies to <m>$-3x + 8y = 25$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 169 -->
+      <d:para>
+        The coordinates of the end of the latus rectum in the first quadrant are <m>$(x_1, y_1) = \left(ae,
+        \frac{b^2}{a}\right)$</m>, where <m>$e$</m> is the eccentricity. The general equation of a normal to
+        the ellipse at <m>$(x_1, y_1)$</m> is <m>$\frac{a^2 x}{x_1} - \frac{b^2 y}{y_1} = a^2 - b^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1 = ae$</m> and <m>$y_1 = \frac{b^2}{a}$</m> into the general equation yields
+        <m>$\frac{a^2 x}{ae} - \frac{b^2 y}{b^2/a} = a^2 - b^2$</m>. Simplifying the fractions results in
+        <m>$\frac{ax}{e} - ay = a^2 - b^2$</m>.
+      </d:para>
+      <d:para>
+        Using the eccentricity relation <m>$a^2 - b^2 = a^2 e^2$</m>, the equation becomes <m>$\frac{ax}{e}
+        - ay = a^2 e^2$</m>. Dividing the entire equation by <m>$a$</m> gives <m>$\frac{x}{e} - y =
+        ae^2$</m>. Multiplying through by <m>$e$</m> produces the final equation <m>$x - ey = ae^3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 170 -->
+      <d:para>
+        Differentiating the ellipse equation <m>$x^2 + 3y^2 = 27$</m> with respect to <m>$x$</m> gives
+        <m>$2x + 6y \frac{dy}{dx} = 0$</m>. The slope of the tangent is <m>$\frac{dy}{dx} =
+        -\frac{x}{3y}$</m>, so the slope of the normal at any point <m>$(x_1, y_1)$</m> is
+        <m>$\frac{3y_1}{x_1}$</m>.
+      </d:para>
+      <d:para>
+        The slope of the given line <m>$6x - 5y = 2$</m> is <m>$\frac{6}{5}$</m>. Equating the slopes gives
+        <m>$\frac{3y_1}{x_1} = \frac{6}{5}$</m>, which simplifies to <m>$x_1 = \frac{5}{2}y_1$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1 = \frac{5}{2}y_1$</m> into the ellipse equation yields
+        <m>$\left(\frac{5}{2}y_1\right)^2 + 3y_1^2 = 27$</m>. This simplifies to <m>$\frac{25}{4}y_1^2 +
+        3y_1^2 = 27$, or $\frac{37}{4}y_1^2 = 27$</m>.
+      </d:para>
+      <d:para>
+        Solving for <m>$y_1$</m> gives <m>$y_1 = \pm \frac{6\sqrt{3}}{\sqrt{37}}$</m>. Using <m>$x_1 =
+        \frac{5}{2}y_1$</m>, the corresponding values are <m>$x_1 = \pm \frac{15\sqrt{3}}{\sqrt{37}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 171 -->
+      <d:para>
+        The general equation of a normal to the ellipse at any point <m>$(x_1, y_1)$</m> is <m>$\frac{a^2
+        x}{x_1} - \frac{b^2 y}{y_1} = a^2 - b^2$</m>.
+      </d:para>
+      <d:para>
+        The given line equation can be written as <m>$x\cos\alpha + y\sin\alpha = p$</m>. Comparing the
+        coefficients of this line with the normal equation yields the relations
+        <m>$\frac{a^2}{x_1\cos\alpha} = \frac{-b^2}{y_1\sin\alpha} = \frac{a^2-b^2}{p}$</m>.
+      </d:para>
+      <d:para>
+        Solving for the coordinates gives <m>$x_1 = \frac{a^2 p}{(a^2-b^2)\cos\alpha}$</m> and <m>$y_1 =
+        \frac{-b^2 p}{(a^2-b^2)\sin\alpha}$</m>.
+      </d:para>
+      <d:para>
+        Since the point <m>$(x_1, y_1)$</m> lies on the ellipse, substituting these expressions into
+        <m>$\frac{x_1^2}{a^2} + \frac{y_1^2}{b^2} = 1$</m> produces <m>$\frac{a^2
+        p^2}{(a^2-b^2)^2\cos^2\alpha} + \frac{b^2 p^2}{(a^2-b^2)^2\sin^2\alpha} = 1$</m>.
+      </d:para>
+      <d:para>
+        Factoring out the common terms results in the condition <m>$a^2\sec^2\alpha + b^2\csc^2\alpha =
+        \frac{(a^2-b^2)^2}{p^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 172 -->
+      <d:para>
+        Vertices <m>$(\pm 5, 0)$</m> and foci <m>$(\pm 4, 0)$</m> give center <m>$(0, 0)$</m> and a
+        horizontal major axis. The standard form is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The semi-major axis is <m>$a = 5$</m>, so <m>$a^2 = 25$</m>. The focal distance is <m>$c = 4$</m>,
+        so <m>$c^2 = 16$</m>. Using <m>$b^2 = a^2 - c^2$</m>, we get <m>$b^2 = 25 - 16 = 9$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a^2 = 25$</m> and <m>$b^2 = 9$</m> yields <m>$\frac{x^2}{25} + \frac{y^2}{9} =
+        1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 173 -->
+      <d:para>
+        Foci <m>$(\pm 3, 0)$</m> give center <m>$(0, 0)$</m> and focal distance <m>$c = 3$</m>, so <m>$c^2 =
+        9$</m>. The horizontal standard form is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>, where
+        <m>$a^2 = b^2 + 9$</m>.
+      </d:para>
+      <d:para>
+        Substituting the point <m>$(4, 1)$</m> into the equation gives <m>$\frac{16}{b^2 + 9} +
+        \frac{1}{b^2} = 1$</m>. Solving for <m>$b^2$</m> yields <m>$b^2 = 9$</m>, which means <m>$a^2 = 9 +
+        9 = 18$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a^2 = 18$</m> and <m>$b^2 = 9$</m> into the standard form yields <m>$\frac{x^2}{18}
+        + \frac{y^2}{9} = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 174 -->
+      <d:para>
+        The standard ellipse equation is <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>. Let <m>$u =
+        \frac{1}{a^2}$</m> and <m>$v = \frac{1}{b^2}$</m> to get <m>$u x^2 + v y^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(-1, 4)$</m>: <m>$u(-1)^2 + v(4)^2 = 1 \implies u + 16v = 1 \implies u = 1 -
+        16v$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$(4, 3)$</m>: <m>$16u + 9v = 1$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$u$</m> into the second equation: <m>$16(1 - 16v) + 9v = 1 \implies 16 - 247v = 1
+        \implies v = \frac{15}{247}$</m>.
+      </d:para>
+      <d:para>
+        Find <m>$u$</m>: <m>$u = 1 - 16(\frac{15}{247}) = \frac{7}{247}$</m>.
+      </d:para>
+      <d:para>
+        The equation is <m>$\frac{7}{247}x^2 + \frac{15}{247}y^2 = 1$</m>. Multiply by <m>$247$</m> to get
+        <m>$7x^2 + 15y^2 = 247$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 175 -->
+      <d:para>
+        Let the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> (<m>$a > b$</m>) with foci
+        <m>$F_1(-ae, 0)$</m>, <m>$F_2(ae, 0)$</m> and minor vertex <m>$B(0, b)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\angle F_1BF_2 = 90^\circ$</m>, symmetry makes <m>$\triangle F_1BF_2$</m> a right
+        isosceles triangle. The median <m>$OB$</m> equals half the hypotenuse <m>$OF_2$</m>, so <m>$b = ae
+        \implies b^2 = a^2e^2$</m>.
+      </d:para>
+      <d:para>
+        Equating this to <m>$b^2 = a^2(1 - e^2)$</m> gives <m>$a^2e^2 = a^2(1 - e^2) \implies e^2 = 1 - e^2
+        \implies 2e^2 = 1$</m>. The eccentricity is <m>$e = \frac{1}{\sqrt{2}}$</m>.
+      </d:para>
+      <d:para>
+        The major axis is <m>$2a = 2\sqrt{2} \implies a = \sqrt{2} \implies a^2 = 2$</m>. Then <m>$b^2 =
+        a^2e^2 = 2 \times \frac{1}{2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The equation is <m>$\frac{x^2}{2} + \frac{y^2}{1} = 1$</m>, which simplifies to <m>$x^2 + 2y^2 =
+        2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 176 -->
+      <d:para>
+        Let the archway center be <m>$(0,0)$</m> with the road along the <m>$x$</m>-axis. The road breadth
+        is <m>$2a = 30 \implies a = 15$</m>, giving the ellipse equation <m>$\frac{x^2}{225} +
+        \frac{y^2}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        A man <m>$6$</m> ft tall stands <m>$2$</m> ft from the edge, corresponding to the point <m>$(15 - 2,
+        6) = (13, 6)$</m> on the arch.
+      </d:para>
+      <d:para>
+        Substituting <m>$(13, 6)$</m> gives <m>$\frac{13^2}{225} + \frac{6^2}{b^2} = 1 \implies
+        \frac{169}{225} + \frac{36}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Isolating <m>$b^2$</m> yields <m>$\frac{36}{b^2} = \frac{56}{225} \implies b^2 = \frac{36 \times
+        225}{56} = \frac{2025}{14}$</m>.
+      </d:para>
+      <d:para>
+        The greatest height is <m>$b = \sqrt{\frac{2025}{14}} = \frac{45}{\sqrt{14}} \approx 12.03$</m> ft.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 177 -->
+      <d:para>
+        The equation of any tangent to the ellipse with slope <m>$m$</m> is <m>$y = mx + \sqrt{a^2 m^2 +
+        b^2}$</m>, which can be rewritten as <m>$y - mx = \sqrt{a^2 m^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        The focus is located at <m>$(\pm ae, 0)$</m>. The equation of the line passing through the focus
+        <m>$(\pm ae, 0)$</m> and perpendicular to the tangent line is <m>$y - 0 = -\frac{1}{m}(x \mp
+        ae)$</m>, which simplifies to <m>$x + my = \pm ae$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$(x_1, y_1)$</m> be the foot of the perpendicular, which satisfies both lines. Squaring and
+        adding the two equations yields <m>$(y_1 - mx_1)^2 + (x_1 + my_1)^2 = (a^2 m^2 + b^2) + a^2
+        e^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the terms gives <m>$y_1^2 - 2mx_1y_1 + m^2 x_1^2 + x_1^2 + 2mx_1y_1 + m^2 y_1^2 = a^2 m^2
+        + b^2 + a^2 e^2$</m>. Factoring the left side results in <m>$(x_1^2 + y_1^2)(1 + m^2) = a^2 m^2 +
+        b^2 + a^2 e^2$</m>.
+      </d:para>
+      <d:para>
+        Using the ellipse relation <m>$b^2 = a^2(1 - e^2)$</m>, the right side becomes <m>$a^2 m^2 + a^2(1 -
+        e^2) + a^2 e^2 = a^2(1 + m^2)$</m>. The equation simplifies to <m>$(x_1^2 + y_1^2)(1 + m^2) = a^2(1
+        + m^2)$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$1 + m^2$</m> gives <m>$x_1^2 + y_1^2 = a^2$</m>. Replacing <m>$(x_1, y_1)$</m> with
+        general coordinates <m>$(x, y)$</m> gives the locus equation <m>$x^2 + y^2 = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 178 -->
+      <d:para>
+        The perpendicular distances <m>$p_1$</m> and <m>$p_2$</m> from the foci <m>$(ae, 0)$</m> and
+        <m>$(-ae, 0)$</m> to the tangent line are given by <m>$p_1 = \frac{\left|m(ae) - 0 + \sqrt{a^2 m^2 +
+        b^2}\right|}{\sqrt{1 + m^2}}$</m> and <d:sbr/> <m>$p_2 = \frac{\left|m(-ae) - 0 + \sqrt{a^2 m^2 +
+        b^2}\right|}{\sqrt{1 + m^2}}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the two distances together gives the product <d:sbr/><m>$p_1 p_2 = \frac{\left|(\sqrt{a^2 m^2 + b^2}
+        + mae)(\sqrt{a^2 m^2 + b^2} - mae)\right|}{1 + m^2}$</m>.
+      </d:para>
+      <d:para>
+        Expanding the numerator using the difference of squares yields <m>$p_1 p_2 = \frac{\left|(a^2 m^2 + b^2)
+        - m^2 a^2 e^2\right|}{1 + m^2} = \frac{\left|a^2 m^2(1 - e^2) + b^2\right|}{1 + m^2}$</m>.
+      </d:para>
+      <d:para>
+        Using the ellipse relation <m>$b^2 = a^2(1 - e^2)$</m>, substituting this value into the expression
+        gives <m>$p_1 p_2 = \frac{\left|m^2 b^2 + b^2\right|}{1 + m^2} = \frac{b^2\left(1 + m^2\right)}{1 + m^2}$</m>.
+      </d:para>
+      <d:para>
+        Canceling out the common factor <m>$1 + m^2$</m> simplifies the expression to <m>$p_1 p_2 =
+        b^2$</m>, which proves the product equals the square of the semi-minor axis.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 179 -->
+      <d:para>
+        Any tangent to the ellipse with slope <m>$m$</m> passing through an external point <m>$(h, k)$</m>
+        satisfies the equation <m>$(k - mh)^2 = a^2 m^2 + b^2$</m>. Expanding and rearranging terms gives
+        the quadratic equation in <m>$m$</m> as <m>$m^2\left(h^2 - a^2\right) - 2mhk + (k^2 - b^2) = 0$</m>.
+      </d:para>
+      <d:para>
+        If <m>$m_1$</m> and <m>$m_2$</m> are the slopes of the two tangents from <m>$(h, k)$</m>, then the
+        sum of the roots is <m>$m_1 + m_2 = \frac{2hk}{h^2 - a^2}$</m> and the product of the roots is
+        <m>$m_1 m_2 = \frac{k^2 - b^2}{h^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        The angle <m>$\theta$</m> between the two tangents satisfies <m>$\tan\theta = \left|\frac{m_1 -
+        m_2}{1 + m_1 m_2}\right|$</m>. Squaring both sides yields <m>$\tan^2\theta = \frac{(m_1 + m_2)^2 -
+        4m_1 m_2}{(1 + m_1 m_2)^2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the expressions for the sum and product of the slopes gives <m>$\tan^2\theta =
+        \frac{4\left(b^2 h^2 + a^2 k^2 - a^2 b^2\right)}{\left(h^2 + k^2 - a^2 -
+        b^2\right)^2}$</m>. Rearranging this equation leads to <m>$\left(h^2 + k^2 - a^2 - b^2\right)^2 =
+        4\cot^2\theta \left(b^2 h^2 + a^2 k^2 - a^2 b^2\right)$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m> gives the required locus equation
+        as <m>$\left(x^2 + y^2 - a^2 - b^2\right)^2 = 4\cot^2\theta \left(b^2 x^2 + a^2 y^2 - a^2
+        b^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 180 -->
+      <d:para>
+        Putting <m>$\theta = 60^\circ$</m> gives us <m>$3\left(x^2 + y^2 - a^2 - b^2\right)^2 = 4 \left(b^2
+        x^2 + a^2 y^2 - a^2b^2\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 181 -->
+      <d:para>
+        The equation of the tangent to the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> at the
+        parametric point <m>$\alpha$</m> is <m>$\frac{x\cos\alpha}{a} + \frac{y\sin\alpha}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        The equation of the auxiliary circle is <m>$x^2 + y^2 = a^2$</m>. Making the circle equation
+        homogeneous using the tangent line gives <m>$x^2 + y^2 = a^2 \left( \frac{x\cos\alpha}{a} +
+        \frac{y\sin\alpha}{b} \right)^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the right side yields <m>$x^2 + y^2 = x^2\cos^2\alpha + \frac{2a}{b}xy\cos\alpha\sin\alpha
+        + \frac{a^2}{b^2}y^2\sin^2\alpha$</m>. Rearranging terms results in <m>$x^2(1 - \cos^2\alpha) -
+        \frac{2a}{b}xy\cos\alpha\sin\alpha + y^2\left(1 - \frac{a^2}{b^2}\sin^2\alpha\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the straight lines represented by this equation subtend a right angle at the center, the sum
+        of the coefficients of <m>$x^2$</m> and <m>$y^2$</m> must equal zero, giving <m>$(1 - \cos^2\alpha)
+        + \left(1 - \frac{a^2}{b^2}\sin^2\alpha\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the relation results in <m>$\sin^2\alpha + 1 = \frac{a^2}{b^2}\sin^2\alpha$</m>, which
+        can be rewritten as <m>$1 + \sin^2\alpha = \frac{a^2 \sin^2\alpha}{a^2(1-e^2)}$</m> by using <m>$b^2
+        = a^2(1-e^2)$</m>.
+      </d:para>
+      <d:para>
+        Canceling out <m>$a^2$</m> leads to <m>$1 + \sin^2\alpha = \frac{\sin^2\alpha}{1 -
+        e^2}$</m>. Rearranging terms gives <m>$1-e^2 = \frac{\sin^2\alpha}{1+\sin^2\alpha}$</m>, which
+        simplifies to <m>$e^2 = 1 - \frac{\sin^2\alpha}{1+\sin^2\alpha} =
+        \frac{1}{1+\sin^2\alpha}$</m>. Taking the square root proves <m>$e =
+        \frac{1}{\sqrt{1+\sin^2\alpha}}$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="csa6">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/6_8a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 182 -->
+      <d:para>
+        The equations of the tangents to the ellipse at the points <m>$\alpha$</m> and <m>$\beta$</m> are
+        given by <m>$\frac{x}{a}\cos\alpha + \frac{y}{b}\sin\alpha = 1$ and $\frac{x}{a}\cos\beta +
+        \frac{y}{b}\sin\beta = 1$</m>.
+      </d:para>
+      <d:para>
+        Subtracting the second equation from the first yields <m>$\frac{x}{a}(\cos\alpha - \cos\beta) +
+        \frac{y}{b}(\sin\alpha - \sin\beta) = 0$</m>. Applying the trigonometric sum-to-product formulas
+        results in <m>$\frac{x}{a} \left[
+        -2\sin\left(\frac{\alpha+\beta}{2}\right)\sin\left(\frac{\alpha-\beta}{2}\right) \right] +
+        \frac{y}{b} \left[ 2\cos\left(\frac{\alpha+\beta}{2}\right)\sin\left(\frac{\alpha-\beta}{2}\right)
+        \right] = 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$2\sin\left(\frac{\alpha-\beta}{2}\right)$</m> gives
+        <m>$-\frac{x}{a}\sin\left(\frac{\alpha+\beta}{2}\right) +
+        \frac{y}{b}\cos\left(\frac{\alpha+\beta}{2}\right) = 0$</m>, which simplifies to <m>$\frac{y}{b} =
+        \frac{x}{a}\tan\left(\frac{\alpha+\beta}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Substituting this relation into the first tangent equation produces <m>$\frac{x}{a}\cos\alpha +
+        \frac{x}{a}\tan\left(\frac{\alpha+\beta}{2}\right)\sin\alpha = 1$</m>. Factoring out
+        <m>$\frac{x}{a}$</m> and combining the terms into a single fraction leads to <m>$\frac{x}{a} \left[
+        \frac{\cos\alpha\cos\left(\frac{\alpha+\beta}{2}\right) +
+        \sin\alpha\sin\left(\frac{\alpha+\beta}{2}\right)}{\cos\left(\frac{\alpha+\beta}{2}\right)} \right]
+        = 1$</m>.
+      </d:para>
+      <d:para>
+        Using the identity for <m>$\cos(A - B)$</m> in the numerator simplifies the expression to
+        <m>$\frac{x}{a} \left[
+        \frac{\cos\left(\frac{\alpha-\beta}{2}\right)}{\cos\left(\frac{\alpha+\beta}{2}\right)} \right] =
+        1$</m>. Solving for <m>$x$</m> yields <m>$x = \frac{a \cos \left( \frac{\alpha + \beta}{2}
+        \right)}{\cos \left( \frac{\alpha - \beta}{2} \right)}$</m>. Substituting <m>$x$</m> back into the
+        relation for <m>$y$</m> gives <m>$y = \frac{b \sin \left( \frac{\alpha + \beta}{2} \right)}{\cos
+        \left( \frac{\alpha - \beta}{2} \right)}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 183 -->
+      <d:para>
+        Let the two foci of the ellipse be <m>$S(x_1, y_1)$</m> and <m>$S'(x_2, y_2)$</m>. Let <m>$S(x_1,
+        y_1) = (x, y)$</m> be the focus whose locus is required.
+      </d:para>
+      <d:para>
+        Since the ellipse slides between two perpendicular lines taken as the coordinate axes, both the
+        <m>$x$</m>-axis and <m>$y$</m>-axis are perpendicular tangents to the ellipse. The product of the
+        lengths of the perpendiculars from the two foci to any tangent is equal to the square of the
+        semi-minor axis <m>$b^2$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="csa7">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/6_9a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        For the tangent along the <m>$x$</m>-axis, the product of the perpendicular distances from
+        <m>$S$</m> and <m>$S'$</m> is <m>$y_1 y_2 = b^2$</m>, which gives <m>$y_2 = \frac{b^2}{y}$</m>. For
+        the tangent along the <m>$y$</m>-axis, the product of the perpendicular distances is <m>$x_1 x_2 =
+        b^2$</m>, which gives <m>$x_2 = \frac{b^2}{x}$</m>.
+      </d:para>
+      <d:para>
+        The intersection of two perpendicular tangents lies on the director circle of the ellipse. Since the
+        axes intersect at the origin <m>$(0, 0)$</m>, the distance from the center of the ellipse
+        <m>$C\left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$</m> to the origin is equal to the radius of
+        the director circle <m>$\sqrt{a^2 + b^2}$</m>.
+      </d:para>
+      <d:para>
+        This geometric property gives the relation <m>$\left(\frac{x_1+x_2}{2}\right)^2 +
+        \left(\frac{y_1+y_2}{2}\right)^2 = a^2 + b^2$</m>, which simplifies to <m>$(x_1 + x_2)^2 + (y_1 +
+        y_2)^2 = 4(a^2 + b^2)$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1 = x$</m>, <m>$y_1 = y$</m>, <m>$x_2 = \frac{b^2}{x}$, and $y_2 =
+        \frac{b^2}{y}$</m> into the simplified relation produces <m>$\left(x + \frac{b^2}{x}\right)^2 +
+        \left(y + \frac{b^2}{y}\right)^2 = 4a^2 + 4b^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the squared terms results in <m>$x^2 + 2b^2 + \frac{b^4}{x^2} + y^2 + 2b^2 +
+        \frac{b^4}{y^2} = 4a^2 + 4b^2$</m>. Canceling <m>$4b^2$</m> from both sides yields <m>$x^2 + y^2 +
+        \frac{b^4}{x^2} + \frac{b^4}{y^2} = 4a^2$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$x^2 y^2$</m> leads to <m>$x^4 y^2 + x^2 y^4 + b^4 y^2 + b^4
+        x^2 = 4a^2 x^2 y^2$</m>. Factoring the expression gives <m>$x^2 y^2 (x^2 + y^2) + b^4 (x^2 + y^2) =
+        4a^2 x^2 y^2$</m>.
+      </d:para>
+      <d:para>
+        Grouping the common factor <m>$(x^2 + y^2)$</m> yields the final locus equation <m>$(x^2 + y^2)(x^2
+        y^2 + b^4) = 4a^2 x^2 y^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 184 -->
+      <d:para>
+        Let the two perpendicular lines be taken as the coordinate axes. The equation of the director circle
+        of an ellipse with semi-axes <m>$a$</m> and <m>$b$</m> is given by <m>$X^2 + Y^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        <d:figure xml:id="csa8">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/6_10a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        A known geometric property of the ellipse states that the locus of the point of intersection of two
+        perpendicular tangents is its director circle. Since the two lines at right angles are the
+        coordinate axes, their intersection point is the origin <m>$(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        Let the center of the ellipse at any instant be <m>$C(h, k)$</m>. The distance from the center of
+        the ellipse <m>$C(h, k)$</m> to the point of intersection of the perpendicular tangents <m>$(0,
+        0)$</m> remains constant and is equal to the radius of the director circle.
+      </d:para>
+      <d:para>
+        Using the distance formula from the center <m>$C(h, k)$</m> to the origin <m>$(0, 0)$</m>, we get
+        <m>$\sqrt{(h - 0)^2 + (k - 0)^2} = \sqrt{a^2 + b^2}$</m>. Squaring both sides of this relation
+        yields <m>$h^2 + k^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Replacing the coordinates <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m> gives the
+        required locus equation <m>$x^2 + y^2 = a^2 + b^2$</m>. This equation represents a circle centered
+        at the origin with a radius of <m>$\sqrt{a^2 + b^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 185 -->
+      <d:para>
+        <d:figure xml:id="csa9">
+          <d:title></d:title>
+          <d:mediaobject>
+            <d:imageobject>
+              <d:imagedata fileref="../images/6_11a.webp"/>
+            </d:imageobject>
+          </d:mediaobject>
+        </d:figure>
+      </d:para>
+      <d:para>
+        Let the equation of the ellipse be <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> and let <m>$P(x_1,
+        y_1)$</m> be any point on it. The two foci are <m>$S(ae, 0)$</m> and <m>$S'(-ae, 0)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the tangent at <m>$P(x_1, y_1)$</m> is <m>$\frac{xx_1}{a^2} + \frac{yy_1}{b^2} =
+        1$</m>. This tangent line intersects the major axis (<m>$x$</m>-axis, where <m>$y=0$</m>) at the
+        point <m>$T\left(\frac{a^2}{x_1}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        The focal distances of the point <m>$P$</m> are <m>$SP = a - ex_1$</m> and <m>$S'P = a +
+        ex_1$</m>. We compute the distances from the intersection point <m>$T$</m> to each focus <m>$S$</m>
+        and <m>$S'$</m>.
+      </d:para>
+      <d:para>
+        The distance <m>$ST = \frac{a^2}{x_1} - ae = \frac{a(a - ex_1)}{x_1}$</m> and the distance <m>$S'T =
+        \frac{a^2}{x_1} + ae = \frac{a(a + ex_1)}{x_1}$</m>.
+      </d:para>
+      <d:para>
+        Taking the ratio of these distances yields <m>$\frac{S'T}{ST} = \frac{a+ex_1}{a-ex_1} =
+        \frac{S'P}{SP}$</m>
+        . According to the angle bisector theorem, this ratio proves that <m>$PT$</m> is the external
+        bisector of <m>$\angle SPS'$</m>.
+      </d:para>
+      <d:para>
+        The normal at <m>$P$</m> is perpendicular to the tangent <m>$PT$</m>. Since the internal and
+        external bisectors of any angle are always at right angles to each other, the normal must be the
+        internal bisector of <m>$\angle SPS'$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

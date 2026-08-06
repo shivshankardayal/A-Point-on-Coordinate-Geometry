@@ -1895,7 +1895,7 @@
       <d:para>
         <m>$\Rightarrow 4a^4m^2c^2 + 4a^2\left(b^2 - a^2m^2\right)(c^2 + b^2) = 0$</m>
       </d:para>
-      <d:para>\Rightarrow a^2m^2c^2 + b^2c^2 - a^2c^2m^2 + b^4 - a^2b^2m^2 = 0</d:para>
+      <d:para><m>$\Rightarrow a^2m^2c^2 + b^2c^2 - a^2c^2m^2 + b^4 - a^2b^2m^2 = 0$</m></d:para>
       <d:para>
         <m>$\Rightarrow b^2c^2 + b^4 - a^2b^2m^2 = 0 \Rightarrow c = \pm\sqrt{a^2m^2 - b^2}$</m>
       </d:para>
@@ -2736,6 +2736,298 @@
         A rod of length <m>$2l$</m> slides with its ends on the parabola <m>$y^2 = 4ax$</m>. Prove that the
         mid-point of the rod traces the curve <m>$\left(4ax - y^2\right)\left(y^2 + 4a^2\right) =
         4a^2l^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 130 -->
+        Show that if <m>$r_1$</m> and <m>$r_2$</m> be the lengths of perpendicular chords of a parabola
+        drawn through the vertex, then <m>$\left(r_1r_2\right)^\frac{4}{3} = 16a^2\left(r_1^{\frac{2}{3}} +
+        r_2^{\frac{2}{3}}\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 131 -->
+        Show that the locus of the middle point of a variable chord of the parabola <m>$y^2 = 4ax$</m>, such
+        that the focal distances of its extremities are in the ratio <m>$2:1$</m> is <m>$9\left(y^2 -
+        2ax\right)^2 = 4a^2(2x - a)(4x + a)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 132 -->
+        Show that the equation of the circle described on the chord intercepted by the parabola <m>$y^2 =
+        4ax$</m> on the line <m>$y = mx + c$</m> as diameter is <m>$m^2\left(x^2 + y^2\right) + 2x(mc - 2a)
+        - 4amy + 4amc + c^2 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 133 -->
+        If the sum of the tangents of the base angles of a triangle described on a given base be constant,
+        show that the locus of its vertex is a parabola.
+      </d:listitem>
+      <d:listitem>
+        <!-- 134 -->
+        Prove that the locus of the centers of equilateral triangles inscribed in the parabola <m>$y^2 =
+        4ax$</m> is <m>$9y^2 = 4a(x - 8a)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 135 -->
+        Find the equation of the ellipse having its center at the point <m>$(2, -3)$</m>, one focus at
+        <m>$(3, -3)$</m> annd one vertex at <m>$(4, -3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 136 -->
+        Find the equation of the ellipse whose foci are <m>$(2, 3)$</m>, <m>$(-2, 3)$</m> and whose
+        semi-minor axis is <m>$\sqrt{5}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 137 -->
+        Find the equation to the ellipse whose one focus is <m>$(-1, 1)$</m>m directrix is <m>$x - y + 3 =
+        0$</m> and eccentricity is <m>$\frac{1}{2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 138 -->
+        Find the equation to the ellipse whose one focus is <m>$(2, 1)$</m>, the directrix is <m>$2x - y + 3
+        = 0$</m> and the eccentricity is <m>$\frac{1}{\sqrt{2}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 139 -->
+        Find the equation to the ellipse whose center is <m>$(-2, 3)$</m> and whose semi-axes are <m>$3$</m>
+        and <m>$2$</m> when the major axis is parallel to the <m>$y$</m>-axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 140 -->
+        The distance between the foci of an ellipse is <m>$10$</m> and its latus rectum is <m>$15$</m>; find
+        its equation referred to its axes as axes of coordinates.
+      </d:listitem>
+      <d:listitem>
+        <!-- 141 -->
+        Find the equation of ellipse in the standard form whose minor axis is equal to the distance between
+        the foci and whose latus rectum is <m>$10$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 142 -->
+        The eccentricity of an ellipse is <m>$\frac{1}{2}$</m> and the distance between its foci is
+        <m>$4$</m> units. If the major and minor ases of the ellipse are respectively qalonf the <m>$x$</m>
+        and <m>$y$</m> axes, find the equation of the ellipse.
+      </d:listitem>
+      <d:listitem>
+        <!-- 143 -->
+        Find the equation to the ellipse whose foci are <m>$(4, 0)$</m> and <m>$(-4, 0)$</m> and
+        eccentricity is <m>$\frac{1}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 144 -->
+        Find the equation of the ellipse, referred to its axes as the <m>$x, y$</m> axes respectively, which
+        passes through the point <m>$(-3, 1)$</m> and has the eccentricity <m>$\sqrt{\frac{2}{5}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 145 -->
+        Find the centere, the length of the axes, eccentricity and the foci of the ellipse <m>$12x^2 + 4y^2
+        + 24x - 16y + 25 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 146 -->
+        Find the equation of the ellipse with its center at <m>$(1, 2)$</m>, one focus at <m>$(6, 2)$</m>
+        and passing through the point <m>$(4, 6)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 147 -->
+        Show that the follwing equation represents an ellipse and find its center and eccentricity <m>$8x^2
+        + 6y^2 - 16x + 12y + 13 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 148 -->
+        Find the center, the lengths of the axes and the eccentricity of the ellipse <m>$2x^2 + 3y^2 - 4x -
+        12y + 13 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 149 -->
+        Find the eccentric angle of a point on the ellipse <m>$x^2 + 3y^2 = 6$</m> at a distance <m>$2$</m>
+        units from the center of the ellipse.
+      </d:listitem>
+      <d:listitem>
+        <!-- 150 -->
+        Find the eccentricity of an ellipse if its latus rectum is equal to one-half of its major axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 151 -->
+        If the normal at an end of a latus rectum of an ellipse passes through an end of the minor axis,
+        show that <m>$e^4 + e^2 = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 152 -->
+        Find the condition that the line <m>$lx + my = n$</m> may be a normal to th ellipse
+        <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 153 -->
+        Prove that in the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> the locus of the middle
+        point of the portions of tangents included between the axes is the curve <m>$\frac{a^2}{x^2} +
+        \frac{b^2}{y^2} = 4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 154 -->
+        Show that the product of the perpendiculars drawn from the foci upon any tangent to an ellipse is
+        constant.
+      </d:listitem>
+      <d:listitem>
+        <!-- 155 -->
+        Find the equation of the tangent to the ellipse <m>$x^2 + 2y^2 = 4$</m> at the points where ordinate
+        is <m>$1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 156 -->
+        Find the condition that the line <m>$lx + my + n = 0$</m> may touch the ellipse <m>$4x^2 + 25y^2 =
+        100$</m> and find the point of contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 157 -->
+        Find the condition that the line <m>$x\cos\alpha + y\sin\alpha = p$</m> may be a tangent to the
+        ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>. Also find the point of contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 158 -->
+        The distance of a point on the ellipse <m>$x^2 + 3y^2 = 6$</m> from the center is <m>$2$</m>. Find
+        the eccentric angle of the point in the first quadrant. Also find the equation of the tangent of the
+        point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 159 -->
+        Find the equation of the tangent of the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> which
+        makes equal intercepts on the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 160 -->
+        Show that the line <m>$y = x + \sqrt{\frac{5}{6}}$</m> touches the ellipse <m>$2x^2 + 3y^2 =
+        1$</m>. Find the coordinates of the point of contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 161 -->
+        Find the equation of the tangents to the ellipse <m>$4x^2 + 3y^2 = 5$</m> which are parallel to the
+        straight line <m>$y = 3x + 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 162 -->
+        If a tangent to the ellispe <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> meets the major and minor
+        axes in <m>$P$</m> and <m>$Q$</m> respectively, prove that <m>$\frac{a^2}{CP^2} + \frac{b^2}{CQ^2} =
+        1$</m>, where <m>$C$</m> is the center of the ellipse.
+      </d:listitem>
+      <d:listitem>
+        <!-- 163 -->
+        Find the locus of the foot of the perpendicular drawn from the center upon any tangent to the ellipse
+        <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 164 -->
+        If the eccentric angles of the end of a focal chord of the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> be <m>$\theta$</m> and <m>$\psi$</m>, show that
+        <m>$\tan\frac{\theta}{2}\tan\frac{\psi}{2} = \frac{e - 1}{e + 1}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 165 -->
+        Find the equation of the normal to the ellipse <m>$x^2 + 4y^2 = 9$</m> at the point where the
+        eccentric angle is <m>$\frac{\pi}{4}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 166 -->
+        Find the equation of normals to the ellipse <m>$x^2 + 4y^2 = 25$</m> at the points where ordinate is
+        <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 167 -->
+        Find the condition that the line <m>$lx + my + n = 0$</m> may touch the ellipse <m>$\frac{x^2}{a^2}
+        + \frac{y^2}{a^2} = 1$</m> and find the point of contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 168 -->
+        Find the equation of the tangent to the ellipse <m>$x^2 + 4y^2 = 25$</m> at the point whose ordinate
+        is <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 169 -->
+        Find the equation of the normal to the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> at the
+        ends of latus rectum in the first quadrant.
+      </d:listitem>
+      <d:listitem>
+        <!-- 170 -->
+        Find the points wherea the normals to the ellipse <m>$x^2 + 3y^2 = 27$</m> are parallel to the line
+        <m>$6x - 5y = 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 171 -->
+        Find the equation that the line <m>$x\cos\alpha + y\sin\alpha = p$</m> be a normal to the ellipse
+        <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 172 -->
+        Find the equation of the ellipse whose vertices are <m>$(5, 0)$</m> and <m>$(-5, 0)$</m> and foci
+        are <m>$(4, 0)$</m> and <m>$(-4, 0)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 173 -->
+        Find the equation of the ellipse whose foci are <m>$(3, 0)$</m> and <m>$(-3, 0)$</m> and which
+        passes through <m>$(4, 1)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 174 -->
+        Find the equation of the ellipse which passes through the points <m>$(-1, 4)$</m> and <m>$(4,
+        3)$</m> and having major and minor axes along <m>$x$</m> and <m>$y$</m> axes respectively and center
+        at the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 175 -->
+        If the angle between the lines joining the foci of any ellipse to an extremity of the minor axis is
+        <m>$90^\circ$</m>, find the eccentricity. Find also the equation of ellipse if the major axis is
+        <m>$2\sqrt{2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 176 -->
+        An archway is in the shape of a semi ellipse; the road level being the major axis. If the breadth of
+        the road is <m>$30$</m> ft. and a mam <m>$6$</m> ft. tall just touches the top when <m>$2$</m>
+        ft. from the side, find the greatest height of the arch.
+      </d:listitem>
+      <d:listitem>
+        <!-- 177 -->
+        Find the locus of the foot of the perpendicular drawn from either focus upon any tangent to the
+        ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 178 -->
+        Prove that the product of the perpendiculars from the foci on any tangent to an ellipse to the
+        square of the semi-minor axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 179 -->
+        Find the locus of the point of intersection of tangents to ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> which makes an angle <m>$\theta$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 180 -->
+        Find the locus of the vertices of equilateral triangle circumscribing the ellipse
+        <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 181 -->
+        The tangent at the point <m>$\alpha$</m> on the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m> meets the auxilliary circle in two points which subtend a right angle at the center. Show
+        that the eccentricity of the ellipse is <m>$\frac{1}{\sqrt{1 + \sin^2\alpha}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 182 -->
+        Find the point of intersection of the tangents at points <m>$\alpha$</m> and <m>$\beta$</m> of the
+        ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 183 -->
+        An ellipse of semi axes <m>$a, b$</m> slides between two perpendicular lines, prove that the locus
+        of the foci is <m>$\left(x^2 + y^2\right)\left(x^2y^2 + b^4\right) = 4a^2x^2y^2$</m>, the two lines
+        being taken as the axes of coordinates.
+      </d:listitem>
+      <d:listitem>
+        <!-- 184 -->
+        An ellipse slides between two lines at right angles to one another. Show that the locus of its
+        center is a circle.
+      </d:listitem>
+      <d:listitem>
+        <!-- 185 -->
+        Prove that the tangent and normal at any point of an ellipse bisect the external and internal angles
+        between the focal distances of the point.
       </d:listitem>
     </d:orderedlist>
   </d:sect1>
