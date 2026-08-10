@@ -3029,6 +3029,466 @@
         Prove that the tangent and normal at any point of an ellipse bisect the external and internal angles
         between the focal distances of the point.
       </d:listitem>
+      <d:listitem>
+        <!-- 186 -->
+        If the normal at any point <m>$P$</m> of the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>
+        meets the major and minor axes at <m>$G$</m> and <m>$E$</m> respectively, and if <m>$CF$</m> is
+        perpendicular upon this normal from the center <m>$C$</m> of the ellipse, show that <m>$PF\cdot PG =
+        b^2$</m> and <m>$PE\cdot PF = a^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 187 -->
+        The tangents from <m>$(\alpha, \beta)$</m> to the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m> intersect at right angle. Show that the locus of the point of intersection of normals at the
+        point of contact of the two segments is the line <m>$\alpha y - \beta x = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 188 -->
+        Tangents are drawn from any point on the conic <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 4$</m> to
+        the conic <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>. Find the locus of the point of
+        intersection of the normals at the point of contact of the two tangents.
+      </d:listitem>
+      <d:listitem>
+        <!-- 189 -->
+        Show that the locus of the point of intersection of the tangents at the extremities of any focal
+        chord of an ellipse is the directrix corresponding to the focus.
+      </d:listitem>
+      <d:listitem>
+        <!-- 190 -->
+        Prove that the locus of the point of intersection of tangents to an ellipse at two points whose
+        eccentric angles differ by a constant <m>$\alpha$</m> is an ellipse.
+      </d:listitem>
+      <d:listitem>
+        <!-- 191 -->
+        Find the coordinates of those points on the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>,
+        tangent at which make equal angles with the axes. Also prove that the length of perpendicular from
+        the center on either of these is <m>$\sqrt{\frac{1}{2}\left(a^2 + b^2\right)}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 192 -->
+        A tangent to the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> touches at the point
+        <m>$P$</m> on it in the first quadrant and meets coordinates axes in <m>$A$</m> and <m>$B$</m>
+        respectively. If <m>$P$</m> divides <m>$AB$</m> in the ratio <m>$3:1$</m>, find the equation of the
+        tangent.
+      </d:listitem>
+      <d:listitem>
+        <!-- 193 -->
+        Find the equations of tangents at the ends of the latus recta of the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> and show that each pair passes through the foot of the corresponding
+        directrix.
+      </d:listitem>
+      <d:listitem>
+        <!-- 194 -->
+        Show that the tangents at the extremities of all chords of the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> which subtend an angle at the center intersect on the ellipse
+        <m>$\frac{x^2}{a^4} + \frac{y^2}{b^4} = \frac{1}{a^2} + \frac{1}{b^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 195 -->
+        A straight line <m>$AB$</m> touches the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> and
+        the circle <m>$x^2 + y^2 = r^2$</m>, where <m>$a > r > b$</m>. <m>$PQ$</m> is a focal chord of the
+        ellipse. If <m>$PQ$</m> be parallel to <m>$AB$</m> and cuts the circle in <m>$P$</m> and <m>$Q$</m>,
+        find the length of the perpendicular drawn from the center of the ellipse to <m>$PQ$</m>. Hence show
+        that <m>$PQ = 2b$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 196 -->
+        Tangents are drawn from a point on the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> on the
+        circle <m>$x^2 + y^2 = r^2$</m>. Prove that the chords of contacts are tangents of the ellipse
+        <m>$a^2x^2 + b^2y^2 = r^4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 197 -->
+        A circle of radius <m>$r$</m> is concentric with the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m>. Prove that the common tangent is inclined to the major axis at an angle
+        <m>$\tan^{-1}\sqrt{\frac{r^2 - b^2}{a^2 - r^2}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 198 -->
+        Prove that the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m> and the circle <m>$x^2 + y^2 =
+        ab$</m> intersect at an angle <m>$\tan^{-1}\frac{|a - b|}{\sqrt{ab}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 199 -->
+        Show that there are always two tangents to an ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$</m>
+        from a point <m>$(\alpha, \beta)$</m> outside the ellipse and slope of the two two tangents are
+        given by <m>$a^2m^2 + b^2 = (\beta - m\alpha)^2$</m>. Hence obtain the locus of a point from which
+        the two tangents to the ellipse are inclined at an angle <m>$\theta$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 200 -->
+        If the normal to an ellipse at any point <m>$P$</m> cuts the major axis at <m>$Q$</m>, find the
+        locus of middle point of <m>$PQ$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 201 -->
+        An ordinate <m>$PN$</m> of an ellipse meets the auxilliary circle in <m>$Q$</m>. Prove that the
+        locus of the point of intersection of the normals at <m>$P$</m> and <m>$Q$</m> is the circle <m>$x^2
+        + y^2 = (a + b)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 202 -->
+        If the normals to the ellipse at the points <m>$(x_1, y_1), (x_2, y_2)$</m> and <m>$(x_3, y_3)$</m>
+        be concurrent, show that <m>$\begin{vmatrix}x_1 &amp; y_1 &amp; x_1y_1\\x_2 &amp; y_2 &amp;
+        x_2y_2\\x_3 &amp; y_3 &amp; x_3y_3\end{vmatrix} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 203 -->
+        If the normal at point <m>$P(\theta)$</m> on the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m> meets the area of <m>$x$</m> and <m>$y$</m> at <m>$M$</m> and <m>$N$</m>, show that <m>$PM:PN
+        = b^2:a^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 204 -->
+        Find the points where the line <m>$2x + y = 3$</m> cuts the ellipse <m>$4x^2 + y^2 = 5$</m>. Obtain
+        the equation of the normals at these points and show that these normals include an angle
+        <m>$\tan^{-1}\frac{3}{5}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 205 -->
+        If the normal at the point <m>$P(\theta)$</m> to the ellipse <m>$5x^2 + 14y^2 = 70$</m> intersects
+        it again at the point <m>$Q(2\theta)$</m>, show that <m>$\cos\theta = -\frac{2}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 206 -->
+        The tangent and normal at any point <m>$A$</m> of an ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m> cut its major axis in points <m>$P$</m> and <m>$Q$</m> respectively. If <m>$PQ = a$</m>,
+        prove that its eccentric angle of the point <m>$P$</m> is given by <m>$e^2\cos^2\phi + \cos\phi - 1
+        = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 207 -->
+        Show that the locus of the middle points of the normal chords of the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> is the curve <m>$\left(\frac{x^2}{a^2} +
+        \frac{y^2}{b^2}\right)^2\left(\frac{a^6}{x^2} + \frac{b^6}{y^2}\right) = \left(a^2 -
+        b^2\right)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 208 -->
+        Prove that, in an ellipse, the distance between the center and any normal does not exceed the
+        difference between the semi axes of the curve.
+      </d:listitem>
+      <d:listitem>
+        <!-- 209 -->
+        Show that the locus of the poles of normal chords of the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> is the curve <m>$\frac{a^6}{x^2} + \frac{b^6}{y^2} = \left(a^2 -
+        b^2\right)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 210 -->
+        A variable point <m>$P$</m> on an ellipse of eccentricity <m>$e$</m> is joined to the foci <m>$S,
+        S'$</m>. Prove that the locus of the incenter of <m>$\triangle PSS'$</m> is an ellipse of
+        eccentricity <m>$\sqrt{\frac{2e}{1 + e}}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 211 -->
+        If the chords through points <m>$\theta$</m> and <m>$\phi$</m> on the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> intersects the major axis at a distance <m>$c$</m> from the center, prove
+        that <m>$\tan\frac{\theta}{2}\tan\frac{\phi}{2} = \frac{c - a}{c + a}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 212 -->
+        Show that the length of the focal chord of the ellipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m> which makes an angle <m>$\theta$</m> with the major axis is <m>$\frac{2ab^2}{a^2\sin^2\theta
+        + b^2\cos^2\theta}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 213 -->
+        Find the eccentricity of the ellipse if <m>$y = x$</m> and <m>$2x + 3y = 0$</m> are th equations of
+        a pair of its conjugate diameters.
+      </d:listitem>
+      <d:listitem>
+        <!-- 214 -->
+        Show that the length of the chord intercepted by the eliipse <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2}
+        = 1$</m> on the line <m>$y = mx + c$</m> is <m>$\frac{2ab}{a^2m^2 + b^2}\sqrt{1 + m^2\left(a^2m^2 +
+        b^2 - c^2\right)}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 215 -->
+        Show that the length of the radius vector of the ellipese <m>$\frac{x^2}{a^2} + \frac{y^2}{b^2} =
+        1$</m> drawn in a direction making an angle <m>$\theta$</m> with the positive direction of
+        <m>$x$</m>-axis is <m>$\sqrt{\frac{a^2b^2}{b^2\cos^2\theta + a^2\sin^2\theta}}$</m>. Also show that
+        the sum of reciprocals of the squares of any two semi-diameters of an ellipse which are at right
+        angles to one another is onstant.
+      </d:listitem>
+      <d:listitem>
+        <!-- 216 -->
+        A parabola is drawn to pass through <m>$A$</m> and <m>$B$</m> the ends of a diameter of a given
+        circle of radius <m>$a$</m> and to have as directrix a tangent to a concentric circle of radius
+        <m>$b$</m>; the axes being <m>$AB$</m> and a perpendicular diameter, prove that the locus of the
+        focus of the parabola is <m>$\frac{x^2}{b^2} + \frac{y^2}{b^2 - a^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 217 -->
+        Show that the locus of a point which moves such that the sum of its distances from two fixed points
+        is constant is an ellipse of which the two fixed point are the foci.
+      </d:listitem>
+      <d:listitem>
+        <!-- 218 -->
+        Find the eccentric angle of a point on the ellipse <m>$\frac{x^2}{5} + \frac{y^2}{4} = 2$</m> at a
+        distance <m>$3$</m> from the center.
+      </d:listitem>
+      <d:listitem>
+        <!-- 219 -->
+        The distance of a point on the ellipse <m>$\frac{x^2}{6} + \frac{y^2}{2} = 1$</m> from the center is
+        <m>$2$</m>. Find the eccentric angle of the point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 220 -->
+        <m>$P$</m> and <m>$Q$</m> are corresponding points on the ellipse <m>$\frac{x^2}{a^2} +
+        \frac{y^2}{b^2} = 1$</m> and the auxilliary circle respectively. The normal at <m>$P$</m> to the
+        ellipse meets <m>$CQ$</m> in <m>$R$</m>, where <m>$C$</m> is the center of the ellipse. Prove that
+        <m>$CR = a + b$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 221 -->
+        A line of length <m>$a + b$</m> moves in such a way that its ends are always on two fixed
+        perpendicular straight lines. Prove that the locus of a point on this line which divides it into
+        lengths <m>$a$</m> and <m>$b$</m>, is an ellipse.
+      </d:listitem>
+      <d:listitem>
+        <!-- 222 -->
+        A point moves such that the sum of the squares of its distances from two intersecting lines is
+        constant. Prove that its locus is an ellipse and find the eccentricity in terms of the angle between
+        the straight lines.
+      </d:listitem>
+      <d:listitem>
+        <!-- 223 -->
+        Find the equation of the hyperbola whose eccentricity is <m>$\sqrt{2}$</m> and the distance between
+        the foci is <m>$16$</m>, taking transverse and conjugate axes ofo the hyperbola as <m>$x$</m> and
+        <m>$y$</m> axes respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 224 -->
+        Find the equation of the hyperbola whose conjugate axis is <m>$5$</m> and the distance between the
+        foci is <m>$13$</m>, taking transverse and conjugate axes along <m>$x$</m> and <m>$y$</m> axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 225 -->
+        Find the equation to the hyperbola for which eccentricity is <m>$2$</m>, one focus is <m>$(2,
+        2)$</m> and the corresponding directrix is <m>$x + y = 9$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 226 -->
+        Find the equation to the hyperbola if the distance between the foci is <m>$9$</m> and eccentricity
+        is <m>$\sqrt{3}$</m>, taking transverse and conjugate axes along <m>$x$</m> and <m>$y$</m> axes
+        respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 227 -->
+        Find the equation to the hyperbola if the foci are <m>$(6, 4)$</m> and <m>$(-4, 4)$</m> and
+        eccentricity is <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 228 -->
+        The coordinates of the foci of a hyperbola are <m>$(\pm6, 0)$</m> and its latus rectum is of
+        <m>$10$</m> units. Find the equation of the hyperbola.
+      </d:listitem>
+      <d:listitem>
+        <!-- 229 -->
+        Find the equation to the hyperbola referred to its axes as coordinate axes whose conjugate axis is
+        <m>$7$</m> and passes through the point <m>$(3, -2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 230 -->
+        The equation of the directrix of a hyperbola is <m>$x - y + 3 = 0$</m>. Its focus is <m>$(-1,
+        1)$</m> and eccentricity is <m>$3$</m>. Find the equation of the hyperbola.
+      </d:listitem>
+      <d:listitem>
+        <!-- 231 -->
+        The hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> passes through the point of
+        intersection of the lines <m>$7x + 13y - 87 = 0$</m> and <m>$5x - 8y + 7 = 0$</m> and its latus
+        rectum is <m>$\frac{32\sqrt{2}}{5}$</m>. Find <m>$a$</m> and <m>$b$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 232 -->
+        <m>$PN$</m> is the oridinate of any point <m>$P$</m> on the hyperbola <m>$\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} = 1$</m>. If <m>$Q$</m> divides <m>$AP$</m> in the ratio <m>$a^2:b^2$</m>, show that
+        <m>$NQ$</m> is perpendicular to <m>$A'P$</m> where <m>$AA'$</m> is the transverse axis of the
+        hyperbola.
+      </d:listitem>
+      <d:listitem>
+        <!-- 233 -->
+        Prove that the locus of the point of intersection of the lines <m>$\sqrt{3}x - y - 4\sqrt{3}k =
+        0$</m> and <m>$\sqrt{3}kx + ky - 4\sqrt{3} = 0$</m> for different values of <m>$k$</m> is a
+        hyperbola whose eccentricity is <m>$2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 234 -->
+        Find the center, eccentricity and foci of the hyperbola <m>$9x^2 - 16y^2 - 18x - 64y - 199 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 235 -->
+        If <m>$e$</m> and <m>$e'$</m> are the eccentricities of the hyperbola <m>$\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} = 1$</m> and its conjugate hyperbola, prove that <m>$\frac{1}{e^2} + \frac{1}{e'^2}
+        = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 236 -->
+        Find the equation of the ellipse whose eccentricity is <m>$\frac{4}{5}$</m> and whose foci coincide
+        with those of the hyperbola <m>$9x^2 - 16y^2 + 144 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 237 -->
+        In the hyperbola <m>$4x^2 - 9y^2 = 36$</m>, find the axes, the coordinates of the foci, the
+        eccentricity and the latus rectum.
+      </d:listitem>
+      <d:listitem>
+        <!-- 238 -->
+        Find the center, eccentricity, foci and directrices of the hyperbola <m>$16x^2 - 9y^2 + 32x + 36y -
+        164 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 239 -->
+        Find the locus of a point which moves such that the difference of its distance from the points
+        <m>$(-5,, 0)$</m> and <m>$(5, 0)$</m> is equal to <m>$8$</m>. Prove that the locus is a hyperbola
+        and find its eccentricity.
+      </d:listitem>
+      <d:listitem>
+        <!-- 240 -->
+        Show that the equation <m>$3x^2 - 3y^2 - 18x + 12y + 2 = 0$</m> represents a rectangular
+        hyperbola. Find its center, foci and eccentricity.
+      </d:listitem>
+      <d:listitem>
+        <!-- 241 -->
+        Find the length of the axes and eccentricity of the hyperbola <m>$x^2 - 3y^2 - 2x = 8$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 242 -->
+        In any hyperbola, prove that the tangent at any point bisects the angle between the focal disatances
+        of the point.
+      </d:listitem>
+      <d:listitem>
+        <!-- 243 -->
+        Find the equation to the tangent to the hyperbola <m>$4x^2 - 3y^2 = 12$</m> at the point <m>$(1,
+        2)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 244 -->
+        Find the equation to the tangents to the hyperbola <m>$x^2 - 2y^2 = 18$</m> which are perpendicular
+        to the line <m>$x - y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 245 -->
+        Find the equations to the tangents to the hyperbola <m>$\frac{x^2}{16} - \frac{y^2}{9} = 1$</m>
+        which are parallel to the line <m>$y = 3x - 4$</m>. Also, find the point of contacts.
+      </d:listitem>
+      <d:listitem>
+        <!-- 246 -->
+        Show that the line <m>$21x + 5y = 116$</m> touches the hyperbola <m>$7x^2 - 5y^2 = 232$</m> and find
+        the coordinates of the point of contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 247 -->
+        Find the condition for the line <m>$lx + my + n = 0$</m> to be a tangent to the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 248 -->
+        Find the locus of middle points of the portion of the tangents to the hyperbola <m>$\frac{x^2}{a^2}
+        - \frac{y^2}{b^2} = 1$</m> included between the axes.
+      </d:listitem>
+      <d:listitem>
+        <!-- 249 -->
+        A normal to the hyperbola <m>$x^2 - 4y^2 = 4$</m> meets the <m>$x$</m> and <m>$y$</m> axes at
+        <m>$A$</m> and <m>$B$</m> respectively. Find the locus of the point of intersection of the straight
+        lines drawn through <m>$A$</m> and <m>$B$</m> perpendicular to the <m>$x$</m> and <m>$y$</m> axes
+        respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 250 -->
+        The perpendicular from the center upon the normal at any point of the hyperbola <m>$\frac{x^2}{a^2}
+        - \frac{y^2}{b^2} = 1$</m> meets at <m>$R$</m>. Find the locus of <m>$R$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 251 -->
+        A point <m>$P$</m> moves such that the tangents <m>$PT_1$</m> and <m>$PT_2$</m> from it to the
+        hyperbola <m>$4x^2 - 9y^2 = 36$</m> are mutually perpendicular. Find the equation of the locus of
+        <m>$P$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 252 -->
+        Find the equation of the hyperbola whose one directrix is <m>$2x + y = 1$</m> and the corresponding
+        focus is <m>$(1, 2)$</m> and eccentricity is <m>$\sqrt{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 253 -->
+        Find the equation of the hyperbola whose foci are <m>$\left(0, \pm\sqrt{10}\right)$</m> and which
+        passes through the point <m>$(2, 3)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 254 -->
+        Find the equation of the hyperbola, the length of whose latus rectum is <m>$8$</m>, eccentricity is
+        <m>$\frac{3}{\sqrt{5}}$</m> and whose transverse and conjugate axes are along the <m>$x$</m> and
+        <m>$y$</m> axes respectively.
+      </d:listitem>
+      <d:listitem>
+        <!-- 255 -->
+        Find the equation of the hyperbola with vertices at <m>$\left(0, \pm 6\right)$</m> and eccentricity
+        is <m>$\frac{5}{3}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 256 -->
+        Find the lengths of the transverse and conjugate axes, eccentricity, center, foci and directrices of
+        the hyperbola <m>$9x^2 - 16y^2 - 72x + 96y - 144 = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 257 -->
+        Show that the equation <m>$9x^2 - 16y^2 - 18x - 64y - 199 = 0$</m> represents a hyperbola. For this
+        hyperbola find the length of axes, eccentricity, center, foci, vertices, latus rectum and
+        directrices.
+      </d:listitem>
+      <d:listitem>
+        <!-- 258 -->
+        Find the locus of the middle points of the chords of the circle <m>$x^2 + y^2 = 16$</m>, which are
+        tangent to the hyperbola <m>$9x^2 - 16y^2 = 144$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 259 -->
+        Chords of the parabola <m>$y^2 = 4ax$</m> touches the hyperbola <m>$x^2 - y^2 = a^2$</m>. Find the
+        locus of the points of intersection of tangents of the parabola drawn at the extremities of such
+        chords.
+      </d:listitem>
+      <d:listitem>
+        <!-- 260 -->
+        If the normal at a point <m>$P$</m> to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>
+        meets the <m>$x$</m>-axis at <m>$G$</m>, show that <m>$SG = eSP$</m>, <m>$S$</m> being the focus of
+        the hyperbola.
+      </d:listitem>
+      <d:listitem>
+        <!-- 261 -->
+        If the line <m>$y = mx + \sqrt{a^2m^2 - b^2}$</m> touches the hyperbola <m>$\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} = 1$</m> at the point <m>$(a\sec\phi, b\tan\phi)$</m>, show that <m>$\phi =
+        \sin^{-1}\left(\frac{b}{am}\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 262 -->
+        Find the equations of the tangents to the hyperbola <m>$4x^2 - 9y^2 = 36$</m> which are parallel to
+        the line <m>$5x - 3y = 2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 263 -->
+        Find the equations of tangents drawn from point <m>$\left(0, \frac{5}{2}\right)$</m> to the
+        hyperbola <m>$3x^2 - 2y^2 = 25$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 264 -->
+        Find the equation of the tangents to the hyperbola <m>$x^2 - 2y^2 = 18$</m> which are perpendicular
+        to the line <m>$x - y = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 265 -->
+        If two points <m>$P$</m> and <m>$Q$</m> on the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} =
+        1$</m>, whose center is <m>$C$</m> be such that <m>$CP$</m> is perpendicular to <m>$CQ$</m> and
+        <m>$a &lt; b$</m>, then prove that <m>$\frac{1}{CP^2} + \frac{1}{CQ^2} = \frac{1}{a^2} -
+        \frac{1}{b^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 266 -->
+        If <m>$C$</m> is the center of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> and
+        <m>$S, S'$</m> be its foci and <m>$P$</m> a point on it, prove that <m>$SP\cdot S'P = CP^2 - a^2 +
+        b^2$</m>.
+      </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
