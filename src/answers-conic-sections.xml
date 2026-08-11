@@ -8485,5 +8485,561 @@
         CP^2 - a^2 + b^2$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 267 -->
+      <d:para>
+        Tangent equation to the hyperbola at <m>$(a \sec \theta, b \tan \theta)$</m> is <m>$\frac{x \sec
+        \theta}{a} - \frac{y \tan \theta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Intercepts on the coordinate axes are <m>$A = (a \cos \theta, 0)$</m> and <m>$B = (0, -b \cot
+        \theta)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the midpoint of $AB$, then <m>$h = \frac{a \cos \theta}{2} \implies \sec
+        \theta = \frac{a}{2h}$</m> and <m>$k = -\frac{b \cot \theta}{2} \implies \tan \theta =
+        -\frac{b}{2k}$</m>.
+      </d:para>
+      <d:para>
+        Using the trigonometric identity <m>$\sec^2 \theta - \tan^2 \theta = 1$</m>. Substitute the values
+        of <m>$\sec \theta$</m> and <m>$\tan \theta$</m> gives us <m>$\frac{a^2}{4h^2} - \frac{b^2}{4k^2} =
+        1$</m>.
+      </d:para>
+      <d:para>
+        Multiply by <m>$4h^2k^2$</m> yields <m>$4h^2k^2 = a^2k^2 - b^2h^2$</m>. Replace <m>$(h, k)$</m> with
+        <m>$(x, y)$</m> to obtain the required locus <m>$4x^2y^2 = a^2y^2 - b^2x^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 268 -->
+      <d:para>
+        The equation of any tangent to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> in terms
+        of slope <m>$m$</m> is <m>$y = mx \pm \sqrt{a^2m^2 - b^2} \implies mx - y \pm \sqrt{a^2m^2 - b^2} =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the foci are <m>$S(ae, 0)$</m> and <m>$S'(-ae, 0)$</m>, where <m>$b^2 = a^2(e^2 -
+        1) \implies a^2e^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$p_1$</m> and <m>$p_2$</m> be the perpendicular distances from <m>$S$</m> and <m>$S'$</m> to
+        the tangent line then <m>$p_1 = \frac{|m(ae) - 0 + \sqrt{a^2m^2 - b^2}|}{\sqrt{m^2 + 1}}$</m> and
+        <m>$p_2 = \frac{|m(-ae) - 0 + \sqrt{a^2m^2 - b^2}|}{\sqrt{m^2 + 1}}$</m>.
+      </d:para>
+      <d:para>
+        Taking the product of these two lengths <m>$p_1 p_2 = \frac{|(\sqrt{a^2m^2 - b^2} +
+        mae)(\sqrt{a^2m^2 - b^2} - mae)|}{m^2 + 1}$</m>
+      </d:para>
+      <d:para>
+        Using the algebraic identity <m>$(u+v)(u-v) = u^2 - v^2$</m> gives us <m>$p_1 p_2 = \frac{|(a^2m^2 -
+        b^2) - m^2a^2e^2|}{m^2 + 1}$</m>.
+      </d:para>
+      <d:para>
+        Substitute <m>$a^2e^2 = a^2 + b^2$</m> into the equation <m>$p_1 p_2 = \frac{|a^2m^2 - b^2 - m^2(a^2
+        + b^2)|}{m^2 + 1}\implies p_1 p_2 = \frac{|a^2m^2 - b^2 - a^2m^2 - b^2m^2|}{m^2 + 1}\implies p_1 p_2
+        = \frac{|-b^2(1 + m^2)|}{m^2 + 1}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the fraction yields the required result <m>$p_1 p_2 = b^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 269 -->
+      <d:para>
+        The equation of any tangent to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> with
+        slope <m>$m$</m> is <m>$y = mx + \sqrt{a^2m^2 - b^2} \implies y - mx = \sqrt{a^2m^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        Let the focus be <m>$S(ae, 0)$</m>. The line perpendicular to the tangent passing through <m>$S$</m>
+        has slope <m>$-\frac{1}{m}$</m> is <m>$y - 0 = -\frac{1}{m}(x - ae) \implies my = -x + ae \implies x
+        + my = ae$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the foot of the perpendicular, which lies on both lines then <m>$k - mh =
+        \sqrt{a^2m^2 - b^2}$</m> and <m>$h + mk = ae$</m>.
+      </d:para>
+      <d:para>
+        Squaring and adding both equations to eliminate the parameter <m>$m$</m> yields <m>$(k - mh)^2 + (h
+        + mk)^2 = (a^2m^2 - b^2) + a^2e^2$</m>.
+      </d:para>
+      <d:para>
+        <m>$\implies (h^2 + k^2)(1 + m^2) = a^2m^2 - b^2 + a^2e^2$</m>
+      </d:para>
+      <d:para>
+        Using the hyperbola eccentricity relation <m>$b^2 = a^2(e^2 - 1) \implies a^2e^2 - b^2 = a^2$</m>,
+        and thus, <m>$(h^2 + k^2)(1 + m^2) = a^2m^2 + a^2\implies (h^2 + k^2)(1 + m^2) = a^2(m^2 + 1)$</m>
+      </d:para>
+      <d:para>
+        <m>$\implies h^2 + k^2 = a^2\implies x^2 + y^2 = a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 270 -->
+      <d:para>
+        Let <m>$P(h, k)$</m> be the pole with respect to the parabola <m>$y^2 = 4ax$</m>.
+      </d:para>
+      <d:para>
+        The equation of the polar line of <m>$P(h, k)$</m> with respect to the parabola is <m>$yk = 2a(x +
+        h) \implies ky = 2ax + 2ah$</m>.
+      </d:para>
+      <d:para>
+        Expressing this line in the slope form <m>$y = mx + c$</m> gives <m>$y = \left(\frac{2a}{k}\right)x
+        + \frac{2ah}{k}$</m>.
+      </d:para>
+      <d:para>
+        Here, the slope is <m>$m = \frac{2a}{k}$</m> and the <m>$y$</m>-intercept is <m>$c =
+        \frac{2ah}{k}$</m>.
+      </d:para>
+      <d:para>
+        This polar line is given to be a tangent to the rectangular hyperbola <m>$x^2 - y^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        The standard condition of tangency for the hyperbola <m>$x^2 - y^2 = a^2$</m> is <m>$c^2 = a^2m^2 -
+        a^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$m$</m> and <m>$c$</m> into the tangency condition
+        <m>$\left(\frac{2ah}{k}\right)^2 = a^2\left(\frac{2a}{k}\right)^2 - a^2$</m>.
+      </d:para>
+      <d:para>
+        Simplifying and replacing <m>$(h, k)$</m> with <m>$(x, y)$</m> to find the required locus <m>$4x^2 +
+        y^2 = 4a^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 271 -->
+      <d:para>
+        The equation of any tangent to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> with
+        slope <m>$m$</m> is <m>$y = mx + \sqrt{a^2m^2 - b^2} \implies y - mx = \sqrt{a^2m^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        The center of the hyperbola is at the origin <m>$O(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        The line perpendicular to the tangent passing through <m>$O(0, 0)$</m> has slope
+        <m>$-\frac{1}{m}$</m> is <m>$y - 0 = -\frac{1}{m}(x - 0) \implies my = -x \implies m =
+        -\frac{x}{y}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the foot of the perpendicular, which lies on both lines then <m>$k - mh =
+        \sqrt{a^2m^2 - b^2}$</m> and <m>$m = -\frac{h}{k}$</m>.
+      </d:para>
+      <d:para>
+        Substitute the value of <m>$m$</m> into the tangent relation <m>$k - \left(-\frac{h}{k}\right)h =
+        \sqrt{a^2\left(-\frac{h}{k}\right)^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the left side by taking a common denominator <m>$k + \frac{h^2}{k} =
+        \sqrt{\frac{a^2h^2}{k^2} - b^2}\implies \frac{h^2 + k^2}{k} = \sqrt{\frac{a^2h^2 -
+        b^2k^2}{k^2}}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides to eliminate the radical sign gives <m>$\frac{(h^2 + k^2)^2}{k^2} = \frac{a^2h^2
+        - b^2k^2}{k^2}$</m>. Multiplying both sides by <m>$k^2$</m> yields <m>$(h^2 + k^2)^2 = a^2h^2 -
+        b^2k^2$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m> gives the required locus
+        <m>$\left(x^2 + y^2\right)^2 = a^2x^2 - b^2y^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 272 -->
+      <d:para>
+        The equation of any tangent to the rectangular hyperbola <m>$x^2 - y^2 = a^2$</m> with slope
+        <m>$m$</m> is <m>$y = mx \pm \sqrt{a^2m^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the point from which two tangents are drawn to the hyperbola <m>$k = mh \pm
+        \sqrt{a^2m^2 - a^2} \implies k - mh = \pm \sqrt{a^2m^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides to form a quadratic equation in <m>$m$</m> gives <m>$(k - mh)^2 = a^2m^2 -
+        a^2\implies k^2 - 2mhk + m^2h^2 = a^2m^2 - a^2\implies (h^2 - a^2)m^2 - 2hkm + (k^2 + a^2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$m_1$</m> and <m>$m_2$</m> be the roots of this quadratic equation, representing the slopes
+        of the two tangents <m>$m_1 + m_2 = \frac{2hk}{h^2 - a^2}\implies m_1 m_2 = \frac{k^2 + a^2}{h^2 -
+        a^2}$</m>.
+      </d:para>
+      <d:para>
+        The angle between the two tangents is given as <m>$45^\circ$</m> <m>$\implies \tan 45^\circ = \left|
+        \frac{m_1 - m_2}{1 + m_1 m_2} \right| \implies 1 = \frac{(m_1 - m_2)^2}{(1 + m_1 m_2)^2}$</m>.
+      </d:para>
+      <d:para>
+        Using the algebraic identity <m>$(m_1 - m_2)^2 = (m_1 + m_2)^2 - 4m_1 m_2$</m> <m>$\implies (1 + m_1
+        m_2)^2 = (m_1 + m_2)^2 - 4m_1 m_2$</m>
+      </d:para>
+      <d:para>
+        Substitute the expressions for the sum and product of the slopes <m>$\left(1 + \frac{k^2 + a^2}{h^2
+        - a^2}\right)^2 = \left(\frac{2hk}{h^2 - a^2}\right)^2 - 4\left(\frac{k^2 + a^2}{h^2 -
+        a^2}\right)$</m>
+      </d:para>
+      <d:para>
+        Taking a common denominator on both sides <d:sbr/><m>$\left(\frac{h^2 - a^2 + k^2 + a^2}{h^2 - a^2}\right)^2
+        = \frac{4h^2k^2 - 4(k^2 + a^2)(h^2 - a^2)}{(h^2 - a^2)^2}\implies (h^2 + k^2)^2 = 4h^2k^2 - 4(h^2k^2
+        - a^2k^2 + a^2h^2 - a^4)\implies (h^2 + k^2)^2 = 4h^2k^2 - 4h^2k^2 + 4a^2k^2 - 4a^2h^2 +
+        4a^4\implies (h^2 + k^2)^2 = 4a^2(k^2 - h^2) + 4a^4$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with general coordinates <m>$(x, y)$</m> yields the required locus
+        <m>$(x^2 + y^2)^2 = 4a^2(y^2 - x^2) + 4a^4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 273 -->
+      <d:para>
+        The equation of any tangent to the first hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>
+        with slope <m>$m$</m> is <m>$y = mx \pm \sqrt{a^2m^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the second hyperbola can be written in standard form as <m>$\frac{y^2}{a^2} -
+        \frac{x^2}{b^2} = 1 \implies \frac{x^2}{(-b^2)} - \frac{y^2}{(-a^2)} = 1$</m>.
+      </d:para>
+      <d:para>
+        The equation of any tangent to this second hyperbola with slope <m>$m$</m> is <m>$y = mx \pm
+        \sqrt{(-b^2)m^2 - (-a^2)} \implies y = mx \pm \sqrt{a^2 - b^2m^2}$</m>
+      </d:para>
+      <d:para>
+        For a line to be a common tangent, both tangent equations must represent the same line <m>$a^2m^2 -
+        b^2 = a^2 - b^2m^2$</m>
+      </d:para>
+      <d:para>
+        Grouping the terms with <m>$m^2$</m> on one side <m>$a^2m^2 + b^2m^2 = a^2 + b^2\implies m^2(a^2 +
+        b^2) = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Dividing both sides by <m>$(a^2 + b^2)$</m> yields <m>$m^2 = 1 \implies m = \pm 1$</m>. Substitute
+        <m>$m^2 = 1$</m> back into the intercept expression <m>$c^2 = a^2(1) - b^2 = a^2 - b^2 \implies c =
+        \pm \sqrt{a^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        Combining the slopes and intercepts gives the four common tangents <m>$y = \pm x \pm \sqrt{a^2 -
+        b^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 274 -->
+      <d:para>
+        The equation of any tangent to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> with
+        slope <m>$m$</m> is <m>$y = mx \pm \sqrt{a^2m^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the point of intersection of two mutually perpendicular tangents <m>$k = mh
+        \pm \sqrt{a^2m^2 - b^2} \implies k - mh = \pm \sqrt{a^2m^2 - b^2}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides to eliminate the radical sign <m>$(k - mh)^2 = a^2m^2 - b^2\implies k^2 - 2mhk +
+        m^2h^2 = a^2m^2 - b^2\implies (h^2 - a^2)m^2 - 2hkm + (k^2 + b^2) = 0$</m>.
+      </d:para>
+      <d:para>
+        This quadratic equation in <m>$m$</m> gives the slopes <m>$m_1$</m> and <m>$m_2$</m> of the two
+        tangents drawn from <m>$P$</m>.
+      </d:para>
+      <d:para>
+        Since the tangents are mutually perpendicular, the product of their slopes must be <m>$-1$</m>
+        i.e. <m>$m_1 m_2 = -1$</m>.
+      </d:para>
+      <d:para>
+        From the product of roots formula for a quadratic equation <m>$\frac{k^2 + b^2}{h^2 - a^2} =
+        -1$</m>.
+      </d:para>
+      <d:para>
+        Multiplying across to clear the fraction <m>$k^2 + b^2 = -(h^2 - a^2)\implies k^2 + b^2 = -h^2 +
+        a^2$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms to group the variables <m>$h^2 + k^2 = a^2 - b^2\implies x^2 + y^2 = a^2 -
+        b^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 275 -->
+      <d:para>
+        The equation of the normal to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> at any
+        point <m>$(a \sec \theta, b \tan \theta)$</m> is <m>$ax \cos \theta + by \cot \theta = a^2 +
+        b^2$</m>.
+      </d:para>
+      <d:para>
+        This normal line intersects the <m>$x$</m>-axis at <m>$M$</m> and the <m>$y$</m>-axis at <m>$N$</m>.
+      </d:para>
+      <d:para>
+        For the coordinates of <m>$M$</m>, substitute <m>$y = 0$</m> to get <m>$ax \cos \theta = a^2 + b^2
+        \implies M = \left(\frac{a^2 + b^2}{a \cos \theta}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        For the coordinates of <m>$N$</m>, substitute <m>$x = 0$</m> to get <m>$by \cot \theta = a^2 + b^2
+        \implies N = \left(0, \frac{a^2 + b^2}{b \cot \theta}\right)$</m>.
+      </d:para>
+      <d:para>
+        The line <m>$MP$</m> is perpendicular to the <m>$x$</m>-axis, so its equation is <m>$x = \frac{a^2 +
+        b^2}{a \cos \theta}$</m>. The line <m>$NP$</m> is perpendicular to the <m>$y$</m>-axis, so its
+        equation is <m>$y = \frac{a^2 + b^2}{b \cot \theta}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the intersection point of <m>$MP$</m> and <m>$NP$</m>, then <m>$h =
+        \frac{a^2 + b^2}{a \cos \theta} \implies \cos \theta = \frac{a^2 + b^2}{ah}$</m> and <m>$k =
+        \frac{a^2 + b^2}{b \cot \theta} \implies \cot \theta = \frac{a^2 + b^2}{bk}$</m>.
+      </d:para>
+      <d:para>
+        From these, express <m>$\sec \theta$</m> and <m>$\tan \theta$</m> in terms of <m>$h$</m> and
+        <m>$k$</m> to get <m>$\sec \theta = \frac{ah}{a^2 + b^2}$</m> and <m>$\tan \theta = \frac{bk}{a^2 +
+        b^2}$</m>.
+      </d:para>
+      <d:para>
+        Using the trigonometric identity to eliminate the parameter <m>$\theta$</m>, <m>$\sec^2 \theta -
+        \tan^2 \theta = 1$</m>. Substituting the values gives <m>$\left(\frac{ah}{a^2 + b^2}\right)^2 -
+        \left(\frac{bk}{a^2 + b^2}\right)^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        <m>$\implies \frac{a^2h^2}{(a^2 + b^2)^2} - \frac{b^2k^2}{(a^2 + b^2)^2} = 1$</m>. Multiplying by
+        <m>$(a^2 + b^2)^2$</m> yields <m>$a^2h^2 - b^2k^2 = (a^2 + b^2)^2\implies a^2x^2 - b^2y^2 = (a^2 +
+        b^2)^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 276 -->
+      <d:para>
+        The equation of the normal to the rectangular hyperbola <m>$x^2 - y^2 = a^2$</m> at any parametric
+        point <m>$(a \sec \theta, a \tan \theta)$</m> is <m>$x \cos \theta + y \cot \theta = 2a$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(h, k)$</m> be the point of intersection of the tangents drawn at the ends of this normal
+        chord.
+      </d:para>
+      <d:para>
+        The chord of contact of tangents drawn from <m>$P(h, k)$</m> to the hyperbola <m>$x^2 - y^2 =
+        a^2$</m> is given by <m>$hx - ky = a^2$</m>.
+      </d:para>
+      <d:para>
+        Since the normal chord and the chord of contact represent the exact same straight line, compare
+        their coefficients <m>$\frac{\cos \theta}{h} = \frac{\cot \theta}{-k} = \frac{2a}{a^2} =
+        \frac{2}{a}$</m>.
+      </d:para>
+      <d:para>
+        Solving for the trigonometric terms from the ratio gives us <m>$\cos \theta = \frac{2h}{a} \implies
+        \sec \theta = \frac{a}{2h}$</m> and <m>$\cot \theta = -\frac{2k}{a} \implies \tan \theta =
+        -\frac{a}{2k}$</m>.
+      </d:para>
+      <d:para>
+        Using the fundamental trigonometric identity to eliminate the parameter <m>$\theta$</m>, <m>$\sec^2
+        \theta - \tan^2 \theta = 1$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$\sec \theta$</m> and <m>$\tan \theta$</m> into the identity
+        <m>$\left(\frac{a}{2h}\right)^2 - \left(-\frac{a}{2k}\right)^2 = 1$</m>.
+        Simplifying the squared fractions <m>$\frac{a^2}{4h^2} - \frac{a^2}{4k^2} = 1$</m>
+      </d:para>
+      <d:para>
+        <m>$\implies a^2(y^2 - x^2) = 4x^2y^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 277 -->
+      <d:para>
+        The equation of the hyperbola is <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. The normal at any
+        parametric point <m>$\theta$</m> is <m>$ax\sin\theta + by = (a^2 + b^2)\tan\theta$</m>.
+      </d:para>
+      <d:para>
+        The conjugate axis is the <m>$y$</m>-axis, where <m>$x = 0$</m>. Substituting <m>$x = 0$</m> gives
+        the <m>$y$</m>-coordinate of the intersection <m>$G$</m>.
+      </d:para>
+      <d:para>
+        The distance from the center <m>$C(0, 0)$</m> is <m>$CG = \frac{a^2 + b^2}{b}\tan\theta$</m>.
+      </d:para>
+      <d:para>
+        For points <m>$\theta_1$</m> and <m>$\theta_2$</m>, the distances are <m>$CG_1 = \frac{a^2 +
+        b^2}{b}\tan\theta_1$</m> and <m>$CG_2 = \frac{a^2 + b^2}{b}\tan\theta_2$</m>.
+      </d:para>
+      <d:para>
+        The product is <m>$CG_1\cdot CG_2 = \frac{(a^2 + b^2)^2}{b^2}\tan\theta_1\tan\theta_2$</m>.
+      </d:para>
+      <d:para>
+        Given <m>$\theta_1 + \theta_2 = \frac{\pi}{2}$</m>, we get <m>$\tan\theta_2 = \cot\theta_1$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$\tan\theta_1\cot\theta_1 = 1$</m>, the product becomes <m>$CG_1\cdot CG_2 = \frac{(a^2 +
+        b^2)^2}{b^2}$</m>.
+      </d:para>
+      <d:para>
+        Using <m>$a^2 + b^2 = a^2e^2$</m> and <m>$b^2 = a^2(e^2 - 1)$</m>, we substitute these relations.
+      </d:para>
+      <d:para>
+        This yields <m>$CG_1\cdot CG_2 = \frac{(a^2e^2)^2}{a^2(e^2 - 1)} = \frac{a^4e^4}{a^2(e^2 - 1)} =
+        \frac{a^2e^4}{e^2 - 1}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 278 -->
+      <d:para>
+        The equation of the hyperbola is <m>$\frac{x^2}{3} - \frac{y^2}{7} = 1$</m>, where <m>$a^2 =
+        3$</m> and <m>$b^2 = 7$</m>.
+      </d:para>
+      <d:para>
+        The equation of the given chord is <m>$7x + y - 2 = 0$</m>, which can be rewritten as <m>$y = -7x
+        + 2$</m>.
+      </d:para>
+      <d:para>
+        The slope of this chord is <m>$m = -7$</m>. Let the slope of the diameter that bisects this chord
+        be <m>$m'$</m>.
+      </d:para>
+      <d:para>
+        The equation of a diameter passing through the center <m>$(0, 0)$</m> is <m>$y = m'x$</m>.
+      </d:para>
+      <d:para>
+        The relationship between the slope of the parallel chords <m>$m$</m> and the slope of the diameter
+        <m>$m'$</m> is <m>$m \cdot m' = \frac{b^2}{a^2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$m$</m>, <m>$a^2$</m>, and <m>$b^2$</m> into the relation gives
+        <m>$-7 \cdot m' = \frac{7}{3}$</m>.
+      </d:para>
+      <d:para>
+        Solving for <m>$m'$</m> yields <m>$m' = -\frac{1}{3}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$m' = -\frac{1}{3}$</m> back into the equation of the diameter gives <m>$y =
+        -\frac{1}{3}x$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$3$</m> and rearranging the terms results in <m>$x + 3y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 279 -->
+      <d:para>
+        The equation of the chord joining the points <m>$\theta$</m> and <m>$\phi$</m> on the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> is
+        <m>$\frac{x}{a}\cos\left(\frac{\theta-\phi}{2}\right) -
+        \frac{y}{b}\sin\left(\frac{\theta+\phi}{2}\right) = \cos\left(\frac{\theta+\phi}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        This chord passes through the focus <m>$(ae, 0)$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x = ae$</m> and <m>$y = 0$</m> into the chord equation gives
+        <m>$\frac{ae}{a}\cos\left(\frac{\theta-\phi}{2}\right) - 0 =
+        \cos\left(\frac{\theta+\phi}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$e\cos\left(\frac{\theta-\phi}{2}\right) =
+        \cos\left(\frac{\theta+\phi}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms yields
+        <m>$\frac{\cos\left(\frac{\theta-\phi}{2}\right)}{\cos\left(\frac{\theta+\phi}{2}\right)} =
+        \frac{1}{e}$</m>.
+      </d:para>
+      <d:para>
+        Applying componendo and dividendo gives <m>$\frac{\cos\left(\frac{\theta-\phi}{2}\right) -
+        \cos\left(\frac{\theta+\phi}{2}\right)}{\cos\left(\frac{\theta-\phi}{2}\right) +
+        \cos\left(\frac{\theta+\phi}{2}\right)} = \frac{1 - e}{1 + e}$</m>.
+      </d:para>
+      <d:para>
+        Using trigonometric identities for the numerator and denominator gives
+        <m>$\frac{2\sin\left(\frac{\theta}{2}\right)\sin\left(\frac{\phi}{2}\right)}{2\cos\left(\frac{\theta}{2}\right)\cos\left(\frac{\phi}{2}\right)}
+        = \frac{-(e - 1)}{e + 1}$</m>.
+      </d:para>
+      <d:para>
+        This reduces to <m>$\tan\left(\frac{\theta}{2}\right)\tan\left(\frac{\phi}{2}\right) = -\frac{e -
+        1}{e + 1}$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms results in
+        <m>$\tan\left(\frac{\theta}{2}\right)\tan\left(\frac{\phi}{2}\right) + \frac{e - 1}{e + 1} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 280 -->
+      <d:para>
+        Let the equation of the chord be <m>$lx + my = 1$</m>. The equation of the given curve is <m>$3x^2 -
+        y^2 - 2x + 4y = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the lines joining the origin to the intersection points, we homogenize the curve equation
+        using the chord equation. This yields <m>$3x^2 - y^2 - (2x - 4y)(lx + my) = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding and rearranging terms gives <m>$(3 - 2l)x^2 + (4l - 2m)xy + (4m - 1)y^2 = 0$</m>. Since
+        the chord subtends a right angle at the origin, the lines are perpendicular.
+      </d:para>
+      <d:para>
+        The condition for perpendicular lines is the sum of the coefficients of <m>$x^2$</m> and
+        <m>$y^2$</m> equals zero. Therefore, we have <m>$(3 - 2l) + (4m - 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$2 - 2l + 4m = 0$</m>, which reduces to <m>$l - 2m = 1$</m>. Substituting
+        <m>$l = 1 + 2m$</m> back into the chord equation yields <m>$(1 + 2m)x + my = 1$</m>.
+      </d:para>
+      <d:para>
+        Rearranging this equation gives <m>$(x - 1) + m(2x + y) = 0$</m>. This represents a family of
+        straight lines passing through the intersection of <m>$x - 1 = 0$</m> and <m>$2x + y = 0$</m>.
+      </d:para>
+      <d:para>
+        Solving these equations gives <m>$x = 1$</m> and <m>$y = -2$</m>. Thus, all such chords are
+        concurrent at the point <m>$(1, -2)$</m>.
+      </d:para>
+      <d:para>
+        Now consider the second curve <m>$3x^2 + 3y^2 - 2x + 4y = 0$</m>. Homogenizing this curve with the
+        chord <m>$lx + my = 1$</m> gives <m>$3x^2 + 3y^2 - (2x - 4y)(lx + my) = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding and rearranging terms gives <m>$(3 - 2l)x^2 + (4l - 2m)xy + (3 + 4m)y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        For the chord to subtend a right angle at the origin, the sum of the coefficients of <m>$x^2$</m>
+        and <m>$y^2$</m> must be zero. This gives <m>$(3 - 2l) + (3 + 4m) = 0$</m>, which simplifies to
+        <m>$6 - 2l + 4m = 0$</m> or <m>$l - 2m = 3$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$l = 3 + 2m$</m> into the chord equation yields <m>$(3 + 2m)x + my =
+        1$</m>. Rearranging terms gives <m>$(3x - 1) + m(2x + y) = 0$</m>.
+      </d:para>
+      <d:para>
+        This represents a family of lines passing through the intersection of <m>$3x - 1 = 0$</m> and <m>$2x
+        + y = 0$</m>.
+      </d:para>
+      <d:para>
+        Solving these equations gives <m>$x = \frac{1}{3}$</m> and <m>$y = -\frac{2}{3}$</m>. Yes, this
+        property also holds for the second curve, and the point of concurrency is <m>$(\frac{1}{3},
+        -\frac{2}{3})$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 281 -->
+      <d:para>
+        Let the midpoint of the chord be <m>$P(x_1, y_1)$</m>. The equation of the chord of the hyperbola
+        <m>$x^2 - y^2 = a^2$</m> with a given midpoint <m>$(x_1, y_1)$</m> is given by <m>$T = S_1$</m>.
+      </d:para>
+      <d:para>
+        This can be written as <m>$x x_1 - y y_1 = x_1^2 - y_1^2$</m>. Rearranging this equation in terms of
+        $y$ gives <m>$y y_1 = x x_1 - (x_1^2 - y_1^2)$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$y_1$</m> yields <m>$y = \left(\frac{x_1}{y_1}\right)x - \frac{x_1^2 -
+        y_1^2}{y_1}$</m>. This is of the slope-intercept form <m>$y = mx + C$</m>, where <m>$m =
+        \frac{x_1}{y_1}$</m> and <m>$C = -\frac{x_1^2 - y_1^2}{y_1}$</m>.
+      </d:para>
+      <d:para>
+        This chord touches the parabola <m>$y^2 = 4ax$</m>. The condition for a line <m>$y = mx + C$</m> to
+        be a tangent to the parabola <m>$y^2 = 4ax$</m> is <m>$C = \frac{a}{m}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$m$</m> and <m>$C$</m> into this condition gives <m>$-\frac{x_1^2 -
+        y_1^2}{y_1} = \frac{a}{\left(\frac{x_1}{y_1}\right)}$</m>.
+      </d:para>
+      <d:para>
+        This simplifies to <m>$-\frac{x_1^2 - y_1^2}{y_1} = \frac{a y_1}{x_1}$</m>. Cross-multiplying the
+        terms yields <m>$-x_1(x_1^2 - y_1^2) = a y_1^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the left side gives <m>$-x_1^3 + x_1 y_1^2 = a y_1^2$</m>. Rearranging the terms to group
+        <m>$y_1^2$</m> gives <m>$x_1 y_1^2 - a y_1^2 = x_1^3$</m>.
+      </d:para>
+      <d:para>
+        Factoring out <m>$y_1^2$</m> results in <m>$y_1^2(x_1 - a) = x_1^3$</m>. Replacing <m>$(x_1,
+        y_1)$</m> with <m>$(x, y)$</m> gives the locus of the midpoints as <m>$y^2(x - a) = x^3$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

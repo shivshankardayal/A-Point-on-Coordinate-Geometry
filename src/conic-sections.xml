@@ -3489,6 +3489,91 @@
         <m>$S, S'$</m> be its foci and <m>$P$</m> a point on it, prove that <m>$SP\cdot S'P = CP^2 - a^2 +
         b^2$</m>.
       </d:listitem>
+      <d:listitem>
+        <!-- 267 -->
+        Show that the locus of the middle points of portions of the tangents to the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> intercepted between the axes is <m>$4x^2y^2 = a^2y^2
+        - b^2x^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 268 -->
+        Prove that the product of the lengths of the perpendicular drawn from focai on any tangent to the
+        hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> is <m>$b^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 269 -->
+        Show that the locus of the foot of the perpendicular drawn from focus on a tangent to the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> is <m>$x^2 + y^2 = a^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 270 -->
+        Show that the locus of the poles w.r.t. the parabola <m>$y^2 = 4ax$</m> of tangents to <m>$x^2 - y^2
+        = a^2$</m> is the ellipse <m>$4x^2 + y^2 = 4a^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 271 -->
+        Show that the locus of the foot of perpendicular drawn from the center of the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>, on any tangent to it is <m>$\left(x^2 + y^2\right)^2
+        = a^2x^2 - b^2y^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 272 -->
+        Find the locus of the point, tangents from which to the rectangular hyperbola <m>$x^2 - y^2 =
+        a^2$</m> contain an angle of <m>$45^\circ$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 273 -->
+        Find the equations of the common tangents to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} =
+        1$</m> and <m>$\frac{y^2}{a^2} - \frac{x^2}{b^2} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 274 -->
+        If <m>$a^2 > b^2$</m>, show that the locus of point of intersection of mutually perpendicular
+        tangents to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> is the circle <m>$x^2 + y^2
+        = a^2 - b^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 275 -->
+        A normal to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> meets the axes of
+        coordinates in <m>$M$</m> and <m>$N$</m> and the lines <m>$MP$</m> and <m>$NP$</m> are drawn
+        perpendicular to the axes meeting in <m>$P$</m>. Prove that the locus of <m>$P$</m> is <m>$a^2x^2 -
+        b^2y^2 = \left(a^2 + b^2\right)^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 276 -->
+        Prove that the locus of point of intersection of the tangents at the ends of normal chords of the
+        hyperbola <m>$x^2 - y^2 = a^2$</m> is <m>$a^2\left(y^ - x^2\right) = 4x^2y^2$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 277 -->
+        Normals are drawn to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> at points
+        <m>$\theta_1$</m> and <m>$\theta_2$</m> meeting the conjugate axis at <m>$G_1$</m> and <m>$G_2$</m>
+        respectively. If <m>$\theta_1 + \theta_2 = \frac{\pi}{2}$</m>, prove that <m>$CG_1\cdot CG_2 =
+        \frac{a^2e^4}{e^2 - 1}$</m>, where <m>$C$</m> is the center of the hyperbola and <m>$e$</m> its
+        eccentricity.
+      </d:listitem>
+      <d:listitem>
+        <!-- 278 -->
+        Find the equation of that diameter which bisects the chord <m>$7x + y - 2 = 0$</m> of the hyperbola
+        <m>$\frac{x^2}{3} - \frac{y^2}{7} = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 279 -->
+        If the chord through the points <m>$(a\sec\theta, b\tan\theta)$</m> and <m>$(a\sec\phi,
+        b\tan\phi)$</m> on the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> passes through a
+        focus, prove that <m>$\tan\frac{\theta}{2}\tan\frac{\phi}{2} + \frac{e - 1}{e + 1} = 0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 280 -->
+        Show that all chords of the curve <m>$3x^2 - y^2 - 2x + 4y = 0$</m> which subtend a right angle at
+        the origin are concurrent. Does this also hold for the curve <m>$3x^2 + 3y^2 - 2x + 4y = 0$</m>. If
+        yes, what is the point of concurrency and if not, give reasons.
+      </d:listitem>
+      <d:listitem>
+        <!-- 281 -->
+        Chords of the hyperbola <m>$x^2 - y^2 = a^2$</m> touch the parabola <m>$y^2 = 4ax$</m>. Prove that
+        the locus of their middle points is the curve <m>$y^2(x - a) = x^3$</m>.
+      </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
