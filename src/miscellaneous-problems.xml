@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="miscellaneous-problems/index.html" ?>
+  <d:title>Miscellaneous Problems</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      The area of a parallelogram is <m>$12$</m> square units. Two of its vertices are the points <m>$A(-1,
+      3)$</m> and <m>$B(-2, 4)$</m>. Find the other two vertices of the parallelogram if the point of
+      intersection of its diagonals lies on the <m>$x$</m>-axis.
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      In a right angled triangle the vertex at the right angle is <m>$(1, 1)$</m>. One of the sides of the
+      triangle is <m>$2x - y = 1$</m> and the mid-point of the hypotenuse is <m>$(5, -2)$</m>. Find the
+      equation of the other sides of the triangle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      The extremities of the base of an isosceles triangle are the points <m>$(2a, 0)$</m> and <m>$(0,
+      a)$</m>. The equation of one of the sides is <m>$x = 2a$</m>. Find the equations of the other two
+      sides and the area of the triangle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      Find the equations of the sides of a triangle <m>$ABC$</m> with <m>$A(1, 3)$</m> as a vertex, <m>$x -
+      2y + 1 = 0$</m> and <m>$y - 1 = 0$</m> as the equations of two of its medians.
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      If three vertices of a triangle move on parallel lines in the same direction, prove that the centroid
+      of triangle will also move on a line parallel to given lines.
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      Find the equation of the straight line passing through the points of intersection of the curves <m>$(y
+      + 1)^2 + 4x = 0$</m> and <m>$x^2 - 4(y + 1) = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      Find the equation of the straight line passing through <m>$P(-4, 3)$</m> such that its portion between
+      the axes is divided internally by <m>$P$</m> in the ratio <m>$5:3$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      If <m>$u \equiv a_1x + b_1y + c_1 = 0$</m> and <m>$v \equiv a_2x + b_2y + c_2 = 0$</m> and
+      <m>$\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$</m> prove that the curve <m>$u + kv = 0$</m>
+      is nothing but any of the given straight lines <m>$u = 0$</m> or <m>$v = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      The equation of two families of lines are <m>$x + y - 3 + \lambda(2x - y) = 0$</m> and <m>$3x - y +
+      \mu(x - 2y + 1) = 0$</m>. Find the equation of the line which belongs to both the families.
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      Find the coordinates of the orthocenter of the triangle formed by the lines <m>$y = 0, (1 + t)x - ty +
+      t(1 + t) = 0, (1 + u)x - uy + u(1 + y) = 0$</m> and show that for values of <m>$t$</m> and <m>$u$</m>,
+      the orthocenter lies on the line <m>$x + y = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      The base of a triangle is fixed and its length is <m>$2a$</m>, find the locus of the vertex when one
+      base angle is double of the other, the axes of coordinates being along the fixed base and
+      perpendicular to the base through the mid-point.
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      If the coordinates of the points <m>$P, Q, R$</m> satisfy the relation <m>$xy = c^2$</m>, show that
+      the orthocenter of <m>$\triangle PQR$</m> also satisfies this relation.
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      Given vertices <m>$A(1, 1), B(4, -2)$</m> and <m>$C(5, 5)$</m> of a triangle, find the equation of the
+      perpendicular dropped from <m>$C$</m> to the internal bisector of the angle <m>$A$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      The sides <m>$AB, BC, CD, DA$</m> of a quadrilateral have the equations <m>$x + 2y = 3, x = 1, x - 3y
+      = 4, 5x + y + 12 = 0$</m> respectively. Find the angle between the diagonals <m>$AC$</m> and
+      <m>$BD$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      A pair of straight lines drawn through the origin form with the line <m>$2x + 3y = 6$</m> an
+      isosceles  triangle right angled at the origin. Find the equation of the pair of straight lines and
+      the area of the triangle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      Show that the lines <m>$y - m_1x - c_1 = 0, y - m_2x - c_2 = 0$</m> and <m>$y - m_3x - c_3 = 0$</m>
+      form an isoscelels triangle with the first line as base if <m>$(1 + m_1m_2)(m_1 - m_3) + (1 +
+      m_1m_3)(m_1 - m_2) = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      Prove that the quadrilateral whose sides are <m>$a_rx + b_ry + c_r = 0, r = 1, 2, 3, 4$</m> in order,
+      is cyclic, if <m>$(a_1b_2 - a_2b_1)(a_3a_4 + b_3b_4) + (a_3b_4 - a_4b_3)(a_1a_2 + b_1b_2) = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      A ray of light travelling along the line <m>$OA$</m>(<m>$O$</m> being the origin) is reflected by the
+      line mirror <m>$x - y + 1 = 0$</m>, the point of incidence beingf <m>$A(1, 2)$</m> the reflected ray,
+      travelling along <m>$AB$</m> is again reflected by the line mirror <m>$x - y = 2$</m>, the point of
+      incidence being <m>$B$</m>. If this reflected ray moves along <m>$BC$</m>, find the equation of the
+      line <m>$BC$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      Prove that the bisector of the angle containing the origin is also the bisector of the acute angle
+      between the lines <m>$a_1x + b_1y + c_1 = 0$</m> and <m>$a_2x + b_2y + c_2 = 0$</m> provided <m>$c_1,
+      c_2$</m> are of the same sign and <m>$a_1a_2 + b_1b_2 &lt; 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      A point <m>$P$</m> moves along the <m>$y$</m>-axis. Another point <m>$Q$</m> moves so that the fixed
+      straight line <m>$x\cos\alpha + y\sin\alpha = p$</m> is the perpendicular bisector of the line segment
+      <m>$PQ$</m>. Find the locus of <m>$Q$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      The vertices <m>$B, C$</m> of a triangle <m>$ABC$</m> lie on the lines <m>$4y = 3x$</m> and <m>$y =
+      0$</m> respectively and the side <m>$BC$</m> passes through the point <m>$P(0, 5)$</m>. If
+      <m>$ABOC$</m> is a rhombus, where <m>$O$</m> is the origin and the point <m>$P$</m> is inside the
+      rhombus, then find the coordinates of <m>$A$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      In a triangle <m>$ABC$</m>, the medians <m>$AD$</m> and <m>$BE$</m> are perpendicular to each otherr
+      and their lengths are <m>$|AD| = m$</m> and <m>$|BE| = n$</m>. Find the area of the triangle
+      <m>$ABC$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+      <m>$BC$</m> is a right angled triangle, right angled at <m>$A$</m>. The coordinates of <m>$B$</m> and
+      <m>$C$</m> are <m>$(6, 4)$</m> and <m>$(14, 10)$</m> respectively. The angle between the side
+      <m>$AB$</m> and <m>$x$</m>-axis is <m>$45^\circ$</m>. Find the coordinates of <m>$A$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      In a triangle <m>$ABC$</m>, <m>$D$</m> is a point on <m>$BC$</m> such that <m>$\frac{BD}{DC} =
+      \frac{AB}{AC}$</m>. The equation of the line <m>$AD$</m> is <m>$2x + 3y + 4 = 0$</m> and the equation
+      of the line <m>$AB$</m> is <m>$3x + 2y + 1 = 0$</m>. Find the equation of the line <m>$AC$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <m>$Q$</m> is any point on the line <m>$x - a = 0$</m>. If <m>$A$</m> is the point <m>$(a, 0)$</m>
+      and <m>$QR$</m> the bisector of the angle <m>$OQA$</m>, meets the <m>$x$</m>-axis in <m>$R$</m>, show
+      that the locus of the foot of the perpendicular from <m>$R$</m> to <m>$OQ$</m> is the curve <m>$(x -
+      2a)\left(x^2 + y^2\right) + a^2x = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      In a <m>$\triangle ABC$</m>, side <m>$AB$</m> has the equation <m>$2x + 3y = 29$</m> and the side
+      <m>$AC$</m> has the equation <m>$x + 2y = 16$</m>. If the mid-point of <m>$BC$</m> is <m>$(5, 6)$</m>,
+      then find the equation of <m>$BC$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      If <m>$u_r = a_rx + b_ry + c_r = 0, r = 1, 2, 3$</m> are the sides of a triangle <m>$ABC$</m>, then
+      prove that <m>$\begin{vmatrix}a_1^2 + b_1^2 &amp; a_1u_1 &amp; b_1u_1\\a_2^2 + b_2^2 &amp; a_2u_2
+      &amp; b_2u_2\\a_3^2 + b_3^2 &amp; a_3u_3 &amp; b_3u_3\end{vmatrix} = 0$</m> represent a circumcircle
+      of the <m>$\triangle ABC$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      If the angle between the two lines represented by <m>$2x^2 + 5xy + 3y^2 + 6x + 7y + 4 = 0$</m> is
+      <m>$\tan^{-1}m$</m> then find <m>$m$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <m>$A(3, 0)$</m> and <m>$B(6, 0)$</m> are two fixed points and <m>$P(x_1, y_1)$</m> is a variable
+      point of the plane. <m>$AP$</m> and <m>$BP$</m> meet the <m>$y$</m>-axis at <m>$C$</m> and <m>$D$</m>
+      respectively, and <m>$AD$</m> meets <m>$OP$</m> at <m>$Q$</m>. Prove that <m>$CQ$</m> passes through
+      <m>$(2, 0)$</m> for any position of <m>$P$</m> in the plane.
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

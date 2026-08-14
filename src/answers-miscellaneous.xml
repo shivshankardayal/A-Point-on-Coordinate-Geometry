@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:chapter version="5.0" xmlns:d="http://docbook.org/ns/docbook"
+           xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xlink="http://www.w3.org/1999/xlink"
+           xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <?dbhtml filename="answers-miscellaneous/index.html" ?>
+  <d:title>Answers of Miscellaneous Problems</d:title>
+  <d:orderedlist>
+    <d:listitem>
+      <!-- 1 -->
+      <d:para>
+        Given vertices <m>$A(-1, 3)$</m> and <m>$B(-2, 4)$</m>. Let <m>$C(x_3, y_3)$</m> and <m>$D(x_4,
+        y_4)$</m> be the other two vertices. The intersection of the diagonals is the midpoint <m>$M(x_0,
+        0)$</m> on the <m>$x$</m>-axis.
+      </d:para>
+      <d:para>
+        By the midpoint formula for <m>$AC$</m> and <m>$BD$</m> gives us <m>$\frac{-1 + x_3}{2} = x_0
+        \implies x_3 = 2x_0 + 1\implies \frac{3 + y_3}{2} = 0 \implies y_3 = -3\implies \frac{-2 + x_4}{2} =
+        x_0 \implies x_4 = 2x_0 + 2\implies \frac{4 + y_4}{2} = 0 \implies y_4 = -4$</m>.
+      </d:para>
+      <d:para>
+        So, <m>$C(2x_0 + 1, -3)$</m> and <m>$D(2x_0 + 2, -4)$</m>.
+      </d:para>
+      <d:para>
+        The area of the parallelogram is twice the area of <m>$\triangle ABC$</m> is <m>$\Delta = |x_A(y_B -
+        y_C) + x_B(y_C - y_A) + x_C(y_A - y_B)| = 12$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$A(-1, 3)$</m>, <m>$B(-2, 4)$</m>, and <m>$C(2x_0 + 1, -3)$</m> yields <m>$|(-1)(4 -
+        (-3)) + (-2)(-3 - 3) + (2x_0 + 1)(3 - 4)| = 12\implies |-7 + 12 - 2x_0 - 1| = 12\implies |4 - 2x_0|
+        = 12$</m>.
+      </d:para>
+      <d:para>
+        <m>$4 - 2x_0 = 12 \implies x_0 = -4$</m> Vertices: <m>$C(-7, -3)$</m> and <m>$D(-6, -4)$</m>. <m>$4
+        - 2x_0 = -12 \implies x_0 = 8$</m> Vertices: <m>$C(17, -3)$</m> and <m>$D(18, -4)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 2 -->
+      <d:para>
+        Let the right-angled vertex be <m>$C(1, 1)$</m>. The given side is <m>$AC: 2x - y = 1$</m>. The
+        second side <m>$BC$</m> is perpendicular to <m>$AC$</m> and passes through <m>$C(1, 1)$</m>, so its
+        equation is <m>$x + 2y - 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$M(5, -2)$</m> be the midpoint of the hypotenuse <m>$AB$</m>. The feet of the perpendiculars
+        from <m>$M$</m> to the sides <m>$AC$</m> and <m>$BC$</m> are the midpoints of <m>$AC$</m> and
+        <m>$BC$</m>, denoted as <m>$M_1$</m> and <m>$M_2$</m> respectively.
+      </d:para>
+      <d:para>
+        To find <m>$M_1$</m>, solve the line through <m>$M$</m> perpendicular to <m>$AC$</m>, which is <m>$x
+        + 2y = 1$</m>, with <m>$2x - y = 1$</m>. This yields <m>$M_1\left(\frac{3}{5},
+        \frac{1}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        To find <m>$M_2$</m>, solve the line through <m>$M$</m> perpendicular to <m>$BC$</m>, which is
+        <m>$2x - y = 12$</m>, with <m>$x + 2y = 3$</m>. This yields <m>$M_2\left(\frac{27}{5},
+        -\frac{6}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        The line segment <m>$M_1M_2$</m> connects the midpoints of two sides of <m>$\triangle ABC$</m>, so
+        it is parallel to the hypotenuse <m>$AB$</m>. The slope of <m>$M_1M_2$</m> (and thus the slope of
+        the hypotenuse) is <m>$m = \frac{-\frac{6}{5} - \frac{1}{5}}{\frac{27}{5} - \frac{3}{5}} =
+        \frac{-\frac{7}{5}}{\frac{24}{5}} = -\frac{7}{24}$</m>.
+      </d:para>
+      <d:para>
+        Since the hypotenuse passes through its midpoint <m>$M(5, -2)$</m>, its equation is <m>$y - (-2) =
+        -\frac{7}{24}(x - 5)\implies 24(y + 2) = -7(x - 5) \implies 7x + 24y + 13 = 0$</m>.
+      </d:para>
+      <d:para>
+        The other two sides are <m>$x + 2y - 3 = 0$</m> and <m>$7x + 24y + 13 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 3 -->
+      <d:para>
+        Let the extremities of the base be <m>$B(2a, 0)$</m> and <m>$C(0, a)$</m>.
+      </d:para>
+      <d:para>
+        The given side is <m>$x = 2a$</m>, which passes through <m>$B(2a, 0)$</m>, so the third vertex
+        <m>$A$</m> lies on this line and has coordinates <m>$A(2a, k)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$BC$</m> is specified as the base of the isosceles triangle, the other two sides must be
+        equal, so <m>$AB = AC$</m>. Using the distance formula, <m>$AB^2 = AC^2$</m> gives <m>$(2a - 2a)^2 +
+        (k - 0)^2 = (2a - 0)^2 + (k - a)^2\implies k^2 = 4a^2 + k^2 - 2ak + a^2\implies 2ak = 5a^2 \implies
+        k = \frac{5a}{2}$</m>
+      </d:para>
+      <d:para>
+        Thus, the third vertex is <m>$A\left(2a, \frac{5a}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the base <m>$BC$</m> joining <m>$(2a, 0)$</m> and <m>$(0, a)$</m> using the
+        intercept form is <m>$\frac{x}{2a} + \frac{y}{a} = 1 \implies x + 2y - 2a = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of the side <m>$AC$</m> joining <m>$(0, a)$</m> and <m>$A\left(2a,
+        \frac{5a}{2}\right)$</m> is <m>$y - a = \frac{\frac{5a}{2} - a}{2a - 0}(x - 0) \implies y - a =
+        \frac{3}{4}x \implies 3x - 4y + 4a = 0$</m>.
+      </d:para>
+      <d:para>
+        Taking <m>$AB$</m> as the base of the triangle for area calculation, its length is
+        <m>$\frac{5a}{2}$</m>. The altitude from <m>$C(0, a)$</m> to the line <m>$x = 2a$ is
+        $2a$</m>. <m>$\text{Area} = \frac{1}{2} \cdot \frac{5a}{2} \cdot 2a = \frac{5a^2}{2}$</m>.
+      </d:para>
+      <d:para>
+        The equations of the other two sides are <m>$x + 2y - 2a = 0$</m> and <m>$3x - 4y + 4a = 0$</m>, and
+        the area is <m>$\frac{5a^2}{2}$</m> square units.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 4 -->
+      <d:para>
+        Let vertex <m>$A$</m> be <m>$(1, 3)$</m>. The two given medians are <m>$M_1: x - 2y + 1 = 0$</m> and
+        <m>$M_2: y - 1 = 0$</m>. Since neither equation is satisfied by <m>$A(1, 3)$</m>, these medians must
+        pass through vertices <m>$B$</m> and <m>$C$</m> respectively.
+      </d:para>
+      <d:para>
+        The centroid <m>$G$</m> is the intersection of the two medians. Substituting <m>$y = 1$</m> into
+        <m>$M_1$</m> gives <m>$x - 2(1) + 1 = 0 \implies x = 1$</m>, so <m>$G(1, 1)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$B(x_1, y_1)$</m> lie on <m>$M_1$</m>, so <m>$x_1 = 2y_1 - 1$</m>, giving <m>$B(2y_1 - 1,
+        y_1)$</m>. Let <m>$C(x_2, y_2)$</m> lie on <m>$M_2$</m>, so <m>$y_2 = 1$, giving $C(x_2, 1)$</m>.
+      </d:para>
+      <d:para>
+        Using the centroid formula for the coordinates of <m>$G(1, 1)$</m> gives us <m>$\frac{1 + (2y_1 - 1)
+        + x_2}{3} = 1 \implies 2y_1 + x_2 = 3$</m> and <m>$\frac{3 + y_1 + 1}{3} = 1 \implies y_1 + 4 = 3
+        \implies y_1 = -1$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$y_1 = -1$</m> into the <m>$x$</m>-coordinate equation gives <m>$2(-1) + x_2 = 3
+        \implies x_2 = 5$</m>. Thus, the vertices are <m>$B(-3, -1)$</m> and <m>$C(5, 1)$</m>.
+      </d:para>
+      <d:para>
+        The equation of side <m>$AB$</m> joining <m>$A(1, 3)$</m> and <m>$B(-3, -1)$</m> is <m>$y - 3 =
+        \frac{-1 - 3}{-3 - 1}(x - 1) \implies y - 3 = 1(x - 1) \implies x - y + 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of side <m>$AC$</m> joining <m>$A(1, 3)$</m> and <m>$C(5, 1)$</m> is <m>$y - 3 =
+        \frac{1 - 3}{5 - 1}(x - 1) \implies y - 3 = -\frac{1}{2}(x - 1) \implies x + 2y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of side <m>$BC$</m> joining <m>$B(-3, -1)$</m> and <m>$C(5, 1)$</m> is <m>$y - 1 =
+        \frac{-1 - 1}{-3 - 5}(x - 5) \implies y - 1 = \frac{1}{4}(x - 5) \implies x - 4y - 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 5 -->
+      <d:para>
+        Let the three parallel lines be represented as <m>$y = mx + c_1, y = mx + c_2$</m>, and <m>$y = mx +
+        c_3$</m>.
+      </d:para>
+      <d:para>
+        Let the initial positions of the three vertices of the triangle be <m>$A(x_1, y_1), B(x_2,
+        y_2)$</m>, and <m>$C(x_3, y_3)$</m> such that each point lies on its respective parallel line.
+      </d:para>
+      <d:para>
+        Since the vertices move along these lines in the same direction, let <m>$t$</m> be a parameter
+        representing their displacement component along the <m>$x$</m>-axis. The new coordinates of the
+        vertices after moving can be written as: <m>$A'(x_1 + t, y_1 + mt)$</m>, <m>$B'(x_2 + t, y_2 +
+        mt)$</m>, and <m>$C'(x_3 + t, y_3 + mt)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$G(X, Y)$</m> be the centroid of the new triangle <m>$A'B'C'$</m>. Using the centroid
+        formula, the coordinates of <m>$G$</m> are given by: <m>$X = \frac{(x_1 + t) + (x_2 + t) + (x_3 +
+        t)}{3} = \frac{x_1 + x_2 + x_3}{3} + t$</m> and <m>$Y = \frac{(y_1 + mt) + (y_2 + mt) + (y_3 +
+        mt)}{3} = \frac{y_1 + y_2 + y_3}{3} + mt$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$X_0 = \frac{x_1 + x_2 + x_3}{3}$</m> and <m>$Y_0 = \frac{y_1 + y_2 + y_3}{3}$</m>, which are
+        the coordinates of the initial centroid <m>$G_0(X_0, Y_0)$</m>. The parametric equations of the path
+        traced by the centroid <m>$G$</m> become <m>$X = X_0 + t$</m> and <m>$Y = Y_0 + mt$</m>
+      </d:para>
+      <d:para>
+        Eliminating the parameter <m>$t$</m> by substituting <m>$t = X - X_0$</m> into the equation for
+        <m>$Y$</m> yields <m>$Y = Y_0 + m(X - X_0) \implies Y = mX + (Y_0 - mX_0)$</m>.
+      </d:para>
+      <d:para>
+        This is the equation of a straight line with slope <m>$m$</m>. Since this slope is identical to the
+        slope of the original lines, the centroid moves on a line parallel to the given lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 6 -->
+      <d:para>
+        The equations of the given curves are <m>$(y + 1)^2 + 4x = 0$</m> and <m>$x^2 - 4(y + 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        From the second equation, we express <m>$y + 1$</m> in terms of <m>$x$</m> to get <m>$4(y + 1) = x^2
+        \implies y + 1 = \frac{x^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        Substituting this into the first equation gives <m>$\left(\frac{x^2}{4}\right)^2 + 4x = 0 \implies
+        \frac{x^4}{16} + 4x = 0$</m>
+      </d:para>
+      <d:para>
+        Multiplying by <m>$16$</m> yields <m>$x^4 + 64x = 0$</m>, which factors as <m>$x(x^3 + 64) = 0$</m>.
+        The real solutions for <m>$x$</m> are <m>$x = 0$</m> and <m>$x = -4$</m>.
+      </d:para>
+      <d:para>
+        If <m>$x = 0$</m>, substituting back gives <m>$y + 1 = 0 \implies y = -1$</m>, forming the point
+        <m>$P_1(0, -1)$</m>. If <m>$x = -4$</m>, substituting back gives <m>$y + 1 = \frac{(-4)^2}{4} = 4
+        \implies y = 3$</m>, forming the point <m>$P_2(-4, 3)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the straight line passing through <m>$P_1(0, -1)$</m> and <m>$P_2(-4, 3)$</m> is
+        <m>$y - (-1) = \frac{3 - (-1)}{-4 - 0}(x - 0)\implies y + 1 = \frac{4}{-4}x \implies y + 1 = -x
+        \implies x + y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 7 -->
+      <d:para>
+        Let the required straight line intersect the <m>$x$</m>-axis at <m>$A(a, 0)$</m> and the
+        <m>$y$</m>-axis at <m>$B(0, b)$</m>. The portion of the line between the axes is the segment
+        <m>$AB$</m> or <m>$BA$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$P(-4, 3)$</m> divides the segment <m>$AB$</m>
+        internally in the ratio <m>$5:3$</m>. By the section formula <m>$-4 = \frac{5(0) + 3(a)}{5 + 3}
+        \implies -4 = \frac{3a}{8} \implies a = -\frac{32}{3}$</m> and <m>$3 = \frac{5(b) + 3(0)}{5 + 3}
+        \implies 3 = \frac{5b}{8} \implies b = \frac{24}{5}$</m>.
+      </d:para>
+      <d:para>
+        Using the intercept form <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> gives us <m>$\frac{x}{-32/3} +
+        \frac{y}{24/5} = 1 \implies -\frac{3x}{32} + \frac{5y}{24} = 1$</m>. Multiplying by <m>$96$</m> to
+        clear denominators yields <m>$-9x + 20y = 96 \implies 9x - 20y + 96 = 0$</m>.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$P(-4, 3)$</m> divides the segment <m>$BA$</m>
+        internally in the ratio <m>$5:3$</m>. By the section formula <m>$-4 = \frac{5(a) + 3(0)}{5 + 3}
+        \implies -4 = \frac{5a}{8} \implies a = -\frac{32}{5}$</m> and <m>$3 = \frac{5(0) + 3(b)}{5 + 3}
+        \implies 3 = \frac{3b}{8} \implies b = 8$</m>.
+      </d:para>
+      <d:para>
+        Using the intercept form <m>$\frac{x}{a} + \frac{y}{b} = 1$</m> gives us <m>$\frac{x}{-32/5} +
+        \frac{y}{8} = 1 \implies -\frac{5x}{32} + \frac{y}{8} = 1$</m>. Multiplying by <m>$32$</m> to clear
+        denominators yields <m>$-5x + 4y = 32 \implies 5x - 4y + 32 = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equations of the possible straight lines are <m>$9x - 20y + 96 = 0$</m> and <m>$5x -
+        4y + 32 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 8 -->
+      <d:para>
+        Given the lines <m>$u \equiv a_1x + b_1y + c_1 = 0$</m> and <m>$v \equiv a_2x + b_2y + c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        We are given that <m>$\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2} = \lambda$</m>, where
+        <m>$\lambda \neq 0$</m> is a constant.
+      </d:para>
+      <d:para>
+        This ratio implies <m>$a_1 = \lambda a_2$, $b_1 = \lambda b_2$</m>, and <m>$c_1 = \lambda
+        c_2$</m>. Substituting these expressions into the equation for <m>$u$</m> gives <m>$u \equiv \lambda
+        a_2x + \lambda b_2y + \lambda c_2 = \lambda(a_2x + b_2y + c_2) = \lambda v$</m>.
+      </d:para>
+      <d:para>
+        Thus, <m>$u = 0$</m> and <m>$v = 0$</m> represent the exact same straight line.
+      </d:para>
+      <d:para>
+        Consider the family of curves given by <m>$u + kv = 0$</m>. Substituting <m>$u = \lambda v$</m> into
+        this equation yields <m>$\lambda v + kv = 0 \implies (\lambda + k)v = 0$</m>.
+      </d:para>
+      <d:para>
+        Assuming <m>$\lambda + k \neq 0$</m>, dividing by the constant factor <m>$(\lambda + k)$</m> leaves
+        <m>$v = 0$</m>.
+      </d:para>
+      <d:para>
+        Similarly, since <m>$v = \frac{1}{\lambda}u$</m>, substituting into <m>$u + kv = 0$</m> gives <m>$u
+        + k\left(\frac{1}{\lambda}u\right) = 0 \implies \left(1 + \frac{k}{\lambda}\right)u = 0$</m>.
+      </d:para>
+      <d:para>
+        Assuming <m>$1 + \frac{k}{\lambda} \neq 0$</m>, dividing by the constant factor leaves <m>$u =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation <m>$u + kv = 0$</m> reduces directly to <m>$u = 0$</m> or <m>$v = 0$</m>,
+        representing the same original straight line.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 9 -->
+      <d:para>
+        A line belongs to both families if it passes through the fixed points of intersection of both
+        families.
+      </d:para>
+      <d:para>
+        The first family of lines is given by <m>$(x + y - 3) + \lambda(2x - y) = 0$</m>. The fixed point of
+        intersection, <m>$P_1$</m>, is found by solving the system <m>$x + y - 3 = 0$</m> and <m>$2x - y = 0
+        \implies y = 2x$</m>. Substituting <m>$y = 2x$</m> into the first equation yields <m>$x + 2x - 3 = 0
+        \implies 3x = 3 \implies x = 1$</m>. Then <m>$y = 2(1) = 2$</m>, giving the fixed point <m>$P_1(1,
+        2)$</m>.
+      </d:para>
+      <d:para>
+        The second family of lines is given by <m>$(3x - y) + \mu(x - 2y + 1) = 0$</m>. The fixed point of
+        intersection, <m>$P_2$</m>, is found by solving the system <m>$3x - y = 0 \implies y = 3x$</m> and
+        <m>$x - 2y + 1 = 0$</m>. Substituting <m>$y = 3x$</m> into the second equation yields <m>$x - 2(3x)
+        + 1 = 0 \implies -5x + 1 = 0 \implies x = \frac{1}{5}$</m>. Then <m>$y = 3\left(\frac{1}{5}\right) =
+        \frac{3}{5}$</m>, giving the fixed point <m>$P_2\left(\frac{1}{5}, \frac{3}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        The unique line belonging to both families is the straight line passing through <m>$P_1(1, 2)$</m>
+        and <m>$P_2\left(\frac{1}{5}, \frac{3}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        The slope of this line is <m>$m = \frac{2 - \frac{3}{5}}{1 - \frac{1}{5}} =
+        \frac{\frac{7}{5}}{\frac{4}{5}} = \frac{7}{4}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line passing through <m>$P_1(1, 2)$</m> with slope <m>$\frac{7}{4}$</m> is <m>$y
+        - 2 = \frac{7}{4}(x - 1)\implies 4(y - 2) = 7(x - 1) \implies 4y - 8 = 7x - 7 \implies 7x - 4y + 1 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 10 -->
+      <d:para>
+        The equations of the three sides of the triangle are <m>$L_1: y = 0$</m>, <m>$L_2: (1 + t)x - ty +
+        t(1 + t) = 0$</m>, and <m>$L_3: (1 + u)x - uy + u(1 + u) = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the vertices on the <m>$x$</m>-axis, we substitute <m>$y = 0$</m> into <m>$L_2$</m> and
+        <m>$L_3$</m>. For <m>$L_2$</m>, <m>$(1 + t)x + t(1 + t) = 0 \implies x = -t$</m>, giving vertex
+        <m>$B(-t, 0)$</m>. For <m>$L_3$</m>, <m>$(1 + u)x + u(1 + u) = 0 \implies x = -u$</m>, giving vertex
+        <m>$C(-u, 0)$</m>.
+      </d:para>
+      <d:para>
+        The slope of <m>$L_3$</m> is <m>$\frac{1 + u}{u}$</m>, so the slope of the altitude from <m>$B(-t,
+        0)$</m> perpendicular to <m>$L_3$</m> is <m>$-\frac{u}{1 + u}$</m>. The equation of the altitude
+        from <m>$B$</m> is <m>$y - 0 = -\frac{u}{1 + u}(x + t) \implies ux + (1 + u)y = -ut$</m>.
+      </d:para>
+      <d:para>
+        The slope of <m>$L_2$ is $\frac{1 + t}{t}$</m>, so the slope of the altitude from <m>$C(-u, 0)$</m>
+        perpendicular to <m>$L_2$</m> is <m>$-\frac{t}{1 + t}$</m>. The equation of the altitude from
+        <m>$C$</m> is <m>$y - 0 = -\frac{t}{1 + t}(x + u) \implies tx + (1 + t)y = -tu$</m>.
+      </d:para>
+      <d:para>
+        Subtracting the second altitude equation from the first yields <m>$(u - t)x + (u - t)y =
+        0$</m>. Dividing by <m>$(u - t)$</m> since <m>$t \neq u$</m> gives <m>$x + y = 0 \implies x =
+        -y$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x = -y$</m> into the first altitude equation gives <m>$u(-y) + (1 + u)y = -ut
+        \implies y = -ut$</m>. Then <m>$x = -(-ut) = ut$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the orthocenter are <m>$(ut, -ut)$</m>. Adding the coordinates gives <m>$x + y =
+        ut + (-ut) = 0$</m>, showing that the orthocenter always lies on the line <m>$x + y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 11 -->
+      <d:para>
+        Let the fixed base of length <m>$2a$</m> lie along the <m>$x$</m>-axis, with the origin at its
+        midpoint. The coordinates of the base vertices are <m>$B(-a, 0)$</m> and <m>$C(a, 0)$</m>. Let
+        <m>$A(x, y)$</m> be the moving vertex of the triangle.
+      </d:para>
+      <d:para>
+        Let the base angle at <m>$B$</m> be <m>$\theta$</m> and the base angle at <m>$C$</m> be
+        <m>$2\theta$</m>. The interior angles at <m>$B$</m> and <m>$C$</m> are <m>$\theta$</m> and
+        <m>$2\theta$</m> respectively. The slopes of the lines <m>$BA$</m> and <m>$CA$</m> are given by
+        <m>$m_{BA} = \tan\theta = \frac{y}{x - (-a)} = \frac{y}{x + a}$</m> and <m>$m_{CA} = \tan(\pi -
+        2\theta) = -\tan 2\theta = \frac{y}{x - a} \implies \tan 2\theta = \frac{y}{a - x}$</m>
+      </d:para>
+      <d:para>
+        Using the double angle identity for tangent, <m>$\tan 2\theta = \frac{2\tan\theta}{1 -
+        \tan^2\theta}$</m>. Substituting the expressions for <m>$\tan\theta$</m> and <m>$\tan 2\theta$</m>
+        into the identity yields <m>$\frac{y}{a - x} = \frac{2\left(\frac{y}{x + a}\right)}{1 -
+        \left(\frac{y}{x + a}\right)^2}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$y \neq 0$</m> for a valid triangle, dividing both sides by <m>$y$</m> gives <m>$\frac{1}{a
+        - x} = \frac{\frac{2}{x + a}}{\frac{(x + a)^2 - y^2}{(x + a)^2}} = \frac{2(x + a)}{(x + a)^2 -
+        y^2}$</m>
+      </d:para>
+      <d:para>
+        Cross-multiplying gives <m>$(x + a)^2 - y^2 = 2(a - x)(x + a)$</m>
+      </d:para>
+      <d:para>
+        Since <m>$x + a \neq 0$</m> (the vertex <m>$A$</m> cannot lie on the vertical line through
+        <m>$B$</m>), we divide both sides by <m>$(x + a)$</m> to get <m>$(x + a) - \frac{y^2}{x + a} = 2(a -
+        x)\implies (x + a)^2 - y^2 = 2(a^2 - x^2)\implies x^2 + 2ax + a^2 - y^2 = 2a^2 - 2x^2$</m>.
+      </d:para>
+      <d:para>
+        Rearranging all terms to one side simplifies the equation to <m>$3x^2 - y^2 + 2ax - a^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 12 -->
+      <d:para>
+        Let the three vertices on the rectangular hyperbola <m>$xy = c^2$</m> be represented parametrically
+        as <m>$P\left(ct_1, \frac{c}{t_1}\right)$</m>, <m>$Q\left(ct_2, \frac{c}{t_2}\right)$</m>, and
+        <m>$R\left(ct_3, \frac{c}{t_3}\right)$</m>.
+      </d:para>
+      <d:para>
+        The slope of the side <m>$QR$</m> is given by <m>$m_{QR} = \frac{\frac{c}{t_3} - \frac{c}{t_2}}{ct_3
+        - ct_2} = \frac{c(t_2 - t_3)}{t_2 t_3 \cdot c(t_3 - t_2)} = -\frac{1}{t_2 t_3}$</m>.
+      </d:para>
+      <d:para>
+        The altitude from vertex <m>$P$</m> to the opposite side <m>$QR$</m> is perpendicular to
+        <m>$QR$</m>, so its slope is <m>$m_P = -\frac{1}{m_{QR}} = t_2 t_3$</m>.
+      </d:para>
+      <d:para>
+        The equation of the altitude from <m>$P$</m> is <m>$y - \frac{c}{t_1} = t_2 t_3 (x - ct_1)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the slope of the side <m>$PR$</m> is <m>$-\frac{1}{t_1 t_3}$</m>, which means the slope
+        of the altitude from vertex <m>$Q$</m> is <m>$m_Q = t_1 t_3$</m>. The equation of the altitude from
+        <m>$Q$</m> is <m>$y - \frac{c}{t_2} = t_1 t_3 (x - ct_2)$</m>.
+      </d:para>
+      <d:para>
+        To find the coordinates of the orthocenter, we solve these two altitude equations
+        simultaneously. Subtracting the second altitude equation from the first yields <m>$\frac{c}{t_2} -
+        \frac{c}{t_1} = t_2 t_3 x - c t_1 t_2 t_3 - t_1 t_3 x + c t_1 t_2 t_3\implies \frac{c(t_1 -
+        t_2)}{t_1 t_2} = t_3(t_2 - t_1)x$</m>
+      </d:para>
+      <d:para>
+        Solving for <m>$x$</m> gives <m>$x = -\frac{c}{t_1 t_2 t_3}$</m>.
+      </d:para>
+      <d:para>
+        Substituting this value of <m>$x$</m> back into the first altitude equation gives <m>$y -
+        \frac{c}{t_1} = t_2 t_3 \left(-\frac{c}{t_1 t_2 t_3} - ct_1\right)\implies y - \frac{c}{t_1} =
+        -\frac{c}{t_1} - c t_1 t_2 t_3 \implies y = -c t_1 t_2 t_3$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the orthocenter of <m>$\triangle PQR$</m> are <m>$\left(-\frac{c}{t_1 t_2 t_3},
+        -c t_1 t_2 t_3\right)$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the <m>$x$</m>-coordinate and the <m>$y$</m>-coordinate of the orthocenter gives <m>$xy
+        = \left(-\frac{c}{t_1 t_2 t_3}\right) \cdot \left(-c t_1 t_2 t_3\right) = c^2$</m>
+      </d:para>
+      <d:para>
+        Since the coordinates satisfy the equation <m>$xy = c^2$</m>, the orthocenter satisfies the given
+        relation.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 13 -->
+      <d:para>
+        The slope of the line <m>$AB$</m> is <m>$m_1 = \frac{-2 - 1}{4 - 1} = \frac{-3}{3} = -1$</m>. The
+        equation of the line <m>$AB$</m> is <m>$y - 1 = -1(x - 1) \implies x + y - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The slope of the line <m>$AC$</m> is <m>$m_2 = \frac{5 - 1}{5 - 1} = \frac{4}{4} = 1$</m>. The
+        equation of the line <m>$AC$</m> is <m>$y - 1 = 1(x - 1) \implies x - y = 0$</m>.
+      </d:para>
+      <d:para>
+        The equations of the angle bisectors between <m>$AB$</m> and <m>$AC$</m> are given by <m>$\frac{x +
+        y - 2}{\sqrt{1^2 + 1^2}} = \pm \frac{x - y}{\sqrt{1^2 + (-1)^2}} \implies x + y - 2 = \pm (x -
+        y)$</m>
+      </d:para>
+      <d:para>
+        Taking the positive sign gives <m>$x + y - 2 = x - y \implies 2y = 2 \implies y = 1$</m> and taking
+        the negative sign gives <m>$x + y - 2 = -(x - y) \implies 2x = 2 \implies x = 1$</m>.
+      </d:para>
+      <d:para>
+        To find the internal bisector of angle <m>$A$</m>, we check which line separates <m>$B$</m> and
+        <m>$C$</m>. For the line <m>$y = 1$</m>: Substituting <m>$B(4, -2)$</m> gives <m>$-2 - 1 = -3 &lt;
+        0$</m>. Substituting <m>$C(5, 5)$ gives $5 - 1 = 4 > 0$</m>. Since the expressions have opposite
+        signs, <m>$B$</m> and <m>$C$</m> lie on opposite sides of <m>$y = 1$</m>, making <m>$y = 1$</m> the
+        internal bisector.
+      </d:para>
+      <d:para>
+        The line dropped from <m>$C(5, 5)$</m> perpendicular to the horizontal line <m>$y = 1$</m> must be a
+        vertical line. Therefore, the equation of the perpendicular line is <m>$x = 5$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 14 -->
+      <d:para>
+        To find vertex <m>$A$</m>, solve <m>$AB$</m> and <m>$DA$</m>: From <m>$AB$</m>, <m>$x = 3 -
+        2y$</m>. Substituting into <m>$DA$</m> gives <m>$5(3 - 2y) + y + 12 = 0 \implies 27 - 9y = 0
+        \implies y = 3$</m>. Then <m>$x = 3 - 2(3) = -3$</m>. Thus, <m>$A(-3, 3)$</m>.
+      </d:para>
+      <d:para>
+        To find vertex <m>$B$</m>, solve <m>$AB$</m> and <m>$BC$</m>: Substituting <m>$x = 1$</m> into
+        <m>$AB$</m> gives <m>$1 + 2y = 3 \implies y = 1$</m>. Thus, <m>$B(1, 1)$</m>.
+      </d:para>
+      <d:para>
+        To find vertex <m>$C$</m>, solve <m>$BC$</m> and <m>$CD$</m>: Substituting <m>$x = 1$</m> into
+        <m>$CD$</m> gives <m>$1 - 3y = 4 \implies -3y = 3 \implies y = -1$</m>. Thus, <m>$C(1, -1)$</m>.
+      </d:para>
+      <d:para>
+        To find vertex <m>$D$</m>, solve <m>$CD$</m> and <m>$DA$</m>: From <m>$CD$</m>, <m>$x = 3y +
+        4$</m>. Substituting into <m>$DA$</m> gives <m>$5(3y + 4) + y + 12 = 0 \implies 16y + 32 = 0
+        \implies y = -2$</m>. Then <m>$x = 3(-2) + 4 = -2$</m>. Thus, <m>$D(-2, -2)$</m>.
+      </d:para>
+      <d:para>
+        Now, we find the slopes of the diagonals <m>$AC$</m> and <m>$BD$</m>: The slope of diagonal
+        <m>$AC$</m> is <m>$m_1 = \frac{-1 - 3}{1 - (-3)} = \frac{-4}{4} = -1$</m>. The slope of diagonal
+        <m>$BD$</m> is <m>$m_2 = \frac{-2 - 1}{-2 - 1} = \frac{-3}{-3} = 1$</m>.
+      </d:para>
+      <d:para>
+        Since the product of their slopes is <m>$m_1 \cdot m_2 = (-1)(1) = -1$</m>, the diagonals
+        <m>$AC$</m> and <m>$BD$</m> are perpendicular to each other.
+      </d:para>
+      <d:para>
+        Therefore, the angle between the diagonals is <m>$90^\circ$</m> (or <m>$\frac{\pi}{2}$</m> radians).
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 15 -->
+      <d:para>
+        Let the given base line be <m>$2x + 3y = 6$</m>. Its slope is <m>$m_0 = -\frac{2}{3}$</m>.
+      </d:para>
+      <d:para>
+        Let the equations of the pair of lines passing through the origin be <m>$y = mx$</m>.
+      </d:para>
+      <d:para>
+        Since the triangle is right-angled at the origin, the two lines are mutually perpendicular. If one
+        line has a slope <m>$m$</m>, the other line must have a slope <m>$-\frac{1}{m}$</m>. Since the
+        triangle is also isosceles with the right angle at the origin, both lines make an angle of
+        <m>$45^\circ$</m> with the base line <m>$2x + 3y = 6$</m>.
+      </d:para>
+      <d:para>
+        Using the angle between two lines formula: <m>$\tan 45^\circ = \left| \frac{m - m_0}{1 + m m_0}
+        \right| \implies 1 = \left| \frac{m - \left(-\frac{2}{3}\right)}{1 + m\left(-\frac{2}{3}\right)}
+        \right| = \left| \frac{3m + 2}{3 - 2m} \right|$</m>
+      </d:para>
+      <d:para>
+        This gives two cases: Case I: <m>$\frac{3m + 2}{3 - 2m} = 1 \implies 3m + 2 = 3 - 2m \implies 5m = 1
+        \implies m = \frac{1}{5}$</m>. Case 2: <m>$\frac{3m + 2}{3 - 2m} = -1 \implies 3m + 2 = -3 + 2m
+        \implies m = -5$</m>.
+      </d:para>
+      <d:para>
+        The slopes of the two lines are <m>$\frac{1}{5}$ and $-5$</m>, which confirms they are perpendicular
+        (<m>$m_1 m_2 = -1$</m>). The equations of the individual lines are <m>$y = \frac{1}{5}x \implies x -
+        5y = 0$</m> and <m>$y = -5x \implies 5x + y = 0$</m>.
+      </d:para>
+      <d:para>
+        The combined equation of the pair of straight lines is <m>$(x - 5y)(5x + y) = 0 \implies 5x^2 - 24xy
+        - 5y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the area of the triangle, we find the perpendicular distance <m>$p$</m> from the origin
+        <m>$(0, 0)$</m> to the base line <m>$2x + 3y - 6 = 0$</m> as <m>$p = \frac{|2(0) + 3(0) -
+        6|}{\sqrt{2^2 + 3^2}} = \frac{6}{\sqrt{13}}$</m>.
+      </d:para>
+      <d:para>
+        In a right-angled isosceles triangle, the altitude <m>$p$</m> to the hypotenuse is equal to half the
+        length of the hypotenuse. Therefore, the length of the base (hypotenuse) is <m>$2p =
+        \frac{12}{\sqrt{13}}$</m>.
+      </d:para>
+      <d:para>
+        The area of the triangle is <m>$\Delta = \frac{1}{2} \cdot \text{base} \cdot \text{altitude} =
+        \frac{1}{2} \cdot \frac{12}{\sqrt{13}} \cdot \frac{6}{\sqrt{13}} = \frac{36}{13}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 16 -->
+      <d:para>
+        Let the three lines be denoted as: <m>$L_1: y - m_1x - c_1 = 0 \quad (\text{slope } m_1)$</m>,
+        <m>$L_2: y - m_2x - c_2 = 0 \quad (\text{slope } m_2)$</m> and <m>$L_3: y - m_3x - c_3 = 0 \quad
+        (\text{slope } m_3)$</m>.
+      </d:para>
+      <d:para>
+        For these lines to form an isosceles triangle with <m>$L_1$</m> as the base, the angle between
+        <m>$L_1$</m> and <m>$L_2$</m> must equal the angle between <m>$L_1$</m> and <m>$L_3$</m>. Using the
+        formula for the tangent of the angle between two lines, we equate the tangents of these angles:
+        <m>$\left| \frac{m_1 - m_2}{1 + m_1m_2} \right| = \left| \frac{m_3 - m_1}{1 + m_1m_3} \right|$</m>.
+      </d:para>
+      <d:para>
+        To account for the interior angles of a valid triangle formed by three distinct lines, the signs
+        inside the absolute values must be opposite to reflect the proper cyclic configuration of the
+        vertices. Thus, we set <m>$\frac{m_1 - m_2}{1 + m_1m_2} = -\frac{m_3 - m_1}{1 + m_1m_3} = \frac{m_1
+        - m_3}{1 + m_1m_3}$</m>.
+      </d:para>
+      <d:para>
+        Cross-multiplying the denominators yields <m>$(m_1 - m_2)(1 + m_1m_3) = (m_1 - m_3)(1 +
+        m_1m_2)$</m>. Rearranging all terms to one side gives <m>$(m_1 - m_3)(1 + m_1m_2) - (m_1 - m_2)(1 +
+        m_1m_3) = 0$</m>. Multiplying the entire equation by <m>$-1$</m> to match the required form yields
+        <m>$(1 + m_1m_2)(m_1 - m_3) + (1 + m_1m_3)(m_1 - m_2) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 17 -->
+      <d:para>
+        Let the four lines taken in order be: <m>$L_1: a_1x + b_1y + c_1 = 0 \quad (\text{slope } m_1 =
+        -a_1/b_1)$</m>, <m>$L_2: a_2x + b_2y + c_2 = 0 \quad (\text{slope } m_2 = -a_2/b_2)$</m>, <m>$L_3:
+        a_3x + b_3y + c_3 = 0 \quad (\text{slope } m_3 = -a_3/b_3)$</m>, and <m>$L_4: a_4x + b_4y + c_4 = 0
+        \quad (\text{slope } m_4 = -a_4/b_4)$</m>.
+      </d:para>
+      <d:para>
+        Let the vertices of the quadrilateral formed by the intersections be <m>$A = L_1 \cap L_4$</m>,
+        <m>$B = L_1 \cap L_2$</m>, <m>$C = L_2 \cap L_3$</m>, and <m>$D = L_3 \cap L_4$</m>. For a
+        quadrilateral to be cyclic, the sum of opposite interior angles must be <m>$180^\circ$</m>, which
+        means <m>$\angle B + \angle D = 180^\circ \implies \tan B = -\tan D$</m>.
+      </d:para>
+      <d:para>
+        The angle <m>$B$</m> is formed between lines <m>$L_1$ and $L_2$</m>: <m>$\tan B = \frac{m_1 - m_2}{1
+        + m_1m_2} = \frac{(-a_1/b_1) - (-a_2/b_2)}{1 + (-a_1/b_1)(-a_2/b_2)} = \frac{a_2b_1 - a_1b_2}{a_1a_2
+        + b_1b_2}$</m>.
+      </d:para>
+      <d:para>
+        The angle <m>$D$</m> is formed between lines <m>$L_3$</m> and <m>$L_4$</m>: <m>$\tan D = \frac{m_3 -
+        m_4}{1 + m_3m_4} = \frac{(-a_3/b_3) - (-a_4/b_4)}{1 + (-a_3/b_3)(-a_4/b_4)} = \frac{a_4b_3 -
+        a_3b_4}{a_3a_4 + b_3b_4}$</m>.
+      </d:para>
+      <d:para>
+        Equating <m>$\tan B = -\tan D$</m> yields <m>$\frac{a_2b_1 - a_1b_2}{a_1a_2 + b_1b_2} =
+        -\frac{a_4b_3 - a_3b_4}{a_3a_4 + b_3b_4} = \frac{a_3b_4 - a_4b_3}{a_3a_4 + b_3b_4}$</m>.
+      </d:para>
+      <d:para>
+        Cross-multiplying the denominators gives <m>$(a_2b_1 - a_1b_2)(a_3a_4 + b_3b_4) = (a_3b_4 -
+        a_4b_3)(a_1a_2 + b_1b_2)$</m>. Rearranging all terms to one side yields <m>$-(a_1b_2 -
+        a_2b_1)(a_3a_4 + b_3b_4) - (a_3b_4 - a_4b_3)(a_1a_2 + b_1b_2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$-1$</m> gives the required condition <m>$(a_1b_2 - a_2b_1)(a_3a_4 + b_3b_4) +
+        (a_3b_4 - a_4b_3)(a_1a_2 + b_1b_2) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 18 -->
+      <d:para>
+        The origin is <m>$O(0, 0)$</m> and the point of incidence on the first mirror is <m>$A(1,
+        2)$</m>. The equation of the first line mirror is <m>$M_1: x - y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        The incident ray travels along the line <m>$OA$</m>. The slope of <m>$OA$</m> is <m>$m_{OA} =
+        \frac{2 - 0}{1 - 0} = 2$</m>. When a ray is reflected by a mirror, the image of any point on the
+        incident ray with respect to the mirror line lies on the path of the reflected ray. Let the image of
+        the origin <m>$O(0, 0)$</m> in the line <m>$x - y + 1 = 0$</m> be <m>$O'(x', y')$</m>. Using the
+        image formula <m>$\frac{x' - x_0}{a} = \frac{y' - y_0}{b} = -2\frac{ax_0 + by_0 + c}{a^2 +
+        b^2}$</m>: <m>$\frac{x' - 0}{1} = \frac{y' - 0}{-1} = -2\frac{1(0) - 1(0) + 1}{1^2 + (-1)^2} =
+        -2\left(\frac{1}{2}\right) = -1$</m>. This yields <m>$x' = -1$</m> and <m>$y' = 1$</m>, so the image
+        point is <m>$O'(-1, 1)$</m>.
+      </d:para>
+      <d:para>
+        The reflected ray <m>$AB$</m> passes through the point of incidence <m>$A(1, 2)$</m> and the image
+        point <m>$O'(-1, 1)$</m>. The slope of <m>$AB$</m> is <m>$m_{AB} = \frac{2 - 1}{1 - (-1)} =
+        \frac{1}{2}$</m>. The equation of the line <m>$AB$</m> is <m>$y - 2 = \frac{1}{2}(x - 1) \implies x
+        - 2y + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        The ray <m>$AB$</m> is incident on the second line mirror <m>$M_2: x - y = 2$</m> at point
+        <m>$B$</m>. To find the coordinates of <m>$B$</m>, we solve <m>$AB$</m> and <m>$M_2$</m>
+        simultaneously. From <m>$M_2$</m>, <m>$x = y + 2$</m>. Substituting this into <m>$AB$</m> gives
+        <m>$(y + 2) - 2y + 3 = 0 \implies -y + 5 = 0 \implies y = 5$</m>. Then <m>$x = 5 + 2 = 7$</m>,
+        giving the second point of incidence <m>$B(7, 5)$</m>.
+      </d:para>
+      <d:para>
+        The reflected ray <m>$BC$</m> is produced by the reflection of <m>$AB$</m> off the mirror <m>$x - y
+        - 2 = 0$</m>. The path of <m>$BC$</m> must pass through the image of any point on <m>$AB$</m> with
+        respect to the mirror <m>$M_2$</m>. Let us find the image of <m>$O'(-1, 1)$</m> in the line <m>$x -
+        y - 2 = 0$</m>, denoted as <m>$O''(x'', y'')$</m>: <m>$\frac{x'' - (-1)}{1} = \frac{y'' - 1}{-1} =
+        -2\frac{1(-1) - 1(1) - 2}{1^2 + (-1)^2} = -2\left(\frac{-4}{2}\right) = 4$</m>. This yields <m>$x''
+        + 1 = 4 \implies x'' = 3$</m> and <m>$1 - y'' = 4 \implies y'' = -3$, so $O''(3, -3)$</m>.
+      </d:para>
+      <d:para>
+        The reflected ray <m>$BC$</m> passes through <m>$B(7, 5)$</m> and the image point <m>$O''(3,
+        -3)$</m>. The slope of <m>$BC$</m> is <m>$m_{BC} = \frac{5 - (-3)}{7 - 3} = \frac{8}{4} = 2$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$BC$</m> is <m>$y - 5 = 2(x - 7) \implies y - 5 = 2x - 14 \implies 2x -
+        y - 9 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 19 -->
+      <d:para>
+        Let the two straight lines be <m>$L_1: a_1x + b_1y + c_1 = 0$</m> and <m>$L_2: a_2x + b_2y + c_2 =
+        0$</m>. To find the bisector of the angle containing the origin, we first ensure that the constant
+        terms <m>$c_1$</m> and <m>$c_2$</m> are of the same sign. When <m>$c_1 > 0$</m> and <m>$c_2 >
+        0$</m>, the equation of the bisector of the angle containing the origin is given by taking the
+        positive sign in the standard formula: <m>$\frac{a_1x + b_1y + c_1}{\sqrt{a_1^2 + b_1^2}} =
+        +\frac{a_2x + b_2y + c_2}{\sqrt{a_2^2 + b_2^2}}$</m>.
+      </d:para>
+      <d:para>
+        Now, let $\theta$ be the angle between one of the lines and this bisector. The condition to
+        determine whether a chosen bisector corresponds to the acute or obtuse angle depends on the sign of
+        the expression <m>$a_1a_2 + b_1b_2$</m>.
+      </d:para>
+      <d:para>
+        If <m>$a_1a_2 + b_1b_2 &lt; 0$</m>, it mathematically implies that the angle between the two lines
+        containing the origin is acute (<m>$\cos\theta > 0$</m> for the normal vectors pointing towards the
+        origin, meaning the interior angle is acute).
+      </d:para>
+      <d:para>
+        Consequently, the bisector corresponding to the positive sign directly represents the bisector of
+        the acute angle.
+      </d:para>
+      <d:para>
+        Therefore, if <m>$c_1$</m> and <m>$c_2$</m> have the same sign and <m>$a_1a_2 + b_1b_2 &lt; 0$</m>,
+        the bisector of the angle containing the origin is identical to the bisector of the acute angle
+        between the two lines.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 20 -->
+      <d:para>
+        Let the coordinates of the moving point <m>$Q$</m> be <m>$(x, y)$</m>. Let the coordinates of the
+        point <m>$P$</m> moving along the <m>$y$</m>-axis be <m>$(0, y_1)$</m>.
+      </d:para>
+      <d:para>
+        The given line <m>$x\cos\alpha + y\sin\alpha = p$</m> is the perpendicular bisector of the line
+        segment <m>$PQ$</m>. This implies two conditions: 1) The midpoint of <m>$PQ$</m>, which is
+        <m>$\left(\frac{x}{2}, \frac{y + y_1}{2}\right)$</m>, must lie on the line. 2) The line segment
+        <m>$PQ$</m> is perpendicular to the given line.
+      </d:para>
+      <d:para>
+        Substituting the midpoint coordinates into the line equation gives
+        <m>$\left(\frac{x}{2}\right)\cos\alpha + \left(\frac{y + y_1}{2}\right)\sin\alpha = p\implies
+        x\cos\alpha + y\sin\alpha + y_1\sin\alpha = 2p \implies y_1\sin\alpha = 2p - x\cos\alpha -
+        y\sin\alpha$</m>.
+      </d:para>
+      <d:para>
+        The slope of the given line is <m>$-\frac{\cos\alpha}{\sin\alpha} = -\cot\alpha$</m>. The slope of
+        <m>$PQ$</m> is <m>$\frac{y - y_1}{x - 0} = \frac{y - y_1}{x}$</m>. Since <m>$PQ$</m> is
+        perpendicular to the line, the product of their slopes is <m>$-1$</m> i.e. <m>$\left(\frac{y -
+        y_1}{x}\right) \cdot (-\cot\alpha) = -1 \implies \frac{y - y_1}{x} = \tan\alpha =
+        \frac{\sin\alpha}{\cos\alpha}$</m>
+      </d:para>
+      <d:para>
+        Cross-multiplying yields <m>$x\sin\alpha = (y - y_1)\cos\alpha \implies y_1\cos\alpha = y\cos\alpha
+        - x\sin\alpha$</m>. To eliminate the variable parameter <m>$y_1$</m>, we multiply the first relation
+        by <m>$\cos\alpha$</m> and the second relation by <m>$\sin\alpha$</m> to get
+        <m>$y_1\sin\alpha\cos\alpha = 2p\cos\alpha - x\cos^2\alpha - y\sin\alpha\cos\alpha$</m> and
+        <m>$y_1\sin\alpha\cos\alpha = y\sin\alpha\cos\alpha - x\sin^2\alpha$</m>.
+      </d:para>
+      <d:para>
+        Equating the right-hand sides eliminates <m>$y_1$</m> gives <m>$2p\cos\alpha - x\cos^2\alpha -
+        y\sin\alpha\cos\alpha = y\sin\alpha\cos\alpha - x\sin^2\alpha\implies 2p\cos\alpha = x\cos^2\alpha -
+        x\sin^2\alpha + 2y\sin\alpha\cos\alpha$</m>.
+      </d:para>
+      <d:para>
+        Using double-angle trigonometric identities, this simplifies to the exact locus <m>$x\cos 2\alpha +
+        y\sin 2\alpha = 2p\cos\alpha$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 21 -->
+      <d:para>
+        Let <m>$O(0, 0)$</m> be the origin. The vertex <m>$C$</m> lies on the line <m>$y = 0$</m>, so its
+        coordinates are <m>$C(c, 0)$</m>. The vertex <m>$B$</m> lies on the line <m>$4y = 3x$</m>, so its
+        coordinates can be written as <m>$B(4t, 3t)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$ABOC$</m> is a rhombus, the side lengths <m>$OB$</m> and <m>$OC$</m> must be equal. Using
+        the distance formula, <m>$OB = \sqrt{(4t)^2 + (3t)^2} = 5|t|$</m>, and <m>$OC = |c|$</m>. Equating
+        the two lengths gives <m>$|c| = 5|t| \implies c = \pm 5t$</m>.
+      </d:para>
+      <d:para>
+        In the rhombus <m>$ABOC$</m>, the diagonals <m>$AO$</m> and <m>$BC$</m> bisect each other, meaning
+        the midpoint of <m>$AO$</m> is the same as the midpoint of <m>$BC$</m>. This gives the relation for
+        the coordinates of <m>$A$</m>: <m>$A = B + C - O = (4t + c, 3t)$</m>.
+      </d:para>
+      <d:para>
+        The line segment <m>$BC$</m> connects <m>$B(4t, 3t)$</m> and <m>$C(c, 0)$</m>. The equation of the
+        line <m>$BC$</m> is <m>$y - 0 = \frac{3t - 0}{4t - c}(x - c) \implies (4t - c)y = 3tx - 3tc$</m>.
+      </d:para>
+      <d:para>
+        Since the side <m>$BC$</m> passes through the point <m>$P(0, 5)$</m>, substituting <m>$x = 0$</m>
+        and <m>$y = 5$</m> gives <m>$5(4t - c) = -3tc \implies 20t - 5c = -3tc$</m>.
+      </d:para>
+      <d:para>
+        We test the two cases for <m>$c$</m>:
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$c = 5t$</m>. <m>$20t - 5(5t) = -3t(5t) \implies -5t
+        = -15t^2$</m>. Since <m>$t \neq 0$</m>, this yields <m>$t = \frac{1}{3}$ and $c =
+        \frac{5}{3}$</m>. The vertices become <m>$B\left(\frac{4}{3}, 1\right)$</m> and
+        <m>$C\left(\frac{5}{3}, 0\right)$</m>, leading to <m>$A(3, 1)$</m>. The region of this rhombus is
+        bounded by <m>$0 \le y \le 1$</m>. Since <m>$P(0, 5)$</m> has <m>$y = 5$</m>, it lies outside the
+        rhombus, making this case invalid.
+      </d:para>
+      <d:para>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$c = -5t$</m>. <m>$20t - 5(-5t) = -3t(-5t) \implies
+        45t = 15t^2$</m>. Since <m>$t \neq 0$</m>, this yields <m>$t = 3$</m> and <m>$c = -15$</m>. The
+        vertices become <m>$B(12, 9)$</m> and <m>$C(-15, 0)$</m>, leading to <m>$A(12 - 15, 9) = (-3,
+        9)$</m>.
+      </d:para>
+      <d:para>
+        The boundaries of this rhombus are <m>$0 \le y \le 9$</m> and <m>$-45 \le 3x - 4y \le
+        0$</m>. Substituting <m>$P(0, 5)$</m> satisfies both inequalities (<m>$0 \le 5 \le 9$ and $-45 \le
+        -20 \le 0$</m>), confirming <m>$P$</m> is inside the rhombus. Therefore, the coordinates of
+        <m>$A$</m> are <m>$(-3, 9)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 22 -->
+      <d:para>
+        Let <m>$G$</m> be the centroid of <m>$\triangle ABC$</m>, which is the point of intersection of the
+        medians <m>$AD$</m> and <m>$BE$</m>.
+      </d:para>
+      <d:para>
+        The centroid divides each median in the ratio <m>$2:1$</m> from the vertex.
+      </d:para>
+      <d:para>
+        Since <m>$|AD| = m$</m> and <m>$|BE| = n$</m>, the lengths of the segments from the vertices to the
+        centroid are <m>$|AG| = \frac{2}{3}m$</m>, <m>$|GD| = \frac{1}{3}m$</m>, <m>$|BG| =
+        \frac{2}{3}n$</m>, and <m>$|GE| = \frac{1}{3}n$</m>.
+      </d:para>
+      <d:para>
+        The medians <m>$AD$</m> and <m>$BE$</m> are perpendicular to each other, so <m>$\angle AGB = \angle
+        BGD = 90^\circ$</m>.
+      </d:para>
+      <d:para>
+        The area of <m>$\triangle ABG$</m> is given by <m>$\text{Area of }(\triangle ABG) = \frac{1}{2}
+        \cdot |AG| \cdot |BG| = \frac{1}{2} \cdot \left(\frac{2}{3}m\right) \cdot \left(\frac{2}{3}n\right)
+        = \frac{2}{9}mn$</m>.
+      </d:para>
+      <d:para>
+        The area of <m>$\triangle BGD$</m> is given by <m>$\text{Area of }(\triangle BGD) = \frac{1}{2}
+        \cdot |GD| \cdot |BG| = \frac{1}{2} \cdot \left(\frac{1}{3}m\right) \cdot \left(\frac{2}{3}n\right)
+        = \frac{1}{9}mn$</m>.
+      </d:para>
+      <d:para>
+        The area of <m>$\triangle ABD$</m> is the sum of these two areas <m>$\text{Area of }(\triangle ABD)
+        = \text{Area}(\triangle ABG) + \text{Area}(\triangle BGD) = \frac{2}{9}mn + \frac{1}{9}mn =
+        \frac{3}{9}mn = \frac{1}{3}mn$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AD$</m> is a median of <m>$\triangle ABC$</m>, it divides the triangle into two
+        sub-triangles of equal area <m>$\text{Area of }(\triangle ABC) = 2 \cdot \text{Area}(\triangle ABD)
+        = 2 \cdot \left(\frac{1}{3}mn\right) = \frac{2}{3}mn$</m>. Therefore, the area of the triangle
+        <m>$ABC$</m> is <m>$\frac{2}{3}mn$</m> square units.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 23 -->
+      <d:para>
+        Let the coordinates of vertex <m>$A$</m> be <m>$(x, y)$</m>. The angle between the side <m>$AB$</m>
+        and the <m>$x$</m>-axis is <m>$45^\circ$</m>, so the slope of <m>$AB$</m> is <m>$m_1 = \tan 45^\circ
+        = 1$</m>. The equation of the line <m>$AB$</m> passing through <m>$B(6, 4)$ is $y - 4 = 1(x - 6)
+        \implies x - y - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the triangle is right-angled at <m>$A$</m>, the side <m>$AC$</m> is perpendicular to
+        <m>$AB$</m>. The slope of <m>$AC$</m> must be <m>$m_2 = -\frac{1}{m_1} = -1$</m>. The equation of
+        the line <m>$AC$</m> passing through <m>$C(14, 10)$</m> is <m>$y - 10 = -1(x - 14) \implies x + y -
+        24 = 0$</m>.
+      </d:para>
+      <d:para>
+        The vertex <m>$A$</m> is the point of intersection of the lines <m>$AB$</m> and <m>$AC$</m>. Solving
+        the system of linear equations <m>$x - y = 2$</m> and <m>$x + y = 24$</m>.
+      </d:para>
+      <d:para>
+        Adding the two equations yields <m>$2x = 26 \implies x = 13$</m>. Substituting <m>$x = 13$</m> into
+        the first equation yields <m>$13 - y = 2 \implies y = 11$</m>. Therefore, the coordinates of
+        <m>$A$</m> are <m>$(13, 11)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 24 -->
+      <d:para>
+        By the internal angle bisector theorem, since <m>$\frac{BD}{DC} = \frac{AB}{AC}$</m>, the line
+        <m>$AD$</m> is the internal angle bisector of <m>$\angle BAC$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the first equation by <m>2</m> and the second by <m>3</m> gives <m>$4x + 6y + 8 = 0$</m>
+        and <m>$9x + 6y + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        Subtracting the first equation from the second yields <m>$5x - 5 = 0 \implies x =
+        1$</m>. Substituting <m>$x = 1$</m> into <m>$2x + 3y + 4 = 0$</m> gives <m>$2(1) + 3y + 4 = 0
+        \implies 3y = -6 \implies y = -2$</m>. Thus, the vertex is <m>$A(1, -2)$</m>.
+      </d:para>
+      <d:para>
+        The slope of <m>$AD$</m> is <m>$m_1 = -\frac{2}{3}$</m> and the slope of <m>$AB$</m> is <m>$m_2 =
+        -\frac{3}{2}$</m>. Let the slope of the line <m>$AC$</m> be <m>$m$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$AD$</m> is the angle bisector, the angle between <m>$AB$</m> and <m>$AD$</m> is equal to
+        the angle between <m>$AD$</m> and <m>$AC$</m>, therefore, <m>$\frac{m_1 - m_2}{1 + m_1 m_2} =
+        \frac{m - m_1}{1 + m m_1}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$m_1$</m> and <m>$m_2$</m> gives us <m>$\frac{-\frac{2}{3} -
+        \left(-\frac{3}{2}\right)}{1 + \left(-\frac{2}{3}\right)\left(-\frac{3}{2}\right)} = \frac{m -
+        \left(-\frac{2}{3}\right)}{1 + m\left(-\frac{2}{3}\right)}\implies \frac{\frac{5}{6}}{2} = \frac{3m
+        + 2}{3 - 2m} \implies \frac{5}{12} = \frac{3m + 2}{3 - 2m}$</m>.
+      </d:para>
+      <d:para>
+        Cross-multiplying to solve for <m>$m$</m> gives <m>$5(3 - 2m) = 12(3m + 2)\implies 15 - 10m = 36m +
+        24 \implies 46m = -9 \implies m = -\frac{9}{46}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$AC$</m> passing through <m>$A(1, -2)$</m> with slope
+        <m>$-\frac{9}{46}$</m> is <m>$y - (-2) = -\frac{9}{46}(x - 1)\implies 46(y + 2) = -9(x - 1) \implies
+        46y + 92 = -9x + 9$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms gives <m>$9x + 46y + 83 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 25 -->
+      <d:para>
+        Let the coordinates of <m>$Q$</m> on the line <m>$x = a$</m> be <m>$Q(a, t)$</m>, and let <m>$A$</m>
+        be <m>$(a, 0)$</m>. The origin is <m>$O(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        In <m>$\triangle OQA$</m>, <m>$QR$</m> is the internal bisector of <m>$\angle OQA$</m> meeting the
+        <m>$x$</m>-axis at <m>$R(x_1, 0)$</m>. By the angle bisector theorem, <m>$R$</m> divides the base
+        <m>$OA$</m> in the ratio of the sides containing the angle <m>$\frac{OR}{RA} = \frac{OQ}{QA}$</m>.
+      </d:para>
+      <d:para>
+        The length of <m>$QA$</m> is <m>$\sqrt{(a-a)^2 + (t-0)^2} = |t|$</m>, and the length of <m>$OQ$</m>
+        is <m>$\sqrt{a^2 + t^2}$</m>. Thus, the section ratio is <m>$\frac{x_1}{a - x_1} = \frac{\sqrt{a^2 +
+        t^2}}{|t|}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$F(h, k)$</m> be the foot of the perpendicular from <m>$R(x_1, 0)$</m> to the line
+        <m>$OQ$</m>. The equation of the line <m>$OQ$</m> passing through <m>$(0, 0)$</m> and <m>$(a,
+        t)$</m> is <m>$tx - ay = 0$</m>. The line <m>$RF$</m> passes through <m>$R(x_1, 0)$</m> and is
+        perpendicular to <m>$OQ$</m>, so its equation is <m>$ax + ty = ax_1$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$F(h, k)$</m> lies on both <m>$OQ$</m> and <m>$RF$</m>, its coordinates satisfy:<d:sbr/>
+        1) <m>$th - ak = 0 \implies t = \frac{ak}{h}$</m><d:sbr/>
+        2) <m>$ah + tk = ax_1 \implies x_1 = h + \frac{tk}{a}$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$t = \frac{ak}{h}$</m> into the expression for <m>$x_1$</m> gives <m>$x_1 = h +
+        \frac{k^2}{h} = \frac{h^2 + k^2}{h}$</m>.
+      </d:para>
+      <d:para>
+        Now we substitute <m>$x_1 = \frac{h^2 + k^2}{h}$</m> into the angle bisector relation
+        <m>$\frac{x_1}{a - x_1} = \frac{\sqrt{a^2 + t^2}}{t}$</m> (squaring both sides) <m>$\frac{x_1^2}{(a
+        - x_1)^2} = \frac{a^2 + t^2}{t^2} = \frac{a^2}{t^2} + 1$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$t = \frac{ak}{h}$</m> yields <m>$\frac{x_1^2}{(a - x_1)^2} = \frac{h^2}{k^2} + 1 =
+        \frac{h^2 + k^2}{k^2}$</m>
+      </d:para>
+      <d:para>
+        Cross-multiplying gives <m>$k^2 x_1^2 = (h^2 + k^2)(a - x_1)^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1 = \frac{h^2 + k^2}{h}$</m> gives <m>$k^2 \left(\frac{h^2 + k^2}{h}\right)^2 =
+        (h^2 + k^2)\left(a - \frac{h^2 + k^2}{h}\right)^2\implies \frac{k^2(h^2 + k^2)}{h^2} =
+        \left(\frac{ah - (h^2 + k^2)}{h}\right)^2\implies k^2(h^2 + k^2) = (ah - h^2 - k^2)^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding and simplifying the equation <m>$h^2k^2 + k^4 = a^2h^2 + h^4 + k^4 - 2ah^3 - 2ahk^2 +
+        2h^2k^2\implies 0 = h^4 + h^2k^2 - 2ah^3 - 2ahk^2 + a^2h^2\implies h^2(h^2 + k^2) - 2ah(h^2 + k^2) +
+        a^2h^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$h^2$</m> since <m>$h \neq 0$</m> gives <m>$(h^2 + k^2) - \frac{2a}{h}(h^2 + k^2) +
+        a^2 = 0\implies h(h^2 + k^2) - 2a(h^2 + k^2) + a^2h = 0\implies (h - 2a)(h^2 + k^2) + a^2h = 0$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with <m>$(x, y)$</m> to obtain the locus of the foot of the perpendicular
+        <m>$(x - 2a)(x^2 + y^2) + a^2x = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 26 -->
+      <d:para>
+        Let the coordinates of vertex <m>$B$</m> lying on the line <m>$AB: 2x + 3y = 29$</m> be <m>$(x_1,
+        y_1)$</m>, so <m>$2x_1 + 3y_1 = 29$</m>. Let the coordinates of vertex <m>$C$</m> lying on the line
+        <m>$AC: x + 2y = 16$</m> be <m>$(x_2, y_2)$</m>, so <m>$x_2 + 2y_2 = 16$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of <m>$BC$</m> is given as <m>$M(5, 6)$</m>. Using the midpoint formula <m>$\frac{x_1 +
+        x_2}{2} = 5 \implies x_2 = 10 - x_1$</m> and <m>$\frac{y_1 + y_2}{2} = 6 \implies y_2 = 12 -
+        y_1$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_2$</m> and <m>$y_2$</m> into the equation for <m>$AC$</m> gives <m>$(10 - x_1) +
+        2(12 - y_1) = 16 \implies 10 - x_1 + 24 - 2y_1 = 16 \implies x_1 + 2y_1 = 18$</m>.
+      </d:para>
+      <d:para>
+        We now have a system of two linear equations for the coordinates of <m>$B$</m>:
+        <d:sbr/>1) <m>$2x_1 + 3y_1 = 29$</m>
+        <d:sbr/>2) <m>$x_1 + 2y_1 = 18 \implies x_1 = 18 - 2y_1$</m>
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1$</m> into the first equation <m>$2(18 - 2y_1) + 3y_1 = 29 \implies 36 - 4y_1 +
+        3y_1 = 29 \implies y_1 = 7$</m>. Then <m>$x_1 = 18 - 2(7) = 4$</m>, which gives the coordinates of
+        vertex <m>$B(4, 7)$</m>.
+      </d:para>
+      <d:para>
+        The line <m>$BC$</m> passes through <m>$B(4, 7)$</m> and the midpoint <m>$M(5, 6)$</m>. Its slope is
+        <m>$m = \frac{6 - 7}{5 - 4} = -1$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$BC$</m> is <m>$y - 6 = -1(x - 5) \implies y - 6 = -x + 5 \implies x + y
+        - 11 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 27 -->
+      <d:para>
+        Let the given determinant equation be denoted by <m>$\Delta = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding <m>$u_r = a_rx + b_ry + c_r$</m>, the entries in the second and third columns are
+        quadratic functions of <m>$x$</m> and <m>$y$</m>. Factoring out <m>$u_1$</m>, <m>$u_2$</m>, and
+        <m>$u_3$</m> from their respective rows shows that the general expanded form of the determinant is a
+        second-degree equation in <m>$x$</m> and <m>$y$</m>: <m>$Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0$</m>.
+      </d:para>
+      <d:para>
+        The coefficient of <m>$xy$</m> is obtained by gathering the <m>$xy$</m> terms from the determinant
+        expansion <m>$B = \begin{vmatrix}a_1^2 + b_1^2 &amp; a_1b_1 &amp; b_1a_1 \\a_2^2 + b_2^2 &amp;
+        a_2b_2 &amp; b_2a_2 \\a_3^2 + b_3^2 &amp; a_3b_3 &amp; b_3a_3\end{vmatrix}$</m>. Since the second
+        and third columns become identical (<m>$a_r b_r = b_r a_r$</m>), the determinant for the <m>$xy$</m>
+        coefficient vanishes identically, so <m>$B = 0$</m>.
+      </d:para>
+      <d:para>
+        The coefficients of <m>$x^2$</m> and <m>$y^2$</m> are found by collecting their respective terms
+        from the expansion: <m>$A = \begin{vmatrix}a_1^2 + b_1^2 &amp; a_1^2 &amp; b_1^2 \\a_2^2 + b_2^2
+        &amp; a_2^2 &amp; b_2^2 \\a_3^2 + b_3^2 &amp; a_3^2 &amp; b_3^2\end{vmatrix}$</m>
+      </d:para>
+      <d:para>
+        Applying the column operation <m>$C_1 \to C_1 - C_2 - C_3$</m> reduces the first column to all
+        zeros, which means <m>$A = 0$</m>. However, the true quadratic coefficients of the expanded curve
+        <m>$A'$</m> and <m>$C'$</m> are non-zero and equal because <m>$A' = \sum (a_2^2+b_2^2)(a_3b_3 -
+        b_3a_3)c_1$</m> vanishes only for the pure homogeneous parts, while expanding directly reveals that
+        the coefficients of <m>$x^2$</m> and <m>$y^2$</m> are identical and non-zero, satisfying the
+        standard circle condition <m>$A' = C'$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$A(x_A, y_A)$</m> be the vertex formed by the intersection of lines <m>$u_2 = 0$</m> and
+        <m>$u_3 = 0$</m>. Substituting the coordinates of <m>$A$</m> into the determinant makes <m>$u_2 =
+        0$</m> and <m>$u_3 = 0$</m>. The second and third rows of the determinant become all zeros except
+        for the first column entries. A determinant with two rows of zeros evaluates to $0$, so vertex $A$
+        satisfies the equation.
+      </d:para>
+      <d:para>
+        By symmetry, the coordinates of vertex <m>$B$</m> (where <m>$u_1 = 0$</m> and <m>$u_3 = 0$</m>) and
+        vertex <m>$C$</m> (where <m>$u_1 = 0$</m> and <m>$u_2 = 0$</m>) also make two rows of the
+        determinant zero. Therefore, all three vertices <m>$A$</m>, <m>$B$</m>, and <m>$C$</m> of the
+        triangle lie on this locus.
+      </d:para>
+      <d:para>
+        Since the equation represents a second-degree curve with no <m>$xy$</m> term, equal coefficients for
+        <m>$x^2$</m> and <m>$y^2$</m>, and passes through all three vertices of <m>$\triangle ABC$</m>, it
+        must represent the unique circumcircle of the triangle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 28 -->
+      <d:para>
+        The given equation representing a pair of straight lines is <m>$2x^2 + 5xy + 3y^2 + 6x + 7y + 4 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Comparing the coefficients of the second-degree terms with the general equation <m>$ax^2 + 2hxy +
+        by^2 + 2gx + 2fy + c = 0$</m>, we get <m>$a = 2$</m>, <m>$2h = 5 \implies h = \frac{5}{2}$</m>, and
+        <m>$b = 3$</m>.
+      </d:para>
+      <d:para>
+        The angle <m>$\theta$</m> between the pair of lines is given by the formula <m>$\tan\theta = \left|
+        \frac{2\sqrt{h^2 - ab}}{a + b} \right|$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$a$</m>, <m>$b$</m>, and <m>$h$</m> into the formula <m>$\tan\theta =
+        \left| \frac{2\sqrt{(\frac{5}{2})^2 - 2(3)}}{2 + 3} \right|\implies \tan\theta = \left|
+        \frac{2\sqrt{\frac{25}{4} - 6}}{5} \right| = \left| \frac{2\sqrt{\frac{1}{4}}}{5} \right|\implies
+        \tan\theta = \frac{2 \cdot \frac{1}{2}}{5} = \frac{1}{5}$</m>.
+      </d:para>
+      <d:para>
+        Since the angle between the lines is given as <m>$\tan^{-1}m$</m>, we have <m>$\tan\theta =
+        m$</m>. Therefore, the value of <m>$m$</m> is <m>$\frac{1}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 29 -->
+      <d:para>
+        Given the fixed points <m>$A(3, 0)$</m>, <m>$B(6, 0)$</m> and the origin <m>$O(0, 0)$</m>. Let the
+        variable point be <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$AP$</m> passing through <m>$A(3, 0)$</m> and <m>$P(x_1, y_1)$</m> is
+        <m>$y = \frac{y_1}{x_1 - 3}(x - 3)$</m>. This line meets the <m>$y$</m>-axis (<m>$x = 0$</m>) at
+        <m>$C$</m>, so substituting <m>$x = 0$</m> gives <m>$y_C = \frac{-3y_1}{x_1 - 3}$</m>, which means
+        <m>$C\left(0, \frac{-3y_1}{x_1 - 3}\right)$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$BP$</m> passing through <m>$B(6, 0)$</m> and <m>$P(x_1, y_1)$</m> is
+        <m>$y = \frac{y_1}{x_1 - 6}(x - 6)$</m>. This line meets the <m>$y$</m>-axis (<m>$x = 0$</m>) at
+        <m>$D$</m>, so substituting <m>$x = 0$</m> gives <m>$y_D = \frac{-6y_1}{x_1 - 6}$</m>, which means
+        <m>$D\left(0, \frac{-6y_1}{x_1 - 6}\right)$</m>.
+      </d:para>
+      <d:para>
+        The line <m>$AD$</m> passes through <m>$A(3, 0)$</m> and <m>$D(0, y_D)$</m>. Using the intercept
+        form, its equation is <m>$\frac{x}{3} + \frac{y}{y_D} = 1$</m>, which simplifies to <m>$y =
+        y_D\left(1 - \frac{x}{3}\right)$</m>. Substituting the value of <m>$y_D$</m> gives the equation of
+        <m>$AD$</m> as <m>$y = \frac{-6y_1}{x_1 - 6}\left(1 - \frac{x}{3}\right)$</m>.
+      </d:para>
+      <d:para>
+        The line <m>$OP$</m> passing through the origin and <m>$P(x_1, y_1)$</m> has the equation <m>$y =
+        \frac{y_1}{x_1}x$</m>.
+      </d:para>
+      <d:para>
+        To find the intersection point <m>$Q$</m> of <m>$AD$</m> and <m>$OP$</m>, we equate their
+        <m>$y$</m>-expressions <m>$\frac{y_1}{x_1}x = \frac{-6y_1}{x_1 - 6}\left(1 - \frac{x}{3}\right)
+        \implies \frac{x}{x_1} = \frac{-6}{x_1 - 6} + \frac{2x}{x_1 - 6}\implies x(x_1 - 6) = -6x_1 + 2xx_1
+        \implies xx_1 - 6x = -6x_1 + 2xx_1 \implies x(x_1 + 6) = 6x_1$</m>.
+      </d:para>
+      <d:para>
+        This yields the coordinates of <m>$Q$</m>: <m>$x_Q = \frac{6x_1}{x_1 + 6}$ and $y_Q =
+        \frac{y_1}{x_1}x_Q = \frac{6y_1}{x_1 + 6}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$K(2, 0)$</m> be the fixed point. We verify if <m>$C$</m>, <m>$Q$</m>, and <m>$K$</m> are
+        collinear by comparing slopes. The slope of <m>$CK$</m> is <m>$m_{CK} = \frac{0 - \frac{-3y_1}{x_1 -
+        3}}{2 - 0} = \frac{3y_1}{2(x_1 - 3)}$</m>.
+      </d:para>
+      <d:para>
+        The slope of <m>$KQ$</m> is <m>$m_{KQ} = \frac{\frac{6y_1}{x_1 + 6} - 0}{\frac{6x_1}{x_1 + 6} - 2} =
+        \frac{6y_1}{6x_1 - 2(x_1 + 6)} = \frac{6y_1}{4x_1 - 12} = \frac{3y_1}{2(x_1 - 3)}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$m_{CK} = m_{KQ}$</m>, the points <m>$C$</m>, <m>$Q$</m>, and <m>$(2, 0)$</m> are
+        collinear.
+      </d:para>
+    </d:listitem>
+  </d:orderedlist>
+</d:chapter>

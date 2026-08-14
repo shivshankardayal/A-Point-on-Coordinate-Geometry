@@ -9041,5 +9041,766 @@
         y_1)$</m> with <m>$(x, y)$</m> gives the locus of the midpoints as <m>$y^2(x - a) = x^3$</m>.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 282 -->
+      <d:para>
+        The locus of the point <m>$P$</m> is proved to be the ellipse <m>$b^4x^2 + a^4y^2 = a^2b^2(b^2 -
+        a^2)$</m> by using the method of homogenization.
+      </d:para>
+      <d:para>
+        Let the coordinates of the point <m>$P$</m> be <m>$(h, k)$</m>. The given equation of the hyperbola
+        is <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. The equation of the chord of contact of tangents
+        drawn from <m>$P(h, k)$</m> to the hyperbola is given by the formula <m>$T = 0$</m>, which yields
+        <m>$\frac{hx}{a^2} - \frac{ky}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        The chord of contact intersects the hyperbola at two points, say <m>$A$</m> and <m>$B$</m>. To find
+        the combined equation of the lines <m>$OA$</m> and <m>$OB$</m> joining the center <m>$O(0, 0)$</m>
+        to the points of intersection <m>$A$</m> and <m>$B$</m>, we homogenize the equation of the hyperbola
+        with the help of the linear equation of the chord of contact. This gives the expression
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = (\frac{hx}{a^2} - \frac{ky}{b^2})^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the right side yields <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = \frac{h^2x^2}{a^4} +
+        \frac{k^2y^2}{b^4} - \frac{2hkxy}{a^2b^2}$</m>. Grouping all the terms onto the left side to express
+        it in the standard form of a pair of straight lines passing through the origin gives <m>$x^2 (
+        \frac{1}{a^2} - \frac{h^2}{a^4} ) + \frac{2hkxy}{a^2b^2} - y^2 ( \frac{1}{b^2} + \frac{k^2}{b^4} ) =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Since the lines <m>$OA$</m> and <m>$OB$</m> subtend a right angle at the center <m>$O(0, 0)$</m>,
+        they are perpendicular to each other. The condition for two lines represented by a homogenous
+        second-degree equation to be perpendicular is that the sum of the coefficients of <m>$x^2$</m> and
+        <m>$y^2$</m> must equal zero. Therefore, we write <m>$( \frac{1}{a^2} - \frac{h^2}{a^4} ) - (
+        \frac{1}{b^2} + \frac{k^2}{b^4} ) = 0$</m>, which simplifies to <m>$\frac{1}{a^2} - \frac{h^2}{a^4}
+        - \frac{1}{b^2} - \frac{k^2}{b^4} = 0$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms gives <m>$\frac{h^2}{a^4} + \frac{k^2}{b^4} = \frac{1}{a^2} -
+        \frac{1}{b^2}$</m>, which can be written with a common denominator as <m>$\frac{h^2}{a^4} +
+        \frac{k^2}{b^4} = \frac{b^2 - a^2}{a^2b^2}$</m>. To eliminate the fractions, we multiply the entire
+        equation by <m>$a^4b^4$</m> to obtain <m>$b^4h^2 + a^4k^2 = a^4b^4 \cdot \frac{b^2 - a^2}{a^2b^2}$,
+        which reduces to $b^4h^2 + a^4k^2 = a^2b^2(b^2 - a^2)$</m>.
+      </d:para>
+      <d:para>
+        Replacing the coordinates <m>$(h, k)$</m> with variables <m>$(x, y)$</m> gives the locus of point
+        <m>$P$</m> as <m>$b^4x^2 + a^4y^2 = a^2b^2(b^2 - a^2)$</m>. This completes the proof that the locus
+        of <m>$P$</m> is the given ellipse.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 283 -->
+      <d:para>
+        Let the midpoint be <m>$M(h, k)$</m>. The equation of the chord of the hyperbola <m>$\frac{x^2}{a^2}
+        - \frac{y^2}{b^2} = 1$</m> bisected at <m>$(h, k)$</m> is <m>$\frac{xh}{a^2} - \frac{yk}{b^2} =
+        \frac{h^2}{a^2} - \frac{k^2}{b^2}$</m>.
+      </d:para>
+      <d:para>
+        If this chord is the chord of contact from <m>$P(x_1, y_1)$</m> on the circle <m>$x^2 + y^2 =
+        c^2$</m>, its equation is <m>$\frac{xx_1}{a^2} - \frac{yy_1}{b^2} = 1$</m>.
+      </d:para>
+      <d:para>
+        Comparing the coefficients of these identical lines gives <m>$\frac{x_1}{h} = \frac{y_1}{k} =
+        \frac{1}{\frac{h^2}{a^2} - \frac{k^2}{b^2}}$</m>.
+      </d:para>
+      <d:para>
+        Solving for the coordinates of <m>$P$</m> yields <m>$x_1 = \frac{h}{\frac{h^2}{a^2} -
+        \frac{k^2}{b^2}}$ and $y_1 = \frac{k}{\frac{h^2}{a^2} - \frac{k^2}{b^2}}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1$</m> and <m>$y_1$</m> into the circle equation <m>$x_1^2 + y_1^2 = c^2$</m>
+        gives <m>$\left(\frac{h}{\frac{h^2}{a^2} - \frac{k^2}{b^2}}\right)^2 + \left(\frac{k}{\frac{h^2}{a^2} -
+        \frac{k^2}{b^2}}\right)^2 = c^2$</m>.
+      </d:para>
+      <d:para>
+        Simplifying this relation results in <m>$\frac{h^2 + k^2}{\left(\frac{h^2}{a^2} - \frac{k^2}{b^2}\right)^2} =
+        c^2$</m>, which rearranges to <m>$\left(\frac{h^2}{a^2} - \frac{k^2}{b^2}\right)^2 = \frac{h^2 +
+        k^2}{c^2}$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with <m>$(x, y)$</m> gives the required locus <m>$\left(\frac{x^2}{a^2} -
+        \frac{y^2}{b^2}\right)^2 = \frac{x^2 + y^2}{c^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 284 -->
+      <d:para>
+        Let the midpoint of the chord be <m>$(h, k)$</m>. The equation of a chord of the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> with a given midpoint <m>$(h, k)$</m> is given by
+        <m>$T = S_1$</m>.
+      </d:para>
+      <d:para>
+        This expands to <m>$\frac{xh}{a^2} - \frac{yk}{b^2} = \frac{h^2}{a^2} - \frac{k^2}{b^2}$</m>.
+      </d:para>
+      <d:para>
+        Since the chord passes through the fixed point <m>$(\alpha, \beta)$</m>, this point must satisfy the
+        equation. Substituting <m>$x = \alpha$</m> and <m>$y = \beta$</m> gives <m>$\frac{\alpha h}{a^2} -
+        \frac{\beta k}{b^2} = \frac{h^2}{a^2} - \frac{k^2}{b^2}$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with <m>$(x, y)$</m> to find the locus yields <m>$\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} - \frac{\alpha x}{a^2} + \frac{\beta y}{b^2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Completing the squares for the <m>$x$</m> and <m>$y$</m> terms gives <m>$\frac{1}{a^2}\left(x -
+        \frac{\alpha}{2}\right)^2 - \frac{1}{b^2}\left(y - \frac{\beta}{2}\right)^2 = \frac{\alpha^2}{4a^2}
+        - \frac{\beta^2}{4b^2}$</m>.
+      </d:para>
+      <d:para>
+        The center of this new hyperbola is <m>$\left(\frac{\alpha}{2}, \frac{\beta}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        The asymptotes of this locus are parallel to the asymptotes of the original hyperbola because the
+        coefficients of the squared terms maintain the same ratio in magnitude. Consequently, the
+        eccentricity and shape match the original system. If the constant on the right side is positive, the
+        hyperbola is similar to the given hyperbola. If the constant on the right side is negative, the
+        hyperbola is similar to its conjugate.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 285 -->
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be any point on the hyperbola <m>$x^2 - y^2 = a^2 + b^2$</m>, so <m>$x_1^2
+        - y_1^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        The equation of the pair of tangents from $P$ to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2}
+        = 1$</m> is given by <m>$SS_1 = T^2$</m>. This expands to <m>$\left(\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} - 1\right)\left(\frac{x_1^2}{a^2} - \frac{y_1^2}{b^2} - 1\right) =
+        \left(\frac{xx_1}{a^2} - \frac{yy_1}{b^2} - 1\right)^2$</m>.
+      </d:para>
+      <d:para>
+        To find the points <m>$A$</m> and <m>$B$</m> where the tangents intersect the <m>$x$</m>-axis, we
+        substitute <m>$y = 0$</m>. The equation simplifies to <m>$x^2\left(1 + \frac{y_1^2}{b^2}\right) -
+        2x_1 x + a^2\left(\frac{x_1^2}{a^2} - \frac{y_1^2}{b^2}\right) = 0$</m>. The product of the
+        x-coordinates of these intersection points is <m>$x_A x_B = \frac{b^2 x_1^2 - a^2 y_1^2}{b^2 +
+        y_1^2}$</m>.
+      </d:para>
+      <d:para>
+        To find the points <m>$C$</m> and <m>$D$</m> where the tangents intersect the y-axis, we substitute
+        <m>$x = 0$</m>. The equation simplifies to <m>$y^2\left(\frac{x_1^2}{a^2} - 1\right) + 2y_1 y +
+        b^2\left(\frac{x_1^2}{a^2} - \frac{y_1^2}{b^2}\right) = 0$</m>. The product of the
+        <m>$y$</m>-coordinates of these intersection points is <m>$y_C y_D = \frac{b^2 x_1^2 - a^2
+        y_1^2}{x_1^2 - a^2}$</m>.
+      </d:para>
+      <d:para>
+        For the four intersection points to be concyclic, the condition <m>$x_A x_B = y_C y_D$</m> must be
+        satisfied. Equating the two products gives <m>$\frac{b^2 x_1^2 - a^2 y_1^2}{b^2 + y_1^2} = \frac{b^2
+        x_1^2 - a^2 y_1^2}{x_1^2 - a^2}$</m>. This requires the denominators to be equal, meaning <m>$b^2 +
+        y_1^2 = x_1^2 - a^2$</m>. Rearranging this condition yields <m>$x_1^2 - y_1^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P(x_1, y_1)$</m> lies on the given hyperbola, this relation holds true, proving the points
+        are concyclic.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 286 -->
+      <d:para>
+        Let the equation of the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. The equation of
+        its conjugate hyperbola is <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = -1$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be a point on the conjugate hyperbola, so <m>$\frac{x_1^2}{a^2} -
+        \frac{y_1^2}{b^2} = -1$</m>. The equation of the tangent to the conjugate hyperbola at <m>$P$</m> is
+        given by <m>$T = 0$</m>, which is <m>$\frac{xx_1}{a^2} - \frac{yy_1}{b^2} = -1$</m>. This line acts
+        as a chord for the original hyperbola.
+      </d:para>
+      <d:para>
+        Let <m>$M(h, k)$</m> be the midpoint of this chord with respect to the original hyperbola. The
+        equation of a chord of the original hyperbola with a given midpoint <m>$M(h, k)$ is $T =
+        S_1$</m>. This expands to <m>$\frac{xh}{a^2} - \frac{yk}{b^2} = \frac{h^2}{a^2} -
+        \frac{k^2}{b^2}$</m>.
+      </d:para>
+      <d:para>
+        Since both equations represent the exact same line, we compare their coefficients. Comparing the
+        coefficients of <m>$x$</m>, <m>$y$</m>, and the constant terms gives <m>$\frac{x_1}{h} =
+        \frac{y_1}{k} = \frac{-1}{\frac{h^2}{a^2} - \frac{k^2}{b^2}}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\lambda = \frac{-1}{\frac{h^2}{a^2} - \frac{k^2}{b^2}}$</m>, which gives <m>$x_1 = \lambda
+        h$</m> and <m>$y_1 = \lambda k$</m>. Substituting <m>$x_1$</m> and <m>$y_1$</m> into the equation of
+        the conjugate hyperbola yields <m>$\frac{\lambda^2 h^2}{a^2} - \frac{\lambda^2 k^2}{b^2} =
+        -1$</m>. This simplifies to <m>$\lambda^2 \left( \frac{h^2}{a^2} - \frac{k^2}{b^2} \right) =
+        -1$</m>.
+      </d:para>
+      <d:para>
+        Substituting the definition of <m>$\lambda$</m> gives <m>$\left[ \frac{-1}{\frac{h^2}{a^2} -
+        \frac{k^2}{b^2}} \right]^2 \left( \frac{h^2}{a^2} - \frac{k^2}{b^2} \right) = -1$</m>. This reduces
+        to <m>$\frac{1}{\frac{h^2}{a^2} - \frac{k^2}{b^2}} = -1$</m>, which implies <m>$\frac{h^2}{a^2} -
+        \frac{k^2}{b^2} = -1$</m>.
+      </d:para>
+      <d:para>
+        Using this value, the scale factor becomes <m>$\lambda = \frac{-1}{-1} = 1$</m>. Therefore, <m>$x_1
+        = h$</m> and <m>$y_1 = k$</m>, meaning the point of contact <m>$P(x_1, y_1)$</m> is identical to the
+        midpoint <m>$M(h, k)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 287 -->
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be a point on the hyperbola <m>$\frac{x^2}{24} - \frac{y^2}{18} =
+        1$</m>. The tangent to the hyperbola at <m>$P$</m> must be parallel to the given line <m>$3x + 2y +
+        1 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of the tangent at <m>$P(x_1, y_1)$</m> is <m>$\frac{xx_1}{24} - \frac{yy_1}{18} =
+        1$</m>. Rearranging this into slope-intercept form gives <m>$y = \frac{18x_1}{24y_1}x -
+        \frac{18}{y_1}$</m>, so the slope of the tangent is <m>$\frac{3x_1}{4y_1}$</m>.
+      </d:para>
+      <d:para>
+        The slope of the given line <m>$3x + 2y + 1 = 0$</m> is <m>$-\frac{3}{2}$</m>. Equating the two
+        slopes yields <m>$\frac{3x_1}{4y_1} = -\frac{3}{2}$</m>, which simplifies to <m>$x_1 = -2y_1$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P(x_1, y_1)$</m> lies on the hyperbola, substituting <m>$x_1 = -2y_1$</m> into the
+        hyperbola's equation gives <m>$\frac{(-2y_1)^2}{24} - \frac{y_1^2}{18} = 1$</m>. This simplifies to
+        <m>$\frac{4y_1^2}{24} - \frac{y_1^2}{18} = 1$</m>, which becomes <m>$\frac{y_1^2}{6} -
+        \frac{y_1^2}{18} = 1$</m>. Combining the terms gives <m>$\frac{2y_1^2}{18} = 1$</m>, which
+        simplifies to <m>$y_1^2 = 9$</m>. This yields two possible values <m>$y_1 = 3$ or $y_1 = -3$</m>.
+      </d:para>
+      <d:para>
+        If <m>$y_1 = 3$</m>, then <m>$x_1 = -2(3) = -6$</m>, giving the point <m>$P_1(-6, 3)$</m>. If
+        <m>$y_1 = -3$</m>, then <m>$x_1 = -2(-3) = 6$</m>, giving the point <m>$P_2(6, -3)$</m>.
+      </d:para>
+      <d:para>
+        The perpendicular distance from any point <m>$(x_0, y_0)$</m> to the line <m>$3x + 2y + 1 = 0$</m>
+        is given by <m>$d = \frac{|3x_0 + 2y_0 + 1|}{\sqrt{3^2 + 2^2}} = \frac{|3x_0 + 2y_0 +
+        1|}{\sqrt{13}}$</m>.
+      </d:para>
+      <d:para>
+        For <m>$P_1(-6, 3)$</m>, the distance is <m>$d_1 = \frac{|3(-6) + 2(3) + 1|}{\sqrt{13}} = \frac{|-18
+        + 6 + 1|}{\sqrt{13}} = \frac{11}{\sqrt{13}}$</m>. For <m>$P_2(6, -3)$</m>, the distance is <m>$d_2 =
+        \frac{|3(6) + 2(-3) + 1|}{\sqrt{13}} = \frac{|18 - 6 + 1|}{\sqrt{13}} = \frac{13}{\sqrt{13}} =
+        \sqrt{13}$</m>.
+      </d:para>
+      <d:para>
+        Comparing the two distances, <m>$\frac{11}{\sqrt{13}} &lt; \sqrt{13}$</m> since <m>$11 &lt;
+        13$</m>. Therefore, the point on the hyperbola nearest to the line is <m>$(-6, 3)$</m> and the
+        minimum distance is <m>$\frac{11}{\sqrt{13}}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 288 -->
+      <d:para>
+        The given hyperbola is <m>$xy = 27$</m>. The given line is <m>$4x - 3y = 7$</m>, which has a slope
+        of <m>$m_1 = \frac{4}{3}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$m$</m> be the slope of the required tangents. Since the tangents are perpendicular to the
+        given line, <m>$m \cdot m_1 = -1$</m>, which gives <m>$m = -\frac{3}{4}$</m>.
+      </d:para>
+      <d:para>
+        Let the equation of the tangent be <m>$y = mx + c$</m>, which becomes <m>$y = -\frac{3}{4}x +
+        c$</m>. Rearranging for <m>$y$</m> gives <m>$y = \frac{-3x + 4c}{4}$</m>.
+      </d:para>
+      <d:para>
+        Substituting this into the hyperbola equation <m>$xy = 27$</m> yields <m>$x\left(\frac{-3x +
+        4c}{4}\right) = 27$</m>. This expands to <m>$-3x^2 + 4cx = 108$</m>, or <m>$3x^2 - 4cx + 108 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        For the line to be a tangent, the discriminant of this quadratic equation must be zero (<m>$D =
+        0$</m>). This gives <m>$(-4c)^2 - 4(3)(108) = 0$</m>. Simplifying yields <m>$16c^2 - 1296 = 0$</m>,
+        so <m>$c^2 = 81$</m>, which gives <m>$c = \pm 9$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values of <m>$c$</m> back into the tangent equation gives <m>$y = -\frac{3}{4}x \pm
+        9$</m>. Multiplying by <m>$4$</m> to clear denominators yields <m>$4y = -3x \pm 36$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equations of the two tangents are <m>$3x + 4y - 36 = 0$</m> and <m>$3x + 4y + 36 =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 289 -->
+      <d:para>
+        Let the rectangular hyperbola be <m>$xy = c^2$</m>. Let the vertices of the circumscribed triangle
+        be <m>$A\left(ct_1, \frac{c}{t_1}\right)$</m>, <m>$B\left(ct_2, \frac{c}{t_2}\right)$</m>, and
+        <m>$C\left(ct_3, \frac{c}{t_3}\right)$</m>.
+      </d:para>
+      <d:para>
+        The slope of the side <m>$BC$</m> is given by <m>$m_{BC} = \frac{\frac{c}{t_3} - \frac{c}{t_2}}{ct_3
+        - ct_2} = -\frac{1}{t_2 t_3}$</m>. The altitude from <m>$A$</m> to <m>$BC$</m> is perpendicular to
+        <m>$BC$</m>, so its slope is <m>$m_A = t_2 t_3$</m>. The equation of this altitude is <m>$y -
+        \frac{c}{t_1} = t_2 t_3 (x - ct_1)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the slope of the side <m>$AC$</m> is <m>$-\frac{1}{t_1 t_3}$</m>, so the slope of the
+        altitude from <m>$B$</m> is <m>$m_B = t_1 t_3$</m>. The equation of the altitude from <m>$B$</m> is
+        <m>$y - \frac{c}{t_2} = t_1 t_3 (x - ct_2)$</m>.
+      </d:para>
+      <d:para>
+        To find the orthocenter, we solve these two altitude equations. Subtracting the second equation from
+        the first yields <m>$\frac{c}{t_2} - \frac{c}{t_1} = t_3(t_2 - t_1)x$</m>, which simplifies to <m>$x
+        = -\frac{c}{t_1 t_2 t_3}$</m>. Substituting this back into the first altitude equation gives <m>$y =
+        -c t_1 t_2 t_3$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the orthocenter are <m>$\left(-\frac{c}{t_1 t_2 t_3}, -c t_1 t_2
+        t_3\right)$</m>. Multiplying the <m>$x$</m> and <m>$y$</m> coordinates gives <m>$\left(-\frac{c}{t_1
+        t_2 t_3}\right) \left(-c t_1 t_2 t_3\right) = c^2$</m>. Since the product satisfies <m>$xy =
+        c^2$</m>, the orthocenter lies on the rectangular hyperbola.
+      </d:para>
+      <d:para>
+        For the second problem, we find the intersection points of the line <m>$3x - 5y = 2$</m> and the
+        hyperbola <m>$xy = 24$</m>. Expressing <m>$y$</m> from the line equation gives <m>$y = \frac{3x -
+        2}{5}$</m>. Substituting this into the hyperbola equation yields <m>$x\left(\frac{3x - 2}{5}\right)
+        = 24$</m>.
+      </d:para>
+      <d:para>
+        This expands to <m>$3x^2 - 2x - 120 = 0$</m>. Factoring this quadratic equation gives <m>$(x + 6)(3x
+        - 20) = 0$</m>, which yields <m>$x = -6$</m> or <m>$x = \frac{20}{3}$</m>.
+      </d:para>
+      <d:para>
+        If <m>$x = -6$</m>, substituting into <m>$xy = 24$</m> gives <m>$y = -4$</m>, forming the point
+        <m>$P_1(-6, -4)$</m>. If <m>$x = \frac{20}{3}$</m>, substituting into <m>$xy = 24$</m> gives <m>$y =
+        \frac{18}{5}$</m>, forming the point <m>$P_2\left(\frac{20}{3}, \frac{18}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        The distance from <m>$A(4, 2)$</m> to <m>$P_1(-6, -4)$</m> is <m>$\sqrt{(-6 - 4)^2 + (-4 - 2)^2} =
+        \sqrt{100 + 36} = 2\sqrt{34}$</m>. The distance from <m>$A(4, 2)$</m> to <m>$P_2\left(\frac{20}{3},
+        \frac{18}{5}\right)$</m> is <d:sbr/><m>$\sqrt{\left(\frac{20}{3} - 4\right)^2 + \left(\frac{18}{5} -
+        2\right)^2} = \sqrt{\left(\frac{8}{3}\right)^2 + \left(\frac{8}{5}\right)^2} =
+        \frac{8\sqrt{34}}{15}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 290 -->
+      <d:para>
+        Let any point on the rectangular hyperbola <m>$xy = c^2$</m> be represented parametrically as
+        <m>$P_i\left(ct_i, \frac{c}{t_i}\right)$</m> for <m>$i = 1, 2, 3, 4$</m>.
+      </d:para>
+      <d:para>
+        Differentiating <m>$xy = c^2$</m> gives <m>$y + x\frac{dy}{dx} = 0$</m>, so the slope of the tangent
+        is <m>$\frac{dy}{dx} = -\frac{y}{x} = -\frac{1}{t^2}$</m>. The slope of the normal at parameter
+        <m>$t$</m> is the negative reciprocal of the tangent slope, which is <m>$t^2$</m>. The equation of
+        the normal at the point <m>$\left(ct, \frac{c}{t}\right)$</m> is <m>$y - \frac{c}{t} = t^2(x -
+        ct)$</m>. Multiplying by <m>$t$</m> gives <m>$ty - c = t^3x - ct^4$</m>, which rearranges to
+        <m>$ct^4 - xt^3 + yt - c = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the normals from the four points meet at the fixed point <m>$Q(h, k)$</m>, this point must
+        satisfy the normal equation. Substituting <m>$x = h$</m> and <m>$y = k$</m> yields the fourth-degree
+        polynomial equation in <m>$t$</m>: <m>$ct^4 - ht^3 + kt - c = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$t_1, t_2, t_3, t_4$</m> be the four roots of this equation, corresponding to the four points
+        <m>$P_1, P_2, P_3, P_4$</m>. Using Vieta's formulas for this quartic equation: <m>$\sum t_1 = t_1 +
+        t_2 + t_3 + t_4 = \frac{h}{c}$</m>, <m>$\sum t_1 t_2 = t_1 t_2 + t_1 t_3 + t_1 t_4 + t_2 t_3 + t_2
+        t_4 + t_3 t_4 = 0$</m>, <m>$\sum t_1 t_2 t_3 = t_1 t_2 t_3 + t_1 t_2 t_4 + t_1 t_3 t_4 + t_2 t_3 t_4
+        = -\frac{k}{c}$</m>, and <m>$t_1 t_2 t_3 t_4 = \frac{-c}{c} = -1$</m>.
+      </d:para>
+      <d:para>
+        Proof of (i): The sum of the <m>$x$</m>-coordinates of the four points is: <m>$x_1 + x_2 + x_3 + x_4 = ct_1 +
+        ct_2 + ct_3 + ct_4 = c(t_1 + t_2 + t_3 + t_4)$</m>. Substituting <m>$\sum t_1 = \frac{h}{c}$</m>
+        gives: <m>$x_1 + x_2 + x_3 + x_4 = c\left(\frac{h}{c}\right) = h$</m>.
+      </d:para>
+      <d:para>
+        Proof of (ii): The sum of the <m>$y$</m>-coordinates of the four points is: <m>$y_1 + y_2 + y_3 +
+        y_4 = \frac{c}{t_1} + \frac{c}{t_2} + \frac{c}{t_3} + \frac{c}{t_4} = c\left(\frac{t_2 t_3 t_4 + t_1
+        t_3 t_4 + t_1 t_2 t_4 + t_1 t_2 t_3}{t_1 t_2 t_3 t_4}\right)$</m>. Substituting <m>$\sum t_1 t_2 t_3
+        = -\frac{k}{c}$</m> and <m>$t_1 t_2 t_3 t_4 = -1$</m> gives: <m>$y_1 + y_2 + y_3 + y_4 =
+        c\left(\frac{-k/c}{-1}\right) = k$</m>.
+      </d:para>
+      <d:para>
+        Proof of (iii): The product of the <m>$x$</m>-coordinates is: <m>$x_1 x_2 x_3 x_4 =
+        (ct_1)(ct_2)(ct_3)(ct_4) = c^4(t_1 t_2 t_3 t_4)$</m>. Substituting <m>$t_1 t_2 t_3 t_4 = -1$</m>
+        gives: <m>$x_1 x_2 x_3 x_4 = c^4(-1) = -c^4$</m>.
+      </d:para>
+      <d:para>
+        The product of the <m>$y$</m>-coordinates is: <m>$y_1 y_2 y_3 y_4 =
+        \left(\frac{c}{t_1}\right)\left(\frac{c}{t_2}\right)\left(\frac{c}{t_3}\right)\left(\frac{c}{t_4}\right)
+        = \frac{c^4}{t_1 t_2 t_3 t_4}$</m>. Substituting <m>$t_1 t_2 t_3 t_4 = -1$</m> gives: <m>$y_1 y_2
+        y_3 y_4 = \frac{c^4}{-1} = -c^4$</m>. Therefore, <m>$x_1 x_2 x_3 x_4 = y_1 y_2 y_3 y_4 = -c^4$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 291 -->
+      <d:para>
+        Let the equation of the rectangular hyperbola be <m>$xy = c^2$</m>.
+      </d:para>
+      <d:para>
+        Let the three vertices of the circumscribed triangle be <m>$A\left(ct_1, \frac{c}{t_1}\right)$</m>,
+        <m>$B\left(ct_2, \frac{c}{t_2}\right)$</m>, and <m>$C\left(ct_3, \frac{c}{t_3}\right)$</m>.
+      </d:para>
+      <d:para>
+        The slope of the side <m>$BC$</m> is given by <m>$m_{BC} = \frac{\frac{c}{t_3} - \frac{c}{t_2}}{ct_3
+        - ct_2} = \frac{c(t_2 - t_3)}{t_2 t_3 \cdot c(t_3 - ct_2)} = -\frac{1}{t_2 t_3}$</m>. The altitude
+        from vertex <m>$A$</m> to the opposite side <m>$BC$</m> is perpendicular to <m>$BC$</m>, so its
+        slope is <m>$m_A = -\frac{1}{m_{BC}} = t_2 t_3$</m>. The equation of the altitude from <m>$A$</m> is
+        <m>$y - \frac{c}{t_1} = t_2 t_3 (x - ct_1)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the slope of the side <m>$AC$</m> is <m>$-\frac{1}{t_1 t_3}$</m>, which means the slope
+        of the altitude from vertex <m>$B$</m> is <m>$m_B = t_1 t_3$</m>. The equation of the altitude from
+        <m>$B$</m> is <m>$y - \frac{c}{t_2} = t_1 t_3 (x - ct_2)$</m>.
+      </d:para>
+      <d:para>
+        To find the coordinates of the orthocenter, we solve these two altitude equations
+        simultaneously. Subtracting the second altitude equation from the first yields <m>$\frac{c}{t_2} -
+        \frac{c}{t_1} = t_2 t_3 x - c t_1 t_2 t_3 - t_1 t_3 x + c t_1 t_2 t_3$</m>. This simplifies to
+        <m>$\frac{c(t_1 - t_2)}{t_1 t_2} = t_3(t_2 - t_1)x$</m>. Solving for <m>$x$</m> gives <m>$x =
+        -\frac{c}{t_1 t_2 t_3}$</m>.
+      </d:para>
+      <d:para>
+        Substituting this value of <m>$x$</m> back into the first altitude equation gives <m>$y -
+        \frac{c}{t_1} = t_2 t_3 \left(-\frac{c}{t_1 t_2 t_3} - ct_1\right)$</m>. This expands to <m>$y -
+        \frac{c}{t_1} = -\frac{c}{t_1} - c t_1 t_2 t_3$</m>, which simplifies to <m>$y = -c t_1 t_2
+        t_3$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the orthocenter of the triangle are <m>$\left(-\frac{c}{t_1 t_2 t_3}, -c t_1 t_2
+        t_3\right)$</m>. Multiplying the <m>$x$</m>-coordinate and the <m>$y$</m>-coordinate of the
+        orthocenter gives <m>$\left(-\frac{c}{t_1 t_2 t_3}\right) \cdot \left(-c t_1 t_2 t_3\right) =
+        c^2$</m>. Since the product satisfies the equation <m>$xy = c^2$</m>, the orthocenter must lie on
+        the rectangular hyperbola.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 292 -->
+      <d:para>
+        Let the equation of the rectangular hyperbola be <m>$xy = c^2$</m>. Any point on this hyperbola can
+        be represented parametrically as <m>$\left(ct, \frac{c}{t}\right)$</m>.
+      </d:para>
+      <d:para>
+        Differentiating the equation <m>$xy = c^2$</m> with respect to <m>$x$</m> gives <m>$y +
+        x\frac{dy}{dx} = 0$</m>, which yields the slope of the tangent <m>$\frac{dy}{dx} = -\frac{y}{x} =
+        -\frac{1}{t^2}$</m>. The slope of the normal at the point <m>$t$</m> is the negative reciprocal of
+        the tangent slope, which is <m>$m = t^2$</m>.
+      </d:para>
+      <d:para>
+        The equation of the normal at the point <m>$\left(ct, \frac{c}{t}\right)$</m> is given by <m>$y -
+        \frac{c}{t} = t^2(x - ct)$</m>.
+      </d:para>
+      <d:para>
+        This normal meets the hyperbola again at another point <m>$t_1$</m>, whose coordinates are
+        <m>$\left(ct_1, \frac{c}{t_1}\right)$</m>. Since this point lies on the normal line, its coordinates
+        must satisfy the normal equation. Substituting <m>$x = ct_1$</m> and <m>$y = \frac{c}{t_1}$</m>
+        gives <m>$\frac{c}{t_1} - \frac{c}{t} = t^2(ct_1 - ct)$</m>.
+      </d:para>
+      <d:para>
+        Factoring out $c$ from both sides yields <m>$\frac{1}{t_1} - \frac{1}{t} = t^2(t_1 -
+        t)$</m>. Combining the fractions on the left side gives <m>$\frac{t - t_1}{tt_1} = t^2(t_1 -
+        t)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$t \neq t_1$</m> for a distinct second intersection point, we can divide both sides by
+        <m>$(t - t_1)$</m>, noting that <m>$t_1 - t = -(t - t_1)$</m>. This simplifies the equation to
+        <m>$\frac{1}{tt_1} = -t^2$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms gives <m>$-t^3 t_1 = 1$</m>, which simplifies to <m>$t_1 \cdot t^3 = -1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 293 -->
+      <d:para>
+        The equations of the asymptotes are given as <m>$3x - 4y + 7 = 0$</m> and <m>$4x + 3y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of a hyperbola differs from the combined equation of its asymptotes only by a constant
+        <m>$\lambda$</m>. Therefore, the general equation of the hyperbola is <m>$(3x - 4y + 7)(4x + 3y + 1)
+        + \lambda = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the hyperbola passes through the origin <m>$(0, 0)$</m>, substituting <m>$x = 0$</m> and <m>$y
+        = 0$</m> into the equation gives <m>$(3(0) - 4(0) + 7)(4(0) + 3(0) + 1) + \lambda = 0$</m>. This
+        simplifies to <m>$(7)(1) + \lambda = 0$</m>, which yields <m>$\lambda = -7$</m>.
+      </d:para>
+      <d:para>
+        Substituting $\lambda = -7$ back into the general equation gives <m>$(3x - 4y + 7)(4x + 3y + 1) - 7
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding the product of the two linear factors yields <m>$12x^2 + 9xy + 3x - 16xy - 12y^2 - 4y +
+        28x + 21y + 7 - 7 = 0$</m>. Combining the like terms simplifies the equation to <m>$12x^2 - 7xy -
+        12y^2 + 31x + 17y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 294 -->
+      <d:para>
+        Let the equation of the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. The equation of
+        one of its asymptotes is <m>$bx - ay = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(a\sec\theta, b\tan\theta)$</m> be a parametric point on the hyperbola. The equation of the
+        normal to the hyperbola at <m>$P$</m> is <m>$ax\cos\theta + by\cot\theta = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        The point <m>$G$</m> is the intersection of this normal with the transverse axis (<m>$x$</m>-axis,
+        where <m>$y = 0$</m>). Substituting <m>$y = 0$</m> into the normal equation gives <m>$ax\cos\theta =
+        a^2 + b^2$</m>, so <m>$x = \frac{a^2 + b^2}{a}\sec\theta$</m>. Thus, the coordinates of <m>$G$</m>
+        are <m>$\left(\frac{a^2 + b^2}{a}\sec\theta, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        From <m>$G$</m>, a line <m>$GL$</m> is drawn perpendicular to the asymptote <m>$bx - ay =
+        0$</m>. The equation of a line perpendicular to the asymptote is <m>$ax + by + \lambda =
+        0$</m>. Since it passes through <m>$G$</m>, we substitute its coordinates to find <m>$\lambda$</m>:
+        <m>$a\left(\frac{a^2 + b^2}{a}\sec\theta\right) + b(0) + \lambda = 0 \implies \lambda = -(a^2 +
+        b^2)\sec\theta$</m>. The equation of <m>$GL$</m> is <m>$ax + by = (a^2 + b^2)\sec\theta$</m>.
+      </d:para>
+      <d:para>
+        To find the coordinates of <m>$L$</m>, we solve the system of equations formed by the asymptote and
+        <m>$GL$</m>: 1) <m>$bx - ay = 0 \implies y = \frac{b}{a}x$</m> 2) <m>$ax +
+        b\left(\frac{b}{a}x\right) = (a^2 + b^2)\sec\theta$</m>.
+      </d:para>
+      <d:para>
+        Multiplying by <m>$a$</m> gives <m>$(a^2 + b^2)x = a(a^2 + b^2)\sec\theta$</m>, which simplifies to
+        <m>$x = a\sec\theta$</m>. Substituting <m>$x$</m> back into the asymptote equation yields <m>$y =
+        b\sec\theta$</m>. Thus, the coordinates of <m>$L$</m> are <m>$(a\sec\theta, b\sec\theta)$</m>.
+      </d:para>
+      <d:para>
+        The <m>$x$</m>-coordinate of <m>$P$</m> is <m>$a\sec\theta$</m>, and the <m>$x$</m>-coordinate of
+        <m>$L$</m> is also <m>$a\sec\theta$</m>. Since both points have the same <m>$x$</m>-coordinate, the
+        line <m>$LP$</m> is a vertical line parallel to the <m>$y$</m>-axis. Therefore, <m>$LP$</m> is
+        parallel to the conjugate axis.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 295 -->
+      <d:para>
+        The equations of the asymptotes must pass through the center of the hyperbola <m>$(1, 2)$</m>. Since
+        they are parallel to the lines <m>$2x + 3y = 0$</m> and <m>$3x + 2y = 0$</m>, their equations are
+        <m>$2(x - 1) + 3(y - 2) = 0$</m> and <m>$3(x - 1) + 2(y - 2) = 0$</m>. Simplifying these equations
+        gives <m>$2x + 3y - 8 = 0$</m> and <m>$3x + 2y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        The general equation of the hyperbola differs from the combined equation of its asymptotes by a
+        constant <m>$\lambda$</m>. Therefore, the equation of the hyperbola is <m>$(2x + 3y - 8)(3x + 2y -
+        7) + \lambda = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the hyperbola passes through the point <m>$(5, 3)$</m>, these coordinates must satisfy the
+        equation. Substituting <m>$x = 5$</m> and <m>$y = 3$</m> yields <m>$(2(5) + 3(3) - 8)(3(5) + 2(3) -
+        7) + \lambda = 0$</m>. This simplifies to <m>$(10 + 9 - 8)(15 + 6 - 7) + \lambda = 0$</m>, which
+        evaluates to <m>$(11)(14) + \lambda = 0$</m>. Thus, <m>$154 + \lambda = 0$, giving $\lambda =
+        -154$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda = -154$</m> back into the hyperbola equation gives <m>$(2x + 3y - 8)(3x +
+        2y - 7) - 154 = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding the product of the two linear factors yields <m>$6x^2 + 4xy - 14x + 9xy + 6y^2 - 21y - 24x
+        - 16y + 56 - 154 = 0$</m>. Combining the like terms simplifies the equation to <m>$6x^2 + 13xy +
+        6y^2 - 38x - 37y - 98 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 296 -->
+      <d:para>
+        Let the equation of the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. The equations
+        of its asymptotes are <m>$y = \frac{b}{a}x$ and $y = -\frac{b}{a}x$</m>, which can be combined as
+        <m>$\frac{x}{a} - \frac{y}{b} = 0$</m> and <m>$\frac{x}{a} + \frac{y}{b} = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(a\sec\theta, b\tan\theta)$</m> be any point on the hyperbola. The equation of the tangent
+        at <m>$P$</m> is <m>$\frac{x\sec\theta}{a} - \frac{y\tan\theta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        To find the intersection point <m>$A$</m> of this tangent with the first asymptote <m>$\frac{x}{a} -
+        \frac{y}{b} = 0$</m>, we substitute <m>$\frac{y}{b} = \frac{x}{a}$</m> into the tangent
+        equation. This gives <m>$\frac{x\sec\theta}{a} - \frac{x\tan\theta}{a} = 1$</m>, which simplifies to
+        <m>$x(\sec\theta - \tan\theta) = a$</m>. Thus, <m>$x_A = \frac{a}{\sec\theta - \tan\theta} =
+        a(\sec\theta + \tan\theta)$</m>. The corresponding <m>$y$</m>-coordinate is <m>$y_A = \frac{b}{a}x_A
+        = b(\sec\theta + \tan\theta)$</m>. So, <m>$A$</m> is <m>$(a(\sec\theta + \tan\theta), b(\sec\theta +
+        \tan\theta))$</m>.
+      </d:para>
+      <d:para>
+        To find the intersection point <m>$B$</m> of the tangent with the second asymptote <m>$\frac{x}{a} +
+        \frac{y}{b} = 0$</m>, we substitute <m>$\frac{y}{b} = -\frac{x}{a}$</m> into the tangent
+        equation. This gives <m>$\frac{x\sec\theta}{a} + \frac{x\tan\theta}{a} = 1$</m>, which simplifies to
+        <m>$x(\sec\theta + \tan\theta) = a$</m>. Thus, <m>$x_B = \frac{a}{\sec\theta + \tan\theta} =
+        a(\sec\theta - \tan\theta)$</m>. The corresponding <m>$y$</m>-coordinate is <m>$y_B =
+        -\frac{b}{a}x_B = -b(\sec\theta - \tan\theta)$</m>. So, <m>$B$</m> is <m>$(a(\sec\theta -
+        \tan\theta), -b(\sec\theta - \tan\theta))$</m>.
+      </d:para>
+      <d:para>
+        The vertices of the triangle formed by the tangent and the asymptotes are the origin
+        <m>$O(0,0)$</m>, <m>$A$</m>, and <m>$B$</m>. The area of triangle <m>$OAB$</m> is given by the
+        formula <m>$\Delta = \frac{1}{2} |x_A y_B - x_B y_A|$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of <m>$A$</m> and <m>$B$</m> into the formula yields <m>$\Delta =
+        \frac{1}{2} |a(\sec\theta + \tan\theta) \cdot (-b)(\sec\theta - \tan\theta) - a(\sec\theta -
+        \tan\theta) \cdot b(\sec\theta + \tan\theta)|$</m>. <m>$\Delta = \frac{1}{2} |-ab(\sec^2\theta -
+        \tan^2\theta) - ab(\sec^2\theta - \tan^2\theta)|$</m>.
+      </d:para>
+      <d:para>
+        Using the identity <m>$\sec^2\theta - \tan^2\theta = 1$</m>, this simplifies to <m>$\Delta =
+        \frac{1}{2} |-ab(1) - ab(1)| = \frac{1}{2} |-2ab| = ab$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$a$</m> and <m>$b$</m> are constants independent of <m>$\theta$</m>, the area of the
+        triangle is constant and equal to <m>$ab$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 297 -->
+      <d:para>
+        Let the equation of the hyperbola be <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. The equations
+        of its asymptotes are given by <m>$\frac{x}{a} - \frac{y}{b} = 0$ and $\frac{x}{a} + \frac{y}{b} =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(a\sec\theta, b\tan\theta)$</m> be any point of contact on the hyperbola. The equation of
+        the tangent at <m>$P$</m> is <m>$\frac{x\sec\theta}{a} - \frac{y\tan\theta}{b} = 1$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$A$</m> be the point of intersection of the tangent with the asymptote <m>$\frac{x}{a} -
+        \frac{y}{b} = 0$</m>. Substituting <m>$\frac{y}{b} = \frac{x}{a}$</m> into the tangent equation
+        gives <m>$\frac{x\sec\theta}{a} - \frac{x\tan\theta}{a} = 1$</m>. Solving for <m>$x$</m> yields
+        <m>$x_A = \frac{a}{\sec\theta - \tan\theta} = a(\sec\theta + \tan\theta)$</m>. The corresponding
+        <m>$y$</m>-coordinate is <m>$y_A = \frac{b}{a}x_A = b(\sec\theta + \tan\theta)$</m>. Thus, the
+        coordinates of <m>$A$</m> are <m>$(a(\sec\theta + \tan\theta), b(\sec\theta + \tan\theta))$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$B$</m> be the point of intersection of the tangent with the asymptote <m>$\frac{x}{a} +
+        \frac{y}{b} = 0$</m>. Substituting <m>$\frac{y}{b} = -\frac{x}{a}$</m> into the tangent equation
+        gives <m>$\frac{x\sec\theta}{a} + \frac{x\tan\theta}{a} = 1$</m>. Solving for <m>$x$</m> yields
+        <m>$x_B = \frac{a}{\sec\theta + \tan\theta} = a(\sec\theta - \tan\theta)$</m>. The corresponding
+        <m>$y$</m>-coordinate is <m>$y_B = -\frac{b}{a}x_B = -b(\sec\theta - \tan\theta)$</m>. Thus, the
+        coordinates of <m>$B$</m> are <m>$(a(\sec\theta - \tan\theta), -b(\sec\theta - \tan\theta))$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$M$</m> be the midpoint of the intercepted segment <m>$AB$</m>. The coordinates of <m>$M$</m>
+        are calculated as <m>$x_M = \frac{x_A + x_B}{2} = \frac{a(\sec\theta + \tan\theta) + a(\sec\theta -
+        \tan\theta)}{2} = a\sec\theta$</m>. <m>$y_M = \frac{y_A + y_B}{2} = \frac{b(\sec\theta + \tan\theta)
+        - b(\sec\theta - \tan\theta)}{2} = b\tan\theta$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the midpoint <m>$M(a\sec\theta, b\tan\theta)$</m> are identical to the
+        coordinates of the point of contact <m>$P$</m>. Therefore, the portion of the tangent intercepted
+        between the asymptotes is bisected at the point of contact.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 298 -->
+      <d:para>
+        The given equation of the hyperbola is <m>$3x^2 + 10xy + 8y^2 + 14x + 22y + 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of the pair of asymptotes differs from the hyperbola only by a constant
+        <m>$\lambda$</m>. Therefore, the combined equation of the asymptotes is <m>$3x^2 + 10xy + 8y^2 + 14x
+        + 22y + \lambda = 0$</m>.
+      </d:para>
+      <d:para>
+        Since this equation represents a pair of straight lines, the condition <m>$\Delta = abc + 2fgh -
+        af^2 - bg^2 - ch^2 = 0$</m> must be satisfied. Comparing coefficients gives <m>$a = 3, h = 5, b = 8,
+        g = 7, f = 11$</m>, and <m>$c = \lambda$</m>.
+      </d:para>
+      <d:para>
+        Substituting these values into the condition yields <m>$3(8)(\lambda) + 2(11)(7)(5) - 3(11)^2 -
+        8(7)^2 - \lambda(5)^2 = 0$</m>. This simplifies to <m>$24\lambda + 770 - 363 - 392 - 25\lambda =
+        0$</m>. Solving for <m>$\lambda$ gives $-\lambda + 15 = 0$, so $\lambda = 15$</m>.
+      </d:para>
+      <d:para>
+        The combined equation of the asymptotes is <m>$3x^2 + 10xy + 8y^2 + 14x + 22y + 15 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the individual equations, we factorize the homogeneous part <m>$3x^2 + 10xy + 8y^2 = (3x +
+        4y)(x + 2y)$</m>. The individual asymptotes can be written in the form <m>$3x + 4y + c_1 = 0$</m>
+        and <m>$x + 2y + c_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying these factors gives <m>$(3x + 4y + c_1)(x + 2y + c_2) = 3x^2 + 10xy + 8y^2 + (3c_2 +
+        c_1)x + (4c_2 + 2c_1)y + c_1 c_2$</m>. Comparing the coefficients of <m>$x$</m> and <m>$y$</m> with
+        the combined equation gives <m>$3c_2 + c_1 = 14$ and $4c_2 + 2c_1 = 22$</m>.
+      </d:para>
+      <d:para>
+        Solving this system of linear equations yields <m>$c_2 = 3$</m> and <m>$c_1 = 5$</m>. The product
+        <m>$c_1 c_2 = 15$</m> matches the value of <m>$\lambda$</m>.
+      </d:para>
+      <d:para>
+        The equations of the two asymptotes are <m>$3x + 4y + 5 = 0$</m> and <m>$x + 2y + 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 299 -->
+      <d:para>
+        The given equation of the hyperbola is <m>$3x^2 - 5xy - 2y^2 + 5x + 11y - 8 = 0$</m>.
+      </d:para>
+      <d:para>
+        The combined equation of the asymptotes differs from the hyperbola only by a constant
+        <m>$\lambda_1$</m>, so it is of the form <m>$3x^2 - 5xy - 2y^2 + 5x + 11y - 8 + \lambda_1 =
+        0$</m>. Since this represents a pair of straight lines, its determinant condition must be zero:
+        <m>$\Delta = abc + 2fgh - af^2 - bg^2 - ch^2 = 0$</m>. Comparing coefficients yields <m>$a = 3$</m>,
+        <m>$h = -\frac{5}{2}$, $b = -2$</m>, <m>$g = \frac{5}{2}$</m>, <m>$f = \frac{11}{2}$</m>, and <m>$c
+        = -8 + \lambda_1$</m>.
+      </d:para>
+      <d:para>
+        Substituting these coefficients into the condition gives <m>$3(-2)(-8 + \lambda_1) +
+        2\left(\frac{11}{2}\right)\left(\frac{5}{2}\right)\left(-\frac{5}{2}\right) -
+        3\left(\frac{11}{2}\right)^2 - (-2)\left(\frac{5}{2}\right)^2 - (-8 +
+        \lambda_1)\left(-\frac{5}{2}\right)^2 = 0$</m>. This simplifies to <m>$-6(-8 + \lambda_1) -
+        \frac{275}{4} - \frac{363}{4} + \frac{50}{4} - \frac{25}{4}(-8 + \lambda_1) = 0$</m>. Combining the
+        terms containing <m>$(-8 + \lambda_1)$ gives $-\frac{49}{4}(-8 + \lambda_1) - \frac{588}{4} =
+        0$</m>. Multiplying by <m>4</m> yields <m>$-49(-8 + \lambda_1) - 588 = 0$</m>, which gives <m>$-8 +
+        \lambda_1 = -12$, so $\lambda_1 = -4$</m>.
+      </d:para>
+      <d:para>
+        The combined equation of the asymptotes is <m>$3x^2 - 5xy - 2y^2 + 5x + 11y - 12 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of the conjugate hyperbola is obtained by adding the same constant difference to the
+        equation of the asymptotes. Since <m>$H - A = A - C$</m>, where <m>$H$</m> is the hyperbola,
+        <m>$A$</m> is the pair of asymptotes, and <m>$C$</m> is the conjugate hyperbola <m>$C = 2A - H$</m>.
+      </d:para>
+      <d:para>
+        Substituting the equations into the relation gives <m>$C = 2(3x^2 - 5xy - 2y^2 + 5x + 11y - 12) -
+        (3x^2 - 5xy - 2y^2 + 5x + 11y - 8) = 0$</m>. This simplifies directly to <m>$3x^2 - 5xy - 2y^2 + 5x
+        + 11y - 16 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 300 -->
+      <d:para>
+        Let the equation of the regular (rectangular) hyperbola be <m>$x^2 - y^2 = a^2$</m>. The center
+        <m>$C$</m> of the hyperbola is at the origin <m>$(0, 0)$</m>. The eccentricity <m>$e$</m> of a
+        rectangular hyperbola is <m>$\sqrt{2}$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of the foci <m>$S$</m> and <m>$S'$</m> are <m>$(ae, 0)$</m> and <m>$(-ae, 0)$</m>,
+        respectively. Substituting <m>$e = \sqrt{2}$</m>, the foci become <m>$S(a\sqrt{2}, 0)$</m> and
+        <m>$S'(-a\sqrt{2}, 0)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x_1, y_1)$</m> be any point on the hyperbola, so it satisfies <m>$x_1^2 - y_1^2 =
+        a^2$</m>, which implies <m>$y_1^2 = x_1^2 - a^2$</m>.
+      </d:para>
+      <d:para>
+        The square of the distance from the center <m>$C(0, 0)$</m> to the point <m>$P(x_1, y_1)$</m> is
+        <m>$CP^2 = x_1^2 + y_1^2$</m>. Substituting <m>$y_1^2 = x_1^2 - a^2$</m> gives <m>$CP^2 = x_1^2 +
+        (x_1^2 - a^2) = 2x_1^2 - a^2$</m>.
+      </d:para>
+      <d:para>
+        Using the distance formula, the distance <m>$SP$</m> from the focus <m>$S(a\sqrt{2}, 0)$</m> to
+        <m>$P(x_1, y_1)$</m> satisfies <m>$SP^2 = (x_1 - a\sqrt{2})^2 + y_1^2$</m>. Expanding and
+        substituting <m>$y_1^2 = x_1^2 - a^2$</m> yields <m>$SP^2 = x_1^2 - 2\sqrt{2}ax_1 + 2a^2 + x_1^2 -
+        a^2 = 2x_1^2 - 2\sqrt{2}ax_1 + a^2$</m>. This expression is a perfect square <m>$SP^2 = (x_1\sqrt{2}
+        - a)^2$, so $SP = |x_1\sqrt{2} - a|$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the distance <m>$S'P$</m> from the focus <m>$S'(-a\sqrt{2}, 0)$</m> to <m>$P(x_1,
+        y_1)$</m> satisfies <m>$S'P^2 = (x_1 + a\sqrt{2})^2 + y_1^2$</m>. Expanding and substituting
+        <m>$y_1^2 = x_1^2 - a^2$</m> yields <m>$S'P^2 = x_1^2 + 2\sqrt{2}ax_1 + 2a^2 + x_1^2 - a^2 = 2x_1^2
+        + 2\sqrt{2}ax_1 + a^2$</m>. This expression is also a perfect square <m>$S'P^2 = (x_1\sqrt{2} +
+        a)^2$, so $S'P = |x_1\sqrt{2} + a|$</m>.
+      </d:para>
+      <d:para>
+        Computing the product of the two distances gives <m>$SP \cdot S'P = |(x_1\sqrt{2} - a)(x_1\sqrt{2} +
+        a)| = |2x_1^2 - a^2|$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$x_1^2 \ge a^2$</m> for any real point on the hyperbola, <m>$2x_1^2 - a^2 > 0$</m>,
+        allowing the absolute value bars to be removed <m>$SP \cdot S'P = 2x_1^2 - a^2$</m>.
+      </d:para>
+      <d:para>
+        Comparing the two expressions, <m>$SP \cdot S'P = CP^2$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

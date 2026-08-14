@@ -3574,6 +3574,109 @@
         Chords of the hyperbola <m>$x^2 - y^2 = a^2$</m> touch the parabola <m>$y^2 = 4ax$</m>. Prove that
         the locus of their middle points is the curve <m>$y^2(x - a) = x^3$</m>.
       </d:listitem>
+      <d:listitem>
+        <!-- 282 -->
+        The chord of contact of the tangents through <m>$P$</m> to the hyperbola <m>$\frac{x^2}{a^2} -
+        \frac{y^2}{b^2} = 1$</m> subtends a right angle at the center. Prove that the locus of <m>$P$</m> is
+        the ellipse <m>$b^4x^2 + a^4y^2 = a^2b^2\left(b^2 - a^2\right)$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 283 -->
+        Prove that the locus of the middle points of the chords of contact of the tangents drawn from any
+        point on the circle <m>$x^2 + y^2 = c^2$</m> to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2}
+        = 1$</m> is <m>$\left(\frac{x^2}{a^2} - \frac{y^2}{b^2}\right)^2 = \frac{x^2 + y^2}{c^2}$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 284 -->
+        Chords of the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> are drawn to pass through
+        <m>$(\alpha, \beta)$</m>. Prove that the locus of their middle points is a hyperbola whose center is
+        <m>$\left(\frac{\alpha}{2}, \frac{\beta}{2}\right)$</m> and which is similar either to the given
+        hyperbola or to its conjugate.
+      </d:listitem>
+      <d:listitem>
+        <!-- 285 -->
+        Tangents are drawn from any point on the hyperbola <m>$x^2 - y^2 = a^2 + b^2$</m> to the hyperbola
+        <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m>. Prove that they meet the axes in concyclic points.
+      </d:listitem>
+      <d:listitem>
+        <!-- 286 -->
+        Prove that the chords of a hyperbola touch the conjugate hyperbola are bisected at the points of
+        contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 287 -->
+        Find the point on the hyperbola <m>$\frac{x^2}{24} - \frac{y^2}{18} = 1$</m> which is nearest to the
+        line <m>$3x + 2y + 1 = 0$</m> and compute the distance between the point and the line.
+      </d:listitem>
+      <d:listitem>
+        <!-- 288 -->
+        Find the equations of the two tangents to the hyperbola <m>$xy = 27$</m> which are perpendicular to
+        the straight line <m>$4x - 3y = 7$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 289 -->
+        If a rectangular hyperbola circumscribes a triangle, show that the curve passes, through the
+        orthoccenter of the triangle. Find the distance from <m>$A(4, 2)$</m> to the points in which the
+        line <m>$3x - 5y = 2$</m> meet the hyperbola <m>$xy = 24$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 290 -->
+        If the normals at four points <m>$P_i(x_i, y_i); i = 1, 2, 3, 4$</m> on the rectangular hyperbola
+        <m>$xy = c^2$</m> meet at the point <m>$Q(h, k)$</m> prove that (i) <m>$x_1 + x_2 + x_3 + x_4 =
+        h$</m> (ii) <m>$y_1 + y_2 + y_3 + y_4 = k$</m> (iii) <m>$x_1x_2x_3x_4 = y_1y_2y_3y_4 = -c^4$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 291 -->
+        If a rectangular hyperbola circumscribes a triangle, prove that it also passes through its
+        orthoccenter.
+      </d:listitem>
+      <d:listitem>
+        <!-- 292 -->
+        Show that the normal to the rectangular hyperbola <m>$xy = c^2$</m> at the point <m>$t$</m> meets
+        the curve again at point <m>$t_1$</m> such that <m>$t_1\cdot t^3 = 1$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 293 -->
+        Find the equation of the hyperbola which has <m>$3x - 4y + 7 = 0$</m> and <m>$4x + 3y + 1 = 0$</m>
+        for its asymptotes annd which passes through the origin.
+      </d:listitem>
+      <d:listitem>
+        <!-- 294 -->
+        From a point <m>$G$</m> on the transverse axis, <m>$GL$</m> is drawn perpendicular to the asymptote
+        and <m>$GP$</m> be a normal to the hyperbola <m>$\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$</m> at
+        <m>$P$</m>. Prove that <m>$LP$</m> is parallel to the conjugate axis.
+      </d:listitem>
+      <d:listitem>
+        <!-- 295 -->
+        The asymptotes of a hyperbola are parallel to lines <m>$2x + 3y = 0$</m> and <m>$3x + 2y =
+        0$</m>. The hyperbola has its center <m>$(1, 2)$</m> and it passes through <m>$(5, 3)$</m>. Find its
+        equation.
+      </d:listitem>
+      <d:listitem>
+        <!-- 296 -->
+        Prove that the area of the triangle cut off from the asymptotes by a tangent to a hyperbola is
+        constant.
+      </d:listitem>
+      <d:listitem>
+        <!-- 297 -->
+        Prove that the portion of the tangent to the hyperbola intercepted between the asymptotes is
+        bisected at the point of contact.
+      </d:listitem>
+      <d:listitem>
+        <!-- 298 -->
+        Find the equation of the asymptotes of the hyperbola <m>$3x^2 + 10xy + 8y^2 + 14x + 22y + 7 =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 299 -->
+        Find the equation of the conjugate hyperbola of the hyperbola <m>$3x^2 - 5xy - 2y^2 + 5x + 11y - 8 =
+        0$</m>.
+      </d:listitem>
+      <d:listitem>
+        <!-- 300 -->
+        If <m>$S$</m> and <m>$S'$</m> be the foci, <m>$C$</m> the center and <m>$P$</m> be any point on a
+        regular hyperbola, show that <m>$SP\cdot S'P = CP^2$</m>.
+      </d:listitem>
     </d:orderedlist>
   </d:sect1>
 </d:chapter>
