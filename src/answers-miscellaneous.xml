@@ -1112,5 +1112,2291 @@
         collinear.
       </d:para>
     </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      <d:para>
+        Let the variable straight line passing through the origin <m>$O(0, 0)$</m> make an angle
+        <m>$\theta$</m> with the positive <m>$x$</m>-axis. The equation of this line in parametric polar
+        form is <m>$\frac{x}{\cos\theta} = \frac{y}{\sin\theta} = r$</m>, so any point at a distance
+        <m>$r$</m> from the origin has coordinates <m>$(r\cos\theta, r\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Let the distance from the origin to the points <m>$Q$</m>, <m>$R$</m>, and <m>$P$</m> on this line
+        be <m>$r_1$</m>, <m>$r_2$</m>, and <m>$r$</m> respectively. Thus, <m>$OQ = r_1$</m>, <m>$OR =
+        r_2$</m>, and <m>$OP = r$</m>.
+      </d:para>
+      <d:para>
+        The coordinates of <m>$Q$</m> are <m>$(r_1\cos\theta, r_1\sin\theta)$</m>. Since <m>$Q$</m> lies on
+        the line <m>$y = m_1x + c_1$</m>, we substitute its coordinates to get <m>$r_1\sin\theta =
+        m_1(r_1\cos\theta) + c_1 \implies r_1(\sin\theta - m_1\cos\theta) = c_1 \implies \frac{1}{OQ} =
+        \frac{1}{r_1} = \frac{\sin\theta - m_1\cos\theta}{c_1}$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the coordinates of <m>$R$</m> are <m>$(r_2\cos\theta, r_2\sin\theta)$</m>. Since
+        <m>$R$</m> lies on the line <m>$y = m_2x + c_2$</m>, we substitute its coordinates to get
+        <m>$r_2\sin\theta = m_2(r_2\cos\theta) + c_2 \implies r_2(\sin\theta - m_2\cos\theta) = c_2 \implies
+        \frac{1}{OR} = \frac{1}{r_2} = \frac{\sin\theta - m_2\cos\theta}{c_2}$</m>.
+      </d:para>
+      <d:para>
+        We are given that <m>$OP$</m> is the geometric mean between <m>$OQ$</m> and <m>$OR$</m>, which means
+        <m>$OP^2 = OQ \cdot OR \implies r^2 = r_1 r_2 \implies \frac{1}{r^2} = \frac{1}{r_1} \cdot
+        \frac{1}{r_2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the expressions for <m>$\frac{1}{r_1}$ and $\frac{1}{r_2}$</m> into this relation
+        yields <m>$\frac{1}{r^2} = \left(\frac{\sin\theta - m_1\cos\theta}{c_1}\right)
+        \left(\frac{\sin\theta - m_2\cos\theta}{c_2}\right)\implies \frac{1}{r^2} = \frac{\sin^2\theta -
+        (m_1 + m_2)\sin\theta\cos\theta + m_1m_2\cos^2\theta}{c_1c_2}\implies c_1c_2 = r^2\sin^2\theta -
+        (m_1 + m_2)(r\sin\theta)(r\cos\theta) + m_1m_2(r^2\cos^2\theta)$</m>.
+      </d:para>
+      <d:para>
+        To find the Cartesian locus of <m>$P(x, y)$</m>, we substitute the standard transformations <m>$x =
+        r\cos\theta$</m> and <m>$y = r\sin\theta$</m>: <m>$c_1c_2 = y^2 - (m_1 + m_2)xy + m_1m_2x^2$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      <d:para>
+        Let the two given lines be <m>$L_1: x\cos\alpha + y\sin\alpha = p$</m> and <m>$L_2: x\cos\beta +
+        y\sin\beta = p_1$</m>. The other two sides are the perpendiculars drawn from the origin <m>$O(0,
+        0)$</m> to these lines. The equations of these perpendicular lines are <m>$N_1: x\sin\alpha -
+        y\cos\alpha = 0$</m> and <m>$N_2: x\sin\beta - y\cos\beta = 0$</m>.
+      </d:para>
+      <d:para>
+        The four vertices of the quadrilateral are formed by the intersections of these four lines in order:
+        The origin <m>$O(0, 0)$</m> is the intersection of <m>$N_1$</m> and <m>$N_2$</m>. The point
+        <m>$Q$</m> is the intersection of <m>$L_1$</m> and <m>$N_1$</m>, which gives <m>$Q(p\cos\alpha,
+        p\sin\alpha)$</m>. The point <m>$R$</m> is the intersection of <m>$L_2$</m> and <m>$N_2$</m>, which
+        gives <m>$R(p_1\cos\beta, p_1\sin\beta)$</m>. The point <m>$S(x_S, y_S)$</m> is the intersection of
+        <m>$L_1$</m> and <m>$L_2$</m>. Solving them simultaneously using Cramer's rule yields <m>$x_S =
+        \frac{p\sin\beta - p_1\sin\alpha}{\sin(\beta-\alpha)}$</m> and <m>$y_S = \frac{p_1\cos\alpha -
+        p\cos\beta}{\sin(\beta-\alpha)}$</m>.
+      </d:para>
+      <d:para>
+        The area of the quadrilateral <m>$OQSR$</m> can be computed by summing the cross-products of the
+        coordinates of its vertices <m>$\text{Area} = \frac{1}{2} |(x_Q y_S - y_Q x_S) + (x_S y_R - y_S
+        x_R)|$</m>.
+      </d:para>
+      <d:para>
+        Evaluating the first term <m>$(x_Q y_S - y_Q x_S)$</m>: <m>$x_Q y_S - y_Q x_S = p\cos\alpha
+        \left(\frac{p_1\cos\alpha - p\cos\beta}{\sin(\beta-\alpha)}\right) - p\sin\alpha
+        \left(\frac{p\sin\beta - p_1\sin\alpha}{\sin(\beta-\alpha)}\right)= \frac{p [ p_1(\cos^2\alpha +
+        \sin^2\alpha) - p(\cos\alpha\cos\beta + \sin\alpha\sin\beta) ]}{\sin(\beta-\alpha)} = \frac{p [ p_1
+        - p\cos(\alpha-\beta) ]}{\sin(\beta-\alpha)}$</m>
+      </d:para>
+      <d:para>
+        Evaluating the second term <m>$(x_S y_R - y_S x_R)$</m>: <m>$x_S y_R - y_S x_R =
+        \left(\frac{p\sin\beta - p_1\sin\alpha}{\sin(\beta-\alpha)}\right) p_1\sin\beta -
+        \left(\frac{p_1\cos\alpha - p\cos\beta}{\sin(\beta-\alpha)}\right) p_1\cos\beta= \frac{p_1 [
+        p(\sin^2\beta + \cos^2\beta) - p_1(\sin\alpha\sin\beta + \cos\alpha\cos\beta) ]}{\sin(\beta-\alpha)}
+        = \frac{p_1 [ p - p_1\cos(\alpha-\beta) ]}{\sin(\beta-\alpha)}$</m>
+      </d:para>
+      <d:para>
+        Adding the two components together gives the total area <m>$\Delta = \frac{1}{2\sin(\beta-\alpha)} [
+        p(p_1 - p\cos(\alpha-\beta)) + p_1(p - p_1\cos(\alpha-\beta)) ]\implies \Delta =
+        \frac{1}{2\sin(\beta-\alpha)} [ 2pp_1 - (p^2 + p_1^2)\cos(\alpha-\beta) ]$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      <d:para>
+        The line segment joining <m>$A(b\cos\alpha, b\sin\alpha)$</m> and <m>$B(a\cos\beta, a\sin\beta)$</m>
+        is produced to the point <m>$M(x, y)$</m> such that <m>$AM : BM = b : a$</m>. Since the line is
+        produced to <m>$M$</m>, the point <m>$M$</m> divides the segment <m>$AB$</m> externally in the ratio
+        <m>$b : a$</m>.
+      </d:para>
+      <d:para>
+        By the external section formula, the coordinates of <m>$M(x, y)$</m> are given by <m>$x =
+        \frac{b(a\cos\beta) - a(b\cos\alpha)}{b - a} = \frac{ab(\cos\beta - \cos\alpha)}{b - a}$</m> and
+        <m>$y = \frac{b(a\sin\beta) - a(b\sin\alpha)}{b - a} = \frac{ab(\sin\beta - \sin\alpha)}{b -
+        a}$</m>.
+      </d:para>
+      <d:para>
+        Using trigonometric sum-to-product identities <m>$\cos\beta - \cos\alpha = 2\sin\left(\frac{\alpha +
+        \beta}{2}\right)\sin\left(\frac{\alpha - \beta}{2}\right)\implies \sin\beta - \sin\alpha =
+        2\cos\left(\frac{\alpha + \beta}{2}\right)\sin\left(\frac{\beta - \alpha}{2}\right) =
+        -2\cos\left(\frac{\alpha + \beta}{2}\right)\sin\left(\frac{\alpha - \beta}{2}\right)$</m>
+      </d:para>
+      <d:para>
+        Substituting these transformations into the expressions for <m>$x$</m> and <m>$y$</m> gives us <m>$x
+        = \frac{2ab}{b - a}\sin\left(\frac{\alpha + \beta}{2}\right)\sin\left(\frac{\alpha -
+        \beta}{2}\right)$</m> and <m>$y = -\frac{2ab}{b - a}\cos\left(\frac{\alpha +
+        \beta}{2}\right)\sin\left(\frac{\alpha - \beta}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Now, we evaluate the expression <m>$x + y\tan\left(\frac{\alpha + \beta}{2}\right)$</m>: <m>$x +
+        y\tan\left(\frac{\alpha + \beta}{2}\right) = \frac{2ab}{b - a}\sin\left(\frac{\alpha -
+        \beta}{2}\right) \left[ \sin\left(\frac{\alpha + \beta}{2}\right) - \cos\left(\frac{\alpha +
+        \beta}{2}\right)\tan\left(\frac{\alpha + \beta}{2}\right) \right]$</m>
+      </d:para>
+      <d:para>
+        Since <m>$\cos\left(\frac{\alpha + \beta}{2}\right)\tan\left(\frac{\alpha + \beta}{2}\right) =
+        \sin\left(\frac{\alpha + \beta}{2}\right)$</m>, the term inside the bracket simplifies to
+        <m>$\sin\left(\frac{\alpha + \beta}{2}\right) - \sin\left(\frac{\alpha + \beta}{2}\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, <m>$x + y\tan\left(\frac{\alpha + \beta}{2}\right) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      <d:para>
+        Let the coordinates of vertex <m>$B$</m> lying on the line <m>$AB: 3x + 4y + 9 = 0$</m> be <m>$(x_1,
+        y_1)$</m>. Let the coordinates of vertex <m>$C$</m> lying on the line <m>$AC: 4x - 3y + 16 = 0$</m>
+        be <m>$(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        The point <m>$D(5, 2)$</m> divides the segment <m>$BC$</m> internally in the ratio <m>$4 :
+        5$</m>. By the section formula, the coordinates of <m>$D$</m> are given by <m>$D = \frac{5B + 4C}{4
+        + 5} \implies 9D = 5B + 4C$</m>.
+      </d:para>
+      <d:para>
+        This yields the following coordinate relations <m>$9(5) = 5x_1 + 4x_2 \implies 4x_2 = 45 - 5x_1
+        \implies x_2 = \frac{45 - 5x_1}{4}$</m> and <m>$9(2) = 5y_1 + 4y_2 \implies 4y_2 = 18 - 5y_1
+        \implies y_2 = \frac{18 - 5y_1}{4}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$C(x_2, y_2)$</m> lies on the line <m>$AC$</m>, substituting these expressions into
+        <m>$4x_2 - 3y_2 + 16 = 0$</m> gives <m>$4\left(\frac{45 - 5x_1}{4}\right) - 3\left(\frac{18 -
+        5y_1}{4}\right) + 16 = 0\implies (45 - 5x_1) - \frac{54 - 15y_1}{4} + 16 = 0$</m>
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$4$</m> to clear the denominator <m>$4(45 - 5x_1) - (54 -
+        15y_1) + 64 = 0\implies 180 - 20x_1 - 54 + 15y_1 + 64 = 0\implies -20x_1 + 15y_1 + 190 = 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$-5$</m> simplifies this condition to <m>$4x_1 - 3y_1 - 38 = 0$</m>.
+      </d:para>
+      <d:para>
+        We now solve the system of linear equations for the coordinates of <m>$B(x_1, y_1)$</m>: <m>$3x_1 +
+        4y_1 + 9 = 0$</m> and <m>$4x_1 - 3y_1 - 38 = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the first equation by <m>$3$</m> and the second equation by <m>$4$</m> gives us <m>$9x_1
+        + 12y_1 + 27 = 0$</m> and <m>$16x_1 - 12y_1 - 152 = 0$</m>
+      </d:para>
+      <d:para>
+        Adding these two equations eliminates <m>$y_1$</m> to get <m>$25x_1 - 125 = 0 \implies x_1 = 5$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1 = 5$</m> back into the first equation gives us <m>$3(5) + 4y_1 + 9 = 0 \implies
+        4y_1 + 24 = 0 \implies y_1 = -6$</m>.
+      </d:para>
+      <d:para>
+        Thus, the coordinates of vertex <m>$B$</m> are <m>$(5, -6)$</m>. Since both the vertex <m>$B(5,
+        -6)$</m> and the given point <m>$D(5, 2)$</m> have the exact same <m>$x$</m>-coordinate of
+        <m>$5$</m>, the line passing through them must be a vertical line. Therefore, the equation of the
+        third side <m>$BC$</m> is <m>$x - 5 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      <d:para>
+        The given equations of the two adjacent sides of the rhombus are <m>$L_1: 3x - 4y = 0 \quad
+        (\text{slope } m_1 = \frac{3}{4})$</m> and <m>$L_2: 12x - 5y = 0 \quad (\text{slope } m_2 =
+        \frac{12}{5})$</m>.
+      </d:para>
+      <d:para>
+        Both lines pass through the origin <m>$O(0, 0)$</m>, which forms the first vertex of the rhombus.
+      </d:para>
+      <d:para>
+        The acute angle bisector between these lines represents the diagonal passing through the
+        origin. Since both lines lie in the first quadrant, the internal angle bisector contains the longer
+        diagonal. Using the angle bisector formula <m>$\frac{3x - 4y}{\sqrt{3^2 + (-4)^2}} = -\frac{12x -
+        5y}{\sqrt{12^2 + (-5)^2}}\implies \frac{3x - 4y}{5} = -\frac{12x - 5y}{13}$</m>.
+      </d:para>
+      <d:para>
+        Cross-multiplying to simplify the equation <m>$13(3x - 4y) = -5(12x - 5y) \implies 39x - 52y = -60x
+        + 25y\implies 99x - 77y = 0 \implies 9x - 7y = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the line equation of the longer diagonal is <m>$9x - 7y = 0$</m>, giving the slope
+        <m>$\tan\theta = \frac{9}{7}$</m>.  Using trigonometric relationships <m>$\sin\theta =
+        \frac{9}{\sqrt{9^2 + 7^2}} = \frac{9}{\sqrt{130}}$</m> and <m>$\cos\theta = \frac{7}{\sqrt{9^2 +
+        7^2}} = \frac{7}{\sqrt{130}}$</m>.
+      </d:para>
+      <d:para>
+        Since the length of this longer diagonal is <m>$12$</m> units, the opposite vertex <m>$A(x_1,
+        y_1)$</m> lies at a distance of $12$ units from the origin along this line <m>$x_1 = 12\cos\theta =
+        \frac{84}{\sqrt{130}}$</m> and <m>$y_1 = 12\sin\theta = \frac{108}{\sqrt{130}}$</m>.
+      </d:para>
+      <d:para>
+        The other two sides of the rhombus are parallel to <m>$L_1$</m> and <m>$L_2$</m> and pass through
+        the opposite vertex <m>$A\left(\frac{84}{\sqrt{130}}, \frac{108}{\sqrt{130}}\right)$</m>.
+      </d:para>
+      <d:para>
+        The side parallel to <m>$3x - 4y = 0$</m> passing through <m>$A$</m> is <m>$3\left(x -
+        \frac{84}{\sqrt{130}}\right) - 4\left(y - \frac{108}{\sqrt{130}}\right) = 0\implies 3x - 4y -
+        \frac{252}{\sqrt{130}} + \frac{432}{\sqrt{130}} = 0\implies 3x - 4y + \frac{180}{\sqrt{130}} =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The side parallel to <m>$12x - 5y = 0$</m> passing through <m>$A$</m> is <m>$12\left(x -
+        \frac{84}{\sqrt{130}}\right) - 5\left(y - \frac{108}{\sqrt{130}}\right) = 0\implies 12x - 5y -
+        \frac{1008}{\sqrt{130}} + \frac{540}{\sqrt{130}} = 0\implies 12x - 5y - \frac{468}{\sqrt{130}} =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equations of the other two sides are <m>$3x - 4y + \frac{180}{\sqrt{130}} = 0$</m>
+        and <m>$12x - 5y - \frac{468}{\sqrt{130}} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      <d:para>
+        Let the coordinates of point <m>$A$</m> on the line <m>$y = 2x$ be $(a, 2a)$</m>. Let the
+        coordinates of point <m>$B$</m> on the line <m>$y = x$</m> be <m>$(b, b)$</m>.
+      </d:para>
+      <d:para>
+        The length of the line segment <m>$AB$</m> is given as <m>$4$</m>, so by the distance formula <m>$(b
+        - a)^2 + (b - 2a)^2 = 4^2 = 16$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$M(x, y)$</m> be the moving midpoint of the segment <m>$AB$</m>. Using the midpoint formula
+        <m>$x = \frac{a + b}{2} \implies a + b = 2x$</m> and <m>$y = \frac{2a + b}{2} \implies 2a + b =
+        2y$</m>.
+      </d:para>
+      <d:para>
+        We eliminate parameters <m>$a$</m> and <m>$b$</m> by solving this linear system. Subtracting the
+        first equation from the second gives <m>$(2a + b) - (a + b) = 2y - 2x \implies a = 2(y - x)$</m>.
+      </d:para>
+      <d:para>
+        Substituting this expression for <m>$a$</m> back into the first equation <m>$2(y - x) + b = 2x
+        \implies b = 4x - 2y$</m>.
+      </d:para>
+      <d:para>
+        Now, substitute <m>$a = 2(y - x)$</m> and <m>$b = 4x - 2y$</m> into the distance squared condition
+        to get <m>$b - a = (4x - 2y) - 2(y - x) = 6x - 4y$</m> and <m>$b - 2a = (4x - 2y) - 4(y - x) = 8x -
+        6y$</m>.
+      </d:para>
+      <d:para>
+        Substituting these into the equation <m>$(b - a)^2 + (b - 2a)^2 = 16$</m> gives <m>$(6x - 4y)^2 +
+        (8x - 6y)^2 = 16$</m>.
+      </d:para>
+      <d:para>
+        Expanding the squares gives <m>$(36x^2 - 48xy + 16y^2) + (64x^2 - 96xy + 36y^2) = 16\implies 100x^2
+        - 144xy + 52y^2 = 16$</m>.
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$4$</m> simplifies it to the locus <m>$25x^2 - 36xy + 13y^2 = 4$</m>
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      <d:para>
+        To find the range of values of <m>$\theta \in [0, 2\pi]$</m> for which the point <m>$P(\cos\theta,
+        \sin\theta)$</m> lies strictly inside the triangle, we check the relative position of the point with
+        respect to the three lines <m>$L_1 \equiv x + y - 2 = 0$</m>, <m>$L_2 \equiv x - y - 1 = 0$</m>, and
+        <m>$L_3 \equiv 6x + 2y - \sqrt{10} = 0$</m>.
+      </d:para>
+      <d:para>
+        An interior point must satisfy a uniform sign criteria across each bounding line. By testing the
+        relative positions of the opposite vertices, we establish that any point <m>$(x, y)$</m> inside the
+        triangle must satisfy the system of inequalities <m>$x + y - 2 &lt; 0$</m>, <m>$x - y - 1 &lt;
+        0$</m>, and <m>$6x + 2y - \sqrt{10} > 0$</m>.
+      </d:para>
+      <d:para>
+        Evaluating the first condition for <m>$P(\cos\theta, \sin\theta)$</m> gives <m>$\cos\theta +
+        \sin\theta - 2  0$</m>, which simplifies to <m>$6\cos\theta + 2\sin\theta > \sqrt{10}$</m>. Dividing
+        the entire inequality by <m>$\sqrt{6^2 + 2^2} = 2\sqrt{10}$</m> yields
+        <m>$\frac{3}{\sqrt{10}}\cos\theta + \frac{1}{\sqrt{10}}\sin\theta > \frac{1}{2}$</m>. Letting
+        <m>$\phi = \tan^{-1}\left(\frac{1}{3}\right)$</m> allows us to express the relation as a cosine
+        difference formula <m>$\cos(\theta - \phi) > \frac{1}{2}$</m>. This means <m>$-\frac{\pi}{3} &lt;
+        \theta - \phi &lt; \frac{\pi}{3}$</m>, which gives the range <m>$\phi - \frac{\pi}{3} &lt; \theta
+        &lt; \phi + \frac{\pi}{3}$</m>.
+      </d:para>
+      <d:para>
+        To find the common solution, we intersect the open intervals <m>$0 &lt; \theta &lt;
+        \frac{3\pi}{2}$</m> and <m>$\tan^{-1}\left(\frac{1}{3}\right) - \frac{\pi}{3} &lt; \theta &lt;
+        \tan^{-1}\left(\frac{1}{3}\right) + \frac{\pi}{3}$</m>. Because
+        <m>$\tan^{-1}\left(\frac{1}{3}\right)$</m> is roughly <m>$0.322$</m> radians, the lower bound is
+        negative and becomes limited by the physical domain restriction <m>$\theta > 0$</m>. The upper bound
+        is thus restricted to <m>$\theta &lt; \tan^{-1}\left(\frac{1}{3}\right) + \frac{\pi}{3}$</m>.
+      </d:para>
+      <d:para>
+        Using the complementary inverse trigonometric identity, we know that
+        <m>$\tan^{-1}\left(\frac{1}{3}\right) = \cot^{-1}(3) = \frac{\pi}{2} - \tan^{-1}3$</m>. Substituting
+        this into our upper limit transforms the inequality into <m>$\theta &lt; \left(\frac{\pi}{2} -
+        \tan^{-1}3\right) + \frac{\pi}{3}$</m>. Adding the fraction terms <m>$\frac{\pi}{2} +
+        \frac{\pi}{3}$</m> yields <m>$\frac{5\pi}{6}$</m>. Therefore, the final combined range for the
+        moving point to remain inside the triangle is <m>$0 &lt; \theta &lt; \frac{5\pi}{6} -
+        \tan^{-1}3$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <d:para>
+        Let the fixed points <m>$A$</m> and <m>$B$</m> on the coordinate axes be <m>$A(a, 0)$</m> and
+        <m>$B(0, b)$</m>. Let the variable points <m>$A'$</m> and <m>$B'$</m> on the same axes be <m>$A'(a',
+        0)$</m> and <m>$B'(0, b')$</m>. The given condition is <m>$OA' + OB' = OA + OB$</m>, which means
+        <m>$a' + b' = a + b$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be the point of intersection of the lines <m>$AB'$</m> and <m>$A'B$</m>. The
+        line <m>$AB'$</m> passes through <m>$A(a, 0)$</m> and <m>$B'(0, b')$</m>, so its equation in
+        intercept form is <m>$\frac{x}{a} + \frac{y}{b'} = 1$</m>. This can be rewritten to express
+        <m>$b'$</m> in terms of <m>$x$</m> and <m>$y$</m> as <m>$\frac{y}{b'} = 1 - \frac{x}{a} = \frac{a -
+        x}{a}$</m>, which gives <m>$b' = \frac{ay}{a - x}$</m>.
+      </d:para>
+      <d:para>
+        Similarly, the line <m>$A'B$</m> passes through <m>$A'(a', 0)$</m> and <m>$B(0, b)$</m>, so its
+        equation in intercept form is <m>$\frac{x}{a'} + \frac{y}{b} = 1$</m>. This can be rewritten to
+        express <m>$a'$</m> in terms of <m>$x$</m> and <m>$y$</m> as <m>$\frac{x}{a'} = 1 - \frac{y}{b} =
+        \frac{b - y}{b}$</m>, which gives <m>$a' = \frac{bx}{b - y}$</m>.
+      </d:para>
+      <d:para>
+        Substituting these expressions for <m>$a'$</m> and <m>$b'$</m> into the condition <m>$a' + b' = a +
+        b$</m> yields <m>$\frac{bx}{b - y} + \frac{ay}{a - x} = a + b$</m>.
+      </d:para>
+      <d:para>
+        To simplify, we bring all terms to one side and combine them over a common denominator
+        <m>$\frac{bx(a - x) + ay(b - y) - (a + b)(a - x)(b - y)}{(a - x)(b - y)} = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding the terms in the numerator gives <m>$abx - bx^2 + aby - ay^2 - (a + b)(ab - ax - by + xy)
+        = 0\implies abx - bx^2 + aby - ay^2 - (a^2b - a^2x - aby + axy + ab^2 - abx - b^2y + bxy) =
+        0\implies bx^2 + ay^2 + (a + b)xy - (a^2 + 2ab)x - (b^2 + 2ab)y + ab(a + b) = 0$</m>
+      </d:para>
+      <d:para>
+        This algebraic expression can be completely factored into two linear components <m>$(bx + ay - ab)(x
+        + y - a - b) = 0$</m>
+      </d:para>
+      <d:para>
+        The first factor <m>$bx + ay - ab = 0$</m> represents the fixed line <m>$AB$</m> joining the
+        original points. Since <m>$A'$</m> and <m>$B'$</m> are variable points, the true locus of their
+        changing intersection point <m>$P$</m> is given by the second factor.
+      </d:para>
+      <d:para>
+        Therefore, the locus of the point of intersection is the straight line <m>$x + y - a - b = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      <d:para>
+        Let the given perpendicular bisector of <m>$AC$</m> be denoted as <m>$L_{AC}: 3x - 2y + 8 =
+        0$</m>. The coordinates of vertex <m>$A$</m> are <m>$(1, -1)$</m> and vertex <m>$B$</m> are <m>$(3,
+        1)$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$C(x_C, y_C)$</m> is the reflection of <m>$A(1, -1)$</m> across the perpendicular bisector
+        line <m>$L_{AC}$</m>, we use the standard coordinate reflection formula to get <m>$\frac{x_C - 1}{3}
+        = \frac{y_C - (-1)}{-2} = -2 \frac{3(1) - 2(-1) + 8}{3^2 + (-2)^2}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the right-hand fraction gives <m>$-2 \frac{3 + 2 + 8}{9 + 4} = -2 \frac{13}{13} =
+        -2$</m>.
+      </d:para>
+      <d:para>
+        Solving for the coordinates of vertex <m>$C$</m> we get <m>$\frac{x_C - 1}{3} = -2 \implies x_C - 1
+        = -6 \implies x_C = -5$</m> and <m>$\frac{y_C + 1}{-2} = -2 \implies y_C + 1 = 4 \implies y_C =
+        3$</m>. Thus, the coordinates of vertex <m>$C$</m> are <m>$(-5, 3)$</m>.
+      </d:para>
+      <d:para>
+        The line <m>$BC$</m> passes through <m>$B(3, 1)$</m> and <m>$C(-5, 3)$</m>. The slope of <m>$BC$</m>
+        is given by <m>$m = \frac{3 - 1}{-5 - 3} = \frac{2}{-8} = -\frac{1}{4}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line <m>$BC$</m> using point-slope form with vertex <m>$B(3,1)$</m> is <m>$y - 1
+        = -\frac{1}{4}(x - 3) \implies 4(y - 1) = -x + 3 \implies x + 4y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the circumcenter <m>$O(h, k)$</m> of <m>$\triangle ABC$</m>, we need the intersection of two
+        perpendicular bisectors. We are already given <m>$L_{AC}: 3x - 2y + 8 = 0$</m>. Now we find the
+        perpendicular bisector of <m>$AB$</m>, denoted as <m>$L_{AB}$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of segment <m>$AB$</m> connecting <m>$A(1, -1)$</m> and <m>$B(3, 1)$</m> is <m>$M_{AB}
+        = \left(\frac{1 + 3}{2}, \frac{-1 + 1}{2}\right) = (2, 0)$</m>.
+      </d:para>
+      <d:para>
+        The slope of the segment <m>$AB$</m> is <m>$m_{AB} = \frac{1 - (-1)}{3 - 1} = \frac{2}{2} =
+        1$</m>. The slope of the line perpendicular to <m>$AB$</m> is <m>$m_{\perp} = -1$</m>. The equation
+        of the perpendicular bisector <m>$L_{AB}$</m> passing through <m>$M_{AB}(2, 0)$</m> is <m>$y - 0 =
+        -1(x - 2) \implies x + y - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The circumcenter <m>$O(h, k)$</m> is the point of intersection of <m>$L_{AC}$</m> and
+        <m>$L_{AB}$</m>. We solve the system 1) <m>$3x - 2y + 8 = 0$</m> 2) <m>$x + y - 2 = 0 \implies y = 2
+        - x$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$y = 2 - x$</m> into the first equation yields <m>$3x - 2(2 - x) + 8 = 0 \implies 3x
+        - 4 + 2x + 8 = 0\implies 5x + 4 = 0 \implies x = -\frac{4}{5}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x = -\frac{4}{5}$</m> back into the expression for <m>$y$</m> we get <m>$y = 2 -
+        \left(-\frac{4}{5}\right) = 2 + \frac{4}{5} = \frac{14}{5}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the line <m>$BC$</m> is <m>$x + y = 2$</m> and the center of the
+        circumcircle is <m>$\left(-\frac{4}{5}, \frac{14}{5}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      <d:para>
+        Let the required straight line intersect the line <m>$L_1: 5x - y - 4 = 0$</m> at the point
+        <m>$P(x_1, y_1)$</m> and the line <m>$L_2: 3x + 4y - 4 = 0$</m> at the point <m>$Q(x_2, y_2)$</m>.
+      </d:para>
+      <d:para>
+        Since the segment <m>$PQ$</m> is bisected at the point <m>$M(1, 5)$</m>, <m>$M$</m> is the midpoint
+        of <m>$PQ$</m>. By the midpoint formula <m>$\frac{x_1 + x_2}{2} = 1 \implies x_2 = 2 - x_1$</m> and
+        <m>$\frac{y_1 + y_2}{2} = 5 \implies y_2 = 10 - y_1$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$P(x_1, y_1)$</m> lies on the line <m>$L_1$</m>, its coordinates satisfy the equation
+        <m>$5x_1 - y_1 - 4 = 0 \implies y_1 = 5x_1 - 4$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$Q(x_2, y_2)$</m> lies on the line <m>$L_2$</m>, its coordinates satisfy the equation
+        <m>$3x_2 + 4y_2 - 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting the expressions for <m>$x_2$</m> and <m>$y_2$</m> into the equation of <m>$L_2$</m>
+        gives <m>$3(2 - x_1) + 4(10 - y_1) - 4 = 0\implies 6 - 3x_1 + 40 - 4y_1 - 4 = 0 \implies 42 - 3x_1 -
+        4y_1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Now, substitute <m>$y_1 = 5x_1 - 4$</m> into this relation to find <m>$x_1$</m> to get <m>$42 - 3x_1
+        - 4(5x_1 - 4) = 0 \implies x_1 = \frac{58}{23}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$x_1 = \frac{58}{23}$</m> back into the expression for <m>$y_1$</m> we get <m>$y_1 =
+        5\left(\frac{58}{23}\right) - 4 = \frac{290 - 92}{23} = \frac{198}{23}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the point of intersection <m>$P$</m> is <m>$\left(\frac{58}{23}, \frac{198}{23}\right)$</m>.
+      </d:para>
+      <d:para>
+        The required line passes through the midpoint <m>$M(1, 5)$</m> and the point
+        <m>$P\left(\frac{58}{23}, \frac{198}{23}\right)$</m>. The slope <m>$m$</m> of this line is <m>$m =
+        \frac{\frac{198}{23} - 5}{\frac{58}{23} - 1} = \frac{\frac{198 - 115}{23}}{\frac{58 - 23}{23}} =
+        \frac{83}{35}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the line passing through <m>$M(1, 5)$</m> with slope <m>$\frac{83}{35}$</m> is <m>$y
+        - 5 = \frac{83}{35}(x - 1)\implies 35(y - 5) = 83(x - 1) \implies 35y - 175 = 83x - 83$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms into standard form yields <m>$83x - 35y + 92 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      <d:para>
+        Let the given line be <m>$7x + 5y = 35$</m>. To find the intercepts made by this line on the
+        coordinate axes, we set <m>$y = 0$</m> and <m>$x = 0$</m> respectively. When <m>$y = 0$, $7x = 35
+        \implies x = 5$</m>, giving the first vertex <m>$A(5, 0)$</m>. When <m>$x = 0$, $5y = 35 \implies y
+        = 7$</m>, giving the second vertex <m>$B(0, 7)$</m>.
+      </d:para>
+      <d:para>
+        The line segment <m>$AB$</m> represents one diagonal of the square. In a square, the two diagonals
+        are perpendicular, equal in length, and bisect each other at their common midpoint <m>$M(x_0,
+        y_0)$</m>.
+      </d:para>
+      <d:para>
+        Using the midpoint formula for <m>$A(5, 0)$</m> and <m>$B(0, 7)$</m> gives us <m>$x_0 = \frac{5 +
+        0}{2} = \frac{5}{2}$</m> and <m>$y_0 = \frac{0 + 7}{2} = \frac{7}{2}$</m>.
+      </d:para>
+      <d:para>
+        The length of diagonal <m>$AB$</m> is calculated using the distance formula <m>$|AB| = \sqrt{(5 -
+        0)^2 + (0 - 7)^2} = \sqrt{25 + 49} = \sqrt{74}$</m>.
+      </d:para>
+      <d:para>
+        The half-length of the diagonal is the distance <m>$r$</m> from the midpoint <m>$M$</m> to any
+        extremity of the other diagonal <m>$r = \frac{|AB|}{2} = \frac{\sqrt{74}}{2}$</m>.
+      </d:para>
+      <d:para>
+        The slope of the given diagonal <m>$AB$</m> is <m>$m_1 = \frac{7 - 0}{0 - 5} =
+        -\frac{7}{5}$</m>. Since the second diagonal is perpendicular to <m>$AB$</m>, its slope <m>$m_2$</m>
+        satisfies <m>$m_1 \cdot m_2 = -1$</m>, therefore, <m>$\left(-\frac{7}{5}\right) \cdot m_2 = -1
+        \implies m_2 = \frac{5}{7}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$\theta$</m> be the angle of inclination of the second diagonal, so <m>$\tan\theta =
+        \frac{5}{7}$</m>. From this, we find the trigonometric components <m>$\sin\theta =
+        \frac{5}{\sqrt{5^2 + 7^2}} = \frac{5}{\sqrt{74}}$</m> and <m>$\cos\theta = \frac{7}{\sqrt{5^2 +
+        7^2}} = \frac{7}{\sqrt{74}}$</m>.
+      </d:para>
+      <d:para>
+        Using the parametric form of a straight line, the coordinates of the extremities at a distance
+        <m>$r$</m> from <m>$M(x_0, y_0)$</m> are given by <m>$x = x_0 \pm r\cos\theta$</m> and <m>$y = y_0
+        \pm r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting the values into the parametric equations <m>$x = \frac{5}{2} \pm
+        \left(\frac{\sqrt{74}}{2}\right)\left(\frac{7}{\sqrt{74}}\right) = \frac{5}{2} \pm \frac{7}{2}$</m>
+        and <m>$y = \frac{7}{2} \pm \left(\frac{\sqrt{74}}{2}\right)\left(\frac{5}{\sqrt{74}}\right) =
+        \frac{7}{2} \pm \frac{5}{2}$</m>.
+      </d:para>
+      <d:para>
+        Taking the positive sign yields the first extremity <m>$x = \frac{5 + 7}{2} = 6\implies y = \frac{7
+        + 5}{2} = 6$</m>. This gives the point <m>$(6, 6)$</m>.
+      </d:para>
+      <d:para>
+        Taking the negative sign yields the second extremity <m>$x = \frac{5 - 7}{2} = -1$</m> and <m>$y =
+        \frac{7 - 5}{2} = 1$</m>. This gives the point <m>$(-1, 1)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 41 -->
+      <d:para>
+        Let the variable line <m>$L$</m> passing through <m>$B(2, 5)$</m> make an angle <m>$\theta$</m> with
+        the positive <m>$x$</m>-axis. The equation of this line in parametric polar form is given by
+        <m>$\frac{x - 2}{\cos\theta} = \frac{y - 5}{\sin\theta} = r$</m>.
+      </d:para>
+      <d:para>
+        Any point on this line at a distance <m>$r$</m> from <m>$B(2, 5)$</m> has the coordinates <m>$(x, y)
+        = (2 + r\cos\theta, 5 + r\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        The line <m>$L$</m> intersects the pair of straight lines given by the homogeneous equation <m>$2x^2
+        - 5xy + 2y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the distances from <m>$B$</m> to the intersection points <m>$P$</m> and <m>$Q$</m>, we
+        substitute the coordinates of the general point into the pair of straight lines equation to get
+        <m>$2(2 + r\cos\theta)^2 - 5(2 + r\cos\theta)(5 + r\sin\theta) + 2(5 + r\sin\theta)^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding each term individually guves <m>$2(4 + 4r\cos\theta + r^2\cos^2\theta) = 8 + 8r\cos\theta
+        + 2r^2\cos^2\theta\implies -5(10 + 2r\sin\theta + 5r\cos\theta + r^2\cos\theta\sin\theta) = -50 -
+        10r\sin\theta - 25r\cos\theta - 5r^2\cos\theta\sin\theta\implies 2(25 + 10r\sin\theta +
+        r^2\sin^2\theta) = 50 + 20r\sin\theta + 2r^2\sin^2\theta$</m>.
+      </d:para>
+      <d:para>
+        Combining these expanded components gives a quadratic equation in terms of <m>$r$</m> yields
+        <m>$(2\cos^2\theta - 5\cos\theta\sin\theta + 2\sin^2\theta)r^2 + (8\cos\theta - 25\cos\theta -
+        10\sin\theta + 20\sin\theta)r + (8 - 50 + 50) = 0\implies (2\cos^2\theta - 5\cos\theta\sin\theta +
+        2\sin^2\theta)r^2 + (10\sin\theta - 17\cos\theta)r + 8 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the roots of this quadratic equation be <m>$r_1$</m> and <m>$r_2$</m>, which correspond to the
+        directed distances <m>$BP$</m> and <m>$BQ$</m> respectively. By Vieta's formulas, we find the sum
+        and product of the roots <m>$r_1 + r_2 = -\frac{10\sin\theta - 17\cos\theta}{2\cos^2\theta -
+        5\cos\theta\sin\theta + 2\sin^2\theta}$</m> and <m>$r_1 r_2 = \frac{8}{2\cos^2\theta -
+        5\cos\theta\sin\theta + 2\sin^2\theta}$</m>.
+      </d:para>
+      <d:para>
+        Let the point <m>$R(h, k)$</m> lie on the line <m>$L$</m> at a distance <m>$r$</m> from <m>$B(2,
+        5)$</m>. We are given that the distances <m>$BP$</m>, <m>$BR$</m>, and <m>$BQ$</m> are in Harmonic
+        Progression (H.P.), which means <m>$r_1$</m>, <m>$r$</m>, and <m>$r_2$</m> are in
+        H.P. i.e. <m>$\frac{2}{r} = \frac{1}{r_1} + \frac{1}{r_2} \implies \frac{2}{r} = \frac{r_1 +
+        r_2}{r_1 r_2}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the expressions for the sum and product of the roots into this relationship yields
+        <m>$\frac{2}{r} = \frac{-(10\sin\theta - 17\cos\theta)}{8}\implies \frac{2}{r} = \frac{17\cos\theta
+        - 10\sin\theta}{8} \implies 17(r\cos\theta) - 10(r\sin\theta) = 16$</m>.
+      </d:para>
+      <d:para>
+        From the initial parametric polar definition of the line <m>$L$</m>, we know that <m>$h - 2 =
+        r\cos\theta$</m> and <m>$k - 5 = r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Substituting these back into the expression eliminates the angular parameter <m>$\theta$</m> yields
+        <m>$17(h - 2) - 10(k - 5) = 16\implies 17h - 34 - 10k + 50 = 16\implies 17h - 10k + 16 = 16 \implies
+        17h - 10k = 0$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$(h, k)$</m> with standard <m>$(x, y)$</m> coordinates gives the locus as
+        equation <m>$17x - 10y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 42 -->
+      <d:para>
+        Let the coordinates of the fixed point <m>$P$</m> not on the curve be <m>$(x_1, y_1)$</m>. Let a
+        variable line drawn from <m>$P$</m> make an angle <m>$\theta$</m> with the positive
+        <m>$x$</m>-axis. The parametric equations of this line are given by <m>$\frac{x - x_1}{\cos\theta} =
+        \frac{y - y_1}{\sin\theta} = r$</m>, which means any point on this line at a distance <m>$r$</m>
+        from <m>$P$</m> has the coordinates <m>$(x_1 + r\cos\theta, y_1 + r\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        The line intersects the given curve <m>$ax^2 + 2hxy + by^2 = 1$</m> at the points <m>$Q$</m> and
+        <m>$R$</m>. Substituting the coordinates of the variable point into the equation of the curve gives
+        <m>$a(x_1 + r\cos\theta)^2 + 2h(x_1 + r\cos\theta)(y_1 + r\sin\theta) + b(y_1 + r\sin\theta)^2 =
+        1$</m>.
+      </d:para>
+      <d:para>
+        Expanding each term and collecting the powers of <m>$r$</m> yields a quadratic equation in
+        <m>$r$</m> i.e. <m>$r^2(a\cos^2\theta + 2h\cos\theta\sin\theta + b\sin^2\theta) + 2r(ax_1\cos\theta
+        + hx_1\sin\theta + hy_1\cos\theta + by_1\sin\theta) + (ax_1^2 + 2hx_1y_1 + by_1^2 - 1) = 0$</m>
+      </d:para>
+      <d:para>
+        The roots of this quadratic equation, say <m>$r_1$</m> and <m>$r_2$</m>, represent the directed
+        distances <m>$PQ$</m> and <m>$PR$</m> from the point <m>$P$</m> to the intersection points
+        <m>$Q$</m> and <m>$R$</m>. By Vieta's formulas, the product of the roots is given by the ratio of
+        the constant term to the leading coefficient <m>$PQ \cdot PR = r_1 r_2 = \frac{ax_1^2 + 2hx_1y_1 +
+        by_1^2 - 1}{a\cos^2\theta + 2h\cos\theta\sin\theta + b\sin^2\theta}$</m>.
+      </d:para>
+      <d:para>
+        We are given that the product <m>$PQ \cdot PR$</m> is independent of the slope of the line, which
+        implies it is independent of the angle <m>$\theta$</m>. Since <m>$P(x_1, y_1)$</m> is a fixed point
+        not lying on the curve, the numerator <m>$ax_1^2 + 2hx_1y_1 + by_1^2 - 1$</m> is a non-zero
+        constant. For the entire fraction to be independent of <m>$\theta$</m>, the denominator
+        <m>$a\cos^2\theta + 2h\cos\theta\sin\theta + b\sin^2\theta$</m> must also be a constant independent
+        of <m>$\theta$</m>.
+      </d:para>
+      <d:para>
+        Using double-angle trigonometric identities, we rewrite the denominator expression as
+        <m>$a\left(\frac{1 + \cos 2\theta}{2}\right) + h\sin 2\theta + b\left(\frac{1 - \cos
+        2\theta}{2}\right)$</m>, which simplifies to <m>$\left(\frac{a + b}{2}\right) + \left(\frac{a -
+        b}{2}\right)\cos 2\theta + h\sin 2\theta$</m>.
+      </d:para>
+      <d:para>
+        For this expression to remain constant for all values of <m>$\theta$</m>, the coefficients of the
+        variable terms <m>$\cos 2\theta$</m> and <m>$\sin 2\theta$</m> must vanish identically. This
+        requirement yields the two conditions <m>$\frac{a - b}{2} = 0 \implies a = b$</m> and <m>$h =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$a = b$</m> and <m>$h = 0$</m> back into the original second-degree equation of the
+        curve gives <m>$ax^2 + ay^2 = 1$</m>, which can be rewritten as <m>$x^2 + y^2 =
+        \frac{1}{a}$</m>. This is the standard Cartesian equation of a circle centered at the origin,
+        proving that the curve is a circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 43 -->
+      <d:para>
+        To find the value of <m>$a$</m> for which the three lines <m>$x + y = 2$</m>, <m>$2x - 3y = 7$</m>,
+        and <m>$3x + 2y = a$</m> concur, we first determine the unique point of intersection of the first
+        two lines and then substitute those coordinates into the third line.
+      </d:para>
+      <d:para>
+        We start with the first two line equations, which are <m>$x + y = 2$</m> and <m>$2x - 3y =
+        7$</m>. Rearranging the first equation gives <m>$y = 2 - x$</m>. Substituting this expression for
+        <m>$y$</m> into the second equation yields <m>$2x - 3(2 - x) = 7$</m>. Expanding and simplifying
+        this linear equation results in <m>$2x - 6 + 3x = 7$</m>, which combines to <m>$5x = 13$</m> and
+        gives <m>$x = \frac{13}{5}$</m>. Substituting this value of <m>$x$</m> back into the expression for
+        <m>$y$</m> gives <m>$y = 2 - \frac{13}{5} = -\frac{3}{5}$</m>. Therefore, the point of intersection
+        of the first two lines is <m>$\left(\frac{13}{5}, -\frac{3}{5}\right)$</m>.
+      </d:para>
+      <d:para>
+        For the three straight lines to be concurrent, this common point of intersection must also satisfy
+        the equation of the third line <m>$3x + 2y = a$</m>. Substituting the coordinates <m>$x =
+        \frac{13}{5}$</m> and <m>$y = -\frac{3}{5}$</m> into the third line equation yields
+        <m>$3\left(\frac{13}{5}\right) + 2\left(-\frac{3}{5}\right) = a$</m>. Simplifying the fraction
+        values on the left side gives <m>$\frac{39}{5} - \frac{6}{5} = a$</m>, which reduces directly to
+        <m>$a = \frac{33}{5}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 44 -->
+      <d:para>
+        Let the given vertex of the equilateral triangle be <m>$A(2, 3)$</m>, and let the opposite side line
+        be <m>$BC: x + y = 2$</m>. The slope of the line <m>$BC$</m> is <m>$m_0 = -1$</m>.
+      </d:para>
+      <d:para>
+        In an equilateral triangle, each of the other two sides (<m>$AB$</m> and <m>$AC$</m>) passes through
+        the vertex <m>$A(2, 3)$</m> and makes an interior angle of <m>$60^\circ$</m> with the opposite side
+        <m>$BC$</m>. Let the slope of one of these required sides be <m>$m$</m>.
+      </d:para>
+      <d:para>
+        Using the formula for the angle between two straight lines, we have <m>$\tan 60^\circ = \left|
+        \frac{m - m_0}{1 + m m_0} \right|$</m>. Since <m>$\tan 60^\circ = \sqrt{3}$ and $m_0 = -1$</m>,
+        substituting these values yields <m>$\sqrt{3} = \left| \frac{m - (-1)}{1 + m(-1)} \right| = \left|
+        \frac{m + 1}{1 - m} \right|$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides of this equation to remove the absolute value gives <m>$3 = \frac{(m + 1)^2}{(1
+        - m)^2}$</m>. Multiplying across to clear the fraction leads to <m>$3(1 - 2m + m^2) = m^2 + 2m +
+        1$</m>, which expands to <m>$3 - 6m + 3m^2 = m^2 + 2m + 1$</m>. Bringing all terms to one side of
+        the equation yields the quadratic equation <m>$2m^2 - 8m + 2 = 0$</m>, which simplifies to <m>$m^2 -
+        4m + 1 = 0$</m> upon dividing by <m>$2$</m>.
+      </d:para>
+      <d:para>
+        We solve this quadratic equation using the quadratic formula <d:sbr/><m>$m = \frac{-(-4) \pm \sqrt{(-4)^2 -
+        4(1)(1)}}{2(1)} = \frac{4 \pm \sqrt{12}}{2} = \frac{4 \pm 2\sqrt{3}}{2} = 2 \pm \sqrt{3}$</m>. This
+        gives the two possible slopes for the remaining sides as <m>$m = 2 + \sqrt{3}$ and $m = 2 -
+        \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        Choosing one of these slopes, say <m>$m = 2 + \sqrt{3}$</m>, the equation of the side passing
+        through <m>$A(2, 3)$ is $y - 3 = (2 + \sqrt{3})(x - 2)$</m>. Expanding and rearranging the terms
+        into standard form results in <m>$(2 + \sqrt{3})x - y + (3 - 4 - 2\sqrt{3}) = 0$</m>, which
+        simplifies to <m>$(2 + \sqrt{3})x - y - (1 + 2\sqrt{3}) = 0$</m>.
+      </d:para>
+      <d:para>
+        Alternatively, choosing the second slope <m>$m = 2 - \sqrt{3}$</m>, the equation of the other side
+        passing through <m>$A(2, 3)$ is $y - 3 = (2 - \sqrt{3})(x - 2)$</m>. Expanding and rearranging the
+        terms into standard form results in <m>$(2 - \sqrt{3})x - y + (3 - 4 + 2\sqrt{3}) = 0$</m>, which
+        simplifies to <m>$(2 - \sqrt{3})x - y - (1 - 2\sqrt{3}) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 45 -->
+      <d:para>
+        To find the area of the region <m>$R$</m>, we first determine the geometric properties of the given
+        triangle with vertices <m>$O(0, 0)$</m>, <m>$A(2, 0)$</m>, and <m>$B\left(1,
+        \frac{1}{\sqrt{3}}\right)$</m>. We compute the lengths of the three sides using the standard
+        distance formula. The length of the base side <m>$OA$</m> along the <m>$x$</m>-axis is
+        <m>$2$</m>. The length of the side <m>$OB$</m> is <m>$\sqrt{1^2 + \left(\frac{1}{\sqrt{3}}\right)^2}
+        = \sqrt{1 + \frac{1}{3}} = \frac{2}{\sqrt{3}}$</m>. The length of the side <m>$AB$</m> is
+        <m>$\sqrt{(1 - 2)^2 + \left(\frac{1}{\sqrt{3}}\right)^2} = \sqrt{1 + \frac{1}{3}} =
+        \frac{2}{\sqrt{3}}$</m>. Since the lengths <m>$OB$</m> and <m>$AB$</m> are equal, the triangle
+        <m>$OAB$</m> is an isosceles triangle.
+      </d:para>
+      <d:para>
+        The angle of inclination of the side <m>$OB$</m> is given by
+        <m>$\tan^{-1}\left(\frac{1/\sqrt{3}}{1}\right) = 30^\circ$</m>, which means the interior angle at
+        the origin <m>$\angle O$</m> is <m>$30^\circ$</m>. Due to the isosceles symmetry of the triangle
+        with respect to the line <m>$x = 1$</m>, the interior angle at vertex <m>$A$</m> is also <m>$\angle
+        A = 30^\circ$</m>.
+      </d:para>
+      <d:para>
+        The boundary condition <m>$d(P, OA) \le \min\{d(P, OB), d(P, AB)\}$</m> requires that the distance
+        from a point <m>$P$</m> to the base line <m>$OA$</m> must be less than or equal to both its distance
+        to <m>$OB$</m> and its distance to <m>$AB$</m>. The locus where <m>$d(P, OA) = d(P, OB)$</m> is the
+        internal angle bisector of <m>$\angle O$</m>. Therefore, the inequality <m>$d(P, OA) \le d(P,
+        OB)$</m> restricts <m>$P$</m> to the region on or below this bisector, which makes an angle of
+        <m>$15^\circ$</m> with <m>$OA$</m>. Similarly, the inequality <m>$d(P, OA) \le d(P, AB)$</m>
+        restricts <m>$P$</m> to the region on or below the internal angle bisector of <m>$\angle A$</m>,
+        which also makes an angle of <m>$15^\circ$</m> with <m>$OA$</m>.
+      </d:para>
+      <d:para>
+        The intersection of these conditions forms a smaller triangle within <m>$\triangle OAB$</m> whose
+        base is the line segment <m>$OA$</m> of length <m>$2$</m> and whose two base angles are both
+        <m>$15^\circ$</m>. Let <m>$h$</m> be the perpendicular height of this smaller triangular region
+        <m>$R$</m> from the base <m>$OA$</m>. Using basic trigonometry on half of the symmetric base, the
+        height is given by <m>$h = \frac{OA}{2} \tan 15^\circ = 1 \cdot (2 - \sqrt{3}) = 2 - \sqrt{3}$</m>.
+      </d:para>
+      <d:para>
+        We calculate the area of the region <m>$R$</m> using the standard formula for the area of a
+        triangle. The area is <m>$\frac{1}{2} \cdot \text{base} \cdot \text{height} = \frac{1}{2} \cdot 2
+        \cdot (2 - \sqrt{3}) = 2 - \sqrt{3}$</m>. Thus, the area of the region <m>$R$</m> is <m>$2 -
+        \sqrt{3}$</m> square units.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 46 -->
+      <d:para>
+        To show that the pair of straight lines joining the origin to the points of intersection of the two
+        curves are at right angles, we can use the method of homogenization.
+      </d:para>
+      <d:para>
+        Let the equations of the two curves be <m>$C_1 \equiv a_1x^2 + 2h_1xy + b_1y^2 + 2g_1x = 0$</m> and
+        <m>$C_2 \equiv a_2x^2 + 2h_2xy + b_2y^2 + 2g_2x = 0$</m>. To eliminate the first-degree term $x$ and
+        obtain a homogeneous second-degree equation representing the lines passing through the origin, we
+        manipulate the linear terms.
+      </d:para>
+      <d:para>
+        From the first curve, we can express the linear part as <m>$2x = -\frac{a_1x^2 + 2h_1xy +
+        b_1y^2}{g_1}$</m>. Similarly, from the second curve, we can express the same linear part as <m>$2x =
+        -\frac{a_2x^2 + 2h_2xy + b_2y^2}{g_2}$</m>. Equating these two expressions for <m>$2x$</m>
+        eliminates the first-degree term and yields a homogeneous equation of degree two.
+      </d:para>
+      <d:para>
+        Equating the two fractions gives <m>$-\frac{a_1x^2 + 2h_1xy + b_1y^2}{g_1} = -\frac{a_2x^2 + 2h_2xy
+        + b_2y^2}{g_2}$</m>. We can cancel out the negative signs on both sides to get <m>$\frac{a_1x^2 +
+        2h_1xy + b_1y^2}{g_1} = \frac{a_2x^2 + 2h_2xy + b_2y^2}{g_2}$</m>.
+      </d:para>
+      <d:para>
+        Cross-multiplying by the denominators <m>$g_1$</m> and <m>$g_2$</m> results in the equation
+        <m>$g_2(a_1x^2 + 2h_1xy + b_1y^2) = g_1(a_2x^2 + 2h_2xy + b_2y^2)$</m>. Expanding the terms on both
+        sides yields <m>$g_2a_1x^2 + 2g_2h_1xy + g_2b_1y^2 = g_1a_2x^2 + 2g_1h_2xy + g_1b_2y^2$</m>.
+      </d:para>
+      <d:para>
+        Rearranging all terms to the left side to write the expression in the standard form <m>$Ax^2 + 2Hxy
+        + By^2 = 0$</m> gives <m>$(g_2a_1 - g_1a_2)x^2 + 2(g_2h_1 - g_1h_2)xy + (g_2b_1 - g_1b_2)y^2 =
+        0$</m>. This homogeneous equation of degree two represents the pair of straight lines joining the
+        origin to the intersection points of the curves.
+      </d:para>
+      <d:para>
+        For any pair of straight lines represented by <m>$Ax^2 + 2Hxy + By^2 = 0$</m> to be at right angles
+        to one another, the condition is that the sum of the coefficients of <m>$x^2$</m> and <m>$y^2$</m>
+        must equal zero, which means <m>$A + B = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coefficients from our derived homogeneous equation gives <m>$(g_2a_1 - g_1a_2) +
+        (g_2b_1 - g_1b_2) = 0$</m>. Grouping the terms with <m>$g_2$</m> together and the terms with
+        <m>$g_1$</m> together gives <m>$g_2(a_1 + b_1) - g_1(a_2 + b_2) = 0$</m>. Rearranging this equation
+        leads to the required condition <m>$g_2(a_1 + b_1) = g_1(a_2 + b_2)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 47 -->
+      <d:para>
+        The given second-degree equation is <m>$12x^2 + 7xy - py^2 - 18x + qy + 6 = 0$</m>. Comparing this
+        with the general equation of a second-degree curve <m>$ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$</m>,
+        we find the coefficients to be <m>$a = 12$</m>, <m>$2h = 7 \implies h = \frac{7}{2}$</m>, <m>$b =
+        -p$, $2g = -18 \implies g = -9$</m>, <m>$2f = q \implies f = \frac{q}{2}$</m>, and <m>$c = 6$</m>.
+      </d:para>
+      <d:para>
+        Since the equation is given to represent a pair of mutually perpendicular straight lines, we must
+        apply two conditions. The first condition for any pair of lines to be mutually perpendicular is that
+        the sum of the coefficients of <m>$x^2$</m> and <m>$y^2$</m> must equal zero, which is <m>$a + b =
+        0$</m>. Substituting the values of <m>$a$</m> and <m>$b$</m> yields <m>$12 + (-p) = 0$</m>, which
+        gives <m>$p = 12$</m>.
+      </d:para>
+      <d:para>
+        The second condition is that the equation must represent a valid pair of straight lines, meaning its
+        determinant must vanish identically, so <m>$\Delta = abc + 2fgh - af^2 - bg^2 - ch^2 =
+        0$</m>. Substituting <m>$p = 12$</m> gives <m>$b = -12$</m>. Now, we substitute all the known
+        coefficients into the determinant equation.
+      </d:para>
+      <d:para>
+        This yields <m>$(12)(-12)(6) + 2\left(\frac{q}{2}\right)(-9)\left(\frac{7}{2}\right) -
+        12\left(\frac{q}{2}\right)^2 - (-12)(-9)^2 - 6\left(\frac{7}{2}\right)^2 = 0$</m>. Simplifying each
+        individual term in the expression gives <m>$-864 - \frac{63q}{2} - 3q^2 + 12(81) -
+        6\left(\frac{49}{4}\right) = 0$</m>.
+      </d:para>
+      <d:para>
+        Further evaluation of the constant terms results in <m>$-864 - \frac{63q}{2} - 3q^2 + 972 -
+        \frac{147}{2} = 0$</m>, which simplifies to <m>$-3q^2 - \frac{63q}{2} + 108 - \frac{147}{2} =
+        0$</m>. Combining the remaining fractional constants gives <m>$108 - \frac{147}{2} = \frac{216 -
+        147}{2} = \frac{69}{2}$</m>. The equation becomes <m>$-3q^2 - \frac{63q}{2} + \frac{69}{2} = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$-2$</m> to eliminate fractions and clear the negative leading
+        coefficient yields <m>$6q^2 + 63q - 69 = 0$</m>. Dividing the equation by <m>$3$</m> simplifies it
+        to the quadratic equation <m>$2q^2 + 21q - 23 = 0$</m>. This can be easily factored by splitting the
+        middle term into <m>$2q^2 + 23q - 2q - 23 = 0$</m>, which groups to <m>$q(2q + 23) - 1(2q + 23) =
+        0$</m>, giving <m>$(2q + 23)(q - 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        This produces two possible solutions for <m>$q$</m>, which are <m>$q = 1$</m> or <m>$q =
+        -\frac{23}{2}$</m>. Therefore, the required values are <m>$p = 12$</m> along with either <m>$q =
+        1$</m> or <m>$q = -\frac{23}{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 48 -->
+      <d:para>
+        To find the coordinates of this fixed point, we first determine the equation of the family of
+        circles passing through the two fixed points <m>$A(3, 7)$</m> and <m>$B(6, 5)$</m>. The equation of
+        the straight line passing through <m>$A$</m> and <m>$B$</m> is found by calculating its slope, which
+        is <m>$m = \frac{5 - 7}{6 - 3} = -\frac{2}{3}$</m>. Using the point-slope form with <m>$A(3,7)$</m>,
+        the equation of the line <m>$AB$ is $y - 7 = -\frac{2}{3}(x - 3)$</m>, which simplifies to <m>$2x +
+        3y - 27 = 0$</m>.
+      </d:para>
+      <d:para>
+        Next, we find a specific circle passing through <m>$A$</m> and <m>$B$</m>, such as the circle
+        described with the segment <m>$AB$</m> as its diameter. Using the diameter form of a circle, its
+        equation is <m>$(x - 3)(x - 6) + (y - 7)(y - 5) = 0$</m>. Expanding and combining terms gives the
+        equation <m>$x^2 + y^2 - 9x - 12y + 53 = 0$</m>.
+      </d:para>
+      <d:para>
+        The general equation for the family of circles passing through the intersection of this circle and
+        the line <m>$AB$</m> is expressed as <m>$S + \lambda L = 0$</m>, which yields <m>$(x^2 + y^2 - 9x -
+        12y + 53) + \lambda(2x + 3y - 27) = 0$</m>. Grouping the terms by variables, the equation of any
+        circle in this family becomes <m>$x^2 + y^2 + (2\lambda - 9)x + (3\lambda - 12)y + (53 - 27\lambda)
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        The given fixed circle is <m>$x^2 + y^2 - 4x - 6y - 3 = 0$</m>. The line joining the common points
+        of intersection between any circle from the variable family and this fixed circle is their radical
+        axis, which is obtained by subtracting the two circle equations. Subtracting the fixed circle from
+        the family equation eliminates the quadratic terms and gives <m>$[(2\lambda - 9) - (-4)]x +
+        [(3\lambda - 12) - (-6)]y + [(53 - 27\lambda) - (-3)] = 0$</m>. Simplifying this expression results
+        in <m>$(2\lambda - 5)x + (3\lambda - 6)y + (56 - 27\lambda) = 0$</m>.
+      </d:para>
+      <d:para>
+        To show that these lines pass through a fixed point for all values of the parameter $\lambda$, we
+        rearrange the equation of the radical axis into the standard form <m>$L_1 + \lambda L_2 =
+        0$</m>. Gathering the constant terms and the coefficients of <m>$\lambda$</m> separately yields
+        <m>$(-5x - 6y + 56) + \lambda(2x + 3y - 27) = 0$</m>. This represents a family of straight lines
+        passing through the intersection of the two component lines <m>$-5x - 6y + 56 = 0$</m>, which is
+        <m>$5x + 6y = 56$</m>, and <m>$2x + 3y - 27 = 0$</m>, which is <m>$2x + 3y = 27$</m>.
+      </d:para>
+      <d:para>
+        We solve this system of linear equations to find the coordinates of the common point. Multiplying
+        the second equation by <m>$2$</m> gives <m>$4x + 6y = 54$</m>. Subtracting this from the first
+        equation <m>$5x + 6y = 56$</m> eliminates <m>$y$</m> and yields <m>$x = 2$</m>. Substituting <m>$x =
+        2$</m> back into the equation <m>$2x + 3y = 27$</m> gives <m>$2(2) + 3y = 27$</m>, which simplifies
+        to <m>$4 + 3y = 27$</m>, leading to <m>$3y = 23$ and $y = \frac{23}{3}$</m>. Therefore, the lines
+        joining the intersection points always pass through the fixed point <m>$\left(2,
+        \frac{23}{3}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 49 -->
+      <d:para>
+        Let the given circle be <m>$C \equiv x^2 + y^2 - a^2 = 0$</m>, which is centered at the origin
+        <m>$O(0, 0)$</m> with a radius of <m>$a$</m>. Tangents <m>$PQ$</m> and <m>$PR$</m> are drawn from
+        the point <m>$P(x_1, y_1)$</m> to touch the circle at the points of contact <m>$Q$</m> and
+        <m>$R$</m>.
+      </d:para>
+      <d:para>
+        By properties of tangents drawn from an external point to a circle, the radius <m>$OQ$</m> is
+        perpendicular to the tangent line <m>$PQ$</m>, making <m>$\angle PQO = 90^\circ$</m>. Similarly, the
+        radius <m>$OR$</m> is perpendicular to the tangent line <m>$PR$</m>, making <m>$\angle PRO =
+        90^\circ$</m>.
+      </d:para>
+      <d:para>
+        Consider the quadrilateral <m>$OQPR$</m>. Since the sum of the opposite angles <m>$\angle PQO +
+        \angle PRO = 90^\circ + 90^\circ = 180^\circ$</m>, the quadrilateral is cyclic. This implies that
+        the unique circumcircle passing through the vertices of <m>$\triangle PQR$</m> must also pass
+        through the origin <m>$O(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        Furthermore, since <m>$\angle PQO = 90^\circ$</m>, the line segment connecting the origin <m>$O(0,
+        0)$</m> and the external point <m>$P(x_1, y_1)$</m> subtends a right angle at vertex
+        <m>$Q$</m>. Therefore, <m>$OP$</m> acts as the diameter of this circumcircle.
+      </d:para>
+      <d:para>
+        Using the standard diameter form equation of a circle with endpoints <m>$(x_A, y_A)$</m> and
+        <m>$(x_B, y_B)$</m>, given by <m>$(x - x_A)(x - x_B) + (y - y_A)(y - y_B) = 0$</m>, we substitute
+        the coordinates of the endpoints <m>$O(0, 0)$</m> and <m>$P(x_1, y_1)$</m>: <m>$(x - 0)(x - x_1) +
+        (y - 0)(y - y_1) = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding and simplifying this expression gives the equation of the locus as <m>$x^2 + y^2 - x_1x -
+        y_1y = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 50 -->
+      <d:para>
+        Let the given circle be <m>$S_1 \equiv x^2 + y^2 - a^2 = 0$</m>, centered at <m>$O(0,0)$</m> with
+        radius <m>$a$</m>. Let <m>$P(x_1, y_1)$</m> be a point on this circle, satisfying <m>$x_1^2 + y_1^2
+        = a^2$</m>.
+      </d:para>
+      <d:para>
+        The intersection points <m>$Q$</m> and <m>$R$</m> lie at a distance <m>$d$</m> from <m>$P(x_1,
+        y_1)$</m>, meaning <m>$PQ = PR = d$</m>. Thus, <m>$Q$</m> and <m>$R$</m> also lie on a second circle
+        centered at <m>$P$</m> with radius <m>$d$</m>. This circle is represented by <m>$S_2 \equiv (x -
+        x_1)^2 + (y - y_1)^2 = d^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding <m>$S_2$</m> yields <m>$x^2 - 2xx_1 + x_1^2 + y^2 - 2yy_1 + y_1^2 = d^2$</m>. Substituting
+        <m>$x_1^2 + y_1^2 = a^2$</m> simplifies the equation to <m>$S_2 \equiv x^2 + y^2 - 2xx_1 - 2yy_1 +
+        a^2 - d^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The straight line passing through <m>$Q$</m> and <m>$R$</m> is the common chord of the two
+        intersecting circles, found by computing the radical axis <m>$S_1 - S_2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Subtracting the two equations gives <m>$(x^2 + y^2 - a^2) - (x^2 + y^2 - 2xx_1 - 2yy_1 + a^2 - d^2)
+        = 0$</m>. Cancelling the quadratic terms yields <m>$2xx_1 + 2yy_1 - 2a^2 + d^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$2$</m> results in the final form <m>$xx_1 + yy_1 - a^2 +
+        \frac{d^2}{2} = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 51 -->
+      <d:para>
+        The combined equation of the two lines is given by <m>$(2x - y + 1)(x - 2y + 3) = 0$</m>. Expanding
+        this product yields the second-degree equation <m>$2x^2 - 5xy + 2y^2 + 7x - 5y + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the points where these lines intersect the coordinate axes, we look at the individual line
+        components. The first line is <m>$2x - y + 1 = 0$</m> and the second line is <m>$x - 2y + 3 =
+        0$</m>. Setting <m>$y = 0$</m> gives the $x$-intercepts <m>$2x + 1 = 0 \implies x =
+        -\frac{1}{2}$</m>, giving <m>$A\left(-\frac{1}{2}, 0\right)$</m> and <m>$x + 3 = 0 \implies x = -3$,
+        giving $B(-3, 0)$</m>.
+      </d:para>
+      <d:para>
+        Setting <m>$x = 0$</m> gives the <m>$y$</m>-intercepts: <m>$-y + 1 = 0 \implies y = 1$, giving $C(0,
+        1)$</m> and <m>$-2y + 3 = 0 \implies y = \frac{3}{2}$</m>, giving <m>$D\left(0,
+        \frac{3}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        To show that these four points lie on a circle, we check the intercept property from the power of a
+        point theorem at the origin. For a curve to be a circle, the product of the intercepts on the
+        <m>$x$</m>-axis must equal the product of the intercepts on the <m>$y$</m>-axis: <m>$OA \cdot OB =
+        \left(-\frac{1}{2}\right)(-3) = \frac{3}{2}$</m> and <m>$OC \cdot OD = (1)\left(\frac{3}{2}\right) =
+        \frac{3}{2}$</m>
+      </d:para>
+      <d:para>
+        Since <m>$OA \cdot OB = OC \cdot OD$</m>, the four points are concyclic and lie on a circle.
+      </d:para>
+      <d:para>
+        Let the general equation of this circle be <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>. The product of
+        the roots for the intercepts gives the constant term <m>$c = \frac{3}{2}$</m>. The sum of the
+        <m>$x$</m>-intercepts satisfies <m>$-2g = x_A + x_B = -\frac{1}{2} - 3 = -\frac{7}{2} \implies g =
+        \frac{7}{4}$</m>. The sum of the <m>$y$</m>-intercepts satisfies <m>$-2f = y_C + y_D = 1 +
+        \frac{3}{2} = \frac{5}{2} \implies f = -\frac{5}{4}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the circle passing through these points is <m>$x^2 + y^2 + \frac{7}{2}x -
+        \frac{5}{2}y + \frac{3}{2} = 0$</m>, which can be cleared of fractions as <m>$2x^2 + 2y^2 + 7x - 5y
+        + 3 = 0$</m>.
+      </d:para>
+      <d:para>
+        The center of the circle is given by <m>$(-g, -f) = \left(-\frac{7}{4}, \frac{5}{4}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 52 -->
+      <d:para>
+        Let the given circle be <m>$S_1 \equiv x^2 + y^2 - 12 = 0$</m>. Let the second intersecting circle
+        be <m>$S_2 \equiv x^2 + y^2 - 5x + 3y - 2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The line passing through the points of intersection of these two curves is their common chord
+        (radical axis), found by computing <m>$S_1 - S_2 = 0$</m> as <m>$(x^2 + y^2 - 12) - (x^2 + y^2 - 5x
+        + 3y - 2) = 0\implies 5x - 3y - 10 = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the point of intersection of the tangents drawn at these common points be <m>$P(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        By definition, the line connecting the points of contact of these tangents is the chord of contact
+        of <m>$P$</m> with respect to the first circle <m>$x^2 + y^2 = 12$</m>. The standard equation of the
+        chord of contact from a point <m>$P(x_1, y_1)$</m> is given by <m>$T = 0$</m> i.e. <m>$xx_1 + yy_1 =
+        12$</m>.
+      </d:para>
+      <d:para>
+        Since the common chord and the chord of contact describe the exact same straight line, their
+        corresponding linear coefficients must be proportional i.e. <m>$\frac{x_1}{5} = \frac{y_1}{-3} =
+        \frac{12}{10}$</m>.
+      </d:para>
+      <d:para>
+        Simplifying the ratio fraction <m>$\frac{12}{10} = \frac{6}{5}$</m>, we solve for the coordinates of
+        <m>$P$</m> to get <m>$\frac{x_1}{5} = \frac{6}{5} \implies x_1 = 6\implies \frac{y_1}{-3} =
+        \frac{6}{5} \implies y_1 = -\frac{18}{5}$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the point of intersection of the tangents is <m>$\left(6, -\frac{18}{5}\right)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 53 -->
+      <d:para>
+        Let the endpoints of the chord be <m>$A(a, b)$</m> and <m>$B(b, -a)$</m>. Since the chord
+        <m>$AB$</m> subtends an angle of <m>$45^\circ$</m> on the major arc, it subtends an angle of <m>$2
+        \times 45^\circ = 90^\circ$</m> at the center <m>$C$</m> of the circle. Thus, <m>$\triangle ACB$</m>
+        is an isosceles right-angled triangle with <m>$CA = CB = R$</m>, where <m>$R$</m> is the radius.
+      </d:para>
+      <d:para>
+        Using the distance formula, the squared chord length is <m>$AB^2 = (b - a)^2 + (-a - b)^2 = 2(a^2 +
+        b^2)$</m>. By the Pythagorean theorem, <m>$AB^2 = CA^2 + CB^2 = 2R^2$</m>. Equating these gives
+        <m>$2R^2 = 2(a^2 + b^2)$, so $R^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        The midpoint of the segment <m>$AB$</m> is <m>$M\left(\frac{a+b}{2}, \frac{b-a}{2}\right)$</m>. The
+        distance from the center <m>$C$</m> to <m>$M$</m> is <m>$CM = \frac{1}{2}AB =
+        \sqrt{\frac{a^2+b^2}{2}}$</m>. The slope of <m>$AB$</m> is <m>$m = \frac{a + b}{a - b}$</m>, so the
+        slope of the perpendicular bisector line <m>$CM$</m> is <m>$-\frac{1}{m} = \frac{b - a}{a + b}$</m>.
+      </d:para>
+      <d:para>
+        Using parametric equations from <m>$M$</m> along the direction of <m>$CM$</m>, the coordinates of
+        the center <m>$C(h, k)$</m> are <m>$h = \frac{a + b}{2} \pm \frac{a + b}{2}$</m> and <m>$k = \frac{b
+        - a}{2} \pm \frac{b - a}{2}$</m>.
+      </d:para>
+      <d:para>
+        Choosing the negative sign yields the first center <m>$C_1(0, 0)$</m>. The equation of this circle
+        is <m>$x^2 + y^2 = a^2 + b^2$</m>.
+      </d:para>
+      <d:para>
+        Choosing the positive sign yields the second center <m>$C_2(a + b, b - a)$</m>. The equation of this
+        circle is <m>$(x - (a + b))^2 + (y - (b - a))^2 = a^2 + b^2$</m>, which expands to <m>$x^2 + y^2 -
+        2(a+b)x - 2(b-a)y + a^2 + b^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 54 -->
+      <d:para>
+        The line equation is <m>$x + y = 5 \implies y = 5 - x$</m>. The circle equation is <m>$x^2 + y^2 -
+        4x + 2y - 11 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$y$</m> into the circle equation yields <m>$x^2 + (5 - x)^2 - 4x + 2(5 - x) - 11 =
+        0$</m>. Expanding this gives <m>$x^2 + 25 - 10x + x^2 - 4x + 10 - 2x - 11 = 0$</m>, which simplifies
+        to <m>$2x^2 - 16x + 24 = 0$</m>. Dividing by <m>$2$</m> results in <m>$x^2 - 8x + 12 = 0$</m>.
+      </d:para>
+      <d:para>
+        Factoring the quadratic equation gives <m>$(x - 2)(x - 6) = 0$</m>, which provides the roots <m>$x =
+        2$</m> and <m>$x = 6$</m>. Substituting these back into <m>$y = 5 - x$</m> gives the intersection
+        points <m>$P(2, 3)$</m> and <m>$Q(6, -1)$</m>.
+      </d:para>
+      <d:para>
+        The length of the intercepted chord <m>$PQ$</m> is computed using the distance formula <m>$\sqrt{(6
+        - 2)^2 + (-1 - 3)^2} = \sqrt{4^2 + (-4)^2} = \sqrt{32} = 4\sqrt{2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 55 -->
+      <d:para>
+        Let the two given circles be <m>$S_1 \equiv x^2 + y^2 - 8x - 2y + 12 = 0$</m> and <m>$S_2 \equiv x^2
+        + y^2 - 5x - y - 6 = 0$</m>.
+      </d:para>
+      <d:para>
+        The line passing through the points of intersection of these two circles is their radical axis,
+        which is found by computing <m>$S_1 - S_2 = 0$</m>. Subtracting the second equation from the first
+        eliminates the quadratic terms and gives <m>$(-8x + 5x) + (-2y + y) + (12 + 6) = 0$</m>, which
+        simplifies to <m>$-3x - y + 18 = 0$</m>, or <m>$y = 18 - 3x$</m>.
+      </d:para>
+      <d:para>
+        To find the intersection points, we substitute this expression for <m>$y$</m> back into the first
+        circle equation <m>$S_1 = 0$</m>, which yields <m>$x^2 + (18 - 3x)^2 - 8x - 2(18 - 3x) + 12 =
+        0$</m>. Expanding the terms gives <m>$x^2 + 324 - 108x + 9x^2 - 8x - 36 + 6x + 12 =
+        0$</m>. Combining the like terms leads to the quadratic equation <m>$10x^2 - 110x + 300 =
+        0$</m>. Dividing the entire equation by <m>$10$</m> simplifies it to <m>$x^2 - 11x + 30 = 0$</m>.
+      </d:para>
+      <d:para>
+        We solve this quadratic equation by factoring the expression into <m>$(x - 5)(x - 6) = 0$</m>, which
+        gives the two roots <m>$x = 5$</m> and <m>$x = 6$</m>. To find the corresponding
+        <m>$y$</m>-coordinates, we substitute these values into the linear relation <m>$y = 18 -
+        3x$</m>. For <m>$x = 5$</m>, we find <m>$y = 18 - 3(5) = 3$</m>, giving the first intersection point
+        <m>$(5, 3)$</m>. For <m>$x = 6$</m>, we find <m>$y = 18 - 3(6) = 0$</m>, giving the second
+        intersection point <m>$(6, 0)$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the coordinates of the points of intersection of the two circles are <m>$(5, 3)$</m> and
+        <m>$(6, 0)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 56 -->
+      <d:para>
+        Let the equilateral triangle be centered at the origin <m>$O(0, 0)$</m>, and let <m>$p$</m> be the
+        perpendicular distance from the center to each side. The equations of the three sides in normal form
+        are <m>$x\cos\alpha_i + y\sin\alpha_i - p = 0$</m>, where the angles are <m>$\alpha_1 = \alpha$</m>,
+        <m>$\alpha_2 = \alpha + \frac{2\pi}{3}$</m>, and <m>$\alpha_3 = \alpha + \frac{4\pi}{3}$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$P(x, y)$</m> be the moving point. The sum of the squares of the perpendicular distances from
+        <m>$P$</m> to the three sides is given as a constant <m>$k^2$</m>: <m>$\sum_{i=1}^3 (x\cos\alpha_i +
+        y\sin\alpha_i - p)^2 = k^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the squares and collecting the terms yields <m>$x^2 \sum \cos^2\alpha_i + y^2 \sum
+        \sin^2\alpha_i + 2xy \sum \cos\alpha_i\sin\alpha_i - 2px \sum \cos\alpha_i - 2py \sum \sin\alpha_i +
+        3p^2 = k^2$</m>.
+      </d:para>
+      <d:para>
+        For angles symmetrically separated by <m>$120^\circ$</m>, we apply standard trigonometric
+        identities: <m>$\sum \cos^2\alpha_i = \frac{3}{2}$, \quad $\sum \sin^2\alpha_i = \frac{3}{2}$</m>
+        and <m>$\sum \cos\alpha_i\sin\alpha_i = 0$, \quad $\sum \cos\alpha_i = 0$, \quad $\sum \sin\alpha_i
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting these values simplifies the relation to <m>$\frac{3}{2}x^2 + \frac{3}{2}y^2 + 3p^2 =
+        k^2$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms into standard form gives the final locus equation <m>$x^2 + y^2 =
+        \frac{2}{3}(k^2 - 3p^2)$</m>.
+      </d:para>
+      <d:para>
+        Since this matches the form <m>$x^2 + y^2 = R^2$</m>, the locus of the moving point is a circle
+        centered at the origin.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 57 -->
+      <d:para>
+        The given equation of the circle is <m>$x^2 + y^2 - 4x - 2y - 11 = 0$</m>. Comparing this with the
+        general circle equation, we find its center <m>$C(h, k) = (2, 1)$</m> and its radius <m>$R =
+        \sqrt{2^2 + 1^2 - (-11)} = \sqrt{4 + 1 + 11} = 4$</m>.
+      </d:para>
+      <d:para>
+        The length of the tangent <m>$L$</m> from the external point <m>$P(4, 5)$</m> to the circle is
+        determined using the power of a point formula <m>$L = \sqrt{x_1^2 + y_1^2 - 4x_1 - 2y_1 -
+        11}$</m>. Substituting the coordinates of <m>$P$</m> yields <m>$L = \sqrt{4^2 + 5^2 - 4(4) - 2(5) -
+        11} = \sqrt{16 + 25 - 16 - 10 - 11} = \sqrt{4} = 2$</m>.
+      </d:para>
+      <d:para>
+        The quadrilateral is formed by the external point <m>$P$</m>, the two points of contact on the
+        circle, and the center <m>$C$</m>. Since the radii joining the center to the points of contact are
+        perpendicular to the tangents, the quadrilateral is composed of two identical right-angled
+        triangles, each having a base equal to the radius <m>$R$</m> and a height equal to the tangent
+        length <m>$L$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the total area of the quadrilateral is given by <m>$2 \times \left(\frac{1}{2} \times R
+        \times L\right) = R \times L$</m>. Substituting the calculated values gives <m>$\text{Area} = 4
+        \times 2 = 8$</m>. Thus, the area of the quadrilateral is <m>$8$</m> square units.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 58 -->
+      <d:para>
+        Let the two fixed points be <m>$A(a, 5a)$</m> and <m>$B(4a, a)$</m>. The equation of the line
+        <m>$AB$</m> is <m>$4x + 3y - 19a = 0$</m>, and the equation of the circle with <m>$AB$</m> as
+        diameter is <m>$x^2 + y^2 - 5ax - 6ay + 9a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        The general equation for the family of circles passing through <m>$A$</m> and <m>$B$</m> is given by
+        <m>$x^2 + y^2 - 5ax - 6ay + 9a^2 + \lambda(4x + 3y - 19a) = 0$</m>. Rearranging the terms, this
+        equation becomes <m>$x^2 + y^2 + (4\lambda - 5a)x + (3\lambda - 6a)y + 9a^2 - 19a\lambda = 0$</m>.
+      </d:para>
+      <d:para>
+        Since the circles touch the <m>$y$</m>-axis, substituting <m>$x = 0$</m> must yield a quadratic
+        equation in <m>$y$</m> with a discriminant of zero. This gives the condition <m>$(3\lambda - 6a)^2 -
+        4(9a^2 - 19a\lambda) = 0$</m>. Expanding and simplifying leads to <m>$9\lambda^2 + 40a\lambda =
+        0$</m>, which gives two values for the parameter, <m>$\lambda_1 = 0$</m> and <m>$\lambda_2 =
+        -\frac{40a}{9}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda_1 = 0$</m> gives the first circle <m>$S_1 \equiv x^2 + y^2 - 5ax - 6ay +
+        9a^2 = 0$</m>, with parameters <m>$g_1 = -\frac{5a}{2}$, $f_1 = -3a$</m>, and <m>$c_1 =
+        9a^2$</m>. The radius squared is <m>$R_1^2 = g_1^2 + f_1^2 - c_1 = \frac{25a^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda_2 = -\frac{40a}{9}$</m> gives the second circle <m>$S_2 \equiv x^2 + y^2 -
+        \frac{205a}{9}x - \frac{174a}{9}y + \frac{841a^2}{9} = 0$</m>, with parameters <m>$g_2 =
+        -\frac{205a}{18}$, $f_2 = -\frac{174a}{18}$</m>, and <m>$c_2 = \frac{841a^2}{9}$</m>. The radius
+        squared is <m>$R_2^2 = g_2^2 + f_2^2 - c_2 = \frac{1681a^2}{36}$</m>.
+      </d:para>
+      <d:para>
+        The angle of intersection <m>$\theta$</m> between two circles is given by the formula <m>$\cos\theta
+        = \frac{2g_1g_2 + 2f_1f_2 - c_1 - c_2}{2R_1R_2}$</m>. Substituting the parameters of both circles
+        into this formula and simplifying yields <m>$\cos\theta = \frac{9}{41}$</m>.
+      </d:para>
+      <d:para>
+        Using the trigonometric identity <m>$\tan\theta = \frac{\sqrt{1 - \cos^2\theta}}{\cos\theta}$</m>,
+        we compute <m>$\tan\theta = \frac{\sqrt{1 - (9/41)^2}}{9/41} = \frac{40}{9}$</m>. Taking the inverse
+        function proves that the angle of intersection is <m>$\theta = \tan^{-1}\frac{40}{9}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 59 -->
+      <d:para>
+        Let the centers of the two circles <m>$S_1 = 0$</m> and <m>$S_2 = 0$</m> be <m>$C_1(-g_1, -f_1)$</m>
+        and <m>$C_2(-g_2, -f_2)$</m> respectively. Let <m>$P(x, y)$</m> be a variable point in the plane at
+        which both circles subtend equal angles, say <m>$2\alpha$</m>.
+      </d:para>
+      <d:para>
+        From <m>$P(x, y)$</m>, tangents are drawn to both circles. For each circle, the tangent line, the
+        radius to the point of contact, and the segment connecting <m>$P$</m> to the center form a
+        right-angled triangle. Thus, the semi-subtended angle <m>$\alpha$</m> satisfies the relationship
+        <m>$\sin\alpha = \frac{r_1}{PC_1} = \frac{r_2}{PC_2}$</m>.
+      </d:para>
+      <d:para>
+        Rearranging this equality gives the ratio of the distances from $P$ to the centers of the circles
+        <m>$\frac{PC_1}{PC_2} = \frac{r_1}{r_2}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides of this equation to remove the square roots from the distance formula yields
+        <m>$\frac{PC_1^2}{PC_2^2} = \frac{r_1^2}{r_2^2} \implies \frac{(x + g_1)^2 + (y + f_1)^2}{(x +
+        g_2)^2 + (y + f_2)^2} = \frac{r_1^2}{r_2^2}$</m>
+      </d:para>
+      <d:para>
+        Recall that the square of the distance from any point <m>$P(x, y)$</m> to the center <m>$C(-g,
+        -f)$</m> of a circle is related to its power representation by <m>$PC^2 = (x + g)^2 + (y + f)^2 =
+        x^2 + y^2 + 2gx + 2fy + g^2 + f^2$</m>. Substituting <m>$g^2 + f^2 = S + c$</m> from the definition
+        of the circle power function <m>$S = x^2 + y^2 + 2gx + 2fy + c$</m> gives <m>$PC^2 = S + g^2 + f^2 -
+        c = S + r^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting this back into our squared ratio expression for both circles <m>$S_1$</m> and
+        <m>$S_2$</m> we get <m>$\frac{S_1 + r_1^2}{S_2 + r_2^2} = \frac{r_1^2}{r_2^2}$</m>
+      </d:para>
+      <d:para>
+        Cross-multiplying to clear the denominators yields <m>$r_2^2(S_1 + r_1^2) = r_1^2(S_2 + r_2^2)
+        \implies r_2^2 S_1 + r_1^2 r_2^2 = r_1^2 S_2 + r_1^2 r_2^2$</m>.
+      </d:para>
+      <d:para>
+        Cancelling the common constant term <m>$r_1^2 r_2^2$</m> from both sides simplifies the equation to
+        <m>$r_2^2 S_1 = r_1^2 S_2$</m>.
+      </d:para>
+      <d:para>
+        Dividing by <m>$r_1^2 r_2^2$</m> gives the final desired equation of the locus <m>$\frac{S_1}{r_1^2}
+        = \frac{S_2}{r_2^2}$</m>.
+      </d:para>
+      <d:para>
+        Thus, the points at which the circles subtend equal angles lie on the circle represented by
+        <m>$\frac{S_1}{r_1^2} = \frac{S_2}{r_2^2}$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 60 -->
+      <d:para>
+        The given equation of the circle is <m>$S \equiv x^2 + y^2 + 2gx + \lambda^2 = 0$</m>. Comparing
+        this with the standard circle equation, its center is <m>$C(-g, 0)$</m> and its radius is <m>$R =
+        \sqrt{g^2 - \lambda^2}$</m>.
+      </d:para>
+      <d:para>
+        The equation of the pair of tangents drawn from the origin <m>$O(0, 0)$</m> to the circle is given
+        by the formula <m>$SS_1 = T^2$</m>. Evaluating the components at the origin <m>$O(0, 0)$</m> gives
+        us <m>$S = x^2 + y^2 + 2gx + \lambda^2$</m>, <m>$S_1 = 0^2 + 0^2 + 2g(0) + \lambda^2 =
+        \lambda^2$</m>, and <m>$T = x(0) + y(0) + g(x + 0) + \lambda^2 = gx + \lambda^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting these into <m>$SS_1 = T^2$</m> yields <m>$\lambda^2(x^2 + y^2 + 2gx + \lambda^2) = (gx
+        + \lambda^2)^2\implies \lambda^2 x^2 + \lambda^2 y^2 + 2g\lambda^2 x + \lambda^4 = g^2 x^2 +
+        2g\lambda^2 x + \lambda^4$</m>.
+      </d:para>
+      <d:para>
+        Cancelling the common terms <m>$2g\lambda^2 x$</m> and <m>$\lambda^4$</m> from both sides simplifies
+        the expression to <m>$\lambda^2 y^2 + \lambda^2 x^2 - g^2 x^2 = 0 \implies (\lambda^2 - g^2)x^2 +
+        \lambda^2 y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equation of the pair of tangents is <m>$(\lambda^2 - g^2)x^2 + \lambda^2 y^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        To find the intercept made by these tangents on the horizontal line <m>$y = k$</m>, we substitute
+        <m>$y = k$</m> into the pair of tangents equation to get <m>$(\lambda^2 - g^2)x^2 + \lambda^2 k^2 =
+        0 \implies (g^2 - \lambda^2)x^2 = \lambda^2 k^2\implies x^2 = \frac{\lambda^2 k^2}{g^2 -
+        \lambda^2}$</m>.
+      </d:para>
+      <d:para>
+        Taking the square root gives the <m>$x$</m>-coordinates of the two intersection points <m>$x = \pm
+        \frac{\lambda k}{\sqrt{g^2 - \lambda^2}}$</m>.
+      </d:para>
+      <d:para>
+        The length of the intercept intercepted on the line <m>$y = k$</m> is the absolute difference
+        between these two <m>$x$</m>-coordinates <m>$\text{Intercept} = \left| \frac{\lambda k}{\sqrt{g^2 -
+        \lambda^2}} - \left(-\frac{\lambda k}{\sqrt{g^2 - \lambda^2}}\right) \right| = \frac{2\lambda
+        k}{\sqrt{g^2 - \lambda^2}}$</m>
+      </d:para>
+      <d:para>
+        We rewrite this expression to explicitly reveal the radius of the circle, <m>$R = \sqrt{g^2 -
+        \lambda^2}$</m> to get <m>$\text{Intercept} = \frac{2\lambda k}{g^2 - \lambda^2} \cdot \sqrt{g^2 -
+        \lambda^2} = \frac{2\lambda k}{\lambda^2 - g^2} \cdot R$</m>.
+      </d:para>
+      <d:para>
+        This completes the proof that the length of the intercept on the line <m>$y = k$ is $\frac{2\lambda
+        k}{\lambda^2 - g^2}$</m> times the radius of the circle.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 61 -->
+      <d:para>
+        Let the center of any circle in the given family be <m>$C(c, 0)$</m> on the <m>$x$</m>-axis. Since
+        the circle touches the straight line <m>$y = x\tan\alpha$</m>, which is written as <m>$x\sin\alpha -
+        y\cos\alpha = 0$</m>, its radius <m>$R$</m> equals the perpendicular distance from <m>$C(c, 0)$</m>
+        to this line. This gives <m>$R = |c\sin\alpha|$</m>, so <m>$R^2 = c^2\sin^2\alpha$</m>. The equation
+        of the circle is <m>$(x - c)^2 + y^2 = c^2\sin^2\alpha$</m>, which expands to <m>$x^2 + y^2 - 2cx +
+        c^2\cos^2\alpha = 0$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$Q(x, y)$</m> be the point of contact of a tangent drawn from the fixed point <m>$P(h,
+        k)$</m> to the circle. Since the radius <m>$CQ$</m> is perpendicular to the tangent <m>$PQ$</m>, the
+        angle <m>$\angle PQC = 90^\circ$</m>. This implies <m>$Q(x, y)$</m> lies on the circle described
+        with <m>$PC$</m> as a diameter, whose equation is <m>$(x - h)(x - c) + y(y - k) = 0$</m>.
+      </d:para>
+      <d:para>
+        To eliminate the variable parameter <m>$c$</m>, we rearrange this diameter equation to express
+        <m>$c(x - h) = x(x - h) + y(y - k)$</m>. For scannability, let <m>$X = x(x - h)$</m> and <m>$Y = y(y
+        - k)$</m>, so that <m>$c(x - h) = X + Y$</m>. Multiplying the circle equation <m>$x^2 + y^2 - 2cx +
+        c^2\cos^2\alpha = 0$</m> by <m>$(x - h)^2$</m> allows us to substitute the terms involving
+        <m>$c$</m> directly, yielding <m>$(x - h)^2\left(x^2 + y^2\right) - 2x(x - h) \cdot c(x - h) + [c(x -
+        h)]^2\cos^2\alpha = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$c(x - h) = X + Y$</m> and noting that <m>$(x - h)^2\left(x^2 + y^2\right) = X^2 + y^2(x -
+        h)^2$</m>, the equation becomes <m>$X^2 + y^2(x - h)^2 - 2X(X + Y) + (X + Y)^2\cos^2\alpha =
+        0$</m>. Expanding this relation gives <m>$X^2 + y^2(x - h)^2 - 2X^2 - 2XY + (X^2 + 2XY +
+        Y^2)\cos^2\alpha = 0$</m>.
+      </d:para>
+      <d:para>
+        Grouping the like terms leads to <m>$-X^2\left(1 - \cos^2\alpha\right) - 2XY(1 - \cos^2\alpha) +
+        Y^2\cos^2\alpha + y^2(x - h)^2 = 0$</m>. Using the identity <m>$1 - \cos^2\alpha =
+        \sin^2\alpha$</m>, this simplifies to <m>$-X^2\sin^2\alpha - 2XY\sin^2\alpha + Y^2\cos^2\alpha +
+        y^2(x - h)^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Replacing <m>$X$</m> and <m>$Y$</m> back with their definitions gives <m>$-x^2(x - h)^2\sin^2\alpha
+        - 2xy(x - h)(y - k)\sin^2\alpha + y^2(y - k)^2\cos^2\alpha + y^2(x - h)^2 = 0$</m>. Grouping the
+        terms containing <m>$(x - h)^2$</m> together yields the final required locus equation <m>$(x -
+        h)^2\left(y^2 - x^2\sin^2\alpha\right) - 2xy(x - h)(y - k)\sin^2\alpha + y^2(y - k)^2\cos^2\alpha =
+        0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 62 -->
+      <d:para>
+        The sides of the triangle are given by the equations <m>$x = 0$</m>, <m>$y = 0$</m>, and <m>$lx + my
+        = 1$</m>. The intersection of <m>$x = 0$</m> and <m>$y = 0$</m> is the origin <m>$O(0, 0)$</m>. The
+        intersection of <m>$lx + my = 1$</m> with <m>$x = 0$</m> is <m>$B\left(0, \frac{1}{m}\right)$</m>,
+        and its intersection with <m>$y = 0$ is $A\left(\frac{1}{l}, 0\right)$</m>.
+      </d:para>
+      <d:para>
+        Since the sides <m>$x = 0$</m> and <m>$y = 0$</m> are perpendicular, <m>$\triangle OAB$</m> is a
+        right-angled triangle at the origin <m>$O(0, 0)$</m>. For any right-angled triangle, the
+        circumcircle passes through the vertices, and the hypotenuse <m>$AB$</m> serves as the diameter of
+        this circle.
+      </d:para>
+      <d:para>
+        Using the diameter form of a circle with endpoints <m>$A\left(\frac{1}{l}, 0\right)$</m> and
+        <m>$B\left(0, \frac{1}{m}\right)$</m>, the equation of the circumcircle is given by <m>$\left(x -
+        \frac{1}{l}\right)(x - 0) + (y - 0)\left(y - \frac{1}{m}\right) = 0 \implies x^2 + y^2 - \frac{x}{l}
+        - \frac{y}{m} = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equation of the circumscribing circle is <m>$x^2 + y^2 - \frac{x}{l} - \frac{y}{m} = 0$</m>.
+      </d:para>
+      <d:para>
+        Let the center of this variable circumcircle be <m>$C(h, k)$</m>. Since the hypotenuse <m>$AB$</m>
+        is the diameter, the center is the midpoint of <m>$AB$</m> i.e. <m>$h = \frac{\frac{1}{l} + 0}{2} =
+        \frac{1}{2l} \implies l = \frac{1}{2h}$</m> and <m>$k = \frac{0 + \frac{1}{m}}{2} = \frac{1}{2m}
+        \implies m = \frac{1}{2k}$</m>.
+      </d:para>
+      <d:para>
+        We are given that <m>$l$</m> and <m>$m$</m> vary according to the condition <m>$l^2 + m^2 =
+        4l^2m^2$</m>. Substituting the expressions for <m>$l$</m> and <m>$m$</m> in terms of <m>$h$</m> and
+        <m>$k$</m> into this condition yields <m>$\left(\frac{1}{2h}\right)^2 + \left(\frac{1}{2k}\right)^2
+        = 4\left(\frac{1}{2h}\right)^2\left(\frac{1}{2k}\right)^2\implies \frac{1}{4h^2} + \frac{1}{4k^2} =
+        4\left(\frac{1}{16h^2k^2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$4h^2k^2$</m> to clear the denominators gives <m>$k^2 + h^2 =
+        4\left(\frac{1}{4}\right) \implies h^2 + k^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Replacing the coordinates of the moving center <m>$(h, k)$</m> with the standard Cartesian
+        coordinates <m>$(x, y)$</m> gives the final locus equation <m>$x^2 + y^2 = 1$</m>
+      </d:para>
+      <d:para>
+        Therefore, the locus of the center of the circle is the unit circle <m>$x^2 + y^2 = 1$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 63 -->
+      <d:para>
+        Let the center of the circumcircle be <m>$M(h, k)$</m>. Since <m>$M$</m> is equidistant from
+        vertices <m>$A(4, 6)$</m> and <m>$B(1, 9)$</m>, we have <m>$MA^2 = MB^2$</m> i.e. <m>$(h - 4)^2 + (k
+        - 6)^2 = (h - 1)^2 + (k - 9)^2 \implies h - k + 5 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$M(h, k)$</m> lies on the given diameter <m>$2x - y + 4 = 0$</m>, its coordinates satisfy
+        <m>$2h - k + 4 = 0$</m>. Solving the system of equations gives the center <m>$M(1, 6)$</m>.
+      </d:para>
+      <d:para>
+        The radius squared is the squared distance <m>$MA^2 = (4 - 1)^2 + (6 - 6)^2 = 9$</m>. The squared
+        length of the diagonal is <m>$d^2 = 4R^2 = 36$</m>.
+      </d:para>
+      <d:para>
+        The squared length of side <m>$AB$</m> is <m>$AB^2 = (1 - 4)^2 + (9 - 6)^2 = 18$</m>. By the
+        Pythagorean theorem, the squared length of the adjacent side is <m>$BC^2 = d^2 - AB^2 = 36 - 18 =
+        18$</m>.
+      </d:para>
+      <d:para>
+        The area of the rectangle <m>$ABCD$</m> is the product of its adjacent sides <m>$\text{Area} = AB
+        \times BC = \sqrt{18} \times \sqrt{18} = 18$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 64 -->
+      <d:para>
+        Let the equation of the circle passing through <m>$O(0, 0)$</m> be <m>$x^2 + y^2 + 2gx + 2fy =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$y = x$</m> into the circle equation gives <m>$2x^2 + 2(g + f)x = 0$</m>, yielding
+        the non-origin intersection point <m>$P(-(g + f), -(g + f))$</m>. Since the chord length <m>$OP =
+        a$</m>, we have <m>$OP^2 = a^2 \implies 2(g + f)^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$y = -x$</m> into the circle equation gives <m>$2x^2 + 2(g - f)x = 0$</m>, yielding
+        the non-origin intersection point <m>$Q(-(g - f), g - f)$</m>. Since the chord length <m>$OQ =
+        a$</m>, we have <m>$OQ^2 = a^2 \implies 2(g - f)^2 = a^2$</m>.
+      </d:para>
+      <d:para>
+        Equating the two results gives <m>$(g + f)^2 = (g - f)^2 \implies 4gf = 0$</m>, which implies either
+        <m>$g = 0$</m> or <m>$f = 0$</m>.
+      </d:para>
+      <d:para>
+        If <m>$g = 0$</m>, then <m>$2f^2 = a^2 \implies 2f = \pm \sqrt{2}a$</m>. The circle equation becomes
+        <m>$x^2 + y^2 \pm \sqrt{2}ay = 0$</m>.
+      </d:para>
+      <d:para>
+        If <m>$f = 0$</m>, then <m>$2g^2 = a^2 \implies 2g = \pm \sqrt{2}a$</m>. The circle equation becomes
+        <m>$x^2 + y^2 \pm \sqrt{2}ax = 0$</m>.
+      </d:para>
+      <d:para>
+        The equations of the four possible circles are <m>$x^2 + y^2 \pm \sqrt{2}ax = 0$</m> and <m>$x^2 +
+        y^2 \pm \sqrt{2}ay = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 65 -->
+      <d:para>
+        The first circle is <m>$S_1 \equiv x^2 + y^2 = a^2$</m> with center <m>$C_1(0, 0)$</m> and radius
+        <m>$r_1 = a$</m>. The second circle is <m>$S_2 \equiv (x - 2a)^2 + y^2 = a^2$</m>
+        with center <m>$C_2(2a, 0)$</m> and radius <m>$r_2 = a$</m>. Since <m>$r_1 = r_2 = a$</m>, the two
+        circles are equal.
+      </d:para>
+      <d:para>
+        The distance between the centers is <m>$C_1C_2 = \sqrt{(2a - 0)^2 + 0^2} = 2a$</m>. Since <m>$C_1C_2
+        = r_1 + r_2 = 2a$</m>, the two circles touch each other externally.
+      </d:para>
+      <d:para>
+        Let the center of a third circle of equal radius <m>$R = a$</m> touching both circles be <m>$C(h,
+        k)$</m>. For external contact with both <m>$S_1$</m> and <m>$S_2$</m>, the distance from <m>$C$</m>
+        to each center must equal <m>$2a$</m> i.e. <m>$CC_1^2 = 4a^2 \implies h^2 + k^2 = 4a^2$</m> and
+        <m>$CC_2^2 = 4a^2 \implies (h - 2a)^2 + k^2 = 4a^2$</m>.
+      </d:para>
+      <d:para>
+        Equating the two expressions gives <m>$h^2 + k^2 = h^2 - 4ah + 4a^2 + k^2 \implies 4ah = 4a^2
+        \implies h = a$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$h = a$</m> into the first equation yields <m>$a^2 + k^2 = 4a^2 \implies k^2 = 3a^2
+        \implies k = \pm \sqrt{3}a$</m>. This gives two possible centers: <m>$(a, \sqrt{3}a)$ and $(a,
+        -\sqrt{3}a)$</m>.
+      </d:para>
+      <d:para>
+        The equations of the two corresponding circles are <m>$(x - a)^2 + (y \mp \sqrt{3}a)^2 = a^2
+        \implies x^2 + y^2 - 2ax \mp 2\sqrt{3}ay + 3a^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the required circles are <m>$x^2 + y^2 - 2ax \pm 2\sqrt{3}ay + 3a^2 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 66 -->
+      <d:para>
+        The locus of the point of intersection of two mutually perpendicular tangents to a circle is its
+        director circle. For the given circle <m>$x^2 + y^2 = 9$</m>, the equation of its director circle is
+        <m>$S \equiv x^2 + y^2 = 2 \times 9 = 18$</m>.
+      </d:para>
+      <d:para>
+        The given point <m>$P(\sqrt{2}, 4)$</m> lies on this director circle since <m>$(\sqrt{2})^2 + 4^2 =
+        2 + 16 = 18$</m>.
+      </d:para>
+      <d:para>
+        The equation of the tangent line <m>$L$</m> to the director circle at the point <m>$P(\sqrt{2},
+        4)$</m> is given by <m>$x\sqrt{2} + y(4) = 18$</m>, which simplifies to <m>$\sqrt{2}x + 4y - 18 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        The system of coaxial circles tangent to a given circle <m>$S = 0$</m> at a point where <m>$L =
+        0$</m> is the tangent line is represented by the family equation <m>$S + \lambda L = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting the expressions for <m>$S$</m> and <m>$L$</m> into this family formula yields the
+        equation <m>$x^2 + y^2 - 18 + \lambda(\sqrt{2}x + 4y - 18) = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 67 -->
+      <d:para>
+        Let the given fixed circle be <m>$S_1 \equiv x^2 + y^2 - 6x + 6y + 17 = 0$</m>. Comparing this with
+        the standard equation, its center is <m>$C_1(3, -3)$</m> and its radius is <m>$r_1 = \sqrt{(-3)^2 +
+        3^2 - 17} = \sqrt{9 + 9 - 17} = 1$</m>.
+      </d:para>
+      <d:para>
+        The normal lines to the required circle are given by the combined equation <m>$x^2 - 3xy - 3x + 9y =
+        0$</m>. We factor this equation to find the individual lines <m>$x(x - 3y) - 3(x - 3y) = 0 \implies
+        (x - 3)(x - 3y) = 0$</m>.
+      </d:para>
+      <d:para>
+        This represents two straight lines: <m>$x - 3 = 0$</m> and <m>$x - 3y = 0$</m>. Since all normal
+        lines of a circle must intersect at its center, the center <m>$C_2(h, k)$</m> of the required circle
+        is the point of intersection of these two lines. Substituting <m>$x = 3$</m> into <m>$x - 3y =
+        0$</m> yields <m>$3 - 3y = 0 \implies y = 1$</m>. Thus, the center of the required circle is
+        <m>$C_2(3, 1)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$r_2$</m> be the radius of the required circle. Since it touches the first circle
+        <m>$S_1$</m> externally, the distance between their centers must equal the sum of their radii,
+        <m>$C_1C_2 = r_1 + r_2$</m>.
+      </d:para>
+      <d:para>
+        Using the distance formula between <m>$C_1(3, -3)$</m> and <m>$C_2(3, 1)$</m> gives us <m>$C_1C_2 =
+        \sqrt{(3 - 3)^2 + (1 - (-3))^2} = \sqrt{0 + 4^2} = 4$</m>.
+      </d:para>
+      <d:para>
+        Substituting the known values into the contact condition gives <m>$4 = 1 + r_2 \implies r_2 = 3$</m>.
+      </d:para>
+      <d:para>
+        The equation of the required circle with center <m>$C_2(3, 1)$</m> and radius <m>$r_2 = 3$</m> is
+        <m>$(x - 3)^2 + (y - 1)^2 = 3^2\implies x^2 - 6x + 9 + y^2 - 2y + 1 = 9$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 68 -->
+      <d:para>
+        The given circle equation is <m>$S \equiv x^2 + y^2 - 2x - 2y - 2 = 0$</m>. Comparing this with the
+        standard circle equation, its center is <m>$C(1, 1)$</m> and its radius is <m>$R = \sqrt{(-1)^2 +
+        (-1)^2 - (-2)} = \sqrt{1 + 1 + 2} = 2$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$AB$</m> be a variable chord of this circle that subtends an angle of <m>$120^\circ$</m> at
+        the center <m>$C(1, 1)$</m>, meaning <m>$\angle ACB = 120^\circ$</m>. Let <m>$M(h, k)$</m> be the
+        moving midpoint of this chord <m>$AB$</m>.
+      </d:para>
+      <d:para>
+        By circle geometry, the line segment joining the center <m>$C$</m> of a circle to the midpoint
+        <m>$M$</m> of a chord is perpendicular to the chord (<m>$CM \perp AB$</m>) and bisects the subtended
+        angle at the center. Therefore, in the right-angled triangle <m>$\triangle AMC$</m>, the angle at
+        the center is <m>$\angle ACM = \frac{1}{2} \angle ACB = \frac{1}{2}(120^\circ) = 60^\circ$</m>.
+      </d:para>
+      <d:para>
+        Using basic trigonometry in <m>$\triangle AMC$</m>, the cosine of the angle relates the
+        perpendicular distance <m>$CM$</m> to the radius hypotenuse <m>$CA = R$</m>: <m>$\cos 60^\circ =
+        \frac{CM}{CA} \implies \frac{1}{2} = \frac{CM}{2} \implies CM = 1$</m>.
+      </d:para>
+      <d:para>
+        Thus, the distance from the center <m>$C(1, 1)$</m> to the moving midpoint <m>$M(h, k)$</m> is a
+        constant value of <m>$1$</m>. Using the standard distance formula for <m>$CM = 1$</m>: <m>$\sqrt{(h
+        - 1)^2 + (k - 1)^2} = 1 \implies (h - 1)^2 + (k - 1)^2 = 1$</m>.
+      </d:para>
+      <d:para>
+        Expanding this equation gives <m>$h^2 - 2h + 1 + k^2 - 2k + 1 = 1 \implies h^2 + k^2 - 2h - 2k + 1 =
+        0$</m>.
+      </d:para>
+      <d:para>
+        Replacing the coordinates of the moving midpoint <m>$(h, k)$</m> with the standard Cartesian
+        coordinates <m>$(x, y)$</m> gives the final locus equation <m>$x^2 + y^2 - 2x - 2y + 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the locus of the middle point of the chord is the circle <m>$x^2 + y^2 - 2x - 2y + 1 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 69 -->
+      <d:para>
+        The equation of the given circle is <m>$S \equiv x^2 + y^2 - 4 = 0$</m> and the equation of the
+        chord is <m>$L \equiv x + y - 1 = 0$</m>.
+      </d:para>
+      <d:para>
+        Any circle passing through the intersection points of the circle <m>$S = 0$</m> and the line <m>$L =
+        0$</m> can be represented by the family equation <m>$S + \lambda L = 0$</m>: <m>$(x^2 + y^2 - 4) +
+        \lambda(x + y - 1) = 0\implies x^2 + y^2 + \lambda x + \lambda y - (4 + \lambda) = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing this with the general circle equation, the center <m>$C$</m> of this variable circle has
+        the coordinates <m>$C\left(-\frac{\lambda}{2}, -\frac{\lambda}{2}\right)$</m>.
+      </d:para>
+      <d:para>
+        Since the chord <m>$x + y = 1$</m> is specified to be the diameter of the required circle, the
+        center of this circle must lie exactly on the line <m>$L = 0$</m>. Substituting the center
+        coordinates into the line equation gives <m>$\left(-\frac{\lambda}{2}\right) +
+        \left(-\frac{\lambda}{2}\right) - 1 = 0\implies -\lambda - 1 = 0 \implies \lambda = -1$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda = -1$</m> back into the family equation yields <m>$(x^2 + y^2 - 4) - 1(x +
+        y - 1) = 0\implies x^2 + y^2 - x - y - 3 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 70 -->
+      <d:para>
+        Let the given circle be <m>$S \equiv x^2 + y^2 = a^2$</m>, which has its center at the origin
+        <m>$O(0, 0)$</m>. Let <m>$A(h, k)$</m> be the fixed point through which secant lines are drawn.
+      </d:para>
+      <d:para>
+        Let a general secant line passing through <m>$A(h, k)$</m> intersect the circle at two points, say
+        <m>$P$</m> and <m>$Q$</m>. The line segment <m>$PQ$</m> represents the portion of the secant
+        intercepted by the given circle. Let <m>$M(x_1, y_1)$</m> be the moving midpoint of this chord
+        <m>$PQ$</m>.
+      </d:para>
+      <d:para>
+        By the geometric properties of a circle, the line segment connecting the center of the circle to the
+        midpoint of a chord is always perpendicular to that chord. Since the center of the circle is the
+        origin <m>$O(0, 0)$</m>, the line segment <m>$OM$</m> is perpendicular to the chord <m>$PQ$</m>.
+      </d:para>
+      <d:para>
+        The slope of the line segment <m>$OM$</m> connecting <m>$O(0, 0)$</m> and <m>$M(x_1, y_1)$</m> is
+        given by <m>$m_{OM} = \frac{y_1 - 0}{x_1 - 0} = \frac{y_1}{x_1}$</m>.
+      </d:para>
+      <d:para>
+        Since the moving midpoint <m>$M(x_1, y_1)$</m> lies on the secant line and the secant line also
+        passes through the fixed point <m>$A(h, k)$</m>, the chord <m>$PQ$</m> lies along the line
+        connecting <m>$A$</m> and <m>$M$</m>. The slope of this chord line <m>$AM$</m> is given by
+        <m>$m_{AM} = \frac{y_1 - k}{x_1 - h}$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$OM$</m> is perpendicular to <m>$AM$</m>, the product of their slopes must equal
+        <m>$-1$</m>, which is written as <m>$m_{OM} \cdot m_{AM} = -1$</m>. Substituting the expressions for
+        the slopes yields <m>$\left(\frac{y_1}{x_1}\right) \cdot \left(\frac{y_1 - k}{x_1 - h}\right) =
+        -1$</m>.
+      </d:para>
+      <d:para>
+        Multiplying out the terms to clear the denominators gives <m>$y_1(y_1 - k) = -x_1(x_1 - h) \implies
+        y_1^2 - ky_1 = -x_1^2 + hx_1$</m>.
+      </d:para>
+      <d:para>
+        Rearranging all the variable terms to one side of the equation results in <m>$x_1^2 + y_1^2 = hx_1 +
+        ky_1$</m>.
+      </d:para>
+      <d:para>
+        Replacing the coordinates of the moving midpoint <m>$(x_1, y_1)$</m> with the standard Cartesian
+        coordinates <m>$(x, y)$</m> gives the final locus expression <m>$x^2 + y^2 = hx + ky$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 71 -->
+      <d:para>
+        To find the equations of the circles passing through <m>$A(4, 3)$</m> and <m>$B(2, 5)$</m> and
+        touching the <m>$y$</m>-axis, we use the family of circles passing through two points.
+      </d:para>
+      <d:para>
+        The equation of a specific circle with <m>$AB$</m> as its diameter is given by <m>$(x - 4)(x - 2) +
+        (y - 3)(y - 5) = 0 \implies x^2 + y^2 - 6x - 8y + 23 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of the straight line passing through <m>$A(4, 3)$</m> and <m>$B(2, 5)$</m> has a slope
+        of <m>$m = \frac{5 - 3}{2 - 4} = -1$</m>. Using the point-slope form, the line equation is <m>$y - 3
+        = -1(x - 4) \implies x + y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        The general equation of the family of circles passing through the intersection of this circle and
+        line is <m>$S + \lambda L = 0$</m> i.e. <m>$(x^2 + y^2 - 6x - 8y + 23) + \lambda(x + y - 7) =
+        0\implies x^2 + y^2 + (\lambda - 6)x + (\lambda - 8)y + (23 - 7\lambda) = 0$</m>
+      </d:para>
+      <d:para>
+        Since the circle touches the <m>$y$</m>-axis, substituting <m>$x = 0$</m> must yield a quadratic
+        equation in <m>$y$</m> with a discriminant of zero <m>$y^2 + (\lambda - 8)y + (23 - 7\lambda) =
+        0$</m> i.e. <m>$D = (\lambda - 8)^2 - 4(1)(23 - 7\lambda) = 0\implies \lambda^2 - 16\lambda + 64 -
+        92 + 28\lambda = 0 \implies \lambda^2 + 12\lambda - 28 = 0$</m>.
+      </d:para>
+      <d:para>
+        Factoring this quadratic equation gives <m>$(\lambda + 14)(\lambda - 2) = 0$</m>, yielding two
+        values <m>$\lambda = 2$ and $\lambda = -14$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda = 2$</m> into the family equation gives the first circle <m>$x^2 + y^2 - 4x
+        - 6y + 9 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda = -14$</m> into the family equation gives the second circle <m>$x^2 + y^2 -
+        20x - 22y + 121 = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equations of the two possible circles are <m>$x^2 + y^2 - 4x - 6y + 9 = 0$</m> and <m>$x^2
+        + y^2 - 20x - 22y + 121 = 0$</m>.
+      </d:para>
+      <d:para>
+        For a point <m>$P$</m> on the <m>$y$</m>-axis, the angle <m>$\angle APB$</m> reaches a local maximum
+        value when the circle passing through <m>$A$</m> and <m>$B$</m> is tangent to the <m>$y$</m>-axis at
+        <m>$P$</m>. The points of contact on the <m>$y$</m>-axis (<m>$x = 0$</m>) for the two circles are
+        found by setting <m>$x = 0$</m> in their respective equations: For the first circle: <m>$y^2 - 6y +
+        9 = 0 \implies (y - 3)^2 = 0 \implies y = 3$</m>, giving <m>$P_1(0, 3)$</m>. For the second circle:
+        <m>$y^2 - 22y + 121 = 0 \implies (y - 11)^2 = 0 \implies y = 11$</m>, giving <m>$P_2(0, 11)$</m>.
+      </d:para>
+      <d:para>
+        Evaluating the magnitude of <m>$\angle APB$</m> at both points, the point <m>$P_1(0, 3)$</m> yields
+        a subtended angle of <m>$45^\circ$</m>, whereas <m>$P_2(0, 11)$</m> yields a much smaller angle of
+        approximately <m>$8.13^\circ$</m>. Therefore, the point on the <m>$y$</m>-axis where the angle has
+        the largest magnitude is <m>$P(0, 3)$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 72 -->
+      <d:para>
+        Let the first given circle be <m>$S_1 \equiv x^2 + y^2 - 2cy - a^2 = 0$</m>. Comparing this with the
+        standard circle equation, its center is <m>$C_1(0, c)$</m>. Let the second given circle be <m>$S_2
+        \equiv x^2 + y^2 - 2bx + a^2 = 0$</m>, whose center is <m>$C_2(b, 0)$</m>.
+      </d:para>
+      <d:para>
+        The equation of any circle passing through the points of intersection of <m>$S_1 = 0$ and $S_2 =
+        0$</m> can be written as a linear combination of the two circles, namely <m>$S_1 + \lambda S_2 =
+        0$</m>. This gives the equation <m>$(x^2 + y^2 - 2cy - a^2) + \lambda(x^2 + y^2 - 2bx + a^2) =
+        0\implies (1 + \lambda)x^2 + (1 + \lambda)y^2 - 2b\lambda x - 2cy + a^2(\lambda - 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$(1 + \lambda)$</m> to express it in standard form yields <m>$x^2
+        + y^2 - \frac{2b\lambda}{1 + \lambda}x - \frac{2c}{1 + \lambda}y + \frac{a^2(\lambda - 1)}{1 +
+        \lambda} = 0$</m>.
+      </d:para>
+      <d:para>
+        We want to find a specific value for the parameter <m>$\lambda$</m> such that this intersecting
+        circle also passes through the remaining specified points. First, we require this circle to pass
+        through the origin <m>$O(0, 0)$</m>. Substituting <m>$x = 0$</m> and <m>$y = 0$</m> into the
+        equation gives <m>$\frac{a^2(\lambda - 1)}{1 + \lambda} = 0 \implies a^2(\lambda - 1) = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$a \neq 0$</m> for a valid circle intersection, we must have <m>$\lambda - 1 = 0 \implies
+        \lambda = 1$</m>. Substituting <m>$\lambda = 1$</m> back into our family equation produces the
+        unique circle passing through the intersection points and the origin <m>$x^2 + y^2 - \frac{2b(1)}{1
+        + 1}x - \frac{2c}{1 + 1}y + \frac{a^2(1 - 1)}{1 + 1} = 0 \implies x^2 + y^2 - bx - cy = 0$</m>.
+      </d:para>
+      <d:para>
+        To show that all five specified points are concyclic, we must verify that the centers <m>$C_1(0,
+        c)$</m> and <m>$C_2(b, 0)$</m> also lie on this unique circle <m>$x^2 + y^2 - bx - cy = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of the first center <m>$C_1(0, c)$</m> into this circle equation yields
+        <m>$0^2 + c^2 - b(0) - c(c) = c^2 - c^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Substituting the coordinates of the second center <m>$C_2(b, 0)$</m> into this circle equation
+        yields <m>$b^2 + 0^2 - b(b) - c(0) = b^2 - b^2 = 0$</m>.
+      </d:para>
+      <d:para>
+        Since both center coordinates satisfy the equation identically, the points of intersection, the two
+        centers, and the origin all lie on the same common circle <m>$x^2 + y^2 - bx - cy = 0$</m>,
+        completing the proof.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 73 -->
+      <d:para>
+        Let the fixed point <m>$A$</m> be <m>$(0, 1)$</m> and the center of the circle <m>$C$</m> be
+        <m>$B\left(-\frac{p}{2}, \frac{q + 1}{2}\right)$</m>. Since the circle passes through <m>$A$</m>,
+        its radius squared <m>$R^2$</m> is equal to the squared distance between <m>$B$</m> and <m>$A$</m>:
+        <m>$R^2 = BA^2 = \left(0 - \left(-\frac{p}{2}\right)\right)^2 + \left(1 - \frac{q + 1}{2}\right)^2 =
+        \left(\frac{p}{2}\right)^2 + \left(\frac{1 - q}{2}\right)^2 = \frac{p^2}{4} + \frac{(1 -
+        q)^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        The standard Cartesian equation of the circle <m>$C$</m> with center <m>$B(h, k)$</m> and radius
+        squared <m>$R^2$</m> is given by <m>$(x - h)^2 + (y - k)^2 = R^2$</m>. Substituting the coordinates
+        of <m>$B$</m> and the expression for <m>$R^2$</m> into this formula yields <m>$\left(x -
+        \left(-\frac{p}{2}\right)\right)^2 + \left(y - \frac{q + 1}{2}\right)^2 = \frac{p^2}{4} + \frac{(1 -
+        q)^2}{4}\implies \left(x + \frac{p}{2}\right)^2 + \left(y - \frac{q + 1}{2}\right)^2 = \frac{p^2}{4}
+        + \frac{(1 - q)^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        To find the points where this circle intersects the <m>$x$</m>-axis, we set <m>$y = 0$</m> in the
+        circle equation <m>$\left(x + \frac{p}{2}\right)^2 + \left(0 - \frac{q + 1}{2}\right)^2 =
+        \frac{p^2}{4} + \frac{(1 - q)^2}{4}\implies \left(x + \frac{p}{2}\right)^2 + \frac{(q + 1)^2}{4} =
+        \frac{p^2}{4} + \frac{(1 - q)^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms to isolate the squared binomial involving <m>$x$</m> gives: <m>$\left(x +
+        \frac{p}{2}\right)^2 = \frac{p^2}{4} + \frac{(1 - q)^2}{4} - \frac{(q + 1)^2}{4}$</m>.
+      </d:para>
+      <d:para>
+        We simplify the fractional difference of the squared components on the right-hand side to get
+        <m>$\frac{(1 - q)^2 - (q + 1)^2}{4} = \frac{(1 - 2q + q^2) - (q^2 + 2q + 1)}{4} = \frac{-4q}{4} =
+        -q$</m>.
+      </d:para>
+      <d:para>
+        Substituting this simplified result back into the main equation gives <m>$\left(x +
+        \frac{p}{2}\right)^2 = \frac{p^2}{4} - q$</m>.
+      </d:para>
+      <d:para>
+        Expanding the squared binomial on the left-hand side yields <m>$x^2 + px + \frac{p^2}{4} =
+        \frac{p^2}{4} - q$</m>.
+      </d:para>
+      <d:para>
+        Cancelling the common term <m>$\frac{p^2}{4}$</m> from both sides and moving $q$ to the left side
+        leads to <m>$x^2 + px + q = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the abscissae (<m>$x$</m>-coordinates) of the points of intersection of the circle <m>$C$</m> with
+        the <m>$x$</m>-axis satisfy the quadratic equation <m>$x^2 + px + q = 0$</m>. This proves that the
+        real roots of the given equation are exactly the abscissae of these intersection points.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 74 -->
+      <d:para>
+        Let the equations of the two circles be <m>$S_1 \equiv x^2 + y^2 + \lambda x + c = 0$</m> and
+        <m>$S_2 \equiv x^2 + y^2 + \mu x + c = 0$</m>.
+      </d:para>
+      <d:para>
+        The radical axis of these two circles is obtained by subtracting their equations, <m>$S_1 - S_2 =
+        0$</m> i.e. <m>$(x^2 + y^2 + \lambda x + c) - (x^2 + y^2 + \mu x + c) = 0 \implies (\lambda - \mu)x
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Assuming the two circles are distinct (<m>$\lambda \neq \mu$</m>), the equation of the radical axis
+        simplifies to the straight line <m>$x = 0$</m> (the <m>$y$</m>-axis).
+      </d:para>
+      <d:para>
+        If one circle lies completely within the other, the two circles cannot intersect each other, meaning
+        their points of intersection must be imaginary. Consequently, the radical axis <m>$x = 0$</m> cannot
+        intersect or cut through either of the circles.
+      </d:para>
+      <d:para>
+        To find the points where the radical axis meets the circles, we substitute <m>$x = 0$</m> into
+        either circle equation to get <m>$0^2 + y^2 + \lambda(0) + c = 0 \implies y^2 + c = 0 \implies y^2 =
+        -c$</m>.
+      </d:para>
+      <d:para>
+        For the points of intersection with the radical axis to be imaginary, the equation $y^2 = -c$ must
+        have no real solutions for $y$. This requires the constant term to be strictly positive <m>$-c &lt;
+        0 \implies c > 0$</m>.
+      </d:para>
+      <d:para>
+        Furthermore, when one circle lies entirely inside another, the radical axis lies completely outside
+        both circles. This implies that both circles, and consequently their centers, must lie on the exact
+        same side of the radical axis <m>$x = 0$</m>.
+      </d:para>
+      <d:para>
+        The centers of the two circles <m>$S_1 = 0$</m> and <m>$S_2 = 0$</m> are given by
+        <m>$C_1\left(-\frac{\lambda}{2}, 0\right)$</m> and <m>$C_2\left(-\frac{\mu}{2}, 0\right)$</m>
+        respectively. For both centers to lie on the same side of the line <m>$x = 0$</m>, their
+        $x$-coordinates must share the same mathematical sign <m>$\left(-\frac{\lambda}{2}\right) \cdot
+        \left(-\frac{\mu}{2}\right) > 0 \implies \frac{\lambda\mu}{4} > 0 \implies \lambda\mu > 0$</m>
+      </d:para>
+      <d:para>
+        Therefore, one circle will lie entirely within the other if both conditions <m>$\lambda\mu > 0$</m>
+        and <m>$c > 0$</m> are satisfied.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 75 -->
+      <d:para>
+        The first circle is <m>$S_1 \equiv x^2 + y^2 + 2x - 8y + 8 = 0$</m>, with center <m>$C_1(-1, 4)$</m>
+        and radius <m>$r_1 = \sqrt{1^2 + (-4)^2 - 8} = 3$</m>. The second circle is <m>$S_2 \equiv x^2 + y^2
+        + 10x - 2y + 22 = 0$</m>, with center <m>$C_2(-5, 1)$</m> and radius <m>$r_2 = \sqrt{5^2 + (-1)^2 -
+        22} = 2$</m>.
+      </d:para>
+      <d:para>
+        The distance between the centers is <m>$C_1C_2 = \sqrt{(-5 - (-1))^2 + (1 - 4)^2} = \sqrt{(-4)^2 +
+        (-3)^2} = 5$</m>. Since <m>$C_1C_2 = r_1 + r_2 = 3 + 2 = 5$</m>, the two circles touch each other
+        externally.
+      </d:para>
+      <d:para>
+        Let the required circle be <m>$S \equiv x^2 + y^2 + 2gx + 2fy + c = 0$</m>. Since its radius is
+        <m>$1$</m>, we have <m>$g^2 + f^2 - c = 1 \implies c = g^2 + f^2 - 1$</m>.
+      </d:para>
+      <d:para>
+        Since this circle cuts <m>$S_1 = 0$</m> and <m>$S_2 = 0$</m> orthogonally, we apply the condition
+        <m>$2g_a g_b + 2f_a f_b = c_a + c_b$</m>. For <m>$S_1$</m>, this gives <m>$2g(1) + 2f(-4) = c + 8
+        \implies 2g - 8f = c + 8$</m>. For <m>$S_2$</m>, this gives <m>$2g(5) + 2f(-1) = c + 22 \implies 10g
+        - 2f = c + 22$</m>.
+      </d:para>
+      <d:para>
+        Subtracting the first condition from the second gives <m>$8g + 6f = 14 \implies 4g + 3f = 7 \implies
+        f = \frac{7 - 4g}{3}$</m>. Substituting this expression for <m>$f$</m> into <m>$2g - 8f = c + 8$</m>
+        gives <m>$c = 2g - 8\left(\frac{7 - 4g}{3}\right) - 8 = \frac{38g - 80}{3}$</m>.
+      </d:para>
+      <d:para>
+        Substituting the expressions for <m>$f$</m> and <m>$c$</m> into <m>$g^2 + f^2 - c = 1$ yields $g^2 +
+        \left(\frac{7 - 4g}{3}\right)^2 - \left(\frac{38g - 80}{3}\right) = 1$</m>. Multiplying by
+        <m>$9$</m> and expanding gives <m>$9g^2 + (49 - 56g + 16g^2) - 3(38g - 80) = 9$</m>, which
+        simplifies to <m>$25g^2 - 170g + 280 = 0$</m>. Dividing by <m>$5$</m> results in <m>$5g^2 - 34g + 56
+        = 0$</m>.
+      </d:para>
+      <d:para>
+        Factoring this quadratic equation gives <m>$(g - 4)(5g - 14) = 0$</m>, which yields <m>$g = 4$</m>
+        or <m>$g = \frac{14}{5}$</m>.
+      </d:para>
+      <d:para>
+        If <m>$g = 4$</m>, then <m>$f = \frac{7 - 16}{3} = -3$</m> and <m>$c = 16 + 9 - 1 = 24$</m>. The
+        equation of the circle is <m>$x^2 + y^2 + 8x - 6y + 24 = 0$</m>.
+      </d:para>
+      <d:para>
+        If <m>$g = \frac{14}{5}$</m>, then <m>$f = \frac{7 - 56/5}{3} = -\frac{7}{5}$</m> and <m>$c =
+        \left(\frac{14}{5}\right)^2 + \left(-\frac{7}{5}\right)^2 - 1 = \frac{44}{5}$</m>. The equation of
+        the circle is <m>$x^2 + y^2 + \frac{28}{5}x - \frac{14}{5}y + \frac{44}{5} = 0$</m>, which can be
+        cleared of fractions as <m>$5x^2 + 5y^2 + 28x - 14y + 44 = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equations of the two required circles are <m>$x^2 + y^2 + 8x - 6y + 24 = 0$</m> and
+        <m>$5x^2 + 5y^2 + 28x - 14y + 44 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 76 -->
+      <d:para>
+        Let the two given intersecting circles be <m>$S_1$</m> and <m>$S_2$</m>, and let <m>$A$</m> and
+        <m>$B$</m> be their two fixed points of intersection. For convenience, we place the fixed point
+        <m>$A$</m> at the origin <m>$O(0, 0)$</m>.
+      </d:para>
+      <d:para>
+        Since both circles pass through the origin, their standard equations can be written as <m>$S_1
+        \equiv x^2 + y^2 + 2g_1x + 2f_1y = 0$</m> and <m>$S_2 \equiv x^2 + y^2 + 2g_2x + 2f_2y = 0$</m>.
+      </d:para>
+      <d:para>
+        Let a variable line passing through the origin <m>$A(0, 0)$</m> make an angle <m>$\theta$</m> with
+        the positive <m>$x$</m>-axis. The parametric equations of this line are given by <m>$x =
+        r\cos\theta$</m> and <m>$y = r\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        To find the coordinates of the intersection point <m>$P$</m> on <m>$S_1$</m>, we substitute the
+        parametric forms into the equation of <m>$S_1$</m> to get <m>$(r\cos\theta)^2 + (r\sin\theta)^2 +
+        2g_1(r\cos\theta) + 2f_1(r\sin\theta) = 0\implies r^2 + 2r(g_1\cos\theta + f_1\sin\theta) = 0$</m>.
+      </d:para>
+      <d:para>
+        Since <m>$r \neq 0$</m> at <m>$P$</m>, the directed distance <m>$AP = r_1$</m> is given by <m>$r_1
+        = -2(g_1\cos\theta + f_1\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Similarly, substituting the parametric forms into <m>$S_2$</m> gives the directed distance <m>$AQ =
+        r_2$</m> to the point <m>$Q$</m> as <m>$r_2 = -2(g_2\cos\theta + f_2\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Let <m>$M(x_0, y_0)$</m> be the moving midpoint of the line segment <m>$PQ$</m>. The distance
+        <m>$r$</m> from the origin <m>$A(0, 0)$</m> to the midpoint <m>$M$</m> along the same angular
+        direction <m>$\theta$</m> is the average of the two distances <d:sbr/> <m>$r = \frac{r_1 + r_2}{2} =
+        \frac{-2(g_1\cos\theta + f_1\sin\theta) - 2(g_2\cos\theta + f_2\sin\theta)}{2}\implies r = -(g_1 +
+        g_2)\cos\theta - (f_1 + f_2)\sin\theta$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$r$</m> to convert from polar coordinates to Cartesian
+        coordinates gives <m>$r^2 = -(g_1 + g_2)(r\cos\theta) - (f_1 + f_2)(r\sin\theta)$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$r^2 = x_0^2 + y_0^2$, $r\cos\theta = x_0$</m>, and <m>$r\sin\theta = y_0$</m>
+        yields <m>$x_0^2 + y_0^2 = -(g_1 + g_2)x_0 - (f_1 + f_2)y_0$</m>.
+      </d:para>
+      <d:para>
+        Rearranging all the variable terms to one side of the equation and replacing <m>$(x_0, y_0)$</m>
+        with standard Cartesian coordinates <m>$(x, y)$</m> gives the final locus equation <m>$x^2 + y^2 +
+        (g_1 + g_2)x + (f_1 + f_2)y = 0$</m>.
+      </d:para>
+      <d:para>
+        Since this expression matches the standard second-degree form <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>
+        where <m>$c = 0$</m>, the locus of the middle point of <m>$PQ$</m> is a circle passing through the
+        origin <m>$A$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 77 -->
+      <d:para>
+        Let the two given circles be <m>$S_1 \equiv x^2 + y^2 - 2x - 4y + 1 = 0$</m> and <m>$S_2 \equiv x^2
+        + y^2 - 4x - 2y + 4 = 0$</m>.
+      </d:para>
+      <d:para>
+        The equation of any circle passing through the points of intersection of these two circles can be
+        represented using the family of circles equation <m>$S_1 + \lambda(S_1 - S_2) = 0$</m>, or more
+        simply as <m>$S_1 + \lambda S_2 = 0$</m> where <m>$\lambda \neq -1$</m>. Substituting the
+        expressions for <m>$S_1$</m> and <m>$S_2$</m> yields <m>$(x^2 + y^2 - 2x - 4y + 1) + \lambda(x^2 +
+        y^2 - 4x - 2y + 4) = 0$</m>.
+      </d:para>
+      <d:para>
+        Grouping the terms by variable powers gives <m>$(1 + \lambda)x^2 + (1 + \lambda)y^2 - (2 +
+        4\lambda)x - (4 + 2\lambda)y + (1 + 4\lambda) = 0$</m>.
+      </d:para>
+      <d:para>
+        Dividing the entire equation by <m>$(1 + \lambda)$</m> puts it into standard form <m>$x^2 + y^2 -
+        \frac{2 + 4\lambda}{1 + \lambda}x - \frac{4 + 2\lambda}{1 + \lambda}y + \frac{1 + 4\lambda}{1 +
+        \lambda} = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing this with the general circle equation <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, the center
+        <m>$C(-g, -f)$</m> of this variable circle has the coordinates <m>$C\left(\frac{1 + 2\lambda}{1 +
+        \lambda}, \frac{2 + \lambda}{1 + \lambda}\right)$</m>.
+      </d:para>
+      <d:para>
+        We are given that the center of the required circle lies on the straight line <m>$x + 2y - 3 =
+        0$</m>. Substituting the coordinates of the center <m>$C$</m> into this linear line equation gives
+        <m>$\left(\frac{1 + 2\lambda}{1 + \lambda}\right) + 2\left(\frac{2 + \lambda}{1 + \lambda}\right) -
+        3 = 0$</m>.
+      </d:para>
+      <d:para>
+        To clear the common denominator, we multiply the entire relation by <m>$(1 + \lambda)$</m> to get
+        <m>$(1 + 2\lambda) + 2(2 + \lambda) - 3(1 + \lambda) = 0\implies 1 + 2\lambda + 4 + 2\lambda - 3 -
+        3\lambda = 0\implies \lambda + 2 = 0 \implies \lambda = -2$</m>.
+      </d:para>
+      <d:para>
+        Substituting <m>$\lambda = -2$</m> back into our expanded family of circles equation yields <m>$(1 -
+        2)x^2 + (1 - 2)y^2 - (2 - 8)x - (4 - 4)y + (1 - 8) = 0\implies -x^2 - y^2 + 6x - 0y - 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        Multiplying the entire equation by <m>$-1$</m> gives the final standard Cartesian form <m>$x^2 + y^2
+        - 6x + 7 = 0$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation of the required circle is <m>$x^2 + y^2 - 6x + 7 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 78 -->
+      <d:para>
+        Let the given inner circle be <m>$S_1 \equiv x^2 + y^2 = a^2$</m>. Since the circle <m>$C$</m> is
+        concentric with <m>$S_1$</m>, its center is also at the origin <m>$O(0, 0)$</m>. Let its equation be
+        <m>$C \equiv x^2 + y^2 = R^2$</m>, where <m>$R$</m> is the unknown radius we want to find.
+      </d:para>
+      <d:para>
+        A tangent drawn to the inner circle <m>$S_1$</m> intersects the concentric circle <m>$C$</m> at two
+        points <m>$P$</m> and <m>$Q$</m>. The line segment <m>$PQ$</m> is therefore a tangent to
+        <m>$S_1$</m> and a chord of <m>$C$</m>. Let the tangents to the circle <m>$C$</m> at the points
+        <m>$P$</m> and <m>$Q$</m> meet at an external point <m>$T(x_1, y_1)$</m>.
+      </d:para>
+      <d:para>
+        By definition, the line connecting the points of contact <m>$P$</m> and <m>$Q$</m> is the chord of
+        contact of the point <m>$T$</m> with respect to the circle <m>$C$</m>. The standard equation of the
+        chord of contact from a point <m>$T(x_1, y_1)$</m> to the circle <m>$x^2 + y^2 = R^2$</m> is given
+        by <m>$xx_1 + yy_1 = R^2$</m>.
+      </d:para>
+      <d:para>
+        We are given that this line segment <m>$PQ$</m> is also a tangent to the innermost circle <m>$x^2 +
+        y^2 = a^2$</m>. For any straight line <m>$Ax + By + C = 0$</m> to be tangent to a circle centered at
+        the origin with radius <m>$a$</m>, the perpendicular distance from the origin to the line must equal
+        the radius <m>$a$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the equation of the chord of contact to standard form gives <m>$x_1x + y_1y - R^2 =
+        0$</m>. The perpendicular distance from the origin <m>$O(0, 0)$</m> to this line is
+        <m>$\text{Distance} = \frac{|x_1(0) + y_1(0) - R^2|}{\sqrt{x_1^2 + y_1^2}} = \frac{R^2}{\sqrt{x_1^2
+        + y_1^2}}$</m>.
+      </d:para>
+      <d:para>
+        Equating this distance to the radius <m>$a$</m> of the inner circle yields
+        <m>$\frac{R^2}{\sqrt{x_1^2 + y_1^2}} = a \implies R^4 = a^2(x_1^2 + y_1^2)$</m>.
+      </d:para>
+      <d:para>
+        We are given that the point of intersection of the tangents <m>$T(x_1, y_1)$</m> lies on the outer
+        circle <m>$x^2 + y^2 = b^2$</m>. Therefore, its coordinates satisfy the equation <m>$x_1^2 + y_1^2 =
+        b^2$</m>. Substituting this value into our relation gives <m>$R^4 = a^2b^2 \implies R^2 = ab$</m>.
+      </d:para>
+      <d:para>
+        Substituting the value of <m>$R^2 = ab$</m> back into the assumed equation of the concentric circle
+        <m>$C$</m> gives its final standard equation <m>$x^2 + y^2 = ab$</m>.
+      </d:para>
+      <d:para>
+        Therefore, the equation to the circle <m>$C$</m> is <m>$x^2 + y^2 = ab$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      <d:para>
+        Let the center of the required circle be <m>$C(h, k)$</m> and its radius be <m>$r$</m>. Since the
+        circle touches the two lines <m>$L_1 \equiv x - 2y + 4 = 0$</m> and <m>$L_2 \equiv 2x - y - 8 =
+        0$</m>, the perpendicular distances from the center <m>$C(h, k)$</m> to both lines must be equal to
+        the radius <m>$r$</m> i.e. <m>$r = \frac{|h - 2k + 4|}{\sqrt{1^2 + (-2)^2}} = \frac{|h - 2k +
+        4|}{\sqrt{5}}$</m> and <m>$r = \frac{|2h - k - 8|}{\sqrt{2^2 + (-1)^2}} = \frac{|2h - k -
+        8|}{\sqrt{5}}$</m>.
+      </d:para>
+      <d:para>
+        Equating these two distances gives <m>$|h - 2k + 4| = |2h - k - 8|$</m>, which yields two possible
+        linear relationships representing the angular bisectors<d:sbr/>
+        <d:emphasis role="bold">Case I:</d:emphasis> <m>$h - 2k + 4 = 2h - k - 8 \implies h + k - 12 = 0
+        \implies k = 12 - h$</m><d:sbr/>
+        <d:emphasis role="bold">Case II:</d:emphasis> <m>$h - 2k + 4 = -(2h - k - 8) \implies 3h - 3k - 4 =
+        0 \implies k = h - \frac{4}{3}$</m>
+      </d:para>
+      <d:para>
+        Since the circle passes through the point <m>$(4, -1)$</m>, the squared distance from <m>$C(h,
+        k)$</m> to this point must also equal <m>$r^2$</m>, giving the equation <m>$(h - 4)^2 + (k + 1)^2 =
+        r^2$</m>. We test Case I by substituting <m>$k = 12 - h$</m> and <m>$r^2 = \frac{(h - 2(12 - h) +
+        4)^2}{5} = \frac{(3h - 20)^2}{5}$</m> to get <m>$(h - 4)^2 + (12 - h + 1)^2 = \frac{(3h -
+        20)^2}{5}\implies (h - 4)^2 + (13 - h)^2 = \frac{9h^2 - 120h + 400}{5}$</m>.
+      </d:para>
+      <d:para>
+        Expanding the left side yields <m>$(h^2 - 8h + 16) + (169 - 26h + h^2) = 2h^2 - 34h +
+        185$</m>. Multiplying the entire equation by <m>$5$</m> to eliminate the fraction gives <m>$5(2h^2 -
+        34h + 185) = 9h^2 - 120h + 400\implies 10h^2 - 170h + 925 = 9h^2 - 120h + 400$</m>.
+      </d:para>
+      <d:para>
+        Rearranging all terms to one side produces the quadratic equation yields <m>$h^2 - 50h + 525 = 0
+        \implies (h - 15)(h - 35) = 0$</m>.
+      </d:para>
+      <d:para>
+        This yields two valid real solutions for the center's coordinates: If <m>$h = 15$</m>, then <m>$k =
+        12 - 15 = -3$</m>, and <m>$r^2 = \frac{(3(15) - 20)^2}{5} = \frac{25^2}{5} = 125$</m>. The equation
+        of this circle is <m>$(x - 15)^2 + (y + 3)^2 = 125 \implies x^2 + y^2 - 30x + 6y + 109 = 0$</m>.
+      </d:para>
+      <d:para>
+        If <m>$h = 35$</m>, then <m>$k = 12 - 35 = -23$, and $r^2 = \frac{(3(35) - 20)^2}{5} =
+        \frac{85^2}{5} = 1445$</m>. The equation of this circle is <m>$(x - 35)^2 + (y + 23)^2 = 1445
+        \implies x^2 + y^2 - 70x + 46y + 309 = 0$</m>.
+      </d:para>
+      <d:para>
+        Testing Case II (<m>$k = h - \frac{4}{3}$</m>) results in imaginary roots for <m>$h$</m>, meaning no
+        real circles can be formed along that bisector line.
+      </d:para>
+      <d:para>
+        Therefore, the equations of the two possible circles are <m>$x^2 + y^2 - 30x + 6y + 109 = 0$</m> and
+        <m>$x^2 + y^2 - 70x + 46y + 309 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 80 -->
+      <d:para>
+        Since the required circle lies in the third quadrant and touches both coordinate axes, its center
+        must be of the form <m>$C(-r, -r)$</m> where <m>$r > 0$</m> represents the radius of the circle. The
+        standard equation of such a circle is given by <m>$(x + r)^2 + (y + r)^2 = r^2$</m>.
+      </d:para>
+      <d:para>
+        We are given that the straight line <m>$3x - 4y + 12 = 0$</m> is a tangent to this
+        circle. Therefore, the perpendicular distance from the center <m>$C(-r, -r)$</m> to the line must be
+        exactly equal to the radius <m>$r$</m>.
+      </d:para>
+      <d:para>
+        Using the perpendicular distance formula from a point to a line, we get <m>$\frac{|3(-r) - 4(-r) +
+        12|}{\sqrt{3^2 + (-4)^2}} = r$</m>. Simplifying the expression inside the absolute value and the
+        denominator yields <m>$\frac{|-3r + 4r + 12|}{\sqrt{9 + 16}} = r$</m>, which reduces directly to
+        <m>$\frac{|r + 12|}{5} = r$</m>.
+      </d:para>
+      <d:para>
+        Multiplying both sides by <m>$5$</m> gives the absolute value equation <m>$|r + 12| = 5r$</m>. This
+        can be split into two possible algebraic cases based on the definition of absolute value.
+      </d:para>
+      <d:para>
+        In the first case, we have <m>$r + 12 = 5r$</m>, which simplifies by subtracting <m>$r$</m> from
+        both sides to <m>$4r = 12$</m>, yielding a positive radius of <m>$r = 3$</m>.
+      </d:para>
+      <d:para>
+        In the second case, we have <m>$r + 12 = -5r$</m>, which simplifies by adding <m>$5r$</m> to both
+        sides to <m>$6r = -12$</m>, yielding a negative radius of <m>$r = -2$</m>. Since the radius must be
+        a strictly positive quantity (<m>$r > 0$</m>), this solution is discarded.
+      </d:para>
+      <d:para>
+        Using the valid radius value <m>$r = 3$</m>, the center of the circle is <m>$C(-3,
+        -3)$</m>. Substituting <m>$r = 3$</m> back into the standard equation of the circle gives <m>$(x +
+        3)^2 + (y + 3)^2 = 3^2$</m>.
+      </d:para>
+      <d:para>
+        Expanding the squared binomial terms results in <m>$x^2 + 6x + 9 + y^2 + 6y + 9 = 9$</m>. Cancelling
+        out the common constant term <m>$9$</m> from both sides gives the final standard Cartesian equation
+        <m>$x^2 + y^2 + 6x + 6y + 9 = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 81 -->
+      <d:para>
+        Let the given circle be <m>$S \equiv x^2 + y^2 + 2gx + 2fy + c = 0$</m>, which has its center at the
+        point <m>$C(-g, -f)$</m>. Tangents <m>$AP$</m> and <m>$AQ$</m> are drawn from the external point
+        <m>$A(2, 1)$</m> to touch the circle at the points of contact <m>$P$</m> and <m>$Q$</m>.
+      </d:para>
+      <d:para>
+        By properties of tangents to a circle, the radius <m>$CP$</m> is perpendicular to the tangent line
+        <m>$AP$</m>, making <m>$\angle APC = 90^\circ$</m>. Similarly, the radius <m>$CQ$</m> is
+        perpendicular to the tangent line <m>$AQ$</m>, making <m>$\angle AQC = 90^\circ$</m>.
+      </d:para>
+      <d:para>
+        Consider the quadrilateral <m>$APCQ$</m>. Since the sum of the opposite angles satisfies <m>$\angle
+        APC + \angle AQC = 90^\circ + 90^\circ = 180^\circ$</m>, the quadrilateral is cyclic. This implies
+        that the unique circumcircle passing through the vertices of <m>$\triangle APQ$</m> must also pass
+        through the center of the given circle, <m>$C(-g, -f)$</m>.
+      </d:para>
+      <d:para>
+        Furthermore, since <m>$\angle APC = 90^\circ$</m>, the line segment connecting the external point
+        <m>$A(2, 1)$</m> and the center <m>$C(-g, -f)$</m> subtends a right angle at vertex
+        <m>$P$</m>. Therefore, the line segment <m>$AC$</m> acts exactly as the diameter of this
+        circumcircle.
+      </d:para>
+      <d:para>
+        Using the standard diameter form equation of a circle with endpoints <m>$(x_1, y_1)$</m> and
+        <m>$(x_2, y_2)$</m>, given by <m>$(x - x_1)(x - x_2) + (y - y_1)(y - y_2) = 0$</m>, we substitute
+        the coordinates of the endpoints <m>$A(2, 1)$</m> and <m>$C(-g, -f)$</m>: <m>$(x - 2)(x - (-g)) + (y
+        - 1)(y - (-f)) = 0\implies (x - 2)(x + g) + (y - 1)(y + f) = 0$</m>.
+      </d:para>
+      <d:para>
+        Expanding each product gives <m>$(x^2 + gx - 2x - 2g) + (y^2 + fy - y - 1f) = 0$</m>.
+      </d:para>
+      <d:para>
+        Rearranging the terms into standard form yields the final Cartesian equation <m>$x^2 + y^2 + (g -
+        2)x + (f - 1)y - 2g - f = 0$</m>.
+      </d:para>
+      <d:para>
+        Thus, the equation of the circumcircle of <m>$\triangle APQ$</m> is <m>$x^2 + y^2 + (g - 2)x + (f -
+        1)y - 2g - f = 0$</m>.
+      </d:para>
+    </d:listitem>
+    <d:listitem>
+      <!-- 82 -->
+      <d:para>
+        Let the center of the variable circle be <m>$C(h, k)$</m> and its radius be <m>$r$</m>.
+      </d:para>
+      <d:para>
+        Since the circle touches the straight line <m>$lx + my + n = 0$</m>, its radius <m>$r$</m> must
+        equal the perpendicular distance from the center <m>$C(h, k)$</m> to the line i.e. <m>$r = \frac{|lh
+        + mk + n|}{\sqrt{l^2 + m^2}}$</m>.
+      </d:para>
+      <d:para>
+        Squaring both sides gives the expression for the radius squared to get <m>$r^2 = \frac{(lh + mk +
+        n)^2}{l^2 + m^2}$</m>.
+      </d:para>
+      <d:para>
+        The general equation of this variable circle with center <m>$C(h, k)$</m> and radius <m>$r$</m> is
+        <m>$(x - h)^2 + (y - k)^2 = r^2 \implies x^2 + y^2 - 2hx - 2ky + (h^2 + k^2 - r^2) = 0$</m>.
+      </d:para>
+      <d:para>
+        Comparing this with the general form <m>$x^2 + y^2 + 2gx + 2fy + c = 0$</m>, we identify <m>$g =
+        -h$</m>, <m>$f = -k$</m>, and <m>$c = h^2 + k^2 - r^2$</m>.
+      </d:para>
+      <d:para>
+        The second given circle is <m>$x^2 + y^2 = 9$</m>, which can be rewritten as <m>$x^2 + y^2 - 9 =
+        0$</m>. For this circle, the corresponding parameters are <m>$g' = 0$</m>, <m>$f' = 0$</m>, and
+        <m>$c' = -9$</m>.
+      </d:para>
+      <d:para>
+        Since the two circles cut each other orthogonally, they satisfy the orthogonality condition <m>$2gg'
+        + 2ff' = c + c'\implies 2(-h)(0) + 2(-k)(0) = (h^2 + k^2 - r^2) + (-9)\implies 0 = h^2 + k^2 - r^2 -
+        9 \implies r^2 = h^2 + k^2 - 9$</m>.
+      </d:para>
+      <d:para>
+        Equating the two expressions obtained for <m>$r^2$</m> gives <m>$h^2 + k^2 - 9 = \frac{(lh + mk +
+        n)^2}{l^2 + m^2}$</m>.
+      </d:para>
+      <d:para>
+        Multiplying across by <m>$(l^2 + m^2)$</m> to clear the denominator yields <m>$(l^2 + m^2)(h^2 + k^2
+        - 9) = (lh + mk + n)^2$</m>.
+      </d:para>
+      <d:para>
+        Replacing the moving center coordinates <m>$(h, k)$</m> with the general Cartesian coordinates
+        <m>$(x, y)$</m> gives the locus equation as <m>$(l^2 + m^2)(x^2 + y^2 - 9) = (lx + my + n)^2$</m>.
+      </d:para>
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>

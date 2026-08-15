@@ -176,5 +176,310 @@
       respectively, and <m>$AD$</m> meets <m>$OP$</m> at <m>$Q$</m>. Prove that <m>$CQ$</m> passes through
       <m>$(2, 0)$</m> for any position of <m>$P$</m> in the plane.
     </d:listitem>
+    <d:listitem>
+      <!-- 30 -->
+      Through the origin <m>$O$</m>, a straight line is drawn to cut the lines <m>$y = m_1x + c_1$</m> and
+      <m>$y = m_2x + c_2$</m> at <m>$Q$</m> and <m>$R$</m> respectively. Find the locus of the point
+      <m>$P$</m> in this variable line, such that <m>$OP$</m> is the geometric mean between <m>$OQ$</m> and
+      <m>$OR$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 31 -->
+      The sides of a quadrilateral taken in order, are <m>$x\cos\alpha + y\sin\alpha = p, x\cos\beta +
+      y\sin\beta = p_1$</m> and the perpendiculars from the origin to them. Find the area of the
+      quadrilateral.
+    </d:listitem>
+    <d:listitem>
+      <!-- 32 -->
+      The line joining <m>$A(b\cos\alpha, b\sin\alpha)$</m> and <m>$B(a\cos\beta, a\sin\beta)$</m> is
+      produced to the point <m>$M(x, y)$</m> so that <m>$AM$</m> and <m>$BM$</m> are in the ratio <m>$b :
+      a$</m>, prove that <m>$x + y\tan\frac{\alpha + \beta}{2} = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 33 -->
+      The equations of the sides <m>$AB$</m> and <m>$AC$</m> of a triangle <m>$ABC$</m> are <m>$3x + 4y + 9
+      = 0$</m> and <m>$4x - 3y + 16 = 0$</m> respectively. The third side passes through the point <m>$D(5,
+      2)$</m> such that <m>$BD: DC = 4 : 5$</m>. Find the equation of the third side.
+    </d:listitem>
+    <d:listitem>
+      <!-- 34 -->
+      Two sides of a rhombus lying in the first quadrant is given by <m>$3x - 4y = 0$</m> and <m>$12x - 5y =
+      0$</m>. If the length of the longer diagonal is <m>$12$</m>, find the equation of the other two sides
+      of the rhombus.
+    </d:listitem>
+    <d:listitem>
+      <!-- 35 -->
+      Let <m>$AB$</m> be a line segment of length <m>$4$</m> with <m>$A$</m> on the line <m>$y = 2x$</m> and
+      <m>$B$</m> on the line <m>$y = x$</m>. Determine the locus of the mid-points of all such line
+      segments.
+    </d:listitem>
+    <d:listitem>
+      <!-- 36 -->
+      Determine the range of values of <m>$\theta(0\leq\theta\leq 2\pi)$</m> for which the point
+      <m>$(\cos\theta, \sin\theta)$</m> lies inside the triangle formed by the lines <m>$x + y - 2 = 0, x -
+      y - 1 = 0$</m>, and <m>$6x + 2y - \sqrt{10} = 0$</m>
+    </d:listitem>
+    <d:listitem>
+      <!-- 37 -->
+      <m>$A$</m> and <m>$B$</m> are two fixed points on the axes of coordinates such that <m>$OA = a, OB =
+      b$</m> while <m>$A'$</m> and <m>$B'$</m> are two variable points on the same axes such that <m>$OA' +
+      OB' = OA + OB$</m>. Find the locus of the point of intersection of <m>$AB'$</m> and <m>$A'B$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 38 -->
+      In a <m>$\triangle ABC$</m> the equation of the perpendiculars bisector of <m>$AC$</m> is <m>$3x - 2y
+      + 8 = 0$</m>. If the coordinates of the point <m>$A$</m> and <m>$B$</m> are <m>$(1, -1)$</m> and
+      <m>$(3, 1)$</m> respectively, find the equation of the line <m>$BC$</m> and the center of the
+      circumcircle of the triangle <m>$ABC$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 39 -->
+      A straight line is such that its segment between lines <m>$5x - y - 4 = 0$</m> and <m>$3x + 4y - 4 =
+      0$</m> is bisected at the point <m>$(1, 5)$</m>. Find its equation.
+    </d:listitem>
+    <d:listitem>
+      <!-- 40 -->
+      One diagonal of a square is the position is the portion of the line <m>$7x + 5y = 35$</m> intercepted
+      by the axes. Obtain the extremities of the other diagonal.
+    </d:listitem>
+    <d:listitem>
+      <!-- 41 -->
+      A variable line <m>$L$</m> passing through the point <m>$B(2, 5)$</m> intersects the lines <m>$2x^2 -
+      5xy + 2y^2 = 0$</m> at <m>$P$</m> and <m>$Q$</m>. Find the locus of the point <m>$R$</m> on <m>$L$</m>
+      such that distances <m>$BP, BR$</m> and <m>$BQ$</m> are in harmonic progression.
+    </d:listitem>
+    <d:listitem>
+      <!-- 42 -->
+      Consider a curve <m>$ax^2 + 2hxy + by^2 = 1$</m> and a point <m>$P$</m> not on the curve. A line drawn
+      from the point <m>$P$</m> intersects the curve at points <m>$Q$</m> and <m>$R$</m>. If the product
+      <m>$PQ\cdot PR$</m> is independent of the slope of the line, then show that the curve is a circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 43 -->
+      For what values of <m>$a$</m> do the lines <m>$x + y = 2, 2x - 3y = 7$</m> and <m>$3x + 2y = a$</m>
+      concur?
+    </d:listitem>
+    <d:listitem>
+      <!-- 44 -->
+      A vertex of an equilateral triangle is <m>$(2, 3)$</m> and the equation of the opposite side is <m>$x
+      + y = 2$</m>. Find the equation of one of the other sides.
+    </d:listitem>
+    <d:listitem>
+      <!-- 45 -->
+      Let <m>$O(0, 0), A(2, 0)$</m> and <m>$B\left(1, \frac{1}{\sqrt{3}}\right)$</m> be the vertices of a
+      triangle. Let <m>$R$</m> be the region consisted of all those points <m>$P$</m> inside <m>$\triangle
+      OAB$</m> which satisfy <m>$d(P, OA)\leq \min\{d(P, OB), d(P, AB)\}$</m>, whehre <m>$d$</m> denotes the
+      distance from the point of the corresponding line. Find the area of <m>$R$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 46 -->
+      Show that the pair of straight lines which join the origin to the point of intersection of the two
+      curves <m>$a_1x^2 + 2h_1xy + b_1y^2 + 2g_1x = 0$</m> and <m>$a_2x^2 + 2h_2xy + b_2y^2 + 2g_2x = 0$</m>
+      will be at right angles to one another if <m>$g_1(a_2 + b_2) = g_2(a_1 + b_1)$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 47 -->
+      The equation <m>$12x^2 + 7xy - py^2 - 18x + qy + 6 = 0$</m> represents a pair of mutually
+      perpendicular straight lines. Determine the value of <m>$p$</m> and <m>$q$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 48 -->
+      A family of circles passing through the points <m>$(3, 7)$</m> and <m>$(6, 5)$</m> cut the circle
+      <m>$x^2 + y^2 - 4x - 6y - 3 = 0$</m>. Show that the lines joining the intersection points pass through
+      a fixed point and find the coordinates of that point.
+    </d:listitem>
+    <d:listitem>
+      <!-- 49 -->
+      Tangents <m>$PQ$</m>, and <m>$PR$</m> are drawn to the circle <m>$x^2 + y^2 = a^2$</m> from the given
+      point <m>$P(x_1, y_1)$</m>. Find the equation of the circumcicle of the <m>$\triangle PQR$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 50 -->
+      Show that the equation of the straight line meeting the circle <m>$x^2 + y^2 = a^2$</m> in two points
+      at equal distance <m>$d$</m> from <m>$(x-1, y_1)$</m> on the curve is <m>$xx_1 + yy_1 - a^2 +
+      \frac{d^2}{2} = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 51 -->
+      Show that the four points of intersection of the lines <m>$(2x - y + 1)(x - 2y + 3) = 0$</m> with the
+      axes lie on a circle. Find its center.
+    </d:listitem>
+    <d:listitem>
+      <!-- 52 -->
+      Tangents are drawn to the circle <m>$x^2 + y^2 = 12$</m> at the points where it is met by the circle
+      <m>$x^2 + y^2 - 5x + 3y - 2 = 0$</m>; find the point of intersection of these tangents.
+    </d:listitem>
+    <d:listitem>
+      <!-- 53 -->
+      Find the equation of the circle in which the line joining the points <m>$(a, b)$</m> and <m>$(b,
+      -a)$</m> is a chord subtending an angle of <m>$45^\circ$</m> at any point on the major arc of the
+      circumference.
+    </d:listitem>
+    <d:listitem>
+      <!-- 54 -->
+      Find the coordinates of the point where the straight line <m>$x + y = 5$</m> intersects the circle
+      <m>$x^2 + y^2 - 4x + 2y - 11 = 0$</m>. Find also the length of the chord intercepted.
+    </d:listitem>
+    <d:listitem>
+      <!-- 55 -->
+      Find the coordinates of the points of intersection of the circles <m>$x^2 + y^2 - 8x - 2y + 12 =
+      0$</m> and <m>$x^2 + y^2 - 5x - y - 6 = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 56 -->
+      A point moves so that the sum of the squares of the perpendiculars let fall from it on the sides of an
+      equilateral triangle is constant. Prove that its locus is a circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 57 -->
+      Find the area of the quadrilateral formed by the tangents from the point <m>$(4, 5)$</m> to the circle
+      <m>$x^2 + y^2 - 4x - 2y - 11 = 0$</m> with a pair of radii joining the points of contact of these
+      tangents.
+    </d:listitem>
+    <d:listitem>
+      <!-- 58 -->
+      Two circles are drawn through the points <m>$(a, 5a)$</m> and <m>$(4a, a)$</m> to touch the axis of
+      <m>$y$</m>. Prove that they intersect at an angle <m>$\tan^{-1}\frac{40}{9}$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 59 -->
+      Let <m>$S_1 = x^2 + y^2 + 2g_1x + 2f_1y + c_1 = 0$</m> and <m>$S_2 = x^2 + y^2 + 2g_2x + 2f_2y + c_2 =
+      0$</m> be two circles with radii <m>$r_1$</m> and <m>$r_2$</m> respectively, then prove that the
+      points at which the circles subtend equal angles are on the circles <m>$\frac{S_1}{r_1^2} =
+      \frac{S_2}{r_2^2}$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 60 -->
+      Find the equation of the pair of tangents from the origin to the circle <m>$x^2 + y^2 + 2gx +
+      \lambda^2 = 0$</m> and show that their intercept on the line <m>$y = k$</m> is <m>$\frac{2\lambda
+      k}{\lambda^2 - g^2}$</m> times the radius of the circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 61 -->
+      Circles are drawn with their centers on the axis of <m>$x$</m> and touching the straight line <m>$y =
+      x\tan\alpha$</m>. Show that the points of contact of of the tangents from a fixed point <m>$(h,
+      k)$</m> will lie on the curve given by <m>$(x - h)^2\left(y^2 - x^2\sin^2\alpha\right) - 2xy(x - h)(y
+      - k)\sin^2\alpha + y^2(y - k)^2\cos^2\alpha = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 62 -->
+      Find the equation of a circle circumscribing the triangle whose sides are <m>$x = 0, y = 0$</m> and
+      <m>$lx + my = 1$</m>. If <m>$l, m$</m> can vary so that <m>$l^2 + m^2 = 4l^2m^2$</m>, find the locus
+      of the center of the circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 63 -->
+      <m>$2x - y + 4 = 0$</m> is a diameter of a circle which circumscribes a rectangle <m>$ABCD$</m>. If
+      the coordinates of <m>$A, B$</m> are <m>$(4, 6)$</m> and <m>$(1, 9)$</m> respectively, find the area
+      of this rectangle <m>$ABCD$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 64 -->
+      Find the equation to the circles which pass through the origin and cut off equal chords <m>$a$</m>
+      from the straight lines <m>$y = x$</m> and <m>$y = -x$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 65 -->
+      Prove that the circles <m>$x^2 + y^2 = a^2$</m> and <m>$(x - 2a)^2 + y^2 = a^2$</m> are equal and
+      touch each other. Also find find the equation of a circle or circles of equal radius touching both the
+      circles.
+    </d:listitem>
+    <d:listitem>
+      <!-- 66 -->
+      Find the equation of the system of coaxial circles that are tangent at <m>$\left(\sqrt{2},
+      4\right)$</m> to the locus of the point of intersection of two mutually perpendiculars tangents to the
+      circle <m>$x^2 + y^2 = 9$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 67 -->
+      Find the equation of the circle which touches the circle <m>$x^2 + y^2 - 6x + 6y + 17 = 0$</m>
+      externally and to which the lines <m>$x^2 - 3xy - 3x + 9y = 0$</m> are normal.
+    </d:listitem>
+    <d:listitem>
+      <!-- 68 -->
+      Find the locus of the middle point of the chord of the circle <m>$x^2 + y^2 - 2x - 2y - 2 = 0$</m>
+      which makes an angle of <m>$120^\circ$</m> at the center.
+    </d:listitem>
+    <d:listitem>
+      <!-- 69 -->
+      Determine the equation of the circle whose diameter is the chord <m>$x + y = 1$</m> of the circle
+      <m>$x^2 + y^2 = 4$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 70 -->
+      Through a fixed point <m>$(h, k)$</m> secants are drawn to the circle <m>$x^2 + y^2 = a^2$</m>. Show
+      that the locus of the mid-points of the secants intersecpted by the given circle is <m>$x^2 + y^2 = hx
+      + ky$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 71 -->
+      Find the equation of the circle passing through the points <m>$A(4, 3)$</m> and <m>$B(2, 5)$</m> and
+      touching the axis of <m>$y$</m>. Also, find the point <m>$P$</m> on the <m>$y$</m>-axis such that the
+      angle <m>$APB$</m> has largest magnitude.
+    </d:listitem>
+    <d:listitem>
+      <!-- 72 -->
+      Prove that the points of intersection of the circles <m>$x^2 + y^2 - 2cy - a^2 = 0$</m> and <m>$x^2 +
+      y^2 - 2bx + a^2 = 0$</m> and their centers as well as the origin are concyclic.
+    </d:listitem>
+    <d:listitem>
+      <!-- 73 -->
+      Let <m>$A(0, 1)$</m> and <m>$B\left(-\frac{p}{2}, \frac{q + 1}{2}\right)$</m> be two fixed points in a
+      plane. Let <m>$C$</m> denote a circle with the cennter <m>$B$</m> and passing through
+      <m>$A$</m>. Prove that the real roots of the equation <m>$x^2 + px + q = 0$</m> are given by the
+      abscissae of the points of intersection of the circle <m>$C$</m> with the <m>$x$</m>-axis.
+    </d:listitem>
+    <d:listitem>
+      <!-- 74 -->
+      Two circles have the equations <m>$x^2 + y^2 + \lambda x + c = 0$</m> and <m>$x^2 + y^2 + \mu x + c =
+      0$</m>. Prove that one of the circles will lie be within the other if <m>$\lambda\mu > 0$</m> and
+      <m>$c > 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 75 -->
+      Show that the circles <m>$x^2 + y^2 + 2x - 8y + 8 = 0$</m> and <m>$x^2 + y^2 + 10x - 2y + 22 = 0$</m>
+      touch each other. Also obtain the equations of the two circles, each of radius <m>$1$</m>, cutting
+      both these circles orthogonally.
+    </d:listitem>
+    <d:listitem>
+      <!-- 76 -->
+      <m>$A$</m> is one of the points of intersection of two given intersecting circles. Any line is drawn
+      through <m>$A$</m> to cut the circles again at <m>$P$</m> and <m>$Q$</m>. Prove that the locus of the
+      middle point of <m>$PQ$</m> is a circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 77 -->
+      Find the equation of the circle having its center on the line <m>$x + 2y - 3 = 0$</m> and passing
+      through the points of intersection of the circles <m>$x^2 + y^2 - 2x - 4y + 1 = 0$</m> and <m>$x^2 +
+      y^2 - 4x - 2y + 4 = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 78 -->
+      A tangent at a point on the circle <m>$x^2 + y^2 = a^2$</m> intersects a concentric circle <m>$C$</m>
+      at two points <m>$P$</m> and <m>$Q$</m>. The tangents to the circle <m>$C$</m> at <m>$P$</m> and
+      <m>$Q$</m> meet at a point on the circle <m>$x^2 + y^2 = b^2$</m>. Find the equation to the circle
+      <m>$C$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 79 -->
+      Find the equation of the circle passing through the point <m>$(4, -1)$</m> and touching two given
+      lines <m>$x - 2y + 4 = 0$</m> and <m>$2x - y = 8$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 80 -->
+      Find the equation of the circle in the third quadrant which touches the two coordinate axes and the
+      line <m>$3x - 4y + 12 = 0$</m> is tangent to it.
+    </d:listitem>
+    <d:listitem>
+      <!-- 81 -->
+      A point <m>$(2, 1)$</m> is outside the circle <m>$x^2 + y^2 + 2gx + 2fy + c = 0 $</m> and <m>$AP$</m>
+      and <m>$AQ$</m> are tangents to the circle. Find the equation of the circumcircle of the triangle
+      <m>$APQ$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 82 -->
+      A circle touches a straight line <m>$lx + my + n = 0$</m> and cuts the circle <m>$x^2 + y^2 = 9$</m>
+      orthogonally. Find the locus of centers of such circles.
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>
