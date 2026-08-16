@@ -481,5 +481,125 @@
       A circle touches a straight line <m>$lx + my + n = 0$</m> and cuts the circle <m>$x^2 + y^2 = 9$</m>
       orthogonally. Find the locus of centers of such circles.
     </d:listitem>
+    <d:listitem>
+      <!-- 83 -->
+      <m>$C$</m> is the center of <m>$x^2 + y^2 = a^2$</m> and coordinate of <m>$P$</m> is <m>$(x_1,
+      y_1)$</m>. Find the equation of the line perpendicular to <m>$PC$</m> at <m>$A$</m>, which divides the
+      segment <m>$PC$</m> in the ratio <m>$\left(x_1^2 + y_1^2 - a^2\right): a^2$</m> and show that it is
+      the polar of <m>$P$</m> w.r.t. <m>$x^2 + y^2 = a^2$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 84 -->
+      Find the locus of poles whose polar w.r.t. <m>$x^2 + y^2 = a^2$</m> always passes through <m>$(k,
+      0)$</m>, where <m>$k$</m> is a fixed real number.
+    </d:listitem>
+    <d:listitem>
+      <!-- 85 -->
+      If <m>$al^2 - bm^2 + 2dl + 1 = 0$</m>, where <m>$a, b, d$</m> are fixed real numbers such that <m>$a +
+      b = d^2$</m>, then prove that <m>$lx + my + 1 = 0$</m> touches a fixed circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 86 -->
+      The center of circles <m>$S = 0$</m> lies on the line <m>$2x - 2y + 9 = 0$</m> and <m>$S = 0$</m> cuts
+      the circle <m>$x^2 + y^2 = 4$</m> orthogonally. Show that the circle <m>$S = 0$</m> passes through two
+      fixed points.
+    </d:listitem>
+    <d:listitem>
+      <!-- 87 -->
+      Find the equation of the circle whose center is <m>$(1, 2)$</m> and for which the tangent from the
+      origin is of length <m>$2$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 88 -->
+      Obtain the equation of straight lines passing through the point <m>$A(2, 0)$</m> and making an angle
+      of <m>$45^\circ$</m> with the tangent at <m>$A$</m> to the circle <m>$(x + 2)^2 + (y + 3)^2 =
+      25$</m>. Find the equation of the circle each of radius <m>$3$</m>, whose centers are on these
+      straight lines each at a distancce of <m>$5\sqrt{2}$</m> units from <m>$A$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 89 -->
+      A variable circle passes through the fixed point <m>$A(p, q)$</m> and touches the
+      <m>$x$</m>-axis. Show that the locus of the other end of the diameter through <m>$A$</m> is <m>$(x -
+      p)^2 = 4qy$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 90 -->
+      Find the equation of the circumcircle of the triangle formed by the lines <m>$x\cos\alpha_i +
+      y\sin\alpha_i = p_i$</m> where <m>$i = 1, 2, 3$</m>. Also show that this circle will pass through
+      origin if <m>$p_2p_3\sin(\alpha_2 - \alpha_3) + p_3p_1\sin(\alpha_3 - \alpha_1) + p_1p_2\sin(\alpha_1
+      - \alpha_2) = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 91 -->
+      A ball moving around the circle <m>$x^2 + y^2 - 2x + 4y - 20 = 0$</m> in anticlockwise direction
+      leaves it tangentially at the point <m>$P(-2, 2)$</m>. After getting reflected from a straight line,
+      it passes through the center of the circle. Find the equation of this straight line if its
+      perpendicular distance from <m>$P$</m> is <m>$\frac{5}{2}$</m>. You can assume that the angle of
+      incidence is equal to the angle of reflection.
+    </d:listitem>
+    <d:listitem>
+      <!-- 92 -->
+      Find the equation of the circle which is concentric with the circle <m>$x^2 + y^2 - 5x + 4y - 1 =
+      0$</m> and touches the straight line <m>$4x - 3y - 6 = 0$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 93 -->
+      A circle touches <m>$x$</m>-axis at <m>$(2, 0)$</m> and has an intercept of <m>$4$</m> units on
+      <m>$y$</m>-axis. Find its equation.
+    </d:listitem>
+    <d:listitem>
+      <!-- 94 -->
+      A tangent drawn from the point <m>$(4, 0)$</m> to the circle <m>$x^2 + y^2 = 8$</m> touches it at a
+      point <m>$A$</m> in the first quadrant. Find the coordinates of another point <m>$B$</m> on the circle
+      such that <m>$AB = 4$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 95 -->
+      Let <m>$C$</m> denote the circle <m>$x^2 + y^2 - 6y + 5 = 0$</m>. Determine the equation of a circle
+      (say <m>$D$</m>) which is concentric with <m>$C$</m> and the angle between the tangents to <m>$D$</m>
+      from every point on the circumference of <m>$C$</m>, is a given constant.
+    </d:listitem>
+    <d:listitem>
+      <!-- 96 -->
+      From a point on the line <m>$4x - 3y = 6$</m> tangents are drawn to the circle <m>$x^2 + y^2 - 6x - 4y
+      + 4 = 0$</m> which makes an angle of <m>$\tan^{-1}\frac{24}{7}$</m> between them. Find the coordinates
+      of all such points and the equation of tangents.
+    </d:listitem>
+    <d:listitem>
+      <!-- 97 -->
+      Prove that the circles <m>$x^2 + y^2 - 2x - 4y - 12 = 0$</m> and <m>$3x^2 + 3y^2 - 2x + 4y - 140 =
+      0$</m> touch each other. Find the coordinates of the point of contact.
+    </d:listitem>
+    <d:listitem>
+      <!-- 98 -->
+      The angle between a pair of tangents drawn from a point <m>$P$</m> to the circle <m>$x^2 + y^2 + 4x -
+      6y + 9\sin^2\alpha + 13\cos^2\alpha = 0$</m> is <m>$2\alpha$</m>. Find the equation of the locus of the
+      point <m>$P$</m>.
+    </d:listitem>
+    <d:listitem>
+      <!-- 99 -->
+      The straight line <m>$x + y - 1 = 0$</m> cuts the circle <m>$x^2 + y^2 - 6x - 8y = 0$</m> at
+      <m>$A$</m> and <m>$B$</m>. Find the equation to the circle of which <m>$AB$</m> is a diameter.
+    </d:listitem>
+    <d:listitem>
+      <!-- 100 -->
+      A tangent drawn at <m>$P(3, 4)$</m> on <m>$x^2 + y^2 - 25 = 0$</m> intersects a variable circle of
+      radius <m>$5$</m> units at <m>$A$</m> and <m>$B$</m> such that <m>$\frac{1}{PA} + \frac{1}{PB} =
+      \frac{2}{5}$</m>. Show that the locus of the centers of the circle is another circle. Find the
+      equation of that circle.
+    </d:listitem>
+    <d:listitem>
+      <!-- 101 -->
+      A system of circles pass through two fixed points <m>$A(2, 4)$</m> and <m>$B(4, 6)$</m>. Prove that
+      the common chords of the members of the system of circles and the circle <m>$x^2 + y^2 - 2x + 4y - 14
+      = 0$</m> pass through a fixed point, find the fixed point.
+    </d:listitem>
+    <d:listitem>
+      <!-- 102 -->
+      A straight line is drawn through the origin and parallel to the tangent to the curve <m>$\frac{x +
+      \sqrt{a^2 - y^2}}{a} = \log_e\left(\frac{a + \sqrt{a^2 - y^2}}{y}\right)$</m> at an arbitrary point
+      <m>$M$</m>. Show that the locus of the points <m>$P$</m> of intersection of this straight line and the
+      straight line parallel to the <m>$x$</m>-axis and passing through the point <m>$M$</m> is a circle.
+    </d:listitem>
   </d:orderedlist>
 </d:chapter>
